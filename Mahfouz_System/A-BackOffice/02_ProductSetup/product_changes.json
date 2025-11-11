@@ -1,6 +1,32 @@
 [
   {
     "id": 12,
+    "field": "stock_in_medawar_branch",
+    "from": "0.0",
+    "to": "10.0",
+    "ts": "2025-11-11T15:30:39.276483",
+    "savedAt": "2025-11-11T15:30:39.276483",
+    "user": "unknown",
+    "branch": "unknown",
+    "device": "localhost",
+    "app": "ProductSetup",
+    "mvt": "stock_in_medawar_branch: 0.0 → 10.0"
+  },
+  {
+    "id": 12,
+    "field": "total_stock",
+    "from": "10.0",
+    "to": "20.0",
+    "ts": "2025-11-11T15:30:39.276483",
+    "savedAt": "2025-11-11T15:30:39.276483",
+    "user": "unknown",
+    "branch": "unknown",
+    "device": "localhost",
+    "app": "ProductSetup",
+    "mvt": "total_stock: 10.0 → 20.0"
+  },
+  {
+    "id": 12,
     "field": "id",
     "from": null,
     "to": "12",
@@ -209,16 +235,16 @@
   },
   {
     "id": 12,
-    "field": "price_lbp",
+    "field": "VAT",
     "from": null,
-    "to": "0",
+    "to": "NO",
     "ts": "2025-11-11T15:27:47.789815",
     "savedAt": "2025-11-11T15:27:47.789815",
     "user": "unknown",
     "branch": "unknown",
     "device": "localhost",
     "app": "ProductSetup",
-    "mvt": "price_lbp:  → 0"
+    "mvt": "VAT:  → NO"
   },
   {
     "id": 12,
@@ -352,19 +378,6 @@
   },
   {
     "id": 12,
-    "field": "VAT",
-    "from": null,
-    "to": "NO",
-    "ts": "2025-11-11T15:27:47.789815",
-    "savedAt": "2025-11-11T15:27:47.789815",
-    "user": "unknown",
-    "branch": "unknown",
-    "device": "localhost",
-    "app": "ProductSetup",
-    "mvt": "VAT:  → NO"
-  },
-  {
-    "id": 12,
     "field": "id",
     "from": null,
     "to": "12",
@@ -375,6 +388,19 @@
     "device": "localhost",
     "app": "ProductSetup",
     "mvt": "id:  → 12"
+  },
+  {
+    "id": 12,
+    "field": "price_lbp",
+    "from": null,
+    "to": "0",
+    "ts": "2025-11-11T15:27:47.789815",
+    "savedAt": "2025-11-11T15:27:47.789815",
+    "user": "unknown",
+    "branch": "unknown",
+    "device": "localhost",
+    "app": "ProductSetup",
+    "mvt": "price_lbp:  → 0"
   },
   {
     "id": 12,
@@ -716,19 +742,6 @@
   },
   {
     "id": 86,
-    "field": "sub_category",
-    "from": "Biscuits",
-    "to": "ALCOHOL",
-    "ts": "2025-10-22T10:35:06.347939",
-    "savedAt": "2025-10-22T10:35:06.347939",
-    "user": "unknown",
-    "branch": "unknown",
-    "device": "localhost",
-    "app": "ProductSetup",
-    "mvt": "sub_category: Biscuits → ALCOHOL"
-  },
-  {
-    "id": 86,
     "field": "price_usd",
     "from": "7.78",
     "to": "5.83",
@@ -752,6 +765,19 @@
     "device": "localhost",
     "app": "ProductSetup",
     "mvt": "price_lbp: 700,000 → 525,000"
+  },
+  {
+    "id": 86,
+    "field": "sub_category",
+    "from": "Biscuits",
+    "to": "ALCOHOL",
+    "ts": "2025-10-22T10:35:06.347939",
+    "savedAt": "2025-10-22T10:35:06.347939",
+    "user": "unknown",
+    "branch": "unknown",
+    "device": "localhost",
+    "app": "ProductSetup",
+    "mvt": "sub_category: Biscuits → ALCOHOL"
   },
   {
     "id": 86,
