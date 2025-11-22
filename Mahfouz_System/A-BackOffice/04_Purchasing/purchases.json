@@ -1150,6 +1150,66 @@
       "vatPercent": 0.11,
       "invoiceDiscountPercent": 0.0,
       "invoiceDiscountAmountLbp": 0.0
+    },
+    {
+      "id": "P1763807182901",
+      "header": {
+        "supplierName": "CIGARETTES",
+        "invoiceDate": "2025-11-22T12:23:54.612257",
+        "maturityDate": "2025-11-22T12:23:54.612257",
+        "invoiceNumber": "12",
+        "branch": "Geitawi",
+        "hasVat": true
+      },
+      "lines": [
+        {
+          "productId": 15135,
+          "barcode": "7622100966449",
+          "description": "TEREA SIENNA",
+          "category": "CIGARETTES",
+          "subCategory": "ELECTRIC CIGARETTES",
+          "unit": "-",
+          "qty": 60.0,
+          "costHtUsd": 2.49,
+          "vat": false,
+          "oldPriceLbp": 250000,
+          "suggestedPriceLbp": 285000,
+          "newPriceLbp": 250000,
+          "discountPercent": 0.0,
+          "discountAmountLbp": 0.0,
+          "expiryDate": null,
+          "stockGeitawiBefore": 57.0,
+          "stockMedawarBefore": 81.0,
+          "stockGeitawiAfter": 117.0,
+          "stockMedawarAfter": 81.0
+        },
+        {
+          "productId": 502,
+          "barcode": "8888311091946",
+          "description": "CAFE 21 SACHET",
+          "category": "FOOD",
+          "subCategory": "instant coffee",
+          "unit": "-",
+          "qty": 10.0,
+          "costHtUsd": 0.23,
+          "vat": true,
+          "oldPriceLbp": 25000,
+          "suggestedPriceLbp": 30000,
+          "newPriceLbp": 25000,
+          "discountPercent": 0.0,
+          "discountAmountLbp": 0.0,
+          "expiryDate": null,
+          "stockGeitawiBefore": 344.0,
+          "stockMedawarBefore": 806.0,
+          "stockGeitawiAfter": 354.0,
+          "stockMedawarAfter": 806.0
+        }
+      ],
+      "createdAt": "2025-11-22T12:26:22.901806",
+      "lbpPerUsdSales": 90000.0,
+      "vatPercent": 0.11,
+      "invoiceDiscountPercent": 10.0,
+      "invoiceDiscountAmountLbp": 0.0
     }
   ]
 }
