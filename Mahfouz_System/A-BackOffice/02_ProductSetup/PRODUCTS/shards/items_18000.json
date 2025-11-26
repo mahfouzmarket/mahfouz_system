@@ -609,9 +609,9 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "33.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "-27.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "6.0",
       "total_consumption": "0.0",
@@ -622,7 +622,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18062.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "33.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "-27.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "18063",
