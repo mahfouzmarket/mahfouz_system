@@ -26499,5 +26499,20 @@
     "mvt": "TRANSFER Medawar->Geitawi qty=4.0",
     "invoiceId": "T1764238692072",
     "mvtType": "TRANSFER"
+  },
+  {
+    "id": 15135,
+    "field": "WASTE",
+    "from": null,
+    "to": "qty=2.0, branch=Medawar, reason=Expiry Date",
+    "ts": "2025-11-28T11:08:07.443491",
+    "savedAt": "2025-11-28T11:08:07.443491",
+    "user": "unknown",
+    "branch": "Medawar",
+    "device": "localhost",
+    "app": "Waste",
+    "mvt": "WASTE branch=Medawar qty=2.0 reason=Expiry Date",
+    "invoiceId": "W1764320883287",
+    "mvtType": "WASTE"
   }
 ]
