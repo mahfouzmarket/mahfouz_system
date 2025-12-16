@@ -1,0 +1,188 @@
+name: Nounas Orders - Notify + 5min Escalation
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "nouna's_food/orders.json"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout (full history for diff)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install firebase-admin
+        run: npm i firebase-admin@12
+
+      - name: Detect new orders + notify manager/owner + escalate after 5 minutes
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          ORDERS_PATH: "nouna's_food/orders.json"
+          BRAND_ID: "nounas_food"
+          OWNER_TOPIC: "owner_all_orders"
+        run: node - <<'NODE'
+          const fs = require('fs');
+          const { execFileSync } = require('child_process');
+          const admin = require('firebase-admin');
+
+          const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+          function gitShow(ref, path) {
+            try {
+              return execFileSync('git', ['show', `${ref}:${path}`], { encoding: 'utf8' });
+            } catch (_) {
+              return null;
+            }
+          }
+
+          function normalizeBranch(branch) {
+            const b = String(branch || '').trim().toLowerCase();
+            if (b.startsWith('g')) return 'geitawi';
+            if (b.startsWith('m')) return 'medawar';
+            return b.replace(/\s+/g, '_') || 'unknown';
+          }
+
+          function keyOf(order) {
+            // your orders usually have orderId + ts
+            return String(order?.orderId || order?.id || order?.ts || '');
+          }
+
+          function getStatus(order) {
+            return String(order?.status || 'NEW').toUpperCase();
+          }
+
+          function safeStr(v) {
+            return (v === undefined || v === null) ? '' : String(v);
+          }
+
+          // Firebase init
+          const saRaw = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+          if (!saRaw) throw new Error('Missing FIREBASE_SERVICE_ACCOUNT_JSON secret');
+          const serviceAccount = JSON.parse(saRaw);
+
+          admin.initializeApp({
+            credential: admin.credential.cert(serviceAccount),
+          });
+
+          async function sendToTopic(topic, title, body, data = {}) {
+            const message = {
+              topic,
+              notification: { title, body },
+              data: Object.fromEntries(Object.entries(data).map(([k, v]) => [k, safeStr(v)])),
+              android: { priority: 'high' },
+              apns: { headers: { 'apns-priority': '10' } },
+            };
+            const id = await admin.messaging().send(message);
+            console.log(`✅ Sent to topic=${topic} msgId=${id}`);
+          }
+
+          // Read GitHub event info
+          const event = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+          const before = event.before;
+          const after  = event.after || process.env.GITHUB_SHA;
+
+          const filePath = process.env.ORDERS_PATH;
+          const brandId  = process.env.BRAND_ID;
+          const ownerTopic = process.env.OWNER_TOPIC;
+
+          // Current orders (after commit)
+          const currText = fs.readFileSync(filePath, 'utf8');
+          const currJson = JSON.parse(currText);
+          const currOrders = Array.isArray(currJson) ? currJson : (currJson.orders || []);
+
+          // Previous orders (before commit)
+          const prevText = (before && before !== '0000000000000000000000000000000000000000')
+            ? gitShow(before, filePath)
+            : null;
+
+          const prevOrders = prevText
+            ? (Array.isArray(JSON.parse(prevText)) ? JSON.parse(prevText) : (JSON.parse(prevText).orders || []))
+            : [];
+
+          const prevKeys = new Set(prevOrders.map(keyOf).filter(Boolean));
+
+          // New orders = present now but not previously
+          const newOrders = currOrders.filter(o => {
+            const k = keyOf(o);
+            return k && !prevKeys.has(k);
+          });
+
+          console.log(`🔎 Detected new orders: ${newOrders.length}`);
+          if (newOrders.length === 0) process.exit(0);
+
+          (async () => {
+            // 1) Notify immediately (manager + owner)
+            for (const o of newOrders) {
+              const branch = normalizeBranch(o.branch);
+              const managerTopic = `orders_${brandId}_${branch}`;
+
+              const orderId = safeStr(o.orderId);
+              const totalUsd = safeStr(o.totalUsd);
+              const pickup = o.pickup ? 'PICKUP' : 'DELIVERY';
+
+              const title = `🛒 New Order (${branch})`;
+              const body  = `${pickup} • ${orderId} • $${totalUsd}`;
+
+              await sendToTopic(managerTopic, title, body, {
+                kind: 'new_order',
+                brandId,
+                branch,
+                orderId,
+              });
+
+              await sendToTopic(ownerTopic, `👑 ${title}`, body, {
+                kind: 'new_order_owner',
+                brandId,
+                branch,
+                orderId,
+              });
+            }
+
+            // 2) Wait 5 min then re-check latest file from origin/main
+            await sleep(5 * 60 * 1000);
+
+            execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' });
+
+            const latestText = gitShow('origin/main', filePath) || fs.readFileSync(filePath, 'utf8');
+            const latestJson = JSON.parse(latestText);
+            const latestOrders = Array.isArray(latestJson) ? latestJson : (latestJson.orders || []);
+            const latestByKey = new Map(latestOrders.map(o => [keyOf(o), o]));
+
+            for (const o of newOrders) {
+              const k = keyOf(o);
+              const latest = latestByKey.get(k);
+              if (!latest) continue;
+
+              const st = getStatus(latest);
+
+              // Escalate only if still NEW after 5 minutes
+              if (st === 'NEW') {
+                const branch = normalizeBranch(latest.branch);
+                const orderId = safeStr(latest.orderId);
+
+                await sendToTopic(ownerTopic, `⚠️ Not taken in 5 min (${branch})`, `Order ${orderId} still NEW`, {
+                  kind: 'escalation_not_taken_5m',
+                  brandId,
+                  branch,
+                  orderId,
+                });
+              }
+            }
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+NODE
