@@ -34,7 +34,8 @@ jobs:
           ORDERS_PATH: "nouna's_food/orders.json"
           BRAND_ID: "nounas_food"
           OWNER_TOPIC: "owner_all_orders"
-        run: node - <<'NODE'
+        run: |
+          node - <<'NODE'
           const fs = require('fs');
           const path = require('path');
           const { execFileSync } = require('child_process');
@@ -63,11 +64,10 @@ jobs:
           }
 
           function parseJsonOrFail(label, text) {
-            try {
-              return JSON.parse(text);
-            } catch (e) {
+            try { return JSON.parse(text); }
+            catch (e) {
               fail(`JSON parse failed (${label})`, {
-                error: e && e.message ? e.message : String(e),
+                error: e?.message || String(e),
                 snippet: headSnippet(text),
               });
             }
@@ -78,7 +78,7 @@ jobs:
             const orders = Array.isArray(json) ? json : (json.orders || []);
             if (!Array.isArray(orders)) {
               fail(`Orders structure invalid (${label})`, {
-                hint: 'Expected an array or an object containing { orders: [] }',
+                hint: 'Expected an array OR { orders: [] }',
                 snippet: headSnippet(text),
               });
             }
@@ -88,8 +88,8 @@ jobs:
           function gitShow(ref, filePath) {
             try {
               return execFileSync('git', ['show', `${ref}:${filePath}`], { encoding: 'utf8' });
-            } catch (e) {
-              console.warn(`⚠️ git show failed for ${ref}:${filePath} (will treat as no previous file)`);
+            } catch {
+              console.warn(`⚠️ git show failed for ${ref}:${filePath} (treating as no previous file)`);
               return null;
             }
           }
@@ -124,19 +124,16 @@ jobs:
             }
           }
 
-          // ------------------------------------------------------------
-          // Firebase init (enhanced errors)
-          // ------------------------------------------------------------
+          // ---- Firebase init ----
           const saRaw = mustEnv('FIREBASE_SERVICE_ACCOUNT_JSON');
           const sa = parseJsonOrFail('FIREBASE_SERVICE_ACCOUNT_JSON', saRaw);
 
-          // Helpful sanity checks for Firebase service account
           const requiredKeys = ['project_id', 'client_email', 'private_key'];
           const missing = requiredKeys.filter(k => !sa[k]);
           if (missing.length) {
-            fail('FIREBASE_SERVICE_ACCOUNT_JSON is missing required keys', {
+            fail('FIREBASE_SERVICE_ACCOUNT_JSON missing required keys', {
               missing: missing.join(', '),
-              hint: 'Paste the full service-account JSON (not just parts). Make sure private_key has \\n newlines.',
+              hint: 'Paste the FULL service-account JSON. private_key must keep \\n newlines.',
             });
           }
 
@@ -158,18 +155,16 @@ jobs:
                 topic,
                 title,
                 error: e?.message || String(e),
-                hint: 'Check Firebase project, FCM enabled, service account permissions, and topic format.',
               });
             }
           }
 
-          // ------------------------------------------------------------
-          // Load current + previous orders (enhanced errors)
-          // ------------------------------------------------------------
+          // ---- Load current + previous orders ----
           const githubEventPath = mustEnv('GITHUB_EVENT_PATH');
           if (!fs.existsSync(githubEventPath)) {
             fail('GITHUB_EVENT_PATH does not exist', { githubEventPath });
           }
+
           const eventText = fs.readFileSync(githubEventPath, 'utf8');
           const event = parseJsonOrFail('GITHUB_EVENT_PATH event payload', eventText);
 
@@ -182,7 +177,6 @@ jobs:
             fail('ORDERS_PATH not found in repo checkout', {
               filePath,
               nearby: listNearbyFiles(filePath),
-              hint: 'Confirm the file exists in the repo at that exact path and was included in checkout.',
             });
           }
 
@@ -228,16 +222,10 @@ jobs:
             // ---- wait 5 minutes ----
             await sleep(5 * 60 * 1000);
 
-            // Pull latest main version
-            try {
-              execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' });
-            } catch (e) {
-              fail('git fetch origin main failed', { error: e?.message || String(e) });
-            }
+            execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' });
 
             const latestText = gitShow('origin/main', filePath) || currText;
             const latestOrders = parseOrdersFromText('latest origin/main orders file', latestText);
-
             const byKey = new Map(latestOrders.map(o => [keyOf(o), o]));
 
             for (const o of newOrders) {
@@ -259,4 +247,4 @@ jobs:
           })().catch(err => {
             fail('Unhandled runtime error', { error: err?.stack || err?.message || String(err) });
           });
-NODE
+          NODE
