@@ -2,29 +2,20 @@ name: Orders Notify (nounas_food)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
       - "nouna's_food/orders.json"
-      - ".github/scripts/**"
-      - ".github/workflows/orders_notify.yml"
   workflow_dispatch: {}
 
 permissions:
-  contents: write
-
-env:
-  BRAND_ID: "nounas_food"
-  ORDERS_PATH: "nouna's_food/orders.json"
-  OWNER_TOPIC: "owner_all_orders"
+  contents: read
 
 jobs:
   notify:
-    # Prevent infinite loop when workflow itself commits marker fields.
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout (full history for diff)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -35,44 +26,131 @@ jobs:
           node-version: "20"
 
       - name: Install deps
-        run: npm install firebase-admin
+        run: npm i firebase-admin@12
 
-      - name: Send notifications + mark orders
-        id: notify
+      - name: Notify manager + owner, then escalate after 5 minutes if still NEW
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-        run: node .github/scripts/orders_notify.js
+          ORDERS_PATH: "nouna's_food/orders.json"
+          BRAND_ID: "nounas_food"
+          OWNER_TOPIC: "owner_all_orders"
+        run: node - <<'NODE'
+          const fs = require('fs');
+          const { execFileSync } = require('child_process');
+          const admin = require('firebase-admin');
 
-      - name: Commit marker updates (newOrderSentAt / assignedDriverSentAt)
-        if: steps.notify.outputs.orders_changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "${ORDERS_PATH}"
-          git commit -m "chore(bot): mark order notifications"
-          git push
+          const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-      - name: Wait 5 minutes (for not-taken escalation)
-        if: steps.notify.outputs.new_order_ids_json != '[]'
-        run: sleep 300
+          function gitShow(ref, path) {
+            try { return execFileSync('git', ['show', `${ref}:${path}`], { encoding: 'utf8' }); }
+            catch { return null; }
+          }
 
-      - name: Pull latest
-        if: steps.notify.outputs.new_order_ids_json != '[]'
-        run: git pull --rebase
+          function normalizeBranch(branch) {
+            const b = String(branch || '').trim().toLowerCase();
+            if (b.startsWith('g')) return 'geitawi';
+            if (b.startsWith('m')) return 'medawar';
+            return b.replace(/\s+/g, '_') || 'unknown';
+          }
 
-      - name: Escalate not taken after 5 minutes
-        id: escalate
-        if: steps.notify.outputs.new_order_ids_json != '[]'
-        env:
-          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-          ORDER_IDS_JSON: ${{ steps.notify.outputs.new_order_ids_json }}
-        run: node .github/scripts/orders_check_not_taken.js
+          function keyOf(o) {
+            return String(o?.orderId || o?.id || o?.ts || '');
+          }
 
-      - name: Commit escalation markers (notTaken5mSentAt)
-        if: steps.notify.outputs.new_order_ids_json != '[]' && steps.escalate.outputs.escalations_changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "${ORDERS_PATH}"
-          git commit -m "chore(bot): mark 5m escalation"
-          git push
+          function statusOf(o) {
+            return String(o?.status || 'NEW').toUpperCase();
+          }
+
+          function safe(v) {
+            return v == null ? '' : String(v);
+          }
+
+          // ---- Firebase init ----
+          const saRaw = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+          if (!saRaw) throw new Error('Missing secret: FIREBASE_SERVICE_ACCOUNT_JSON');
+          const sa = JSON.parse(saRaw);
+
+          admin.initializeApp({ credential: admin.credential.cert(sa) });
+
+          async function sendToTopic(topic, title, body, data = {}) {
+            const msg = {
+              topic,
+              notification: { title, body },
+              data: Object.fromEntries(Object.entries(data).map(([k,v]) => [k, safe(v)])),
+              android: { priority: 'high' },
+              apns: { headers: { 'apns-priority': '10' } },
+            };
+            const id = await admin.messaging().send(msg);
+            console.log(`✅ sent topic=${topic} msgId=${id}`);
+          }
+
+          // ---- Load current + previous orders ----
+          const event = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+          const before = event.before;
+          const filePath = process.env.ORDERS_PATH;
+
+          const currText = fs.readFileSync(filePath, 'utf8');
+          const currJson = JSON.parse(currText);
+          const currOrders = Array.isArray(currJson) ? currJson : (currJson.orders || []);
+
+          const prevText = (before && !before.startsWith('0000000')) ? gitShow(before, filePath) : null;
+          const prevOrders = prevText
+            ? (Array.isArray(JSON.parse(prevText)) ? JSON.parse(prevText) : (JSON.parse(prevText).orders || []))
+            : [];
+
+          const prevKeys = new Set(prevOrders.map(keyOf).filter(Boolean));
+          const newOrders = currOrders.filter(o => {
+            const k = keyOf(o);
+            return k && !prevKeys.has(k);
+          });
+
+          console.log(`🔎 new orders detected: ${newOrders.length}`);
+          if (newOrders.length === 0) process.exit(0);
+
+          const brandId = process.env.BRAND_ID;
+          const ownerTopic = process.env.OWNER_TOPIC;
+
+          (async () => {
+            // ---- immediate notify ----
+            for (const o of newOrders) {
+              const branch = normalizeBranch(o.branch);
+              const managerTopic = `orders_${brandId}_${branch}`;
+
+              const orderId = safe(o.orderId);
+              const totalUsd = safe(o.totalUsd);
+              const pickup = o.pickup ? 'PICKUP' : 'DELIVERY';
+
+              const title = `🛒 New Order (${branch})`;
+              const body  = `${pickup} • ${orderId} • $${totalUsd}`;
+
+              await sendToTopic(managerTopic, title, body, { kind:'new_order', brandId, branch, orderId });
+              await sendToTopic(ownerTopic, `👑 ${title}`, body, { kind:'new_order_owner', brandId, branch, orderId });
+            }
+
+            // ---- wait 5 minutes ----
+            await sleep(5 * 60 * 1000);
+
+            // Pull latest main version
+            execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' });
+            const latestText = gitShow('origin/main', filePath) || currText;
+            const latestJson = JSON.parse(latestText);
+            const latestOrders = Array.isArray(latestJson) ? latestJson : (latestJson.orders || []);
+            const byKey = new Map(latestOrders.map(o => [keyOf(o), o]));
+
+            for (const o of newOrders) {
+              const latest = byKey.get(keyOf(o));
+              if (!latest) continue;
+
+              if (statusOf(latest) === 'NEW') {
+                const branch = normalizeBranch(latest.branch);
+                const orderId = safe(latest.orderId);
+                await sendToTopic(ownerTopic, `⚠️ Not taken in 5 min (${branch})`, `Order ${orderId} still NEW`, {
+                  kind:'escalation_not_taken_5m', brandId, branch, orderId
+                });
+              }
+            }
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+NODE
