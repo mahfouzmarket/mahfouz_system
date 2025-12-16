@@ -36,15 +36,60 @@ jobs:
           OWNER_TOPIC: "owner_all_orders"
         run: node - <<'NODE'
           const fs = require('fs');
+          const path = require('path');
           const { execFileSync } = require('child_process');
           const admin = require('firebase-admin');
 
           const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-          function gitShow(ref, path) {
+          function headSnippet(text, max = 260) {
+            if (!text) return '';
+            const t = String(text).replace(/\s+/g, ' ').trim();
+            return t.length > max ? t.slice(0, max) + '…' : t;
+          }
+
+          function fail(msg, extra = {}) {
+            console.error('❌', msg);
+            for (const [k, v] of Object.entries(extra)) {
+              console.error(`   - ${k}: ${v}`);
+            }
+            process.exit(1);
+          }
+
+          function mustEnv(name) {
+            const v = process.env[name];
+            if (!v) fail(`Missing required env: ${name}`);
+            return v;
+          }
+
+          function parseJsonOrFail(label, text) {
             try {
-              return execFileSync('git', ['show', `${ref}:${path}`], { encoding: 'utf8' });
-            } catch {
+              return JSON.parse(text);
+            } catch (e) {
+              fail(`JSON parse failed (${label})`, {
+                error: e && e.message ? e.message : String(e),
+                snippet: headSnippet(text),
+              });
+            }
+          }
+
+          function parseOrdersFromText(label, text) {
+            const json = parseJsonOrFail(label, text);
+            const orders = Array.isArray(json) ? json : (json.orders || []);
+            if (!Array.isArray(orders)) {
+              fail(`Orders structure invalid (${label})`, {
+                hint: 'Expected an array or an object containing { orders: [] }',
+                snippet: headSnippet(text),
+              });
+            }
+            return orders;
+          }
+
+          function gitShow(ref, filePath) {
+            try {
+              return execFileSync('git', ['show', `${ref}:${filePath}`], { encoding: 'utf8' });
+            } catch (e) {
+              console.warn(`⚠️ git show failed for ${ref}:${filePath} (will treat as no previous file)`);
               return null;
             }
           }
@@ -68,60 +113,90 @@ jobs:
             return v == null ? '' : String(v);
           }
 
-          function parseOrdersFromText(text) {
-            if (!text) return [];
-            const json = JSON.parse(text);
-            return Array.isArray(json) ? json : (json.orders || []);
+          function listNearbyFiles(targetPath) {
+            try {
+              const dir = path.dirname(targetPath);
+              const base = path.basename(targetPath);
+              const files = fs.existsSync(dir) ? fs.readdirSync(dir).slice(0, 50) : [];
+              return `dir=${dir} exists=${fs.existsSync(dir)} base=${base} sampleFiles=[${files.join(', ')}]`;
+            } catch (e) {
+              return `failed to list files: ${e?.message || e}`;
+            }
           }
 
-          // ---- Firebase init ----
-          const saRaw = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
-          if (!saRaw) throw new Error('Missing secret: FIREBASE_SERVICE_ACCOUNT_JSON');
+          // ------------------------------------------------------------
+          // Firebase init (enhanced errors)
+          // ------------------------------------------------------------
+          const saRaw = mustEnv('FIREBASE_SERVICE_ACCOUNT_JSON');
+          const sa = parseJsonOrFail('FIREBASE_SERVICE_ACCOUNT_JSON', saRaw);
 
-          let sa;
-          try {
-            sa = JSON.parse(saRaw);
-          } catch (e) {
-            throw new Error('FIREBASE_SERVICE_ACCOUNT_JSON is not valid JSON');
+          // Helpful sanity checks for Firebase service account
+          const requiredKeys = ['project_id', 'client_email', 'private_key'];
+          const missing = requiredKeys.filter(k => !sa[k]);
+          if (missing.length) {
+            fail('FIREBASE_SERVICE_ACCOUNT_JSON is missing required keys', {
+              missing: missing.join(', '),
+              hint: 'Paste the full service-account JSON (not just parts). Make sure private_key has \\n newlines.',
+            });
           }
 
           admin.initializeApp({ credential: admin.credential.cert(sa) });
 
           async function sendToTopic(topic, title, body, data = {}) {
-            const msg = {
-              topic,
-              notification: { title, body },
-              data: Object.fromEntries(
-                Object.entries(data).map(([k, v]) => [k, safe(v)])
-              ),
-              android: { priority: 'high' },
-              apns: { headers: { 'apns-priority': '10' } },
-            };
-            const id = await admin.messaging().send(msg);
-            console.log(`✅ sent topic=${topic} msgId=${id}`);
+            try {
+              const msg = {
+                topic,
+                notification: { title, body },
+                data: Object.fromEntries(Object.entries(data).map(([k, v]) => [k, safe(v)])),
+                android: { priority: 'high' },
+                apns: { headers: { 'apns-priority': '10' } },
+              };
+              const id = await admin.messaging().send(msg);
+              console.log(`✅ sent topic=${topic} msgId=${id}`);
+            } catch (e) {
+              fail('Firebase send failed', {
+                topic,
+                title,
+                error: e?.message || String(e),
+                hint: 'Check Firebase project, FCM enabled, service account permissions, and topic format.',
+              });
+            }
           }
 
-          // ---- Load current + previous orders ----
-          const event = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+          // ------------------------------------------------------------
+          // Load current + previous orders (enhanced errors)
+          // ------------------------------------------------------------
+          const githubEventPath = mustEnv('GITHUB_EVENT_PATH');
+          if (!fs.existsSync(githubEventPath)) {
+            fail('GITHUB_EVENT_PATH does not exist', { githubEventPath });
+          }
+          const eventText = fs.readFileSync(githubEventPath, 'utf8');
+          const event = parseJsonOrFail('GITHUB_EVENT_PATH event payload', eventText);
+
           const before = event.before;
-          const filePath = process.env.ORDERS_PATH;
+          const filePath = mustEnv('ORDERS_PATH');
+
+          console.log('ℹ️ Using', { filePath, before: before || '(none)' });
 
           if (!fs.existsSync(filePath)) {
-            throw new Error(`ORDERS_PATH not found in repo checkout: ${filePath}`);
+            fail('ORDERS_PATH not found in repo checkout', {
+              filePath,
+              nearby: listNearbyFiles(filePath),
+              hint: 'Confirm the file exists in the repo at that exact path and was included in checkout.',
+            });
           }
 
           const currText = fs.readFileSync(filePath, 'utf8');
-          const currOrders = parseOrdersFromText(currText);
+          const currOrders = parseOrdersFromText('current orders file', currText);
 
           const prevText =
             (before && !String(before).startsWith('0000000'))
               ? gitShow(before, filePath)
               : null;
 
-          const prevOrders = prevText ? parseOrdersFromText(prevText) : [];
+          const prevOrders = prevText ? parseOrdersFromText(`previous orders file @ ${before}`, prevText) : [];
 
           const prevKeys = new Set(prevOrders.map(keyOf).filter(Boolean));
-
           const newOrders = currOrders.filter(o => {
             const k = keyOf(o);
             return k && !prevKeys.has(k);
@@ -144,31 +219,25 @@ jobs:
               const pickup = o.pickup ? 'PICKUP' : 'DELIVERY';
 
               const title = `🛒 New Order (${branch})`;
-              const body  = `${pickup} • ${orderId} • $${totalUsd}`;
+              const body = `${pickup} • ${orderId} • $${totalUsd}`;
 
-              await sendToTopic(managerTopic, title, body, {
-                kind: 'new_order',
-                brandId,
-                branch,
-                orderId,
-              });
-
-              await sendToTopic(ownerTopic, `👑 ${title}`, body, {
-                kind: 'new_order_owner',
-                brandId,
-                branch,
-                orderId,
-              });
+              await sendToTopic(managerTopic, title, body, { kind: 'new_order', brandId, branch, orderId });
+              await sendToTopic(ownerTopic, `👑 ${title}`, body, { kind: 'new_order_owner', brandId, branch, orderId });
             }
 
             // ---- wait 5 minutes ----
             await sleep(5 * 60 * 1000);
 
             // Pull latest main version
-            execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' });
+            try {
+              execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' });
+            } catch (e) {
+              fail('git fetch origin main failed', { error: e?.message || String(e) });
+            }
 
             const latestText = gitShow('origin/main', filePath) || currText;
-            const latestOrders = parseOrdersFromText(latestText);
+            const latestOrders = parseOrdersFromText('latest origin/main orders file', latestText);
+
             const byKey = new Map(latestOrders.map(o => [keyOf(o), o]));
 
             for (const o of newOrders) {
@@ -183,17 +252,11 @@ jobs:
                   ownerTopic,
                   `⚠️ Not taken in 5 min (${branch})`,
                   `Order ${orderId} still NEW`,
-                  {
-                    kind: 'escalation_not_taken_5m',
-                    brandId,
-                    branch,
-                    orderId,
-                  }
+                  { kind: 'escalation_not_taken_5m', brandId, branch, orderId }
                 );
               }
             }
           })().catch(err => {
-            console.error(err);
-            process.exit(1);
+            fail('Unhandled runtime error', { error: err?.stack || err?.message || String(err) });
           });
 NODE
