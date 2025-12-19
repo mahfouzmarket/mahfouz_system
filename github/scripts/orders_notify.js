@@ -74,32 +74,27 @@ async function main() {
 
   // Helper: send push to topic
   async function sendTopic(topic, title, body, data = {}) {
-    const msg = {
-      topic,
-      notification: { title, body },
-      data: Object.fromEntries(
-        Object.entries(data).map(([k, v]) => [String(k), String(v ?? '')])
-      ),
-      android: {
-        priority: 'high',
-        notification: {
-          sound: 'default',
-        },
-      },
-      apns: {
-        headers: {
-          'apns-priority': '10',
-        },
-        payload: {
-          aps: {
-            sound: 'default',
-          },
-        },
-      },
-    };
+  const msg = {
+    topic,
+    notification: { title, body },
+    data: Object.fromEntries(
+      Object.entries(data).map(([k, v]) => [String(k), String(v ?? '')])
+    ),
+    android: {
+      priority: 'high',
+      notification: { sound: 'default' },
+    },
+    apns: {
+      headers: { 'apns-priority': '10' },
+      payload: { aps: { sound: 'default' } },
+    },
+  };
 
-    return admin.messaging().send(msg);
-  }
+  const id = await admin.messaging().send(msg);
+  console.log(`✅ Sent push → topic=${topic} messageId=${id} title="${title}"`);
+  return id;
+}
+
 
   for (const o of orders) {
     if (!o || typeof o !== 'object') continue;
