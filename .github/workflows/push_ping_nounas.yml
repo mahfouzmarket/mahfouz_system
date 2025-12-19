@@ -1,0 +1,49 @@
+name: Push Ping (nounas)
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "FCM Topic (default owner_all_orders)"
+        required: false
+        default: "owner_all_orders"
+      token:
+        description: "Optional: FCM Token (if set, overrides topic)"
+        required: false
+        default: ""
+      title:
+        description: "Notification title"
+        required: false
+        default: "PING"
+      body:
+        description: "Notification body"
+        required: false
+        default: "Hello from GitHub Actions"
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm install firebase-admin
+
+      - name: Send ping
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          BRAND_ID: "nounas_food"
+          TOPIC: ${{ inputs.topic }}
+          TOKEN: ${{ inputs.token }}
+          TITLE: ${{ inputs.title }}
+          BODY: ${{ inputs.body }}
+        run: node .github/scripts/push_ping.js
