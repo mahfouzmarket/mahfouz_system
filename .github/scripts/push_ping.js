@@ -18,6 +18,8 @@ function parseJsonEnv(name) {
 
 async function main() {
   const svc = parseJsonEnv('FIREBASE_SERVICE_ACCOUNT_JSON');
+  console.log('🔎 svc.project_id =', svc.project_id);
+  console.log('🔎 svc.client_email =', svc.client_email);
 
   const TOPIC = (process.env.TOPIC || 'owner_all_orders').trim();
   const TOKEN = (process.env.TOKEN || '').trim();
