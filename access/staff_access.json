@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "updatedAt": "2025-12-20T17:51:33.222514",
+  "roles": [
+    {
+      "id": "owner_all",
+      "role": "owner",
+      "label": "Owner (ALL)",
+      "brandId": "*",
+      "branch": "*",
+      "codes": [
+        "Owner123"
+      ],
+      "topics": [
+        "owner_all_orders"
+      ],
+      "autoRoute": "/adminHub",
+      "allowedRoutes": [
+        "*"
+      ]
+    },
+    {
+      "id": "mgr_mahfouz_geitawi",
+      "role": "manager",
+      "label": "Manager • Mahfouz • Geitawi",
+      "brandId": "mahfouz_market",
+      "branch": "geitawi",
+      "codes": [
+        "MMG"
+      ],
+      "topics": [
+        "orders_mahfouz_market_geitawi"
+      ],
+      "autoRoute": "/admin/orders-report",
+      "allowedRoutes": [
+        "*"
+      ]
+    },
+    {
+      "id": "mgr_mahfouz_medawar",
+      "role": "manager",
+      "label": "Manager • Mahfouz • Medawar",
+      "brandId": "mahfouz_market",
+      "branch": "medawar",
+      "codes": [
+        "MMM"
+      ],
+      "topics": [
+        "orders_mahfouz_market_medawar"
+      ],
+      "autoRoute": "/admin/orders-report",
+      "allowedRoutes": [
+        "*"
+      ]
+    },
+    {
+      "id": "mgr_nounas",
+      "role": "manager",
+      "label": "Manager • Nouna's Food",
+      "brandId": "nounas_food",
+      "branch": "",
+      "codes": [
+        "NFM"
+      ],
+      "topics": [
+        "orders_nounas_food"
+      ],
+      "autoRoute": "/admin/orders-report",
+      "allowedRoutes": [
+        "*"
+      ]
+    },
+    {
+      "id": "del_mahfouz_geitawi",
+      "role": "delivery",
+      "label": "Delivery • Mahfouz • Geitawi",
+      "brandId": "mahfouz_market",
+      "branch": "geitawi",
+      "codes": [
+        "MMGD"
+      ],
+      "topics": [
+        "orders_mahfouz_market_geitawi"
+      ],
+      "autoRoute": "/admin/orders-report",
+      "allowedRoutes": [
+        "*"
+      ]
+    },
+    {
+      "id": "del_mahfouz_medawar",
+      "role": "delivery",
+      "label": "Delivery • Mahfouz • Medawar",
+      "brandId": "mahfouz_market",
+      "branch": "medawar",
+      "codes": [
+        "MMMD"
+      ],
+      "topics": [
+        "orders_mahfouz_market_medawar"
+      ],
+      "autoRoute": "/admin/orders-report",
+      "allowedRoutes": [
+        "*"
+      ]
+    },
+    {
+      "id": "del_nounas",
+      "role": "delivery",
+      "label": "Delivery • Nouna's Food",
+      "brandId": "nounas_food",
+      "branch": "",
+      "codes": [
+        "NFD"
+      ],
+      "topics": [
+        "orders_nounas_food"
+      ],
+      "autoRoute": "/admin/orders-report",
+      "allowedRoutes": [
+        "*"
+      ]
+    }
+  ]
+}
