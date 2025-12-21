@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-21T10:31:21.681181",
+  "updatedAt": "2025-12-21T11:09:36.257044",
   "roles": [
     {
       "id": "owner_all",
@@ -12,7 +12,10 @@
         "Owner123"
       ],
       "topics": [
-        "owner_all_orders"
+        "orders_mahfouz_market_geitawi",
+        "orders_mahfouz_market_medawar",
+        "orders_nounas_food",
+        "owner_escalations"
       ],
       "autoRoute": "/adminHub",
       "allowedRoutes": [
@@ -62,7 +65,6 @@
         "/adminHub",
         "/admin/orders-report",
         "/admin/orders-report-geitawi",
-        "/admin/orders-report-medawar",
         "/pos",
         "/admin/pos-sales-report",
         "/admin/closing-cash",
@@ -74,18 +76,11 @@
         "/reportOverStockGeitawi",
         "/reportNegativeStock",
         "/reportMissingImages",
-        "/admin/staff-access",
         "/toolCsvToJson",
         "/admin/bulk-edit-category",
         "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
-        "/admin/delivery-rules",
         "/admin/delivery-tester",
-        "/toolBroadcast",
-        "/admin/inventory-count",
-        "/toolStockEvaluation",
-        "/rawJsonPreview"
+        "/admin/inventory-count"
       ]
     },
     {
@@ -160,18 +155,14 @@
         "/reportOverStockGeitawi",
         "/reportNegativeStock",
         "/reportMissingImages",
-        "/admin/staff-access",
         "/toolCsvToJson",
         "/admin/bulk-edit-category",
         "/toolImageConvertAndUpload",
         "/admin/tools/category-assets",
         "/admin/tools/category-order",
-        "/admin/delivery-rules",
         "/admin/delivery-tester",
-        "/toolBroadcast",
         "/admin/inventory-count",
-        "/toolStockEvaluation",
-        "/rawJsonPreview"
+        "/toolStockEvaluation"
       ]
     },
     {
@@ -191,30 +182,15 @@
         "/adminHub",
         "/admin/orders-report",
         "/admin/orders-report-geitawi",
-        "/admin/orders-report-medawar",
-        "/pos",
-        "/admin/pos-sales-report",
-        "/admin/closing-cash",
         "/admin/credit-customers",
-        "/report_low_coverage_7d",
         "/admin/supplier-orders",
-        "/admin/tobacco-orders",
         "/admin/geitawi-order",
-        "/reportOverStockGeitawi",
         "/reportNegativeStock",
         "/reportMissingImages",
-        "/admin/staff-access",
-        "/toolCsvToJson",
-        "/admin/bulk-edit-category",
-        "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
-        "/admin/delivery-rules",
         "/admin/delivery-tester",
-        "/toolBroadcast",
         "/admin/inventory-count",
-        "/toolStockEvaluation",
-        "/rawJsonPreview"
+        "/toolImageConvertAndUpload",
+        "/pos"
       ]
     },
     {
