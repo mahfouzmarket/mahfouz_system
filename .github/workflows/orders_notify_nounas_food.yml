@@ -106,7 +106,14 @@ jobs:
 
           const brandId = process.env.BRAND_ID || 'nounas_food';
           const nounasTopic = process.env.NOUNAS_TOPIC || 'orders_nounas_food';
-          const escalationTopic = process.env.ESCALATION_TOPIC || 'owner_escalations';
+          const escalationTopic = 'owner_escalations_nounas_food';
+
+          await sendToTopic(
+          escalationTopic,
+          `⚠️ Nouna's not taken in 5 min`,
+          `Order ${orderId} still NEW`,
+          { kind:'escalation_not_taken_5m', brandId, orderId }
+          );
 
           (async () => {
             // ✅ NEW -> nounas topic ONLY
