@@ -1,11 +1,12 @@
-name: Orders Notify (nounas_food)
+name: Orders Notify (mahfouz_market)
 
 on:
+  workflow_dispatch:
   push:
-    branches: ["main"]
+    branches:
+      - main
     paths:
-      - "nouna's_food/orders.json"
-  workflow_dispatch: {}
+      - orders.json
 
 permissions:
   contents: read
@@ -28,83 +29,75 @@ jobs:
       - name: Install deps
         run: npm i firebase-admin@12
 
-      - name: Notify Nouna topic only, then escalate after 5 minutes (owners only)
+      - name: Notify branch topic only, then escalate after 5 minutes (owners only)
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-          ORDERS_PATH: "nouna's_food/orders.json"
-          BRAND_ID: "nounas_food"
-          NOUNAS_TOPIC: "orders_nounas_food"
-          ESCALATION_TOPIC: "owner_escalations_nounas_food"
+          ORDERS_PATH: "orders.json"
+          BRAND_ID: "mahfouz_market"
         run: |
-          node - <<'NODE'
+          cat > notify.js <<'EOF'
           const fs = require('fs');
-          const path = require('path');
           const { execFileSync } = require('child_process');
           const admin = require('firebase-admin');
 
           const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-          function fail(msg, extra = {}) {
-            console.error('❌', msg);
-            for (const [k, v] of Object.entries(extra)) console.error(`   - ${k}: ${v}`);
-            process.exit(1);
-          }
-          function mustEnv(name) { const v = process.env[name]; if (!v) fail(`Missing env: ${name}`); return v; }
-          function parseJsonOrFail(label, text) {
-            try { return JSON.parse(text); }
-            catch (e) { fail(`JSON parse failed (${label})`, { error: e?.message || String(e) }); }
-          }
-          function parseOrdersFromText(label, text) {
-            const json = parseJsonOrFail(label, text);
-            const orders = Array.isArray(json) ? json : (json.orders || []);
-            if (!Array.isArray(orders)) fail(`Orders invalid (${label})`);
-            return orders;
-          }
-          function gitShow(ref, filePath) {
-            try { return execFileSync('git', ['show', `${ref}:${filePath}`], { encoding: 'utf8' }); }
+          function gitShow(ref, path) {
+            try { return execFileSync('git', ['show', `${ref}:${path}`], { encoding: 'utf8' }); }
             catch { return null; }
           }
-          function keyOf(o) { return String(o?.orderId || o?.id || o?.ts || ''); }
-          function statusOf(o) { return String(o?.status || 'NEW').toUpperCase(); }
-          function safe(v) { return v == null ? '' : String(v); }
-          function listNearbyFiles(targetPath) {
-            try {
-              const dir = path.dirname(targetPath);
-              const files = fs.existsSync(dir) ? fs.readdirSync(dir).slice(0, 50) : [];
-              return `dir=${dir} exists=${fs.existsSync(dir)} sampleFiles=[${files.join(', ')}]`;
-            } catch (e) { return `failed: ${e?.message || e}`; }
+
+          function normalizeBranch(branch) {
+            const b = String(branch || '').trim().toLowerCase();
+            if (b.startsWith('g')) return 'geitawi';
+            if (b.startsWith('m')) return 'medawar';
+            return b.replace(/\s+/g, '_') || 'unknown';
           }
 
-          // Firebase
-          const sa = parseJsonOrFail('FIREBASE_SERVICE_ACCOUNT_JSON', mustEnv('FIREBASE_SERVICE_ACCOUNT_JSON'));
+          function keyOf(o) { return String(o?.orderId || o?.id || o?.ts || ''); }
+          function statusOf(o) { return String(o?.status || 'NEW').toUpperCase(); }
+          function safeStr(v) { return v == null ? '' : String(v); }
+
+          // Firebase init
+          const saRaw = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
+          if (!saRaw) throw new Error('Missing secret: FIREBASE_SERVICE_ACCOUNT_JSON');
+
+          const sa = JSON.parse(saRaw);
+
+          // ✅ FIX: normalize \n in private_key
+          if (sa.private_key && typeof sa.private_key === 'string') {
+          sa.private_key = sa.private_key.replace(/\\n/g, '\n');
+          }
+
           admin.initializeApp({ credential: admin.credential.cert(sa) });
 
           async function sendToTopic(topic, title, body, data = {}) {
             const msg = {
               topic,
               notification: { title, body },
-              data: Object.fromEntries(Object.entries(data).map(([k, v]) => [k, safe(v)])),
-              android: { priority: 'high' },
+              data: Object.fromEntries(Object.entries(data).map(([k, v]) => [k, v == null ? '' : String(v)])),
+              android: { priority: 'high', notification: { sound: 'default' } },
               apns: { headers: { 'apns-priority': '10' } },
             };
             const id = await admin.messaging().send(msg);
-            console.log(`✅ sent topic=${topic} msgId=${id}`);
+            console.log(`✅ Sent to topic=${topic} msgId=${id}`);
           }
 
           // Load orders + diff
-          const event = parseJsonOrFail('event', fs.readFileSync(mustEnv('GITHUB_EVENT_PATH'), 'utf8'));
+          const event = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
           const before = event.before;
-          const filePath = mustEnv('ORDERS_PATH');
-
-          if (!fs.existsSync(filePath)) {
-            fail('ORDERS_PATH not found', { filePath, nearby: listNearbyFiles(filePath) });
-          }
+          const filePath = process.env.ORDERS_PATH;
 
           const currText = fs.readFileSync(filePath, 'utf8');
-          const currOrders = parseOrdersFromText('current', currText);
+          const currJson = JSON.parse(currText);
+          const currOrders = Array.isArray(currJson) ? currJson : (currJson.orders || []);
 
           const prevText = (before && !String(before).startsWith('0000000')) ? gitShow(before, filePath) : null;
-          const prevOrders = prevText ? parseOrdersFromText(`prev@${before}`, prevText) : [];
+          let prevOrders = [];
+          if (prevText) {
+            const prevJson = JSON.parse(prevText);
+            prevOrders = Array.isArray(prevJson) ? prevJson : (prevJson.orders || []);
+          }
 
           const prevKeys = new Set(prevOrders.map(keyOf).filter(Boolean));
           const newOrders = currOrders.filter(o => {
@@ -115,21 +108,22 @@ jobs:
           console.log(`🔎 new orders detected: ${newOrders.length}`);
           if (!newOrders.length) process.exit(0);
 
-          const brandId = process.env.BRAND_ID || 'nounas_food';
-          const nounasTopic = process.env.NOUNAS_TOPIC || 'orders_nounas_food';
-          const escalationTopic = process.env.ESCALATION_TOPIC || 'owner_escalations_nounas_food';
+          const brandId = process.env.BRAND_ID || 'mahfouz_market';
 
           (async () => {
-            // ✅ NEW -> nounas topic ONLY
+            // ✅ NEW -> branch topic ONLY
             for (const o of newOrders) {
-              const orderId = safe(o.orderId);
-              const totalUsd = safe(o.totalUsd);
+              const branch = normalizeBranch(o.branch); // geitawi / medawar
+              const managerTopic = `orders_${brandId}_${branch}`;
+
+              const orderId = safeStr(o.orderId);
+              const totalUsd = safeStr(o.totalUsd);
               const pickup = o.pickup ? 'PICKUP' : 'DELIVERY';
 
-              const title = `🧁 Nouna's • New Order`;
+              const title = `🛒 Mahfouz • New Order (${branch})`;
               const body  = `${pickup} • ${orderId} • $${totalUsd}`;
 
-              await sendToTopic(nounasTopic, title, body, { kind: 'new_order', brandId, orderId });
+              await sendToTopic(managerTopic, title, body, { kind:'new_order', brandId, branch, orderId });
             }
 
             // ✅ wait 5 minutes
@@ -137,23 +131,30 @@ jobs:
             execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' });
 
             const latestText = gitShow('origin/main', filePath) || currText;
-            const latestOrders = parseOrdersFromText('latest', latestText);
+            const latestJson = JSON.parse(latestText);
+            const latestOrders = Array.isArray(latestJson) ? latestJson : (latestJson.orders || []);
             const byKey = new Map(latestOrders.map(o => [keyOf(o), o]));
 
-            // ✅ Escalate ONLY if still NEW
+            // ✅ Escalation: per-branch topic
             for (const o of newOrders) {
               const latest = byKey.get(keyOf(o));
               if (!latest) continue;
+
               if (statusOf(latest) === 'NEW') {
-                const orderId = safe(latest.orderId);
+                const branch = normalizeBranch(latest.branch); // geitawi/medawar
+                const orderId = safeStr(latest.orderId);
+
+                const escalationTopic = `owner_escalations_market_${branch}`;
 
                 await sendToTopic(
                   escalationTopic,
-                  `⚠️ Nouna's not taken in 5 min`,
+                  `⚠️ Mahfouz not taken in 5 min (${branch})`,
                   `Order ${orderId} still NEW`,
-                  { kind:'escalation_not_taken_5m', brandId, orderId }
+                  { kind:'escalation_not_taken_5m', brandId, branch, orderId }
                 );
               }
             }
-          })().catch(err => fail('runtime', { error: err?.stack || err?.message || String(err) }));
-          NODE
+          })().catch(err => { console.error(err); process.exit(1); });
+          EOF
+
+          node notify.js
