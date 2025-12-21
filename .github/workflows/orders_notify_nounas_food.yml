@@ -106,6 +106,18 @@ jobs:
 
           const brandId = process.env.BRAND_ID || 'nounas_food';
           const nounasTopic = process.env.NOUNAS_TOPIC || 'orders_nounas_food';
+
+for (const o of newOrders) {
+  const orderId = safe(o.orderId);
+  const totalUsd = safe(o.totalUsd);
+  const pickup = o.pickup ? 'PICKUP' : 'DELIVERY';
+
+  const title = `🧁 Nouna's • New Order`;
+  const body  = `${pickup} • ${orderId} • $${totalUsd}`;
+
+  await sendToTopic(nounasTopic, title, body, { kind: 'new_order', brandId, orderId });
+}
+
           const escalationTopic = process.env.ESCALATION_TOPIC || 'owner_escalations';
 
           (async () => {
