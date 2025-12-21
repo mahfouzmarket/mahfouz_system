@@ -1,65 +1,21 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-21T12:04:45.735239",
+  "updatedAt": "2025-12-21T14:51:32.701498",
   "roles": [
     {
-      "id": "owner_mahfouz",
+      "id": "owner_all",
       "role": "owner",
-      "label": "Owner (Mahfouz)",
-      "brandId": "mahfouz_market",
+      "label": "Owner (ALL)",
+      "brandId": "*",
       "branch": "*",
       "codes": [
-        "Owner123"
+        "Ownerm123"
       ],
       "topics": [
         "orders_mahfouz_market_geitawi",
         "orders_mahfouz_market_medawar",
-        "owner_escalations_market_geitawi",
-        "owner_escalations_market_medawar"
-      ],
-      "autoRoute": "/adminHub",
-      "allowedRoutes": [
-        "/adminHub",
-        "/admin/orders-report",
-        "/admin/orders-report-geitawi",
-        "/admin/orders-report-medawar",
-        "/pos",
-        "/admin/pos-sales-report",
-        "/admin/closing-cash",
-        "/admin/credit-customers",
-        "/report_low_coverage_7d",
-        "/admin/supplier-orders",
-        "/admin/tobacco-orders",
-        "/admin/geitawi-order",
-        "/reportOverStockGeitawi",
-        "/reportNegativeStock",
-        "/reportMissingImages",
-        "/admin/staff-access",
-        "/toolCsvToJson",
-        "/admin/bulk-edit-category",
-        "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
-        "/admin/delivery-rules",
-        "/admin/delivery-tester",
-        "/toolBroadcast",
-        "/admin/inventory-count",
-        "/toolStockEvaluation",
-        "/rawJsonPreview"
-      ]
-    },
-    {
-      "id": "owner_nounas",
-      "role": "owner",
-      "label": "Owner (Nouna's Food)",
-      "brandId": "nounas_food",
-      "branch": "*",
-      "codes": [
-        "Owner123"
-      ],
-      "topics": [
         "orders_nounas_food",
-        "owner_escalations_nounas_food"
+        "owner_escalations"
       ],
       "autoRoute": "/adminHub",
       "allowedRoutes": [
@@ -67,29 +23,29 @@
         "/admin/orders-report",
         "/admin/orders-report-geitawi",
         "/admin/orders-report-medawar",
-        "/pos",
-        "/admin/pos-sales-report",
-        "/admin/closing-cash",
-        "/admin/credit-customers",
-        "/report_low_coverage_7d",
-        "/admin/supplier-orders",
-        "/admin/tobacco-orders",
-        "/admin/geitawi-order",
-        "/reportOverStockGeitawi",
-        "/reportNegativeStock",
-        "/reportMissingImages",
         "/admin/staff-access",
-        "/toolCsvToJson",
-        "/admin/bulk-edit-category",
-        "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
+        "/rawJsonPreview",
         "/admin/delivery-rules",
         "/admin/delivery-tester",
         "/toolBroadcast",
         "/admin/inventory-count",
         "/toolStockEvaluation",
-        "/rawJsonPreview"
+        "/report_low_coverage_7d",
+        "/admin/supplier-orders",
+        "/reportNegativeStock",
+        "/reportMissingImages",
+        "/admin/closing-cash",
+        "/admin/credit-customers",
+        "/pos",
+        "/admin/pos-sales-report",
+        "/admin/bulk-edit-category",
+        "/toolCsvToJson",
+        "/toolImageConvertAndUpload",
+        "/admin/tools/category-assets",
+        "/admin/tools/category-order",
+        "/admin/geitawi-order",
+        "/reportOverStockGeitawi",
+        "/admin/tobacco-orders"
       ]
     },
     {
