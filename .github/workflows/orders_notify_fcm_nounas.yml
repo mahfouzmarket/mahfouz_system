@@ -13,6 +13,7 @@ permissions:
 jobs:
   notify:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout (full history)
         uses: actions/checkout@v4
@@ -32,7 +33,8 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           ORDERS_PATH: "nouna's_food/orders.json"
           BRAND_ID: "nounas_food"
-        run: node - <<'NODE'
+        run: |
+          node - <<'NODE'
           const fs = require('fs');
           const { execFileSync } = require('child_process');
           const admin = require('firebase-admin');
@@ -50,14 +52,11 @@ jobs:
 
           function branchKeyFrom(o) {
             const bk = String(o.branchKey || '').trim().toLowerCase();
-            if (bk) return bk;
-            return 'nounas_food';
+            return bk || 'nounas_food';
           }
 
-          function ownerTopic(branchKey) {
-            // nounas uses orders_nounas_food
-            return `orders_${BRAND_ID}`;
-          }
+          // Owner/Manager topic = orders_nounas_food (as in staff_access.json)
+          function ownerTopic() { return `orders_${BRAND_ID}`; }
 
           function driverTopic(o) {
             const driverId = String(o.driverId || '').trim();
@@ -74,13 +73,12 @@ jobs:
           function orderIdOf(o) { return String(o.orderId || o.id || '').trim(); }
 
           function loadOrdersFromText(text) {
+            if (!text || !String(text).trim()) return [];
             const decoded = JSON.parse(text);
             if (Array.isArray(decoded)) return decoded;
             if (decoded && typeof decoded === 'object' && Array.isArray(decoded.orders)) return decoded.orders;
             return [];
           }
-
-          function readFile(path) { return fs.readFileSync(path, 'utf8'); }
 
           function readPrevFileFromGit(path) {
             try { return execFileSync('git', ['show', `HEAD^:${path}`], { encoding: 'utf8' }); }
@@ -100,7 +98,7 @@ jobs:
             console.log('✅ sent', topic, title);
           }
 
-          function fmtDeliveredOwnerBody(o) {
+          function deliveredOwnerBody(o) {
             const takenBy = String(o.takenBy || '').trim();
             const driverName = String(o.driverName || '').trim();
             const parts = [];
@@ -110,7 +108,7 @@ jobs:
           }
 
           async function main() {
-            const curText = readFile(ORDERS_PATH);
+            const curText = fs.readFileSync(ORDERS_PATH, 'utf8');
             const prevText = readPrevFileFromGit(ORDERS_PATH);
 
             const curOrders = loadOrdersFromText(curText).filter(x => x && typeof x === 'object');
@@ -135,9 +133,8 @@ jobs:
               if (prev && prevSt === curSt) continue;
 
               const bk = branchKeyFrom(o);
-
-              const tOwner = ownerTopic(bk);    // orders_nounas_food
-              const tDriver = driverTopic(o);   // drv_nounas_food_nounas_food_<driverId>
+              const tOwner = ownerTopic();
+              const tDriver = driverTopic(o);
               const tClient = orderTopic(id);
 
               const data = {
@@ -168,7 +165,7 @@ jobs:
 
               if (curSt === 'DELIVERED') {
                 data.type = 'ORDER_DELIVERED';
-                await sendTopic(tOwner, 'DELIVERED ✅', fmtDeliveredOwnerBody(o), data);
+                await sendTopic(tOwner, 'DELIVERED ✅', deliveredOwnerBody(o), data);
                 count++;
               }
             }
@@ -177,4 +174,4 @@ jobs:
           }
 
           main().catch(e => { console.error(e); process.exit(1); });
-        NODE
+          NODE
