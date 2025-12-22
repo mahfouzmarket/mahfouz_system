@@ -1,0 +1,180 @@
+name: Orders Notify (FCM) — Nouna
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "nouna's_food/orders.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm i firebase-admin@12
+
+      - name: Send notifications
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          ORDERS_PATH: "nouna's_food/orders.json"
+          BRAND_ID: "nounas_food"
+        run: node - <<'NODE'
+          const fs = require('fs');
+          const { execFileSync } = require('child_process');
+          const admin = require('firebase-admin');
+
+          const ORDERS_PATH = process.env.ORDERS_PATH;
+          const BRAND_ID = process.env.BRAND_ID; // nounas_food
+          const svc = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON || '{}');
+
+          if (!svc.project_id) throw new Error('Missing FIREBASE_SERVICE_ACCOUNT_JSON');
+
+          admin.initializeApp({ credential: admin.credential.cert(svc) });
+
+          function safeTopic(s) { return String(s || '').replace(/[^A-Za-z0-9_]/g, '_'); }
+          function orderTopic(orderId) { return 'ord_' + safeTopic(orderId); }
+
+          function branchKeyFrom(o) {
+            const bk = String(o.branchKey || '').trim().toLowerCase();
+            if (bk) return bk;
+            return 'nounas_food';
+          }
+
+          function ownerTopic(branchKey) {
+            // nounas uses orders_nounas_food
+            return `orders_${BRAND_ID}`;
+          }
+
+          function driverTopic(o) {
+            const driverId = String(o.driverId || '').trim();
+            if (!driverId) return '';
+            const bk = branchKeyFrom(o);
+            return `drv_${BRAND_ID}_${bk}_${driverId}`;
+          }
+
+          function statusOf(o) {
+            const s = String(o.status || '').trim().toUpperCase();
+            return s || 'NEW';
+          }
+
+          function orderIdOf(o) { return String(o.orderId || o.id || '').trim(); }
+
+          function loadOrdersFromText(text) {
+            const decoded = JSON.parse(text);
+            if (Array.isArray(decoded)) return decoded;
+            if (decoded && typeof decoded === 'object' && Array.isArray(decoded.orders)) return decoded.orders;
+            return [];
+          }
+
+          function readFile(path) { return fs.readFileSync(path, 'utf8'); }
+
+          function readPrevFileFromGit(path) {
+            try { return execFileSync('git', ['show', `HEAD^:${path}`], { encoding: 'utf8' }); }
+            catch (_) { return ''; }
+          }
+
+          async function sendTopic(topic, title, body, data) {
+            if (!topic) return;
+            const msg = {
+              topic,
+              notification: { title, body },
+              data: Object.fromEntries(Object.entries(data || {}).map(([k, v]) => [k, String(v)])),
+              android: { priority: 'high' },
+              apns: { headers: { 'apns-priority': '10' } },
+            };
+            await admin.messaging().send(msg);
+            console.log('✅ sent', topic, title);
+          }
+
+          function fmtDeliveredOwnerBody(o) {
+            const takenBy = String(o.takenBy || '').trim();
+            const driverName = String(o.driverName || '').trim();
+            const parts = [];
+            if (takenBy) parts.push(`Taken by: ${takenBy}`);
+            if (driverName) parts.push(`Driver: ${driverName}`);
+            return parts.join(' • ') || 'Order delivered';
+          }
+
+          async function main() {
+            const curText = readFile(ORDERS_PATH);
+            const prevText = readPrevFileFromGit(ORDERS_PATH);
+
+            const curOrders = loadOrdersFromText(curText).filter(x => x && typeof x === 'object');
+            const prevOrders = loadOrdersFromText(prevText).filter(x => x && typeof x === 'object');
+
+            const prevMap = new Map();
+            for (const o of prevOrders) {
+              const id = orderIdOf(o);
+              if (id) prevMap.set(id, o);
+            }
+
+            let count = 0;
+
+            for (const o of curOrders) {
+              const id = orderIdOf(o);
+              if (!id) continue;
+
+              const prev = prevMap.get(id) || null;
+              const curSt = statusOf(o);
+              const prevSt = prev ? statusOf(prev) : '';
+
+              if (prev && prevSt === curSt) continue;
+
+              const bk = branchKeyFrom(o);
+
+              const tOwner = ownerTopic(bk);    // orders_nounas_food
+              const tDriver = driverTopic(o);   // drv_nounas_food_nounas_food_<driverId>
+              const tClient = orderTopic(id);
+
+              const data = {
+                type: '',
+                orderId: id,
+                brandId: BRAND_ID,
+                branchKey: bk,
+                driverId: String(o.driverId || '').trim(),
+              };
+
+              if (curSt === 'ASSIGNED_DRIVER') {
+                data.type = 'ORDER_ASSIGNED';
+                await sendTopic(tOwner, 'Order assigned', `Order ${id}`, data);
+                await sendTopic(tClient, 'Driver assigned', 'A driver has been assigned to your order.', data);
+                if (tDriver) {
+                  const customerName = String((o.customer && o.customer.name) || '').trim();
+                  await sendTopic(tDriver, 'New delivery assigned', customerName ? `Order ${id} • ${customerName}` : `Order ${id}`, data);
+                }
+                count++;
+              }
+
+              if (curSt === 'PICKED_UP') {
+                data.type = 'ORDER_PICKED_UP';
+                await sendTopic(tOwner, 'Picked up', `Order ${id}`, data);
+                await sendTopic(tClient, 'Picked up', 'Your order has been picked up.', data);
+                count++;
+              }
+
+              if (curSt === 'DELIVERED') {
+                data.type = 'ORDER_DELIVERED';
+                await sendTopic(tOwner, 'DELIVERED ✅', fmtDeliveredOwnerBody(o), data);
+                count++;
+              }
+            }
+
+            console.log('🔔 notifications:', count);
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+        NODE
