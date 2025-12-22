@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-21T18:43:34.378402",
+  "updatedAt": "2025-12-22T11:31:01.128268",
   "roles": [
     {
       "id": "owner_mahfouz",
@@ -23,29 +23,30 @@
         "/admin/orders-report",
         "/admin/orders-report-geitawi",
         "/admin/orders-report-medawar",
-        "/pos",
-        "/admin/pos-sales-report",
-        "/admin/closing-cash",
-        "/admin/credit-customers",
-        "/report_low_coverage_7d",
-        "/admin/supplier-orders",
-        "/admin/tobacco-orders",
-        "/admin/geitawi-order",
-        "/reportOverStockGeitawi",
-        "/reportNegativeStock",
-        "/reportMissingImages",
         "/admin/staff-access",
-        "/toolCsvToJson",
-        "/admin/bulk-edit-category",
-        "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
+        "/rawJsonPreview",
         "/admin/delivery-rules",
         "/admin/delivery-tester",
         "/toolBroadcast",
         "/admin/inventory-count",
         "/toolStockEvaluation",
-        "/rawJsonPreview"
+        "/report_low_coverage_7d",
+        "/admin/supplier-orders",
+        "/reportNegativeStock",
+        "/reportMissingImages",
+        "/admin/closing-cash",
+        "/admin/credit-customers",
+        "/pos",
+        "/admin/pos-sales-report",
+        "/admin/bulk-edit-category",
+        "/toolCsvToJson",
+        "/toolImageConvertAndUpload",
+        "/admin/tools/category-assets",
+        "/admin/tools/category-order",
+        "/admin/geitawi-order",
+        "/admin/delivery-drivers",
+        "/reportOverStockGeitawi",
+        "/admin/tobacco-orders"
       ]
     },
     {
@@ -218,7 +219,8 @@
       "codes": [
         "MMGD"
       ],
-      "topics": ["deliveries_mahfouz_market_geitawi"]
+      "topics": [
+        "orders_mahfouz_market_geitawi"
       ],
       "autoRoute": "/admin/orders-report-geitawi",
       "allowedRoutes": [
@@ -245,8 +247,8 @@
       "codes": [
         "MMMD"
       ],
-      "topics": ["deliveries_mahfouz_market_medawar"]
-
+      "topics": [
+        "orders_mahfouz_market_medawar"
       ],
       "autoRoute": "/admin/orders-report-medawar",
       "allowedRoutes": [
@@ -288,8 +290,8 @@
       "codes": [
         "NFD"
       ],
-      "topics": ["deliveries_nounas_food"]
-
+      "topics": [
+        "orders_nounas_food"
       ],
       "autoRoute": "/admin/orders-report",
       "allowedRoutes": [
