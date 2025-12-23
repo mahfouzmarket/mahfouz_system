@@ -44,7 +44,6 @@ jobs:
           const svc = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON || '{}');
 
           if (!svc.project_id) throw new Error('Missing FIREBASE_SERVICE_ACCOUNT_JSON');
-
           admin.initializeApp({ credential: admin.credential.cert(svc) });
 
           function safeTopic(s) { return String(s || '').replace(/[^A-Za-z0-9_]/g, '_'); }
@@ -54,8 +53,9 @@ jobs:
             const bk = String(o.branchKey || '').trim().toLowerCase();
             return bk || 'nounas_food';
           }
+          function prettyBranch(_) { return "Nouna's Food"; }
 
-          // Owner/Manager topic = orders_nounas_food (as in staff_access.json)
+          // owner/manager topic for nouna (from your staff_access.json)
           function ownerTopic() { return `orders_${BRAND_ID}`; }
 
           function driverTopic(o) {
@@ -98,13 +98,29 @@ jobs:
             console.log('✅ sent', topic, title);
           }
 
-          function deliveredOwnerBody(o) {
-            const takenBy = String(o.takenBy || '').trim();
-            const driverName = String(o.driverName || '').trim();
+          function moneyLine(o) {
+            const usd = Number(o.totalUsd ?? o.total_usd ?? 0);
+            const lbp = Number(o.totalLbp ?? o.total_lbp ?? 0);
             const parts = [];
-            if (takenBy) parts.push(`Taken by: ${takenBy}`);
-            if (driverName) parts.push(`Driver: ${driverName}`);
-            return parts.join(' • ') || 'Order delivered';
+            if (usd && !Number.isNaN(usd)) parts.push(`$${usd.toFixed(2)}`);
+            if (lbp && !Number.isNaN(lbp)) parts.push(`${Math.round(lbp)} LBP`);
+            return parts.join(' | ');
+          }
+
+          function durationStr(fromIso, toIso) {
+            const a = Date.parse(fromIso || '');
+            const b = Date.parse(toIso || '');
+            if (!Number.isFinite(a) || !Number.isFinite(b) || b <= a) return '';
+            let mins = Math.round((b - a) / 60000);
+            const days = Math.floor(mins / (60 * 24));
+            mins -= days * 60 * 24;
+            const hrs = Math.floor(mins / 60);
+            mins -= hrs * 60;
+            const parts = [];
+            if (days > 0) parts.push(`${days}d`);
+            if (hrs > 0) parts.push(`${hrs}h`);
+            parts.push(`${mins}m`);
+            return parts.join(' ');
           }
 
           async function main() {
@@ -137,6 +153,15 @@ jobs:
               const tDriver = driverTopic(o);
               const tClient = orderTopic(id);
 
+              const driverName = String(o.driverName || '').trim();
+              const driverPhone = String(o.driverPhone || '').trim();
+              const driverLine = driverName
+                ? `${driverName}${driverPhone ? ` (+${driverPhone})` : ''}`
+                : (driverPhone ? `+${driverPhone}` : 'Delivery');
+
+              const customerName = String((o.customer && o.customer.name) || '').trim();
+              const amount = moneyLine(o);
+
               const data = {
                 type: '',
                 orderId: id,
@@ -147,25 +172,73 @@ jobs:
 
               if (curSt === 'ASSIGNED_DRIVER') {
                 data.type = 'ORDER_ASSIGNED';
-                await sendTopic(tOwner, 'Order assigned', `Order ${id}`, data);
-                await sendTopic(tClient, 'Driver assigned', 'A driver has been assigned to your order.', data);
+
+                await sendTopic(
+                  tOwner,
+                  `${prettyBranch(bk)} • Order assigned to ${driverLine}`,
+                  `Order ${id}${amount ? ` • ${amount}` : ''}`,
+                  data
+                );
+
+                await sendTopic(
+                  tClient,
+                  'Driver assigned',
+                  `The driver ${driverLine} has been assigned to your order.`,
+                  data
+                );
+
                 if (tDriver) {
-                  const customerName = String((o.customer && o.customer.name) || '').trim();
-                  await sendTopic(tDriver, 'New delivery assigned', customerName ? `Order ${id} • ${customerName}` : `Order ${id}`, data);
+                  await sendTopic(
+                    tDriver,
+                    'New delivery assigned',
+                    customerName ? `Order ${id} • ${customerName}` : `Order ${id}`,
+                    data
+                  );
                 }
+
                 count++;
               }
 
               if (curSt === 'PICKED_UP') {
                 data.type = 'ORDER_PICKED_UP';
-                await sendTopic(tOwner, 'Picked up', `Order ${id}`, data);
-                await sendTopic(tClient, 'Picked up', 'Your order has been picked up.', data);
+
+                await sendTopic(
+                  tClient,
+                  'Picked up',
+                  'Your order has been picked up.',
+                  data
+                );
+
+                await sendTopic(
+                  tOwner,
+                  `Picked up to ${customerName || 'client'} from ${prettyBranch(bk)}`,
+                  `Picked up by ${driverLine}`,
+                  data
+                );
+
                 count++;
               }
 
               if (curSt === 'DELIVERED') {
                 data.type = 'ORDER_DELIVERED';
-                await sendTopic(tOwner, 'DELIVERED ✅', deliveredOwnerBody(o), data);
+
+                const takenBy = String(o.takenBy || '').trim();
+                const startIso = String(o.ts || o.createdAt || '').trim();
+                const endIso = String(o.deliveredAt || o.statusUpdatedAt || '').trim();
+                const dur = durationStr(startIso, endIso);
+
+                const bodyParts = [];
+                bodyParts.push(`Taken by: ${takenBy || '—'}`);
+                bodyParts.push(`Driver: ${driverLine}`);
+                if (dur) bodyParts.push(`Time: ${dur}`);
+
+                await sendTopic(
+                  tOwner,
+                  `DELIVERED ✅ to ${customerName || 'client'}`,
+                  bodyParts.join(' • '),
+                  data
+                );
+
                 count++;
               }
             }
