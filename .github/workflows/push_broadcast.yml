@@ -1,4 +1,4 @@
-name: Push Broadcast (mahfouz_system)
+name: Push Broadcast (FCM)
 
 on:
   workflow_dispatch:
@@ -6,26 +6,23 @@ on:
       title:
         description: "Notification title"
         required: true
-        type: string
       body:
         description: "Notification body"
         required: true
-        type: string
       url:
-        description: "Optional deep link / URL"
+        description: "Optional URL"
         required: false
-        type: string
-      topic:
-        description: "FCM topic (default: broadcast_nounas_food)"
-        required: false
-        type: string
+      brand_id:
+        description: "mahfouz_market | nounas_food"
+        required: true
 
 permissions:
   contents: read
 
 jobs:
-  send:
+  push:
     runs-on: ubuntu-latest
+
     steps:
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -41,25 +38,27 @@ jobs:
           TITLE: ${{ inputs.title }}
           BODY: ${{ inputs.body }}
           URL: ${{ inputs.url }}
-          TOPIC: ${{ inputs.topic }}
-          BRAND_ID: "nounas_food"
-        run: node - <<'NODE'
+          BRAND_ID: ${{ inputs.brand_id }}
+        run: |
+          node - <<'NODE'
           const admin = require('firebase-admin');
 
           const svcRaw = process.env.FIREBASE_SERVICE_ACCOUNT_JSON || '';
           if (!svcRaw.trim()) throw new Error('Missing FIREBASE_SERVICE_ACCOUNT_JSON secret');
 
-          const svc = JSON.parse(svcRaw);
-          admin.initializeApp({ credential: admin.credential.cert(svc) });
-
           const title = (process.env.TITLE || '').trim();
-          const body  = (process.env.BODY  || '').trim();
-          const url   = (process.env.URL   || '').trim();
-          const brandId = (process.env.BRAND_ID || 'nounas_food').trim();
-          const topic = (process.env.TOPIC && process.env.TOPIC.trim()) ? process.env.TOPIC.trim() : `broadcast_${brandId}`;
+          const body  = (process.env.BODY || '').trim();
+          const url   = (process.env.URL || '').trim();
+          const brandId = (process.env.BRAND_ID || '').trim();
 
           if (!title) throw new Error('title is empty');
           if (!body) throw new Error('body is empty');
+          if (!brandId) throw new Error('brand_id is empty');
+
+          const svc = JSON.parse(svcRaw);
+          admin.initializeApp({ credential: admin.credential.cert(svc) });
+
+          const topic = `broadcast_${brandId}`;
 
           const msg = {
             topic,
@@ -72,18 +71,23 @@ jobs:
             },
             android: {
               priority: 'high',
-              notification: { channelId: 'orders' },
             },
             apns: {
-              headers: { 'apns-priority': '10' },
-              payload: { aps: { sound: 'default', badge: 1 } }
-            }
+              headers: {
+                'apns-priority': '10',
+              },
+              payload: {
+                aps: {
+                  sound: 'default',
+                },
+              },
+            },
           };
 
           admin.messaging().send(msg).then((id) => {
-            console.log('✅ Sent broadcast:', { topic, id });
+            console.log(`✅ Broadcast sent to ${topic} msgId=${id}`);
           }).catch((e) => {
-            console.error('❌ Send failed:', e);
+            console.error('❌ send failed', e);
             process.exit(1);
           });
-        NODE
+          NODE
