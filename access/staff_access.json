@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-24T16:24:51.490966",
+  "updatedAt": "2025-12-24T16:27:00.240101",
   "roles": [
     {
       "id": "owner_mahfouz",
@@ -62,7 +62,7 @@
         "orders_nounas_food",
         "owner_escalations_nounas_food"
       ],
-      "autoRoute": "/adminHub",
+      "autoRoute": "/pos",
       "allowedRoutes": [
         "/adminHub",
         "/admin/orders-report",
@@ -91,7 +91,8 @@
         "/admin/inventory-count",
         "/toolStockEvaluation",
         "/rawJsonPreview",
-        "/admin/delivery-drivers"
+        "/admin/delivery-drivers",
+        "/admin/push-broadcast"
       ]
     },
     {
