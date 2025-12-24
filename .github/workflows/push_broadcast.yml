@@ -1,0 +1,89 @@
+name: Push Broadcast (mahfouz_system)
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "Notification title"
+        required: true
+        type: string
+      body:
+        description: "Notification body"
+        required: true
+        type: string
+      url:
+        description: "Optional deep link / URL"
+        required: false
+        type: string
+      topic:
+        description: "FCM topic (default: broadcast_nounas_food)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm i firebase-admin@12
+
+      - name: Send FCM broadcast
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TITLE: ${{ inputs.title }}
+          BODY: ${{ inputs.body }}
+          URL: ${{ inputs.url }}
+          TOPIC: ${{ inputs.topic }}
+          BRAND_ID: "nounas_food"
+        run: node - <<'NODE'
+          const admin = require('firebase-admin');
+
+          const svcRaw = process.env.FIREBASE_SERVICE_ACCOUNT_JSON || '';
+          if (!svcRaw.trim()) throw new Error('Missing FIREBASE_SERVICE_ACCOUNT_JSON secret');
+
+          const svc = JSON.parse(svcRaw);
+          admin.initializeApp({ credential: admin.credential.cert(svc) });
+
+          const title = (process.env.TITLE || '').trim();
+          const body  = (process.env.BODY  || '').trim();
+          const url   = (process.env.URL   || '').trim();
+          const brandId = (process.env.BRAND_ID || 'nounas_food').trim();
+          const topic = (process.env.TOPIC && process.env.TOPIC.trim()) ? process.env.TOPIC.trim() : `broadcast_${brandId}`;
+
+          if (!title) throw new Error('title is empty');
+          if (!body) throw new Error('body is empty');
+
+          const msg = {
+            topic,
+            notification: { title, body },
+            data: {
+              type: 'BROADCAST',
+              brandId,
+              url,
+              ts: new Date().toISOString(),
+            },
+            android: {
+              priority: 'high',
+              notification: { channelId: 'orders' },
+            },
+            apns: {
+              headers: { 'apns-priority': '10' },
+              payload: { aps: { sound: 'default', badge: 1 } }
+            }
+          };
+
+          admin.messaging().send(msg).then((id) => {
+            console.log('✅ Sent broadcast:', { topic, id });
+          }).catch((e) => {
+            console.error('❌ Send failed:', e);
+            process.exit(1);
+          });
+        NODE
