@@ -598,5 +598,43 @@
     "driverLateNotifiedAt": "",
     "pickedUpAt": "2025-12-24T22:41:44.032265Z",
     "deliveredAt": "2025-12-24T22:41:46.857982Z"
+  },
+  {
+    "orderId": "ord-1766616410634",
+    "ts": "2025-12-24T22:46:50.634485Z",
+    "createdAt": "2025-12-24T22:46:50.634485Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2025-12-24T22:46:50.634485Z"
+      }
+    ],
+    "customer": {
+      "name": "ELIAS",
+      "phone": "70185604",
+      "address": "tente\ndhfs, brrvw, Floor 58758, Elevator · tejte",
+      "location": "https://www.google.com/maps?q=33.891492,35.528277"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "20811",
+        "name": "NF CHOCO BOX NT 180G",
+        "qty": 1,
+        "unitUsd": 12.0,
+        "totalUsd": 12.0,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20811.jpg"
+      }
+    ],
+    "totalUsd": 12.56,
+    "totalLbp": 1130000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
