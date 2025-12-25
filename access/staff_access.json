@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-24T16:30:17.840823",
+  "updatedAt": "2025-12-25T15:10:56.195483",
   "roles": [
     {
       "id": "owner_mahfouz",
@@ -151,8 +151,6 @@
         "/admin/orders-report-medawar",
         "/pos",
         "/admin/pos-sales-report",
-        "/admin/closing-cash",
-        "/admin/credit-customers",
         "/report_low_coverage_7d",
         "/admin/supplier-orders",
         "/admin/tobacco-orders",
@@ -160,18 +158,14 @@
         "/reportOverStockGeitawi",
         "/reportNegativeStock",
         "/reportMissingImages",
-        "/admin/staff-access",
         "/toolCsvToJson",
         "/admin/bulk-edit-category",
         "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
-        "/admin/delivery-rules",
         "/admin/delivery-tester",
         "/toolBroadcast",
         "/admin/inventory-count",
         "/toolStockEvaluation",
-        "/rawJsonPreview"
+        "/admin/delivery-drivers"
       ]
     },
     {
@@ -190,8 +184,6 @@
       "allowedRoutes": [
         "/adminHub",
         "/admin/orders-report",
-        "/admin/orders-report-geitawi",
-        "/admin/orders-report-medawar",
         "/pos",
         "/admin/pos-sales-report",
         "/admin/closing-cash",
@@ -203,14 +195,10 @@
         "/reportOverStockGeitawi",
         "/reportNegativeStock",
         "/reportMissingImages",
-        "/toolCsvToJson",
         "/admin/bulk-edit-category",
         "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
         "/admin/delivery-tester",
-        "/admin/inventory-count",
-        "/toolStockEvaluation"
+        "/admin/inventory-count"
       ]
     },
     {
@@ -257,31 +245,17 @@
       "allowedRoutes": [
         "/adminHub",
         "/admin/orders-report",
-        "/admin/orders-report-geitawi",
         "/admin/orders-report-medawar",
         "/pos",
         "/admin/pos-sales-report",
-        "/admin/closing-cash",
-        "/admin/credit-customers",
-        "/report_low_coverage_7d",
-        "/admin/supplier-orders",
         "/admin/tobacco-orders",
         "/admin/geitawi-order",
         "/reportOverStockGeitawi",
-        "/reportNegativeStock",
-        "/reportMissingImages",
-        "/admin/staff-access",
-        "/toolCsvToJson",
-        "/admin/bulk-edit-category",
         "/toolImageConvertAndUpload",
-        "/admin/tools/category-assets",
-        "/admin/tools/category-order",
-        "/admin/delivery-rules",
         "/admin/delivery-tester",
         "/toolBroadcast",
         "/admin/inventory-count",
-        "/toolStockEvaluation",
-        "/rawJsonPreview"
+        "/admin/supplier-orders"
       ]
     },
     {
