@@ -647,5 +647,51 @@
     "driverAckAt": "2025-12-24T22:47:43.423828Z",
     "pickedUpAt": "2025-12-24T22:47:45.124905Z",
     "deliveredAt": "2025-12-24T22:47:48.309549Z"
+  },
+  {
+    "orderId": "ord-1766750178660",
+    "ts": "2025-12-26T11:56:18.660382Z",
+    "createdAt": "2025-12-26T11:56:18.660382Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2025-12-26T11:56:18.660382Z"
+      }
+    ],
+    "customer": {
+      "name": "Chris mahfouz",
+      "phone": "81397875",
+      "address": "michel hayek\nst luis, michel hayek, Floor 5, Elevator · entrance from tur toilette down the street",
+      "location": "https://www.google.com/maps?q=33.891461,35.528215"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "19491",
+        "name": "NF FROZEN YOGURT CHERRY",
+        "qty": 1,
+        "unitUsd": 1.33,
+        "totalUsd": 1.33,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19491.jpg"
+      },
+      {
+        "id": "19210",
+        "name": "NF MANGO FROZEN YOGURT NT 150G",
+        "qty": 1,
+        "unitUsd": 1.33,
+        "totalUsd": 1.33,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19210.jpg"
+      }
+    ],
+    "totalUsd": 3.22,
+    "totalLbp": 290000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
