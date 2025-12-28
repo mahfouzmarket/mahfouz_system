@@ -584,5 +584,85 @@
         "vat": false
       }
     ]
+  },
+  {
+    "sale_id": "S-1766875099096",
+    "ts": "2025-12-28T00:38:19.096786",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 248018,
+      "vat_lbp": 1982,
+      "net_lbp": 250000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": ""
+    },
+    "client": {
+      "name": "ELIE MRAD",
+      "mobile": "78806904",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "13829",
+        "name": "AQUAFINA WATER 0.5 L",
+        "qty": 1,
+        "unit_price_lbp": 20000,
+        "total_lbp": 20000,
+        "vat": true
+      },
+      {
+        "id": "17349",
+        "name": "AQUAFINA WATER 0.5 L x 12 pcs",
+        "qty": 1,
+        "unit_price_lbp": 190000,
+        "total_lbp": 190000,
+        "vat": false
+      },
+      {
+        "id": "17179",
+        "name": "AQUAFINA WATER 2 L",
+        "qty": 1,
+        "unit_price_lbp": 40000,
+        "total_lbp": 40000,
+        "vat": false
+      }
+    ]
+  },
+  {
+    "sale_id": "S-1766917037549",
+    "ts": "2025-12-28T12:17:17.549989",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 20000000,
+      "vat_lbp": 0,
+      "net_lbp": 20000000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": ""
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "12962",
+        "barcode": "",
+        "name": "TANNOURINE WATER 2L x 6 pcs",
+        "qty": 100,
+        "unit_price_lbp": 200000,
+        "total_lbp": 20000000,
+        "vat": false
+      }
+    ]
   }
 ]
