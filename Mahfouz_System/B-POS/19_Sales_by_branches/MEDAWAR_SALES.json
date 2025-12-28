@@ -871,5 +871,35 @@
         "vat": false
       }
     ]
+  },
+  {
+    "sale_id": "00000001",
+    "ts": "2025-12-28T19:25:33.606968",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 100000,
+      "vat_lbp": 0,
+      "net_lbp": 100000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": ""
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "7248",
+        "barcode": "5285002590055",
+        "name": "MOULIN D'OR BROWN BREAD SMALL",
+        "qty": 1,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": false
+      }
+    ]
   }
 ]
