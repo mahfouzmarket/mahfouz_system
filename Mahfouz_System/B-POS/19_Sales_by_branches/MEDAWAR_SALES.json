@@ -1422,5 +1422,165 @@
         "delivery_account_number": ""
       }
     ]
+  },
+  {
+    "sale_id": "00000008",
+    "ts": "2025-12-30T01:31:41.339462",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 4684099,
+      "vat_lbp": 175901,
+      "net_lbp": 4860000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": "",
+      "delivery": {
+        "name": "Abed",
+        "account_number": "",
+        "amount_ttc_lbp": 35000,
+        "ht_lbp": 31532,
+        "vat_lbp": 3468
+      }
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "15442",
+        "barcode": "2700054",
+        "name": "KHOURY HALLOUM",
+        "qty": 1.0,
+        "unit_price_lbp": 1565000,
+        "total_lbp": 1565000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "14067",
+        "barcode": "3073781176346-3073781220209",
+        "name": "PICON 16 PORTIONS 240 GR",
+        "qty": 1.0,
+        "unit_price_lbp": 280000,
+        "total_lbp": 280000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "15135",
+        "barcode": "7622100966449",
+        "name": "TEREA SIENNA",
+        "qty": 4.0,
+        "unit_price_lbp": 250000,
+        "total_lbp": 1000000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "16652",
+        "barcode": "2701068",
+        "name": "CUSTARD VANILLE",
+        "qty": 1.0,
+        "unit_price_lbp": 150000,
+        "total_lbp": 150000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "5916",
+        "barcode": "5281090001381",
+        "name": "ECO PLUS BHAR HAR 30G",
+        "qty": 1.0,
+        "unit_price_lbp": 45000,
+        "total_lbp": 45000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "10510",
+        "barcode": "5281001113066-5281001116265",
+        "name": "FL GIPSY 300SH SOFT PLUS",
+        "qty": 1.0,
+        "unit_price_lbp": 210000,
+        "total_lbp": 210000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "19984",
+        "barcode": "5281117002315",
+        "name": "AL WADI EXTRA VIRGIN OLIVE OIL 500 ML",
+        "qty": 2.0,
+        "unit_price_lbp": 650000,
+        "total_lbp": 1300000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7248",
+        "barcode": "5285002590055",
+        "name": "MOULIN D'OR BROWN BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7304",
+        "barcode": "5280320000019",
+        "name": "AL FORNO WHITE SMALL BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 50000,
+        "total_lbp": 50000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "-9999",
+        "barcode": "",
+        "name": "DELIVERY • Abed",
+        "qty": 1.0,
+        "unit_price_lbp": 35000,
+        "total_lbp": 35000,
+        "vat": true,
+        "is_delivery": true,
+        "delivery_name": "Abed",
+        "delivery_account_number": ""
+      }
+    ]
   }
 ]
