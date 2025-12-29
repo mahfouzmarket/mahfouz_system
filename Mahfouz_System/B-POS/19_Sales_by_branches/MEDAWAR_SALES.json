@@ -1019,5 +1019,80 @@
         "vat": true
       }
     ]
+  },
+  {
+    "sale_id": "00000004",
+    "ts": "2025-12-29T13:04:51.599251",
+    "branch": "Medawar",
+    "user_code": "40",
+    "totals": {
+      "ht_lbp": 1093153,
+      "vat_lbp": 16847,
+      "net_lbp": 1110000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": ""
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "13296",
+        "barcode": "5285002590017",
+        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "qty": 2,
+        "unit_price_lbp": 80000,
+        "total_lbp": 160000,
+        "vat": false
+      },
+      {
+        "id": "1437",
+        "barcode": "5281023000023",
+        "name": "RIM WATER 500ML",
+        "qty": 1,
+        "unit_price_lbp": 20000,
+        "total_lbp": 20000,
+        "vat": true
+      },
+      {
+        "id": "12594",
+        "barcode": "40307381",
+        "name": "DAVIDOFF CLASSIC",
+        "qty": 1,
+        "unit_price_lbp": 335000,
+        "total_lbp": 335000,
+        "vat": false
+      },
+      {
+        "id": "2812",
+        "barcode": "5287000154130",
+        "name": "LABNEHN BALADIYEH KHOURY 500G",
+        "qty": 1,
+        "unit_price_lbp": 380000,
+        "total_lbp": 380000,
+        "vat": false
+      },
+      {
+        "id": "14706",
+        "barcode": "5285002198510",
+        "name": "ARUBA DRINK DOYPACK MANGO 500 GR",
+        "qty": 1,
+        "unit_price_lbp": 150000,
+        "total_lbp": 150000,
+        "vat": true
+      },
+      {
+        "id": "17572",
+        "barcode": "0",
+        "name": "TWIX CHOCOLATE 50 G",
+        "qty": 1,
+        "unit_price_lbp": 65000,
+        "total_lbp": 65000,
+        "vat": false
+      }
+    ]
   }
 ]
