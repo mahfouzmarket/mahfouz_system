@@ -270,29 +270,29 @@
   },
   {
     "id": 17492,
-    "field": "total_stock",
+    "field": "id",
     "from": null,
-    "to": "0.0",
+    "to": "17492",
     "ts": "2025-11-30T18:12:46.532829",
     "savedAt": "2025-11-30T18:12:46.532829",
     "user": "eliasmahfouz",
     "branch": "Medawar",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "total_stock:  → 0.0"
+    "mvt": "id:  → 17492"
   },
   {
     "id": 17492,
-    "field": "price_lbp",
+    "field": "barcode",
     "from": null,
-    "to": "0",
+    "to": "2701138",
     "ts": "2025-11-30T18:12:46.532829",
     "savedAt": "2025-11-30T18:12:46.532829",
     "user": "eliasmahfouz",
     "branch": "Medawar",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "price_lbp:  → 0"
+    "mvt": "barcode:  → 2701138"
   },
   {
     "id": 17492,
@@ -426,16 +426,16 @@
   },
   {
     "id": 17492,
-    "field": "id",
+    "field": "total_stock",
     "from": null,
-    "to": "17492",
+    "to": "0.0",
     "ts": "2025-11-30T18:12:46.532829",
     "savedAt": "2025-11-30T18:12:46.532829",
     "user": "eliasmahfouz",
     "branch": "Medawar",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "id:  → 17492"
+    "mvt": "total_stock:  → 0.0"
   },
   {
     "id": 17492,
@@ -465,16 +465,16 @@
   },
   {
     "id": 17492,
-    "field": "barcode",
+    "field": "price_lbp",
     "from": null,
-    "to": "2701138",
+    "to": "0",
     "ts": "2025-11-30T18:12:46.532829",
     "savedAt": "2025-11-30T18:12:46.532829",
     "user": "eliasmahfouz",
     "branch": "Medawar",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "barcode:  → 2701138"
+    "mvt": "price_lbp:  → 0"
   },
   {
     "id": 17492,
@@ -896,21 +896,6 @@
     "mvtType": "TRANSFER"
   },
   {
-    "id": 15135,
-    "field": "TRANSFER",
-    "from": null,
-    "to": "qty=100.0, from=Medawar, to=Geitawi",
-    "ts": "2025-11-27T07:29:53.873439",
-    "savedAt": "2025-11-27T07:29:53.873439",
-    "user": "eliasmahfouz",
-    "branch": "Medawar",
-    "device": "Eliass-MacBook-Air.local",
-    "app": "Transfer",
-    "mvt": "TRANSFER Medawar->Geitawi qty=100.0",
-    "invoiceId": "T1764221390113",
-    "mvtType": "TRANSFER"
-  },
-  {
     "id": 18062,
     "field": "TRANSFER",
     "from": null,
@@ -922,6 +907,21 @@
     "device": "Eliass-MacBook-Air.local",
     "app": "Transfer",
     "mvt": "TRANSFER Medawar->Geitawi qty=1.0",
+    "invoiceId": "T1764221390113",
+    "mvtType": "TRANSFER"
+  },
+  {
+    "id": 15135,
+    "field": "TRANSFER",
+    "from": null,
+    "to": "qty=100.0, from=Medawar, to=Geitawi",
+    "ts": "2025-11-27T07:29:53.873439",
+    "savedAt": "2025-11-27T07:29:53.873439",
+    "user": "eliasmahfouz",
+    "branch": "Medawar",
+    "device": "Eliass-MacBook-Air.local",
+    "app": "Transfer",
+    "mvt": "TRANSFER Medawar->Geitawi qty=100.0",
     "invoiceId": "T1764221390113",
     "mvtType": "TRANSFER"
   },
@@ -1706,17 +1706,17 @@
     "mvtType": "PURCHASE"
   },
   {
-    "id": 20618,
+    "id": 20267,
     "field": "PURCHASE",
     "from": null,
-    "to": "qty=1.0, cost=0.19, price=55000, branch=Medawar",
+    "to": "qty=1.0, cost=1.01, price=120000, branch=Medawar",
     "ts": "2025-11-20T12:22:43.351562",
     "savedAt": "2025-11-20T12:22:43.351562",
     "user": "eliasmahfouz",
     "branch": "Medawar",
     "device": "Eliass-MacBook-Air.local",
     "app": "Purchasing",
-    "mvt": "PURCHASE ABI RAMIA BROS SARL qty=1.0 cost=0.19 price=55000",
+    "mvt": "PURCHASE ABI RAMIA BROS SARL qty=1.0 cost=1.01 price=120000",
     "invoiceId": "P1763634150736",
     "mvtType": "PURCHASE"
   },
@@ -1976,17 +1976,17 @@
     "mvtType": "PURCHASE"
   },
   {
-    "id": 20267,
+    "id": 20618,
     "field": "PURCHASE",
     "from": null,
-    "to": "qty=1.0, cost=1.01, price=120000, branch=Medawar",
+    "to": "qty=1.0, cost=0.19, price=55000, branch=Medawar",
     "ts": "2025-11-20T12:22:43.351562",
     "savedAt": "2025-11-20T12:22:43.351562",
     "user": "eliasmahfouz",
     "branch": "Medawar",
     "device": "Eliass-MacBook-Air.local",
     "app": "Purchasing",
-    "mvt": "PURCHASE ABI RAMIA BROS SARL qty=1.0 cost=1.01 price=120000",
+    "mvt": "PURCHASE ABI RAMIA BROS SARL qty=1.0 cost=0.19 price=55000",
     "invoiceId": "P1763634150736",
     "mvtType": "PURCHASE"
   },
@@ -2037,16 +2037,16 @@
   },
   {
     "id": 20778,
-    "field": "VAT",
+    "field": "cost",
     "from": null,
-    "to": "NO",
+    "to": "0.00",
     "ts": "2025-11-20T00:41:46.416997",
     "savedAt": "2025-11-20T00:41:46.416997",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "VAT:  → NO"
+    "mvt": "cost:  → 0.00"
   },
   {
     "id": 20778,
@@ -2076,16 +2076,16 @@
   },
   {
     "id": 20778,
-    "field": "cost",
+    "field": "VAT",
     "from": null,
-    "to": "0.00",
+    "to": "NO",
     "ts": "2025-11-20T00:41:46.416997",
     "savedAt": "2025-11-20T00:41:46.416997",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "cost:  → 0.00"
+    "mvt": "VAT:  → NO"
   },
   {
     "id": 20778,
@@ -2388,16 +2388,16 @@
   },
   {
     "id": 20257,
-    "field": "barcode",
+    "field": "total_stock",
     "from": null,
-    "to": "5287001229196",
+    "to": "18.0",
     "ts": "2025-11-16T20:56:52.857346",
     "savedAt": "2025-11-16T20:56:52.857346",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "barcode:  → 5287001229196"
+    "mvt": "total_stock:  → 18.0"
   },
   {
     "id": 20257,
@@ -2466,29 +2466,29 @@
   },
   {
     "id": 20257,
-    "field": "total_stock",
+    "field": "barcode",
     "from": null,
-    "to": "18.0",
+    "to": "5287001229196",
     "ts": "2025-11-16T20:56:52.857346",
     "savedAt": "2025-11-16T20:56:52.857346",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "total_stock:  → 18.0"
+    "mvt": "barcode:  → 5287001229196"
   },
   {
     "id": 86,
-    "field": "price_usd",
+    "field": "Product Description",
     "from": null,
-    "to": "5.83",
+    "to": "MERNAYA VODKA 100CL",
     "ts": "2025-11-16T18:52:57.809896",
     "savedAt": "2025-11-16T18:52:57.809896",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "price_usd:  → 5.83"
+    "mvt": "Product Description:  → MERNAYA VODKA 100CL"
   },
   {
     "id": 86,
@@ -2726,16 +2726,16 @@
   },
   {
     "id": 86,
-    "field": "Product Description",
+    "field": "price_usd",
     "from": null,
-    "to": "MERNAYA VODKA 100CL",
+    "to": "5.83",
     "ts": "2025-11-16T18:52:57.809896",
     "savedAt": "2025-11-16T18:52:57.809896",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "Product Description:  → MERNAYA VODKA 100CL"
+    "mvt": "price_usd:  → 5.83"
   },
   {
     "id": 17598,
@@ -2752,16 +2752,16 @@
   },
   {
     "id": 17598,
-    "field": "VAT",
+    "field": "id",
     "from": null,
-    "to": "NO",
+    "to": "17598",
     "ts": "2025-11-15T16:32:34.033333",
     "savedAt": "2025-11-15T16:32:34.033333",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "VAT:  → NO"
+    "mvt": "id:  → 17598"
   },
   {
     "id": 17598,
@@ -2986,16 +2986,16 @@
   },
   {
     "id": 17598,
-    "field": "id",
+    "field": "VAT",
     "from": null,
-    "to": "17598",
+    "to": "NO",
     "ts": "2025-11-15T16:32:34.033333",
     "savedAt": "2025-11-15T16:32:34.033333",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "id:  → 17598"
+    "mvt": "VAT:  → NO"
   },
   {
     "id": 17598,
@@ -3259,29 +3259,29 @@
   },
   {
     "id": 17598,
-    "field": "sub_category",
+    "field": "SUPPLIERS",
     "from": null,
-    "to": "ENERGY DRINK",
+    "to": "ABI RAMIA BROS SARL",
     "ts": "2025-11-15T16:31:05.715730",
     "savedAt": "2025-11-15T16:31:05.715730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "sub_category:  → ENERGY DRINK"
+    "mvt": "SUPPLIERS:  → ABI RAMIA BROS SARL"
   },
   {
     "id": 17598,
-    "field": "price_lbp",
+    "field": "Product Description",
     "from": null,
-    "to": "70,000",
+    "to": "XXL TROPICAL ENERGY 250 ML",
     "ts": "2025-11-15T16:31:05.715730",
     "savedAt": "2025-11-15T16:31:05.715730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "price_lbp:  → 70,000"
+    "mvt": "Product Description:  → XXL TROPICAL ENERGY 250 ML"
   },
   {
     "id": 17598,
@@ -3337,16 +3337,16 @@
   },
   {
     "id": 17598,
-    "field": "SUPPLIERS",
+    "field": "sub_category",
     "from": null,
-    "to": "ABI RAMIA BROS SARL",
+    "to": "ENERGY DRINK",
     "ts": "2025-11-15T16:31:05.715730",
     "savedAt": "2025-11-15T16:31:05.715730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "SUPPLIERS:  → ABI RAMIA BROS SARL"
+    "mvt": "sub_category:  → ENERGY DRINK"
   },
   {
     "id": 17598,
@@ -3428,16 +3428,16 @@
   },
   {
     "id": 17598,
-    "field": "Product Description",
+    "field": "price_lbp",
     "from": null,
-    "to": "XXL TROPICAL ENERGY 250 ML",
+    "to": "70,000",
     "ts": "2025-11-15T16:31:05.715730",
     "savedAt": "2025-11-15T16:31:05.715730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "Product Description:  → XXL TROPICAL ENERGY 250 ML"
+    "mvt": "price_lbp:  → 70,000"
   },
   {
     "id": 17598,
@@ -3584,16 +3584,16 @@
   },
   {
     "id": 17598,
-    "field": "imageURL",
+    "field": "SUPPLIERS",
     "from": null,
-    "to": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17598.jpg",
+    "to": "ABI RAMIA BROS SARL",
     "ts": "2025-11-15T16:29:35.353914",
     "savedAt": "2025-11-15T16:29:35.353914",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "imageURL:  → https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17598.jpg"
+    "mvt": "SUPPLIERS:  → ABI RAMIA BROS SARL"
   },
   {
     "id": 17598,
@@ -3675,16 +3675,16 @@
   },
   {
     "id": 17598,
-    "field": "delivery_rules",
+    "field": "stock_in_medawar_branch",
     "from": null,
-    "to": "0.005",
+    "to": "-1.0",
     "ts": "2025-11-15T16:29:35.353914",
     "savedAt": "2025-11-15T16:29:35.353914",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "delivery_rules:  → 0.005"
+    "mvt": "stock_in_medawar_branch:  → -1.0"
   },
   {
     "id": 17598,
@@ -3753,29 +3753,29 @@
   },
   {
     "id": 17598,
-    "field": "SUPPLIERS",
+    "field": "imageURL",
     "from": null,
-    "to": "ABI RAMIA BROS SARL",
+    "to": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17598.jpg",
     "ts": "2025-11-15T16:29:35.353914",
     "savedAt": "2025-11-15T16:29:35.353914",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "SUPPLIERS:  → ABI RAMIA BROS SARL"
+    "mvt": "imageURL:  → https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17598.jpg"
   },
   {
     "id": 17598,
-    "field": "stock_in_medawar_branch",
+    "field": "delivery_rules",
     "from": null,
-    "to": "-1.0",
+    "to": "0.005",
     "ts": "2025-11-15T16:29:35.353914",
     "savedAt": "2025-11-15T16:29:35.353914",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "stock_in_medawar_branch:  → -1.0"
+    "mvt": "delivery_rules:  → 0.005"
   },
   {
     "id": 17598,
@@ -4039,16 +4039,16 @@
   },
   {
     "id": 223,
-    "field": "cost",
+    "field": "stock_in_medawar_branch",
     "from": null,
-    "to": "0.00",
+    "to": "0.0",
     "ts": "2025-11-15T14:00:32.540730",
     "savedAt": "2025-11-15T14:00:32.540730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "cost:  → 0.00"
+    "mvt": "stock_in_medawar_branch:  → 0.0"
   },
   {
     "id": 26,
@@ -8875,16 +8875,16 @@
   },
   {
     "id": 223,
-    "field": "stock_in_medawar_branch",
+    "field": "cost",
     "from": null,
-    "to": "0.0",
+    "to": "0.00",
     "ts": "2025-11-15T14:00:32.540730",
     "savedAt": "2025-11-15T14:00:32.540730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "stock_in_medawar_branch:  → 0.0"
+    "mvt": "cost:  → 0.00"
   },
   {
     "id": 223,
@@ -17532,17 +17532,17 @@
     "mvt": "id:  → 430"
   },
   {
-    "id": 430,
-    "field": "Product Description",
+    "id": 752,
+    "field": "price_lbp",
     "from": null,
-    "to": "HEINEKEN NRB 330ML",
+    "to": "0",
     "ts": "2025-11-15T14:00:32.540730",
     "savedAt": "2025-11-15T14:00:32.540730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "Product Description:  → HEINEKEN NRB 330ML"
+    "mvt": "price_lbp:  → 0"
   },
   {
     "id": 430,
@@ -26203,16 +26203,31 @@
     "mvt": "VAT:  → NO"
   },
   {
-    "id": 752,
-    "field": "price_lbp",
+    "id": 430,
+    "field": "Product Description",
     "from": null,
-    "to": "0",
+    "to": "HEINEKEN NRB 330ML",
     "ts": "2025-11-15T14:00:32.540730",
     "savedAt": "2025-11-15T14:00:32.540730",
     "user": "eliasmahfouz",
     "branch": "unknown",
     "device": "Eliass-MacBook-Air.local",
     "app": "ProductSetup",
-    "mvt": "price_lbp:  → 0"
+    "mvt": "Product Description:  → HEINEKEN NRB 330ML"
+  },
+  {
+    "id": 13296,
+    "field": "PURCHASE",
+    "from": null,
+    "to": "qty=10.0, cost=0.78, price=80000, branch=Medawar",
+    "ts": "2025-12-29T13:13:08.380421",
+    "savedAt": "2025-12-29T13:13:08.380421",
+    "user": "eliasmahfouz",
+    "branch": "Medawar",
+    "device": "Eliass-MacBook-Air.local",
+    "app": "Purchasing",
+    "mvt": "PURCHASE MOULIN D'OR qty=10.0 cost=0.78 price=80000",
+    "invoiceId": "P1767006776778",
+    "mvtType": "PURCHASE"
   }
 ]
