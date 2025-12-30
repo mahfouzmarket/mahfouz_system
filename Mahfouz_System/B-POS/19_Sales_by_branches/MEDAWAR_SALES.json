@@ -1582,5 +1582,86 @@
         "delivery_account_number": ""
       }
     ]
+  },
+  {
+    "sale_id": "00000009",
+    "ts": "2025-12-30T02:16:22.572586",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 569054,
+      "vat_lbp": 5946,
+      "net_lbp": 575000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": "",
+      "delivery": {
+        "name": "Abed",
+        "account_number": "",
+        "amount_ttc_lbp": 35000,
+        "ht_lbp": 31532,
+        "vat_lbp": 3468
+      }
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "1438",
+        "barcode": "5281023000030",
+        "name": "RIM WATER 2L",
+        "qty": 1.0,
+        "unit_price_lbp": 40000,
+        "total_lbp": 40000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "13821",
+        "barcode": "",
+        "name": "RIM WATER 2L x 6 pcs",
+        "qty": 1.0,
+        "unit_price_lbp": 480000,
+        "total_lbp": 480000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "1437",
+        "barcode": "5281023000023",
+        "name": "RIM WATER 500ML",
+        "qty": 1.0,
+        "unit_price_lbp": 20000,
+        "total_lbp": 20000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "-9999",
+        "barcode": "",
+        "name": "DELIVERY • Abed",
+        "qty": 1.0,
+        "unit_price_lbp": 35000,
+        "total_lbp": 35000,
+        "vat": true,
+        "is_delivery": true,
+        "delivery_name": "Abed",
+        "delivery_account_number": ""
+      }
+    ]
   }
 ]
