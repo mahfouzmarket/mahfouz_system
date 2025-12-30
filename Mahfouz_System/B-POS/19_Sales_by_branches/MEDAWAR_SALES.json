@@ -1429,25 +1429,30 @@
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 4684099,
-      "vat_lbp": 175901,
-      "net_lbp": 4860000
+      "ht_lbp": 8780631,
+      "vat_lbp": 619369,
+      "net_lbp": 9400000
     },
     "payment": {
-      "code": "CASH_LBP",
-      "name": "Cash LBP",
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
       "currency": "LBP",
-      "type": "cash",
+      "type": "credit",
       "account_number": "",
       "delivery": {
         "name": "Abed",
         "account_number": "",
-        "amount_ttc_lbp": 35000,
-        "ht_lbp": 31532,
-        "vat_lbp": 3468
+        "amount_ttc_lbp": 100000,
+        "ht_lbp": 90090,
+        "vat_lbp": 9910
       }
     },
-    "client": null,
+    "client": {
+      "name": "ELIE MRAD",
+      "mobile": "78806904",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
     "items": [
       {
         "id": "15442",
@@ -1570,12 +1575,24 @@
         "delivery_account_number": null
       },
       {
+        "id": "10480",
+        "barcode": "11111",
+        "name": "EMPTY GAZ CYLINDER",
+        "qty": 1.0,
+        "unit_price_lbp": 4475000,
+        "total_lbp": 4475000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
         "id": "-9999",
         "barcode": "",
         "name": "DELIVERY • Abed",
         "qty": 1.0,
-        "unit_price_lbp": 35000,
-        "total_lbp": 35000,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
         "vat": true,
         "is_delivery": true,
         "delivery_name": "Abed",
