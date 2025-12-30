@@ -2038,14 +2038,34 @@
       "net_lbp": 145000
     },
     "payment": {
-      "code": "VISA_USD",
-      "name": "VISA USD",
-      "currency": "USD",
-      "type": "card",
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
       "account_number": "",
-      "delivery": null
+      "delivery": null,
+      "is_split": true,
+      "splits": [
+        {
+          "code": "ON_ACCOUNT",
+          "name": "On Account",
+          "type": "credit",
+          "currency": "LBP",
+          "amount": 221.0,
+          "amount_lbp": 221.0,
+          "account_number": "",
+          "cash_received": null
+        }
+      ],
+      "change_lbp": 0.0,
+      "change_usd": 0.0
     },
-    "client": null,
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
     "items": [
       {
         "id": "7348",
