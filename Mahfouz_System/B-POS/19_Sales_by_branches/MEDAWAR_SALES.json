@@ -1813,5 +1813,98 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000012",
+    "ts": "2025-12-30T10:17:26.499613",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 10143424,
+      "vat_lbp": 472276,
+      "net_lbp": 10615700
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": "",
+      "delivery": {
+        "name": "Abed",
+        "account_number": "",
+        "amount_ttc_lbp": 100000,
+        "ht_lbp": 90090,
+        "vat_lbp": 9910
+      }
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "20372",
+        "barcode": "6972865711008",
+        "name": "AIR FRESHENER LAVENDER 250 ML",
+        "qty": -3.0,
+        "unit_price_lbp": 250000,
+        "total_lbp": -750000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "19984",
+        "barcode": "5281117002315",
+        "name": "AL WADI EXTRA VIRGIN OLIVE OIL 500 ML",
+        "qty": 10.0,
+        "unit_price_lbp": 650000,
+        "total_lbp": 6500000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "12927",
+        "barcode": "2700043",
+        "name": "AKKAWI ROBOU3 TAANAYEL",
+        "qty": 0.57,
+        "unit_price_lbp": 510000,
+        "total_lbp": 290700,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "10480",
+        "barcode": "11111",
+        "name": "EMPTY GAZ CYLINDER",
+        "qty": 1.0,
+        "unit_price_lbp": 4475000,
+        "total_lbp": 4475000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "-9999",
+        "barcode": "",
+        "name": "DELIVERY • Abed",
+        "qty": 1.0,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": true,
+        "is_delivery": true,
+        "delivery_name": "Abed",
+        "delivery_account_number": ""
+      }
+    ]
   }
 ]
