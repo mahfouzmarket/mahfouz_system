@@ -1663,5 +1663,116 @@
         "delivery_account_number": ""
       }
     ]
+  },
+  {
+    "sale_id": "00000010",
+    "ts": "2025-12-30T02:19:35.217407",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 480000,
+      "vat_lbp": 0,
+      "net_lbp": 480000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": "",
+      "delivery": null
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "20653",
+        "barcode": "7300010",
+        "name": "KEZBARA",
+        "qty": 1.0,
+        "unit_price_lbp": 60000,
+        "total_lbp": 60000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "20652",
+        "barcode": "7300009",
+        "name": "ROCCA",
+        "qty": 1.0,
+        "unit_price_lbp": 60000,
+        "total_lbp": 60000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "20651",
+        "barcode": "7300002",
+        "name": "FEGIL",
+        "qty": 1.0,
+        "unit_price_lbp": 60000,
+        "total_lbp": 60000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "15774",
+        "barcode": "7300003",
+        "name": "BA2DOUNIS",
+        "qty": 1.0,
+        "unit_price_lbp": 40000,
+        "total_lbp": 40000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "15775",
+        "barcode": "7300004",
+        "name": "KHASS",
+        "qty": 1.0,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "15776",
+        "barcode": "7300005",
+        "name": "ICEBERG KHASS",
+        "qty": 1.0,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "20650",
+        "barcode": "7300008",
+        "name": "NA3NA3",
+        "qty": 1.0,
+        "unit_price_lbp": 60000,
+        "total_lbp": 60000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
