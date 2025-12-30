@@ -1987,5 +1987,44 @@
         "delivery_account_number": ""
       }
     ]
+  },
+  {
+    "sale_id": "00000014",
+    "ts": "2025-12-30T11:34:07.592895",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 67500,
+      "vat_lbp": 0,
+      "net_lbp": 67500
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": "",
+      "delivery": null
+    },
+    "client": {
+      "name": "ELIE MRAD",
+      "mobile": "78806904",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "15754",
+        "barcode": "7100009",
+        "name": "FLAYFLE HARRA",
+        "qty": 0.45,
+        "unit_price_lbp": 150000,
+        "total_lbp": 67500,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
