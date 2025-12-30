@@ -2092,5 +2092,81 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000016",
+    "ts": "2025-12-30T21:32:32.245465",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 145000,
+      "vat_lbp": 0,
+      "net_lbp": 145000
+    },
+    "payment": {
+      "code": "CASH_USD",
+      "name": "Cash USD",
+      "currency": "USD",
+      "type": "cash",
+      "account_number": "",
+      "delivery": null,
+      "is_split": true,
+      "splits": [
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": 100.0,
+          "amount_lbp": 9000000.0,
+          "account_number": "",
+          "cash_received": null
+        },
+        {
+          "code": "ON_ACCOUNT",
+          "name": "On Account",
+          "type": "credit",
+          "currency": "LBP",
+          "amount": -8855000.0,
+          "amount_lbp": -8855000.0,
+          "account_number": "",
+          "cash_received": null
+        }
+      ],
+      "change_lbp": 0.0,
+      "change_usd": 0.0
+    },
+    "client": {
+      "name": "ELIE MRAD",
+      "mobile": "78806904",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "7348",
+        "barcode": "5287000256285",
+        "name": "AL WAFA BROWN BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 65000,
+        "total_lbp": 65000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7246",
+        "barcode": "5287000256261",
+        "name": "AL WAFA WHITE BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
