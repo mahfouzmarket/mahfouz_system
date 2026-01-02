@@ -291,5 +291,57 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000006",
+    "ts": "2026-01-02T10:21:52.354711",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 835000,
+      "vat_lbp": 0,
+      "net_lbp": 835000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": null,
+      "delivery": {
+        "name": "Firas",
+        "account_number": "",
+        "amount_ttc_lbp": 35000,
+        "ht_lbp": 31532,
+        "vat_lbp": 3468
+      }
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "2265",
+        "barcode": "5280320000002",
+        "name": "AL FORNO WHITE LARGE BREAD",
+        "qty": 10.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 800000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "-9999",
+        "barcode": "",
+        "name": "DELIVERY • Firas",
+        "qty": 1.0,
+        "unit_price_lbp": 35000,
+        "total_lbp": 35000,
+        "vat": true,
+        "is_delivery": true,
+        "delivery_name": "Firas",
+        "delivery_account_number": ""
+      }
+    ]
   }
 ]
