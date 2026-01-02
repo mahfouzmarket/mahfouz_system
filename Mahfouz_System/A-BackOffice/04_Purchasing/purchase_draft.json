@@ -6,7 +6,7 @@
         "supplierName": "DAIRY KHOURY USD",
         "invoiceDate": "2026-01-02T10:37:03.121898",
         "maturityDate": "2026-01-02T10:37:03.121898",
-        "invoiceNumber": "",
+        "invoiceNumber": "ret",
         "branch": "Medawar",
         "hasVat": true
       },
@@ -241,9 +241,30 @@
           "stockMedawarBefore": 26.0,
           "stockGeitawiAfter": 31.0,
           "stockMedawarAfter": 32.0
+        },
+        {
+          "productId": 2805,
+          "barcode": "5287000154055",
+          "description": "KHOURY LABAN BALADI 2KG",
+          "category": "FOOD",
+          "subCategory": "DAIRY PRODUCTS",
+          "unit": "-",
+          "qty": 1.0,
+          "costHtUsd": 3.8,
+          "vat": false,
+          "oldPriceLbp": 410000,
+          "suggestedPriceLbp": 430000,
+          "newPriceLbp": 410000,
+          "discountPercent": 0.0,
+          "discountAmountLbp": 0.0,
+          "expiryDate": null,
+          "stockGeitawiBefore": 4.0,
+          "stockMedawarBefore": 2.0,
+          "stockGeitawiAfter": 4.0,
+          "stockMedawarAfter": 3.0
         }
       ],
-      "createdAt": "2026-01-02T10:58:09.766291"
+      "createdAt": "2026-01-02T11:01:30.696170"
     },
     {
       "id": "SUPPLIER_RETURN_CURRENT",
@@ -259,5 +280,5 @@
       "createdAt": "2025-11-27T07:27:59.541304"
     }
   ],
-  "generatedAt": "2026-01-02T08:58:10.261327Z"
+  "generatedAt": "2026-01-02T09:01:31.205949Z"
 }
