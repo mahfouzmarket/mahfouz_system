@@ -441,5 +441,41 @@
     "type": "credit",
     "enabled": true,
     "order": 7
+  },
+  {
+    "code": "CASH_LBP",
+    "name": "Cash LBP",
+    "currency": "LBP",
+    "type": "cash",
+    "enabled": true,
+    "quick_cash": true,
+    "count_in_close": true,
+    "order": 1
+  },
+  {
+    "code": "CASH_USD",
+    "name": "Cash USD",
+    "currency": "USD",
+    "type": "cash",
+    "enabled": true,
+    "quick_cash": false,
+    "count_in_close": true,
+    "order": 2
+  },
+  {
+    "code": "WHISH_USD",
+    "name": "Whish USD",
+    "currency": "USD",
+    "type": "wallet",
+    "enabled": true,
+    "order": 7
+  },
+  {
+    "code": "AMEX_USD",
+    "name": "AMEX USD",
+    "currency": "USD",
+    "type": "card",
+    "enabled": true,
+    "order": 8
   }
 ]
