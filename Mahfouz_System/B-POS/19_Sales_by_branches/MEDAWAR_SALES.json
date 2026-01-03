@@ -343,5 +343,39 @@
         "delivery_account_number": ""
       }
     ]
+  },
+  {
+    "sale_id": "00000007",
+    "ts": "2026-01-03T19:51:26.956741",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 125000,
+      "vat_lbp": 0,
+      "net_lbp": 125000
+    },
+    "payment": {
+      "code": "VISA_USD",
+      "name": "VISA USD",
+      "currency": "USD",
+      "type": "card",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
