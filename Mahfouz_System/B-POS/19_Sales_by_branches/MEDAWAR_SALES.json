@@ -377,5 +377,88 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000008",
+    "ts": "2026-01-04T00:17:40.827661",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 190000,
+      "vat_lbp": 0,
+      "net_lbp": 190000
+    },
+    "payment": {
+      "code": "CASH_USD",
+      "name": "Cash USD",
+      "currency": "USD",
+      "type": "cash",
+      "account_number": "",
+      "delivery": null,
+      "is_split": true,
+      "splits": [
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": 100.0,
+          "amount_lbp": 9000000.0,
+          "account_number": ""
+        },
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": -90.0,
+          "amount_lbp": -8100000.0,
+          "account_number": ""
+        },
+        {
+          "code": "ON_ACCOUNT",
+          "name": "On Account",
+          "type": "credit",
+          "currency": "LBP",
+          "amount": -710000.0,
+          "amount_lbp": -710000.0,
+          "account_number": ""
+        }
+      ],
+      "change_lbp": 0.0,
+      "change_usd": 0.0
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "7348",
+        "barcode": "5287000256285",
+        "name": "AL WAFA BROWN BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 65000,
+        "total_lbp": 65000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
