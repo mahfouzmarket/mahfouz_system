@@ -375,5 +375,71 @@
     "type": "card",
     "enabled": true,
     "order": 5
+  },
+  {
+    "code": "CASH_USD",
+    "name": "Cash USD",
+    "currency": "USD",
+    "type": "cash",
+    "enabled": true,
+    "quick_cash": false,
+    "count_in_close": true,
+    "order": 0
+  },
+  {
+    "code": "VISA_USD",
+    "name": "VISA USD",
+    "currency": "USD",
+    "type": "card",
+    "enabled": true,
+    "order": 1
+  },
+  {
+    "code": "VISA_LBP",
+    "name": "VISA LBP",
+    "currency": "LBP",
+    "type": "card",
+    "enabled": true,
+    "order": 2
+  },
+  {
+    "code": "MC_USD",
+    "name": "MasterCard USD",
+    "currency": "USD",
+    "type": "card",
+    "enabled": true,
+    "order": 3
+  },
+  {
+    "code": "MC_LBP",
+    "name": "MasterCard LBP",
+    "currency": "LBP",
+    "type": "card",
+    "enabled": true,
+    "order": 4
+  },
+  {
+    "code": "WHISH_USD",
+    "name": "Whish USD",
+    "currency": "USD",
+    "type": "wallet",
+    "enabled": true,
+    "order": 5
+  },
+  {
+    "code": "AMEX_USD",
+    "name": "AMEX USD",
+    "currency": "USD",
+    "type": "card",
+    "enabled": true,
+    "order": 6
+  },
+  {
+    "code": "ON_ACCOUNT",
+    "name": "On Account",
+    "currency": "LBP",
+    "type": "credit",
+    "enabled": true,
+    "order": 7
   }
 ]
