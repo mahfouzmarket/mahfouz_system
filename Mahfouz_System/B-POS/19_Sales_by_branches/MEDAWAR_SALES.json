@@ -37,5 +37,67 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000002",
+    "ts": "2026-01-06T00:52:51.322115",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 8000000,
+      "vat_lbp": 0,
+      "net_lbp": 8000000
+    },
+    "payment": {
+      "code": "CASH_USD",
+      "name": "Cash USD",
+      "currency": "USD",
+      "type": "cash",
+      "account_number": "",
+      "delivery": null,
+      "is_split": true,
+      "splits": [
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": 100.0,
+          "amount_lbp": 9000000.0,
+          "account_number": ""
+        },
+        {
+          "code": "ON_ACCOUNT",
+          "name": "On Account",
+          "type": "credit",
+          "currency": "LBP",
+          "amount": -1000000.0,
+          "amount_lbp": -1000000.0,
+          "account_number": ""
+        }
+      ],
+      "change_lbp": 0.0,
+      "change_usd": 0.0
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "7246",
+        "barcode": "5287000256261",
+        "name": "AL WAFA WHITE BREAD LARGE",
+        "qty": 100.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 8000000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
