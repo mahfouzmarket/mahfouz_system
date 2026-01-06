@@ -99,5 +99,44 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000001",
+    "ts": "2026-01-06T11:38:45.239386",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 5000000,
+      "vat_lbp": 0,
+      "net_lbp": 5000000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": {
+      "name": "ELIE MRAD",
+      "mobile": "78806904",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "7304",
+        "barcode": "5280320000019",
+        "name": "AL FORNO WHITE SMALL BREAD",
+        "qty": 100.0,
+        "unit_price_lbp": 50000,
+        "total_lbp": 5000000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
