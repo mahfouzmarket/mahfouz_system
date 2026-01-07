@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "generatedAt": "2026-01-07T14:56:57.065492Z",
   "pages": {
     "global_journal": [
@@ -40,9 +40,45 @@
   "roles": {
     "owner": {
       "allow": [
-        "*",
+        "accounting",
+        "app_settings",
+        "backoffice_settings",
+        "blackbox",
+        "branchoverview",
+        "bulk_manage",
+        "clients",
         "global_journal",
-        "permissions"
+        "inoutmanagement",
+        "inventory_stock_center",
+        "nearexpirydate",
+        "permissions",
+        "pos",
+        "pos_drawer_balancing",
+        "pos_todays_journal",
+        "product_test",
+        "productsetup",
+        "purchasing",
+        "reports",
+        "returns_to_suppliers",
+        "salaries",
+        "scalesetup",
+        "settings_branches",
+        "settings_delivery_rules",
+        "settings_endofday",
+        "settings_exchange_rate",
+        "settings_lan_devices",
+        "settings_offers",
+        "settings_payment_accounts",
+        "settings_payment_methods",
+        "settings_taxes",
+        "settings_units",
+        "stockevaluation",
+        "suppliers",
+        "transactionviewer",
+        "transfer",
+        "users",
+        "view_invoices",
+        "waste"
       ]
     },
     "admin": {
@@ -98,6 +134,6 @@
       ]
     }
   },
-  "updatedAt": "2026-01-07T17:57:10.026407Z",
+  "updatedAt": "2026-01-07T18:05:36.681889Z",
   "updatedBy": "1"
 }
