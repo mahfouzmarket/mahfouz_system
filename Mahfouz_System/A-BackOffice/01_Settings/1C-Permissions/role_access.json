@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "generatedAt": "2026-01-07T14:56:57.065492Z",
   "pages": {
     "global_journal": [
@@ -76,8 +76,28 @@
         "view_invoices",
         "waste"
       ]
+    },
+    "cashier": {
+      "allow": [
+        "bulk_manage",
+        "clients",
+        "inoutmanagement",
+        "inventory_stock_center",
+        "nearexpirydate",
+        "pos",
+        "pos_drawer_balancing",
+        "pos_todays_journal",
+        "productsetup",
+        "purchasing",
+        "returns_to_suppliers",
+        "settings_endofday",
+        "suppliers",
+        "transfer",
+        "view_invoices",
+        "waste"
+      ]
     }
   },
-  "updatedAt": "2026-01-07T17:54:32.688833Z",
+  "updatedAt": "2026-01-07T17:57:10.026407Z",
   "updatedBy": "1"
 }
