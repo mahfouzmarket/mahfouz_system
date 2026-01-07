@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "generatedAt": "2026-01-07T14:56:57.065492Z",
   "pages": {
     "global_journal": [
@@ -44,8 +44,41 @@
         "global_journal",
         "permissions"
       ]
+    },
+    "admin": {
+      "allow": [
+        "accounting",
+        "app_settings",
+        "branchoverview",
+        "bulk_manage",
+        "clients",
+        "global_journal",
+        "inoutmanagement",
+        "inventory_stock_center",
+        "nearexpirydate",
+        "pos",
+        "pos_drawer_balancing",
+        "pos_todays_journal",
+        "productsetup",
+        "purchasing",
+        "returns_to_suppliers",
+        "scalesetup",
+        "settings_delivery_rules",
+        "settings_endofday",
+        "settings_exchange_rate",
+        "settings_offers",
+        "settings_payment_accounts",
+        "settings_payment_methods",
+        "settings_units",
+        "stockevaluation",
+        "suppliers",
+        "transfer",
+        "users",
+        "view_invoices",
+        "waste"
+      ]
     }
   },
-  "updatedAt": "2026-01-07T17:51:43.915960Z",
+  "updatedAt": "2026-01-07T17:54:23.463102Z",
   "updatedBy": "1"
 }
