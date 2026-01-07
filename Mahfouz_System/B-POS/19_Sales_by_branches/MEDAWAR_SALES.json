@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "sale_id": "00000001",
+    "ts": "2026-01-07T11:57:23.070333",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 80000,
+      "vat_lbp": 0,
+      "net_lbp": 80000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "13296",
+        "barcode": "5285002590017",
+        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
+  }
+]
