@@ -1,191 +1,43 @@
 {
-  "version": 11,
-  "generatedAt": "2026-01-07T14:56:57.065492Z",
-  "pages": {
-    "global_journal": [
-      "owner",
-      "admin"
-    ],
-    "users": [
-      "owner",
-      "admin"
-    ],
-    "settings": [
-      "owner",
-      "admin"
-    ],
-    "clients": [
-      "owner",
-      "admin",
-      "manager"
-    ],
-    "inout_management": [
-      "owner",
-      "admin",
-      "manager"
-    ],
-    "pos": [
-      "owner",
-      "admin",
-      "manager",
-      "cashier"
-    ],
-    "pos_todays_journal": [
-      "owner",
-      "admin",
-      "manager",
-      "cashier"
-    ]
-  },
+  "version": 1,
+  "updatedAt": "2026-01-07T21:28:07.774611Z",
+  "updatedBy": "system",
   "roles": {
     "owner": {
       "allow": [
-        "*",
-        "accounting",
-        "app_settings",
-        "backoffice_settings",
-        "blackbox",
-        "branchoverview",
-        "bulk_manage",
-        "clients",
-        "global_journal",
-        "inoutmanagement",
-        "inventory_stock_center",
-        "nearexpirydate",
-        "permissions",
-        "pos",
-        "pos_drawer_balancing",
-        "pos_todays_journal",
-        "product_test",
-        "productsetup",
-        "purchasing",
-        "reports",
-        "returns_to_suppliers",
-        "salaries",
-        "scalesetup",
-        "settings_branches",
-        "settings_delivery_rules",
-        "settings_endofday",
-        "settings_exchange_rate",
-        "settings_lan_devices",
-        "settings_offers",
-        "settings_payment_accounts",
-        "settings_payment_methods",
-        "settings_taxes",
-        "settings_units",
-        "stockevaluation",
-        "suppliers",
-        "transactionviewer",
-        "transfer",
-        "users",
-        "view_invoices",
-        "waste"
+        "*"
       ]
     },
     "admin": {
       "allow": [
-        "accounting",
-        "branchoverview",
-        "bulk_manage",
-        "clients",
-        "global_journal",
-        "inoutmanagement",
-        "inventory_stock_center",
-        "nearexpirydate",
-        "pos",
-        "pos_drawer_balancing",
-        "pos_todays_journal",
-        "productsetup",
-        "purchasing",
-        "returns_to_suppliers",
-        "route:/accounting",
-        "route:/backoffice",
-        "route:/backoffice/feature/bulk-manage",
-        "route:/backoffice/feature/clients",
-        "route:/backoffice/feature/global-journal",
-        "route:/backoffice/feature/inoutmanagement",
-        "route:/backoffice/feature/inventory-stock-center/inventory",
-        "route:/backoffice/feature/nearexpirydate",
-        "route:/backoffice/feature/productsetup",
-        "route:/backoffice/feature/purchasing",
-        "route:/backoffice/feature/returns_to_suppliers",
-        "route:/backoffice/feature/settings",
-        "route:/backoffice/feature/settings/delivery-rules",
-        "route:/backoffice/feature/settings/exchange-rate",
-        "route:/backoffice/feature/settings/offers",
-        "route:/backoffice/feature/settings/units",
-        "route:/backoffice/feature/stockevaluation",
-        "route:/backoffice/feature/suppliers",
-        "route:/backoffice/feature/transfer",
-        "route:/backoffice/feature/view_invoices",
-        "route:/backoffice/feature/waste",
         "route:/hub",
-        "route:/pos",
-        "route:/pos/feature/client-info",
-        "route:/pos/feature/drawer-balancing",
-        "route:/pos/feature/pay-receive",
-        "route:/pos/feature/print-last-transaction",
-        "route:/pos/feature/printers",
-        "route:/pos/feature/todays-journal",
-        "scalesetup",
-        "settings_delivery_rules",
-        "settings_endofday",
-        "settings_exchange_rate",
-        "settings_offers",
-        "settings_payment_accounts",
-        "settings_payment_methods",
-        "settings_units",
-        "stockevaluation",
-        "suppliers",
-        "transfer",
-        "users",
-        "view_invoices",
-        "waste"
+        "route:/backoffice/*",
+        "route:/pos/*",
+        "route:/accounting/*",
+        "route:/settings/*",
+        "route:/dev/*",
+        "permissions",
+        "global_journal"
+      ]
+    },
+    "manager": {
+      "allow": [
+        "route:/hub",
+        "route:/pos/*",
+        "route:/backoffice/*",
+        "global_journal"
       ]
     },
     "cashier": {
       "allow": [
-        "bulk_manage",
-        "clients",
-        "inoutmanagement",
-        "inventory_stock_center",
-        "nearexpirydate",
-        "pos",
-        "pos_drawer_balancing",
-        "pos_todays_journal",
-        "productsetup",
-        "purchasing",
-        "returns_to_suppliers",
-        "route:/backoffice",
-        "route:/backoffice/feature/bulk-manage",
-        "route:/backoffice/feature/clients",
-        "route:/backoffice/feature/inoutmanagement",
-        "route:/backoffice/feature/inventory-stock-center/inventory",
-        "route:/backoffice/feature/productsetup",
-        "route:/backoffice/feature/purchasing",
-        "route:/backoffice/feature/returns_to_suppliers",
-        "route:/backoffice/feature/suppliers",
-        "route:/backoffice/feature/transfer",
-        "route:/backoffice/feature/users",
-        "route:/backoffice/feature/view_invoices",
-        "route:/backoffice/feature/waste",
-        "route:/backoffice/settings/payment-methods",
         "route:/hub",
-        "route:/pos",
-        "route:/pos/feature/client-info",
-        "route:/pos/feature/drawer-balancing",
-        "route:/pos/feature/pay-receive",
-        "route:/pos/feature/print-last-transaction",
-        "route:/pos/feature/printers",
-        "route:/pos/feature/todays-journal",
-        "settings_endofday",
-        "suppliers",
-        "transfer",
-        "view_invoices",
-        "waste"
+        "route:/pos/*"
+      ]
+    },
+    "viewer": {
+      "allow": [
+        "route:/hub"
       ]
     }
-  },
-  "updatedAt": "2026-01-07T18:56:42.164657Z",
-  "updatedBy": "1"
+  }
 }
