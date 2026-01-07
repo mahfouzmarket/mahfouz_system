@@ -127,5 +127,44 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000004",
+    "ts": "2026-01-07T10:58:55.694005",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 100000,
+      "vat_lbp": 0,
+      "net_lbp": 100000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "7248",
+        "barcode": "5285002590055",
+        "name": "MOULIN D'OR BROWN BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
