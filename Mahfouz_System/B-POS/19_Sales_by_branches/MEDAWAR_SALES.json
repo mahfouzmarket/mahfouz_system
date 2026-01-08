@@ -1,81 +1,117 @@
 [
   {
     "sale_id": "00000001",
-    "ts": "2026-01-07T11:57:23.070333",
+    "ts": "2026-01-01T19:06:57.437210",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 80000,
+      "ht_lbp": 175000,
       "vat_lbp": 0,
-      "net_lbp": 80000
+      "net_lbp": 175000
     },
     "payment": {
       "code": "CASH_LBP",
       "name": "Cash LBP",
       "currency": "LBP",
       "type": "cash",
-      "account_number": null,
-      "delivery": null
+      "account_number": "",
+      "delivery": {
+        "name": "Abed",
+        "account_number": "",
+        "amount_ttc_lbp": 50000,
+        "ht_lbp": 45045,
+        "vat_lbp": 4955
+      }
     },
     "client": null,
     "items": [
       {
-        "id": "13296",
-        "barcode": "5285002590017",
-        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
         "qty": 1.0,
-        "unit_price_lbp": 80000,
-        "total_lbp": 80000,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
         "delivery_account_number": null
+      },
+      {
+        "id": "-9999",
+        "barcode": "",
+        "name": "DELIVERY • Abed",
+        "qty": 1.0,
+        "unit_price_lbp": 50000,
+        "total_lbp": 50000,
+        "vat": true,
+        "is_delivery": true,
+        "delivery_name": "Abed",
+        "delivery_account_number": ""
       }
     ]
   },
   {
     "sale_id": "00000002",
-    "ts": "2026-01-07T11:59:28.983313",
+    "ts": "2026-01-01T19:21:24.962643",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 80000,
+      "ht_lbp": 85000,
       "vat_lbp": 0,
-      "net_lbp": 80000
+      "net_lbp": 85000
     },
     "payment": {
       "code": "CASH_LBP",
       "name": "Cash LBP",
       "currency": "LBP",
       "type": "cash",
-      "account_number": null,
-      "delivery": null
+      "account_number": "",
+      "delivery": {
+        "name": "Abed",
+        "account_number": "",
+        "amount_ttc_lbp": 35000,
+        "ht_lbp": 31532,
+        "vat_lbp": 3468
+      }
     },
     "client": null,
     "items": [
       {
-        "id": "13296",
-        "barcode": "5285002590017",
-        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "id": "7304",
+        "barcode": "5280320000019",
+        "name": "AL FORNO WHITE SMALL BREAD",
         "qty": 1.0,
-        "unit_price_lbp": 80000,
-        "total_lbp": 80000,
+        "unit_price_lbp": 50000,
+        "total_lbp": 50000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
         "delivery_account_number": null
+      },
+      {
+        "id": "-9999",
+        "barcode": "",
+        "name": "DELIVERY • Abed",
+        "qty": 1.0,
+        "unit_price_lbp": 35000,
+        "total_lbp": 35000,
+        "vat": true,
+        "is_delivery": true,
+        "delivery_name": "Abed",
+        "delivery_account_number": ""
       }
     ]
   },
   {
     "sale_id": "00000003",
-    "ts": "2026-01-07T12:01:30.589439",
+    "ts": "2026-01-01T21:27:53.037004",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 160000,
+      "ht_lbp": 275000,
       "vat_lbp": 0,
-      "net_lbp": 160000
+      "net_lbp": 275000
     },
     "payment": {
       "code": "CASH_LBP",
@@ -88,12 +124,36 @@
     "client": null,
     "items": [
       {
-        "id": "13296",
-        "barcode": "5285002590017",
-        "name": "MOULIN D'OR WHITE LARGE BREAD",
-        "qty": 2.0,
-        "unit_price_lbp": 80000,
-        "total_lbp": 160000,
+        "id": "7248",
+        "barcode": "5285002590055",
+        "name": "MOULIN D'OR BROWN BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7304",
+        "barcode": "5280320000019",
+        "name": "AL FORNO WHITE SMALL BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 50000,
+        "total_lbp": 50000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
@@ -103,31 +163,60 @@
   },
   {
     "sale_id": "00000004",
-    "ts": "2026-01-07T12:05:18.341882",
+    "ts": "2026-01-01T21:28:12.259567",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 240000,
+      "ht_lbp": 225000,
       "vat_lbp": 0,
-      "net_lbp": 240000
+      "net_lbp": 225000
     },
     "payment": {
-      "code": "CASH_LBP",
-      "name": "Cash LBP",
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
       "currency": "LBP",
-      "type": "cash",
+      "type": "credit",
       "account_number": null,
       "delivery": null
     },
-    "client": null,
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
     "items": [
       {
-        "id": "13296",
-        "barcode": "5285002590017",
-        "name": "MOULIN D'OR WHITE LARGE BREAD",
-        "qty": 3.0,
+        "id": "2208",
+        "barcode": "5285002590024-5287000256278",
+        "name": "AL WAFA WHITE BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 65000,
+        "total_lbp": 65000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7246",
+        "barcode": "5287000256261",
+        "name": "AL WAFA WHITE BREAD LARGE",
+        "qty": 1.0,
         "unit_price_lbp": 80000,
-        "total_lbp": 240000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "2265",
+        "barcode": "5280320000002",
+        "name": "AL FORNO WHITE LARGE BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
@@ -137,7 +226,7 @@
   },
   {
     "sale_id": "00000005",
-    "ts": "2026-01-07T12:05:50.141783",
+    "ts": "2026-01-02T09:55:41.704454",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
@@ -171,13 +260,13 @@
   },
   {
     "sale_id": "00000006",
-    "ts": "2026-01-07T12:16:00.148110",
+    "ts": "2026-01-02T10:21:52.354711",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 240000,
+      "ht_lbp": 835000,
       "vat_lbp": 0,
-      "net_lbp": 240000
+      "net_lbp": 835000
     },
     "payment": {
       "code": "CASH_LBP",
@@ -185,17 +274,69 @@
       "currency": "LBP",
       "type": "cash",
       "account_number": null,
+      "delivery": {
+        "name": "Firas",
+        "account_number": "",
+        "amount_ttc_lbp": 35000,
+        "ht_lbp": 31532,
+        "vat_lbp": 3468
+      }
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "2265",
+        "barcode": "5280320000002",
+        "name": "AL FORNO WHITE LARGE BREAD",
+        "qty": 10.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 800000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "-9999",
+        "barcode": "",
+        "name": "DELIVERY • Firas",
+        "qty": 1.0,
+        "unit_price_lbp": 35000,
+        "total_lbp": 35000,
+        "vat": true,
+        "is_delivery": true,
+        "delivery_name": "Firas",
+        "delivery_account_number": ""
+      }
+    ]
+  },
+  {
+    "sale_id": "00000007",
+    "ts": "2026-01-03T19:51:26.956741",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 125000,
+      "vat_lbp": 0,
+      "net_lbp": 125000
+    },
+    "payment": {
+      "code": "VISA_USD",
+      "name": "VISA USD",
+      "currency": "USD",
+      "type": "card",
+      "account_number": null,
       "delivery": null
     },
     "client": null,
     "items": [
       {
-        "id": "13296",
-        "barcode": "5285002590017",
-        "name": "MOULIN D'OR WHITE LARGE BREAD",
-        "qty": 3.0,
-        "unit_price_lbp": 80000,
-        "total_lbp": 240000,
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
@@ -204,101 +345,137 @@
     ]
   },
   {
-    "sale_id": "00000007",
-    "ts": "2026-01-07T12:34:40.859349",
+    "sale_id": "00000008",
+    "ts": "2026-01-04T00:17:40.827661",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 720000,
+      "ht_lbp": 190000,
       "vat_lbp": 0,
-      "net_lbp": 720000
+      "net_lbp": 190000
     },
     "payment": {
-      "code": "ON_ACCOUNT",
-      "name": "On Account",
-      "currency": "LBP",
-      "type": "credit",
-      "account_number": null,
-      "delivery": null
+      "code": "CASH_USD",
+      "name": "Cash USD",
+      "currency": "USD",
+      "type": "cash",
+      "account_number": "",
+      "delivery": null,
+      "is_split": true,
+      "splits": [
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": 100.0,
+          "amount_lbp": 9000000.0,
+          "account_number": ""
+        },
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": -90.0,
+          "amount_lbp": -8100000.0,
+          "account_number": ""
+        },
+        {
+          "code": "ON_ACCOUNT",
+          "name": "On Account",
+          "type": "credit",
+          "currency": "LBP",
+          "amount": -710000.0,
+          "amount_lbp": -710000.0,
+          "account_number": ""
+        }
+      ],
+      "change_lbp": 0.0,
+      "change_usd": 0.0
     },
     "client": {
-      "name": "ELIE MRAD",
-      "mobile": "78806904",
+      "name": "elie market",
+      "mobile": "76774441",
       "coa": "",
       "on_acc": "CREDIT"
     },
     "items": [
       {
-        "id": "13296",
-        "barcode": "5285002590017",
-        "name": "MOULIN D'OR WHITE LARGE BREAD",
-        "qty": 9.0,
-        "unit_price_lbp": 80000,
-        "total_lbp": 720000,
+        "id": "7348",
+        "barcode": "5287000256285",
+        "name": "AL WAFA BROWN BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 65000,
+        "total_lbp": 65000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
         "delivery_account_number": null
-      }
-    ],
-    "edited": true,
-    "edited_at": "2026-01-07T12:35:18.208747",
-    "edited_by": "1"
-  },
-  {
-    "sale_id": "00000008",
-    "ts": "2026-01-07T12:37:34.755412",
-    "branch": "Medawar",
-    "user_code": "1",
-    "totals": {
-      "ht_lbp": 2000000,
-      "vat_lbp": 0,
-      "net_lbp": 2000000
-    },
-    "payment": {
-      "code": "CASH_LBP",
-      "name": "Cash LBP",
-      "currency": "LBP",
-      "type": "cash",
-      "account_number": null,
-      "delivery": null
-    },
-    "client": null,
-    "items": [
+      },
       {
-        "id": "12962",
-        "barcode": "",
-        "name": "TANNOURINE WATER 2L x 6 pcs",
-        "qty": 10.0,
-        "unit_price_lbp": 200000,
-        "total_lbp": 2000000,
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
         "delivery_account_number": null
       }
-    ],
-    "edited": true,
-    "edited_at": "2026-01-07T13:34:26.941973",
-    "edited_by": "1"
+    ]
   },
   {
     "sale_id": "00000009",
-    "ts": "2026-01-07T12:42:43.517678",
+    "ts": "2026-01-04T01:21:22.021005",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 65000,
+      "ht_lbp": 275000,
       "vat_lbp": 0,
-      "net_lbp": 65000
+      "net_lbp": 275000
     },
     "payment": {
-      "code": "CASH_LBP",
-      "name": "Cash LBP",
-      "currency": "LBP",
+      "code": "CASH_USD",
+      "name": "Cash USD",
+      "currency": "USD",
       "type": "cash",
-      "account_number": null,
-      "delivery": null
+      "account_number": "",
+      "delivery": null,
+      "is_split": true,
+      "splits": [
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": 100.0,
+          "amount_lbp": 9000000.0,
+          "account_number": ""
+        },
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": -90.0,
+          "amount_lbp": -8100000.0,
+          "account_number": ""
+        },
+        {
+          "code": "CASH_LBP",
+          "name": "Cash LBP",
+          "type": "cash",
+          "currency": "LBP",
+          "amount": -625000.0,
+          "amount_lbp": -625000.0,
+          "account_number": ""
+        }
+      ],
+      "change_lbp": 0.0,
+      "change_usd": 0.0
     },
     "client": null,
     "items": [
@@ -313,58 +490,140 @@
         "is_delivery": false,
         "delivery_name": null,
         "delivery_account_number": null
+      },
+      {
+        "id": "7246",
+        "barcode": "5287000256261",
+        "name": "AL WAFA WHITE BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "2265",
+        "barcode": "5280320000002",
+        "name": "AL FORNO WHITE LARGE BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7304",
+        "barcode": "5280320000019",
+        "name": "AL FORNO WHITE SMALL BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 50000,
+        "total_lbp": 50000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
       }
-    ],
-    "edited": true,
-    "edited_at": "2026-01-07T12:43:20.592365",
-    "edited_by": "1"
+    ]
   },
   {
     "sale_id": "00000010",
-    "ts": "2026-01-07T13:10:01.751086",
+    "ts": "2026-01-04T01:22:01.177824",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 65000,
+      "ht_lbp": 305000,
       "vat_lbp": 0,
-      "net_lbp": 65000
+      "net_lbp": 305000
     },
     "payment": {
-      "code": "CASH_LBP",
-      "name": "Cash LBP",
-      "currency": "LBP",
+      "code": "CASH_USD",
+      "name": "Cash USD",
+      "currency": "USD",
       "type": "cash",
-      "account_number": null,
-      "delivery": null
+      "account_number": "",
+      "delivery": null,
+      "is_split": true,
+      "splits": [
+        {
+          "code": "CASH_USD",
+          "name": "Cash USD",
+          "type": "cash",
+          "currency": "USD",
+          "amount": 50.0,
+          "amount_lbp": 4500000.0,
+          "account_number": ""
+        },
+        {
+          "code": "ON_ACCOUNT",
+          "name": "On Account",
+          "type": "credit",
+          "currency": "LBP",
+          "amount": -4195000.0,
+          "amount_lbp": -4195000.0,
+          "account_number": ""
+        }
+      ],
+      "change_lbp": 0.0,
+      "change_usd": 0.0
     },
-    "client": null,
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
     "items": [
       {
-        "id": "7348",
-        "barcode": "5287000256285",
-        "name": "AL WAFA BROWN BREAD SMALL",
+        "id": "7248",
+        "barcode": "5285002590055",
+        "name": "MOULIN D'OR BROWN BREAD SMALL",
         "qty": 1.0,
-        "unit_price_lbp": 65000,
-        "total_lbp": 65000,
+        "unit_price_lbp": 100000,
+        "total_lbp": 100000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7247",
+        "barcode": "5285002590048",
+        "name": "MOULIN D'OR BROWN BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 125000,
+        "total_lbp": 125000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "13296",
+        "barcode": "5285002590017",
+        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
         "delivery_account_number": null
       }
-    ],
-    "edited": true,
-    "edited_at": "2026-01-07T13:10:41.498572",
-    "edited_by": "1"
+    ]
   },
   {
     "sale_id": "00000011",
-    "ts": "2026-01-07T13:13:06.376168",
+    "ts": "2026-01-08T14:39:45.559395",
     "branch": "Medawar",
     "user_code": "1",
     "totals": {
-      "ht_lbp": 65000,
+      "ht_lbp": 960000,
       "vat_lbp": 0,
-      "net_lbp": 65000
+      "net_lbp": 960000
     },
     "payment": {
       "code": "CASH_LBP",
@@ -377,21 +636,18 @@
     "client": null,
     "items": [
       {
-        "id": "7348",
-        "barcode": "5287000256285",
-        "name": "AL WAFA BROWN BREAD SMALL",
-        "qty": 1.0,
-        "unit_price_lbp": 65000,
-        "total_lbp": 65000,
+        "id": "13296",
+        "barcode": "5285002590017",
+        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "qty": 12.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 960000,
         "vat": true,
         "is_delivery": false,
         "delivery_name": null,
         "delivery_account_number": null
       }
-    ],
-    "edited": true,
-    "edited_at": "2026-01-07T13:32:30.278597",
-    "edited_by": "1"
+    ]
   },
   {
     "sale_id": "00000012",
