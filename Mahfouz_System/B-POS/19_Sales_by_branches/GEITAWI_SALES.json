@@ -1,1 +1,109 @@
-[]
+[
+  {
+    "sale_id": "00000001",
+    "ts": "2026-01-01T08:08:18.568858",
+    "branch": "Geitawi",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 50000,
+      "vat_lbp": 0,
+      "net_lbp": 50000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": "",
+      "delivery": null
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "7304",
+        "barcode": "5280320000019",
+        "name": "AL FORNO WHITE SMALL BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 50000,
+        "total_lbp": 50000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
+  },
+  {
+    "sale_id": "00000002",
+    "ts": "2026-01-01T14:27:12.797625",
+    "branch": "Geitawi",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 65000,
+      "vat_lbp": 0,
+      "net_lbp": 65000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": "",
+      "delivery": null
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "2208",
+        "barcode": "5285002590024-5287000256278",
+        "name": "AL WAFA WHITE BREAD SMALL",
+        "qty": 1.0,
+        "unit_price_lbp": 65000,
+        "total_lbp": 65000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
+  },
+  {
+    "sale_id": "00000003",
+    "ts": "2026-01-08T15:03:17.199353",
+    "branch": "Geitawi",
+    "user_code": "20",
+    "totals": {
+      "ht_lbp": 80000,
+      "vat_lbp": 0,
+      "net_lbp": 80000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "13296",
+        "barcode": "5285002590017",
+        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
+  }
+]
