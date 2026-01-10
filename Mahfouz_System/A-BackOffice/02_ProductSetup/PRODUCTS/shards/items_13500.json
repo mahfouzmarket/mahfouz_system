@@ -1716,9 +1716,9 @@
       "offers": "-",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "71",
-      "total_stock": "0",
+      "total_stock": "-1.0",
       "total_consumption": "76",
       "VAT": "NO",
       "price_lbp": "480,000",
@@ -1728,7 +1728,17 @@
       "new_items": "",
       "manual": "1",
       "delivery_rules": "0.45",
-      "pcs_in_box": "6"
+      "pcs_in_box": "6",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "5.0"
+        },
+        "Medawar": {
+          "stock": "-1.0",
+          "consumption": "71.0"
+        }
+      }
     },
     {
       "id": "13825",
