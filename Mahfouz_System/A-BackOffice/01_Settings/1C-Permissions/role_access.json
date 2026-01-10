@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updatedAt": "2026-01-10T14:43:38.917315Z",
+  "version": 5,
+  "updatedAt": "2026-01-10T14:46:56.367033Z",
   "updatedBy": "1",
   "roles": {
     "owner": {
@@ -24,14 +24,16 @@
     },
     "manager": {
       "allow": [
-        "route:/hub",
-        "route:/pos/*",
+        "global_journal",
+        "route:/backoffice",
         "route:/backoffice/*",
-        "global_journal"
+        "route:/hub",
+        "route:/pos/*"
       ]
     },
     "cashier": {
       "allow": [
+        "route:/backoffice",
         "route:/hub",
         "route:/pos/*"
       ]
