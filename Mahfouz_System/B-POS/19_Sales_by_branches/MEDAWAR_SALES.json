@@ -439,5 +439,63 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000010",
+    "ts": "2026-01-12T00:40:17.533911",
+    "branch": "Medawar",
+    "user_code": "30",
+    "totals": {
+      "ht_lbp": 210000,
+      "vat_lbp": 0,
+      "net_lbp": 210000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": "53120061",
+      "delivery": null
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "7246",
+        "barcode": "5287000256261",
+        "name": "AL WAFA WHITE BREAD LARGE",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "2265",
+        "barcode": "5280320000002",
+        "name": "AL FORNO WHITE LARGE BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 80000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "7304",
+        "barcode": "5280320000019",
+        "name": "AL FORNO WHITE SMALL BREAD",
+        "qty": 1.0,
+        "unit_price_lbp": 50000,
+        "total_lbp": 50000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
