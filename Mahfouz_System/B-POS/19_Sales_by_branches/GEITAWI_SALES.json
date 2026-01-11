@@ -126,5 +126,44 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000003",
+    "ts": "2026-01-12T00:42:55.242493",
+    "branch": "Geitawi",
+    "user_code": "50",
+    "totals": {
+      "ht_lbp": 8000000,
+      "vat_lbp": 0,
+      "net_lbp": 8000000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": {
+      "name": "ELIE MRAD",
+      "mobile": "78806904",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "13296",
+        "barcode": "5285002590017",
+        "name": "MOULIN D'OR WHITE LARGE BREAD",
+        "qty": 100.0,
+        "unit_price_lbp": 80000,
+        "total_lbp": 8000000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
