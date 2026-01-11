@@ -497,5 +497,56 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000011",
+    "ts": "2026-01-12T00:46:30.139597",
+    "branch": "Medawar",
+    "user_code": "40",
+    "totals": {
+      "ht_lbp": 400000,
+      "vat_lbp": 0,
+      "net_lbp": 400000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "12963",
+        "barcode": "",
+        "name": "TANNOURINE WATER 0.5 x 12 pcs",
+        "qty": 1.0,
+        "unit_price_lbp": 200000,
+        "total_lbp": 200000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "12962",
+        "barcode": "",
+        "name": "TANNOURINE WATER 2L x 6 pcs",
+        "qty": 1.0,
+        "unit_price_lbp": 200000,
+        "total_lbp": 200000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
