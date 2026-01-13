@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-01-12T21:38:57.433263Z",
+  "version": 3,
+  "updatedAt": "2026-01-13T11:02:31.565735Z",
   "updatedBy": "1",
   "roles": {
     "owner": {
@@ -10,6 +10,7 @@
     },
     "admin": {
       "allow": [
+        "*",
         "global_journal",
         "permissions",
         "route:/accounting/*",
@@ -22,6 +23,7 @@
     },
     "manager": {
       "allow": [
+        "*",
         "global_journal",
         "route:/backoffice/*",
         "route:/hub",
@@ -30,6 +32,7 @@
     },
     "cashier": {
       "allow": [
+        "*",
         "global_journal",
         "route:/backoffice/*",
         "route:/hub",
@@ -39,6 +42,7 @@
     },
     "viewer": {
       "allow": [
+        "*",
         "route:/hub"
       ]
     }
