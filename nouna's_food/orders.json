@@ -2135,5 +2135,43 @@
       "notTaken5mSentAt": null,
       "assignedDriverSentAt": null
     }
+  },
+  {
+    "orderId": "ord-1768656704632",
+    "ts": "2026-01-17T13:31:44.632140Z",
+    "createdAt": "2026-01-17T13:31:44.632140Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2026-01-17T13:31:44.632140Z"
+      }
+    ],
+    "customer": {
+      "name": "alber",
+      "phone": "81271961",
+      "address": "s\nd, s, Floor 5, Elevator",
+      "location": "https://www.google.com/maps?q=33.893871,35.528486"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "90021",
+        "name": "NF Almond Croissant",
+        "qty": 2,
+        "unitUsd": 2.22,
+        "totalUsd": 4.44,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID90021.jpg"
+      }
+    ],
+    "totalUsd": 5.0,
+    "totalLbp": 450000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
