@@ -1429,5 +1429,51 @@
       "notTaken5mSentAt": null,
       "assignedDriverSentAt": null
     }
+  },
+  {
+    "orderId": "ord-1768639860335",
+    "ts": "2026-01-17T08:51:00.335948Z",
+    "createdAt": "2026-01-17T08:51:00.335948Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2026-01-17T08:51:00.335948Z"
+      }
+    ],
+    "customer": {
+      "name": "فراس شعيب",
+      "phone": "71067636",
+      "address": "فارس ماضي\nمقابل جامع, كرنتينا, Floor 0, No Elevator",
+      "location": "https://www.google.com/maps?q=33.900877,35.527894"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "20714",
+        "name": "NF DRAGEE ALMOND MIX NT 230G",
+        "qty": 1,
+        "unitUsd": 10.0,
+        "totalUsd": 10.0,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20714.jpg"
+      },
+      {
+        "id": "20610",
+        "name": "NF DRAGE PECAN NT 70G",
+        "qty": 1,
+        "unitUsd": 4.5,
+        "totalUsd": 4.5,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20610.jpg"
+      }
+    ],
+    "totalUsd": 16.4,
+    "totalLbp": 1475000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
