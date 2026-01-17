@@ -1345,5 +1345,51 @@
     "driverLateNotifiedAt": "",
     "pickedUpAt": "2026-01-16T10:34:45.803754Z",
     "deliveredAt": "2026-01-16T10:34:49.480134Z"
+  },
+  {
+    "orderId": "ord-1768639716921",
+    "ts": "2026-01-17T08:48:36.921594Z",
+    "createdAt": "2026-01-17T08:48:36.921594Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2026-01-17T08:48:36.921594Z"
+      }
+    ],
+    "customer": {
+      "name": "فراس شعيب",
+      "phone": "71067636",
+      "address": "العمل\nسنيغال, عواد, الطابق 2, بدون مصعد",
+      "location": "https://www.google.com/maps?q=33.900877,35.527894"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "20601",
+        "name": "NF CHRISTMAS CHOCO DRAGE NT 45G",
+        "qty": 1,
+        "unitUsd": 2.22,
+        "totalUsd": 2.22,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20601.jpg"
+      },
+      {
+        "id": "20626",
+        "name": "NF CHRISTMAS GIFT",
+        "qty": 1,
+        "unitUsd": 3.89,
+        "totalUsd": 3.89,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20626.jpg"
+      }
+    ],
+    "totalUsd": 8.01,
+    "totalLbp": 720000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
