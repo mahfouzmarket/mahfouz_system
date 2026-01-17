@@ -90,19 +90,14 @@
       "net_lbp": 65000
     },
     "payment": {
-      "code": "ON_ACCOUNT",
-      "name": "On Account",
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
       "currency": "LBP",
-      "type": "credit",
+      "type": "cash",
       "account_number": null,
       "delivery": null
     },
-    "client": {
-      "name": "ELIE MRAD",
-      "mobile": "78806904",
-      "coa": "",
-      "on_acc": "CREDIT"
-    },
+    "client": null,
     "items": [
       {
         "id": "7348",
@@ -116,6 +111,9 @@
         "delivery_name": null,
         "delivery_account_number": null
       }
-    ]
+    ],
+    "edited": true,
+    "edited_at": "2026-01-17T23:22:56.761099",
+    "edited_by": "1"
   }
 ]
