@@ -32,5 +32,51 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000002-30-M",
+    "ts": "2026-01-17T22:54:34.890609",
+    "branch": "Medawar",
+    "user_code": "30",
+    "totals": {
+      "ht_lbp": 500000,
+      "vat_lbp": 0,
+      "net_lbp": 500000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "15745",
+        "barcode": "7100001",
+        "name": "BANADOURA",
+        "qty": 1.0,
+        "unit_price_lbp": 150000,
+        "total_lbp": 150000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      },
+      {
+        "id": "20654",
+        "barcode": "7100017",
+        "name": "BANADOURA JABALIYEH",
+        "qty": 1.0,
+        "unit_price_lbp": 350000,
+        "total_lbp": 350000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
