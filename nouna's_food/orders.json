@@ -2728,5 +2728,51 @@
     "driverLateNotifiedAt": "",
     "pickedUpAt": "2026-01-18T14:57:57.316424Z",
     "deliveredAt": "2026-01-18T14:58:01.023638Z"
+  },
+  {
+    "orderId": "ord-1768748407356",
+    "ts": "2026-01-18T15:00:07.356364Z",
+    "createdAt": "2026-01-18T15:00:07.356364Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2026-01-18T15:00:07.356364Z"
+      }
+    ],
+    "customer": {
+      "name": "alber",
+      "phone": "81271961",
+      "address": "s\nd, s, Floor 5, Elevator",
+      "location": "https://www.google.com/maps?q=33.893871,35.528486"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "17252",
+        "name": "CHEESE CAKE RASBERRY",
+        "qty": 3,
+        "unitUsd": 2.78,
+        "totalUsd": 8.34,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17252.jpg"
+      },
+      {
+        "id": "19248",
+        "name": "CHOCO BAG NT 100G",
+        "qty": 2,
+        "unitUsd": 2.22,
+        "totalUsd": 4.44,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19248.jpg"
+      }
+    ],
+    "totalUsd": 12.78,
+    "totalLbp": 1150000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
