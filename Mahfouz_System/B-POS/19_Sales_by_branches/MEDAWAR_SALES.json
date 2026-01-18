@@ -258,5 +258,44 @@
         "delivery_account_number": ""
       }
     ]
+  },
+  {
+    "sale_id": "00000007-1-M",
+    "ts": "2026-01-18T13:13:02.814705",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 360000,
+      "vat_lbp": 0,
+      "net_lbp": 360000
+    },
+    "payment": {
+      "code": "ON_ACCOUNT",
+      "name": "On Account",
+      "currency": "LBP",
+      "type": "credit",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": {
+      "name": "elie market",
+      "mobile": "76774441",
+      "coa": "",
+      "on_acc": "CREDIT"
+    },
+    "items": [
+      {
+        "id": "20650",
+        "barcode": "7300008",
+        "name": "NA3NA3",
+        "qty": 6.0,
+        "unit_price_lbp": 60000,
+        "total_lbp": 360000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
