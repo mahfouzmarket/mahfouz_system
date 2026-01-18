@@ -2295,5 +2295,51 @@
     "driverAckAt": "2026-01-17T13:41:33.376759Z",
     "pickedUpAt": "2026-01-17T13:41:36.273586Z",
     "deliveredAt": "2026-01-17T13:41:39.635575Z"
+  },
+  {
+    "orderId": "ord-1768727852192",
+    "ts": "2026-01-18T09:17:32.192093Z",
+    "createdAt": "2026-01-18T09:17:32.192093Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2026-01-18T09:17:32.192093Z"
+      }
+    ],
+    "customer": {
+      "name": "zeina",
+      "phone": "76105833",
+      "address": "jdaideh\nel assaily, ms, Floor 4, Elevator · Forum De Beirut Pedestrian Bridge, Bayrut, Lebanon",
+      "location": "https://www.google.com/maps?q=33.898212815761596,35.53234465420246"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "16653",
+        "name": "CUSTARD CHOCOLATE",
+        "qty": 1,
+        "unitUsd": 1.67,
+        "totalUsd": 1.67,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16653.jpg"
+      },
+      {
+        "id": "16995",
+        "name": "FATTOUCH SALAD",
+        "qty": 1,
+        "unitUsd": 3.89,
+        "totalUsd": 3.89,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16995.jpg"
+      }
+    ],
+    "totalUsd": 9.01,
+    "totalLbp": 810000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
