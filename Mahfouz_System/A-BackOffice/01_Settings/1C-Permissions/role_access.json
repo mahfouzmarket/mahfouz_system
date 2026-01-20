@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "updatedAt": "2026-01-17T12:45:44.259602Z",
-  "updatedBy": "system",
+  "version": 2,
+  "updatedAt": "2026-01-20T13:16:49.281457Z",
+  "updatedBy": "1",
   "roles": {
     "owner": {
       "allow": [
@@ -10,22 +10,23 @@
     },
     "admin": {
       "allow": [
-        "route:/hub",
-        "route:/backoffice/*",
-        "route:/pos/*",
-        "route:/accounting/*",
-        "route:/settings/*",
-        "route:/dev/*",
+        "global_journal",
         "permissions",
-        "global_journal"
+        "route:/accounting/*",
+        "route:/backoffice/*",
+        "route:/dev/*",
+        "route:/hub",
+        "route:/pos/*",
+        "route:/settings/*"
       ]
     },
     "manager": {
       "allow": [
-        "route:/hub",
-        "route:/pos/*",
+        "*",
+        "global_journal",
         "route:/backoffice/*",
-        "global_journal"
+        "route:/hub",
+        "route:/pos/*"
       ]
     },
     "cashier": {
