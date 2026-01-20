@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-01-20T13:16:49.281457Z",
+  "version": 4,
+  "updatedAt": "2026-01-20T13:21:13.917063Z",
   "updatedBy": "1",
   "roles": {
     "owner": {
@@ -22,11 +22,16 @@
     },
     "manager": {
       "allow": [
-        "*",
         "global_journal",
+        "permissions",
+        "route:/accounting/*",
         "route:/backoffice/*",
+        "route:/dev/*",
         "route:/hub",
-        "route:/pos/*"
+        "route:/login",
+        "route:/no-access",
+        "route:/pos/*",
+        "route:/settings/*"
       ]
     },
     "cashier": {
