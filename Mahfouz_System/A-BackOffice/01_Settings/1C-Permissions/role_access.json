@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updatedAt": "2026-01-20T13:21:13.917063Z",
+  "version": 5,
+  "updatedAt": "2026-01-20T13:22:17.569809Z",
   "updatedBy": "1",
   "roles": {
     "owner": {
@@ -22,6 +22,7 @@
     },
     "manager": {
       "allow": [
+        "*",
         "global_journal",
         "permissions",
         "route:/accounting/*",
