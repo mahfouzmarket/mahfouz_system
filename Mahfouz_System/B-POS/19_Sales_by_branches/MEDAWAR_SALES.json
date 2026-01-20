@@ -370,5 +370,39 @@
         "delivery_account_number": null
       }
     ]
+  },
+  {
+    "sale_id": "00000010-1-M",
+    "ts": "2026-01-20T03:56:59.287530",
+    "branch": "Medawar",
+    "user_code": "1",
+    "totals": {
+      "ht_lbp": 20000000,
+      "vat_lbp": 0,
+      "net_lbp": 20000000
+    },
+    "payment": {
+      "code": "CASH_LBP",
+      "name": "Cash LBP",
+      "currency": "LBP",
+      "type": "cash",
+      "account_number": null,
+      "delivery": null
+    },
+    "client": null,
+    "items": [
+      {
+        "id": "12962",
+        "barcode": "",
+        "name": "TANNOURINE WATER 2L x 6 pcs",
+        "qty": 100.0,
+        "unit_price_lbp": 200000,
+        "total_lbp": 20000000,
+        "vat": true,
+        "is_delivery": false,
+        "delivery_name": null,
+        "delivery_account_number": null
+      }
+    ]
   }
 ]
