@@ -5573,5 +5573,51 @@
       "notTaken5mSentAt": null,
       "assignedDriverSentAt": null
     }
+  },
+  {
+    "orderId": "ord-1770981905313",
+    "ts": "2026-02-13T11:25:05.313044Z",
+    "createdAt": "2026-02-13T11:25:05.313044Z",
+    "brand": "nounas_food",
+    "branch": "Geitawi",
+    "status": "NEW",
+    "statusHistory": [
+      {
+        "status": "NEW",
+        "at": "2026-02-13T11:25:05.313044Z"
+      }
+    ],
+    "customer": {
+      "name": "maher",
+      "phone": "70202859",
+      "address": "home\nrehban, rehban, Floor 5, No Elevator",
+      "location": "https://www.google.com/maps?q=33.900865,35.527884"
+    },
+    "pickup": false,
+    "items": [
+      {
+        "id": "20291",
+        "name": "NF HALLOUM SALAD",
+        "qty": 1,
+        "unitUsd": 5.0,
+        "totalUsd": 5.0,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20291.jpg"
+      },
+      {
+        "id": "16952",
+        "name": "TUNA PASTA SALAD",
+        "qty": 1,
+        "unitUsd": 5.56,
+        "totalUsd": 5.56,
+        "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16952.jpg"
+      }
+    ],
+    "totalUsd": 11.17,
+    "totalLbp": 1000000,
+    "notifs": {
+      "newOrderSentAt": null,
+      "notTaken5mSentAt": null,
+      "assignedDriverSentAt": null
+    }
   }
 ]
