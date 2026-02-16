@@ -76,11 +76,19 @@ jobs:
           function pickCustomerName(o) {
             const c = o.customer || {};
             const name =
+              String(o.customer_name || '').trim() ||
               String(c.name || '').trim() ||
               String(c.fullName || '').trim() ||
               String(o.customerName || '').trim() ||
               String(o.name || '').trim();
             return name || 'Customer';
+          }
+
+          function pickDriverName(o) {
+            const n =
+              String(o.delivery_man_name || '').trim() ||
+              String(o.driverName || '').trim();
+            return n || 'Driver';
           }
 
           function shortAddrFromOrder(o) {
@@ -166,20 +174,22 @@ jobs:
               });
             }
 
-            // ✅ Delivery assigned (NO orderId in title/body)
+            // ✅ Delivery assigned (UPDATED TEXT)
             for (const o of assignedNow) {
               const name = pickCustomerName(o);
+              const driverName = pickDriverName(o);
               const addr = shortAddrFromOrder(o);
               const totalUsd = fmtUsd(o.totalUsd);
 
-              const title = `Nouna • ${name}`;
-              const body  = `$${totalUsd}${addr ? ' • ' + addr : ''}`;
+              const title = `Nouna • Delivery assigned`;
+              const body  = `${name} order has been assigned to ${driverName} • $${totalUsd}${addr ? ' • ' + addr : ''}`;
 
               await sendToTopic(deliveryTopic, title, body, {
                 kind: 'delivery_assigned',
                 brandId,
                 orderId: safe(o.orderId), // ✅ data only
                 customerName: name,
+                deliveryManName: driverName,
                 totalUsd,
                 address: String((o.customer || {}).address || ''),
                 location: String((o.customer || {}).location || ''),
