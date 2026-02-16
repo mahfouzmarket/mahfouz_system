@@ -56,6 +56,10 @@ jobs:
           if (!brandId) throw new Error('brand_id is empty');
 
           const svc = JSON.parse(svcRaw);
+          if (svc.private_key && typeof svc.private_key === 'string') {
+            svc.private_key = svc.private_key.replace(/\\n/g, '\n');
+          }
+
           admin.initializeApp({ credential: admin.credential.cert(svc) });
 
           const topic = `broadcast_${brandId}`;
@@ -69,18 +73,10 @@ jobs:
               url,
               ts: new Date().toISOString(),
             },
-            android: {
-              priority: 'high',
-            },
+            android: { priority: 'high' },
             apns: {
-              headers: {
-                'apns-priority': '10',
-              },
-              payload: {
-                aps: {
-                  sound: 'default',
-                },
-              },
+              headers: { 'apns-priority': '10' },
+              payload: { aps: { sound: 'default' } },
             },
           };
 
