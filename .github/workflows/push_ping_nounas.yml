@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       topic:
-        description: "FCM Topic (default owner_all_orders)"
+        description: "FCM Topic (used if token is empty)"
         required: false
-        default: "owner_all_orders"
+        default: "orders_nounas_food"
       token:
         description: "Optional: FCM Token (if set, overrides topic)"
         required: false
