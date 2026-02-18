@@ -1,0 +1,159 @@
+name: Push Schedule (Add)
+
+on:
+  workflow_dispatch:
+    inputs:
+      brand_id:
+        description: "mahfouz_market | nounas_food"
+        required: true
+      title:
+        required: true
+      body:
+        required: true
+      url:
+        required: false
+      schedule_type:
+        description: "once | repeat"
+        required: true
+      run_at_utc:
+        description: "ISO UTC time for first run (or the one-time run)"
+        required: true
+      tz:
+        description: "IANA timezone (Asia/Beirut)"
+        required: true
+      freq:
+        description: "daily|weekly|monthly|quarterly|yearly (repeat only)"
+        required: false
+      time_hhmm:
+        description: "HH:MM (repeat only)"
+        required: false
+      weekday:
+        description: "1..7 (weekly only)"
+        required: false
+      dom:
+        description: "1..31 (monthly/quarterly/yearly)"
+        required: false
+      month:
+        description: "1..12 (yearly only)"
+        required: false
+      interval_months:
+        description: "3 for quarterly"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add schedule entry
+        env:
+          BRAND_ID: ${{ inputs.brand_id }}
+          TITLE: ${{ inputs.title }}
+          BODY: ${{ inputs.body }}
+          URL: ${{ inputs.url }}
+          SCHEDULE_TYPE: ${{ inputs.schedule_type }}
+          RUN_AT_UTC: ${{ inputs.run_at_utc }}
+          TZ: ${{ inputs.tz }}
+          FREQ: ${{ inputs.freq }}
+          TIME_HHMM: ${{ inputs.time_hhmm }}
+          WEEKDAY: ${{ inputs.weekday }}
+          DOM: ${{ inputs.dom }}
+          MONTH: ${{ inputs.month }}
+          INTERVAL_MONTHS: ${{ inputs.interval_months }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+
+          const path = '.github/push_schedules.json';
+          const nowUtc = new Date().toISOString();
+
+          function readJsonSafe(p) {
+            try {
+              if (!fs.existsSync(p)) return { schedules: [] };
+              const txt = fs.readFileSync(p, 'utf8').trim();
+              if (!txt) return { schedules: [] };
+              const j = JSON.parse(txt);
+              if (Array.isArray(j)) return { schedules: j };
+              if (j && Array.isArray(j.schedules)) return j;
+              return { schedules: [] };
+            } catch (_) {
+              return { schedules: [] };
+            }
+          }
+
+          function writeJson(p, obj) {
+            fs.writeFileSync(p, JSON.stringify(obj, null, 2) + '\n');
+          }
+
+          function mkId() {
+            return 'sch_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 8);
+          }
+
+          const brandId = (process.env.BRAND_ID || '').trim();
+          const title = (process.env.TITLE || '').trim();
+          const body = (process.env.BODY || '').trim();
+          const url = (process.env.URL || '').trim();
+          const scheduleType = (process.env.SCHEDULE_TYPE || '').trim().toLowerCase();
+          const runAtUtc = (process.env.RUN_AT_UTC || '').trim();
+          const tz = (process.env.TZ || 'Asia/Beirut').trim();
+          const freq = (process.env.FREQ || '').trim().toLowerCase();
+          const timeHHmm = (process.env.TIME_HHMM || '').trim();
+          const weekday = (process.env.WEEKDAY || '').trim();
+          const dom = (process.env.DOM || '').trim();
+          const month = (process.env.MONTH || '').trim();
+          const intervalMonths = (process.env.INTERVAL_MONTHS || '').trim();
+          const actor = (process.env.ACTOR || '').trim();
+
+          if (!brandId || !title || !body || !scheduleType || !runAtUtc) {
+            throw new Error('Missing required inputs.');
+          }
+
+          const doc = readJsonSafe(path);
+
+          const entry = {
+            id: mkId(),
+            enabled: true,
+            type: scheduleType, // once | repeat
+            brandId,
+            title,
+            body,
+            url,
+            createdAtUtc: nowUtc,
+            createdBy: actor,
+            nextRunUtc: runAtUtc,
+            sentCount: 0,
+            rule: (scheduleType === 'repeat') ? {
+              tz,
+              freq,           // daily|weekly|monthly|quarterly|yearly
+              timeHHmm,       // HH:MM
+              weekday,        // 1..7
+              dom,            // 1..31
+              month,          // 1..12
+              intervalMonths, // 3
+            } : null,
+          };
+
+          doc.schedules = doc.schedules || [];
+          doc.schedules.push(entry);
+
+          // Keep file small: keep only enabled or last 200 disabled
+          const enabled = doc.schedules.filter(x => x && x.enabled);
+          const disabled = doc.schedules.filter(x => x && !x.enabled).slice(-200);
+          doc.schedules = [...enabled, ...disabled];
+
+          writeJson(path, doc);
+          console.log('✅ schedule added:', entry.id);
+          NODE
+
+      - name: Commit schedules
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .github/push_schedules.json
+          git diff --cached --quiet || git commit -m "Add push schedule"
+          git push
