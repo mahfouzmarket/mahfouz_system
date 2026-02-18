@@ -1,0 +1,217 @@
+name: Push Scheduler (Run)
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: push-scheduler
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm i firebase-admin@12 luxon@3
+
+      - name: Run scheduler
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const admin = require('firebase-admin');
+          const { DateTime } = require('luxon');
+
+          const schedulesPath = '.github/push_schedules.json';
+          if (!fs.existsSync(schedulesPath)) {
+            console.log('ℹ️ no schedules file');
+            process.exit(0);
+          }
+
+          const svc = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON || '{}');
+          if (!svc.project_id) throw new Error('Missing FIREBASE_SERVICE_ACCOUNT_JSON');
+          if (svc.private_key && typeof svc.private_key === 'string') {
+            svc.private_key = svc.private_key.replace(/\\n/g, '\n');
+          }
+
+          admin.initializeApp({ credential: admin.credential.cert(svc) });
+
+          function readDoc() {
+            const txt = fs.readFileSync(schedulesPath, 'utf8').trim();
+            const j = txt ? JSON.parse(txt) : { schedules: [] };
+            if (Array.isArray(j)) return { schedules: j };
+            if (j && Array.isArray(j.schedules)) return j;
+            return { schedules: [] };
+          }
+
+          function writeDoc(doc) {
+            fs.writeFileSync(schedulesPath, JSON.stringify(doc, null, 2) + '\n');
+          }
+
+          function parseHHmm(s) {
+            const m = String(s || '').trim().match(/^(\d{2}):(\d{2})$/);
+            if (!m) return { h: 9, mi: 0 };
+            return { h: Number(m[1]), mi: Number(m[2]) };
+          }
+
+          function clampDom(dtLocal, dom) {
+            const target = Math.max(1, Math.min(31, Number(dom || 1)));
+            const dim = dtLocal.daysInMonth;
+            const d = Math.min(target, dim);
+            return dtLocal.set({ day: d });
+          }
+
+          function computeNextRunUtc(prevRunUtcIso, rule) {
+            const tz = (rule?.tz || 'Asia/Beirut').trim();
+            const freq = String(rule?.freq || '').trim().toLowerCase();
+            const { h, mi } = parseHHmm(rule?.timeHHmm);
+
+            const prevUtc = DateTime.fromISO(prevRunUtcIso, { zone: 'utc' });
+            let local = prevUtc.setZone(tz).set({ hour: h, minute: mi, second: 0, millisecond: 0 });
+
+            if (freq === 'daily') {
+              local = local.plus({ days: 1 });
+            } else if (freq === 'weekly') {
+              local = local.plus({ weeks: 1 });
+              const wd = Number(rule?.weekday || local.weekday);
+              // ensure weekday is correct
+              const diff = (wd - local.weekday + 7) % 7;
+              local = local.plus({ days: diff });
+            } else if (freq === 'monthly') {
+              local = local.plus({ months: 1 });
+              local = clampDom(local, rule?.dom);
+            } else if (freq === 'quarterly') {
+              const intM = Number(rule?.intervalMonths || 3);
+              local = local.plus({ months: intM });
+              local = clampDom(local, rule?.dom);
+            } else if (freq === 'yearly') {
+              local = local.plus({ years: 1 });
+              const mo = Number(rule?.month || local.month);
+              local = local.set({ month: mo });
+              local = clampDom(local, rule?.dom);
+            } else {
+              // fallback daily
+              local = local.plus({ days: 1 });
+            }
+
+            return local.toUTC().toISO();
+          }
+
+          async function sendBroadcast(brandId, title, body, url, scheduleId) {
+            const topic = `broadcast_${brandId}`;
+            const now = DateTime.utc().toISO();
+
+            const msg = {
+              topic,
+              notification: { title, body },
+              data: {
+                type: 'BROADCAST_SCHEDULED',
+                brandId: String(brandId || ''),
+                url: String(url || ''),
+                scheduleId: String(scheduleId || ''),
+                ts: String(now || ''),
+              },
+              android: {
+                priority: 'high',
+                notification: { sound: 'default' },
+              },
+              apns: {
+                headers: {
+                  'apns-priority': '10',
+                  'apns-push-type': 'alert',
+                },
+                payload: {
+                  aps: { sound: 'default' },
+                },
+              },
+            };
+
+            await admin.messaging().send(msg);
+            console.log('✅ sent scheduled broadcast to', topic);
+          }
+
+          async function main() {
+            const doc = readDoc();
+            doc.schedules = doc.schedules || [];
+
+            const nowUtc = DateTime.utc();
+            let dirty = false;
+
+            for (const s of doc.schedules) {
+              if (!s || !s.enabled) continue;
+
+              const nextIso = String(s.nextRunUtc || '').trim();
+              const next = DateTime.fromISO(nextIso, { zone: 'utc' });
+              if (!next.isValid) {
+                s.enabled = false;
+                s.error = 'Invalid nextRunUtc';
+                dirty = true;
+                continue;
+              }
+
+              if (next > nowUtc) continue;
+
+              // due
+              await sendBroadcast(s.brandId, s.title, s.body, s.url, s.id);
+
+              s.sentCount = Number(s.sentCount || 0) + 1;
+              s.lastRunUtc = next.toISO();
+              s.lastSentAtUtc = nowUtc.toISO();
+              dirty = true;
+
+              if (String(s.type || '').toLowerCase() === 'once') {
+                s.enabled = false;
+                s.doneAtUtc = nowUtc.toISO();
+              } else {
+                const rule = s.rule || {};
+                const nextRun = computeNextRunUtc(next.toISO(), rule);
+
+                // if scheduler was late, fast-forward up to 20 steps
+                let guard = 0;
+                let nr = DateTime.fromISO(nextRun, { zone: 'utc' });
+                while (nr.isValid && nr <= nowUtc && guard < 20) {
+                  const again = computeNextRunUtc(nr.toISO(), rule);
+                  nr = DateTime.fromISO(again, { zone: 'utc' });
+                  guard++;
+                }
+                s.nextRunUtc = nr.isValid ? nr.toISO() : nextRun;
+              }
+            }
+
+            if (!dirty) {
+              console.log('ℹ️ nothing due');
+              return;
+            }
+
+            // keep file small
+            const enabled = doc.schedules.filter(x => x && x.enabled);
+            const disabled = doc.schedules.filter(x => x && !x.enabled).slice(-200);
+            doc.schedules = [...enabled, ...disabled];
+
+            writeDoc(doc);
+            console.log('✅ schedules updated');
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+          NODE
+
+      - name: Commit schedule updates (if any)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .github/push_schedules.json
+          git diff --cached --quiet || git commit -m "Update push schedules"
+          git diff --cached --quiet || git push
