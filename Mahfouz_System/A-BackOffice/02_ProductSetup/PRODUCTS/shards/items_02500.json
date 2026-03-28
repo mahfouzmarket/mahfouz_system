@@ -681,11 +681,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.15",
+      "stock_in_geitawi_branch": 0.75,
       "consumption_in_geitawi_branch": "5.51",
-      "stock_in_medawar_branch": "7.33",
+      "stock_in_medawar_branch": 7.33,
       "consumption_in_medawar_branch": "5.44",
-      "total_stock": "8.48",
+      "total_stock": 8.08,
       "total_consumption": "10.95",
       "VAT": "NO",
       "price_lbp": "430,000",
@@ -694,7 +694,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2808.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 0.75,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 7.33,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "2811",
