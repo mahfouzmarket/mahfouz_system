@@ -441,11 +441,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": -1.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_medawar_branch": 4.0,
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "4.0",
+      "total_stock": 3.0,
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": "160,000",
@@ -454,7 +454,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2387.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": 4.0,
+          "cons_30d": 0.0
+        },
+        "Geitawi": {
+          "stock": -1.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "2388",
@@ -604,10 +614,10 @@
       "id": "2455",
       "barcode": "5285002192204-5285002193560",
       "Product Description": "ARUBA  WHIPPING CREAM VAN 88G",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "HINTRAG",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "FOOD",
+      "sub_category": "BAKING & COOKING",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "0.0",
@@ -621,7 +631,8 @@
       "cost": "1.05",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2455.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "2464",
