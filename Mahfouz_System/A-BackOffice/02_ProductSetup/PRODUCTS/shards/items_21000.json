@@ -537,20 +537,32 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": 4.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": 20.0,
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
+      "total_stock": 24.0,
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "205,000",
+      "price_lbp": 205000,
       "price_usd": "2.29",
-      "cost": "1.26",
+      "cost": 1.26,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21037.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 4.0,
+          "consumption": "0.0",
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 20.0,
+          "consumption": "0.0",
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "21040",
@@ -2621,10 +2633,10 @@
       "barcode": "2701360",
       "Product Description": "KLATCHI CHICKPEAS 200 G",
       "SUPPLIERS": "WES3 EL MADA LBP",
-      "unit": "-",
+      "unit": "",
       "category": "NUTS",
       "sub_category": "KLATCHI",
-      "offers": "0",
+      "offers": "",
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "14.0",
@@ -2632,13 +2644,24 @@
       "total_stock": "22.0",
       "total_consumption": "20.0",
       "VAT": "NO",
-      "price_lbp": "180,000",
-      "price_usd": "2.01",
-      "cost": "1.21",
+      "price_lbp": "0",
+      "price_usd": "0.00",
+      "cost": "0.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21145.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "",
+      "branches": {
+        "Medawar": {
+          "stock": "14.0",
+          "consumption": "12.0"
+        },
+        "Geitawi": {
+          "stock": "8.0",
+          "consumption": "8.0"
+        }
+      },
+      "barcodes": ""
     },
     {
       "id": "21146",
@@ -2925,7 +2948,8 @@
       "cost": "2.13",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21159.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "21160",
@@ -6692,7 +6716,8 @@
       "cost": "0.37",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21387.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "21388",
