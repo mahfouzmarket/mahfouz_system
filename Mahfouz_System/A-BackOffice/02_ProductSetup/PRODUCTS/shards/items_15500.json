@@ -1173,7 +1173,8 @@
       "cost": "1.44",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15657.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "15658",
@@ -1196,7 +1197,8 @@
       "cost": "1.22",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15658.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "15661",
@@ -1219,7 +1221,8 @@
       "cost": "1.22",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15661.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "15673",
@@ -1482,7 +1485,8 @@
       "cost": "1.13",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15706.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "15707",
@@ -1805,11 +1809,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": 3.4,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": 5.0,
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10.0",
+      "total_stock": 8.4,
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -1818,7 +1822,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15745.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 3.4,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 5.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "15746",
@@ -3373,12 +3387,23 @@
       "total_consumption": "51.0",
       "VAT": "NO",
       "price_lbp": "175,000",
-      "price_usd": "1.96",
+      "price_usd": "1.94",
       "cost": "1.21",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15908.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "14.0",
+          "consumption": "25.0"
+        },
+        "Geitawi": {
+          "stock": "9.0",
+          "consumption": "26.0"
+        }
+      },
+      "barcodes": ""
     },
     {
       "id": "15909",
@@ -3725,11 +3750,11 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": 1.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": 1.0,
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "3.0",
+      "total_stock": 2.0,
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": "565,000",
@@ -3738,7 +3763,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15934.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 1.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 1.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "15935",
