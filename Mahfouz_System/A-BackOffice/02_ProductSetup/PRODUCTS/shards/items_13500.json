@@ -1173,7 +1173,8 @@
       "cost": "0.27",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13673.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "13674",
@@ -1664,12 +1665,12 @@
       "category": "FOOD",
       "sub_category": "EGGS",
       "offers": "-",
-      "stock_in_geitawi_branch": "14",
-      "consumption_in_geitawi_branch": "69",
-      "stock_in_medawar_branch": "18",
-      "consumption_in_medawar_branch": "74",
-      "total_stock": "32",
-      "total_consumption": "143",
+      "stock_in_geitawi_branch": "12",
+      "consumption_in_geitawi_branch": "70",
+      "stock_in_medawar_branch": "19",
+      "consumption_in_medawar_branch": "72",
+      "total_stock": "31",
+      "total_consumption": "142",
       "VAT": "NO",
       "price_lbp": "460,000",
       "price_usd": "5.14",
@@ -1678,7 +1679,8 @@
       "new_items": "",
       "manual": "1",
       "delivery_rules": "0.005",
-      "pcs_in_box": "30"
+      "pcs_in_box": "30",
+      "base_id": "5449"
     },
     {
       "id": "13813",
@@ -1737,11 +1739,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": 3.0,
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": 5.0,
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "7.0",
+      "total_stock": 8.0,
       "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -1750,7 +1752,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13820.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 3.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 5.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "13821",
@@ -1765,17 +1777,18 @@
       "consumption_in_geitawi_branch": "5",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "71",
-      "total_stock": "0",
+      "total_stock": "50",
       "total_consumption": "76",
       "VAT": "NO",
-      "price_lbp": "480,000",
-      "price_usd": "5.36",
+      "price_lbp": "220,000",
+      "price_usd": "2.46",
       "cost": "1.80",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13821.jpg",
       "new_items": "",
       "manual": "1",
       "delivery_rules": "0.45",
-      "pcs_in_box": "6"
+      "pcs_in_box": "6",
+      "base_id": "1438"
     },
     {
       "id": "13825",
@@ -1918,7 +1931,8 @@
       "cost": "0.79",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13835.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": ""
     },
     {
       "id": "13836",
@@ -2961,11 +2975,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": 0.0,
       "consumption_in_geitawi_branch": "39.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": 0.0,
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "-1.0",
+      "total_stock": 0.0,
       "total_consumption": "39.0",
       "VAT": "YES",
       "price_lbp": "145,000",
@@ -2974,7 +2988,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13940.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 0.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "13941",
