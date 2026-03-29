@@ -2653,19 +2653,18 @@
     {
       "id": "21145",
       "barcode": "2701360",
-      "barcodes": "",
       "Product Description": "KLATCHI CHICKPEAS 200 G",
       "SUPPLIERS": "WES3 EL MADA LBP",
       "unit": "",
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": 0.0,
+      "consumption_in_geitawi_branch": "10.0",
+      "stock_in_medawar_branch": 0.0,
+      "consumption_in_medawar_branch": "15.0",
+      "total_stock": 0.0,
+      "total_consumption": "25.0",
       "VAT": "NO",
       "price_lbp": "0",
       "price_usd": "0.00",
@@ -2675,15 +2674,18 @@
       "manual": "",
       "delivery_rules": "",
       "branches": {
-        "Geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": 0.0,
+          "consumption": "15.0",
+          "cons_30d": 0.0
+        },
+        "Geitawi": {
+          "stock": 0.0,
+          "consumption": "10.0",
+          "cons_30d": 0.0
         }
-      }
+      },
+      "barcodes": ""
     },
     {
       "id": "21146",
