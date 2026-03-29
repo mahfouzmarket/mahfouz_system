@@ -1738,11 +1738,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Croissant",
       "offers": "0",
-      "stock_in_geitawi_branch": 0.0,
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": -28.0,
+      "stock_in_medawar_branch": "-28.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": -28.0,
+      "total_stock": "-28.0",
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -1754,8 +1754,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Medawar": {
-          "stock": -28.0,
-          "cons_30d": 0.0
+          "stock": "-28.0",
+          "consumption": "0.0"
         }
       }
     },
@@ -2224,11 +2224,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": -1.0,
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": 5.0,
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": 4.0,
+      "total_stock": "5.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -2237,17 +2237,7 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20650.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005",
-      "branches": {
-        "Medawar": {
-          "stock": 5.0,
-          "cons_30d": 0.0
-        },
-        "Geitawi": {
-          "stock": -1.0,
-          "cons_30d": 0.0
-        }
-      }
+      "delivery_rules": "0.005"
     },
     {
       "id": "20651",
@@ -2330,11 +2320,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": 5.0,
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": 4.0,
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": 9.0,
+      "total_stock": "9.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "350,000",
@@ -2346,12 +2336,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": 5.0,
-          "cons_30d": 0.0
+          "stock": "5.0",
+          "consumption": "0.0"
         },
         "Medawar": {
-          "stock": 4.0,
-          "cons_30d": 0.0
+          "stock": "4.0",
+          "consumption": "0.0"
         }
       }
     },
@@ -2679,10 +2669,12 @@
       "branches": {
         "Geitawi": {
           "stock": 14.3,
+          "consumption": "0.0",
           "cons_30d": 0.0
         },
         "Medawar": {
           "stock": -4.3,
+          "consumption": "0.0",
           "cons_30d": 0.0
         }
       }
