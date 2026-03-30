@@ -76,10 +76,10 @@
       "id": "7149",
       "barcode": "5283000301277",
       "Product Description": "MAXIMS TUNA OIL 180 gr",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "toters",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "FOOD",
+      "sub_category": "cans & jams",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "10.0",
@@ -93,7 +93,8 @@
       "cost": "2.22",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7149.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "7246",
@@ -136,12 +137,25 @@
       "total_consumption": "199.0",
       "VAT": "NO",
       "price_lbp": "150,000",
-      "price_usd": "1.68",
-      "cost": "1.45",
+      "price_usd": "1.67",
+      "cost": "1.50",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7247.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "91.0"
+        },
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "108.0"
+        }
+      },
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": 0
     },
     {
       "id": "7248",
@@ -152,11 +166,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": 0.0,
       "consumption_in_geitawi_branch": "106.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": -1.0,
       "consumption_in_medawar_branch": "35.0",
-      "total_stock": "0.0",
+      "total_stock": -1.0,
       "total_consumption": "141.0",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -165,16 +179,22 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7248.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": -1.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "7274",
       "barcode": "5285006670098",
       "Product Description": "KAAK AL WAFAA 300G",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "AL HATAB",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "FOOD",
+      "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "0.0",
@@ -188,7 +208,8 @@
       "cost": "0.95",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7274.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "7304",
@@ -362,10 +383,10 @@
       "id": "7314",
       "barcode": "5280320002396",
       "Product Description": "AL FORNO MESHTAH PLAIN",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "GLOBAL FOODS SAL",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "FOOD",
+      "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "23.0",
@@ -379,7 +400,8 @@
       "cost": "0.82",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7314.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "7318",
@@ -457,10 +479,10 @@
       "id": "7321",
       "barcode": "5280320000392",
       "Product Description": "KAAK RING 250G",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "GLOBAL FOODS SAL",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "FOOD",
+      "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
@@ -474,7 +496,8 @@
       "cost": "0.98",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7321.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "7323",
@@ -603,7 +626,7 @@
       "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
       "unit": "-",
       "category": "FOOD",
-      "sub_category": "SEEDS",
+      "sub_category": "cans & jams",
       "offers": "0",
       "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "17.0",
