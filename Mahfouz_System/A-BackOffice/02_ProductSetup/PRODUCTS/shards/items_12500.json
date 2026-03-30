@@ -105,11 +105,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "64.0",
+      "stock_in_geitawi_branch": 64.0,
       "consumption_in_geitawi_branch": "275.0",
-      "stock_in_medawar_branch": "47.0",
+      "stock_in_medawar_branch": 46.0,
       "consumption_in_medawar_branch": "195.0",
-      "total_stock": "111.0",
+      "total_stock": 110.0,
       "total_consumption": "470.0",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -118,7 +118,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12582.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 64.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 46.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "12594",
@@ -129,11 +139,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "25.0",
+      "stock_in_geitawi_branch": 25.0,
       "consumption_in_geitawi_branch": "11.0",
-      "stock_in_medawar_branch": "26.0",
+      "stock_in_medawar_branch": 25.0,
       "consumption_in_medawar_branch": "42.0",
-      "total_stock": "51.0",
+      "total_stock": 50.0,
       "total_consumption": "53.0",
       "VAT": "NO",
       "price_lbp": "335,000",
@@ -142,7 +152,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12594.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 25.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 25.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "12596",
@@ -478,7 +498,20 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12701.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "217.0",
+          "consumption": "1650.0"
+        },
+        "Geitawi": {
+          "stock": "204.0",
+          "consumption": "1514.0"
+        }
+      },
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": 0
     },
     {
       "id": "12702",
@@ -1084,10 +1117,10 @@
       "id": "12783",
       "barcode": "5285010540219",
       "Product Description": "ALPH LIMITED EDITION",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "AMIT SAL",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "CIGARETTES",
+      "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
       "stock_in_geitawi_branch": "26.0",
       "consumption_in_geitawi_branch": "0.0",
@@ -1101,7 +1134,8 @@
       "cost": "0.85",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12783.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "12785",
@@ -1125,7 +1159,7 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12785.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "1.95"
     },
     {
       "id": "12786",
@@ -1149,16 +1183,16 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12786.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "1.95"
     },
     {
       "id": "12834",
       "barcode": "5283002528771",
       "Product Description": "FLUFF'N WHITE 100 WIPES",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "GOLDEN FOOD SAL",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "HOME USAGE",
+      "sub_category": "WIPES",
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "7.0",
@@ -1172,16 +1206,17 @@
       "cost": "1.42",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12834.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "12837",
       "barcode": "8691707057149",
       "Product Description": "Ozmo Burger 40G",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "MTANIOS TRADING SARL",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "CHI TAYIB",
+      "sub_category": "sweets",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
@@ -1195,7 +1230,8 @@
       "cost": "0.51",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12837.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "12839",
@@ -1273,7 +1309,7 @@
       "id": "12854",
       "barcode": "5287001783018",
       "Product Description": "XXL ENERGIE 250 ML",
-      "SUPPLIERS": "AL HAMAWI TRADING",
+      "SUPPLIERS": "ABI RAMIA BROS SARL",
       "unit": "-",
       "category": "BEVERAGES",
       "sub_category": "ENERGY DRINK",
@@ -1345,10 +1381,10 @@
       "id": "12872",
       "barcode": "7899567247996-7899567248238",
       "Product Description": "BORDON HOT DOG 400G",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "AL HAMAWI TRADING",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "FOOD",
+      "sub_category": "cans & jams",
       "offers": "0",
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "4.0",
@@ -1362,7 +1398,8 @@
       "cost": "1.41",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12872.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "12877",
@@ -1371,7 +1408,7 @@
       "SUPPLIERS": "SADAPACK",
       "unit": "-",
       "category": "HOME USAGE",
-      "sub_category": "SOAP, LOOFAH, SHAMPOO & SHOWER GEL",
+      "sub_category": "shampoo & cond",
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "1.0",
@@ -1440,10 +1477,10 @@
       "id": "12899",
       "barcode": "757528037468",
       "Product Description": "TAKIS 113 G",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "AL RAED TRADING",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "CHI TAYIB",
+      "sub_category": "Crackers",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
@@ -1457,7 +1494,8 @@
       "cost": "1.91",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12899.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "12909",
@@ -1538,7 +1576,7 @@
       "SUPPLIERS": "ELEGANCE",
       "unit": "-",
       "category": "HOME USAGE",
-      "sub_category": "SOAP, LOOFAH, SHAMPOO & SHOWER GEL",
+      "sub_category": "shampoo & cond",
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "0.0",
@@ -1633,8 +1671,8 @@
       "Product Description": "YEHYA COCOSHELLS CHARCOAL 1 KG",
       "SUPPLIERS": "YEHYA USD",
       "unit": "-",
-      "category": "FOOD",
-      "sub_category": "SEEDS",
+      "category": "HOME USAGE",
+      "sub_category": "SHISHA STUFF",
       "offers": "0",
       "stock_in_geitawi_branch": "7.0",
       "consumption_in_geitawi_branch": "0.0",
@@ -1682,7 +1720,7 @@
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
-      "sub_category": "STATIONARY",
+      "sub_category": "TOOLS",
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "1.0",
@@ -1700,13 +1738,63 @@
       "delivery_rules": "0.005"
     },
     {
+      "id": "12962",
+      "barcode": "",
+      "Product Description": "TANNOURINE WATER 2L x 6 pcs",
+      "SUPPLIERS": "TANNOURINE",
+      "unit": "-",
+      "category": "BEVERAGES",
+      "sub_category": "MINERAL WATER",
+      "offers": "-",
+      "stock_in_geitawi_branch": "46",
+      "consumption_in_geitawi_branch": "118",
+      "stock_in_medawar_branch": "448",
+      "consumption_in_medawar_branch": "98",
+      "total_stock": "494",
+      "total_consumption": "216",
+      "VAT": "NO",
+      "price_lbp": "200,000",
+      "price_usd": "2.23",
+      "cost": "2.22",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12962.jpg",
+      "new_items": "",
+      "manual": "1",
+      "delivery_rules": "0.225",
+      "pcs_in_box": "6"
+    },
+    {
+      "id": "12963",
+      "barcode": "",
+      "Product Description": "TANNOURINE WATER 0.5 x 12 pcs",
+      "SUPPLIERS": "TANNOURINE",
+      "unit": "-",
+      "category": "BEVERAGES",
+      "sub_category": "MINERAL WATER",
+      "offers": "-",
+      "stock_in_geitawi_branch": "6.0",
+      "consumption_in_geitawi_branch": "64",
+      "stock_in_medawar_branch": "462.0",
+      "consumption_in_medawar_branch": "122",
+      "total_stock": "468.0",
+      "total_consumption": "186",
+      "VAT": "NO",
+      "price_lbp": "200,000",
+      "price_usd": "2.23",
+      "cost": "2.16",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12963.jpg",
+      "new_items": "",
+      "manual": "1",
+      "delivery_rules": "0.225",
+      "pcs_in_box": "12"
+    },
+    {
       "id": "12965",
       "barcode": "2700215-6936460538666",
       "Product Description": "BATH LOOFAH",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "JACK DIB",
       "unit": "-",
-      "category": "",
-      "sub_category": "",
+      "category": "HOME USAGE",
+      "sub_category": "hand & body wash",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
@@ -1720,7 +1808,8 @@
       "cost": "0.56",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12965.jpg",
       "new_items": "",
-      "manual": ""
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "12972",
@@ -1822,7 +1911,7 @@
       "id": "12984",
       "barcode": "6001067003366-6281001101192",
       "Product Description": "COLGATE ADVANCED WHITE 100ML",
-      "SUPPLIERS": "NEAR EAST PERSONAL CARE CO SAL",
+      "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "TOOTH CARE",
@@ -1849,7 +1938,7 @@
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
-      "sub_category": "STATIONARY",
+      "sub_category": "COTTONS",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
