@@ -499,7 +499,7 @@
       "name": "ARUBA LIGHT PINEAPPLE 9G",
       "category": "BEVERAGES",
       "sub": "Low calorie delight",
-      "price_usd": "0.45",
+      "price_usd": "0.44",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3265.jpg",
       "supplier": "HINTRAG",
       "barcode": "5285002194604",
@@ -509,16 +509,32 @@
       "unit": "-",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": 4.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "2.0",
+      "stock_in_medawar_branch": 0.0,
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "6.0",
+      "total_stock": 4.0,
       "total_consumption": "7.0",
       "VAT": "YES",
       "price_lbp": "40,000",
       "cost": "0.28",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": 0.0,
+          "consumption": "7.0",
+          "cons_30d": 0.0
+        },
+        "Geitawi": {
+          "stock": 4.0,
+          "consumption": "0.0",
+          "cons_30d": 0.0
+        }
+      },
+      "barcode2": "",
+      "expiry_days": 0,
+      "new_items": "",
+      "manual": ""
     },
     {
       "id": "3266",
