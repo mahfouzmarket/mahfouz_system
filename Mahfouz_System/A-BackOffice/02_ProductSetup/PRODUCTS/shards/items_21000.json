@@ -2653,7 +2653,6 @@
     {
       "id": "21145",
       "barcode": "2701360",
-      "barcodes": "",
       "Product Description": "KLATCHI CHICKPEAS 200 G",
       "SUPPLIERS": "WES3 EL MADA LBP",
       "unit": "",
@@ -2661,11 +2660,11 @@
       "sub_category": "KLATCHI",
       "offers": "",
       "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "consumption_in_geitawi_branch": "10.0",
+      "stock_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "15.0",
+      "total_stock": "3.0",
+      "total_consumption": "25.0",
       "VAT": "NO",
       "price_lbp": "0",
       "price_usd": "0.00",
@@ -2675,15 +2674,16 @@
       "manual": "",
       "delivery_rules": "",
       "branches": {
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "15.0"
+        },
         "Geitawi": {
           "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "10.0"
         }
-      }
+      },
+      "barcodes": ""
     },
     {
       "id": "21146",
@@ -5406,11 +5406,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": 2.0,
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": 52.0,
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": 54.0,
+      "total_stock": "4.0",
       "total_consumption": "6.0",
       "VAT": "NO",
       "price_lbp": "280,000",
@@ -5419,17 +5419,7 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21304.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005",
-      "branches": {
-        "Geitawi": {
-          "stock": 2.0,
-          "cons_30d": 0.0
-        },
-        "Medawar": {
-          "stock": 52.0,
-          "cons_30d": 0.0
-        }
-      }
+      "delivery_rules": "0.005"
     },
     {
       "id": "21305",
@@ -5440,11 +5430,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": 5.0,
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": 44.0,
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": 49.0,
+      "total_stock": "7.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": "320,000",
@@ -5453,17 +5443,7 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21305.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005",
-      "branches": {
-        "Geitawi": {
-          "stock": 5.0,
-          "cons_30d": 0.0
-        },
-        "Medawar": {
-          "stock": 44.0,
-          "cons_30d": 0.0
-        }
-      }
+      "delivery_rules": "0.005"
     },
     {
       "id": "21306",
@@ -5474,11 +5454,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": 3.0,
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": 60.0,
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": 63.0,
+      "total_stock": "3.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": "290,000",
@@ -5487,17 +5467,7 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21306.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005",
-      "branches": {
-        "Geitawi": {
-          "stock": 3.0,
-          "cons_30d": 0.0
-        },
-        "Medawar": {
-          "stock": 60.0,
-          "cons_30d": 0.0
-        }
-      }
+      "delivery_rules": "0.005"
     },
     {
       "id": "21307",
@@ -5508,11 +5478,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": 0.0,
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": 0.0,
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": 0.0,
+      "total_stock": "2.0",
       "total_consumption": "3.0",
       "VAT": "NO",
       "price_lbp": "320,000",
@@ -5521,13 +5491,7 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21307.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005",
-      "branches": {
-        "Medawar": {
-          "stock": 0.0,
-          "cons_30d": 0.0
-        }
-      }
+      "delivery_rules": "0.005"
     },
     {
       "id": "21308",
