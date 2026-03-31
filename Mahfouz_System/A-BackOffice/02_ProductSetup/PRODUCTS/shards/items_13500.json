@@ -2139,22 +2139,22 @@
       "consumption_in_geitawi_branch": "263.0",
       "stock_in_medawar_branch": 3.0,
       "consumption_in_medawar_branch": "345.0",
-      "total_stock": "36.0",
+      "total_stock": 36.0,
       "total_consumption": "608.0",
       "VAT": "NO",
       "price_lbp": "85,000",
       "cost": "0.84",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": 33.0,
-          "cons_30d": 0.0,
-          "consumption": "263.0"
-        },
         "Medawar": {
           "stock": 3.0,
-          "cons_30d": 0.0,
-          "consumption": "345.0"
+          "consumption": "345.0",
+          "cons_30d": 0.0
+        },
+        "Geitawi": {
+          "stock": 33.0,
+          "consumption": "263.0",
+          "cons_30d": 0.0
         }
       },
       "barcode2": "",
