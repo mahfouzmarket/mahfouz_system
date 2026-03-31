@@ -1397,22 +1397,22 @@
       "consumption_in_geitawi_branch": "42.0",
       "stock_in_medawar_branch": 18.0,
       "consumption_in_medawar_branch": "33.0",
-      "total_stock": "35.0",
+      "total_stock": 35.0,
       "total_consumption": "75.0",
       "VAT": "NO",
       "price_lbp": "90,000",
       "cost": "0.79",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": 17.0,
-          "cons_30d": 0.0,
-          "consumption": "42.0"
-        },
         "Medawar": {
           "stock": 18.0,
-          "cons_30d": 0.0,
-          "consumption": "33.0"
+          "consumption": "33.0",
+          "cons_30d": 0.0
+        },
+        "Geitawi": {
+          "stock": 17.0,
+          "consumption": "42.0",
+          "cons_30d": 0.0
         }
       },
       "barcode2": "",
@@ -2823,9 +2823,9 @@
       "unit": "kg",
       "sub_category": "fruits",
       "offers": "0",
-      "stock_in_geitawi_branch": 36.0,
+      "stock_in_geitawi_branch": 26.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": -26.0,
+      "stock_in_medawar_branch": -16.0,
       "consumption_in_medawar_branch": "0.0",
       "total_stock": 10.0,
       "total_consumption": "0.0",
@@ -2835,11 +2835,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": 36.0,
+          "stock": 26.0,
           "cons_30d": 0.0
         },
         "Medawar": {
-          "stock": -26.0,
+          "stock": -16.0,
           "cons_30d": 0.0
         }
       }
@@ -2859,9 +2859,9 @@
       "unit": "kg",
       "sub_category": "fruits",
       "offers": "0",
-      "stock_in_geitawi_branch": 9.7,
+      "stock_in_geitawi_branch": 12.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": 0.3,
+      "stock_in_medawar_branch": -2.0,
       "consumption_in_medawar_branch": "0.0",
       "total_stock": 10.0,
       "total_consumption": "0.0",
@@ -2871,11 +2871,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": 9.7,
+          "stock": 12.0,
           "cons_30d": 0.0
         },
         "Medawar": {
-          "stock": 0.3,
+          "stock": -2.0,
           "cons_30d": 0.0
         }
       }
