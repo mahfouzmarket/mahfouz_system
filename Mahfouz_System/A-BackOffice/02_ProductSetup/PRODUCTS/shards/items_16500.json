@@ -1113,11 +1113,11 @@
       "unit": "-",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "34.0",
+      "stock_in_geitawi_branch": 34.0,
       "consumption_in_geitawi_branch": "516.0",
-      "stock_in_medawar_branch": "48.0",
+      "stock_in_medawar_branch": 48.0,
       "consumption_in_medawar_branch": "582.0",
-      "total_stock": "82.0",
+      "total_stock": 82.0,
       "total_consumption": "1098.0",
       "VAT": "NO",
       "price_lbp": "65,000",
@@ -1125,12 +1125,14 @@
       "delivery_rules": "0.45",
       "branches": {
         "Geitawi": {
-          "stock": "34.0",
-          "consumption": "516.0"
+          "stock": 34.0,
+          "consumption": "516.0",
+          "cons_30d": 0.0
         },
         "Medawar": {
-          "stock": "48.0",
-          "consumption": "582.0"
+          "stock": 48.0,
+          "consumption": "582.0",
+          "cons_30d": 0.0
         }
       }
     },
