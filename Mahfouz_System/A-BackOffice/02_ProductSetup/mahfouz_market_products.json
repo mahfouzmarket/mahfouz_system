@@ -3239,16 +3239,26 @@
     "unit": "-",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "20.0",
+    "stock_in_geitawi_branch": 20.0,
     "consumption_in_geitawi_branch": "69.0",
-    "stock_in_medawar_branch": "30.0",
+    "stock_in_medawar_branch": 28.0,
     "consumption_in_medawar_branch": "178.0",
-    "total_stock": "50.0",
+    "total_stock": 48.0,
     "total_consumption": "247.0",
     "VAT": "YES",
     "price_lbp": "20,000",
     "cost": "0.15",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": 20.0,
+        "cons_30d": 0.0
+      },
+      "Medawar": {
+        "stock": 28.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "897",
@@ -21946,16 +21956,26 @@
     "unit": "-",
     "sub_category": "femi care",
     "offers": "0",
-    "stock_in_geitawi_branch": "4.0",
+    "stock_in_geitawi_branch": 4.0,
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "8.0",
+    "stock_in_medawar_branch": 7.0,
     "consumption_in_medawar_branch": "2.0",
-    "total_stock": "12.0",
+    "total_stock": 11.0,
     "total_consumption": "6.0",
     "VAT": "NO",
     "price_lbp": "260,000",
     "cost": "2.10",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": 4.0,
+        "cons_30d": 0.0
+      },
+      "Medawar": {
+        "stock": 7.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "10985",
@@ -25181,14 +25201,17 @@
     "name": "TANNOURINE WATER 2L x 6 pcs",
     "category": "BEVERAGES",
     "sub": "MINERAL WATER",
+    "sub_category": "MINERAL WATER",
+    "subCategory": "MINERAL WATER",
     "price_usd": "2.44",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12962.jpg",
     "supplier": "TANNOURINE",
     "barcode": "",
+    "barcode2": "",
+    "barcodes": "",
     "Product Description": "TANNOURINE WATER 2L x 6 pcs",
     "SUPPLIERS": "TANNOURINE",
     "unit": "-",
-    "sub_category": "MINERAL WATER",
     "offers": "-",
     "stock_in_geitawi_branch": "45.0",
     "consumption_in_geitawi_branch": "118",
@@ -25218,14 +25241,17 @@
     "name": "TANNOURINE WATER 0.5 x 12 pcs",
     "category": "BEVERAGES",
     "sub": "MINERAL WATER",
+    "sub_category": "MINERAL WATER",
+    "subCategory": "MINERAL WATER",
     "price_usd": "2.44",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12963.jpg",
     "supplier": "TANNOURINE",
     "barcode": "",
+    "barcode2": "",
+    "barcodes": "",
     "Product Description": "TANNOURINE WATER 0.5 x 12 pcs",
     "SUPPLIERS": "TANNOURINE",
     "unit": "-",
-    "sub_category": "MINERAL WATER",
     "offers": "-",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "64",
@@ -30737,14 +30763,17 @@
     "name": "RIM WATER 2L x 6 pcs",
     "category": "BEVERAGES",
     "sub": "MINERAL WATER",
+    "sub_category": "MINERAL WATER",
+    "subCategory": "MINERAL WATER",
     "price_usd": "2.44",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13821.jpg",
     "supplier": "RIM REFRESHMENT SAL USD",
     "barcode": "",
+    "barcode2": "",
+    "barcodes": "",
     "Product Description": "RIM WATER 2L x 6 pcs",
     "SUPPLIERS": "RIM REFRESHMENT SAL USD",
     "unit": "-",
-    "sub_category": "MINERAL WATER",
     "offers": "-",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "5",
@@ -51637,16 +51666,26 @@
     "unit": "-",
     "sub_category": "BAKERY",
     "offers": "0",
-    "stock_in_geitawi_branch": "8.0",
+    "stock_in_geitawi_branch": 8.0,
     "consumption_in_geitawi_branch": "57.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": 0.0,
     "consumption_in_medawar_branch": "31.0",
-    "total_stock": "9.0",
+    "total_stock": 8.0,
     "total_consumption": "88.0",
     "VAT": "NO",
     "price_lbp": "115,000",
     "cost": "1.04",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": 8.0,
+        "cons_30d": 0.0
+      },
+      "Medawar": {
+        "stock": 0.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "16845",
@@ -63784,15 +63823,25 @@
     "Product Description": "KHASHKAVAL MONI 200GR",
     "unit": "-",
     "offers": "0",
-    "stock_in_geitawi_branch": "-7.0",
+    "stock_in_geitawi_branch": -7.0,
     "consumption_in_geitawi_branch": "83.0",
-    "stock_in_medawar_branch": "8.0",
+    "stock_in_medawar_branch": 7.0,
     "consumption_in_medawar_branch": "20.0",
-    "total_stock": "1.0",
+    "total_stock": 0.0,
     "total_consumption": "103.0",
     "VAT": "YES",
     "price_lbp": "360,000",
-    "cost": "3.49"
+    "cost": "3.49",
+    "branches": {
+      "Geitawi": {
+        "stock": -7.0,
+        "cons_30d": 0.0
+      },
+      "Medawar": {
+        "stock": 7.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "18196",
@@ -98737,14 +98786,17 @@
     "name": "DURACELL AA",
     "category": "HOME USAGE",
     "sub": "BATTERIES",
+    "sub_category": "BATTERIES",
+    "subCategory": "BATTERIES",
     "price_usd": "0.00",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20897.jpg",
     "supplier": "TRANSMED SAL",
     "barcode": "5000394004221",
+    "barcode2": "5000394037335",
+    "barcodes": "5000394037335",
     "Product Description": "DURACELL AA",
     "SUPPLIERS": "TRANSMED SAL",
     "unit": "-",
-    "sub_category": "BATTERIES",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "12.0",
@@ -98765,9 +98817,7 @@
         "stock": "0.0",
         "consumption": "12.0"
       }
-    },
-    "barcode2": "5000394037335",
-    "barcodes": "5000394037335"
+    }
   },
   {
     "id": "20899",
