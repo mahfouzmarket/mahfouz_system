@@ -849,11 +849,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "13.0",
+      "stock_in_geitawi_branch": 13.0,
       "consumption_in_geitawi_branch": "32.0",
-      "stock_in_medawar_branch": "11.0",
+      "stock_in_medawar_branch": 9.0,
       "consumption_in_medawar_branch": "18.0",
-      "total_stock": "24.0",
+      "total_stock": 22.0,
       "total_consumption": "50.0",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -862,7 +862,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4451.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 13.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 9.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "4484",
