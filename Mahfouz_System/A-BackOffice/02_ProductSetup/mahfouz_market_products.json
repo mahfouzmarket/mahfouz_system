@@ -59830,16 +59830,26 @@
     "unit": "-",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "50.0",
+    "stock_in_geitawi_branch": 50.0,
     "consumption_in_geitawi_branch": "41.0",
-    "stock_in_medawar_branch": "127.0",
+    "stock_in_medawar_branch": 126.0,
     "consumption_in_medawar_branch": "329.0",
-    "total_stock": "177.0",
+    "total_stock": 176.0,
     "total_consumption": "370.0",
     "VAT": "NO",
     "price_lbp": "15,000",
     "cost": "0.09",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": 50.0,
+        "cons_30d": 0.0
+      },
+      "Medawar": {
+        "stock": 126.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "17719",
