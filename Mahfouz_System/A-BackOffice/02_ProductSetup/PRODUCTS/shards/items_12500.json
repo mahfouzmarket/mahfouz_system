@@ -273,11 +273,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "75.0",
+      "stock_in_geitawi_branch": 75.0,
       "consumption_in_geitawi_branch": "425.0",
-      "stock_in_medawar_branch": "44.0",
+      "stock_in_medawar_branch": 42.0,
       "consumption_in_medawar_branch": "404.0",
-      "total_stock": "119.0",
+      "total_stock": 117.0,
       "total_consumption": "829.0",
       "VAT": "NO",
       "price_lbp": "175,000",
@@ -286,7 +286,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12603.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 75.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 42.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "12606",
@@ -465,11 +475,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "96.0",
+      "stock_in_geitawi_branch": 96.0,
       "consumption_in_geitawi_branch": "1550.0",
-      "stock_in_medawar_branch": "69.0",
+      "stock_in_medawar_branch": 68.0,
       "consumption_in_medawar_branch": "1762.0",
-      "total_stock": "165.0",
+      "total_stock": 164.0,
       "total_consumption": "3312.0",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -478,7 +488,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12701.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 96.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 68.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "12702",
@@ -729,11 +749,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "14.0",
+      "stock_in_geitawi_branch": 14.0,
       "consumption_in_geitawi_branch": "34.0",
-      "stock_in_medawar_branch": "36.0",
+      "stock_in_medawar_branch": 35.0,
       "consumption_in_medawar_branch": "118.0",
-      "total_stock": "50.0",
+      "total_stock": 49.0,
       "total_consumption": "152.0",
       "VAT": "NO",
       "price_lbp": "190,000",
@@ -742,7 +762,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12742.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 14.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 35.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "12747",
@@ -1727,7 +1757,19 @@
       "new_items": "",
       "manual": "1",
       "delivery_rules": "0.225",
-      "pcs_in_box": "6"
+      "pcs_in_box": "6",
+      "branches": {
+        "Medawar": {
+          "stock": "448.0",
+          "consumption": "98"
+        },
+        "Geitawi": {
+          "stock": "45.0",
+          "consumption": "118"
+        }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "12963",
@@ -1752,7 +1794,19 @@
       "new_items": "",
       "manual": "1",
       "delivery_rules": "0.225",
-      "pcs_in_box": "12"
+      "pcs_in_box": "12",
+      "branches": {
+        "Medawar": {
+          "stock": "461.0",
+          "consumption": "122"
+        },
+        "Geitawi": {
+          "stock": "6.0",
+          "consumption": "64"
+        }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "12965",
