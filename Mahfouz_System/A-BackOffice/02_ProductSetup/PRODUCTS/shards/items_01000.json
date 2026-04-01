@@ -307,11 +307,11 @@
       "category": "BEVERAGES",
       "sub_category": "ice tea",
       "offers": "0",
-      "stock_in_geitawi_branch": "36.0",
+      "stock_in_geitawi_branch": 36.0,
       "consumption_in_geitawi_branch": "126.0",
-      "stock_in_medawar_branch": "9.0",
+      "stock_in_medawar_branch": 8.0,
       "consumption_in_medawar_branch": "97.0",
-      "total_stock": "45.0",
+      "total_stock": 44.0,
       "total_consumption": "223.0",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -320,7 +320,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1226.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 36.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 8.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "1229",
