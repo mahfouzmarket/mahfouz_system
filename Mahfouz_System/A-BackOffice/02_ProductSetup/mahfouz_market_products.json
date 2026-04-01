@@ -4414,9 +4414,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": 125.0,
     "consumption_in_geitawi_branch": "803.0",
-    "stock_in_medawar_branch": 1925.0,
+    "stock_in_medawar_branch": 1924.0,
     "consumption_in_medawar_branch": "905.0",
-    "total_stock": 2050.0,
+    "total_stock": 2049.0,
     "total_consumption": "1708.0",
     "VAT": "YES",
     "price_lbp": "20,000",
@@ -4428,7 +4428,7 @@
         "cons_30d": 0.0
       },
       "Medawar": {
-        "stock": 1925.0,
+        "stock": 1924.0,
         "cons_30d": 0.0
       }
     }
@@ -73834,16 +73834,26 @@
     "unit": "-",
     "sub_category": "SEEDS",
     "offers": "0",
-    "stock_in_geitawi_branch": "5.0",
+    "stock_in_geitawi_branch": 5.0,
     "consumption_in_geitawi_branch": "30.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": -1.0,
     "consumption_in_medawar_branch": "23.0",
-    "total_stock": "5.0",
+    "total_stock": 4.0,
     "total_consumption": "53.0",
     "VAT": "NO",
     "price_lbp": "150,000",
     "cost": "1.42",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": 5.0,
+        "cons_30d": 0.0
+      },
+      "Medawar": {
+        "stock": -1.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "18786",
