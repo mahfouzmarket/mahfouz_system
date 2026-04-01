@@ -3448,16 +3448,26 @@
       "unit": "-",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": 5.0,
       "consumption_in_geitawi_branch": "30.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": -1.0,
       "consumption_in_medawar_branch": "23.0",
-      "total_stock": "5.0",
+      "total_stock": 4.0,
       "total_consumption": "53.0",
       "VAT": "NO",
       "price_lbp": "150,000",
       "cost": "1.42",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 5.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": -1.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "18786",
@@ -3923,24 +3933,20 @@
       "unit": "-",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": 0.0,
       "consumption_in_geitawi_branch": "11.0",
-      "stock_in_medawar_branch": "17.0",
+      "stock_in_medawar_branch": 17.0,
       "consumption_in_medawar_branch": "16.0",
-      "total_stock": "17.0",
+      "total_stock": 17.0,
       "total_consumption": "27.0",
       "VAT": "NO",
       "price_lbp": "205,000",
       "cost": "1.67",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": "0.0",
-          "consumption": "11.0"
-        },
         "Medawar": {
-          "stock": "17.0",
-          "consumption": "16.0"
+          "stock": 17.0,
+          "cons_30d": 0.0
         }
       }
     },
