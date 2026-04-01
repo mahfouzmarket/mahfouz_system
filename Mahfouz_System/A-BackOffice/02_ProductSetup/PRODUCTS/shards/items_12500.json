@@ -633,11 +633,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "15.0",
+      "stock_in_geitawi_branch": 15.0,
       "consumption_in_geitawi_branch": "39.0",
-      "stock_in_medawar_branch": "28.0",
+      "stock_in_medawar_branch": 27.0,
       "consumption_in_medawar_branch": "35.0",
-      "total_stock": "43.0",
+      "total_stock": 42.0,
       "total_consumption": "74.0",
       "VAT": "NO",
       "price_lbp": "165,000",
@@ -646,7 +646,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12729.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 15.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 27.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "12731",
