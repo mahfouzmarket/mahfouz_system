@@ -1808,11 +1808,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "728.0",
+      "stock_in_geitawi_branch": 728.0,
       "consumption_in_geitawi_branch": "1452.0",
-      "stock_in_medawar_branch": "1874.0",
+      "stock_in_medawar_branch": 1873.0,
       "consumption_in_medawar_branch": "1581.0",
-      "total_stock": "2602.0",
+      "total_stock": 2601.0,
       "total_consumption": "3033.0",
       "VAT": "YES",
       "price_lbp": "20,000",
@@ -1821,7 +1821,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID478.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 728.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 1873.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "494",
