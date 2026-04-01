@@ -1858,11 +1858,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": 5.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": 3.32,
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10.0",
+      "total_stock": 8.32,
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -1871,7 +1871,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15750.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 5.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 3.32,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "15751",
