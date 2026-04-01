@@ -1608,11 +1608,11 @@
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": 5.0,
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "49.0",
+      "stock_in_medawar_branch": 47.0,
       "consumption_in_medawar_branch": "25.0",
-      "total_stock": "54.0",
+      "total_stock": 52.0,
       "total_consumption": "25.0",
       "VAT": "NO",
       "price_lbp": "55,000",
@@ -1621,7 +1621,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16268.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 5.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 47.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "16270",
