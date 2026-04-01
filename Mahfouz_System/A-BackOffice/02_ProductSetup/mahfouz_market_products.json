@@ -61999,16 +61999,26 @@
     "unit": "-",
     "sub_category": "CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "36.0",
+    "stock_in_geitawi_branch": 36.0,
     "consumption_in_geitawi_branch": "94.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": 4.0,
     "consumption_in_medawar_branch": "165.0",
-    "total_stock": "41.0",
+    "total_stock": 40.0,
     "total_consumption": "259.0",
     "VAT": "NO",
     "price_lbp": "60,000",
     "cost": "0.55",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": 36.0,
+        "cons_30d": 0.0
+      },
+      "Medawar": {
+        "stock": 4.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "17951",
