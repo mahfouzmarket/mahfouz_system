@@ -57,11 +57,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "14.0",
+      "stock_in_geitawi_branch": 14.0,
       "consumption_in_geitawi_branch": "30.0",
-      "stock_in_medawar_branch": "45.0",
+      "stock_in_medawar_branch": 44.0,
       "consumption_in_medawar_branch": "31.0",
-      "total_stock": "59.0",
+      "total_stock": 58.0,
       "total_consumption": "61.0",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -70,7 +70,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13506.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 14.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 44.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "13507",
