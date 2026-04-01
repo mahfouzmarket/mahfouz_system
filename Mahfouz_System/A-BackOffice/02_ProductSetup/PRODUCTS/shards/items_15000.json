@@ -105,11 +105,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": 4.0,
       "consumption_in_geitawi_branch": "100.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": 0.0,
       "consumption_in_medawar_branch": "100.0",
-      "total_stock": "5.0",
+      "total_stock": 4.0,
       "total_consumption": "200.0",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -118,7 +118,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15039.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": 4.0,
+          "cons_30d": 0.0
+        },
+        "Medawar": {
+          "stock": 0.0,
+          "cons_30d": 0.0
+        }
+      }
     },
     {
       "id": "15056",
