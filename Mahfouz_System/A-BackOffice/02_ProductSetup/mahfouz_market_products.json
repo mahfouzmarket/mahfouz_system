@@ -5021,16 +5021,22 @@
     "unit": "-",
     "sub_category": "Croissant",
     "offers": "0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": 0.0,
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "65.0",
+    "stock_in_medawar_branch": 64.0,
     "consumption_in_medawar_branch": "78.0",
-    "total_stock": "65.0",
+    "total_stock": 64.0,
     "total_consumption": "78.0",
     "VAT": "NO",
     "price_lbp": "50,000",
     "cost": "0.37",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": 64.0,
+        "cons_30d": 0.0
+      }
+    }
   },
   {
     "id": "2298",
