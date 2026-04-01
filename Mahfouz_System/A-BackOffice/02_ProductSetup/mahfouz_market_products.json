@@ -2161,16 +2161,26 @@
     "unit": "-",
     "sub_category": "HOT DRINK",
     "offers": "0",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "41.0",
     "stock_in_medawar_branch": "275.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "276.0",
+    "total_stock": "275.0",
     "total_consumption": "44.0",
     "VAT": "YES",
     "price_lbp": "70,000",
     "cost": "0.47",
-    "delivery_rules": "0.225"
+    "delivery_rules": "0.225",
+    "branches": {
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "41.0"
+      },
+      "Medawar": {
+        "stock": "275.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "625",
