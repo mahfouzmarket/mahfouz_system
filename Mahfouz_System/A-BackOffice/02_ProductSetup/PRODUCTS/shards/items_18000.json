@@ -1837,14 +1837,24 @@
       "offers": "0",
       "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "15.0",
       "consumption_in_medawar_branch": "18.0",
-      "total_stock": "21.0",
+      "total_stock": "30.0",
       "total_consumption": "19.0",
       "VAT": "YES",
-      "price_lbp": "150,000",
-      "cost": "1.30",
-      "delivery_rules": "0.005"
+      "price_lbp": 150000,
+      "cost": 1.3,
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "15.0",
+          "consumption": "18.0"
+        },
+        "Geitawi": {
+          "stock": "15.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "18164",
@@ -2397,7 +2407,7 @@
       "name": "LA PIARA TURKEY SMOKED 200G",
       "category": "FOOD",
       "sub": "CHARCUTERIE",
-      "price_usd": "5.36",
+      "price_usd": "4.83",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18202.jpg",
       "supplier": "NOUNA'S FOOD",
       "barcode": "2701212",
@@ -2407,16 +2417,29 @@
       "unit": "-",
       "sub_category": "CHARCUTERIE",
       "offers": "0",
-      "stock_in_geitawi_branch": "13.0",
-      "consumption_in_geitawi_branch": "27.0",
+      "stock_in_geitawi_branch": "4.0",
+      "consumption_in_geitawi_branch": "32.0",
       "stock_in_medawar_branch": "6.0",
-      "consumption_in_medawar_branch": "7.0",
-      "total_stock": "19.0",
-      "total_consumption": "34.0",
+      "consumption_in_medawar_branch": "8.0",
+      "total_stock": "10.0",
+      "total_consumption": "40.0",
       "VAT": "YES",
-      "price_lbp": "480,000",
+      "price_lbp": "435,000",
       "cost": "3.52",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "32.0"
+        },
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "8.0"
+        }
+      },
+      "barcode2": "",
+      "new_items": "",
+      "manual": ""
     },
     {
       "id": "18203",
@@ -5063,14 +5086,24 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "12.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
+      "total_stock": "12.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "1,155,000",
-      "cost": "9.96",
-      "delivery_rules": "0.005"
+      "price_lbp": 1155000,
+      "cost": 9.96,
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "12.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "18492",
