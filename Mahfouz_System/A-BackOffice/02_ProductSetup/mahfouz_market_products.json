@@ -59416,15 +59416,17 @@
     "name": "MOLIN DOR KAAK LONG REGULAR 310G",
     "category": "FOOD",
     "sub": "BAKERY",
+    "sub_category": "BAKERY",
+    "subCategory": "BAKERY",
     "price_usd": "0.00",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17383.jpg",
     "supplier": "MOULIN D'OR",
     "barcode": "",
+    "barcode2": "",
     "barcodes": "",
-    "Product Description": "MOLIN DOR KAAK LONG REGULAR 310G",
+    "Product Description": "MOULIN DOR KAAK LONG REGULAR 310G",
     "SUPPLIERS": "MOULIN D'OR",
     "unit": "-",
-    "sub_category": "BAKERY",
     "offers": "0",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -59435,7 +59437,20 @@
     "VAT": "NO",
     "price_lbp": "0",
     "cost": "1.00",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    },
+    "linked_profile_enabled": false,
+    "expiry_days": "0",
+    "cost_ht": "1.00"
   },
   {
     "id": "17385",
@@ -75323,9 +75338,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "11.0",
-    "stock_in_medawar_branch": "55.0",
+    "stock_in_medawar_branch": "73.0",
     "consumption_in_medawar_branch": "7.0",
-    "total_stock": "60.0",
+    "total_stock": "78.0",
     "total_consumption": "18.0",
     "VAT": "NO",
     "price_lbp": 580000,
@@ -75337,7 +75352,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "55.0",
+        "stock": "73.0",
         "consumption": "0.0"
       }
     }
