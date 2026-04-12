@@ -3660,16 +3660,19 @@
     "name": "DAIRY KHOURY DOUBLE CREME LIGHT 200GR",
     "category": "FOOD",
     "sub": "DAIRY PRODUCTS",
-    "price_usd": "4.02",
+    "sub_category": "DAIRY PRODUCTS",
+    "subCategory": "DAIRY PRODUCTS",
+    "price_usd": "4.00",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1076.jpg",
     "supplier": "DAIRY KHOURY USD",
     "barcode": "5285008140599",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DAIRY KHOURY DOUBLE CREME LIGHT 200GR",
     "SUPPLIERS": "DAIRY KHOURY USD",
-    "unit": "-",
-    "sub_category": "DAIRY PRODUCTS",
+    "unit": "kg",
     "offers": "0",
+    "expiry_days": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -3679,7 +3682,19 @@
     "VAT": "NO",
     "price_lbp": "360,000",
     "cost": "2.87",
-    "delivery_rules": "0.005"
+    "cost_ht": "2.87",
+    "delivery_rules": "0.005",
+    "linked_profile_enabled": false,
+    "branches": {
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "1082",
