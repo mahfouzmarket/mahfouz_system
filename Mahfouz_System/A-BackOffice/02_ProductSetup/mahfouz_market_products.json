@@ -19,9 +19,9 @@
     "expiry_days": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "9.0",
+    "total_stock": "10.0",
     "total_consumption": "2.0",
     "VAT": "YES",
     "price_lbp": "1,235,000",
@@ -35,7 +35,7 @@
         "consumption": "1.0"
       },
       "Medawar": {
-        "stock": "5.0",
+        "stock": "6.0",
         "consumption": "1.0"
       }
     }
@@ -14986,11 +14986,11 @@
     "unit": "-",
     "sub_category": "BAKERY",
     "offers": "0",
-    "stock_in_geitawi_branch": "-1.0",
+    "stock_in_geitawi_branch": "-13.0",
     "consumption_in_geitawi_branch": "102.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "62.0",
-    "total_stock": "-1.0",
+    "total_stock": "-13.0",
     "total_consumption": "164.0",
     "VAT": "NO",
     "price_lbp": "120,000",
@@ -14998,7 +14998,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "-1.0",
+        "stock": "-13.0",
         "consumption": "102.0"
       }
     }
@@ -66819,17 +66819,19 @@
   {
     "id": "18193",
     "name": "LA PIARA TURKEY 200 GR",
+    "unit": "-",
     "category": "FOOD",
     "sub": "CHARCUTERIE",
-    "price_usd": "4.86",
+    "sub_category": "CHARCUTERIE",
+    "subCategory": "CHARCUTERIE",
+    "price_usd": "4.83",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18193.jpg",
     "supplier": "NOUNA'S FOOD",
     "barcode": "2701201",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LA PIARA TURKEY 200 GR",
     "SUPPLIERS": "NOUNA'S FOOD",
-    "unit": "-",
-    "sub_category": "CHARCUTERIE",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "49.0",
@@ -66840,7 +66842,20 @@
     "VAT": "YES",
     "price_lbp": "435,000",
     "cost": "5.15",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "49.0"
+      },
+      "Medawar": {
+        "stock": "5.0",
+        "consumption": "6.0"
+      }
+    },
+    "expiry_days": "30",
+    "cost_ht": "5.15",
+    "linked_profile_enabled": false
   },
   {
     "id": "18194",
