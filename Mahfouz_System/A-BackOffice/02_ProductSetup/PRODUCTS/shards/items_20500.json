@@ -2760,16 +2760,26 @@
       "unit": "kg",
       "sub_category": "fruits",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "10.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "450,000",
       "cost": "4.12",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "20677",
