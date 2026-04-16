@@ -2763,16 +2763,22 @@
     "unit": "-",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "29.0",
+    "stock_in_geitawi_branch": "27.0",
     "consumption_in_geitawi_branch": "33.0",
     "stock_in_medawar_branch": "17.0",
     "consumption_in_medawar_branch": "51.0",
-    "total_stock": "46.0",
+    "total_stock": "27.0",
     "total_consumption": "84.0",
     "VAT": "YES",
     "price_lbp": "35,000",
     "cost": "0.25",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "27.0",
+        "consumption": "33.0"
+      }
+    }
   },
   {
     "id": "699",
@@ -45368,11 +45374,11 @@
     "unit": "-",
     "sub_category": "ELECTRIC CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "32.0",
+    "stock_in_geitawi_branch": "31.0",
     "consumption_in_geitawi_branch": "141.0",
     "stock_in_medawar_branch": "27.0",
     "consumption_in_medawar_branch": "40.0",
-    "total_stock": "59.0",
+    "total_stock": "58.0",
     "total_consumption": "181.0",
     "VAT": "NO",
     "price_lbp": 250000,
@@ -45380,7 +45386,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "32.0",
+        "stock": "31.0",
         "consumption": "141.0"
       },
       "Medawar": {
