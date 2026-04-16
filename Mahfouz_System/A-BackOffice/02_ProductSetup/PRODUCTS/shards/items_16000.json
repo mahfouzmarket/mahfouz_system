@@ -1824,10 +1824,10 @@
       "barcode": "3014260011888",
       "Product Description": "ORAL B 5 WAY CLEAN",
       "SUPPLIERS": "JACK DIB",
-      "unit": "-",
+      "unit": "",
       "category": "HOME USAGE",
       "sub_category": "TOOTH CARE",
-      "offers": "0",
+      "offers": "",
       "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.0",
@@ -1835,13 +1835,28 @@
       "total_stock": "12.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "135,000",
+      "price_lbp": "0",
       "price_usd": "1.51",
-      "cost": "1.01",
+      "cost": "0.0000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16289.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "11.0",
+          "consumption": "0.0"
+        }
+      },
+      "secondary_subcategory": "",
+      "secondary_category": "",
+      "supplier": "JACK DIB",
+      "secondary_sub_category": "",
+      "sub": "TOOTH CARE"
     },
     {
       "id": "16290",
@@ -2765,11 +2780,26 @@
       "VAT": "NO",
       "price_lbp": "215,000",
       "price_usd": "2.40",
-      "cost": "1.82",
+      "cost": "1.8200",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16411.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        },
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      },
+      "secondary_category": "",
+      "sub": "VINEGAR & PICKLES",
+      "secondary_sub_category": "",
+      "secondary_subcategory": "",
+      "supplier": "AL HAMAWI TRADING"
     },
     {
       "id": "16432",
@@ -3112,6 +3142,45 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005"
+    },
+    {
+      "id": "16489",
+      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "1.0",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "price_usd": "3.63",
+      "barcode": "",
+      "secondary_sub_category": "",
+      "cost": "2.9800",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "secondary_subcategory": "",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16489.jpg",
+      "secondary_category": "",
+      "sub": "",
+      "VAT": "NO",
+      "Product Description": "TISSUES WHITE PACKET X 10",
+      "sub_category": "",
+      "SUPPLIERS": "",
+      "unit": "-",
+      "price_lbp": "325,000",
+      "new_items": "",
+      "category": "",
+      "supplier": "",
+      "offers": "0"
     }
   ]
 }

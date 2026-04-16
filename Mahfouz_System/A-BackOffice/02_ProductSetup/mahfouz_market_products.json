@@ -2,28 +2,43 @@
   {
     "id": "13",
     "name": "KSARAK 700ML",
+    "unit": "-",
     "category": "ALCOHOL 18+ (RESTRICTED)",
     "sub": "arak",
-    "price_usd": "13.80",
+    "sub_category": "arak",
+    "subCategory": "arak",
+    "price_usd": "13.72",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13.jpg",
     "supplier": "ETS WASSEF CHEIBANE",
     "barcode": "5281022441971",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "KSARAK 700ML",
     "SUPPLIERS": "ETS WASSEF CHEIBANE",
-    "unit": "-",
-    "sub_category": "arak",
     "offers": "0",
-    "stock_in_geitawi_branch": "4.0",
+    "stock_in_geitawi_branch": "10.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "9.0",
+    "total_stock": "16.0",
     "total_consumption": "2.0",
     "VAT": "YES",
     "price_lbp": "1,235,000",
     "cost": "10.94",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "10.0",
+        "consumption": "1.0"
+      }
+    },
+    "expiry_days": "0",
+    "cost_ht": "10.94",
+    "linked_profile_enabled": false
   },
   {
     "id": "16",
@@ -3896,28 +3911,43 @@
   {
     "id": "1076",
     "name": "DAIRY KHOURY DOUBLE CREME LIGHT 200GR",
+    "unit": "kg",
     "category": "FOOD",
     "sub": "DAIRY PRODUCTS",
-    "price_usd": "4.02",
+    "sub_category": "DAIRY PRODUCTS",
+    "subCategory": "DAIRY PRODUCTS",
+    "price_usd": "4.00",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1076.jpg",
     "supplier": "DAIRY KHOURY USD",
     "barcode": "5285008140599",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DAIRY KHOURY DOUBLE CREME LIGHT 200GR",
     "SUPPLIERS": "DAIRY KHOURY USD",
-    "unit": "kg",
-    "sub_category": "DAIRY PRODUCTS",
     "offers": "0",
-    "stock_in_geitawi_branch": "3.0",
-    "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "4.0",
+    "stock_in_geitawi_branch": "4.0",
+    "consumption_in_geitawi_branch": "0.0",
+    "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "7.0",
-    "total_consumption": "2.0",
+    "total_stock": "6.0",
+    "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "360,000",
     "cost": "2.87",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "1.0"
+      }
+    },
+    "expiry_days": "0",
+    "cost_ht": "2.87",
+    "linked_profile_enabled": false
   },
   {
     "id": "1082",
@@ -5585,11 +5615,11 @@
     "Product Description": "SAJ MN ZAMAN",
     "SUPPLIERS": "men zaman",
     "offers": "0",
-    "stock_in_geitawi_branch": "-4.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "70.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "-4.0",
+    "total_stock": "0.0",
     "total_consumption": "70.0",
     "VAT": "NO",
     "price_lbp": "85,000",
@@ -5602,7 +5632,7 @@
       },
       "Geitawi": {
         "consumption": "70.0",
-        "stock": "-4.0"
+        "stock": "0.0"
       }
     },
     "expiry_days": "0",
@@ -10876,15 +10906,18 @@
   {
     "id": "4589",
     "name": "FAHEM BAKHOUR",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "0.78",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4589.jpg",
     "supplier": "",
     "barcode": "2700192-2700152",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "FAHEM BAKHOUR",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "-1.0",
     "consumption_in_geitawi_branch": "1.0",
@@ -10894,8 +10927,18 @@
     "total_consumption": "1.0",
     "VAT": "YES",
     "price_lbp": "70,000",
-    "cost": "0.56",
-    "delivery_rules": "0.005"
+    "cost": "0.5600",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "-1.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "4638",
@@ -17625,15 +17668,18 @@
   {
     "id": "8145",
     "name": "MARVEL SQ.FT 25",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "1.62",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID8145.jpg",
     "supplier": "",
     "barcode": "5281001516058",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MARVEL SQ.FT 25",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -17643,8 +17689,18 @@
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": "145,000",
-    "cost": "1.13",
-    "delivery_rules": "0.005"
+    "cost": "1.1300",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "8146",
@@ -19143,17 +19199,19 @@
   {
     "id": "8975",
     "name": "LADY SPEED STICK FRESH&ESSENCE",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID8975.jpg",
     "supplier": "JACK DIB",
     "barcode": "022200963435",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LADY SPEED STICK FRESH&ESSENCE",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -19163,8 +19221,18 @@
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": "450,000",
-    "cost": "3.35",
-    "delivery_rules": "0.005"
+    "cost": "3.3500",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "8979",
@@ -19960,17 +20028,19 @@
   {
     "id": "9576",
     "name": "JIF WHITE 500ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "CLEANING",
+    "sub_category": "CLEANING",
+    "subCategory": "CLEANING",
     "price_usd": "2.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID9576.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "6281006100022",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "JIF WHITE 500ML",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "CLEANING",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "1.0",
@@ -19980,8 +20050,18 @@
     "total_consumption": "1.0",
     "VAT": "YES",
     "price_lbp": "260,000",
-    "cost": "2.31",
-    "delivery_rules": "0.005"
+    "cost": "2.3100",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "9588",
@@ -21324,28 +21404,40 @@
   {
     "id": "10264",
     "name": "GILLETTE II",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shaving",
+    "sub_category": "shaving",
+    "subCategory": "shaving",
     "price_usd": "0.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10264.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "2700162",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GILLETTE II",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "shaving",
     "offers": "0",
     "stock_in_geitawi_branch": "-1.0",
-    "consumption_in_geitawi_branch": "16.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "4.0",
-    "consumption_in_medawar_branch": "56.0",
+    "consumption_in_medawar_branch": "53.0",
     "total_stock": "3.0",
-    "total_consumption": "72.0",
+    "total_consumption": "53.0",
     "VAT": "YES",
     "price_lbp": "50,000",
-    "cost": "0.42",
-    "delivery_rules": "0.005"
+    "cost": "0.4200",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "56.0"
+      },
+      "Geitawi": {
+        "stock": "-1.0",
+        "consumption": "16.0"
+      }
+    }
   },
   {
     "id": "10267",
@@ -23046,28 +23138,40 @@
   {
     "id": "10738",
     "name": "HACKER WARRIOR  750ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "INSECT KILLER",
+    "sub_category": "INSECT KILLER",
+    "subCategory": "INSECT KILLER",
     "price_usd": "4.86",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10738.jpg",
     "supplier": "JACK DIB",
     "barcode": "6926313588216-6926313588261",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "HACKER WARRIOR  750ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "INSECT KILLER",
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "1.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "5.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "435,000",
-    "cost": "3.52",
-    "delivery_rules": "0.005"
+    "cost": "3.5200",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "10749",
@@ -24492,17 +24596,19 @@
   {
     "id": "11557",
     "name": "ULTRA DOUX NURTURING ALMOND MILK 400ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11557.jpg",
     "supplier": "JACK DIB",
     "barcode": "3610340634185",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ULTRA DOUX NURTURING ALMOND MILK 400ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -24512,8 +24618,18 @@
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": "410,000",
-    "cost": "3.24",
-    "delivery_rules": "0.005"
+    "cost": "3.2400",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "11600",
@@ -24544,28 +24660,40 @@
   {
     "id": "11607",
     "name": "CLEAR MEN 360 M",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11607.jpg",
     "supplier": "JACK DIB",
     "barcode": "6221155058485",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CLEAR MEN 360 M",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "2.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": "350,000",
-    "cost": "2.79",
-    "delivery_rules": "0.005"
+    "cost": "2.7900",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "11610",
@@ -27113,28 +27241,40 @@
   {
     "id": "12879",
     "name": "ALFA 3.03 $",
+    "unit": "-",
     "category": "recharge card",
     "sub": "alfa",
+    "sub_category": "alfa",
+    "subCategory": "alfa",
     "price_usd": "4.13",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12879.jpg",
     "supplier": "whish",
     "barcode": "",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ALFA 3.03 $",
     "SUPPLIERS": "whish",
-    "unit": "-",
-    "sub_category": "alfa",
     "offers": "0",
     "stock_in_geitawi_branch": "-2.0",
-    "consumption_in_geitawi_branch": "4.0",
+    "consumption_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "-2.0",
-    "total_consumption": "4.0",
+    "total_consumption": "3.0",
     "VAT": "NO",
     "price_lbp": "370,000",
-    "cost": "3.39",
-    "delivery_rules": "0.005"
+    "cost": "3.3900",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "-2.0",
+        "consumption": "4.0"
+      }
+    }
   },
   {
     "id": "12881",
@@ -30191,80 +30331,116 @@
   {
     "id": "13286",
     "name": "CUP CARTOON",
+    "unit": "-",
     "category": "mahfouz market",
     "sub": "cup",
+    "sub_category": "cup",
+    "subCategory": "cup",
     "price_usd": "0.06",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13286.jpg",
     "supplier": "mahfouz market",
     "barcode": "",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CUP CARTOON",
     "SUPPLIERS": "mahfouz market",
-    "unit": "-",
-    "sub_category": "cup",
     "offers": "0",
     "stock_in_geitawi_branch": "-4.0",
-    "consumption_in_geitawi_branch": "80.0",
+    "consumption_in_geitawi_branch": "89.0",
     "stock_in_medawar_branch": "-8.0",
-    "consumption_in_medawar_branch": "420.0",
+    "consumption_in_medawar_branch": "396.0",
     "total_stock": "-12.0",
-    "total_consumption": "500.0",
+    "total_consumption": "485.0",
     "VAT": "YES",
     "price_lbp": "5,000",
-    "cost": "0.05",
-    "delivery_rules": "0.005"
+    "cost": "0.0500",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "-8.0",
+        "consumption": "420.0"
+      },
+      "Geitawi": {
+        "stock": "-4.0",
+        "consumption": "80.0"
+      }
+    }
   },
   {
     "id": "13287",
     "name": "CUP PLASTIC",
+    "unit": "-",
     "category": "mahfouz market",
     "sub": "cup",
+    "sub_category": "cup",
+    "subCategory": "cup",
     "price_usd": "0.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13287.jpg",
     "supplier": "mahfouz market",
     "barcode": "",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CUP PLASTIC",
     "SUPPLIERS": "mahfouz market",
-    "unit": "-",
-    "sub_category": "cup",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "10.0",
-    "consumption_in_medawar_branch": "262.0",
+    "consumption_in_medawar_branch": "265.0",
     "total_stock": "10.0",
-    "total_consumption": "262.0",
+    "total_consumption": "265.0",
     "VAT": "YES",
     "price_lbp": "3,000",
-    "cost": "0.02",
-    "delivery_rules": "0.005"
+    "cost": "0.0200",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "10.0",
+        "consumption": "262.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "13288",
     "name": "CUP PLASTIC BIG",
+    "unit": "-",
     "category": "mahfouz market",
     "sub": "cup",
+    "sub_category": "cup",
+    "subCategory": "cup",
     "price_usd": "0.11",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13288.jpg",
     "supplier": "mahfouz market",
     "barcode": "",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CUP PLASTIC BIG",
     "SUPPLIERS": "mahfouz market",
-    "unit": "-",
-    "sub_category": "cup",
     "offers": "0",
     "stock_in_geitawi_branch": "-2.0",
-    "consumption_in_geitawi_branch": "60.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "6.0",
-    "consumption_in_medawar_branch": "112.0",
+    "consumption_in_medawar_branch": "100.0",
     "total_stock": "4.0",
-    "total_consumption": "172.0",
+    "total_consumption": "100.0",
     "VAT": "YES",
     "price_lbp": "10,000",
-    "cost": "0.08",
-    "delivery_rules": "0.005"
+    "cost": "0.0800",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "112.0"
+      },
+      "Geitawi": {
+        "stock": "-2.0",
+        "consumption": "60.0"
+      }
+    }
   },
   {
     "id": "13292",
@@ -30772,17 +30948,19 @@
   {
     "id": "13367",
     "name": "REXONA MEN SPORT DEFENCE 200ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.74",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13367.jpg",
     "supplier": "JACK DIB",
     "barcode": "8717644891551",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "REXONA MEN SPORT DEFENCE 200ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -30792,34 +30970,56 @@
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": "335,000",
-    "cost": "2.79",
-    "delivery_rules": "0.005"
+    "cost": "2.7900",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "13368",
     "name": "REXONA QUANTUM DRY 200 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.02",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13368.jpg",
     "supplier": "JACK DIB",
     "barcode": "8714100019818",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "REXONA QUANTUM DRY 200 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
-    "consumption_in_geitawi_branch": "1.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "4.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "5.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": "270,000",
-    "cost": "2.79",
-    "delivery_rules": "0.005"
+    "cost": "2.7900",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "13369",
@@ -31597,12 +31797,12 @@
   {
     "id": "13474",
     "name": "KLATCHI EGYPTIAN SEEDS 200 GR",
-    "unit": "",
+    "unit": "-",
     "category": "NUTS",
     "sub": "KLATCHI",
     "sub_category": "KLATCHI",
     "subCategory": "KLATCHI",
-    "price_usd": "2.67",
+    "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13474.jpg",
     "supplier": "WES3 EL MADA LBP",
     "barcode": "2700240",
@@ -31610,15 +31810,17 @@
     "barcodes": "",
     "Product Description": "KLATCHI EGYPTIAN SEEDS 200 GR",
     "SUPPLIERS": "WES3 EL MADA LBP",
+    "offers": "0",
     "stock_in_geitawi_branch": "7.0",
-    "consumption_in_geitawi_branch": "0.0",
+    "consumption_in_geitawi_branch": "52.0",
     "stock_in_medawar_branch": "41.0",
-    "consumption_in_medawar_branch": "0.0",
+    "consumption_in_medawar_branch": "49.0",
     "total_stock": "48.0",
-    "total_consumption": "0.0",
+    "total_consumption": "101.0",
     "VAT": "NO",
-    "price_lbp": "240,000",
-    "cost": "0.00",
+    "price_lbp": "140,000",
+    "cost": "0.9100",
+    "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
         "stock": "7.0",
@@ -33162,26 +33364,39 @@
   {
     "id": "13639",
     "name": "LIAMO FARFALLE 400 GRS",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "0.84",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13639.jpg",
     "supplier": "",
     "barcode": "5285008413914-5285008413921",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LIAMO FARFALLE 400 GRS",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "8.0",
-    "consumption_in_geitawi_branch": "4.0",
+    "consumption_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "8.0",
-    "total_consumption": "4.0",
+    "total_consumption": "3.0",
     "VAT": "NO",
     "price_lbp": "75,000",
-    "cost": "0.66",
-    "delivery_rules": "0.005"
+    "cost": "0.6600",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "8.0",
+        "consumption": "4.0"
+      }
+    }
   },
   {
     "id": "13641",
@@ -36749,18 +36964,19 @@
   {
     "id": "14091",
     "name": "SPEED STICK REGULAR LIGHT",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14091.jpg",
     "supplier": "JACK DIB",
-    "barcode": "022200940207-022200940238",
+    "barcode": "022200940207",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SPEED STICK REGULAR LIGHT",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -36768,9 +36984,19 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "320,000",
-    "cost": "2.36",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "14093",
@@ -41195,28 +41421,39 @@
   {
     "id": "14689",
     "name": "POPPINS FROSTED FLAKES 350 GR",
+    "unit": "",
     "category": "CHI TAYIB",
     "sub": "corn flakes",
+    "sub_category": "corn flakes",
+    "subCategory": "corn flakes",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14689.jpg",
     "supplier": "FALCO SALES & DISTRIBUTION SAL",
     "barcode": "5281128604393",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "POPPINS FROSTED FLAKES 350 GR",
     "SUPPLIERS": "FALCO SALES & DISTRIBUTION SAL",
-    "unit": "-",
-    "sub_category": "corn flakes",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "1.0",
-    "total_consumption": "1.0",
-    "VAT": "YES",
-    "price_lbp": "350,000",
-    "cost": "3.26",
-    "delivery_rules": "0.005"
+    "total_consumption": "0.0",
+    "VAT": "NO",
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "14691",
@@ -41247,28 +41484,39 @@
   {
     "id": "14692",
     "name": "POPPINS CHOCO BUMPS 350 GR",
+    "unit": "",
     "category": "CHI TAYIB",
     "sub": "corn flakes",
+    "sub_category": "corn flakes",
+    "subCategory": "corn flakes",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14692.jpg",
     "supplier": "FALCO SALES & DISTRIBUTION SAL",
     "barcode": "5281128604379",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "POPPINS CHOCO BUMPS 350 GR",
     "SUPPLIERS": "FALCO SALES & DISTRIBUTION SAL",
-    "unit": "-",
-    "sub_category": "corn flakes",
-    "offers": "0",
     "stock_in_geitawi_branch": "0.0",
-    "consumption_in_geitawi_branch": "1.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "0.0",
-    "total_consumption": "2.0",
-    "VAT": "YES",
-    "price_lbp": "350,000",
-    "cost": "3.26",
-    "delivery_rules": "0.005"
+    "total_consumption": "0.0",
+    "VAT": "NO",
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "14701",
@@ -42605,28 +42853,39 @@
   {
     "id": "14880",
     "name": "POPPINS HONEY FLAKES 350 GR",
+    "unit": "",
     "category": "CHI TAYIB",
     "sub": "corn flakes",
+    "sub_category": "corn flakes",
+    "subCategory": "corn flakes",
     "price_usd": "3.52",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14880.jpg",
     "supplier": "FALCO SALES & DISTRIBUTION SAL",
     "barcode": "5281128604409",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "POPPINS HONEY FLAKES 350 GR",
     "SUPPLIERS": "FALCO SALES & DISTRIBUTION SAL",
-    "unit": "-",
-    "sub_category": "corn flakes",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "3.0",
     "total_consumption": "0.0",
-    "VAT": "YES",
-    "price_lbp": "315,000",
-    "cost": "2.17",
-    "delivery_rules": "0.005"
+    "VAT": "NO",
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "14887",
@@ -45407,28 +45666,39 @@
   {
     "id": "15283",
     "name": "GAZPOWER 190 G",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "GAS",
+    "sub_category": "GAS",
+    "subCategory": "GAS",
     "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15283.jpg",
     "supplier": "JACK DIB",
     "barcode": "5207197010019",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GAZPOWER 190 G",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "GAS",
-    "offers": "0",
     "stock_in_geitawi_branch": "7.0",
-    "consumption_in_geitawi_branch": "3.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "23.0",
-    "consumption_in_medawar_branch": "3.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "30.0",
-    "total_consumption": "6.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "140,000",
-    "cost": "0.85",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "23.0",
+        "consumption": "3.0"
+      },
+      "Geitawi": {
+        "stock": "7.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "15285",
@@ -45511,18 +45781,19 @@
   {
     "id": "15296",
     "name": "SPEED STICK FRESH 51 G",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15296.jpg",
     "supplier": "JACK DIB",
     "barcode": "022200940214",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SPEED STICK FRESH 51 G",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "5.0",
@@ -45530,25 +45801,36 @@
     "total_stock": "6.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "320,000",
-    "cost": "2.36",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "15298",
     "name": "SPEED STICK COOL 51 G",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15298.jpg",
     "supplier": "JACK DIB",
     "barcode": "022200940252",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SPEED STICK COOL 51 G",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -45556,9 +45838,19 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "320,000",
-    "cost": "2.36",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "15307",
@@ -48047,28 +48339,39 @@
   {
     "id": "15638",
     "name": "WHITE BOARD",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "STATIONARY",
+    "sub_category": "STATIONARY",
+    "subCategory": "STATIONARY",
     "price_usd": "1.45",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15638.jpg",
     "supplier": "JACK DIB",
     "barcode": "6976441254538",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "WHITE BOARD",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "STATIONARY",
-    "offers": "0",
     "stock_in_geitawi_branch": "2.0",
-    "consumption_in_geitawi_branch": "1.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "3.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "5.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "130,000",
-    "cost": "1.01",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "15647",
@@ -48423,26 +48726,39 @@
   {
     "id": "15696",
     "name": "WEEKEND TIE LARGE 12 BAGS",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "1.34",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15696.jpg",
     "supplier": "",
     "barcode": "5287000271158",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "WEEKEND TIE LARGE 12 BAGS",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
-    "consumption_in_geitawi_branch": "3.0",
+    "consumption_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "7.0",
-    "total_consumption": "3.0",
+    "total_consumption": "2.0",
     "VAT": "NO",
     "price_lbp": "120,000",
-    "cost": "0.75",
-    "delivery_rules": "0.005"
+    "cost": "0.7500",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "15701",
@@ -49142,11 +49458,11 @@
     "Product Description": "BASAL YEBIS",
     "SUPPLIERS": "VEGETABLES AND FRUITS",
     "offers": "0",
-    "stock_in_geitawi_branch": "3.0",
+    "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "3.0",
+    "total_stock": "4.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "160,000",
@@ -49154,7 +49470,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "3.0",
+        "stock": "4.0",
         "consumption": "0.0"
       }
     }
@@ -50820,18 +51136,19 @@
   {
     "id": "15883",
     "name": "INTESA SEX GURANA 125 ML",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "2.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15883.jpg",
     "supplier": "JACK DIB",
     "barcode": "5285009960202",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "INTESA SEX GURANA 125 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -50839,25 +51156,36 @@
     "total_stock": "4.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "250,000",
-    "cost": "1.91",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "15884",
     "name": "INTESA SEX AMBRA DARABIA 125 ML",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "2.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15884.jpg",
     "supplier": "JACK DIB",
-    "barcode": "5285009960196-5285009960264",
+    "barcode": "5285009960196",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "INTESA SEX AMBRA DARABIA 125 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -50865,9 +51193,19 @@
     "total_stock": "4.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "250,000",
-    "cost": "1.91",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "15890",
@@ -53820,18 +54158,19 @@
   {
     "id": "16289",
     "name": "ORAL B 5 WAY CLEAN",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "1.51",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16289.jpg",
     "supplier": "JACK DIB",
     "barcode": "3014260011888",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ORAL B 5 WAY CLEAN",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
-    "offers": "0",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "1.0",
@@ -53839,9 +54178,19 @@
     "total_stock": "12.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "135,000",
-    "cost": "1.01",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "11.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "16290",
@@ -54824,17 +55173,19 @@
   {
     "id": "16411",
     "name": "MASSOUD OLIVES CHILI SAUSE 500 G",
+    "unit": "-",
     "category": "FOOD",
     "sub": "VINEGAR & PICKLES",
+    "sub_category": "VINEGAR & PICKLES",
+    "subCategory": "VINEGAR & PICKLES",
     "price_usd": "2.40",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16411.jpg",
     "supplier": "AL HAMAWI TRADING",
     "barcode": "5287002062938",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MASSOUD OLIVES CHILI SAUSE 500 G",
     "SUPPLIERS": "AL HAMAWI TRADING",
-    "unit": "-",
-    "sub_category": "VINEGAR & PICKLES",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -54844,8 +55195,18 @@
     "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "215,000",
-    "cost": "1.82",
-    "delivery_rules": "0.005"
+    "cost": "1.8200",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "16432",
@@ -55164,6 +55525,43 @@
     "price_lbp": "210,000",
     "cost": "1.67",
     "delivery_rules": "0.005"
+  },
+  {
+    "id": "16489",
+    "name": "TISSUES WHITE PACKET X 10",
+    "unit": "-",
+    "category": "",
+    "sub": "",
+    "sub_category": "",
+    "subCategory": "",
+    "price_usd": "3.63",
+    "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16489.jpg",
+    "supplier": "",
+    "barcode": "",
+    "barcode2": "",
+    "barcodes": "",
+    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "0.0",
+    "consumption_in_medawar_branch": "0.0",
+    "consumption_in_geitawi_branch": "1.0",
+    "total_stock": "0.0",
+    "total_consumption": "1.0",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    },
+    "cost": "2.9800",
+    "delivery_rules": "0.005",
+    "VAT": "NO",
+    "Product Description": "TISSUES WHITE PACKET X 10",
+    "price_lbp": "325,000",
+    "offers": "0"
   },
   {
     "id": "16498",
@@ -56314,28 +56712,40 @@
   {
     "id": "16715",
     "name": "MILKA TUC 92 G",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "chocolate bar",
+    "sub_category": "chocolate bar",
+    "subCategory": "chocolate bar",
     "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16715.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622201098575",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MILKA TUC 92 G",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "chocolate bar",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
-    "consumption_in_medawar_branch": "3.0",
+    "consumption_in_medawar_branch": "2.0",
     "total_stock": "0.0",
-    "total_consumption": "6.0",
+    "total_consumption": "5.0",
     "VAT": "YES",
     "price_lbp": "140,000",
-    "cost": "1.26",
-    "delivery_rules": "0.005"
+    "cost": "1.2600",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "3.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "16730",
@@ -67813,28 +68223,39 @@
   {
     "id": "17957",
     "name": "HEAD & SHOULDER ANTI DANDRUFF SHAMPOO 400",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17957.jpg",
     "supplier": "JACK DIB",
     "barcode": "8006540146187",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "HEAD & SHOULDER ANTI DANDRUFF SHAMPOO 400",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
-    "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "3.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "5.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "410,000",
-    "cost": "3.02",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "17958",
@@ -68801,18 +69222,19 @@
   {
     "id": "18060",
     "name": "JOHNSOUNS CHAMOMILE BABY SHAMPOO 500 ML",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "BABY CARE",
+    "sub_category": "BABY CARE",
+    "subCategory": "BABY CARE",
     "price_usd": "3.41",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18060.jpg",
     "supplier": "JACK DIB",
     "barcode": "3574669907415",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "JOHNSOUNS CHAMOMILE BABY SHAMPOO 500 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "BABY CARE",
-    "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "3.0",
@@ -68820,9 +69242,19 @@
     "total_stock": "6.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "305,000",
-    "cost": "2.01",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "18061",
@@ -69769,18 +70201,19 @@
   {
     "id": "18148",
     "name": "NIVEA DEEP BLACK CHARCOOL 50 ML",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "2.74",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18148.jpg",
     "supplier": "JACK DIB",
     "barcode": "8999777014315",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "NIVEA DEEP BLACK CHARCOOL 50 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "3.0",
@@ -69788,9 +70221,19 @@
     "total_stock": "6.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "245,000",
-    "cost": "1.67",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "18150",
@@ -70425,28 +70868,43 @@
   {
     "id": "18193",
     "name": "LA PIARA TURKEY 200 GR",
+    "unit": "-",
     "category": "FOOD",
     "sub": "CHARCUTERIE",
-    "price_usd": "4.86",
+    "sub_category": "CHARCUTERIE",
+    "subCategory": "CHARCUTERIE",
+    "price_usd": "4.83",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18193.jpg",
     "supplier": "NOUNA'S FOOD",
     "barcode": "2701201",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LA PIARA TURKEY 200 GR",
     "SUPPLIERS": "NOUNA'S FOOD",
-    "unit": "-",
-    "sub_category": "CHARCUTERIE",
     "offers": "0",
-    "stock_in_geitawi_branch": "11.0",
-    "consumption_in_geitawi_branch": "48.0",
-    "stock_in_medawar_branch": "6.0",
+    "stock_in_geitawi_branch": "5.0",
+    "consumption_in_geitawi_branch": "49.0",
+    "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "6.0",
-    "total_stock": "17.0",
-    "total_consumption": "54.0",
+    "total_stock": "10.0",
+    "total_consumption": "55.0",
     "VAT": "YES",
     "price_lbp": "435,000",
     "cost": "5.15",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "49.0"
+      },
+      "Medawar": {
+        "stock": "5.0",
+        "consumption": "6.0"
+      }
+    },
+    "expiry_days": "30",
+    "cost_ht": "5.15",
+    "linked_profile_enabled": false
   },
   {
     "id": "18194",
@@ -70645,28 +71103,43 @@
   {
     "id": "18203",
     "name": "SALAMI WENBO 200G",
+    "unit": "-",
     "category": "FOOD",
     "sub": "CHARCUTERIE",
-    "price_usd": "4.47",
+    "sub_category": "CHARCUTERIE",
+    "subCategory": "CHARCUTERIE",
+    "price_usd": "4.44",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18203.jpg",
     "supplier": "NOUNA'S FOOD",
     "barcode": "2701210",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SALAMI WENBO 200G",
     "SUPPLIERS": "NOUNA'S FOOD",
-    "unit": "-",
-    "sub_category": "CHARCUTERIE",
     "offers": "0",
-    "stock_in_geitawi_branch": "7.0",
-    "consumption_in_geitawi_branch": "15.0",
+    "stock_in_geitawi_branch": "8.0",
+    "consumption_in_geitawi_branch": "14.0",
     "stock_in_medawar_branch": "3.0",
-    "consumption_in_medawar_branch": "5.03",
-    "total_stock": "10.0",
-    "total_consumption": "20.03",
+    "consumption_in_medawar_branch": "4.0",
+    "total_stock": "11.0",
+    "total_consumption": "18.0",
     "VAT": "YES",
     "price_lbp": "400,000",
     "cost": "4.65",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "8.0",
+        "consumption": "14.0"
+      },
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "4.0"
+      }
+    },
+    "expiry_days": "30",
+    "cost_ht": "4.65",
+    "linked_profile_enabled": false
   },
   {
     "id": "18204",
@@ -72851,26 +73324,39 @@
   {
     "id": "18445",
     "name": "HOMEMAKER PACK OF 20 TEALIGHTS",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "1.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18445.jpg",
     "supplier": "",
     "barcode": "9300806706610",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "HOMEMAKER PACK OF 20 TEALIGHTS",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "9.0",
-    "consumption_in_geitawi_branch": "1.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "14.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "23.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "160,000",
-    "cost": "1.01",
-    "delivery_rules": "0.005"
+    "cost": "1.0100",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "14.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "9.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "18448",
@@ -76805,26 +77291,39 @@
   {
     "id": "18767",
     "name": "SANDWICH TUNA BROWN",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "7.26",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18767.jpg",
     "supplier": "",
     "barcode": "2701275",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SANDWICH TUNA BROWN",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "0.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "650,000",
-    "cost": "4.75",
-    "delivery_rules": "0.005"
+    "cost": "6.1700",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "18768",
@@ -77546,17 +78045,19 @@
   {
     "id": "18848",
     "name": "GIPSY SANITA 200 SHEETS",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TISSUES & TOILET PAPER",
+    "sub_category": "TISSUES & TOILET PAPER",
+    "subCategory": "TISSUES & TOILET PAPER",
     "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18848.jpg",
     "supplier": "KTE KFOURY TRADING EST",
     "barcode": "5281001117521",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GIPSY SANITA 200 SHEETS",
     "SUPPLIERS": "KTE KFOURY TRADING EST",
-    "unit": "-",
-    "sub_category": "TISSUES & TOILET PAPER",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -77566,8 +78067,18 @@
     "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "140,000",
-    "cost": "0.87",
-    "delivery_rules": "0.005"
+    "cost": "0.8700",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "18849",
@@ -81780,18 +82291,19 @@
   {
     "id": "19209",
     "name": "DUREX EXTRA THIN 3PCS",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "personal care",
+    "sub_category": "personal care",
+    "subCategory": "personal care",
     "price_usd": "4.19",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19209.jpg",
     "supplier": "JACK DIB",
     "barcode": "8901396388456",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DUREX EXTRA THIN 3PCS",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "personal care",
-    "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "5.0",
@@ -81799,9 +82311,19 @@
     "total_stock": "9.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "375,000",
-    "cost": "1.51",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "19210",
@@ -84303,18 +84825,18 @@
     "barcode2": "",
     "barcodes": "",
     "Product Description": "NF TIRAMISU",
-    "stock_in_geitawi_branch": "-2.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "-2.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "0",
     "cost": "0.00",
     "branches": {
       "Geitawi": {
-        "stock": "-2.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -84771,18 +85293,19 @@
   {
     "id": "19465",
     "name": "GILLETTE GEL COOL WAVE 48HR PROTECTION",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "4.13",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19465.jpg",
     "supplier": "JACK DIB",
     "barcode": "7702018978120",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GILLETTE GEL COOL WAVE 48HR PROTECTION",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -84790,9 +85313,19 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "370,000",
-    "cost": "2.51",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "19466",
@@ -85647,28 +86180,39 @@
   {
     "id": "19529",
     "name": "ULTRA DOUX RICE WATER & STARCH 400ML",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19529.jpg",
     "supplier": "JACK DIB",
     "barcode": "3610340670909",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ULTRA DOUX RICE WATER & STARCH 400ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
-    "consumption_in_geitawi_branch": "1.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "3.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "4.0",
-    "total_consumption": "2.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "410,000",
-    "cost": "2.92",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "19530",
@@ -88557,18 +89101,19 @@
   {
     "id": "19753",
     "name": "GILLETTE GEL ALOE SCENT 48HR PROTECTION",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "4.13",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19753.jpg",
     "supplier": "JACK DIB",
     "barcode": "8001841587684",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GILLETTE GEL ALOE SCENT 48HR PROTECTION",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -88576,25 +89121,36 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "370,000",
-    "cost": "2.51",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "19754",
     "name": "GILLETTE GEL SPORT TRIUMPH 48HR PROTECTION",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "4.13",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19754.jpg",
     "supplier": "JACK DIB",
     "barcode": "7702018271788",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GILLETTE GEL SPORT TRIUMPH 48HR PROTECTION",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
@@ -88602,9 +89158,19 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "370,000",
-    "cost": "2.51",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "19760",
@@ -89325,18 +89891,19 @@
   {
     "id": "19811",
     "name": "VEET EASY GEL BODY & LEGS",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "shaving",
+    "sub_category": "shaving",
+    "subCategory": "shaving",
     "price_usd": "5.31",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19811.jpg",
     "supplier": "JACK DIB",
     "barcode": "5000146055853",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "VEET EASY GEL BODY & LEGS",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shaving",
-    "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "3.0",
@@ -89344,9 +89911,19 @@
     "total_stock": "6.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "475,000",
-    "cost": "3.52",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "19812",
@@ -95991,17 +96568,19 @@
   {
     "id": "20200",
     "name": "PALMOLIVE 2IN1 REPARATION/KERATIN & ARGAN O",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "2.96",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20200.jpg",
     "supplier": "JACK DIB",
     "barcode": "8718951377943",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "PALMOLIVE 2IN1 REPARATION/KERATIN & ARGAN O",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -96011,8 +96590,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "265,000",
-    "cost": "1.51",
-    "delivery_rules": "0.005"
+    "cost": "1.5100",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20201",
@@ -96459,54 +97048,78 @@
   {
     "id": "20222",
     "name": "CHIPS MORE MINI DOUBLE CHOC 72 G",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "Cookies",
+    "sub_category": "Cookies",
+    "subCategory": "Cookies",
     "price_usd": "1.68",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20222.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622210630100",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CHIPS MORE MINI DOUBLE CHOC 72 G",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "Cookies",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
-    "consumption_in_geitawi_branch": "6.0",
+    "consumption_in_geitawi_branch": "5.0",
     "stock_in_medawar_branch": "11.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "11.0",
-    "total_consumption": "6.0",
+    "total_consumption": "5.0",
     "VAT": "NO",
     "price_lbp": "150,000",
-    "cost": "1.24",
-    "delivery_rules": "0.005"
+    "cost": "1.2400",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "11.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "6.0"
+      }
+    }
   },
   {
     "id": "20223",
     "name": "CHIPS MORE MINI HAZELNUT 72 G",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "Cookies",
+    "sub_category": "Cookies",
+    "subCategory": "Cookies",
     "price_usd": "1.68",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20223.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622210630124",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CHIPS MORE MINI HAZELNUT 72 G",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "Cookies",
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
-    "consumption_in_geitawi_branch": "6.0",
+    "consumption_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "14.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "18.0",
-    "total_consumption": "7.0",
+    "total_consumption": "3.0",
     "VAT": "NO",
     "price_lbp": "150,000",
-    "cost": "1.24",
-    "delivery_rules": "0.005"
+    "cost": "1.2400",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "14.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "6.0"
+      }
+    }
   },
   {
     "id": "20226",
@@ -96537,17 +97150,19 @@
   {
     "id": "20230",
     "name": "MILKA BUBBLY ALPIN MILK",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "chocolate bar",
+    "sub_category": "chocolate bar",
+    "subCategory": "chocolate bar",
     "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20230.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622202209550",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MILKA BUBBLY ALPIN MILK",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "chocolate bar",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "3.0",
@@ -96557,8 +97172,18 @@
     "total_consumption": "6.0",
     "VAT": "NO",
     "price_lbp": "140,000",
-    "cost": "1.14",
-    "delivery_rules": "0.005"
+    "cost": "1.1400",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "3.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "20231",
@@ -96589,28 +97214,40 @@
   {
     "id": "20232",
     "name": "MILKA ALPINE MILK AU LAIT",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "chocolate bar",
+    "sub_category": "chocolate bar",
+    "subCategory": "chocolate bar",
     "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20232.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622202211102",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MILKA ALPINE MILK AU LAIT",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "chocolate bar",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "3.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "3.0",
-    "total_consumption": "4.0",
+    "total_consumption": "3.0",
     "VAT": "NO",
     "price_lbp": "140,000",
-    "cost": "1.14",
-    "delivery_rules": "0.005"
+    "cost": "1.1400",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "20240",
@@ -98911,17 +99548,19 @@
   {
     "id": "20377",
     "name": "ULTRA DOUX RESTORING CASTOR 400 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20377.jpg",
     "supplier": "JACK DIB",
     "barcode": "3610340078781",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ULTRA DOUX RESTORING CASTOR 400 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -98931,8 +99570,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "410,000",
-    "cost": "2.92",
-    "delivery_rules": "0.005"
+    "cost": "2.9200",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20378",
@@ -99015,17 +99664,19 @@
   {
     "id": "20384",
     "name": "ELVIVE NOURISHING SHAMPO 400 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.36",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20384.jpg",
     "supplier": "JACK DIB",
     "barcode": "3610340019982",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ELVIVE NOURISHING SHAMPO 400 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -99035,8 +99686,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "390,000",
-    "cost": "2.77",
-    "delivery_rules": "0.005"
+    "cost": "2.7700",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20385",
@@ -99223,17 +99884,19 @@
   {
     "id": "20393",
     "name": "REXONA MEN MOTIONSENSE 48H",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20393.jpg",
     "supplier": "JACK DIB",
     "barcode": "4800888220868",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "REXONA MEN MOTIONSENSE 48H",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -99243,8 +99906,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.51",
-    "delivery_rules": "0.005"
+    "cost": "2.5100",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20394",
@@ -99805,17 +100478,19 @@
   {
     "id": "20417",
     "name": "PALMOLIVE 2IN1 MINT MEN 380ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "2.96",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20417.jpg",
     "supplier": "JACK DIB",
     "barcode": "8718951377011",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "PALMOLIVE 2IN1 MINT MEN 380ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -99825,8 +100500,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "265,000",
-    "cost": "1.51",
-    "delivery_rules": "0.005"
+    "cost": "1.5100",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20418",
@@ -100623,17 +101308,19 @@
   {
     "id": "20458",
     "name": "DOVE SHAMPO NOURISHING OIL CARE 400 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20458.jpg",
     "supplier": "JACK DIB",
     "barcode": "6281006423480",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DOVE SHAMPO NOURISHING OIL CARE 400 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -100643,8 +101330,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.77",
-    "delivery_rules": "0.005"
+    "cost": "2.7700",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20461",
@@ -100675,17 +101372,19 @@
   {
     "id": "20462",
     "name": "PALMOLIVE SHAMPOO WITH GREEN TEA 380 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "2.96",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20462.jpg",
     "supplier": "JACK DIB",
     "barcode": "8718951377073",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "PALMOLIVE SHAMPOO WITH GREEN TEA 380 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -100695,8 +101394,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "265,000",
-    "cost": "1.51",
-    "delivery_rules": "0.005"
+    "cost": "1.5100",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20464",
@@ -100753,17 +101462,19 @@
   {
     "id": "20466",
     "name": "PALMOLIVE MEN WITH ORANGE PEEL OIL 380 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "2.96",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20466.jpg",
     "supplier": "JACK DIB",
     "barcode": "8718951377042",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "PALMOLIVE MEN WITH ORANGE PEEL OIL 380 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -100773,8 +101484,18 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "265,000",
-    "cost": "1.51",
-    "delivery_rules": "0.005"
+    "cost": "1.5100",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20468",
@@ -106461,28 +107182,39 @@
   {
     "id": "20822",
     "name": "LADY SPEED STICK CHERRY 65G",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20822.jpg",
     "supplier": "JACK DIB",
     "barcode": "022200750318",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LADY SPEED STICK CHERRY 65G",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
-    "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "1.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "3.0",
-    "total_consumption": "1.0",
-    "VAT": "YES",
-    "price_lbp": "450,000",
-    "cost": "3.35",
-    "delivery_rules": "0.005"
+    "total_consumption": "0.0",
+    "VAT": "NO",
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20823",
@@ -111970,18 +112702,19 @@
   {
     "id": "21142",
     "name": "ORAL B EXTRA CLEAN",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "1.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21142.jpg",
     "supplier": "JACK DIB",
     "barcode": "3014260838379",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ORAL B EXTRA CLEAN",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
-    "offers": "0",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "1.0",
@@ -111989,9 +112722,19 @@
     "total_stock": "12.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "160,000",
-    "cost": "1.01",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "11.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21144",
@@ -114016,18 +114759,19 @@
   {
     "id": "21261",
     "name": "HEAD & SHOULDERS MEN ULTRA DEEP CLEANSING 3",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21261.jpg",
     "supplier": "JACK DIB",
     "barcode": "8001841509013",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "HEAD & SHOULDERS MEN ULTRA DEEP CLEANSING 3",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
-    "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "4.0",
@@ -114035,9 +114779,19 @@
     "total_stock": "6.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "410,000",
-    "cost": "3.02",
-    "delivery_rules": "0.005"
+    "price_lbp": "0",
+    "cost": "0.0000",
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21262",
@@ -123957,11 +124711,11 @@
     "Product Description": "NF EID MA3MOUL RAHA NT 500G",
     "SUPPLIERS": "NOUNA'S FOOD",
     "offers": "0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "0.0",
+    "total_stock": "1.0",
     "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "990,000",
@@ -123969,12 +124723,12 @@
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
+        "consumption": "0.0",
+        "stock": "0.0"
       },
       "Geitawi": {
-        "stock": "0.0",
-        "consumption": "1.0"
+        "consumption": "1.0",
+        "stock": "1.0"
       }
     },
     "cost_ht": "9.07",
@@ -125263,50 +126017,58 @@
   {
     "id": "21776",
     "name": "DAIRY MILK PISTACHIO CRUNCH 35G",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "sweets",
+    "sub_category": "sweets",
+    "subCategory": "sweets",
     "price_usd": "0.84",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21776.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622202371233",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DAIRY MILK PISTACHIO CRUNCH 35G",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "sweets",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
-    "consumption_in_geitawi_branch": "9.0",
+    "consumption_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "18.0",
-    "consumption_in_medawar_branch": "6.0",
-    "total_stock": "2.0",
-    "total_consumption": "15.0",
+    "consumption_in_medawar_branch": "4.0",
+    "total_stock": "20.0",
+    "total_consumption": "6.0",
     "VAT": "NO",
     "price_lbp": "75,000",
-    "cost": "0.64",
+    "cost": "0.6400",
     "new_items": "x",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
         "stock": "2.0",
         "consumption": "9.0"
+      },
+      "Medawar": {
+        "stock": "18.0",
+        "consumption": "6.0"
       }
     }
   },
   {
     "id": "21777",
     "name": "MILKA CARAMEL 100G",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "chocolate bar",
+    "sub_category": "chocolate bar",
+    "subCategory": "chocolate bar",
     "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21777.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622202313042",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MILKA CARAMEL 100G",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "chocolate bar",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "2.0",
@@ -125316,24 +126078,36 @@
     "total_consumption": "4.0",
     "VAT": "NO",
     "price_lbp": "140,000",
-    "cost": "1.14",
+    "cost": "1.1400",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "2.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "2.0"
+      }
+    }
   },
   {
     "id": "21778",
     "name": "MILKA CHIPS AHOY 90 G",
+    "unit": "-",
     "category": "CHI TAYIB",
     "sub": "chocolate bar",
+    "sub_category": "chocolate bar",
+    "subCategory": "chocolate bar",
     "price_usd": "1.56",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21778.jpg",
     "supplier": "EDWIN YAZBECK FOR TRADING",
     "barcode": "7622202313127",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MILKA CHIPS AHOY 90 G",
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
-    "unit": "-",
-    "sub_category": "chocolate bar",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "3.0",
@@ -125343,9 +126117,19 @@
     "total_consumption": "5.0",
     "VAT": "NO",
     "price_lbp": "140,000",
-    "cost": "1.14",
+    "cost": "1.1400",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "2.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "21779",
@@ -125388,15 +126172,18 @@
   {
     "id": "21780",
     "name": "KEFRAYA ARAK 750 ML",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "12.29",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21780.jpg",
     "supplier": "",
     "barcode": "5281004511005",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "KEFRAYA ARAK 750 ML",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -125406,9 +126193,19 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "1,100,000",
-    "cost": "8.78",
+    "cost": "8.7800",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21781",
@@ -125717,40 +126514,56 @@
   {
     "id": "21789",
     "name": "MARSHMALLOW CUP 70G",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "2.23",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21789.jpg",
     "supplier": "",
     "barcode": "2701376",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MARSHMALLOW CUP 70G",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
-    "consumption_in_geitawi_branch": "9.0",
+    "consumption_in_geitawi_branch": "8.0",
     "stock_in_medawar_branch": "7.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "12.0",
-    "total_consumption": "10.0",
+    "total_consumption": "8.0",
     "VAT": "NO",
     "price_lbp": "200,000",
-    "cost": "1.90",
+    "cost": "1.8300",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "9.0"
+      }
+    }
   },
   {
     "id": "21790",
     "name": "KTEER TAYIB LONG WHITE BEANS 900G",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "2.46",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21790.jpg",
     "supplier": "",
     "barcode": "5285001250127",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "KTEER TAYIB LONG WHITE BEANS 900G",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -125760,9 +126573,19 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "220,000",
-    "cost": "2.10",
+    "cost": "2.1000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21793",
@@ -126067,17 +126890,19 @@
   {
     "id": "21805",
     "name": "NIVEA MEN SILVER PROTECT 48H 150 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21805.jpg",
     "supplier": "JACK DIB",
     "barcode": "4005808302659",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "NIVEA MEN SILVER PROTECT 48H 150 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126087,105 +126912,157 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "320,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21806",
-    "name": "NIVEA FRESH CHERRY 150 ML",
+    "name": "PATEX TYBE 99",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "TOOLS",
-    "price_usd": "3.58",
+    "sub_category": "TOOLS",
+    "subCategory": "TOOLS",
+    "price_usd": "3.89",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21806.jpg",
     "supplier": "JACK DIB",
-    "barcode": "4005900728241",
+    "barcode": "2701377",
+    "barcode2": "",
     "barcodes": "",
-    "Product Description": "NIVEA FRESH CHERRY 150 ML",
+    "Product Description": "PATEX TYBE 99",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOLS",
-    "offers": "0",
-    "stock_in_geitawi_branch": "3.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "3.0",
+    "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "6.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "320,000",
-    "cost": "2.51",
+    "price_lbp": "350,000",
+    "cost": "0.0000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    },
+    "expiry_days": "0",
+    "cost_ht": "0.00",
+    "linked_profile_enabled": false
   },
   {
     "id": "21807",
-    "name": "AXE ANARCHY FOR HER 150 ML",
+    "name": "STELLA EVERYDAY FOR BEAUTY",
+    "unit": "",
     "category": "HOME USAGE",
     "sub": "nail & skin care",
-    "price_usd": "2.57",
+    "sub_category": "nail & skin care",
+    "subCategory": "nail & skin care",
+    "price_usd": "2.44",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21807.jpg",
     "supplier": "JACK DIB",
-    "barcode": "8720181114458",
+    "barcode": "2701378",
+    "barcode2": "",
     "barcodes": "",
-    "Product Description": "AXE ANARCHY FOR HER 150 ML",
+    "Product Description": "STELLA EVERYDAY FOR BEAUTY",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "nail & skin care",
-    "offers": "0",
-    "stock_in_geitawi_branch": "3.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "3.0",
+    "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "6.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "VAT": "NO",
-    "price_lbp": "230,000",
-    "cost": "1.76",
+    "price_lbp": "220,000",
+    "cost": "0.0000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    },
+    "expiry_days": "0",
+    "cost_ht": "0.00",
+    "linked_profile_enabled": false
   },
   {
     "id": "21808",
     "name": "BATH SPONGE",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "hand & body wash",
+    "sub_category": "hand & body wash",
+    "subCategory": "hand & body wash",
     "price_usd": "1.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21808.jpg",
     "supplier": "JACK DIB",
     "barcode": "6931191560063",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "BATH SPONGE",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "hand & body wash",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "5.0",
-    "consumption_in_medawar_branch": "2.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "10.0",
-    "total_consumption": "2.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "90,000",
-    "cost": "0.50",
+    "cost": "0.5000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "5.0",
+        "consumption": "2.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21809",
     "name": "HONG KANG HOUSEWORK GLOVES",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "GLOVES",
+    "sub_category": "GLOVES",
+    "subCategory": "GLOVES",
     "price_usd": "2.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21809.jpg",
     "supplier": "JACK DIB",
     "barcode": "6970278350197",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "HONG KANG HOUSEWORK GLOVES",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "GLOVES",
     "offers": "0",
     "stock_in_geitawi_branch": "10.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126195,24 +127072,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "180,000",
-    "cost": "1.01",
+    "cost": "1.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "14.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "10.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21810",
     "name": "CORDE A LINGE CLOTH LINE 20M",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOLS",
+    "sub_category": "TOOLS",
+    "subCategory": "TOOLS",
     "price_usd": "2.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21810.jpg",
     "supplier": "JACK DIB",
     "barcode": "8475126432882",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CORDE A LINGE CLOTH LINE 20M",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOLS",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126222,24 +127111,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "250,000",
-    "cost": "1.26",
+    "cost": "1.2600",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21811",
     "name": "CLOTHES ROPE DURABLE 10 M",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOLS",
+    "sub_category": "TOOLS",
+    "subCategory": "TOOLS",
     "price_usd": "2.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21811.jpg",
     "supplier": "JACK DIB",
     "barcode": "6656639005103",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CLOTHES ROPE DURABLE 10 M",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOLS",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126249,24 +127150,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "180,000",
-    "cost": "1.01",
+    "cost": "1.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21812",
     "name": "LIGHTER GAZ GCCLITE",
+    "unit": "-",
     "category": "CIGARETTES",
     "sub": "LIGHTER",
+    "sub_category": "LIGHTER",
+    "subCategory": "LIGHTER",
     "price_usd": "3.02",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21812.jpg",
     "supplier": "JACK DIB",
     "barcode": "6978213351612",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LIGHTER GAZ GCCLITE",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "LIGHTER",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126276,24 +127189,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "270,000",
-    "cost": "1.51",
+    "cost": "1.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21813",
     "name": "LADY SPEED STICK INVISIBLE DRY 65 G",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21813.jpg",
     "supplier": "JACK DIB",
     "barcode": "022200954402",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LADY SPEED STICK INVISIBLE DRY 65 G",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126303,24 +127228,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "450,000",
-    "cost": "3.01",
+    "cost": "3.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21814",
     "name": "GILLETTE GEL ARCTIC ICE 48 HR 70 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "4.13",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21814.jpg",
     "supplier": "JACK DIB",
     "barcode": "7702018978106",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GILLETTE GEL ARCTIC ICE 48 HR 70 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126330,24 +127267,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "370,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21815",
     "name": "GILLETTE SHAVE FOAM ORGINAL SENSITIVE 300 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shaving",
+    "sub_category": "shaving",
+    "subCategory": "shaving",
     "price_usd": "4.13",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21815.jpg",
     "supplier": "JACK DIB",
     "barcode": "8006540766279",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "GILLETTE SHAVE FOAM ORGINAL SENSITIVE 300 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shaving",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126357,24 +127306,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "370,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21816",
     "name": "PATEX TYBE 99",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "glue",
+    "sub_category": "glue",
+    "subCategory": "glue",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21816.jpg",
     "supplier": "JACK DIB",
     "barcode": "2701377",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "PATEX TYBE 99",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "glue",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126384,78 +127345,114 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "1.76",
+    "cost": "1.7600",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21817",
     "name": "REXONA MEN MOTION SENSE 48 H",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "deodorant & roll on",
+    "sub_category": "deodorant & roll on",
+    "subCategory": "deodorant & roll on",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21817.jpg",
     "supplier": "JACK DIB",
     "barcode": "4800888221964",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "REXONA MEN MOTION SENSE 48 H",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "deodorant & roll on",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "1.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "2.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21818",
     "name": "HEAD & SHOULDERS CLASSIC CLEAN NORMAL HAIR",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.58",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21818.jpg",
     "supplier": "JACK DIB",
     "barcode": "5011321360945",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "HEAD & SHOULDERS CLASSIC CLEAN NORMAL HAIR",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "3.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "5.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "410,000",
-    "cost": "3.02",
+    "cost": "3.0200",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21819",
     "name": "PANTENE SMOOTH & SLEEK SHAMPO 400 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "3.74",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21819.jpg",
     "supplier": "JACK DIB",
     "barcode": "5000174500004",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "PANTENE SMOOTH & SLEEK SHAMPO 400 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126465,24 +127462,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "335,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21820",
     "name": "JOHNSOUN KIDS BUBBLE BATH & WASH 500 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "BABY CARE",
+    "sub_category": "BABY CARE",
+    "subCategory": "BABY CARE",
     "price_usd": "3.41",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21820.jpg",
     "supplier": "JACK DIB",
     "barcode": "3574661427690",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "JOHNSOUN KIDS BUBBLE BATH & WASH 500 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "BABY CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126492,24 +127501,36 @@
     "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "305,000",
-    "cost": "2.01",
+    "cost": "2.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21821",
     "name": "ELVIVE DREAM LONG SHAMPOO",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "4.36",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21821.jpg",
     "supplier": "JACK DIB",
     "barcode": "6222017096881",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ELVIVE DREAM LONG SHAMPOO",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126519,24 +127540,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "390,000",
-    "cost": "2.77",
+    "cost": "2.7700",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21822",
     "name": "DOVE NOURISHING OIL LIGHT 400 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21822.jpg",
     "supplier": "JACK DIB",
     "barcode": "8710447478967",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DOVE NOURISHING OIL LIGHT 400 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126546,24 +127579,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.77",
+    "cost": "2.7700",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21823",
     "name": "DOVE DETOX RITUAL SHAMPOO 400 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21823.jpg",
     "supplier": "JACK DIB",
     "barcode": "8717163671115",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DOVE DETOX RITUAL SHAMPOO 400 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126573,24 +127618,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.77",
+    "cost": "2.7700",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21824",
     "name": "DOVE REPAIRING RITUAL 400 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "shampoo & cond",
+    "sub_category": "shampoo & cond",
+    "subCategory": "shampoo & cond",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21824.jpg",
     "supplier": "JACK DIB",
     "barcode": "6281006425361",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "DOVE REPAIRING RITUAL 400 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "shampoo & cond",
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126600,24 +127657,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.77",
+    "cost": "2.7700",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21825",
     "name": "LUX MAGICAL ORCHID 115 G",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "hand & body wash",
+    "sub_category": "hand & body wash",
+    "subCategory": "hand & body wash",
     "price_usd": "1.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21825.jpg",
     "supplier": "JACK DIB",
     "barcode": "6221155201010",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LUX MAGICAL ORCHID 115 G",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "hand & body wash",
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126627,24 +127696,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "90,000",
-    "cost": "0.50",
+    "cost": "0.5000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "8.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21826",
     "name": "LUX DREAM DELIGHT JASMINE SAMBAC 115 G",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "hand & body wash",
+    "sub_category": "hand & body wash",
+    "subCategory": "hand & body wash",
     "price_usd": "1.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21826.jpg",
     "supplier": "JACK DIB",
     "barcode": "6221155201003",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LUX DREAM DELIGHT JASMINE SAMBAC 115 G",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "hand & body wash",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126654,24 +127735,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "90,000",
-    "cost": "0.50",
+    "cost": "0.5000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "12.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21827",
     "name": "LUX FLAW LESS SKIN",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "hand & body wash",
+    "sub_category": "hand & body wash",
+    "subCategory": "hand & body wash",
     "price_usd": "1.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21827.jpg",
     "supplier": "JACK DIB",
     "barcode": "6221155200990",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LUX FLAW LESS SKIN",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "hand & body wash",
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126681,22 +127774,35 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "90,000",
-    "cost": "0.50",
+    "cost": "0.5000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "8.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21828",
     "name": "SIMPLY VENUS BASIC",
+    "unit": "-",
     "category": "",
     "sub": "",
+    "sub_category": "",
+    "subCategory": "",
     "price_usd": "4.13",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21828.jpg",
     "supplier": "",
     "barcode": "8700216143714",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SIMPLY VENUS BASIC",
-    "unit": "-",
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126706,24 +127812,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "370,000",
-    "cost": "2.01",
+    "cost": "2.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21829",
     "name": "JOHNSON'S BABY SHAMPOO FOR SENSITIVE SKIN 7",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "BABY CARE",
+    "sub_category": "BABY CARE",
+    "subCategory": "BABY CARE",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21829.jpg",
     "supplier": "JACK DIB",
     "barcode": "3574669907927",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "JOHNSON'S BABY SHAMPOO FOR SENSITIVE SKIN 7",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "BABY CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126733,51 +127851,75 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "450,000",
-    "cost": "3.02",
+    "cost": "3.0200",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21830",
-    "name": "10 COLOR PEN",
+    "name": "PEN MULTI COULOR",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "STATIONARY",
+    "sub_category": "STATIONARY",
+    "subCategory": "STATIONARY",
     "price_usd": "1.68",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21830.jpg",
     "supplier": "JACK DIB",
-    "barcode": "6955746478917-6954565451248",
+    "barcode": "6955746478917",
+    "barcode2": "",
     "barcodes": "",
-    "Product Description": "10 COLOR PEN",
+    "Product Description": "PEN MULTI COULOR",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "STATIONARY",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "32.0",
-    "consumption_in_medawar_branch": "2.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "32.0",
-    "total_consumption": "2.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "150,000",
-    "cost": "0.75",
+    "cost": "0.7500",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "32.0",
+        "consumption": "2.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21831",
     "name": "COLOR GEL PENS 12",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "STATIONARY",
+    "sub_category": "STATIONARY",
+    "subCategory": "STATIONARY",
     "price_usd": "2.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21831.jpg",
     "supplier": "JACK DIB",
     "barcode": "6930140200128",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "COLOR GEL PENS 12",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "STATIONARY",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126787,24 +127929,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "250,000",
-    "cost": "1.26",
+    "cost": "1.2600",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21832",
     "name": "MODELLING CLAY 12 COLORS",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "STATIONARY",
+    "sub_category": "STATIONARY",
+    "subCategory": "STATIONARY",
     "price_usd": "1.68",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21832.jpg",
     "supplier": "JACK DIB",
     "barcode": "6253504983360",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MODELLING CLAY 12 COLORS",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "STATIONARY",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126814,24 +127968,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "150,000",
-    "cost": "0.75",
+    "cost": "0.7500",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21833",
     "name": "COLOR PENCILS 12",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "STATIONARY",
+    "sub_category": "STATIONARY",
+    "subCategory": "STATIONARY",
     "price_usd": "2.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21833.jpg",
     "supplier": "JACK DIB",
     "barcode": "6915821490029",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "COLOR PENCILS 12",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "STATIONARY",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126841,51 +128007,75 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "180,000",
-    "cost": "1.01",
+    "cost": "1.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21834",
     "name": "BLUE ROSE HAIR BELT",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "hair care",
+    "sub_category": "hair care",
+    "subCategory": "hair care",
     "price_usd": "2.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21834.jpg",
     "supplier": "JACK DIB",
     "barcode": "6945015170307",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "BLUE ROSE HAIR BELT",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "hair care",
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
-    "consumption_in_geitawi_branch": "1.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "6.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "10.0",
-    "total_consumption": "2.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "250,000",
-    "cost": "1.51",
+    "cost": "1.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "21835",
     "name": "SENSODYNE VALUE PACK *2",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "2.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21835.jpg",
     "supplier": "JACK DIB",
     "barcode": "5054563991508",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SENSODYNE VALUE PACK *2",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126895,24 +128085,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "250,000",
-    "cost": "1.26",
+    "cost": "1.2600",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "12.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "12.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21836",
     "name": "COLGATE MAX FRESH VALUE PACK *2",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "2.79",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21836.jpg",
     "supplier": "JACK DIB",
     "barcode": "8718951307933",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "COLGATE MAX FRESH VALUE PACK *2",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126922,24 +128124,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "250,000",
-    "cost": "1.26",
+    "cost": "1.2600",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21837",
     "name": "FRETRENITY 12 COLOURED PENCILS",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "STATIONARY",
+    "sub_category": "STATIONARY",
+    "subCategory": "STATIONARY",
     "price_usd": "0.89",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21837.jpg",
     "supplier": "JACK DIB",
     "barcode": "6901172235129",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "FRETRENITY 12 COLOURED PENCILS",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "STATIONARY",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126949,24 +128163,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "80,000",
-    "cost": "0.25",
+    "cost": "0.2500",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21838",
     "name": "STELLA EVERYDAY FOR BEAUTY",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "nail & skin care",
+    "sub_category": "nail & skin care",
+    "subCategory": "nail & skin care",
     "price_usd": "2.46",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21838.jpg",
     "supplier": "JACK DIB",
     "barcode": "2701378",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "STELLA EVERYDAY FOR BEAUTY",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "nail & skin care",
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -126976,24 +128202,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "220,000",
-    "cost": "1.01",
+    "cost": "1.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "8.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21839",
     "name": "CLIPPER GAZ AZUL UNIVERSAL 250 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "GAS",
+    "sub_category": "GAS",
+    "subCategory": "GAS",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21839.jpg",
     "supplier": "JACK DIB",
     "barcode": "8412765095344",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CLIPPER GAZ AZUL UNIVERSAL 250 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "GAS",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -127003,51 +128241,75 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21840",
     "name": "COLGATE TOTAL ACTIVE PROTECTION 75 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "3.91",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21840.jpg",
     "supplier": "JACK DIB",
     "barcode": "8718951745797",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "COLGATE TOTAL ACTIVE PROTECTION 75 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
-    "consumption_in_geitawi_branch": "2.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "1.0",
     "total_stock": "9.0",
-    "total_consumption": "3.0",
+    "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "350,000",
-    "cost": "2.01",
+    "cost": "2.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "2.0"
+      }
+    }
   },
   {
     "id": "21841",
     "name": "COLGATE MAXIMUM CAVITY PROTECTION",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "2.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21841.jpg",
     "supplier": "JACK DIB",
     "barcode": "6281001101116",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "COLGATE MAXIMUM CAVITY PROTECTION",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -127057,24 +128319,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "180,000",
-    "cost": "1.16",
+    "cost": "1.1600",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "5.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21842",
     "name": "SIGNAL PROTECTION THE VERT 100 ML",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "2.01",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21842.jpg",
     "supplier": "JACK DIB",
     "barcode": "8934839125530",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SIGNAL PROTECTION THE VERT 100 ML",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -127084,24 +128358,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "180,000",
-    "cost": "1.01",
+    "cost": "1.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21843",
     "name": "LED T BULB 50 W",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "LAMP",
+    "sub_category": "LAMP",
+    "subCategory": "LAMP",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21843.jpg",
     "supplier": "JACK DIB",
     "barcode": "6958866668897",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "LED T BULB 50 W",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "LAMP",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "1.0",
@@ -127111,24 +128397,36 @@
     "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "450,000",
-    "cost": "3.02",
+    "cost": "3.0200",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "21844",
     "name": "ORAL B CLINIC LINE",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "1.51",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21844.jpg",
     "supplier": "JACK DIB",
     "barcode": "4103330031167",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ORAL B CLINIC LINE",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -127138,24 +128436,36 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "135,000",
-    "cost": "1.01",
+    "cost": "1.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "11.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21845",
     "name": "COLGATE MASSAGER",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "TOOTH CARE",
+    "sub_category": "TOOTH CARE",
+    "subCategory": "TOOTH CARE",
     "price_usd": "1.68",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21845.jpg",
     "supplier": "JACK DIB",
     "barcode": "5900273113252",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "COLGATE MASSAGER",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "TOOTH CARE",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -127165,51 +128475,75 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "150,000",
-    "cost": "1.01",
+    "cost": "1.0100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "12.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21846",
     "name": "BOROFONE DURABLE CABLE",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "phone accessories",
+    "sub_category": "phone accessories",
+    "subCategory": "phone accessories",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21846.jpg",
     "supplier": "JACK DIB",
     "barcode": "6931474743909",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "BOROFONE DURABLE CABLE",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "phone accessories",
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
-    "consumption_in_geitawi_branch": "3.0",
+    "consumption_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "3.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "3.0",
-    "total_consumption": "3.0",
+    "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "450,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "21847",
     "name": "MICRO OUTPUT 2.4A",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "phone accessories",
+    "sub_category": "phone accessories",
+    "subCategory": "phone accessories",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21847.jpg",
     "supplier": "JACK DIB",
     "barcode": "6972573335527",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "MICRO OUTPUT 2.4A",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "phone accessories",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -127219,51 +128553,75 @@
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "450,000",
-    "cost": "2.51",
+    "cost": "2.5100",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21848",
     "name": "CHARGER SET 3.5 A",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "phone accessories",
+    "sub_category": "phone accessories",
+    "subCategory": "phone accessories",
     "price_usd": "5.03",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21848.jpg",
     "supplier": "JACK DIB",
     "barcode": "6972573335077",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "CHARGER SET 3.5 A",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "phone accessories",
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "1.0",
-    "consumption_in_medawar_branch": "2.0",
+    "consumption_in_medawar_branch": "1.0",
     "total_stock": "4.0",
-    "total_consumption": "2.0",
+    "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "450,000",
-    "cost": "1.76",
+    "cost": "1.7600",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "2.0"
+      },
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21849",
     "name": "SIF PALHA DE ACO",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "DISH WASHING",
+    "sub_category": "DISH WASHING",
+    "subCategory": "DISH WASHING",
     "price_usd": "1.45",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21849.jpg",
     "supplier": "JACK DIB",
     "barcode": "7899790945355",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "SIF PALHA DE ACO",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "DISH WASHING",
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
@@ -127273,7 +128631,7 @@
     "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "130,000",
-    "cost": "0.75",
+    "cost": "0.7500",
     "new_items": "x",
     "delivery_rules": "0.005",
     "branches": {
@@ -127290,29 +128648,41 @@
   {
     "id": "21850",
     "name": "ALQYTHARA WHITE MAMSAHA",
+    "unit": "-",
     "category": "HOME USAGE",
     "sub": "CLEANING",
+    "sub_category": "CLEANING",
+    "subCategory": "CLEANING",
     "price_usd": "1.12",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21850.jpg",
     "supplier": "JACK DIB",
     "barcode": "6215588565566",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "ALQYTHARA WHITE MAMSAHA",
     "SUPPLIERS": "JACK DIB",
-    "unit": "-",
-    "sub_category": "CLEANING",
     "offers": "0",
     "stock_in_geitawi_branch": "11.0",
-    "consumption_in_geitawi_branch": "1.0",
+    "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "35.0",
-    "consumption_in_medawar_branch": "1.0",
+    "consumption_in_medawar_branch": "0.0",
     "total_stock": "46.0",
-    "total_consumption": "2.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "100,000",
-    "cost": "0.40",
+    "cost": "0.4000",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "35.0",
+        "consumption": "1.0"
+      },
+      "Geitawi": {
+        "stock": "11.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "21851",
@@ -127725,19 +129095,19 @@
     "barcode": "5283004331867",
     "barcode2": "",
     "barcodes": "",
-    "stock_in_medawar_branch": "2.0",
-    "stock_in_geitawi_branch": "2.0",
+    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "4.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
-        "stock": "2.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "2.0",
+        "stock": "0.0",
         "consumption": "0.0"
       }
     },
@@ -127746,8 +129116,8 @@
     "offers": "0",
     "expiry_days": "0",
     "VAT": "YES",
-    "price_lbp": 720000,
-    "cost": 5.783,
+    "price_lbp": "7,200",
+    "cost": "4.72",
     "cost_ht": "4.72",
     "new_items": "x",
     "delivery_rules": "0.005",
@@ -127767,28 +129137,28 @@
     "barcode": "7312040017034",
     "barcode2": "",
     "barcodes": "",
-    "stock_in_medawar_branch": "3.0",
-    "stock_in_geitawi_branch": "3.0",
+    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "6.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
-        "stock": "3.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "3.0",
+        "stock": "0.0",
         "consumption": "0.0"
       }
     },
     "Product Description": "ABSOLUT VODKA 1 L",
     "SUPPLIERS": "ETS WASSEF CHEIBANE",
     "expiry_days": "0",
-    "VAT": "YES",
-    "price_lbp": 1250000,
-    "cost": 9.9325,
+    "VAT": "NO",
+    "price_lbp": "1,250,000",
+    "cost": "0.00",
     "cost_ht": "0.00",
     "new_items": "x",
     "linked_profile_enabled": false,
@@ -127808,28 +129178,28 @@
     "barcode": "16975398449",
     "barcode2": "",
     "barcodes": "",
-    "stock_in_medawar_branch": "2.0",
-    "stock_in_geitawi_branch": "2.0",
+    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "4.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
-        "stock": "2.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "2.0",
+        "stock": "0.0",
         "consumption": "0.0"
       }
     },
     "Product Description": "MOSKOVSKAYA VODKA 1 L + 20CL FREE",
     "SUPPLIERS": "ETS WASSEF CHEIBANE",
     "expiry_days": "0",
-    "VAT": "YES",
-    "price_lbp": 720000,
-    "cost": 5.5765,
+    "VAT": "NO",
+    "price_lbp": "720,000",
+    "cost": "0.00",
     "cost_ht": "0.00",
     "new_items": "x",
     "linked_profile_enabled": false,
@@ -127839,9 +129209,9 @@
     "id": "21865",
     "name": "DELIVERY NAJJAR",
     "unit": "",
-    "category": "mahfouz market",
+    "category": "",
     "sub": "",
-    "sub_category": "cup",
+    "sub_category": "",
     "subCategory": "",
     "price_usd": "1.83",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21865.jpg",
@@ -127849,11 +129219,11 @@
     "barcode": "",
     "barcode2": "",
     "barcodes": "",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "0.0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -127861,16 +129231,16 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "1.0",
+        "stock": "0.0",
         "consumption": "0.0"
       }
     },
     "Product Description": "DELIVERY NAJJAR",
     "SUPPLIERS": "ETS MICHEL NAJJAR",
     "expiry_days": "0",
-    "VAT": "YES",
-    "price_lbp": 0,
-    "cost": 1.8,
+    "VAT": "NO",
+    "price_lbp": "165,000",
+    "cost": "0.00",
     "cost_ht": "0.00",
     "new_items": "x",
     "linked_profile_enabled": false,
