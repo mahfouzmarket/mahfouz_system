@@ -107,18 +107,28 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "91.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "99.0",
-      "total_stock": "1.0",
+      "total_stock": "4.0",
       "total_consumption": "190.0",
       "VAT": "NO",
-      "price_lbp": "150,000",
+      "price_lbp": 150000,
       "price_usd": "1.68",
-      "cost": "1.51",
+      "cost": 1.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15039.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "15056",
@@ -801,11 +811,11 @@
       "category": "CIGARETTES",
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "26.0",
+      "stock_in_geitawi_branch": "25.0",
       "consumption_in_geitawi_branch": "157.0",
       "stock_in_medawar_branch": "12.0",
       "consumption_in_medawar_branch": "86.0",
-      "total_stock": "38.0",
+      "total_stock": "25.0",
       "total_consumption": "243.0",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -814,7 +824,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15135.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "25.0",
+          "consumption": "157.0"
+        }
+      }
     },
     {
       "id": "15136",
@@ -2552,11 +2568,11 @@
       "category": "CHI TAYIB",
       "sub_category": "corn flakes",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "18.0",
       "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "9.0",
-      "total_stock": "19.0",
+      "total_stock": "8.0",
       "total_consumption": "27.0",
       "VAT": "NO",
       "price_lbp": "35,000",
@@ -2565,7 +2581,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15459.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "8.0",
+          "consumption": "18.0"
+        }
+      }
     },
     {
       "id": "15460",
