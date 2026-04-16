@@ -7896,17 +7896,19 @@
   {
     "id": "2942",
     "name": "KHOURY SHANKLISH 125GR",
+    "unit": "-",
     "category": "FOOD",
     "sub": "DAIRY PRODUCTS",
-    "price_usd": "2.12",
+    "sub_category": "DAIRY PRODUCTS",
+    "subCategory": "DAIRY PRODUCTS",
+    "price_usd": "2.11",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2942.jpg",
     "supplier": "DAIRY KHOURY USD",
     "barcode": "5287000154802",
+    "barcode2": "",
     "barcodes": "",
     "Product Description": "KHOURY SHANKLISH 125GR",
     "SUPPLIERS": "DAIRY KHOURY USD",
-    "unit": "-",
-    "sub_category": "DAIRY PRODUCTS",
     "offers": "0",
     "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "10.0",
@@ -7917,7 +7919,20 @@
     "VAT": "NO",
     "price_lbp": "190,000",
     "cost": "1.67",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "9.0",
+        "consumption": "10.0"
+      },
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "8.0"
+      }
+    },
+    "expiry_days": "0",
+    "cost_ht": "1.67",
+    "linked_profile_enabled": false
   },
   {
     "id": "2952",
