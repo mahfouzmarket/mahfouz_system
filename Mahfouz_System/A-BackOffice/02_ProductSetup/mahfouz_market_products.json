@@ -3393,16 +3393,22 @@
     "unit": "-",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "28.0",
+    "stock_in_geitawi_branch": "27.0",
     "consumption_in_geitawi_branch": "55.0",
     "stock_in_medawar_branch": "24.0",
     "consumption_in_medawar_branch": "39.0",
-    "total_stock": "52.0",
+    "total_stock": "27.0",
     "total_consumption": "94.0",
     "VAT": "YES",
     "price_lbp": "60,000",
     "cost": "0.48",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "27.0",
+        "consumption": "55.0"
+      }
+    }
   },
   {
     "id": "764",
@@ -4560,11 +4566,11 @@
     "unit": "-",
     "sub_category": "COLD DRINKS",
     "offers": "0",
-    "stock_in_geitawi_branch": "139.0",
+    "stock_in_geitawi_branch": "138.0",
     "consumption_in_geitawi_branch": "262.0",
     "stock_in_medawar_branch": "207.0",
     "consumption_in_medawar_branch": "430.0",
-    "total_stock": "139.0",
+    "total_stock": "138.0",
     "total_consumption": "692.0",
     "VAT": "YES",
     "price_lbp": "60,000",
@@ -4572,7 +4578,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "139.0",
+        "stock": "138.0",
         "consumption": "262.0"
       }
     }
@@ -100896,16 +100902,22 @@
     "unit": "-",
     "sub_category": "NOUNA'S FOOD",
     "offers": "0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "-1.0",
     "consumption_in_geitawi_branch": "45.0",
     "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "9.0",
-    "total_stock": "2.0",
+    "total_stock": "-1.0",
     "total_consumption": "54.0",
     "VAT": "NO",
     "price_lbp": "180,000",
     "cost": "1.42",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "-1.0",
+        "consumption": "45.0"
+      }
+    }
   },
   {
     "id": "20370",
