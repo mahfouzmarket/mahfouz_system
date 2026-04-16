@@ -31037,17 +31037,19 @@
   {
     "id": "13320",
     "name": "AL FORNO BRIOCHE DATE",
+    "unit": "-",
     "category": "FOOD",
     "sub": "BAKERY",
-    "price_usd": "1.01",
+    "sub_category": "BAKERY",
+    "subCategory": "BAKERY",
+    "price_usd": "1.00",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13320.jpg",
     "supplier": "GLOBAL FOODS SAL",
     "barcode": "528320005632",
-    "barcodes": "",
+    "barcode2": "5280320005632",
+    "barcodes": "5280320005632",
     "Product Description": "AL FORNO BRIOCHE DATE",
     "SUPPLIERS": "GLOBAL FOODS SAL",
-    "unit": "-",
-    "sub_category": "BAKERY",
     "offers": "0",
     "stock_in_geitawi_branch": "8.0",
     "consumption_in_geitawi_branch": "25.0",
@@ -31058,7 +31060,20 @@
     "VAT": "YES",
     "price_lbp": "90,000",
     "cost": "0.82",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "8.0",
+        "consumption": "25.0"
+      },
+      "Medawar": {
+        "stock": "9.0",
+        "consumption": "31.0"
+      }
+    },
+    "expiry_days": "0",
+    "cost_ht": "0.82",
+    "linked_profile_enabled": false
   },
   {
     "id": "13325",
