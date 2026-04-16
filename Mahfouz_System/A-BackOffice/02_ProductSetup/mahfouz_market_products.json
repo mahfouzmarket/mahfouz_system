@@ -1620,16 +1620,22 @@
     "unit": "-",
     "sub_category": "Beer",
     "offers": "0",
-    "stock_in_geitawi_branch": "79.0",
+    "stock_in_geitawi_branch": "78.0",
     "consumption_in_geitawi_branch": "61.0",
     "stock_in_medawar_branch": "126.0",
     "consumption_in_medawar_branch": "85.0",
-    "total_stock": "205.0",
+    "total_stock": "78.0",
     "total_consumption": "146.0",
     "VAT": "YES",
     "price_lbp": "150,000",
     "cost": "1.21",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "78.0",
+        "consumption": "61.0"
+      }
+    }
   },
   {
     "id": "403",
@@ -84994,11 +85000,11 @@
     "unit": "-",
     "sub_category": "Crackers",
     "offers": "0",
-    "stock_in_geitawi_branch": "2.0",
+    "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "9.0",
     "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "4.0",
-    "total_stock": "2.0",
+    "total_stock": "1.0",
     "total_consumption": "13.0",
     "VAT": "NO",
     "price_lbp": "100,000",
@@ -85006,7 +85012,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "2.0",
+        "stock": "1.0",
         "consumption": "9.0"
       }
     }
