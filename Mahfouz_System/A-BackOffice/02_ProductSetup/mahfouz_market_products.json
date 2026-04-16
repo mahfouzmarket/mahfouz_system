@@ -1443,16 +1443,22 @@
     "unit": "-",
     "sub_category": "Beer",
     "offers": "0",
-    "stock_in_geitawi_branch": "19.0",
+    "stock_in_geitawi_branch": "18.0",
     "consumption_in_geitawi_branch": "50.0",
     "stock_in_medawar_branch": "47.0",
     "consumption_in_medawar_branch": "10.0",
-    "total_stock": "66.0",
+    "total_stock": "18.0",
     "total_consumption": "60.0",
     "VAT": "YES",
     "price_lbp": "120,000",
     "cost": "1.02",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "18.0",
+        "consumption": "50.0"
+      }
+    }
   },
   {
     "id": "393",
@@ -15945,16 +15951,22 @@
     "unit": "-",
     "sub_category": "PROCESSED CHEESE",
     "offers": "0",
-    "stock_in_geitawi_branch": "-2.0",
+    "stock_in_geitawi_branch": "-3.0",
     "consumption_in_geitawi_branch": "12.0",
     "stock_in_medawar_branch": "14.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "12.0",
+    "total_stock": "-3.0",
     "total_consumption": "12.0",
     "VAT": "NO",
     "price_lbp": "175,000",
     "cost": "1.66",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "-3.0",
+        "consumption": "12.0"
+      }
+    }
   },
   {
     "id": "6989",
