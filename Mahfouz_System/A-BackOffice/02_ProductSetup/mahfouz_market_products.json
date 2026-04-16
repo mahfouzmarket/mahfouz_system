@@ -1805,16 +1805,22 @@
     "unit": "-",
     "sub_category": "Beer",
     "offers": "0",
-    "stock_in_geitawi_branch": "26.0",
+    "stock_in_geitawi_branch": "24.0",
     "consumption_in_geitawi_branch": "44.0",
     "stock_in_medawar_branch": "157.0",
     "consumption_in_medawar_branch": "58.0",
-    "total_stock": "183.0",
+    "total_stock": "24.0",
     "total_consumption": "102.0",
     "VAT": "YES",
     "price_lbp": "70,000",
     "cost": "0.50",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "24.0",
+        "consumption": "44.0"
+      }
+    }
   },
   {
     "id": "418",
@@ -12403,18 +12409,18 @@
     "barcodes": "",
     "Product Description": "TROPICANA ICE CREAM lemon",
     "SUPPLIERS": "LIBAN JUS SAL GLACES",
-    "stock_in_geitawi_branch": "-5.0",
+    "stock_in_geitawi_branch": "-6.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "-5.0",
+    "total_stock": "-6.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": "25,000",
     "cost": "0.00",
     "branches": {
       "Geitawi": {
-        "stock": "-5.0",
+        "stock": "-6.0",
         "consumption": "0.0"
       },
       "Medawar": {
