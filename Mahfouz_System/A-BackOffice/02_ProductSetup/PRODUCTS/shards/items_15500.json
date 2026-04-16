@@ -1209,11 +1209,11 @@
       "category": "FOOD",
       "sub_category": "TEA",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "7.0",
+      "total_stock": "1.0",
       "total_consumption": "5.0",
       "VAT": "NO",
       "price_lbp": "145,000",
@@ -1222,7 +1222,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15661.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "4.0"
+        }
+      }
     },
     {
       "id": "15673",
