@@ -18536,16 +18536,22 @@
     "unit": "-",
     "sub_category": "BATTERIES",
     "offers": "0",
-    "stock_in_geitawi_branch": "5.0",
+    "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "9.0",
     "stock_in_medawar_branch": "10.0",
     "consumption_in_medawar_branch": "27.0",
-    "total_stock": "15.0",
+    "total_stock": "4.0",
     "total_consumption": "36.0",
     "VAT": "YES",
     "price_lbp": "125,000",
     "cost": "0.90",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "4.0",
+        "consumption": "9.0"
+      }
+    }
   },
   {
     "id": "8428",
@@ -89804,11 +89810,11 @@
     "unit": "-",
     "sub_category": "Croissant",
     "offers": "0",
-    "stock_in_geitawi_branch": "6.0",
+    "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "40.0",
     "stock_in_medawar_branch": "8.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "6.0",
+    "total_stock": "5.0",
     "total_consumption": "55.0",
     "VAT": "NO",
     "price_lbp": "70,000",
@@ -89816,7 +89822,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "6.0",
+        "stock": "5.0",
         "consumption": "40.0"
       }
     }
