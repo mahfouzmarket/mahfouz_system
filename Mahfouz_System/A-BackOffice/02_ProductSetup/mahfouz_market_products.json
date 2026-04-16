@@ -146,14 +146,24 @@
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "7.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": "17.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "7.0",
+    "total_stock": "19.0",
     "total_consumption": "8.0",
     "VAT": "YES",
-    "price_lbp": "685,000",
-    "cost": "5.80",
-    "delivery_rules": "0.005"
+    "price_lbp": 685000,
+    "cost": 5.194,
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "17.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "30",
@@ -880,14 +890,24 @@
     "offers": "0",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "7.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "25.0",
     "consumption_in_medawar_branch": "24.0",
-    "total_stock": "7.0",
+    "total_stock": "31.0",
     "total_consumption": "31.0",
     "VAT": "YES",
-    "price_lbp": "480,000",
-    "cost": "3.77",
-    "delivery_rules": "0.005"
+    "price_lbp": 480000,
+    "cost": 3.806791666,
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "25.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "271",
@@ -958,14 +978,24 @@
     "offers": "0",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "8.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "13.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "3.0",
+    "total_stock": "15.0",
     "total_consumption": "8.0",
     "VAT": "YES",
-    "price_lbp": "1,155,000",
-    "cost": "9.79",
-    "delivery_rules": "0.005"
+    "price_lbp": 1270000,
+    "cost": 10.0745,
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "13.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "278",
@@ -1166,14 +1196,24 @@
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "7.0",
     "total_consumption": "0.0",
     "VAT": "YES",
-    "price_lbp": "2,015,000",
-    "cost": "17.25",
-    "delivery_rules": "0.005"
+    "price_lbp": 2060000,
+    "cost": 16.33666666,
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "354",
@@ -1322,14 +1362,24 @@
     "offers": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "6.0",
-    "total_stock": "3.0",
+    "total_stock": "9.0",
     "total_consumption": "10.0",
     "VAT": "YES",
-    "price_lbp": "1,520,000",
-    "cost": "11.98",
-    "delivery_rules": "0.005"
+    "price_lbp": 1420000,
+    "cost": 11.1078333,
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "392",
@@ -125684,11 +125734,11 @@
     "barcode": "5283004331867",
     "barcode2": "",
     "barcodes": "",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "4.0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "0.0",
+    "total_stock": "4.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -125696,7 +125746,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "4.0",
         "consumption": "0.0"
       }
     },
@@ -125705,8 +125755,8 @@
     "offers": "0",
     "expiry_days": "0",
     "VAT": "YES",
-    "price_lbp": "7,200",
-    "cost": "4.72",
+    "price_lbp": 720000,
+    "cost": 5.783,
     "cost_ht": "4.72",
     "new_items": "x",
     "delivery_rules": "0.005",
@@ -125726,11 +125776,11 @@
     "barcode": "7312040017034",
     "barcode2": "",
     "barcodes": "",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "6.0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "0.0",
+    "total_stock": "6.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -125738,16 +125788,16 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "6.0",
         "consumption": "0.0"
       }
     },
     "Product Description": "ABSOLUT VODKA 1 L",
     "SUPPLIERS": "ETS WASSEF CHEIBANE",
     "expiry_days": "0",
-    "VAT": "NO",
-    "price_lbp": "1,250,000",
-    "cost": "0.00",
+    "VAT": "YES",
+    "price_lbp": 1250000,
+    "cost": 9.9325,
     "cost_ht": "0.00",
     "new_items": "x",
     "linked_profile_enabled": false,
@@ -125767,11 +125817,11 @@
     "barcode": "16975398449",
     "barcode2": "",
     "barcodes": "",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "4.0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "0.0",
+    "total_stock": "4.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -125779,16 +125829,16 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "4.0",
         "consumption": "0.0"
       }
     },
     "Product Description": "MOSKOVSKAYA VODKA 1 L + 20CL FREE",
     "SUPPLIERS": "ETS WASSEF CHEIBANE",
     "expiry_days": "0",
-    "VAT": "NO",
-    "price_lbp": "720,000",
-    "cost": "0.00",
+    "VAT": "YES",
+    "price_lbp": 720000,
+    "cost": 5.5765,
     "cost_ht": "0.00",
     "new_items": "x",
     "linked_profile_enabled": false,
