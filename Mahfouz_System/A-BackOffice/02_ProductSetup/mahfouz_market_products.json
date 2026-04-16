@@ -4184,11 +4184,11 @@
     "unit": "-",
     "sub_category": "ice tea",
     "offers": "0",
-    "stock_in_geitawi_branch": "29.0",
+    "stock_in_geitawi_branch": "28.0",
     "consumption_in_geitawi_branch": "58.0",
     "stock_in_medawar_branch": "32.0",
     "consumption_in_medawar_branch": "29.0",
-    "total_stock": "32.0",
+    "total_stock": "60.0",
     "total_consumption": "87.0",
     "VAT": "YES",
     "price_lbp": "70,000",
@@ -4198,6 +4198,10 @@
       "Medawar": {
         "stock": "32.0",
         "consumption": "29.0"
+      },
+      "Geitawi": {
+        "stock": "28.0",
+        "consumption": "58.0"
       }
     }
   },
@@ -95107,16 +95111,22 @@
     "unit": "#N/A",
     "sub_category": "STATIONARY",
     "offers": "0",
-    "stock_in_geitawi_branch": "13.0",
+    "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "20.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "33.0",
+    "total_stock": "12.0",
     "total_consumption": "1.0",
     "VAT": "NO",
     "price_lbp": "85,000",
     "cost": "0.35",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "12.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20037",
