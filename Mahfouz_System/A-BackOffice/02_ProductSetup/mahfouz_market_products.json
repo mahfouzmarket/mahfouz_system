@@ -5900,15 +5900,21 @@
     "Product Description": "KAAK KORCHELLI 250G",
     "unit": "-",
     "offers": "0",
-    "stock_in_geitawi_branch": "2.0",
+    "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "2.0",
+    "total_stock": "1.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": "155,000",
-    "cost": "1.00"
+    "cost": "1.00",
+    "branches": {
+      "Geitawi": {
+        "stock": "1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "2387",
@@ -37097,16 +37103,22 @@
     "unit": "-",
     "sub_category": "ICEBERG",
     "offers": "0",
-    "stock_in_geitawi_branch": "15.0",
+    "stock_in_geitawi_branch": "14.0",
     "consumption_in_geitawi_branch": "21.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "49.0",
-    "total_stock": "15.0",
+    "total_stock": "14.0",
     "total_consumption": "70.0",
     "VAT": "YES",
     "price_lbp": "105,000",
     "cost": "0.88",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "14.0",
+        "consumption": "21.0"
+      }
+    }
   },
   {
     "id": "14149",
