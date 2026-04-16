@@ -2768,16 +2768,22 @@
     "unit": "-",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "7.0",
+    "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "18.0",
     "stock_in_medawar_branch": "8.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "15.0",
+    "total_stock": "6.0",
     "total_consumption": "33.0",
     "VAT": "YES",
     "price_lbp": "175,000",
     "cost": "1.50",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "6.0",
+        "consumption": "18.0"
+      }
+    }
   },
   {
     "id": "700",
@@ -56269,11 +56275,11 @@
     "unit": "-",
     "sub_category": "MINERAL WATER",
     "offers": "0",
-    "stock_in_geitawi_branch": "27.0",
+    "stock_in_geitawi_branch": "26.0",
     "consumption_in_geitawi_branch": "685.0",
     "stock_in_medawar_branch": "78.0",
     "consumption_in_medawar_branch": "748.0",
-    "total_stock": "105.0",
+    "total_stock": "104.0",
     "total_consumption": "1433.0",
     "VAT": "NO",
     "price_lbp": 70000,
@@ -56281,7 +56287,7 @@
     "delivery_rules": "0.45",
     "branches": {
       "Geitawi": {
-        "stock": "27.0",
+        "stock": "26.0",
         "consumption": "685.0"
       },
       "Medawar": {
