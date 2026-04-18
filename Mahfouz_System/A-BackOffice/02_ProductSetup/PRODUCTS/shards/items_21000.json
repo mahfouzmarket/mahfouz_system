@@ -5429,11 +5429,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "-2.0",
       "consumption_in_geitawi_branch": "44.0",
       "stock_in_medawar_branch": "21.0",
       "consumption_in_medawar_branch": "84.0",
-      "total_stock": "25.0",
+      "total_stock": "-2.0",
       "total_consumption": "128.0",
       "VAT": "NO",
       "price_lbp": "50,000",
@@ -5442,7 +5442,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21309.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "-2.0",
+          "consumption": "44.0"
+        }
+      }
     },
     {
       "id": "21310",
