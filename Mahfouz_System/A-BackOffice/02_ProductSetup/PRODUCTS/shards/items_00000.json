@@ -548,11 +548,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "35.0",
       "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "11.0",
-      "total_stock": "10.0",
+      "total_stock": "2.0",
       "total_consumption": "46.0",
       "VAT": "YES",
       "price_lbp": "110,000",
@@ -561,7 +561,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID181.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "35.0"
+        }
+      }
     },
     {
       "id": "191",
@@ -2065,11 +2071,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "1099.0",
+      "stock_in_geitawi_branch": "1098.0",
       "consumption_in_geitawi_branch": "1742.0",
       "stock_in_medawar_branch": "334956.0",
       "consumption_in_medawar_branch": "1802.0",
-      "total_stock": "336055.0",
+      "total_stock": "336054.0",
       "total_consumption": "3544.0",
       "VAT": "YES",
       "price_lbp": 25000,
@@ -2081,7 +2087,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1099.0",
+          "stock": "1098.0",
           "consumption": "1742.0"
         },
         "Medawar": {
