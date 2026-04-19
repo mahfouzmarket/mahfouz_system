@@ -159857,12 +159857,22 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "18.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-2.0",
     "consumption_in_medawar_branch": "2.0",
-    "total_stock": "2.0",
+    "total_stock": "0.0",
     "total_consumption": "20.0",
     "cost": "2.85",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "-2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21511",
