@@ -270,12 +270,18 @@
     "SUPPLIERS": "SOCIETE BOU NADER",
     "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "6.0",
-    "stock_in_medawar_branch": "21.0",
+    "stock_in_medawar_branch": "20.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "33.0",
+    "total_stock": "20.0",
     "total_consumption": "21.0",
     "cost": "1.40",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "20.0",
+        "consumption": "15.0"
+      }
+    }
   },
   {
     "id": "63",
@@ -894,21 +900,21 @@
     "linked_profile_sub_category": "",
     "Product Description": "DARK BLUE 330 ML",
     "SUPPLIERS": "AL HAMAWI TRADING",
-    "stock_in_geitawi_branch": "24.0",
+    "stock_in_geitawi_branch": "48.0",
     "consumption_in_geitawi_branch": "191.0",
-    "stock_in_medawar_branch": "641.0",
+    "stock_in_medawar_branch": "616.0",
     "consumption_in_medawar_branch": "349.0",
-    "total_stock": "665.0",
+    "total_stock": "664.0",
     "total_consumption": "540.0",
     "cost": 0.4791666666666667,
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "24.0",
+        "stock": "48.0",
         "consumption": "191.0"
       },
       "Medawar": {
-        "stock": "641.0",
+        "stock": "616.0",
         "consumption": "0.0"
       }
     }
@@ -1782,9 +1788,9 @@
     "SUPPLIERS": "ABI RAMIA BROS SARL",
     "stock_in_geitawi_branch": "18.0",
     "consumption_in_geitawi_branch": "50.0",
-    "stock_in_medawar_branch": "47.0",
+    "stock_in_medawar_branch": "46.0",
     "consumption_in_medawar_branch": "10.0",
-    "total_stock": "18.0",
+    "total_stock": "64.0",
     "total_consumption": "60.0",
     "cost": "1.02",
     "delivery_rules": "0.005",
@@ -1792,6 +1798,10 @@
       "Geitawi": {
         "stock": "18.0",
         "consumption": "50.0"
+      },
+      "Medawar": {
+        "stock": "46.0",
+        "consumption": "10.0"
       }
     }
   },
@@ -2088,9 +2098,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "BEER ALMAZA 33 CL",
     "SUPPLIERS": "BRASSERIE ALMAZA SAL",
-    "stock_in_geitawi_branch": "108.0",
+    "stock_in_geitawi_branch": "132.0",
     "consumption_in_geitawi_branch": "148.0",
-    "stock_in_medawar_branch": "173.0",
+    "stock_in_medawar_branch": "149.0",
     "consumption_in_medawar_branch": "179.0",
     "total_stock": "281.0",
     "total_consumption": "327.0",
@@ -2098,11 +2108,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "108.0",
+        "stock": "132.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "173.0",
+        "stock": "149.0",
         "consumption": "0.0"
       }
     }
@@ -2202,9 +2212,9 @@
     "SUPPLIERS": "BRASSERIE ALMAZA SAL",
     "stock_in_geitawi_branch": "36.0",
     "consumption_in_geitawi_branch": "20.0",
-    "stock_in_medawar_branch": "54.0",
+    "stock_in_medawar_branch": "53.0",
     "consumption_in_medawar_branch": "16.0",
-    "total_stock": "36.0",
+    "total_stock": "89.0",
     "total_consumption": "36.0",
     "cost": "0.93",
     "delivery_rules": "0.005",
@@ -2212,6 +2222,10 @@
       "Geitawi": {
         "stock": "36.0",
         "consumption": "20.0"
+      },
+      "Medawar": {
+        "stock": "53.0",
+        "consumption": "16.0"
       }
     }
   },
@@ -2414,9 +2428,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "ALMAZA 25 CL",
     "SUPPLIERS": "BRASSERIE ALMAZA SAL",
-    "stock_in_geitawi_branch": "66.0",
+    "stock_in_geitawi_branch": "90.0",
     "consumption_in_geitawi_branch": "163.0",
-    "stock_in_medawar_branch": "114.0",
+    "stock_in_medawar_branch": "90.0",
     "consumption_in_medawar_branch": "393.0",
     "total_stock": "180.0",
     "total_consumption": "556.0",
@@ -2424,11 +2438,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "66.0",
+        "stock": "90.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "114.0",
+        "stock": "90.0",
         "consumption": "0.0"
       }
     }
@@ -2540,18 +2554,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "CARIOCA 180G",
     "SUPPLIERS": "ETS MICHEL NAJJAR",
-    "stock_in_geitawi_branch": "3.0",
+    "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "29.0",
-    "stock_in_medawar_branch": "12.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "34.0",
-    "total_stock": "3.0",
+    "total_stock": "15.0",
     "total_consumption": "63.0",
     "cost": "2.94",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "3.0",
+        "stock": "9.0",
         "consumption": "29.0"
+      },
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -2648,14 +2666,24 @@
     "linked_profile_sub_category": "",
     "Product Description": "STAR SOFT NORMAL 200G",
     "SUPPLIERS": "ETS MICHEL NAJJAR",
-    "stock_in_geitawi_branch": "11.0",
+    "stock_in_geitawi_branch": "17.0",
     "consumption_in_geitawi_branch": "20.0",
-    "stock_in_medawar_branch": "56.0",
+    "stock_in_medawar_branch": "50.0",
     "consumption_in_medawar_branch": "14.0",
     "total_stock": "67.0",
     "total_consumption": "34.0",
     "cost": "2.81",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "17.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "50.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "477",
@@ -2726,9 +2754,9 @@
     "SUPPLIERS": "PRODIGY SAL USD",
     "stock_in_geitawi_branch": "1069.0",
     "consumption_in_geitawi_branch": "1742.0",
-    "stock_in_medawar_branch": "340956.0",
+    "stock_in_medawar_branch": "340940.0",
     "consumption_in_medawar_branch": "1802.0",
-    "total_stock": "342025.0",
+    "total_stock": "342009.0",
     "total_consumption": "3544.0",
     "cost": 0.1386,
     "delivery_rules": "0.005",
@@ -2738,7 +2766,7 @@
         "consumption": "1742.0"
       },
       "Medawar": {
-        "stock": "340956.0",
+        "stock": "340940.0",
         "consumption": "0.0"
       }
     }
@@ -2914,18 +2942,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "DOMINGO 180 GR",
     "SUPPLIERS": "ETS MICHEL NAJJAR",
-    "stock_in_geitawi_branch": "43.0",
+    "stock_in_geitawi_branch": "49.0",
     "consumption_in_geitawi_branch": "49.0",
-    "stock_in_medawar_branch": "33.0",
+    "stock_in_medawar_branch": "26.0",
     "consumption_in_medawar_branch": "48.0",
-    "total_stock": "43.0",
+    "total_stock": "75.0",
     "total_consumption": "97.0",
     "cost": "2.61",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "43.0",
+        "stock": "49.0",
         "consumption": "49.0"
+      },
+      "Medawar": {
+        "stock": "26.0",
+        "consumption": "48.0"
       }
     }
   },
@@ -2954,9 +2986,9 @@
     "SUPPLIERS": "ETS MICHEL NAJJAR",
     "stock_in_geitawi_branch": "859.0",
     "consumption_in_geitawi_branch": "560.0",
-    "stock_in_medawar_branch": "5737.0",
+    "stock_in_medawar_branch": "5736.0",
     "consumption_in_medawar_branch": "369.0",
-    "total_stock": "6596.0",
+    "total_stock": "6595.0",
     "total_consumption": "929.0",
     "cost": 0.19827,
     "delivery_rules": "0.005",
@@ -2966,7 +2998,7 @@
         "consumption": "560.0"
       },
       "Medawar": {
-        "stock": "5737.0",
+        "stock": "5736.0",
         "consumption": "0.0"
       }
     }
@@ -3032,18 +3064,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "CAFE SUPER BRASIL 180G",
     "SUPPLIERS": "SUPER BRASIL COMPANY SAL",
-    "stock_in_geitawi_branch": "15.0",
+    "stock_in_geitawi_branch": "21.0",
     "consumption_in_geitawi_branch": "27.0",
-    "stock_in_medawar_branch": "42.0",
+    "stock_in_medawar_branch": "36.0",
     "consumption_in_medawar_branch": "32.0",
-    "total_stock": "15.0",
+    "total_stock": "57.0",
     "total_consumption": "59.0",
     "cost": "3.50",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "15.0",
+        "stock": "21.0",
         "consumption": "27.0"
+      },
+      "Medawar": {
+        "stock": "36.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -3310,9 +3346,9 @@
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
     "stock_in_geitawi_branch": "592.0",
     "consumption_in_geitawi_branch": "282.0",
-    "stock_in_medawar_branch": "1988.0",
+    "stock_in_medawar_branch": "1983.0",
     "consumption_in_medawar_branch": "421.0",
-    "total_stock": "2580.0",
+    "total_stock": "2575.0",
     "total_consumption": "703.0",
     "cost": 0.18087,
     "delivery_rules": "0.005",
@@ -3322,7 +3358,7 @@
         "consumption": "282.0"
       },
       "Medawar": {
-        "stock": "1988.0",
+        "stock": "1983.0",
         "consumption": "0.0"
       }
     }
@@ -3898,9 +3934,9 @@
     "SUPPLIERS": "LIBAN JUS SAL",
     "stock_in_geitawi_branch": "34.0",
     "consumption_in_geitawi_branch": "35.0",
-    "stock_in_medawar_branch": "17.0",
+    "stock_in_medawar_branch": "16.0",
     "consumption_in_medawar_branch": "80.0",
-    "total_stock": "34.0",
+    "total_stock": "50.0",
     "total_consumption": "115.0",
     "cost": "0.25",
     "delivery_rules": "0.005",
@@ -3908,6 +3944,10 @@
       "Geitawi": {
         "stock": "34.0",
         "consumption": "35.0"
+      },
+      "Medawar": {
+        "stock": "16.0",
+        "consumption": "80.0"
       }
     }
   },
@@ -4938,9 +4978,9 @@
     "SUPPLIERS": "DAIRY KHOURY USD",
     "stock_in_geitawi_branch": "13.0",
     "consumption_in_geitawi_branch": "12.0",
-    "stock_in_medawar_branch": "8.0",
+    "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "22.0",
-    "total_stock": "13.0",
+    "total_stock": "20.0",
     "total_consumption": "34.0",
     "cost": "1.56",
     "delivery_rules": "0.005",
@@ -4948,6 +4988,10 @@
       "Geitawi": {
         "stock": "13.0",
         "consumption": "12.0"
+      },
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "22.0"
       }
     }
   },
@@ -5170,9 +5214,9 @@
     "SUPPLIERS": "PEPSI LBP",
     "stock_in_geitawi_branch": "60.0",
     "consumption_in_geitawi_branch": "258.0",
-    "stock_in_medawar_branch": "77.0",
+    "stock_in_medawar_branch": "75.0",
     "consumption_in_medawar_branch": "363.0",
-    "total_stock": "60.0",
+    "total_stock": "135.0",
     "total_consumption": "621.0",
     "cost": "1.11",
     "delivery_rules": "0.005",
@@ -5180,6 +5224,10 @@
       "Geitawi": {
         "stock": "60.0",
         "consumption": "258.0"
+      },
+      "Medawar": {
+        "stock": "75.0",
+        "consumption": "363.0"
       }
     }
   },
@@ -5246,9 +5294,9 @@
     "SUPPLIERS": "PEPSI LBP",
     "stock_in_geitawi_branch": "140.0",
     "consumption_in_geitawi_branch": "260.0",
-    "stock_in_medawar_branch": "122.0",
+    "stock_in_medawar_branch": "121.0",
     "consumption_in_medawar_branch": "257.0",
-    "total_stock": "140.0",
+    "total_stock": "261.0",
     "total_consumption": "517.0",
     "cost": "0.55",
     "delivery_rules": "0.005",
@@ -5256,6 +5304,10 @@
       "Geitawi": {
         "stock": "140.0",
         "consumption": "260.0"
+      },
+      "Medawar": {
+        "stock": "121.0",
+        "consumption": "257.0"
       }
     }
   },
@@ -5324,18 +5376,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "RED BULL 250ML",
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
-    "stock_in_geitawi_branch": "9.0",
+    "stock_in_geitawi_branch": "33.0",
     "consumption_in_geitawi_branch": "94.0",
-    "stock_in_medawar_branch": "138.0",
+    "stock_in_medawar_branch": "114.0",
     "consumption_in_medawar_branch": "54.0",
-    "total_stock": "9.0",
+    "total_stock": "147.0",
     "total_consumption": "148.0",
     "cost": "1.32",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "9.0",
+        "stock": "33.0",
         "consumption": "94.0"
+      },
+      "Medawar": {
+        "stock": "114.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -5648,18 +5704,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "RIM SPARKLINO WATER 330ML",
     "SUPPLIERS": "RIM REFRESHMENT SAL USD",
-    "stock_in_geitawi_branch": "15.0",
+    "stock_in_geitawi_branch": "21.0",
     "consumption_in_geitawi_branch": "224.0",
-    "stock_in_medawar_branch": "78.0",
+    "stock_in_medawar_branch": "72.0",
     "consumption_in_medawar_branch": "141.0",
-    "total_stock": "15.0",
+    "total_stock": "93.0",
     "total_consumption": "365.0",
     "cost": "0.53",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "15.0",
+        "stock": "21.0",
         "consumption": "224.0"
+      },
+      "Medawar": {
+        "stock": "72.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -5943,9 +6003,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "RIM SPARKLING ROSE WATER 330ML",
     "SUPPLIERS": "RIM REFRESHMENT SAL USD",
-    "stock_in_geitawi_branch": "6.0",
+    "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "16.0",
-    "stock_in_medawar_branch": "47.0",
+    "stock_in_medawar_branch": "41.0",
     "consumption_in_medawar_branch": "23.0",
     "total_stock": "53.0",
     "total_consumption": "39.0",
@@ -5953,11 +6013,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "47.0",
+        "stock": "41.0",
         "consumption": "23.0"
       },
       "Geitawi": {
-        "stock": "6.0",
+        "stock": "12.0",
         "consumption": "16.0"
       }
     }
@@ -6017,21 +6077,21 @@
     "linked_profile_sub_category": "",
     "Product Description": "TANNOURINE WATER 0.5",
     "SUPPLIERS": "TANNOURINE",
-    "stock_in_geitawi_branch": "689.0",
+    "stock_in_geitawi_branch": "929.0",
     "consumption_in_geitawi_branch": "927.0",
-    "stock_in_medawar_branch": "6898.0",
+    "stock_in_medawar_branch": "6650.0",
     "consumption_in_medawar_branch": "1181.0",
-    "total_stock": "7587.0",
+    "total_stock": "7579.0",
     "total_consumption": "2108.0",
     "cost": "0.15",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "689.0",
+        "stock": "929.0",
         "consumption": "927.0"
       },
       "Medawar": {
-        "stock": "6898.0",
+        "stock": "6650.0",
         "consumption": "0.0"
       }
     }
@@ -6059,21 +6119,21 @@
     "linked_profile_sub_category": "",
     "Product Description": "TANNOURINE WATER 2L",
     "SUPPLIERS": "TANNOURINE",
-    "stock_in_geitawi_branch": "214.0",
+    "stock_in_geitawi_branch": "364.0",
     "consumption_in_geitawi_branch": "717.0",
-    "stock_in_medawar_branch": "4607.0",
+    "stock_in_medawar_branch": "4455.0",
     "consumption_in_medawar_branch": "345.0",
-    "total_stock": "4821.0",
+    "total_stock": "4819.0",
     "total_consumption": "1062.0",
     "cost": "0.29",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "214.0",
+        "stock": "364.0",
         "consumption": "717.0"
       },
       "Medawar": {
-        "stock": "4607.0",
+        "stock": "4455.0",
         "consumption": "0.0"
       }
     }
@@ -8058,9 +8118,9 @@
     "SUPPLIERS": "ENGLISH CAKE SAL",
     "stock_in_geitawi_branch": "77.0",
     "consumption_in_geitawi_branch": "112.0",
-    "stock_in_medawar_branch": "94.0",
+    "stock_in_medawar_branch": "93.0",
     "consumption_in_medawar_branch": "143.0",
-    "total_stock": "171.0",
+    "total_stock": "170.0",
     "total_consumption": "255.0",
     "cost": 0.23,
     "delivery_rules": "0.005",
@@ -8070,7 +8130,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "94.0",
+        "stock": "93.0",
         "consumption": "0.0"
       }
     }
@@ -9432,12 +9492,18 @@
     "SUPPLIERS": "ARLA KALLASSI FOODS LB  SAL",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "10.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": "4.0",
     "consumption_in_medawar_branch": "4.0",
-    "total_stock": "8.0",
+    "total_stock": "4.0",
     "total_consumption": "14.0",
     "cost": "3.73",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "4.0",
+        "consumption": "4.0"
+      }
+    }
   },
   {
     "id": "2808",
@@ -9792,9 +9858,9 @@
     "SUPPLIERS": "ROUBOU3 TAANAYEL",
     "stock_in_geitawi_branch": "11.1",
     "consumption_in_geitawi_branch": "11.76",
-    "stock_in_medawar_branch": "11.5",
+    "stock_in_medawar_branch": "10.5",
     "consumption_in_medawar_branch": "8.29",
-    "total_stock": "22.6",
+    "total_stock": "21.6",
     "total_consumption": "20.05",
     "cost": 5.03,
     "delivery_rules": "0.005",
@@ -9804,7 +9870,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "11.5",
+        "stock": "10.5",
         "consumption": "0.0"
       }
     }
@@ -11500,15 +11566,19 @@
     "SUPPLIERS": "MANY FOOD SARL",
     "stock_in_geitawi_branch": "39.0",
     "consumption_in_geitawi_branch": "21.0",
-    "stock_in_medawar_branch": "55.0",
+    "stock_in_medawar_branch": "54.0",
     "consumption_in_medawar_branch": "21.0",
-    "total_stock": "39.0",
+    "total_stock": "93.0",
     "total_consumption": "42.0",
     "cost": "0.15",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
         "stock": "39.0",
+        "consumption": "21.0"
+      },
+      "Medawar": {
+        "stock": "54.0",
         "consumption": "21.0"
       }
     }
@@ -11622,9 +11692,9 @@
     "SUPPLIERS": "DELTA TRADING USD",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "40.0",
-    "stock_in_medawar_branch": "112.0",
+    "stock_in_medawar_branch": "111.0",
     "consumption_in_medawar_branch": "82.0",
-    "total_stock": "123.0",
+    "total_stock": "122.0",
     "total_consumption": "122.0",
     "cost": 0.500833333333333,
     "delivery_rules": "0.005",
@@ -11634,7 +11704,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "112.0",
+        "stock": "111.0",
         "consumption": "0.0"
       }
     }
@@ -12958,9 +13028,9 @@
     "SUPPLIERS": "MTANIOS TRADING SARL",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "14.0",
-    "stock_in_medawar_branch": "21.0",
+    "stock_in_medawar_branch": "20.0",
     "consumption_in_medawar_branch": "28.0",
-    "total_stock": "3.0",
+    "total_stock": "23.0",
     "total_consumption": "42.0",
     "cost": "0.35",
     "delivery_rules": "0.005",
@@ -12968,6 +13038,10 @@
       "Geitawi": {
         "stock": "3.0",
         "consumption": "14.0"
+      },
+      "Medawar": {
+        "stock": "20.0",
+        "consumption": "28.0"
       }
     }
   },
@@ -13060,15 +13134,19 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "27.0",
     "consumption_in_geitawi_branch": "35.0",
-    "stock_in_medawar_branch": "23.0",
+    "stock_in_medawar_branch": "22.0",
     "consumption_in_medawar_branch": "35.0",
-    "total_stock": "27.0",
+    "total_stock": "49.0",
     "total_consumption": "70.0",
     "cost": "1.13",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
         "stock": "27.0",
+        "consumption": "35.0"
+      },
+      "Medawar": {
+        "stock": "22.0",
         "consumption": "35.0"
       }
     }
@@ -14323,9 +14401,9 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "64.0",
-    "stock_in_medawar_branch": "25.0",
+    "stock_in_medawar_branch": "24.0",
     "consumption_in_medawar_branch": "56.0",
-    "total_stock": "11.0",
+    "total_stock": "35.0",
     "total_consumption": "120.0",
     "cost": "0.57",
     "delivery_rules": "0.005",
@@ -14333,6 +14411,10 @@
       "Geitawi": {
         "stock": "11.0",
         "consumption": "64.0"
+      },
+      "Medawar": {
+        "stock": "24.0",
+        "consumption": "56.0"
       }
     }
   },
@@ -14393,9 +14475,9 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "39.0",
     "consumption_in_geitawi_branch": "64.0",
-    "stock_in_medawar_branch": "29.0",
+    "stock_in_medawar_branch": "28.0",
     "consumption_in_medawar_branch": "86.0",
-    "total_stock": "39.0",
+    "total_stock": "67.0",
     "total_consumption": "150.0",
     "cost": "0.41",
     "delivery_rules": "0.005",
@@ -14403,6 +14485,10 @@
       "Geitawi": {
         "stock": "39.0",
         "consumption": "64.0"
+      },
+      "Medawar": {
+        "stock": "28.0",
+        "consumption": "86.0"
       }
     }
   },
@@ -15055,9 +15141,9 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "31.0",
     "consumption_in_geitawi_branch": "55.0",
-    "stock_in_medawar_branch": "32.0",
+    "stock_in_medawar_branch": "31.0",
     "consumption_in_medawar_branch": "41.0",
-    "total_stock": "31.0",
+    "total_stock": "62.0",
     "total_consumption": "96.0",
     "cost": "0.69",
     "delivery_rules": "0.005",
@@ -15065,6 +15151,10 @@
       "Geitawi": {
         "stock": "31.0",
         "consumption": "55.0"
+      },
+      "Medawar": {
+        "stock": "31.0",
+        "consumption": "41.0"
       }
     }
   },
@@ -15297,9 +15387,9 @@
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
     "stock_in_geitawi_branch": "24.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "10829.0",
+    "stock_in_medawar_branch": "10828.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "10853.0",
+    "total_stock": "10852.0",
     "total_consumption": "8.0",
     "cost": 0.4652,
     "delivery_rules": "0.005",
@@ -15309,7 +15399,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "10829.0",
+        "stock": "10828.0",
         "consumption": "0.0"
       }
     }
@@ -20493,9 +20583,9 @@
     "SUPPLIERS": "AL HATAB",
     "stock_in_geitawi_branch": "59.0",
     "consumption_in_geitawi_branch": "650.0",
-    "stock_in_medawar_branch": "123.0",
+    "stock_in_medawar_branch": "171.0",
     "consumption_in_medawar_branch": "680.0",
-    "total_stock": "182.0",
+    "total_stock": "230.0",
     "total_consumption": "1330.0",
     "cost": 0.8888888888888888,
     "delivery_rules": "0.005",
@@ -20505,7 +20595,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "123.0",
+        "stock": "171.0",
         "consumption": "0.0"
       }
     }
@@ -20533,17 +20623,17 @@
     "linked_profile_sub_category": "",
     "Product Description": "MOULIN D'OR BROWN BREAD LARGE",
     "SUPPLIERS": "MOULIN D'OR",
-    "stock_in_geitawi_branch": "4.0",
+    "stock_in_geitawi_branch": "10.0",
     "consumption_in_geitawi_branch": "120.0",
     "stock_in_medawar_branch": "27.0",
     "consumption_in_medawar_branch": "99.0",
-    "total_stock": "31.0",
+    "total_stock": "37.0",
     "total_consumption": "219.0",
     "cost": 1.4444444444444444,
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "4.0",
+        "stock": "10.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -20575,17 +20665,17 @@
     "linked_profile_sub_category": "",
     "Product Description": "MOULIN D'OR BROWN BREAD SMALL",
     "SUPPLIERS": "MOULIN D'OR",
-    "stock_in_geitawi_branch": "9.0",
+    "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "108.0",
     "stock_in_medawar_branch": "12.0",
     "consumption_in_medawar_branch": "67.0",
-    "total_stock": "21.0",
+    "total_stock": "24.0",
     "total_consumption": "175.0",
     "cost": 1.1666666666666667,
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "9.0",
+        "stock": "12.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -20693,9 +20783,9 @@
     "SUPPLIERS": "GLOBAL FOODS SAL",
     "stock_in_geitawi_branch": "20.0",
     "consumption_in_geitawi_branch": "128.0",
-    "stock_in_medawar_branch": "21.0",
+    "stock_in_medawar_branch": "18.0",
     "consumption_in_medawar_branch": "90.0",
-    "total_stock": "41.0",
+    "total_stock": "38.0",
     "total_consumption": "218.0",
     "cost": 0.71,
     "delivery_rules": "0.005",
@@ -20705,7 +20795,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "21.0",
+        "stock": "18.0",
         "consumption": "0.0"
       }
     }
@@ -23245,14 +23335,24 @@
     "linked_profile_sub_category": "",
     "Product Description": "HAPPIES LOTION WIPES 64",
     "SUPPLIERS": "KTE KFOURY TRADING EST",
-    "stock_in_geitawi_branch": "6.0",
+    "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "1.0",
     "total_stock": "11.0",
     "total_consumption": "2.0",
     "cost": "1.55",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "9.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "8335",
@@ -25224,12 +25324,22 @@
     "SUPPLIERS": "PLATCO",
     "stock_in_geitawi_branch": "8.0",
     "consumption_in_geitawi_branch": "16.0",
-    "stock_in_medawar_branch": "58.0",
+    "stock_in_medawar_branch": "57.0",
     "consumption_in_medawar_branch": "33.0",
-    "total_stock": "66.0",
+    "total_stock": "65.0",
     "total_consumption": "49.0",
     "cost": "0.70",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "8.0",
+        "consumption": "16.0"
+      },
+      "Medawar": {
+        "stock": "57.0",
+        "consumption": "33.0"
+      }
+    }
   },
   {
     "id": "9350",
@@ -25510,18 +25620,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "JAVEL LA CROIX TRADIT. 1L",
     "SUPPLIERS": "NEAR EAST PERSONAL CARE CO SAL",
-    "stock_in_geitawi_branch": "6.0",
+    "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "14.0",
-    "stock_in_medawar_branch": "33.0",
+    "stock_in_medawar_branch": "28.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "6.0",
+    "total_stock": "39.0",
     "total_consumption": "29.0",
     "cost": "1.04",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "6.0",
+        "stock": "11.0",
         "consumption": "14.0"
+      },
+      "Medawar": {
+        "stock": "28.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -25660,18 +25774,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "GERMAX BIG 1200C",
     "SUPPLIERS": "SPARTAN CHEMICAL CO SARL",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "11.0",
+    "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "2.0",
-    "total_stock": "1.0",
+    "total_stock": "12.0",
     "total_consumption": "7.0",
     "cost": "2.37",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "1.0",
+        "stock": "5.0",
         "consumption": "5.0"
+      },
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -27590,12 +27708,22 @@
     "SUPPLIERS": "WASSIM NACHAWATI",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "39.0",
+    "stock_in_medawar_branch": "38.0",
     "consumption_in_medawar_branch": "6.0",
-    "total_stock": "42.0",
+    "total_stock": "41.0",
     "total_consumption": "7.0",
     "cost": "2.65",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "3.0",
+        "consumption": "1.0"
+      },
+      "Medawar": {
+        "stock": "38.0",
+        "consumption": "6.0"
+      }
+    }
   },
   {
     "id": "10336",
@@ -29372,18 +29500,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "HAPPY FRESH 72 PCS",
     "SUPPLIERS": "MTANIOS TRADING SARL",
-    "stock_in_geitawi_branch": "6.0",
+    "stock_in_geitawi_branch": "13.0",
     "consumption_in_geitawi_branch": "2.0",
-    "stock_in_medawar_branch": "32.0",
+    "stock_in_medawar_branch": "25.0",
     "consumption_in_medawar_branch": "5.0",
-    "total_stock": "6.0",
+    "total_stock": "38.0",
     "total_consumption": "7.0",
     "cost": "0.98",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "6.0",
+        "stock": "13.0",
         "consumption": "2.0"
+      },
+      "Medawar": {
+        "stock": "25.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -32078,9 +32210,9 @@
     "SUPPLIERS": "JACK DIB",
     "stock_in_geitawi_branch": "19.0",
     "consumption_in_geitawi_branch": "11.0",
-    "stock_in_medawar_branch": "34.0",
+    "stock_in_medawar_branch": "33.0",
     "consumption_in_medawar_branch": "21.0",
-    "total_stock": "19.0",
+    "total_stock": "52.0",
     "total_consumption": "32.0",
     "cost": "1.00",
     "delivery_rules": "0.005",
@@ -32088,6 +32220,10 @@
       "Geitawi": {
         "stock": "19.0",
         "consumption": "11.0"
+      },
+      "Medawar": {
+        "stock": "33.0",
+        "consumption": "21.0"
       }
     }
   },
@@ -32712,15 +32848,15 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "41.0",
     "consumption_in_geitawi_branch": "205.0",
-    "stock_in_medawar_branch": "74.0",
+    "stock_in_medawar_branch": "73.0",
     "consumption_in_medawar_branch": "231.0",
-    "total_stock": "115.0",
+    "total_stock": "114.0",
     "total_consumption": "436.0",
     "cost": 0.71,
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "74.0",
+        "stock": "73.0",
         "consumption": "231.0"
       },
       "Geitawi": {
@@ -32912,9 +33048,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "70.0",
     "consumption_in_geitawi_branch": "186.0",
-    "stock_in_medawar_branch": "107.0",
+    "stock_in_medawar_branch": "102.0",
     "consumption_in_medawar_branch": "355.0",
-    "total_stock": "177.0",
+    "total_stock": "172.0",
     "total_consumption": "541.0",
     "cost": 1.99,
     "delivery_rules": "0.005",
@@ -32924,7 +33060,7 @@
         "consumption": "186.0"
       },
       "Medawar": {
-        "stock": "107.0",
+        "stock": "102.0",
         "consumption": "0.0"
       }
     }
@@ -32996,9 +33132,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "186.0",
     "consumption_in_geitawi_branch": "439.0",
-    "stock_in_medawar_branch": "132.0",
+    "stock_in_medawar_branch": "128.0",
     "consumption_in_medawar_branch": "460.0",
-    "total_stock": "318.0",
+    "total_stock": "314.0",
     "total_consumption": "899.0",
     "cost": 1.76,
     "delivery_rules": "0.005",
@@ -33008,7 +33144,7 @@
         "consumption": "439.0"
       },
       "Medawar": {
-        "stock": "132.0",
+        "stock": "128.0",
         "consumption": "0.0"
       }
     }
@@ -33196,9 +33332,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "60.0",
     "consumption_in_geitawi_branch": "130.0",
-    "stock_in_medawar_branch": "74.0",
+    "stock_in_medawar_branch": "73.0",
     "consumption_in_medawar_branch": "216.0",
-    "total_stock": "134.0",
+    "total_stock": "133.0",
     "total_consumption": "346.0",
     "cost": 2.06,
     "delivery_rules": "0.005",
@@ -33208,7 +33344,7 @@
         "consumption": "130.0"
       },
       "Medawar": {
-        "stock": "74.0",
+        "stock": "73.0",
         "consumption": "0.0"
       }
     }
@@ -33324,9 +33460,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "795.0",
     "consumption_in_geitawi_branch": "1523.0",
-    "stock_in_medawar_branch": "400.0",
+    "stock_in_medawar_branch": "399.0",
     "consumption_in_medawar_branch": "1827.0",
-    "total_stock": "1195.0",
+    "total_stock": "1194.0",
     "total_consumption": "3350.0",
     "cost": 0.77,
     "delivery_rules": "0.005",
@@ -33336,7 +33472,7 @@
         "consumption": "1523.0"
       },
       "Medawar": {
-        "stock": "400.0",
+        "stock": "399.0",
         "consumption": "1827.0"
       }
     },
@@ -33368,9 +33504,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "96.0",
     "consumption_in_geitawi_branch": "194.0",
-    "stock_in_medawar_branch": "78.0",
+    "stock_in_medawar_branch": "77.0",
     "consumption_in_medawar_branch": "245.0",
-    "total_stock": "174.0",
+    "total_stock": "173.0",
     "total_consumption": "439.0",
     "cost": 0.768,
     "delivery_rules": "0.005",
@@ -33380,7 +33516,7 @@
         "consumption": "194.0"
       },
       "Medawar": {
-        "stock": "78.0",
+        "stock": "77.0",
         "consumption": "0.0"
       }
     }
@@ -33452,9 +33588,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "87.0",
     "consumption_in_geitawi_branch": "251.0",
-    "stock_in_medawar_branch": "44.0",
+    "stock_in_medawar_branch": "43.0",
     "consumption_in_medawar_branch": "113.0",
-    "total_stock": "131.0",
+    "total_stock": "130.0",
     "total_consumption": "364.0",
     "cost": 1.5,
     "delivery_rules": "0.005",
@@ -33464,7 +33600,7 @@
         "consumption": "251.0"
       },
       "Medawar": {
-        "stock": "44.0",
+        "stock": "43.0",
         "consumption": "0.0"
       }
     }
@@ -33652,9 +33788,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "109.0",
     "consumption_in_geitawi_branch": "189.0",
-    "stock_in_medawar_branch": "32.0",
+    "stock_in_medawar_branch": "31.0",
     "consumption_in_medawar_branch": "31.0",
-    "total_stock": "141.0",
+    "total_stock": "140.0",
     "total_consumption": "220.0",
     "cost": 1.99,
     "delivery_rules": "0.005",
@@ -33664,7 +33800,7 @@
         "consumption": "189.0"
       },
       "Medawar": {
-        "stock": "32.0",
+        "stock": "31.0",
         "consumption": "0.0"
       }
     }
@@ -33774,9 +33910,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "37.0",
     "consumption_in_geitawi_branch": "33.0",
-    "stock_in_medawar_branch": "46.0",
+    "stock_in_medawar_branch": "44.0",
     "consumption_in_medawar_branch": "121.0",
-    "total_stock": "83.0",
+    "total_stock": "81.0",
     "total_consumption": "154.0",
     "cost": 1.86,
     "delivery_rules": "0.005",
@@ -33786,7 +33922,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "46.0",
+        "stock": "44.0",
         "consumption": "0.0"
       }
     }
@@ -36029,9 +36165,9 @@
     "SUPPLIERS": "SOCIETE BOU NADER",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "10.0",
-    "stock_in_medawar_branch": "8.0",
+    "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "4.0",
+    "total_stock": "11.0",
     "total_consumption": "10.0",
     "cost": "1.86",
     "delivery_rules": "0.005",
@@ -36039,6 +36175,10 @@
       "Geitawi": {
         "stock": "4.0",
         "consumption": "10.0"
+      },
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -36719,9 +36859,9 @@
     "SUPPLIERS": "GLOBAL FOODS SAL",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "51.0",
-    "stock_in_medawar_branch": "15.0",
+    "stock_in_medawar_branch": "14.0",
     "consumption_in_medawar_branch": "34.0",
-    "total_stock": "20.0",
+    "total_stock": "19.0",
     "total_consumption": "85.0",
     "cost": 0.98,
     "delivery_rules": "0.005",
@@ -36731,7 +36871,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "15.0",
+        "stock": "14.0",
         "consumption": "0.0"
       }
     }
@@ -36889,12 +37029,18 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "57.0",
     "consumption_in_geitawi_branch": "178.0",
-    "stock_in_medawar_branch": "3.0",
+    "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "250.0",
-    "total_stock": "60.0",
+    "total_stock": "1.0",
     "total_consumption": "428.0",
     "cost": "0.28",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "250.0"
+      }
+    }
   },
   {
     "id": "13115",
@@ -37555,9 +37701,9 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "54.0",
     "consumption_in_geitawi_branch": "171.0",
-    "stock_in_medawar_branch": "549.0",
+    "stock_in_medawar_branch": "547.0",
     "consumption_in_medawar_branch": "272.0",
-    "total_stock": "603.0",
+    "total_stock": "601.0",
     "total_consumption": "443.0",
     "cost": 0.42,
     "delivery_rules": "0.005",
@@ -37567,7 +37713,7 @@
         "consumption": "171.0"
       },
       "Medawar": {
-        "stock": "549.0",
+        "stock": "547.0",
         "consumption": "272.0"
       }
     }
@@ -38595,15 +38741,15 @@
     "SUPPLIERS": "mahfouz market",
     "stock_in_geitawi_branch": "-4.0",
     "consumption_in_geitawi_branch": "89.0",
-    "stock_in_medawar_branch": "-8.0",
+    "stock_in_medawar_branch": "-9.0",
     "consumption_in_medawar_branch": "396.0",
-    "total_stock": "-12.0",
+    "total_stock": "-13.0",
     "total_consumption": "485.0",
     "cost": "0.0500",
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "-8.0",
+        "stock": "-9.0",
         "consumption": "420.0"
       },
       "Geitawi": {
@@ -38792,21 +38938,21 @@
     "linked_profile_sub_category": "",
     "Product Description": "MOULIN D'OR WHITE LARGE BREAD",
     "SUPPLIERS": "MOULIN D'OR",
-    "stock_in_geitawi_branch": "64.0",
+    "stock_in_geitawi_branch": "89.0",
     "consumption_in_geitawi_branch": "601.0",
-    "stock_in_medawar_branch": "128.0",
+    "stock_in_medawar_branch": "127.0",
     "consumption_in_medawar_branch": "770.0",
-    "total_stock": "192.0",
+    "total_stock": "216.0",
     "total_consumption": "1371.0",
     "cost": 0.9222222222222223,
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "64.0",
+        "stock": "89.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "128.0",
+        "stock": "127.0",
         "consumption": "0.0"
       }
     }
@@ -39630,15 +39776,15 @@
     "SUPPLIERS": "LIBAN JUS SAL",
     "stock_in_geitawi_branch": "38.0",
     "consumption_in_geitawi_branch": "49.0",
-    "stock_in_medawar_branch": "50.0",
+    "stock_in_medawar_branch": "49.0",
     "consumption_in_medawar_branch": "40.0",
-    "total_stock": "88.0",
+    "total_stock": "87.0",
     "total_consumption": "89.0",
     "cost": "0.25",
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "50.0",
+        "stock": "49.0",
         "consumption": "40.0"
       },
       "Geitawi": {
@@ -40494,9 +40640,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "KLATCHI SUNFLOWER SEEDS 100 GR",
     "SUPPLIERS": "WES3 EL MADA LBP",
-    "stock_in_geitawi_branch": "16.0",
+    "stock_in_geitawi_branch": "28.0",
     "consumption_in_geitawi_branch": "41.0",
-    "stock_in_medawar_branch": "108.0",
+    "stock_in_medawar_branch": "96.0",
     "consumption_in_medawar_branch": "113.0",
     "total_stock": "124.0",
     "total_consumption": "154.0",
@@ -40504,11 +40650,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "16.0",
+        "stock": "28.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "108.0",
+        "stock": "96.0",
         "consumption": "0.0"
       }
     }
@@ -40536,9 +40682,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "KLATCHI PEANUTS SUDANI 200 GR",
     "SUPPLIERS": "WES3 EL MADA LBP",
-    "stock_in_geitawi_branch": "7.0",
+    "stock_in_geitawi_branch": "13.0",
     "consumption_in_geitawi_branch": "42.0",
-    "stock_in_medawar_branch": "110.0",
+    "stock_in_medawar_branch": "104.0",
     "consumption_in_medawar_branch": "86.0",
     "total_stock": "117.0",
     "total_consumption": "128.0",
@@ -40546,11 +40692,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "7.0",
+        "stock": "13.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "110.0",
+        "stock": "104.0",
         "consumption": "0.0"
       }
     }
@@ -42144,9 +42290,9 @@
     "SUPPLIERS": "PEPSI LBP",
     "stock_in_geitawi_branch": "54.0",
     "consumption_in_geitawi_branch": "100.0",
-    "stock_in_medawar_branch": "60.0",
+    "stock_in_medawar_branch": "59.0",
     "consumption_in_medawar_branch": "112.0",
-    "total_stock": "54.0",
+    "total_stock": "113.0",
     "total_consumption": "212.0",
     "cost": "0.55",
     "delivery_rules": "0.005",
@@ -42154,6 +42300,10 @@
       "Geitawi": {
         "stock": "54.0",
         "consumption": "100.0"
+      },
+      "Medawar": {
+        "stock": "59.0",
+        "consumption": "112.0"
       }
     }
   },
@@ -42182,9 +42332,9 @@
     "SUPPLIERS": "PEPSI LBP",
     "stock_in_geitawi_branch": "55.0",
     "consumption_in_geitawi_branch": "154.0",
-    "stock_in_medawar_branch": "44.0",
+    "stock_in_medawar_branch": "41.0",
     "consumption_in_medawar_branch": "118.0",
-    "total_stock": "55.0",
+    "total_stock": "96.0",
     "total_consumption": "272.0",
     "cost": "0.55",
     "delivery_rules": "0.005",
@@ -42192,6 +42342,10 @@
       "Geitawi": {
         "stock": "55.0",
         "consumption": "154.0"
+      },
+      "Medawar": {
+        "stock": "41.0",
+        "consumption": "118.0"
       }
     }
   },
@@ -42416,9 +42570,9 @@
     "SUPPLIERS": "WASSIM NACHAWATI",
     "stock_in_geitawi_branch": "99.0",
     "consumption_in_geitawi_branch": "3.0",
-    "stock_in_medawar_branch": "65.0",
+    "stock_in_medawar_branch": "63.0",
     "consumption_in_medawar_branch": "14.0",
-    "total_stock": "164.0",
+    "total_stock": "162.0",
     "total_consumption": "17.0",
     "cost": "0.50",
     "delivery_rules": "0.005",
@@ -42428,7 +42582,7 @@
         "consumption": "3.0"
       },
       "Medawar": {
-        "stock": "65.0",
+        "stock": "63.0",
         "consumption": "14.0"
       }
     }
@@ -43076,12 +43230,18 @@
     "SUPPLIERS": "AL HATAB",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "19.0",
+    "stock_in_medawar_branch": "18.0",
     "consumption_in_medawar_branch": "22.0",
-    "total_stock": "25.0",
+    "total_stock": "18.0",
     "total_consumption": "22.0",
     "cost": "0.54",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "18.0",
+        "consumption": "22.0"
+      }
+    }
   },
   {
     "id": "13743",
@@ -43245,12 +43405,18 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "15.0",
+    "stock_in_medawar_branch": "14.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "21.0",
+    "total_stock": "14.0",
     "total_consumption": "3.0",
     "cost": "1.56",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "14.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "13756",
@@ -43635,9 +43801,9 @@
     "SUPPLIERS": "GLOBAL FOODS SAL",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "20.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "2.0",
+    "total_stock": "1.0",
     "total_consumption": "20.0",
     "cost": "1.02",
     "delivery_rules": "0.005",
@@ -43645,6 +43811,10 @@
       "Geitawi": {
         "stock": "2.0",
         "consumption": "20.0"
+      },
+      "Medawar": {
+        "stock": "-1.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -43673,12 +43843,18 @@
     "SUPPLIERS": "GLOBAL FOODS SAL",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "3.0",
-    "stock_in_medawar_branch": "7.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "7.0",
+    "total_stock": "6.0",
     "total_consumption": "6.0",
     "cost": "1.35",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "13821",
@@ -44039,9 +44215,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "67.0",
     "consumption_in_geitawi_branch": "158.0",
-    "stock_in_medawar_branch": "51.0",
+    "stock_in_medawar_branch": "49.0",
     "consumption_in_medawar_branch": "138.0",
-    "total_stock": "118.0",
+    "total_stock": "116.0",
     "total_consumption": "296.0",
     "cost": 1.03,
     "delivery_rules": "0.005",
@@ -44051,7 +44227,7 @@
         "consumption": "158.0"
       },
       "Medawar": {
-        "stock": "51.0",
+        "stock": "49.0",
         "consumption": "0.0"
       }
     }
@@ -44459,9 +44635,9 @@
     "SUPPLIERS": "AL HATAB",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "118.0",
+    "stock_in_medawar_branch": "142.0",
     "consumption_in_medawar_branch": "469.0",
-    "total_stock": "118.0",
+    "total_stock": "142.0",
     "total_consumption": "469.0",
     "cost": 0.2916666666666667,
     "delivery_rules": "0.005",
@@ -44471,7 +44647,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "118.0",
+        "stock": "142.0",
         "consumption": "0.0"
       }
     }
@@ -45331,12 +45507,18 @@
     "SUPPLIERS": "GOLDEN FOOD SAL",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "31.0",
-    "stock_in_medawar_branch": "12.0",
+    "stock_in_medawar_branch": "11.0",
     "consumption_in_medawar_branch": "25.0",
-    "total_stock": "23.0",
+    "total_stock": "11.0",
     "total_consumption": "56.0",
     "cost": "0.76",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "11.0",
+        "consumption": "25.0"
+      }
+    }
   },
   {
     "id": "13909",
@@ -46532,12 +46714,18 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "37.0",
     "consumption_in_geitawi_branch": "36.0",
-    "stock_in_medawar_branch": "118.0",
+    "stock_in_medawar_branch": "117.0",
     "consumption_in_medawar_branch": "44.0",
-    "total_stock": "155.0",
+    "total_stock": "117.0",
     "total_consumption": "80.0",
     "cost": "1.32",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "117.0",
+        "consumption": "44.0"
+      }
+    }
   },
   {
     "id": "14024",
@@ -46660,9 +46848,9 @@
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
     "stock_in_geitawi_branch": "29.0",
     "consumption_in_geitawi_branch": "67.0",
-    "stock_in_medawar_branch": "114.0",
+    "stock_in_medawar_branch": "112.0",
     "consumption_in_medawar_branch": "57.0",
-    "total_stock": "29.0",
+    "total_stock": "141.0",
     "total_consumption": "124.0",
     "cost": "1.69",
     "delivery_rules": "0.005",
@@ -46670,6 +46858,10 @@
       "Geitawi": {
         "stock": "29.0",
         "consumption": "67.0"
+      },
+      "Medawar": {
+        "stock": "112.0",
+        "consumption": "57.0"
       }
     }
   },
@@ -46888,14 +47080,24 @@
     "linked_profile_sub_category": "",
     "Product Description": "ALMAZA LIGHT 25 CL",
     "SUPPLIERS": "BRASSERIE ALMAZA SAL",
-    "stock_in_geitawi_branch": "25.0",
+    "stock_in_geitawi_branch": "49.0",
     "consumption_in_geitawi_branch": "115.0",
-    "stock_in_medawar_branch": "70.0",
+    "stock_in_medawar_branch": "46.0",
     "consumption_in_medawar_branch": "22.0",
     "total_stock": "95.0",
     "total_consumption": "137.0",
     "cost": "0.72",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "49.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "46.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "14080",
@@ -47486,9 +47688,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "24.0",
     "consumption_in_geitawi_branch": "161.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": "4.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "29.0",
+    "total_stock": "28.0",
     "total_consumption": "161.0",
     "VAT": "YES",
     "price_lbp": 70000,
@@ -47500,7 +47702,7 @@
         "consumption": "161.0"
       },
       "Medawar": {
-        "stock": "5.0",
+        "stock": "4.0",
         "consumption": "0.0"
       }
     },
@@ -48841,9 +49043,9 @@
     "SUPPLIERS": "BRASSERIE ALMAZA SAL",
     "stock_in_geitawi_branch": "22.0",
     "consumption_in_geitawi_branch": "21.0",
-    "stock_in_medawar_branch": "17.0",
+    "stock_in_medawar_branch": "15.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "22.0",
+    "total_stock": "37.0",
     "total_consumption": "36.0",
     "cost": "0.70",
     "delivery_rules": "0.005",
@@ -48851,6 +49053,10 @@
       "Geitawi": {
         "stock": "22.0",
         "consumption": "21.0"
+      },
+      "Medawar": {
+        "stock": "15.0",
+        "consumption": "15.0"
       }
     }
   },
@@ -49361,12 +49567,18 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "136.0",
+    "stock_in_medawar_branch": "135.0",
     "consumption_in_medawar_branch": "19.0",
-    "total_stock": "140.0",
+    "total_stock": "135.0",
     "total_consumption": "20.0",
     "cost": "0.47",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "135.0",
+        "consumption": "19.0"
+      }
+    }
   },
   {
     "id": "14310",
@@ -51952,12 +52164,18 @@
     "SUPPLIERS": "EBA",
     "stock_in_geitawi_branch": "18.0",
     "consumption_in_geitawi_branch": "23.0",
-    "stock_in_medawar_branch": "24.0",
+    "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "22.0",
-    "total_stock": "42.0",
+    "total_stock": "23.0",
     "total_consumption": "45.0",
     "cost": "1.30",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "23.0",
+        "consumption": "22.0"
+      }
+    }
   },
   {
     "id": "14567",
@@ -52864,14 +53082,24 @@
     "linked_profile_sub_category": "",
     "Product Description": "COMPACT ANTIBACTERIAL WET WIPES 100 PCS",
     "SUPPLIERS": "MTANIOS TRADING SARL",
-    "stock_in_geitawi_branch": "12.0",
+    "stock_in_geitawi_branch": "15.0",
     "consumption_in_geitawi_branch": "8.0",
-    "stock_in_medawar_branch": "19.0",
+    "stock_in_medawar_branch": "16.0",
     "consumption_in_medawar_branch": "3.0",
     "total_stock": "31.0",
     "total_consumption": "11.0",
     "cost": "1.82",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "15.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "16.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "14703",
@@ -53738,12 +53966,18 @@
     "SUPPLIERS": "G . VINCENTI & SONS",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "6.0",
+    "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "7.0",
+    "total_stock": "5.0",
     "total_consumption": "5.0",
     "cost": "1.07",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "5.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "14794",
@@ -54418,9 +54652,9 @@
     "SUPPLIERS": "HMBR MANUFACTURING & TRADING C",
     "stock_in_geitawi_branch": "23.0",
     "consumption_in_geitawi_branch": "111.0",
-    "stock_in_medawar_branch": "66.0",
+    "stock_in_medawar_branch": "63.0",
     "consumption_in_medawar_branch": "125.0",
-    "total_stock": "23.0",
+    "total_stock": "86.0",
     "total_consumption": "236.0",
     "cost": "0.66",
     "delivery_rules": "0.005",
@@ -54428,6 +54662,10 @@
       "Geitawi": {
         "stock": "23.0",
         "consumption": "111.0"
+      },
+      "Medawar": {
+        "stock": "63.0",
+        "consumption": "125.0"
       }
     }
   },
@@ -56004,17 +56242,17 @@
     "linked_profile_sub_category": "",
     "Product Description": "MOULIN DOR WHOLE WHEAT BREAD",
     "SUPPLIERS": "MOULIN D'OR",
-    "stock_in_geitawi_branch": "8.0",
+    "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "91.0",
     "stock_in_medawar_branch": "12.0",
     "consumption_in_medawar_branch": "99.0",
-    "total_stock": "20.0",
+    "total_stock": "23.0",
     "total_consumption": "190.0",
     "cost": 1.5,
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "8.0",
+        "stock": "11.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -56790,12 +57028,18 @@
     "SUPPLIERS": "ABI RAMIA BROS SARL",
     "stock_in_geitawi_branch": "13.0",
     "consumption_in_geitawi_branch": "9.0",
-    "stock_in_medawar_branch": "15.0",
+    "stock_in_medawar_branch": "13.0",
     "consumption_in_medawar_branch": "10.0",
-    "total_stock": "28.0",
+    "total_stock": "13.0",
     "total_consumption": "19.0",
     "cost": "0.84",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "13.0",
+        "consumption": "10.0"
+      }
+    }
   },
   {
     "id": "15126",
@@ -56994,9 +57238,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "79.0",
     "consumption_in_geitawi_branch": "157.0",
-    "stock_in_medawar_branch": "42.0",
+    "stock_in_medawar_branch": "41.0",
     "consumption_in_medawar_branch": "86.0",
-    "total_stock": "121.0",
+    "total_stock": "120.0",
     "total_consumption": "243.0",
     "cost": 2.45,
     "delivery_rules": "0.005",
@@ -57006,7 +57250,7 @@
         "consumption": "157.0"
       },
       "Medawar": {
-        "stock": "42.0",
+        "stock": "41.0",
         "consumption": "0.0"
       }
     }
@@ -57116,9 +57360,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "63.0",
     "consumption_in_geitawi_branch": "130.0",
-    "stock_in_medawar_branch": "39.0",
+    "stock_in_medawar_branch": "38.0",
     "consumption_in_medawar_branch": "78.0",
-    "total_stock": "102.0",
+    "total_stock": "101.0",
     "total_consumption": "208.0",
     "cost": 2.45,
     "delivery_rules": "0.005",
@@ -57128,7 +57372,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "39.0",
+        "stock": "38.0",
         "consumption": "0.0"
       }
     }
@@ -57158,9 +57402,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "127.0",
     "consumption_in_geitawi_branch": "293.0",
-    "stock_in_medawar_branch": "40.0",
+    "stock_in_medawar_branch": "39.0",
     "consumption_in_medawar_branch": "67.0",
-    "total_stock": "167.0",
+    "total_stock": "166.0",
     "total_consumption": "360.0",
     "cost": 2.45,
     "delivery_rules": "0.005",
@@ -57170,7 +57414,7 @@
         "consumption": "293.0"
       },
       "Medawar": {
-        "stock": "40.0",
+        "stock": "39.0",
         "consumption": "0.0"
       }
     }
@@ -57316,9 +57560,9 @@
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
     "stock_in_geitawi_branch": "26.0",
     "consumption_in_geitawi_branch": "42.0",
-    "stock_in_medawar_branch": "57.0",
+    "stock_in_medawar_branch": "56.0",
     "consumption_in_medawar_branch": "47.0",
-    "total_stock": "83.0",
+    "total_stock": "82.0",
     "total_consumption": "89.0",
     "cost": 0.97583333333333,
     "delivery_rules": "0.005",
@@ -57328,7 +57572,7 @@
         "consumption": "42.0"
       },
       "Medawar": {
-        "stock": "57.0",
+        "stock": "56.0",
         "consumption": "0.0"
       }
     }
@@ -57660,12 +57904,18 @@
     "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
     "stock_in_geitawi_branch": "7.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "8.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "2.0",
-    "total_stock": "15.0",
+    "total_stock": "6.0",
     "total_consumption": "2.0",
     "cost": "0.37",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "6.0",
+        "consumption": "2.0"
+      }
+    }
   },
   {
     "id": "15235",
@@ -58956,9 +59206,9 @@
     "SUPPLIERS": "SUPPLIERS DIVERS",
     "stock_in_geitawi_branch": "-7.0",
     "consumption_in_geitawi_branch": "63.0",
-    "stock_in_medawar_branch": "168.0",
+    "stock_in_medawar_branch": "167.0",
     "consumption_in_medawar_branch": "71.0",
-    "total_stock": "-7.0",
+    "total_stock": "160.0",
     "total_consumption": "134.0",
     "cost": "0.30",
     "delivery_rules": "0.005",
@@ -58966,6 +59216,10 @@
       "Geitawi": {
         "stock": "-7.0",
         "consumption": "63.0"
+      },
+      "Medawar": {
+        "stock": "167.0",
+        "consumption": "71.0"
       }
     }
   },
@@ -62658,15 +62912,15 @@
     "SUPPLIERS": "VEGETABLES AND FRUITS",
     "stock_in_geitawi_branch": "-3.9",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "4499.0",
+    "stock_in_medawar_branch": "4498.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "4495.1",
+    "total_stock": "4494.1",
     "total_consumption": "0.0",
     "cost": 0.8333333333333334,
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "4499.0",
+        "stock": "4498.0",
         "consumption": "0.0"
       },
       "Geitawi": {
@@ -62700,15 +62954,15 @@
     "SUPPLIERS": "VEGETABLES AND FRUITS",
     "stock_in_geitawi_branch": "-1.9",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "6211.0",
+    "stock_in_medawar_branch": "6210.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "6209.1",
+    "total_stock": "6208.1",
     "total_consumption": "0.0",
     "cost": 0.8333333333333334,
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "6211.0",
+        "stock": "6210.0",
         "consumption": "0.0"
       },
       "Geitawi": {
@@ -63068,15 +63322,15 @@
     "SUPPLIERS": "VEGETABLES AND FRUITS",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "5.0",
+    "stock_in_medawar_branch": "4.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "10.0",
+    "total_stock": "9.0",
     "total_consumption": "0.0",
     "cost": "1.8300",
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "5.0",
+        "stock": "4.0",
         "consumption": "0.0"
       },
       "Geitawi": {
@@ -63866,12 +64120,18 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "2.0",
-    "stock_in_medawar_branch": "8.0",
+    "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "12.0",
+    "total_stock": "7.0",
     "total_consumption": "2.0",
     "cost": "0.98",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "7.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "15790",
@@ -64036,12 +64296,18 @@
     "SUPPLIERS": "AOUN FOOD CO",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "2.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "2.0",
+    "total_stock": "-1.0",
     "total_consumption": "5.0",
     "cost": "0.80",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "-1.0",
+        "consumption": "3.0"
+      }
+    }
   },
   {
     "id": "15799",
@@ -64648,14 +64914,24 @@
     "linked_profile_sub_category": "",
     "Product Description": "KAZZI CAFEE CLASSIC 180 GR",
     "SUPPLIERS": "AL KAZZI TRADING SAL",
-    "stock_in_geitawi_branch": "6.0",
+    "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "13.0",
+    "stock_in_medawar_branch": "8.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "19.0",
     "total_consumption": "4.0",
     "cost": "1.97",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "11.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "8.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "15869",
@@ -65196,9 +65472,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "KLATCHI PUMKIN SEEDS 200 G",
     "SUPPLIERS": "WES3 EL MADA LBP",
-    "stock_in_geitawi_branch": "-1.0",
+    "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "32.0",
-    "stock_in_medawar_branch": "56.0",
+    "stock_in_medawar_branch": "50.0",
     "consumption_in_medawar_branch": "48.0",
     "total_stock": "55.0",
     "total_consumption": "80.0",
@@ -65206,11 +65482,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Medawar": {
-        "stock": "56.0",
+        "stock": "50.0",
         "consumption": "48.0"
       },
       "Geitawi": {
-        "stock": "-1.0",
+        "stock": "5.0",
         "consumption": "32.0"
       }
     }
@@ -65304,12 +65580,18 @@
     "SUPPLIERS": "MANY FOOD SARL",
     "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "13.0",
+    "stock_in_medawar_branch": "12.0",
     "consumption_in_medawar_branch": "2.0",
-    "total_stock": "22.0",
+    "total_stock": "12.0",
     "total_consumption": "6.0",
     "cost": "0.64",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "12.0",
+        "consumption": "2.0"
+      }
+    }
   },
   {
     "id": "15918",
@@ -66351,18 +66633,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "SUCRE BAYTNA 900GR",
     "SUPPLIERS": "AL HAMAWI TRADING",
-    "stock_in_geitawi_branch": "30.0",
+    "stock_in_geitawi_branch": "50.0",
     "consumption_in_geitawi_branch": "84.0",
-    "stock_in_medawar_branch": "89.0",
+    "stock_in_medawar_branch": "69.0",
     "consumption_in_medawar_branch": "23.0",
-    "total_stock": "30.0",
+    "total_stock": "119.0",
     "total_consumption": "107.0",
     "cost": "0.78",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "30.0",
+        "stock": "50.0",
         "consumption": "84.0"
+      },
+      "Medawar": {
+        "stock": "69.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -67544,12 +67830,18 @@
     "SUPPLIERS": "DELTA TRADING USD",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "72.0",
-    "stock_in_medawar_branch": "-4.0",
+    "stock_in_medawar_branch": "-5.0",
     "consumption_in_medawar_branch": "73.0",
-    "total_stock": "-3.0",
+    "total_stock": "-5.0",
     "total_consumption": "145.0",
     "cost": "0.82",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "-5.0",
+        "consumption": "73.0"
+      }
+    }
   },
   {
     "id": "16169",
@@ -71370,9 +71662,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "47.0",
-    "stock_in_medawar_branch": "2.0",
+    "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "9.0",
-    "total_stock": "11.0",
+    "total_stock": "10.0",
     "total_consumption": "56.0",
     "cost": 1.73,
     "delivery_rules": "0.005",
@@ -71382,7 +71674,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "2.0",
+        "stock": "1.0",
         "consumption": "0.0"
       }
     }
@@ -73096,9 +73388,9 @@
     "SUPPLIERS": "DELTA TRADING USD",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "17.0",
-    "stock_in_medawar_branch": "39.0",
+    "stock_in_medawar_branch": "38.0",
     "consumption_in_medawar_branch": "25.0",
-    "total_stock": "50.0",
+    "total_stock": "49.0",
     "total_consumption": "42.0",
     "cost": 0.8108333333333333,
     "delivery_rules": "0.005",
@@ -73108,7 +73400,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "39.0",
+        "stock": "38.0",
         "consumption": "0.0"
       }
     }
@@ -73138,9 +73430,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "21.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "2.0",
-    "total_stock": "12.0",
+    "total_stock": "11.0",
     "total_consumption": "23.0",
     "cost": 1.89,
     "delivery_rules": "0.005",
@@ -73150,7 +73442,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       }
     }
@@ -73212,9 +73504,9 @@
     "SUPPLIERS": "GLOBAL FOODS SAL",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "84.0",
-    "stock_in_medawar_branch": "18.0",
+    "stock_in_medawar_branch": "17.0",
     "consumption_in_medawar_branch": "30.0",
-    "total_stock": "19.0",
+    "total_stock": "18.0",
     "total_consumption": "114.0",
     "cost": 1.09,
     "delivery_rules": "0.005",
@@ -73224,7 +73516,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "18.0",
+        "stock": "17.0",
         "consumption": "0.0"
       }
     }
@@ -73254,9 +73546,9 @@
     "SUPPLIERS": "GLOBAL FOODS SAL",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "60.0",
-    "stock_in_medawar_branch": "17.0",
+    "stock_in_medawar_branch": "16.0",
     "consumption_in_medawar_branch": "29.0",
-    "total_stock": "20.0",
+    "total_stock": "19.0",
     "total_consumption": "89.0",
     "cost": 1.16,
     "delivery_rules": "0.005",
@@ -73266,7 +73558,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "17.0",
+        "stock": "16.0",
         "consumption": "0.0"
       }
     }
@@ -73854,9 +74146,9 @@
     "SUPPLIERS": "MANY FOOD SARL",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "31.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "5.0",
+    "total_stock": "4.0",
     "total_consumption": "31.0",
     "cost": "0.47",
     "delivery_rules": "0.005",
@@ -73864,6 +74156,10 @@
       "Geitawi": {
         "stock": "5.0",
         "consumption": "31.0"
+      },
+      "Medawar": {
+        "stock": "-1.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -74196,9 +74492,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "8.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-4.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "0.0",
+    "total_stock": "-4.0",
     "total_consumption": "9.0",
     "cost": 5.67,
     "delivery_rules": "0.005",
@@ -74208,7 +74504,7 @@
         "consumption": "8.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-4.0",
         "consumption": "0.0"
       }
     }
@@ -75332,9 +75628,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-4.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "-3.0",
     "total_consumption": "5.0",
     "cost": 5.8,
     "delivery_rules": "0.005",
@@ -75344,7 +75640,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-4.0",
         "consumption": "0.0"
       }
     }
@@ -76786,12 +77082,18 @@
     "SUPPLIERS": "JACK DIB",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "10.0",
+    "stock_in_medawar_branch": "9.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "12.0",
+    "total_stock": "9.0",
     "total_consumption": "2.0",
     "cost": "1.67",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "9.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "17118",
@@ -77014,9 +77316,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "REGULAR MIX 200 G",
     "SUPPLIERS": "WES3 EL MADA LBP",
-    "stock_in_geitawi_branch": "11.0",
+    "stock_in_geitawi_branch": "17.0",
     "consumption_in_geitawi_branch": "23.0",
-    "stock_in_medawar_branch": "50.0",
+    "stock_in_medawar_branch": "44.0",
     "consumption_in_medawar_branch": "108.01",
     "total_stock": "61.0",
     "total_consumption": "131.01",
@@ -77024,11 +77326,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "11.0",
+        "stock": "17.0",
         "consumption": "23.0"
       },
       "Medawar": {
-        "stock": "50.0",
+        "stock": "44.0",
         "consumption": "0.0"
       }
     }
@@ -79108,9 +79410,9 @@
     "SUPPLIERS": "TETA\"S KITCHEN",
     "stock_in_geitawi_branch": "31.0",
     "consumption_in_geitawi_branch": "28.0",
-    "stock_in_medawar_branch": "27.0",
+    "stock_in_medawar_branch": "26.0",
     "consumption_in_medawar_branch": "59.0",
-    "total_stock": "58.0",
+    "total_stock": "57.0",
     "total_consumption": "87.0",
     "cost": 0.8,
     "delivery_rules": "0.005",
@@ -79120,7 +79422,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "27.0",
+        "stock": "26.0",
         "consumption": "0.0"
       }
     }
@@ -81336,9 +81638,9 @@
     "SUPPLIERS": "DELTA TRADING USD",
     "stock_in_geitawi_branch": "13.0",
     "consumption_in_geitawi_branch": "35.0",
-    "stock_in_medawar_branch": "86.0",
+    "stock_in_medawar_branch": "85.0",
     "consumption_in_medawar_branch": "60.0",
-    "total_stock": "99.0",
+    "total_stock": "98.0",
     "total_consumption": "95.0",
     "cost": 0.50083333333333,
     "delivery_rules": "0.005",
@@ -81348,7 +81650,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "86.0",
+        "stock": "85.0",
         "consumption": "0.0"
       }
     }
@@ -81622,18 +81924,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "SAN BENDETTO LIMONE JUICE 330 ML",
     "SUPPLIERS": "TANNOURINE",
-    "stock_in_geitawi_branch": "20.0",
+    "stock_in_geitawi_branch": "44.0",
     "consumption_in_geitawi_branch": "21.0",
-    "stock_in_medawar_branch": "116.0",
+    "stock_in_medawar_branch": "92.0",
     "consumption_in_medawar_branch": "29.0",
-    "total_stock": "20.0",
+    "total_stock": "136.0",
     "total_consumption": "50.0",
     "cost": "0.64",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "20.0",
+        "stock": "44.0",
         "consumption": "21.0"
+      },
+      "Medawar": {
+        "stock": "92.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -82774,9 +83080,9 @@
     "SUPPLIERS": "ABI RAMIA BROS SARL",
     "stock_in_geitawi_branch": "23.0",
     "consumption_in_geitawi_branch": "35.0",
-    "stock_in_medawar_branch": "24.0",
+    "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "21.0",
-    "total_stock": "23.0",
+    "total_stock": "46.0",
     "total_consumption": "56.0",
     "cost": "0.54",
     "delivery_rules": "0.005",
@@ -82784,6 +83090,10 @@
       "Geitawi": {
         "stock": "23.0",
         "consumption": "35.0"
+      },
+      "Medawar": {
+        "stock": "23.0",
+        "consumption": "21.0"
       }
     }
   },
@@ -84298,9 +84608,9 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "96.0",
     "consumption_in_geitawi_branch": "222.0",
-    "stock_in_medawar_branch": "1064.0",
+    "stock_in_medawar_branch": "1063.0",
     "consumption_in_medawar_branch": "386.0",
-    "total_stock": "1160.0",
+    "total_stock": "1159.0",
     "total_consumption": "608.0",
     "cost": 0.12611911,
     "delivery_rules": "0.005",
@@ -84310,7 +84620,7 @@
         "consumption": "222.0"
       },
       "Medawar": {
-        "stock": "1064.0",
+        "stock": "1063.0",
         "consumption": "0.0"
       }
     }
@@ -84907,9 +85217,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "33.0",
     "consumption_in_geitawi_branch": "59.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "33.0",
+    "total_stock": "32.0",
     "total_consumption": "59.0",
     "cost": 0.57,
     "delivery_rules": "0.005",
@@ -84919,7 +85229,7 @@
         "consumption": "59.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       }
     },
@@ -85021,9 +85331,9 @@
     "SUPPLIERS": "GOLDEN FOOD SAL",
     "stock_in_geitawi_branch": "10.0",
     "consumption_in_geitawi_branch": "15.0",
-    "stock_in_medawar_branch": "21.0",
+    "stock_in_medawar_branch": "20.0",
     "consumption_in_medawar_branch": "14.0",
-    "total_stock": "10.0",
+    "total_stock": "30.0",
     "total_consumption": "29.0",
     "cost": "0.30",
     "delivery_rules": "0.005",
@@ -85031,6 +85341,10 @@
       "Geitawi": {
         "stock": "10.0",
         "consumption": "15.0"
+      },
+      "Medawar": {
+        "stock": "20.0",
+        "consumption": "14.0"
       }
     }
   },
@@ -87429,12 +87743,18 @@
     "SUPPLIERS": "ARLA KALLASSI FOODS LB  SAL",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "6.0",
+    "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "5.0",
-    "total_stock": "10.0",
+    "total_stock": "5.0",
     "total_consumption": "9.0",
     "cost": "1.30",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "5.0",
+        "consumption": "5.0"
+      }
+    }
   },
   {
     "id": "18037",
@@ -88190,12 +88510,18 @@
     "SUPPLIERS": "KTEER TAYIB",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "14.0",
-    "stock_in_medawar_branch": "11.0",
+    "stock_in_medawar_branch": "9.0",
     "consumption_in_medawar_branch": "10.0",
-    "total_stock": "16.0",
+    "total_stock": "9.0",
     "total_consumption": "24.0",
     "cost": "0.65",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "9.0",
+        "consumption": "10.0"
+      }
+    }
   },
   {
     "id": "18075",
@@ -88906,12 +89232,18 @@
     "SUPPLIERS": "VINAIGRE ADAM",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "4.0",
+    "stock_in_medawar_branch": "3.0",
     "consumption_in_medawar_branch": "2.0",
-    "total_stock": "6.0",
+    "total_stock": "3.0",
     "total_consumption": "7.0",
     "cost": "0.31",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "2.0"
+      }
+    }
   },
   {
     "id": "18132",
@@ -89236,12 +89568,22 @@
     "SUPPLIERS": "JACK DIB",
     "stock_in_geitawi_branch": "8.0",
     "consumption_in_geitawi_branch": "3.0",
-    "stock_in_medawar_branch": "34.0",
+    "stock_in_medawar_branch": "33.0",
     "consumption_in_medawar_branch": "6.0",
-    "total_stock": "42.0",
+    "total_stock": "41.0",
     "total_consumption": "9.0",
     "cost": "1.01",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "8.0",
+        "consumption": "3.0"
+      },
+      "Medawar": {
+        "stock": "33.0",
+        "consumption": "6.0"
+      }
+    }
   },
   {
     "id": "18152",
@@ -89760,9 +90102,9 @@
     "SUPPLIERS": "AL RAED TRADING",
     "stock_in_geitawi_branch": "20.0",
     "consumption_in_geitawi_branch": "25.0",
-    "stock_in_medawar_branch": "12.0",
+    "stock_in_medawar_branch": "10.0",
     "consumption_in_medawar_branch": "36.0",
-    "total_stock": "20.0",
+    "total_stock": "30.0",
     "total_consumption": "61.0",
     "cost": "0.47",
     "delivery_rules": "0.005",
@@ -89770,6 +90112,10 @@
       "Geitawi": {
         "stock": "20.0",
         "consumption": "25.0"
+      },
+      "Medawar": {
+        "stock": "10.0",
+        "consumption": "36.0"
       }
     }
   },
@@ -89868,12 +90214,18 @@
     "SUPPLIERS": "AL HATAB",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "9.0",
-    "stock_in_medawar_branch": "205.0",
+    "stock_in_medawar_branch": "204.0",
     "consumption_in_medawar_branch": "184.0",
-    "total_stock": "205.0",
+    "total_stock": "204.0",
     "total_consumption": "193.0",
     "cost": "0.23",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "204.0",
+        "consumption": "184.0"
+      }
+    }
   },
   {
     "id": "18178",
@@ -89964,9 +90316,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "16.0",
     "consumption_in_geitawi_branch": "47.0",
-    "stock_in_medawar_branch": "2.0",
+    "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "17.0",
-    "total_stock": "18.0",
+    "total_stock": "17.0",
     "total_consumption": "64.0",
     "cost": 2.08,
     "delivery_rules": "0.005",
@@ -89976,7 +90328,7 @@
         "consumption": "47.0"
       },
       "Medawar": {
-        "stock": "2.0",
+        "stock": "1.0",
         "consumption": "0.0"
       }
     }
@@ -90082,9 +90434,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "53.0",
-    "stock_in_medawar_branch": "4.0",
+    "stock_in_medawar_branch": "3.0",
     "consumption_in_medawar_branch": "22.0",
-    "total_stock": "4.0",
+    "total_stock": "7.0",
     "total_consumption": "75.0",
     "cost": "3.49",
     "delivery_rules": "0.005",
@@ -90092,6 +90444,10 @@
       "Geitawi": {
         "stock": "4.0",
         "consumption": "53.0"
+      },
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "22.0"
       }
     }
   },
@@ -90539,7 +90895,7 @@
     "barcode2": "",
     "barcodes": "",
     "price_usd": "0.17",
-    "price_lbp": "15,000",
+    "price_lbp": 15000,
     "VAT": "NO",
     "offers": "0",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18240.jpg",
@@ -90552,12 +90908,22 @@
     "SUPPLIERS": "AL HATAB",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "84.0",
+    "stock_in_medawar_branch": "85.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "84.0",
+    "total_stock": "85.0",
     "total_consumption": "0.0",
-    "cost": "0.19",
-    "delivery_rules": "0.005"
+    "cost": 0.19,
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "85.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "18244",
@@ -97237,9 +97603,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "26.0",
     "consumption_in_geitawi_branch": "14.0",
-    "stock_in_medawar_branch": "22.0",
+    "stock_in_medawar_branch": "21.0",
     "consumption_in_medawar_branch": "12.0",
-    "total_stock": "26.0",
+    "total_stock": "47.0",
     "total_consumption": "26.0",
     "cost": "0.87",
     "delivery_rules": "0.005",
@@ -97247,6 +97613,10 @@
       "Geitawi": {
         "stock": "26.0",
         "consumption": "14.0"
+      },
+      "Medawar": {
+        "stock": "21.0",
+        "consumption": "12.0"
       }
     }
   },
@@ -97313,15 +97683,19 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "36.0",
-    "stock_in_medawar_branch": "11.0",
+    "stock_in_medawar_branch": "10.0",
     "consumption_in_medawar_branch": "36.0",
-    "total_stock": "1.0",
+    "total_stock": "11.0",
     "total_consumption": "72.0",
     "cost": "1.21",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
         "stock": "1.0",
+        "consumption": "36.0"
+      },
+      "Medawar": {
+        "stock": "10.0",
         "consumption": "36.0"
       }
     }
@@ -98079,9 +98453,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-4.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "0.0",
+    "total_stock": "-4.0",
     "total_consumption": "1.0",
     "cost": 5.67,
     "delivery_rules": "0.005",
@@ -98091,7 +98465,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-4.0",
         "consumption": "0.0"
       }
     }
@@ -98625,9 +98999,9 @@
     "SUPPLIERS": "GLOBAL FOODS SAL",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "66.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "0.0",
     "total_consumption": "66.0",
     "cost": 0.99,
     "delivery_rules": "0.005",
@@ -98637,7 +99011,7 @@
         "consumption": "66.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       }
     }
@@ -101465,12 +101839,18 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "3.0",
-    "stock_in_medawar_branch": "3.0",
+    "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "4.0",
-    "total_stock": "4.0",
+    "total_stock": "1.0",
     "total_consumption": "7.0",
     "cost": "2.39",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "4.0"
+      }
+    }
   },
   {
     "id": "19051",
@@ -103219,18 +103599,22 @@
     "linked_profile_sub_category": "",
     "Product Description": "PERRIER CAN SPARKLING  WATER 33CL",
     "SUPPLIERS": "EBA",
-    "stock_in_geitawi_branch": "31.0",
+    "stock_in_geitawi_branch": "43.0",
     "consumption_in_geitawi_branch": "44.0",
-    "stock_in_medawar_branch": "41.0",
+    "stock_in_medawar_branch": "29.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "31.0",
+    "total_stock": "72.0",
     "total_consumption": "59.0",
     "cost": "0.78",
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "31.0",
+        "stock": "43.0",
         "consumption": "44.0"
+      },
+      "Medawar": {
+        "stock": "29.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -104343,9 +104727,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "11.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "3.0",
+    "total_stock": "2.0",
     "total_consumption": "11.0",
     "cost": "1.14",
     "delivery_rules": "0.005",
@@ -104353,6 +104737,10 @@
       "Geitawi": {
         "stock": "3.0",
         "consumption": "11.0"
+      },
+      "Medawar": {
+        "stock": "-1.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -104920,9 +105308,9 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "9.0",
-    "stock_in_medawar_branch": "4.0",
+    "stock_in_medawar_branch": "3.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "2.0",
+    "total_stock": "5.0",
     "total_consumption": "10.0",
     "cost": "2.28",
     "delivery_rules": "0.005",
@@ -104930,6 +105318,10 @@
       "Geitawi": {
         "stock": "2.0",
         "consumption": "9.0"
+      },
+      "Medawar": {
+        "stock": "3.0",
+        "consumption": "1.0"
       }
     }
   },
@@ -105786,12 +106178,18 @@
     "SUPPLIERS": "JACK DIB",
     "stock_in_geitawi_branch": "51.0",
     "consumption_in_geitawi_branch": "9.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "52.0",
+    "total_stock": "0.0",
     "total_consumption": "9.0",
     "cost": "0.12",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "19313",
@@ -119891,12 +120289,18 @@
     "SUPPLIERS": "JACK DIB",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "-1.0",
     "total_consumption": "0.0",
     "cost": "0.85",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "-1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20082",
@@ -123812,12 +124216,22 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "-1.0",
     "consumption_in_geitawi_branch": "3.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-4.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "-1.0",
+    "total_stock": "-5.0",
     "total_consumption": "6.0",
     "cost": "4.27",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "-1.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "-4.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "20292",
@@ -124180,9 +124594,9 @@
     "SUPPLIERS": "AL HATAB",
     "stock_in_geitawi_branch": "38.0",
     "consumption_in_geitawi_branch": "119.0",
-    "stock_in_medawar_branch": "18.0",
+    "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "141.0",
-    "total_stock": "56.0",
+    "total_stock": "61.0",
     "total_consumption": "260.0",
     "cost": 0.6666666666666666,
     "delivery_rules": "0.005",
@@ -124192,7 +124606,7 @@
         "consumption": "119.0"
       },
       "Medawar": {
-        "stock": "18.0",
+        "stock": "23.0",
         "consumption": "0.0"
       }
     }
@@ -124388,9 +124802,9 @@
     "SUPPLIERS": "CIGARETTES",
     "stock_in_geitawi_branch": "42.0",
     "consumption_in_geitawi_branch": "60.0",
-    "stock_in_medawar_branch": "41.0",
+    "stock_in_medawar_branch": "40.0",
     "consumption_in_medawar_branch": "77.0",
-    "total_stock": "83.0",
+    "total_stock": "82.0",
     "total_consumption": "137.0",
     "cost": 0.49,
     "delivery_rules": "0.005",
@@ -124400,7 +124814,7 @@
         "consumption": "60.0"
       },
       "Medawar": {
-        "stock": "41.0",
+        "stock": "40.0",
         "consumption": "0.0"
       }
     }
@@ -131517,7 +131931,7 @@
     "SUPPLIERS": "AL RAED TRADING",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "3.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "13.0",
     "total_stock": "5.0",
     "total_consumption": "16.0",
@@ -131527,6 +131941,10 @@
       "Geitawi": {
         "stock": "5.0",
         "consumption": "3.0"
+      },
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "13.0"
       }
     }
   },
@@ -135864,12 +136282,18 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "32.0",
+    "stock_in_medawar_branch": "31.0",
     "consumption_in_medawar_branch": "5.0",
-    "total_stock": "33.0",
+    "total_stock": "31.0",
     "total_consumption": "6.0",
     "cost": "1.42",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "31.0",
+        "consumption": "5.0"
+      }
+    }
   },
   {
     "id": "20846",
@@ -142240,9 +142664,9 @@
     "linked_profile_sub_category": "",
     "Product Description": "KLATCHI CHICKPEAS 200 G",
     "SUPPLIERS": "WES3 EL MADA LBP",
-    "stock_in_geitawi_branch": "3.0",
+    "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "50.0",
+    "stock_in_medawar_branch": "44.0",
     "consumption_in_medawar_branch": "17.0",
     "total_stock": "53.0",
     "total_consumption": "21.0",
@@ -142250,11 +142674,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "3.0",
+        "stock": "9.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "50.0",
+        "stock": "44.0",
         "consumption": "0.0"
       }
     }
@@ -142354,12 +142778,18 @@
     "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "2.0",
-    "stock_in_medawar_branch": "2.0",
+    "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "4.0",
-    "total_stock": "3.0",
+    "total_stock": "1.0",
     "total_consumption": "6.0",
     "cost": "2.95",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "4.0"
+      }
+    }
   },
   {
     "id": "21151",
@@ -142834,12 +143264,18 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "37.0",
     "consumption_in_geitawi_branch": "12.0",
-    "stock_in_medawar_branch": "3.0",
+    "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "29.0",
-    "total_stock": "40.0",
+    "total_stock": "2.0",
     "total_consumption": "41.0",
     "cost": "0.94",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "29.0"
+      }
+    }
   },
   {
     "id": "21179",
@@ -142866,9 +143302,9 @@
     "SUPPLIERS": "MAHMOUD CHOCOLATE",
     "stock_in_geitawi_branch": "41.0",
     "consumption_in_geitawi_branch": "24.0",
-    "stock_in_medawar_branch": "35.0",
+    "stock_in_medawar_branch": "34.0",
     "consumption_in_medawar_branch": "26.0",
-    "total_stock": "41.0",
+    "total_stock": "75.0",
     "total_consumption": "50.0",
     "cost": "0.98",
     "delivery_rules": "0.005",
@@ -142876,6 +143312,10 @@
       "Geitawi": {
         "stock": "41.0",
         "consumption": "24.0"
+      },
+      "Medawar": {
+        "stock": "34.0",
+        "consumption": "26.0"
       }
     }
   },
@@ -142936,9 +143376,9 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "2.0",
+    "total_stock": "1.0",
     "total_consumption": "4.0",
     "cost": 5.67,
     "delivery_rules": "0.005",
@@ -142948,7 +143388,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       }
     }
@@ -145009,9 +145449,9 @@
     "SUPPLIERS": "ELEGANCE",
     "stock_in_geitawi_branch": "22.0",
     "consumption_in_geitawi_branch": "60.0",
-    "stock_in_medawar_branch": "118.0",
+    "stock_in_medawar_branch": "117.0",
     "consumption_in_medawar_branch": "54.0",
-    "total_stock": "22.0",
+    "total_stock": "139.0",
     "total_consumption": "114.0",
     "cost": "0.30",
     "delivery_rules": "0.005",
@@ -145019,6 +145459,10 @@
       "Geitawi": {
         "stock": "22.0",
         "consumption": "60.0"
+      },
+      "Medawar": {
+        "stock": "117.0",
+        "consumption": "54.0"
       }
     }
   },
@@ -148366,9 +148810,9 @@
     "SUPPLIERS": "JACK DIB",
     "stock_in_geitawi_branch": "15.0",
     "consumption_in_geitawi_branch": "37.0",
-    "stock_in_medawar_branch": "97.0",
+    "stock_in_medawar_branch": "96.0",
     "consumption_in_medawar_branch": "4.0",
-    "total_stock": "15.0",
+    "total_stock": "111.0",
     "total_consumption": "41.0",
     "cost": "0.52",
     "delivery_rules": "0.005",
@@ -148376,6 +148820,10 @@
       "Geitawi": {
         "stock": "15.0",
         "consumption": "37.0"
+      },
+      "Medawar": {
+        "stock": "96.0",
+        "consumption": "4.0"
       }
     }
   },
@@ -157920,12 +158368,18 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "33.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "-1.0",
     "total_consumption": "33.0",
     "cost": "0.92",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "-1.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21750",
@@ -157952,12 +158406,18 @@
     "SUPPLIERS": "NOUNA'S FOOD",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "51.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-2.0",
     "consumption_in_medawar_branch": "8.0",
-    "total_stock": "0.0",
+    "total_stock": "-2.0",
     "total_consumption": "59.0",
     "cost": "0.92",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "-2.0",
+        "consumption": "8.0"
+      }
+    }
   },
   {
     "id": "21751",
@@ -158437,13 +158897,19 @@
     "SUPPLIERS": "MTANIOS TRADING SARL",
     "stock_in_geitawi_branch": "8.0",
     "consumption_in_geitawi_branch": "4.0",
-    "stock_in_medawar_branch": "11.0",
+    "stock_in_medawar_branch": "10.0",
     "consumption_in_medawar_branch": "1.0",
-    "total_stock": "19.0",
+    "total_stock": "10.0",
     "total_consumption": "5.0",
     "cost": "1.51",
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "10.0",
+        "consumption": "1.0"
+      }
+    }
   },
   {
     "id": "21765",
@@ -162137,15 +162603,15 @@
     "SUPPLIERS": "YEHYA USD",
     "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "1.0",
-    "stock_in_medawar_branch": "44.0",
+    "stock_in_medawar_branch": "43.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "53.0",
+    "total_stock": "52.0",
     "total_consumption": "1.0",
     "cost": "1.51",
     "new_items": "x",
     "branches": {
       "Medawar": {
-        "stock": "44.0",
+        "stock": "43.0",
         "consumption": "0.0"
       },
       "Geitawi": {
@@ -163177,15 +163643,15 @@
     "linked_profile_item_id": "",
     "linked_profile_category": "",
     "linked_profile_sub_category": "",
-    "stock_in_medawar_branch": "690.0",
+    "stock_in_medawar_branch": "689.0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "691.0",
+    "total_stock": "690.0",
     "total_consumption": "0.0",
     "branches": {
       "Medawar": {
-        "stock": "690.0",
+        "stock": "689.0",
         "consumption": "0.0"
       },
       "Geitawi": {
@@ -164075,11 +164541,11 @@
     "linked_profile_category": "",
     "linked_profile_sub_category": "",
     "subCategory": "instant coffee",
-    "stock_in_medawar_branch": "17080.0",
+    "stock_in_medawar_branch": "17077.0",
     "stock_in_geitawi_branch": "76.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "17156.0",
+    "total_stock": "17153.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -164087,7 +164553,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "17080.0",
+        "stock": "17077.0",
         "consumption": "0.0"
       }
     },
