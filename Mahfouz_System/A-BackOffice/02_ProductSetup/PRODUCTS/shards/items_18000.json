@@ -665,9 +665,9 @@
       "offers": "",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "-2.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "-2.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "305,000",
@@ -683,7 +683,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "-2.0",
           "consumption": "0.0"
         }
       },
@@ -2767,9 +2767,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "85.0",
+      "stock_in_medawar_branch": "84.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "85.0",
+      "total_stock": "84.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": 15000,
@@ -2785,7 +2785,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "85.0",
+          "stock": "84.0",
           "consumption": "0.0"
         }
       }
@@ -3533,9 +3533,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "9.0",
-      "total_stock": "16.0",
+      "total_stock": "5.0",
       "total_consumption": "11.0",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -3544,7 +3544,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18301.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "5.0",
+          "consumption": "9.0"
+        }
+      }
     },
     {
       "id": "18317",
@@ -3727,9 +3733,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "16.0",
-      "stock_in_medawar_branch": "15.0",
+      "stock_in_medawar_branch": "14.0",
       "consumption_in_medawar_branch": "40.0",
-      "total_stock": "4.0",
+      "total_stock": "18.0",
       "total_consumption": "56.0",
       "VAT": "NO",
       "price_lbp": "140,000",
@@ -3743,6 +3749,10 @@
         "Geitawi": {
           "stock": "4.0",
           "consumption": "16.0"
+        },
+        "Medawar": {
+          "stock": "14.0",
+          "consumption": "40.0"
         }
       }
     },
