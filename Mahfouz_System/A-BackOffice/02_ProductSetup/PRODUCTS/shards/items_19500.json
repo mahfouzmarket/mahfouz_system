@@ -4995,9 +4995,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "5.0",
+      "total_stock": "-1.0",
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -5006,7 +5006,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19850.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "-1.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "19851",
@@ -6335,9 +6341,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "17.0",
-      "stock_in_medawar_branch": "160.0",
+      "stock_in_medawar_branch": "159.0",
       "consumption_in_medawar_branch": "10.0",
-      "total_stock": "5.0",
+      "total_stock": "164.0",
       "total_consumption": "27.0",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -6351,6 +6357,10 @@
         "Geitawi": {
           "stock": "5.0",
           "consumption": "17.0"
+        },
+        "Medawar": {
+          "stock": "159.0",
+          "consumption": "10.0"
         }
       }
     },
