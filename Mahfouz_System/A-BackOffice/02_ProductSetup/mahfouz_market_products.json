@@ -103811,34 +103811,43 @@
   {
     "id": "18781",
     "name": "NF AOUN ENERGY MIX NT100GR",
+    "unit": "-",
     "category": "FOOD",
     "sub": "SEEDS",
     "sub_category": "SEEDS",
+    "subCategory": "SEEDS",
+    "price_usd": "2.00",
+    "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18781.jpg",
     "supplier": "NOUNA'S FOOD",
-    "unit": "-",
     "barcode": "2709004",
     "barcode2": "",
     "barcodes": "",
-    "price_usd": "2.01",
-    "price_lbp": "180,000",
-    "VAT": "NO",
-    "offers": "0",
-    "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18781.jpg",
-    "linked_profile_enabled": false,
-    "linked_profile_repo_root": "",
-    "linked_profile_item_id": "",
-    "linked_profile_category": "",
-    "linked_profile_sub_category": "",
     "Product Description": "NF AOUN ENERGY MIX NT100GR",
     "SUPPLIERS": "NOUNA'S FOOD",
+    "offers": "0",
     "stock_in_geitawi_branch": "14.0",
     "consumption_in_geitawi_branch": "48.0",
     "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "16.0",
     "total_stock": "15.0",
     "total_consumption": "64.0",
+    "VAT": "NO",
+    "price_lbp": "180,000",
     "cost": "1.42",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "14.0",
+        "consumption": "48.0"
+      },
+      "Medawar": {
+        "stock": "1.0",
+        "consumption": "16.0"
+      }
+    },
+    "expiry_days": "365",
+    "cost_ht": "1.42",
+    "linked_profile_enabled": false
   },
   {
     "id": "18786",
@@ -155125,9 +155134,9 @@
     "SUPPLIERS": "AL HAMAWI TRADING",
     "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "334.0",
+    "stock_in_medawar_branch": "333.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "336.0",
+    "total_stock": "335.0",
     "total_consumption": "3.0",
     "cost": 2.41,
     "delivery_rules": "0.005",
@@ -155137,7 +155146,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "334.0",
+        "stock": "333.0",
         "consumption": "0.0"
       }
     }
