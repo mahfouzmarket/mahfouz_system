@@ -731,9 +731,9 @@
       "category": "FOOD",
       "sub_category": "BAKING & COOKING",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "4.0",
       "total_stock": "6.0",
       "total_consumption": "8.0",
@@ -744,7 +744,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2418.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "2426",

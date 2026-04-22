@@ -2272,9 +2272,9 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "60.0",
-      "stock_in_medawar_branch": "50.0",
+      "stock_in_medawar_branch": "45.0",
       "consumption_in_medawar_branch": "54.0",
       "total_stock": "50.0",
       "total_consumption": "114.0",
@@ -2288,8 +2288,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Medawar": {
-          "stock": "50.0",
+          "stock": "45.0",
           "consumption": "54.0"
+        },
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "0.0"
         }
       }
     },
@@ -2936,9 +2940,9 @@
       "category": "HOME USAGE",
       "sub_category": "GLOVES",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "13.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "5.0",
       "total_stock": "17.0",
       "total_consumption": "8.0",
@@ -2949,7 +2953,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14354.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "8.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "9.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "14356",
