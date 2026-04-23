@@ -95839,8 +95839,8 @@
     "barcode2": "",
     "barcodes": "",
     "price_usd": "1.68",
-    "price_lbp": "150,000",
-    "VAT": "YES",
+    "price_lbp": 150000,
+    "VAT": "NO",
     "offers": "0",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18163.jpg",
     "linked_profile_enabled": false,
@@ -95852,16 +95852,20 @@
     "SUPPLIERS": "ETS WASSEF CHEIBANE",
     "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "2.0",
-    "stock_in_medawar_branch": "2.0",
+    "stock_in_medawar_branch": "26.0",
     "consumption_in_medawar_branch": "22.0",
-    "total_stock": "12.0",
+    "total_stock": "38.0",
     "total_consumption": "24.0",
-    "cost": "1.30",
+    "cost": 1.1500000000000001,
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
         "stock": "12.0",
         "consumption": "2.0"
+      },
+      "Medawar": {
+        "stock": "26.0",
+        "consumption": "0.0"
       }
     }
   },
@@ -171696,8 +171700,8 @@
     "barcode2": "",
     "barcodes": "",
     "price_usd": "1.28",
-    "price_lbp": "115,000",
-    "VAT": "YES",
+    "price_lbp": 130000,
+    "VAT": "NO",
     "offers": "0",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21774.jpg",
     "linked_profile_enabled": false,
@@ -171709,13 +171713,23 @@
     "SUPPLIERS": "WASSIM NACHAWATI",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "31.0",
+    "stock_in_medawar_branch": "231.0",
     "consumption_in_medawar_branch": "28.0",
-    "total_stock": "31.0",
+    "total_stock": "231.0",
     "total_consumption": "28.0",
-    "cost": "0.97",
+    "cost": 0.9,
     "new_items": "x",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "0.0"
+      },
+      "Medawar": {
+        "stock": "231.0",
+        "consumption": "0.0"
+      }
+    }
   },
   {
     "id": "21775",
