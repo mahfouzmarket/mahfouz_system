@@ -822,11 +822,11 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-5.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "-5.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -837,13 +837,13 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "0.0"
+        },
+        "Geitawi": {
+          "consumption": "0.0",
+          "stock": "-5.0"
         }
       },
       "barcode2": "",
