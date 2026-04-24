@@ -1969,11 +1969,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "30.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "39.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "69.0",
       "VAT": "NO",
       "price_lbp": "235,000",
@@ -1982,7 +1982,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17239.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "-1.0",
+          "consumption": "30.0"
+        }
+      }
     },
     {
       "id": "17240",
@@ -4303,11 +4309,11 @@
       "category": "CHIPS",
       "sub_category": "SNIPS",
       "offers": "0",
-      "stock_in_geitawi_branch": "16.0",
+      "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "25.0",
       "stock_in_medawar_branch": "28.0",
       "consumption_in_medawar_branch": "18.0",
-      "total_stock": "44.0",
+      "total_stock": "15.0",
       "total_consumption": "43.0",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -4316,7 +4322,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17465.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "15.0",
+          "consumption": "25.0"
+        }
+      }
     },
     {
       "id": "17467",
