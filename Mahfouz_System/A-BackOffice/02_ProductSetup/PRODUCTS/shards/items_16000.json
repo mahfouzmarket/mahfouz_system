@@ -57,28 +57,28 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "11.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "12.0",
       "consumption_in_medawar_branch": "11.0",
-      "total_stock": "12.0",
+      "total_stock": "20.0",
       "total_consumption": "22.0",
       "VAT": "YES",
-      "price_lbp": "170,000",
+      "price_lbp": 170000,
       "price_usd": "1.90",
-      "cost": "1.53",
+      "cost": 1.5766666666666669,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16020.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": "9.0",
-          "consumption": "0.0"
-        },
         "Medawar": {
-          "stock": "3.0",
-          "consumption": "0.0"
+          "stock": "12.0",
+          "consumption": "11.0"
+        },
+        "Geitawi": {
+          "stock": "8.0",
+          "consumption": "11.0"
         }
       }
     },
@@ -91,11 +91,11 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "33.0",
+      "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "84.0",
-      "stock_in_medawar_branch": "89.0",
+      "stock_in_medawar_branch": "67.0",
       "consumption_in_medawar_branch": "23.0",
-      "total_stock": "122.0",
+      "total_stock": "91.0",
       "total_consumption": "107.0",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -104,7 +104,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16021.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "24.0",
+          "consumption": "84.0"
+        },
+        "Medawar": {
+          "stock": "67.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16022",
@@ -139,11 +149,11 @@
       "category": "FOOD",
       "sub_category": "OIL & FAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "15.0",
+      "total_stock": "1.0",
       "total_consumption": "13.0",
       "VAT": "YES",
       "price_lbp": "1,150,000",
@@ -152,17 +162,26 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16023.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "8.0"
+        }
+      }
     },
     {
       "id": "16027",
       "barcode": "2700047",
+      "barcode2": "",
+      "barcodes": "",
       "Product Description": "PUCK FUSIONS WITH NATURAL OLIVES",
       "SUPPLIERS": "",
       "unit": "kg",
       "category": "FOOD",
       "sub_category": "PROCESSED CHEESE",
       "offers": "0",
+      "expiry_days": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.1",
@@ -173,9 +192,16 @@
       "price_lbp": "820,000",
       "price_usd": "9.11",
       "cost": "6.53",
+      "cost_ht": "6.53",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16027.jpg",
       "new_items": "",
       "manual": "",
+      "delivery_rules": "0.005",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
       "branches": {
         "Medawar": {
           "stock": "1.1",
@@ -185,17 +211,7 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      },
-      "barcode2": "",
-      "barcodes": "",
-      "expiry_days": "0",
-      "cost_ht": "6.53",
-      "delivery_rules": "0.005",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": ""
+      }
     },
     {
       "id": "16031",
@@ -206,30 +222,31 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "26.0",
+      "stock_in_geitawi_branch": "28.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "43.0",
+      "stock_in_medawar_branch": "37.0",
       "consumption_in_medawar_branch": "9.0",
-      "total_stock": "69.0",
+      "total_stock": "28.0",
       "total_consumption": "13.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "105,000",
       "price_usd": "1.17",
-      "cost": "0.80",
+      "cost": "0.8000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16031.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "26.0",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "43.0",
-          "consumption": "0.0"
+          "stock": "28.0",
+          "consumption": "4.0"
         }
-      }
+      },
+      "sub": "alcohol cold drink",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "ABI RAMIA BROS SARL"
     },
     {
       "id": "16038",
@@ -246,14 +263,29 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "10.0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "665,000",
       "price_usd": "7.43",
-      "cost": "5.17",
+      "cost": "5.1700",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16038.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "5.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "wine",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "ETS WASSEF CHEIBANE"
     },
     {
       "id": "16052",
@@ -264,26 +296,31 @@
       "category": "COFFEE SHOP",
       "sub_category": "coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "1.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "650,000",
       "price_usd": "7.26",
-      "cost": "5.03",
+      "cost": "5.0300",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16052.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "0.0",
-          "consumption": "1.0"
+        "Geitawi": {
+          "stock": "-1.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "sub": "coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "ETS MICHEL NAJJAR"
     },
     {
       "id": "16053",
@@ -294,20 +331,31 @@
       "category": "COFFEE SHOP",
       "sub_category": "coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "3.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "550,000",
       "price_usd": "6.15",
-      "cost": "5.29",
+      "cost": "5.2900",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16053.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "-1.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "ETS MICHEL NAJJAR"
     },
     {
       "id": "16054",
@@ -366,11 +414,11 @@
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "22.0",
+      "total_stock": "5.0",
       "total_consumption": "8.0",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -379,7 +427,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16056.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "3.0"
+        }
+      }
     },
     {
       "id": "16057",
@@ -390,11 +444,11 @@
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "8.0",
+      "stock_in_geitawi_branch": "7.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "8.0",
+      "total_stock": "7.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -405,9 +459,9 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "8.0",
-          "consumption": "1.0"
+        "Geitawi": {
+          "stock": "7.0",
+          "consumption": "5.0"
         }
       }
     },
@@ -422,9 +476,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "10.0",
+      "stock_in_medawar_branch": "8.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "17.0",
+      "total_stock": "8.0",
       "total_consumption": "4.0",
       "VAT": "NO",
       "price_lbp": "330,000",
@@ -433,7 +487,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16060.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "8.0",
+          "consumption": "3.0"
+        }
+      }
     },
     {
       "id": "16070",
@@ -450,14 +510,29 @@
       "consumption_in_medawar_branch": "4.0",
       "total_stock": "2.0",
       "total_consumption": "18.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "55,000",
       "price_usd": "0.61",
-      "cost": "0.40",
+      "cost": "0.4000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16070.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "4.0"
+        },
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "14.0"
+        }
+      },
+      "sub": "sweets",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "EDWIN YAZBECK FOR TRADING"
     },
     {
       "id": "16071",
@@ -468,27 +543,27 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "55.0",
+      "stock_in_geitawi_branch": "71.0",
       "consumption_in_geitawi_branch": "196.0",
-      "stock_in_medawar_branch": "28.0",
+      "stock_in_medawar_branch": "78.0",
       "consumption_in_medawar_branch": "296.0",
-      "total_stock": "83.0",
+      "total_stock": "149.0",
       "total_consumption": "492.0",
       "VAT": "NO",
-      "price_lbp": "80,000",
+      "price_lbp": 80000,
       "price_usd": "0.89",
-      "cost": "0.82",
+      "cost": 0.82,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16071.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "55.0",
-          "consumption": "0.0"
+          "stock": "71.0",
+          "consumption": "196.0"
         },
         "Medawar": {
-          "stock": "28.0",
+          "stock": "78.0",
           "consumption": "0.0"
         }
       }
@@ -502,11 +577,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "6.0",
+      "total_stock": "3.0",
       "total_consumption": "10.0",
       "VAT": "YES",
       "price_lbp": "230,000",
@@ -518,8 +593,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
-          "consumption": "0.0"
+          "stock": "1.0",
+          "consumption": "8.0"
         },
         "Medawar": {
           "stock": "2.0",
@@ -536,11 +611,11 @@
       "category": "FOOD",
       "sub_category": "TEA",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "17.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "22.0",
+      "total_stock": "4.0",
       "total_consumption": "10.0",
       "VAT": "NO",
       "price_lbp": "340,000",
@@ -549,7 +624,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16083.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "6.0"
+        }
+      }
     },
     {
       "id": "16084",
@@ -584,11 +665,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "5.0",
+      "total_stock": "1.0",
       "total_consumption": "7.0",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -597,7 +678,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16095.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "4.0"
+        }
+      }
     },
     {
       "id": "16102",
@@ -608,20 +695,39 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "27.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "-3.0",
       "total_consumption": "27.0",
       "VAT": "NO",
       "price_lbp": "220,000",
-      "price_usd": "2.46",
+      "price_usd": "2.44",
       "cost": "1.71",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16102.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "-3.0",
+          "consumption": "27.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": "6",
+      "cost_ht": "1.71",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": ""
     },
     {
       "id": "16103",
@@ -632,20 +738,35 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "22.0",
+      "stock_in_geitawi_branch": "17.0",
       "consumption_in_geitawi_branch": "52.0",
-      "stock_in_medawar_branch": "38.0",
+      "stock_in_medawar_branch": "35.0",
       "consumption_in_medawar_branch": "49.0",
-      "total_stock": "60.0",
+      "total_stock": "52.0",
       "total_consumption": "101.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "45,000",
       "price_usd": "0.50",
-      "cost": "0.34",
+      "cost": "0.3400",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16103.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "17.0",
+          "consumption": "52.0"
+        },
+        "Medawar": {
+          "stock": "35.0",
+          "consumption": "49.0"
+        }
+      },
+      "sub": "Wafers",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "MAHMOUD CHOCOLATE"
     },
     {
       "id": "16104",
@@ -662,14 +783,29 @@
       "consumption_in_medawar_branch": "1.0",
       "total_stock": "5.0",
       "total_consumption": "2.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "310,000",
       "price_usd": "3.46",
-      "cost": "2.66",
+      "cost": "2.6600",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16104.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "1.0"
+        },
+        "Geitawi": {
+          "stock": "3.0",
+          "consumption": "1.0"
+        }
+      },
+      "sub": "Low calorie delight",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "KEE"
     },
     {
       "id": "16105",
@@ -704,11 +840,11 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "16.0",
+      "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "56.0",
-      "total_stock": "25.0",
+      "total_stock": "11.0",
       "total_consumption": "71.0",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -717,7 +853,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16106.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "15.0"
+        },
+        "Medawar": {
+          "stock": "7.0",
+          "consumption": "56.0"
+        }
+      }
     },
     {
       "id": "16107",
@@ -730,18 +876,28 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "16.0",
-      "stock_in_medawar_branch": "15.0",
+      "stock_in_medawar_branch": "63.0",
       "consumption_in_medawar_branch": "6.0",
-      "total_stock": "19.0",
+      "total_stock": "67.0",
       "total_consumption": "22.0",
       "VAT": "NO",
-      "price_lbp": "75,000",
+      "price_lbp": 75000,
       "price_usd": "0.84",
-      "cost": "0.58",
+      "cost": 0.54427,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16107.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "63.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16108",
@@ -944,11 +1100,11 @@
       "category": "CHI TAYIB",
       "sub_category": "chocolate bar",
       "offers": "0",
-      "stock_in_geitawi_branch": "13.0",
+      "stock_in_geitawi_branch": "12.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "13.0",
+      "stock_in_medawar_branch": "12.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "26.0",
+      "total_stock": "24.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "140,000",
@@ -957,7 +1113,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16155.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "12.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "12.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16162",
@@ -994,13 +1160,13 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "72.0",
-      "stock_in_medawar_branch": "-5.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "73.0",
-      "total_stock": "-5.0",
+      "total_stock": "1.0",
       "total_consumption": "145.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "90,000",
-      "price_usd": "1.01",
+      "price_usd": "1.00",
       "cost": "0.82",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16166.jpg",
       "new_items": "",
@@ -1008,10 +1174,28 @@
       "delivery_rules": "0.005",
       "branches": {
         "Medawar": {
-          "stock": "-5.0",
+          "stock": "0.0",
           "consumption": "73.0"
+        },
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "72.0"
         }
-      }
+      },
+      "sub": "MASTER",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "DELTA TRADING USD",
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "0.82",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": ""
     },
     {
       "id": "16169",
@@ -1022,26 +1206,31 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "21.0",
+      "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "22.0",
+      "stock_in_medawar_branch": "23.0",
       "consumption_in_medawar_branch": "32.0",
-      "total_stock": "22.0",
+      "total_stock": "15.0",
       "total_consumption": "36.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
-      "cost": "0.25",
+      "cost": "0.2500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16169.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "22.0",
-          "consumption": "32.0"
+        "Geitawi": {
+          "stock": "15.0",
+          "consumption": "4.0"
         }
-      }
+      },
+      "sub": "Wafers",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "ELEGANCE"
     },
     {
       "id": "16170",
@@ -1052,20 +1241,35 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "38.0",
+      "stock_in_geitawi_branch": "30.0",
       "consumption_in_geitawi_branch": "36.0",
-      "stock_in_medawar_branch": "41.0",
+      "stock_in_medawar_branch": "34.0",
       "consumption_in_medawar_branch": "31.0",
-      "total_stock": "79.0",
+      "total_stock": "64.0",
       "total_consumption": "67.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
-      "cost": "0.25",
+      "cost": "0.2500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16170.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "30.0",
+          "consumption": "36.0"
+        },
+        "Medawar": {
+          "stock": "34.0",
+          "consumption": "31.0"
+        }
+      },
+      "sub": "sweets",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "MAHMOUD CHOCOLATE"
     },
     {
       "id": "16171",
@@ -1076,28 +1280,28 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "48.0",
+      "stock_in_geitawi_branch": "52.0",
       "consumption_in_geitawi_branch": "123.0",
-      "stock_in_medawar_branch": "10.0",
+      "stock_in_medawar_branch": "4351.0",
       "consumption_in_medawar_branch": "107.0",
-      "total_stock": "58.0",
+      "total_stock": "4403.0",
       "total_consumption": "230.0",
-      "VAT": "NO",
-      "price_lbp": "70,000",
+      "VAT": "YES",
+      "price_lbp": 70000,
       "price_usd": "0.78",
-      "cost": "0.50",
+      "cost": 0.5306231481481481,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16171.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "10.0",
-          "consumption": "107.0"
-        },
         "Geitawi": {
-          "stock": "48.0",
+          "stock": "52.0",
           "consumption": "123.0"
+        },
+        "Medawar": {
+          "stock": "4351.0",
+          "consumption": "107.0"
         }
       }
     },
@@ -1110,11 +1314,11 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "9.0",
+      "total_stock": "1.0",
       "total_consumption": "3.0",
       "VAT": "NO",
       "price_lbp": "330,000",
@@ -1123,7 +1327,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16173.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "2.0"
+        }
+      }
     },
     {
       "id": "16175",
@@ -1158,11 +1368,11 @@
       "category": "FOOD",
       "sub_category": "SAUCE",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "10.0",
-      "total_stock": "5.0",
+      "total_stock": "2.0",
       "total_consumption": "16.0",
       "VAT": "NO",
       "price_lbp": "185,000",
@@ -1171,7 +1381,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16176.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "6.0"
+        }
+      }
     },
     {
       "id": "16182",
@@ -1182,20 +1398,30 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "14.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "17.0",
-      "total_stock": "5.0",
+      "total_stock": "6.0",
       "total_consumption": "31.0",
       "VAT": "NO",
-      "price_lbp": "275,000",
+      "price_lbp": 275000,
       "price_usd": "3.07",
-      "cost": "2.10",
+      "cost": 2.55,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16182.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "6.0",
+          "consumption": "14.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "17.0"
+        }
+      }
     },
     {
       "id": "16184",
@@ -1206,20 +1432,30 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "21.0",
-      "total_stock": "5.0",
+      "total_stock": "10.0",
       "total_consumption": "36.0",
-      "VAT": "YES",
-      "price_lbp": "320,000",
+      "VAT": "NO",
+      "price_lbp": 320000,
       "price_usd": "3.58",
-      "cost": "2.74",
+      "cost": 3.0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16184.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "21.0"
+        },
+        "Geitawi": {
+          "stock": "6.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16185",
@@ -1230,20 +1466,30 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "25.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "29.0",
-      "total_stock": "8.0",
+      "total_stock": "16.0",
       "total_consumption": "54.0",
-      "VAT": "YES",
-      "price_lbp": "230,000",
+      "VAT": "NO",
+      "price_lbp": 230000,
       "price_usd": "2.57",
-      "cost": "2.11",
+      "cost": 2.1,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16185.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "7.0",
+          "consumption": "29.0"
+        },
+        "Geitawi": {
+          "stock": "9.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16192",
@@ -1304,18 +1550,29 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "23.0",
+      "stock_in_medawar_branch": "22.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "24.0",
+      "total_stock": "22.0",
       "total_consumption": "2.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "110,000",
       "price_usd": "1.23",
-      "cost": "0.69",
+      "cost": "0.6900",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16212.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "22.0",
+          "consumption": "2.0"
+        }
+      },
+      "sub": "ICEBERG",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "LIBAN JUS SAL GLACES"
     },
     {
       "id": "16213",
@@ -1332,10 +1589,10 @@
       "consumption_in_medawar_branch": "2.0",
       "total_stock": "21.0",
       "total_consumption": "2.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "110,000",
       "price_usd": "1.23",
-      "cost": "0.69",
+      "cost": "0.6900",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16213.jpg",
       "new_items": "",
       "manual": "",
@@ -1345,7 +1602,12 @@
           "stock": "21.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "sub": "ICEBERG",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "LIBAN JUS SAL GLACES"
     },
     {
       "id": "16219",
@@ -1362,14 +1624,29 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "6.0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "25,000",
       "price_usd": "0.28",
-      "cost": "0.23",
+      "cost": "0.2300",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16219.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "6.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "cake",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "MTANIOS TRADING SARL"
     },
     {
       "id": "16220",
@@ -1380,20 +1657,31 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
+      "total_stock": "2.0",
       "total_consumption": "2.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "95,000",
       "price_usd": "1.06",
-      "cost": "0.85",
+      "cost": "0.8500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16220.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "2.0"
+        }
+      },
+      "sub": "sweets",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "MTANIOS TRADING SARL"
     },
     {
       "id": "16222",
@@ -1428,11 +1716,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "8.0",
+      "total_stock": "5.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": "45,000",
@@ -1441,7 +1729,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16223.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "2.0"
+        },
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "4.0"
+        }
+      }
     },
     {
       "id": "16239",
@@ -1454,18 +1752,28 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "29.0",
-      "total_stock": "1.0",
+      "total_stock": "5.0",
       "total_consumption": "29.0",
       "VAT": "NO",
-      "price_lbp": "150,000",
+      "price_lbp": 150000,
       "price_usd": "1.68",
-      "cost": "1.51",
+      "cost": 1.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16239.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "5.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16245",
@@ -1500,11 +1808,11 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "14.0",
+      "stock_in_geitawi_branch": "12.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "15.0",
+      "stock_in_medawar_branch": "11.0",
       "consumption_in_medawar_branch": "25.0",
-      "total_stock": "29.0",
+      "total_stock": "23.0",
       "total_consumption": "29.0",
       "VAT": "YES",
       "price_lbp": "215,000",
@@ -1513,7 +1821,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16246.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "12.0",
+          "consumption": "4.0"
+        },
+        "Medawar": {
+          "stock": "11.0",
+          "consumption": "25.0"
+        }
+      }
     },
     {
       "id": "16247",
@@ -1524,20 +1842,30 @@
       "category": "CIGARETTES",
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "92.0",
       "consumption_in_geitawi_branch": "50.0",
       "stock_in_medawar_branch": "20.0",
       "consumption_in_medawar_branch": "6.0",
-      "total_stock": "20.0",
+      "total_stock": "112.0",
       "total_consumption": "56.0",
       "VAT": "NO",
-      "price_lbp": "105,000",
+      "price_lbp": 105000,
       "price_usd": "1.17",
-      "cost": "1.06",
+      "cost": 1.05,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16247.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "92.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "20.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16248",
@@ -1548,20 +1876,30 @@
       "category": "CIGARETTES",
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "53.0",
       "consumption_in_geitawi_branch": "26.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "14.0",
+      "total_stock": "66.0",
       "total_consumption": "29.0",
       "VAT": "NO",
-      "price_lbp": "105,000",
+      "price_lbp": 105000,
       "price_usd": "1.17",
-      "cost": "1.06",
+      "cost": 1.05,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16248.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "53.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "13.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16249",
@@ -1572,20 +1910,30 @@
       "category": "CIGARETTES",
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "14.0",
+      "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "24.0",
+      "total_stock": "34.0",
       "total_consumption": "7.0",
       "VAT": "NO",
-      "price_lbp": "105,000",
+      "price_lbp": 105000,
       "price_usd": "1.17",
-      "cost": "1.06",
+      "cost": 1.06,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16249.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "24.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "10.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16251",
@@ -1602,14 +1950,29 @@
       "consumption_in_medawar_branch": "23.0",
       "total_stock": "2.0",
       "total_consumption": "48.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
-      "cost": "0.27",
+      "cost": "0.2700",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16251.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "23.0"
+        },
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "25.0"
+        }
+      },
+      "sub": "sweets",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "GOLDEN FOOD SAL"
     },
     {
       "id": "16254",
@@ -1620,20 +1983,35 @@
       "category": "CHI TAYIB",
       "sub_category": "candies",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "9.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "6.0",
+      "total_stock": "3.0",
       "total_consumption": "10.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "105,000",
       "price_usd": "1.17",
-      "cost": "0.85",
+      "cost": "0.8500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16254.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "9.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "1.0"
+        }
+      },
+      "sub": "candies",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "GOLDEN FOOD SAL"
     },
     {
       "id": "16255",
@@ -1650,14 +2028,29 @@
       "consumption_in_medawar_branch": "1.0",
       "total_stock": "1.0",
       "total_consumption": "1.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "105,000",
       "price_usd": "1.17",
-      "cost": "0.85",
+      "cost": "0.8500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16255.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "1.0"
+        },
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "candies",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "GOLDEN FOOD SAL"
     },
     {
       "id": "16256",
@@ -1670,18 +2063,29 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "2.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "4.0",
+      "total_stock": "0.0",
       "total_consumption": "11.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "115,000",
       "price_usd": "1.28",
-      "cost": "0.85",
+      "cost": "0.8500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16256.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "5.0"
+        }
+      },
+      "sub": "candies",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "GOLDEN FOOD SAL"
     },
     {
       "id": "16268",
@@ -1692,11 +2096,11 @@
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
-      "stock_in_geitawi_branch": "37.0",
+      "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "16.0",
-      "stock_in_medawar_branch": "113.0",
+      "stock_in_medawar_branch": "107.0",
       "consumption_in_medawar_branch": "32.0",
-      "total_stock": "150.0",
+      "total_stock": "131.0",
       "total_consumption": "48.0",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -1705,7 +2109,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16268.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "24.0",
+          "consumption": "16.0"
+        },
+        "Medawar": {
+          "stock": "107.0",
+          "consumption": "32.0"
+        }
+      }
     },
     {
       "id": "16271",
@@ -1722,14 +2136,29 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "21.0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "25,000",
       "price_usd": "0.28",
-      "cost": "0.17",
+      "cost": "0.1700",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16271.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "20.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "candies",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "EDWIN YAZBECK FOR TRADING"
     },
     {
       "id": "16274",
@@ -1836,11 +2265,11 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7.0",
+      "total_stock": "0.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "310,000",
@@ -1849,7 +2278,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16285.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16287",
@@ -1880,24 +2315,48 @@
       "barcode": "3014260011888",
       "Product Description": "ORAL B 5 WAY CLEAN",
       "SUPPLIERS": "JACK DIB",
-      "unit": "-",
+      "unit": "",
       "category": "HOME USAGE",
       "sub_category": "TOOTH CARE",
-      "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "offers": "",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "12.0",
+      "total_stock": "0.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "135,000",
-      "price_usd": "1.51",
-      "cost": "1.01",
+      "price_lbp": "150,000",
+      "price_usd": "1.67",
+      "cost": "0.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16289.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "secondary_subcategory": "",
+      "secondary_category": "",
+      "supplier": "JACK DIB",
+      "secondary_sub_category": "",
+      "sub": "TOOTH CARE",
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "0.00",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": ""
     },
     {
       "id": "16290",
@@ -1980,11 +2439,11 @@
       "category": "HOME USAGE",
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "22.0",
+      "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "10.0",
+      "stock_in_medawar_branch": "19.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "32.0",
+      "total_stock": "29.0",
       "total_consumption": "32.0",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -1996,12 +2455,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22.0",
-          "consumption": "0.0"
+          "stock": "10.0",
+          "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "10.0",
-          "consumption": "0.0"
+          "stock": "19.0",
+          "consumption": "12.0"
         }
       }
     },
@@ -2014,30 +2473,35 @@
       "category": "CHI TAYIB",
       "sub_category": "cake",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "15.0",
-      "total_stock": "9.0",
+      "total_stock": "8.0",
       "total_consumption": "18.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "60,000",
       "price_usd": "0.67",
-      "cost": "0.49",
+      "cost": "0.4900",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16298.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "2.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "6.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "sub": "cake",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "AL HATAB"
     },
     {
       "id": "16299",
@@ -2054,14 +2518,29 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "2.0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "165,000",
       "price_usd": "1.84",
-      "cost": "1.17",
+      "cost": "1.1700",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16299.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "corn flakes",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "PRODIGY SAL USD"
     },
     {
       "id": "16312",
@@ -2506,14 +2985,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "7.0",
-      "stock_in_medawar_branch": "-1.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "2.0",
+      "total_stock": "6.0",
       "total_consumption": "12.0",
       "VAT": "NO",
-      "price_lbp": "540,000",
+      "price_lbp": 540000,
       "price_usd": "6.03",
-      "cost": "4.99",
+      "cost": 4.96,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16366.jpg",
       "new_items": "",
       "manual": "",
@@ -2524,7 +3003,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "-1.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       }
@@ -2538,11 +3017,11 @@
       "category": "HOME USAGE",
       "sub_category": "GAS",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "4.0",
+      "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -2551,7 +3030,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16368.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16370",
@@ -2592,14 +3077,29 @@
       "consumption_in_medawar_branch": "5.0",
       "total_stock": "19.0",
       "total_consumption": "5.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "220,000",
       "price_usd": "2.46",
-      "cost": "1.68",
+      "cost": "1.6800",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16373.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "12.0",
+          "consumption": "5.0"
+        },
+        "Geitawi": {
+          "stock": "7.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "arak",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "SOCIETE BOU NADER"
     },
     {
       "id": "16374",
@@ -2616,14 +3116,29 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "11.0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "505,000",
       "price_usd": "5.64",
-      "cost": "3.71",
+      "cost": "3.7100",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16374.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "7.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        }
+      },
+      "sub": "Vodka",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "SOCIETE BOU NADER"
     },
     {
       "id": "16375",
@@ -2634,20 +3149,30 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "7.0",
       "consumption_in_geitawi_branch": "30.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "9.0",
+      "total_stock": "13.0",
       "total_consumption": "42.0",
       "VAT": "NO",
-      "price_lbp": "160,000",
+      "price_lbp": 160000,
       "price_usd": "1.79",
-      "cost": "1.14",
+      "cost": 1.51,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16375.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "7.0",
+          "consumption": "30.0"
+        },
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16377",
@@ -2682,27 +3207,27 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "56.0",
+      "stock_in_geitawi_branch": "52.0",
       "consumption_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "-8.0",
+      "stock_in_medawar_branch": "35.0",
       "consumption_in_medawar_branch": "20.0",
-      "total_stock": "48.0",
+      "total_stock": "87.0",
       "total_consumption": "38.0",
-      "VAT": "NO",
-      "price_lbp": "70,000",
+      "VAT": "YES",
+      "price_lbp": 70000,
       "price_usd": "0.78",
-      "cost": "0.57",
+      "cost": 0.54427,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16379.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": "56.0",
-          "consumption": "0.0"
-        },
         "Medawar": {
-          "stock": "-8.0",
+          "stock": "35.0",
+          "consumption": "20.0"
+        },
+        "Geitawi": {
+          "stock": "52.0",
           "consumption": "0.0"
         }
       }
@@ -2716,11 +3241,11 @@
       "category": "FOOD",
       "sub_category": "KETCHUP, MAYO & MUSTARD",
       "offers": "0",
-      "stock_in_geitawi_branch": "14.0",
+      "stock_in_geitawi_branch": "12.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "6.0",
-      "total_stock": "23.0",
+      "total_stock": "12.0",
       "total_consumption": "14.0",
       "VAT": "NO",
       "price_lbp": "140,000",
@@ -2729,7 +3254,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16382.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "12.0",
+          "consumption": "8.0"
+        }
+      }
     },
     {
       "id": "16395",
@@ -2845,11 +3376,26 @@
       "VAT": "NO",
       "price_lbp": "215,000",
       "price_usd": "2.40",
-      "cost": "1.82",
+      "cost": "1.8200",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16411.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        },
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      },
+      "secondary_category": "",
+      "sub": "VINEGAR & PICKLES",
+      "secondary_sub_category": "",
+      "secondary_subcategory": "",
+      "supplier": "AL HAMAWI TRADING"
     },
     {
       "id": "16432",
@@ -2860,20 +3406,35 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "22.0",
+      "stock_in_geitawi_branch": "16.0",
       "consumption_in_geitawi_branch": "57.0",
-      "stock_in_medawar_branch": "28.0",
+      "stock_in_medawar_branch": "19.0",
       "consumption_in_medawar_branch": "75.0",
-      "total_stock": "50.0",
+      "total_stock": "35.0",
       "total_consumption": "132.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "140,000",
       "price_usd": "1.56",
-      "cost": "1.08",
+      "cost": "1.0800",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16432.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "16.0",
+          "consumption": "57.0"
+        },
+        "Medawar": {
+          "stock": "19.0",
+          "consumption": "75.0"
+        }
+      },
+      "sub": "sweets",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "supplier": "AL RAED TRADING"
     },
     {
       "id": "16445",
@@ -2932,28 +3493,28 @@
       "category": "FOOD",
       "sub_category": "KETCHUP, MAYO & MUSTARD",
       "offers": "0",
-      "stock_in_geitawi_branch": "15.0",
+      "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "9.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "27.0",
       "consumption_in_medawar_branch": "10.0",
-      "total_stock": "22.0",
+      "total_stock": "38.0",
       "total_consumption": "19.0",
       "VAT": "YES",
-      "price_lbp": "120,000",
+      "price_lbp": 120000,
       "price_usd": "1.34",
-      "cost": "0.96",
+      "cost": 0.8558333333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16462.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "15.0",
-          "consumption": "0.0"
+          "stock": "11.0",
+          "consumption": "9.0"
         },
         "Medawar": {
-          "stock": "7.0",
-          "consumption": "0.0"
+          "stock": "27.0",
+          "consumption": "10.0"
         }
       }
     },
@@ -2983,46 +3544,27 @@
     },
     {
       "id": "16469",
-      "barcode": "52815492",
+      "barcode": "52815492-5281090003578",
       "Product Description": "AOUN CURRY 50 G",
       "SUPPLIERS": "AOUN FOOD CO",
-      "unit": "",
+      "unit": "-",
       "category": "FOOD",
       "sub_category": "herbs & spices",
-      "offers": "",
+      "offers": "0",
       "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": "60,000",
       "price_usd": "0.67",
-      "cost": "0.00",
+      "cost": "0.25",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16469.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "",
-      "branches": {
-        "Geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
-      },
-      "barcode2": "5281090003578",
-      "barcodes": "5281090003578",
-      "expiry_days": "0",
-      "cost_ht": "0.00",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": ""
+      "delivery_rules": "0.005"
     },
     {
       "id": "16472",
@@ -3033,11 +3575,11 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "18.0",
+      "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "33.0",
+      "stock_in_medawar_branch": "28.0",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "51.0",
+      "total_stock": "43.0",
       "total_consumption": "13.0",
       "VAT": "NO",
       "price_lbp": "25,000",
@@ -3046,7 +3588,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16472.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "28.0",
+          "consumption": "7.0"
+        },
+        "Geitawi": {
+          "stock": "15.0",
+          "consumption": "6.0"
+        }
+      }
     },
     {
       "id": "16473",
@@ -3059,9 +3611,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "20.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "13.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "33.0",
+      "total_stock": "0.0",
       "total_consumption": "8.0",
       "VAT": "NO",
       "price_lbp": "40,000",
@@ -3070,7 +3622,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16473.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "7.0"
+        }
+      }
     },
     {
       "id": "16474",
@@ -3081,11 +3639,11 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "17.0",
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "28.0",
       "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "38.0",
-      "total_stock": "20.0",
+      "total_stock": "5.0",
       "total_consumption": "66.0",
       "VAT": "NO",
       "price_lbp": "20,000",
@@ -3094,7 +3652,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16474.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "28.0"
+        }
+      }
     },
     {
       "id": "16475",
@@ -3129,20 +3693,30 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-18.0",
       "consumption_in_geitawi_branch": "22.0",
       "stock_in_medawar_branch": "22.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "22.0",
+      "total_stock": "4.0",
       "total_consumption": "22.0",
       "VAT": "NO",
-      "price_lbp": "40,000",
+      "price_lbp": 40000,
       "price_usd": "0.45",
-      "cost": "0.30",
+      "cost": 0.3,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16476.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "-18.0",
+          "consumption": "22.0"
+        },
+        "Medawar": {
+          "stock": "22.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "16482",
@@ -3179,25 +3753,25 @@
       "offers": "0",
       "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "-3.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "8.0",
+      "total_stock": "17.0",
       "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": "320,000",
+      "price_lbp": 320000,
       "price_usd": "3.58",
-      "cost": "2.51",
+      "cost": 2.21,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16498.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "3.0"
+        },
         "Geitawi": {
           "stock": "11.0",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "-3.0",
           "consumption": "0.0"
         }
       }
@@ -3211,11 +3785,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "47.0",
-      "stock_in_medawar_branch": "75.0",
+      "stock_in_medawar_branch": "71.0",
       "consumption_in_medawar_branch": "19.0",
-      "total_stock": "85.0",
+      "total_stock": "76.0",
       "total_consumption": "66.0",
       "VAT": "NO",
       "price_lbp": "175,000",
@@ -3226,15 +3800,63 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": "10.0",
-          "consumption": "0.0"
-        },
         "Medawar": {
-          "stock": "75.0",
+          "stock": "71.0",
+          "consumption": "19.0"
+        },
+        "Geitawi": {
+          "stock": "5.0",
           "consumption": "0.0"
         }
       }
+    },
+    {
+      "id": "16489",
+      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "branches": {
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "price_usd": "3.61",
+      "barcode": "",
+      "secondary_sub_category": "",
+      "cost": "2.98",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "secondary_subcategory": "",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16489.jpg",
+      "secondary_category": "",
+      "sub": "",
+      "VAT": "NO",
+      "Product Description": "TISSUES WHITE PACKET X 10",
+      "sub_category": "TISSUES & TOILET PAPER",
+      "SUPPLIERS": "SUPPLIERS DIVERS",
+      "unit": "-",
+      "price_lbp": "325,000",
+      "new_items": "",
+      "category": "HOME USAGE",
+      "supplier": "",
+      "offers": "0",
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "2.98",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": ""
     }
   ]
 }
