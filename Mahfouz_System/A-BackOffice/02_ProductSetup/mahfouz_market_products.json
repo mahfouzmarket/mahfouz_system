@@ -103795,9 +103795,9 @@
     "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "6.0",
-    "stock_in_medawar_branch": "6.0",
+    "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "12.0",
-    "total_stock": "4.0",
+    "total_stock": "6.0",
     "total_consumption": "18.0",
     "cost": "1.77",
     "delivery_rules": "0.005",
@@ -103805,6 +103805,10 @@
       "Geitawi": {
         "stock": "4.0",
         "consumption": "6.0"
+      },
+      "Medawar": {
+        "stock": "2.0",
+        "consumption": "12.0"
       }
     }
   },
@@ -162994,12 +162998,18 @@
     "SUPPLIERS": "MTANIOS TRADING SARL",
     "stock_in_geitawi_branch": "7.0",
     "consumption_in_geitawi_branch": "19.0",
-    "stock_in_medawar_branch": "24.0",
+    "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "7.0",
-    "total_stock": "31.0",
+    "total_stock": "23.0",
     "total_consumption": "26.0",
     "cost": "0.49",
-    "delivery_rules": "0.005"
+    "delivery_rules": "0.005",
+    "branches": {
+      "Medawar": {
+        "stock": "23.0",
+        "consumption": "7.0"
+      }
+    }
   },
   {
     "id": "21490",
