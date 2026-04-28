@@ -475,13 +475,23 @@
       "total_stock": "14.0",
       "total_consumption": "10.0",
       "VAT": "NO",
-      "price_lbp": "120,000",
+      "price_lbp": 120000,
       "price_usd": "1.34",
-      "cost": "0.85",
+      "cost": 0.85,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19052.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "13.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "19053",
@@ -2033,27 +2043,27 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "35.0",
       "consumption_in_geitawi_branch": "44.0",
-      "stock_in_medawar_branch": "25.0",
+      "stock_in_medawar_branch": "97.0",
       "consumption_in_medawar_branch": "15.0",
-      "total_stock": "36.0",
+      "total_stock": "132.0",
       "total_consumption": "59.0",
-      "VAT": "NO",
-      "price_lbp": "90,000",
+      "VAT": "YES",
+      "price_lbp": 110000,
       "price_usd": "1.01",
-      "cost": "0.78",
+      "cost": 0.8250000000000001,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19145.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "35.0",
           "consumption": "44.0"
         },
         "Medawar": {
-          "stock": "25.0",
+          "stock": "97.0",
           "consumption": "0.0"
         }
       }
