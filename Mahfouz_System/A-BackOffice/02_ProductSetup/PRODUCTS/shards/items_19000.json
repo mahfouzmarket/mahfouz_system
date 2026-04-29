@@ -5401,9 +5401,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "50.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "53.0",
+      "stock_in_medawar_branch": "51.0",
       "consumption_in_medawar_branch": "31.0",
-      "total_stock": "53.0",
+      "total_stock": "101.0",
       "total_consumption": "31.0",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -5415,8 +5415,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Medawar": {
-          "stock": "53.0",
+          "stock": "51.0",
           "consumption": "31.0"
+        },
+        "Geitawi": {
+          "stock": "50.0",
+          "consumption": "0.0"
         }
       },
       "sub": "LIGHTER",
