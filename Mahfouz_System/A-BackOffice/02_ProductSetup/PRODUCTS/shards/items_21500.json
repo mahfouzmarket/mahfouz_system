@@ -567,7 +567,7 @@
       "barcode2": "",
       "barcodes": "",
       "price_usd": "0.89",
-      "price_lbp": "80000",
+      "price_lbp": 80000,
       "VAT": "NO",
       "offers": "0",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21529.jpg",
@@ -576,7 +576,20 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "cost": 0.740741
+      "cost": 0.740741,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "stock_in_geitawi_branch": "1.0",
+      "stock_in_medawar_branch": "0.0",
+      "total_stock": "1.0"
     },
     {
       "id": "21530",
@@ -5606,7 +5619,7 @@
       "cost": 2.06,
       "branches": {
         "Geitawi": {
-          "stock": "-2.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -5614,9 +5627,9 @@
           "consumption": "0.0"
         }
       },
-      "stock_in_geitawi_branch": "-2.0",
+      "stock_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "2.0",
-      "total_stock": "0.0"
+      "total_stock": "2.0"
     },
     {
       "id": "21736",
@@ -10006,7 +10019,7 @@
       "barcode2": "",
       "barcodes": "",
       "price_usd": "0.56",
-      "price_lbp": "50,000",
+      "price_lbp": 50000,
       "VAT": "NO",
       "offers": "",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21905.jpg",
@@ -10016,19 +10029,19 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "-17.0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "20.0",
       "consumption_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "total_stock": "-17.0",
+      "total_stock": "3.0",
       "total_consumption": "0.0",
       "branches": {
         "Medawar": {
-          "consumption": "0.0",
-          "stock": "-17.0"
+          "stock": "-17.0",
+          "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0",
-          "stock": "0.0"
+          "stock": "20.0",
+          "consumption": "0.0"
         }
       },
       "subCategory": "NOUNA'S FOOD",
@@ -10036,7 +10049,7 @@
       "secondary_subcategory": "",
       "manual": "",
       "Product Description": "NF BISCUIT RAHA 1PC",
-      "cost": "42500.0000",
+      "cost": 42500.0,
       "secondary_category": "",
       "delivery_rules": "0.005",
       "secondary_sub_category": "",
