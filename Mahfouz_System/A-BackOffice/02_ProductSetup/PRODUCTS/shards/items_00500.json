@@ -122,9 +122,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1207.0",
       "consumption_in_geitawi_branch": "560.0",
-      "stock_in_medawar_branch": "5193.0",
+      "stock_in_medawar_branch": "5192.0",
       "consumption_in_medawar_branch": "369.0",
-      "total_stock": "6400.0",
+      "total_stock": "6399.0",
       "total_consumption": "929.0",
       "VAT": "YES",
       "price_lbp": 50000,
@@ -140,7 +140,7 @@
           "consumption": "560.0"
         },
         "Medawar": {
-          "stock": "5193.0",
+          "stock": "5192.0",
           "consumption": "0.0"
         }
       }
@@ -244,18 +244,28 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "2.0",
+      "stock_in_medawar_branch": "8.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "6.0",
+      "total_stock": "12.0",
       "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": "580,000",
+      "price_lbp": 580000,
       "price_usd": "6.48",
-      "cost": "4.88",
+      "cost": 4.373333333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID639.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "8.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "643",
@@ -327,18 +337,18 @@
     },
     {
       "id": "659",
-      "barcode": "",
+      "barcode": "8888311092011",
       "Product Description": "CAFE 21 SACHET x 22 pcs",
       "SUPPLIERS": "SUPPLIERS DIVERS",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "16",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "-4.0",
       "consumption_in_medawar_branch": "22",
-      "total_stock": "5",
+      "total_stock": "0.0",
       "total_consumption": "38",
       "VAT": "NO",
       "price_lbp": "540,000",
@@ -348,7 +358,28 @@
       "new_items": "",
       "manual": "1",
       "delivery_rules": "0.005",
-      "pcs_in_box": "22"
+      "pcs_in_box": "22",
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "-4.0",
+          "consumption": "0.0"
+        }
+      },
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "5.06",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-659-1777456918030620",
+      "product_setup_saved_at_utc": "2026-04-29T10:01:58.030620Z"
     },
     {
       "id": "664",
