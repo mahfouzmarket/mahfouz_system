@@ -2631,9 +2631,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "60.0",
-      "stock_in_medawar_branch": "42.0",
+      "stock_in_medawar_branch": "40.0",
       "consumption_in_medawar_branch": "54.0",
-      "total_stock": "39.0",
+      "total_stock": "37.0",
       "total_consumption": "114.0",
       "VAT": "YES",
       "price_lbp": "115,000",
@@ -2645,7 +2645,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Medawar": {
-          "stock": "42.0",
+          "stock": "40.0",
           "consumption": "54.0"
         },
         "Geitawi": {
@@ -2893,9 +2893,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
+      "total_stock": "3.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "550,000",
@@ -2904,7 +2904,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14289.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "14301",
@@ -3618,9 +3628,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "2.0",
+      "total_stock": "7.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": "120,000",
@@ -3633,6 +3643,10 @@
       "branches": {
         "Geitawi": {
           "stock": "2.0",
+          "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "5.0",
           "consumption": "3.0"
         }
       }
