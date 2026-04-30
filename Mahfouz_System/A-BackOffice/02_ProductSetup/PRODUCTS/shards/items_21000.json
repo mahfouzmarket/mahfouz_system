@@ -165,9 +165,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "8.0",
+      "total_stock": "6.0",
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": "335,000",
@@ -176,7 +176,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21014.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "1.0"
+        },
+        "Geitawi": {
+          "stock": "3.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "21015",
