@@ -121,9 +121,9 @@
       "vat": 0,
       "price_lbp": 110000.0,
       "cost": 0.0,
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "stock_in_medawar_branch": "0.0",
       "branches": {
         "geitawi": {
@@ -135,6 +135,14 @@
           "consumption": "0.0"
         },
         "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "stock": "-1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
           "stock": "0.0",
           "consumption": "0.0"
         }
@@ -4717,11 +4725,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "60.0",
+      "stock_in_geitawi_branch": "59.0",
       "consumption_in_geitawi_branch": "61.0",
       "stock_in_medawar_branch": "204.0",
       "consumption_in_medawar_branch": "85.0",
-      "total_stock": "264.0",
+      "total_stock": "263.0",
       "total_consumption": "146.0",
       "VAT": "YES",
       "price_lbp": 150000.0,
@@ -4733,7 +4741,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "60.0",
+          "stock": "59.0",
           "consumption": "61.0"
         },
         "Medawar": {
@@ -5671,11 +5679,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "1584.0",
+      "stock_in_geitawi_branch": "1586.0",
       "consumption_in_geitawi_branch": "1742.0",
       "stock_in_medawar_branch": "346463.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "348047.0",
+      "total_stock": "348049.0",
       "total_consumption": "1742.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -5687,7 +5695,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1584.0",
+          "stock": "1586.0",
           "consumption": "1742.0"
         },
         "Medawar": {
@@ -5778,6 +5786,6 @@
       "vat": 1
     }
   ],
-  "updatedAt": "2026-05-09T21:24:43.446646Z",
+  "updatedAt": "2026-05-09T21:36:36.334709Z",
   "source": "sql"
 }
