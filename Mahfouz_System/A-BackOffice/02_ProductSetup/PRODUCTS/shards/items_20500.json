@@ -10556,7 +10556,7 @@
       "total_stock": "8.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 100000,
+      "price_lbp": 130000,
       "price_usd": "1.12",
       "cost": 0.92,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20930.jpg",
@@ -10572,7 +10572,9 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "updatedAt": "2026-05-09T00:33:34",
+      "priceRepair": "bimpos_20260508_under_cost_floor"
     },
     {
       "id": "20931",
@@ -11785,11 +11787,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "8.0",
+      "total_stock": "7.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": "350,000",
@@ -11798,7 +11800,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20972.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "2.0"
+        },
+        "Medawar": {
+          "stock": "5.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "20973",
@@ -12586,6 +12598,6 @@
       "delivery_rules": "0.005"
     }
   ],
-  "updatedAt": "2026-05-09T09:24:31.953056Z",
+  "updatedAt": "2026-05-09T10:14:53.306787Z",
   "source": "sql"
 }
