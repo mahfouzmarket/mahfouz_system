@@ -2894,11 +2894,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
+      "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "280,000",
@@ -2907,7 +2907,17 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19176.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "19177",
@@ -3817,11 +3827,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "42.0",
       "stock_in_medawar_branch": "-5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "-5.0",
+      "total_stock": "-8.0",
       "total_consumption": "42.0",
       "VAT": "NO",
       "price_lbp": 90000,
@@ -3833,7 +3843,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-3.0",
           "consumption": "42.0"
         },
         "Medawar": {
@@ -4385,11 +4395,11 @@
       "category": "FOOD",
       "sub_category": "SOUP",
       "offers": "0",
-      "stock_in_geitawi_branch": "24.0",
+      "stock_in_geitawi_branch": "21.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "21965.0",
       "consumption_in_medawar_branch": "10.0",
-      "total_stock": "21989.0",
+      "total_stock": "21986.0",
       "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 20000,
@@ -4401,7 +4411,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "24.0",
+          "stock": "21.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -7162,11 +7172,11 @@
       "category": "CIGARETTES",
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "39.0",
+      "stock_in_geitawi_branch": "38.0",
       "consumption_in_geitawi_branch": "60.0",
       "stock_in_medawar_branch": "12.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "51.0",
+      "total_stock": "50.0",
       "total_consumption": "68.0",
       "VAT": "NO",
       "price_lbp": 175000,
@@ -7178,7 +7188,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "39.0",
+          "stock": "38.0",
           "consumption": "60.0"
         },
         "Medawar": {
@@ -8547,6 +8557,6 @@
       "supplier": "FALCO SALES & DISTRIBUTION SAL"
     }
   ],
-  "updatedAt": "2026-05-09T06:20:07.081675Z",
+  "updatedAt": "2026-05-09T09:54:19.436210Z",
   "source": "sql"
 }

@@ -711,11 +711,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": 15.0,
       "consumption_in_medawar_branch": "9.0",
-      "total_stock": "15.0",
+      "total_stock": "14.0",
       "total_consumption": "18.0",
       "VAT": "YES",
       "price_lbp": 280000,
@@ -727,7 +727,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "0.0",
           "cons_30d": 0.0
         },
@@ -1042,11 +1042,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "6.0",
-      "total_stock": "13.0",
+      "total_stock": "12.0",
       "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 380000,
@@ -1060,6 +1060,10 @@
         "Medawar": {
           "stock": "13.0",
           "consumption": "6.0"
+        },
+        "Geitawi": {
+          "stock": "-1.0",
+          "consumption": "8.0"
         }
       }
     },
@@ -1608,11 +1612,11 @@
       "category": "HOME USAGE",
       "sub_category": "WIPES",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "24.0",
+      "total_stock": "23.0",
       "total_consumption": "11.0",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -1624,7 +1628,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "10.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -2465,11 +2469,11 @@
       "category": "BEVERAGES",
       "sub_category": "cold coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "85.0",
+      "stock_in_geitawi_branch": "83.0",
       "consumption_in_geitawi_branch": "81.0",
       "stock_in_medawar_branch": "237.0",
       "consumption_in_medawar_branch": "97.0",
-      "total_stock": "322.0",
+      "total_stock": "320.0",
       "total_consumption": "178.0",
       "VAT": "YES",
       "price_lbp": 80000,
@@ -2481,7 +2485,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "85.0",
+          "stock": "83.0",
           "consumption": "81.0"
         },
         "Medawar": {
@@ -2940,11 +2944,11 @@
       "category": "CHIPS",
       "sub_category": "FANTASIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "-39.0",
+      "stock_in_geitawi_branch": "-40.0",
       "consumption_in_geitawi_branch": "42.0",
       "stock_in_medawar_branch": "87.0",
       "consumption_in_medawar_branch": "46.0",
-      "total_stock": "48.0",
+      "total_stock": "47.0",
       "total_consumption": "88.0",
       "VAT": "YES",
       "price_lbp": 60000,
@@ -2956,7 +2960,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-39.0",
+          "stock": "-40.0",
           "consumption": "42.0"
         },
         "Medawar": {
@@ -4232,11 +4236,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "22.0",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "27.0",
+      "total_stock": "26.0",
       "total_consumption": "9.0",
       "VAT": "YES",
       "price_lbp": 160000,
@@ -4248,7 +4252,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "4.0",
           "consumption": "2.0"
         },
         "Medawar": {
@@ -4438,6 +4442,6 @@
       "supplier": "ETS WASSEF CHEIBANE"
     }
   ],
-  "updatedAt": "2026-05-09T02:07:27.673783Z",
+  "updatedAt": "2026-05-09T09:42:25.819082Z",
   "source": "sql"
 }
