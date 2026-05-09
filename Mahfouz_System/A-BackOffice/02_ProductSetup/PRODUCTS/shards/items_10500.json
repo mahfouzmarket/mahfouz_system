@@ -16,17 +16,31 @@
       "total_stock": "1.0",
       "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": "30,000",
+      "price_lbp": 30000.0,
       "price_usd": "0.34",
-      "cost": "0.12",
+      "cost": 0.12,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10500.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "FENIX LIGHTER",
+      "supplier": "JACK DIB",
+      "subcategory": "LIGHTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "-2.0",
+          "consumption": "2.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10510",
-      "barcode": "5281001113066-5281001116265",
+      "barcode": "5281001113066",
       "Product Description": "FL GIPSY 300SH SOFT PLUS",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -36,11 +50,11 @@
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "19.0",
       "stock_in_medawar_branch": "37.0",
-      "consumption_in_medawar_branch": "9.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "43.0",
-      "total_consumption": "28.0",
+      "total_consumption": "19.0",
       "VAT": "YES",
-      "price_lbp": 240000,
+      "price_lbp": 240000.0,
       "price_usd": "2.68",
       "cost": 1.46375,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10510.jpg",
@@ -56,7 +70,11 @@
           "stock": "37.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "FL GIPSY 300SH SOFT PLUS",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10511",
@@ -74,9 +92,9 @@
       "total_stock": "42.0",
       "total_consumption": "6.0",
       "VAT": "YES",
-      "price_lbp": "175,000",
+      "price_lbp": 175000.0,
       "price_usd": "1.96",
-      "cost": "1.05",
+      "cost": 1.05,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10511.jpg",
       "new_items": "",
       "manual": "",
@@ -90,7 +108,11 @@
           "stock": "31.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "name": "FL GIPSY 200SH SOFT PLUSX12",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10532",
@@ -101,30 +123,34 @@
       "category": "HOME USAGE",
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "25.0",
+      "stock_in_geitawi_branch": "23.0",
       "consumption_in_geitawi_branch": "17.0",
       "stock_in_medawar_branch": "41.0",
       "consumption_in_medawar_branch": "6.0",
-      "total_stock": "66.0",
+      "total_stock": "64.0",
       "total_consumption": "23.0",
       "VAT": "YES",
-      "price_lbp": "75,000",
+      "price_lbp": 75000.0,
       "price_usd": "0.84",
-      "cost": "0.38",
+      "cost": 0.38,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10532.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "25.0",
+          "stock": "23.0",
           "consumption": "17.0"
         },
         "Medawar": {
           "stock": "41.0",
           "consumption": "6.0"
         }
-      }
+      },
+      "name": "PRIMO MIMOSA",
+      "supplier": "MIMOSA",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10534",
@@ -136,13 +162,13 @@
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
-      "consumption_in_geitawi_branch": "18.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "56.0",
-      "consumption_in_medawar_branch": "14.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "65.0",
-      "total_consumption": "32.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 255000,
+      "price_lbp": 255000.0,
       "price_usd": "2.85",
       "cost": 1.827,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10534.jpg",
@@ -158,7 +184,11 @@
           "stock": "56.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MIMOSA TISSUE",
+      "supplier": "MIMOSA",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10536",
@@ -176,13 +206,27 @@
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "195,000",
+      "price_lbp": 195000.0,
       "price_usd": "2.18",
-      "cost": "1.42",
+      "cost": 1.42,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10536.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MIMOSA TOILET",
+      "supplier": "MIMOSA",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10542",
@@ -200,17 +244,31 @@
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "130,000",
+      "price_lbp": 130000.0,
       "price_usd": "1.45",
-      "cost": "1.22",
+      "cost": 1.22,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10542.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "SANITA SMALL TRASH BAGS",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TRASH BAGS",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10546",
-      "barcode": "5281001942574-5281001943533",
+      "barcode": "5281001942574",
       "Product Description": "GIPSY WIPES 100S",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -224,7 +282,7 @@
       "total_stock": "18.0",
       "total_consumption": "46.0",
       "VAT": "YES",
-      "price_lbp": 255000,
+      "price_lbp": 255000.0,
       "price_usd": "2.85",
       "cost": 1.3904166666666666,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10546.jpg",
@@ -240,11 +298,15 @@
           "stock": "19.0",
           "consumption": "13.0"
         }
-      }
+      },
+      "name": "GIPSY WIPES 100S",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "WIPES",
+      "vat": 1
     },
     {
       "id": "10551",
-      "barcode": "5281030111378-5281030111538",
+      "barcode": "5281030111378",
       "Product Description": "TENDREX TISSUES 200SH",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -258,9 +320,9 @@
       "total_stock": "35.0",
       "total_consumption": "21.0",
       "VAT": "YES",
-      "price_lbp": "120,000",
+      "price_lbp": 120000.0,
       "price_usd": "1.34",
-      "cost": "0.87",
+      "cost": 0.87,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10551.jpg",
       "new_items": "",
       "manual": "",
@@ -274,7 +336,11 @@
           "stock": "21.0",
           "consumption": "8.0"
         }
-      }
+      },
+      "name": "TENDREX TISSUES 200SH",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10591",
@@ -292,13 +358,27 @@
       "total_stock": "3.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "165,000",
+      "price_lbp": 165000.0,
       "price_usd": "1.84",
-      "cost": "0.68",
+      "cost": 0.68,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10591.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "ELSADA COTTON STERILE 50G",
+      "supplier": "SADAPACK",
+      "subcategory": "COTTONS",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10592",
@@ -313,12 +393,12 @@
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "2.0",
+      "total_stock": "7.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "155,000",
+      "price_lbp": 155000.0,
       "price_usd": "1.73",
-      "cost": "1.16",
+      "cost": 1.16,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10592.jpg",
       "new_items": "",
       "manual": "",
@@ -327,8 +407,16 @@
         "Geitawi": {
           "stock": "2.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "5.0",
+          "consumption": "1.0"
         }
-      }
+      },
+      "name": "ELSADA COTTON STERILE 100G",
+      "supplier": "SADAPACK",
+      "subcategory": "COTTONS",
+      "vat": 1
     },
     {
       "id": "10593",
@@ -342,13 +430,13 @@
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "13.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "22.0",
-      "total_consumption": "10.0",
+      "total_consumption": "7.0",
       "VAT": "YES",
-      "price_lbp": "145,000",
+      "price_lbp": 145000.0,
       "price_usd": "1.62",
-      "cost": "0.85",
+      "cost": 0.85,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10593.jpg",
       "new_items": "",
       "manual": "",
@@ -359,9 +447,14 @@
           "consumption": "7.0"
         },
         "Medawar": {
-          "stock": "13.0"
+          "stock": "13.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "ELSADA BEAUTY COTTON DISCS",
+      "supplier": "SADAPACK",
+      "subcategory": "COTTONS",
+      "vat": 1
     },
     {
       "id": "10598",
@@ -379,13 +472,27 @@
       "total_stock": "1.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "545,000",
+      "price_lbp": 545000.0,
       "price_usd": "6.09",
-      "cost": "4.09",
+      "cost": 4.09,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10598.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MIMOSA 16 ROLLS",
+      "supplier": "MIMOSA",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10602",
@@ -403,13 +510,27 @@
       "total_stock": "15.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "160,000",
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
-      "cost": "1.02",
+      "cost": 1.02,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10602.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MIMOSA TRASH BAGS WHITE 15 LTR",
+      "supplier": "MIMOSA",
+      "subcategory": "TRASH BAGS",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "11.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "10624",
@@ -427,13 +548,27 @@
       "total_stock": "8.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "115,000",
+      "price_lbp": 115000.0,
       "price_usd": "1.28",
-      "cost": "1.19",
+      "cost": 1.19,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10624.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "RENOVA NAPKINS RED 20 PCS",
+      "supplier": "MIMOSA",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10629",
@@ -447,13 +582,13 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "5.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "7.0",
-      "total_consumption": "8.0",
+      "total_consumption": "7.0",
       "VAT": "YES",
-      "price_lbp": "320,000",
+      "price_lbp": 320000.0,
       "price_usd": "3.58",
-      "cost": "2.40",
+      "cost": 2.4,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10629.jpg",
       "new_items": "",
       "manual": "",
@@ -464,13 +599,18 @@
           "consumption": "7.0"
         },
         "Medawar": {
-          "stock": "5.0"
+          "stock": "5.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "MIMOSA EASY TIE TRASH BAG 20 LARGE- BLUE",
+      "supplier": "MIMOSA",
+      "subcategory": "TRASH BAGS",
+      "vat": 1
     },
     {
       "id": "10654",
-      "barcode": "5281030111705-5281030162349",
+      "barcode": "5281030111705",
       "Product Description": "TENDREX TISSUE 300 JUMBO",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -484,9 +624,9 @@
       "total_stock": "22.0",
       "total_consumption": "21.0",
       "VAT": "YES",
-      "price_lbp": "200,000",
+      "price_lbp": 200000.0,
       "price_usd": "2.23",
-      "cost": "1.67",
+      "cost": 1.67,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10654.jpg",
       "new_items": "",
       "manual": "",
@@ -500,7 +640,11 @@
           "stock": "14.0",
           "consumption": "11.0"
         }
-      }
+      },
+      "name": "TENDREX TISSUE 300 JUMBO",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10655",
@@ -512,15 +656,15 @@
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
-      "consumption_in_geitawi_branch": "3.0",
+      "consumption_in_geitawi_branch": "2.2",
       "stock_in_medawar_branch": "38.0",
-      "consumption_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "3.2",
       "total_stock": "39.0",
-      "total_consumption": "7.0",
+      "total_consumption": "5.4",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
-      "cost": "0.49",
+      "cost": 0.49,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10655.jpg",
       "new_items": "",
       "manual": "",
@@ -543,7 +687,11 @@
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
       "linked_profile_category": "",
-      "linked_profile_sub_category": ""
+      "linked_profile_sub_category": "",
+      "name": "ROSANA 170SH 15% dis",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10659",
@@ -557,11 +705,11 @@
       "stock_in_geitawi_branch": "14.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "15.0",
-      "consumption_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "29.0",
-      "total_consumption": "7.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": 125000,
+      "price_lbp": 125000.0,
       "price_usd": "1.40",
       "cost": 0.9225,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10659.jpg",
@@ -577,11 +725,15 @@
           "stock": "15.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "ROSANA 4 ROLLS 520SH",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10660",
-      "barcode": "5281001123669-5281001123782",
+      "barcode": "5281001123669",
       "Product Description": "ROSANA 18 ROLLS 1800SH",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -592,26 +744,34 @@
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "2.0",
+      "total_stock": "5.0",
       "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": "410,000",
+      "price_lbp": 410000.0,
       "price_usd": "4.58",
-      "cost": "3.41",
+      "cost": 3.41,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10660.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "3.0",
+          "consumption": "1.0"
+        },
         "Medawar": {
           "stock": "2.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "name": "ROSANA 18 ROLLS 1800SH",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10661",
-      "barcode": "5281001111710-5281001111864",
+      "barcode": "5281001111710",
       "Product Description": "ROSANA 270SHEETS 15%",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -619,29 +779,33 @@
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
       "stock_in_geitawi_branch": "16.0",
-      "consumption_in_geitawi_branch": "12.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "17.0",
       "consumption_in_medawar_branch": "13.0",
       "total_stock": "33.0",
-      "total_consumption": "25.0",
+      "total_consumption": "13.0",
       "VAT": "YES",
-      "price_lbp": "130,000",
+      "price_lbp": 130000.0,
       "price_usd": "1.45",
-      "cost": "0.95",
+      "cost": 0.95,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10661.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "17.0",
-          "consumption": "13.0"
-        },
         "Geitawi": {
           "stock": "16.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "17.0",
+          "consumption": "13.0"
         }
-      }
+      },
+      "name": "ROSANA 270SHEETS 15%",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10662",
@@ -659,9 +823,9 @@
       "total_stock": "14.0",
       "total_consumption": "9.0",
       "VAT": "YES",
-      "price_lbp": "235,000",
+      "price_lbp": 235000.0,
       "price_usd": "2.63",
-      "cost": "1.78",
+      "cost": 1.78,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10662.jpg",
       "new_items": "",
       "manual": "",
@@ -675,7 +839,11 @@
           "stock": "15.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "name": "GIPSY TOILET CLASSIC 4ROLLS",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10665",
@@ -693,9 +861,9 @@
       "total_stock": "2.0",
       "total_consumption": "6.8",
       "VAT": "YES",
-      "price_lbp": "735,000",
+      "price_lbp": 735000.0,
       "price_usd": "8.17",
-      "cost": "6.14",
+      "cost": 6.14,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10665.jpg",
       "new_items": "",
       "manual": "",
@@ -718,7 +886,11 @@
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
       "linked_profile_category": "",
-      "linked_profile_sub_category": ""
+      "linked_profile_sub_category": "",
+      "name": "GIPSY 18 ROLLS 15%",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10666",
@@ -730,15 +902,15 @@
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
       "stock_in_geitawi_branch": "16.0",
-      "consumption_in_geitawi_branch": "24.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "19.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "35.0",
-      "total_consumption": "25.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.60",
+      "cost": 1.6,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10666.jpg",
       "new_items": "",
       "manual": "",
@@ -752,7 +924,11 @@
           "stock": "19.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MIMOSA INTERFOLD 200 SHEETS",
+      "supplier": "MIMOSA",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10667",
@@ -770,23 +946,27 @@
       "total_stock": "8.0",
       "total_consumption": "4.0",
       "VAT": "YES",
-      "price_lbp": "295,000",
+      "price_lbp": 295000.0,
       "price_usd": "3.30",
-      "cost": "2.19",
+      "cost": 2.19,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10667.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "6.0",
-          "consumption": "1.0"
-        },
         "Geitawi": {
           "stock": "2.0",
           "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "1.0"
         }
-      }
+      },
+      "name": "MIMOSA EASY TIE TRASH BAG 20 XL",
+      "supplier": "MIMOSA",
+      "subcategory": "TRASH BAGS",
+      "vat": 1
     },
     {
       "id": "10668",
@@ -804,9 +984,9 @@
       "total_stock": "27.0",
       "total_consumption": "8.8",
       "VAT": "YES",
-      "price_lbp": "185,000",
+      "price_lbp": 185000.0,
       "price_usd": "2.06",
-      "cost": "1.16",
+      "cost": 1.16,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10668.jpg",
       "new_items": "",
       "manual": "",
@@ -829,11 +1009,15 @@
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
       "linked_profile_category": "",
-      "linked_profile_sub_category": ""
+      "linked_profile_sub_category": "",
+      "name": "TENDREX 300SHEETS",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10670",
-      "barcode": "5281001123676-5281001123775",
+      "barcode": "5281001123676",
       "Product Description": "ROSANA TOILETTE 32",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -847,7 +1031,7 @@
       "total_stock": "6.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 700000,
+      "price_lbp": 700000.0,
       "price_usd": "7.82",
       "cost": 4.75,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10670.jpg",
@@ -863,7 +1047,11 @@
           "stock": "5.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "ROSANA TOILETTE 32",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10681",
@@ -881,17 +1069,31 @@
       "total_stock": "5.0",
       "total_consumption": "4.0",
       "VAT": "YES",
-      "price_lbp": "225,000",
+      "price_lbp": 225000.0,
       "price_usd": "2.51",
-      "cost": "2.00",
+      "cost": 2.0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10681.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "GIPSY SOFT 6 ROLLS",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "10682",
-      "barcode": "5281001461853-5281001461822",
+      "barcode": "5281001461853",
       "Product Description": "HAPPIES24 DIAPERS",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -905,13 +1107,27 @@
       "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": "795,000",
+      "price_lbp": 795000.0,
       "price_usd": "8.88",
-      "cost": "7.18",
+      "cost": 7.18,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10682.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "HAPPIES24 DIAPERS",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "DIAPERS",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "2.0"
+        }
+      }
     },
     {
       "id": "10683",
@@ -923,27 +1139,33 @@
       "sub_category": "ALUMINUM FOIL",
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "3.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "460,000",
+      "price_lbp": 460000.0,
       "price_usd": "5.14",
-      "cost": "3.54",
+      "cost": 3.54,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10683.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "1.0"
-        },
         "Geitawi": {
-          "stock": "2.0"
+          "stock": "2.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "ALUMINUM CLASSIC 100 SQFT",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "ALUMINUM FOIL",
+      "vat": 1
     },
     {
       "id": "10697",
@@ -961,13 +1183,27 @@
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "710,000",
+      "price_lbp": 710000.0,
       "price_usd": "7.93",
-      "cost": "6.30",
+      "cost": 6.3,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10697.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "GIPSY SOFT PLUS 24 ROLL",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "10698",
@@ -985,13 +1221,27 @@
       "total_stock": "3.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "205,000",
+      "price_lbp": 205000.0,
       "price_usd": "2.29",
-      "cost": "1.55",
+      "cost": 1.55,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10698.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "HAPPIES WIPES 56",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "WIPES",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "10701",
@@ -1005,11 +1255,11 @@
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "12.0",
-      "consumption_in_medawar_branch": "9.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "16.0",
-      "total_consumption": "12.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": 305000,
+      "price_lbp": 305000.0,
       "price_usd": "3.41",
       "cost": 2.276666666666667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10701.jpg",
@@ -1025,7 +1275,11 @@
           "stock": "12.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "SANITA TRASH BAGS MEDIUM 30L",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TRASH BAGS",
+      "vat": 1
     },
     {
       "id": "10705",
@@ -1037,13 +1291,13 @@
       "sub_category": "TRASH BAGS",
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
-      "consumption_in_geitawi_branch": "4.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "12.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "16.0",
-      "total_consumption": "9.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 640000,
+      "price_lbp": 640000.0,
       "price_usd": "7.15",
       "cost": 4.7716666666666665,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10705.jpg",
@@ -1059,7 +1313,11 @@
           "stock": "12.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "SANITA MY HOME TRASH BAG LARGE 30",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TRASH BAGS",
+      "vat": 1
     },
     {
       "id": "10707",
@@ -1071,13 +1329,13 @@
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "25.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "27.0",
-      "total_consumption": "15.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 200000,
+      "price_lbp": 200000.0,
       "price_usd": "2.23",
       "cost": 1.520888888888889,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10707.jpg",
@@ -1093,7 +1351,11 @@
           "stock": "25.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MIMOSA EASY TIE BIO MEDIUM",
+      "supplier": "MIMOSA",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "vat": 1
     },
     {
       "id": "10712",
@@ -1107,13 +1369,13 @@
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "15.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "24.0",
-      "total_consumption": "7.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "0.98",
+      "cost": 0.98,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10712.jpg",
       "new_items": "",
       "manual": "",
@@ -1127,7 +1389,11 @@
           "stock": "15.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "HAPPY FRESH 72 PCS",
+      "supplier": "MTANIOS TRADING SARL",
+      "subcategory": "WIPES",
+      "vat": 1
     },
     {
       "id": "10715",
@@ -1139,13 +1405,13 @@
       "sub_category": "TRASH BAGS",
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "6.0",
       "total_stock": "10.0",
-      "total_consumption": "8.0",
+      "total_consumption": "6.0",
       "VAT": "YES",
-      "price_lbp": 530000,
+      "price_lbp": 530000.0,
       "price_usd": "5.92",
       "cost": 3.9233333333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10715.jpg",
@@ -1153,19 +1419,23 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "7.0",
-          "consumption": "6.0"
-        },
         "Geitawi": {
           "stock": "3.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "7.0",
+          "consumption": "6.0"
         }
-      }
+      },
+      "name": "SANITA.TRASHBAGS XL",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TRASH BAGS",
+      "vat": 1
     },
     {
       "id": "10738",
-      "barcode": "6926313588216-6926313588261",
+      "barcode": "6926313588216",
       "Product Description": "HACKER WARRIOR  750ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
@@ -1175,25 +1445,25 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "17.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "20.0",
-      "total_consumption": "0.0",
+      "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "435,000",
+      "price_lbp": 435000.0,
       "price_usd": "4.86",
-      "cost": "3.5200",
+      "cost": 3.52,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10738.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "17.0",
-          "consumption": "1.0"
-        },
         "Geitawi": {
           "stock": "3.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "17.0",
+          "consumption": "1.0"
         }
       },
       "barcodes": "",
@@ -1202,7 +1472,9 @@
       "sub": "INSECT KILLER",
       "supplier": "JACK DIB",
       "secondary_category": "",
-      "name": "HACKER WARRIOR  750ML"
+      "name": "HACKER WARRIOR  750ML",
+      "subcategory": "INSECT KILLER",
+      "vat": 0
     },
     {
       "id": "10749",
@@ -1220,17 +1492,31 @@
       "total_stock": "3.0",
       "total_consumption": "2.0",
       "VAT": "NO",
-      "price_lbp": "85,000",
+      "price_lbp": 85000.0,
       "price_usd": "0.95",
-      "cost": "0.71",
+      "cost": 0.71,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10749.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "KIDS ACADEMIC",
+      "supplier": "JACK DIB",
+      "subcategory": "BABY CARE",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "3.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "2.0"
+        }
+      }
     },
     {
       "id": "10750",
-      "barcode": "C887780094825428501",
+      "barcode": "887780094825428501",
       "Product Description": "LUCKY",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
@@ -1244,13 +1530,27 @@
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "85,000",
+      "price_lbp": 85000.0,
       "price_usd": "0.95",
-      "cost": "0.78",
+      "cost": 0.78,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10750.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "LUCKY",
+      "supplier": "JACK DIB",
+      "subcategory": "STATIONARY",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10757",
@@ -1268,13 +1568,27 @@
       "total_stock": "7.0",
       "total_consumption": "2.0",
       "VAT": "NO",
-      "price_lbp": "100,000",
+      "price_lbp": 100000.0,
       "price_usd": "1.12",
-      "cost": "0.75",
+      "cost": 0.75,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10757.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "HACKER SMIKELESS MISQUITO COIL",
+      "supplier": "JACK DIB",
+      "subcategory": "INSECT KILLER",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "3.0",
+          "consumption": "2.0"
+        },
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10758",
@@ -1292,13 +1606,27 @@
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "305,000",
+      "price_lbp": 305000.0,
       "price_usd": "3.41",
-      "cost": "2.23",
+      "cost": 2.23,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10758.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "PIFPAF AEROSOL FLYING 400ML",
+      "supplier": "JACK DIB",
+      "subcategory": "INSECT KILLER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10759",
@@ -1316,13 +1644,27 @@
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "285,000",
+      "price_lbp": 285000.0,
       "price_usd": "3.18",
-      "cost": "2.23",
+      "cost": 2.23,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10759.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "PIFPAF FLYING 400ML 2+1 FREE",
+      "supplier": "JACK DIB",
+      "subcategory": "INSECT KILLER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10776",
@@ -1340,22 +1682,31 @@
       "total_stock": "11.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "0.56",
+      "cost": 0.56,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10776.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0"
+          "stock": "3.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "8.0",
+          "consumption": "1.0"
         }
-      }
+      },
+      "name": "HALEK MOUDHECH YELLOW",
+      "supplier": "PLATCO",
+      "subcategory": "INSECT KILLER",
+      "vat": 1
     },
     {
       "id": "10802",
-      "barcode": "6923031220213-6927009710034",
+      "barcode": "6923031220213",
       "Product Description": "CHINESE FLOWER POWDER",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
@@ -1369,13 +1720,27 @@
       "total_stock": "3.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "145,000",
+      "price_lbp": 145000.0,
       "price_usd": "1.62",
-      "cost": "1.23",
+      "cost": 1.23,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10802.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "CHINESE FLOWER POWDER",
+      "supplier": "JACK DIB",
+      "subcategory": "BABY CARE",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "10828",
@@ -1390,12 +1755,12 @@
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "1.0",
+      "total_stock": "8.0",
       "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": "180,000",
+      "price_lbp": 180000.0,
       "price_usd": "2.01",
-      "cost": "1.40",
+      "cost": 1.4,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10828.jpg",
       "new_items": "",
       "manual": "",
@@ -1404,8 +1769,16 @@
         "Geitawi": {
           "stock": "1.0",
           "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "7.0",
+          "consumption": "1.0"
         }
-      }
+      },
+      "name": "VASELINE BLUE SEAL 100ML",
+      "supplier": "JACK DIB",
+      "subcategory": "nail & skin care",
+      "vat": 1
     },
     {
       "id": "10829",
@@ -1417,31 +1790,37 @@
       "sub_category": "nail & skin care",
       "offers": "0",
       "stock_in_geitawi_branch": "-1.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "15.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "14.0",
-      "total_consumption": "3.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "135,000",
+      "price_lbp": 135000.0,
       "price_usd": "1.51",
-      "cost": "0.84",
+      "cost": 0.84,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10829.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "15.0"
-        },
         "Geitawi": {
-          "stock": "-1.0"
+          "stock": "-1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "15.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "VASELINE SMALL",
+      "supplier": "JACK DIB",
+      "subcategory": "nail & skin care",
+      "vat": 1
     },
     {
       "id": "10833",
-      "barcode": "6001087005661-6001087005647",
+      "barcode": "6001087005661",
       "Product Description": "VASELINE 250ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
@@ -1455,22 +1834,31 @@
       "total_stock": "8.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "335,000",
+      "price_lbp": 335000.0,
       "price_usd": "3.74",
-      "cost": "2.23",
+      "cost": 2.23,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10833.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Medawar": {
-          "stock": "8.0"
+          "stock": "8.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "VASELINE 250ML",
+      "supplier": "JACK DIB",
+      "subcategory": "nail & skin care",
+      "vat": 1
     },
     {
       "id": "10842",
-      "barcode": "5281011004125-5281011004156",
+      "barcode": "5281011004125",
       "Product Description": "ALMA",
       "SUPPLIERS": "IMAD CHOUEIRY SAL USD",
       "unit": "-",
@@ -1481,12 +1869,12 @@
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
+      "total_stock": "7.0",
       "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": "125,000",
+      "price_lbp": 125000.0,
       "price_usd": "1.40",
-      "cost": "0.98",
+      "cost": 0.98,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10842.jpg",
       "new_items": "",
       "manual": "",
@@ -1495,12 +1883,20 @@
         "Geitawi": {
           "stock": "5.0",
           "consumption": "2.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "ALMA",
+      "supplier": "IMAD CHOUEIRY SAL USD",
+      "subcategory": "WOMAN CARE",
+      "vat": 1
     },
     {
       "id": "10848",
-      "barcode": "6217000177012-6210260053799",
+      "barcode": "6217000177012",
       "Product Description": "MIM HAIR REMOVALE",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
@@ -1514,21 +1910,27 @@
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "125,000",
+      "price_lbp": 125000.0,
       "price_usd": "1.40",
-      "cost": "0.75",
+      "cost": 0.75,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10848.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0"
+          "stock": "1.0",
+          "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0"
+          "stock": "0.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "MIM HAIR REMOVALE",
+      "supplier": "JACK DIB",
+      "subcategory": "shaving",
+      "vat": 0
     },
     {
       "id": "10849",
@@ -1542,11 +1944,11 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "14.0",
-      "consumption_in_medawar_branch": "6.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "16.0",
-      "total_consumption": "10.0",
+      "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": 105000,
+      "price_lbp": 105000.0,
       "price_usd": "1.17",
       "cost": 0.9155555555555556,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10849.jpg",
@@ -1562,7 +1964,11 @@
           "stock": "14.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIVATE- MAXI NORMAL 10",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10850",
@@ -1580,7 +1986,7 @@
       "total_stock": "7.0",
       "total_consumption": "14.0",
       "VAT": "NO",
-      "price_lbp": 135000,
+      "price_lbp": 135000.0,
       "price_usd": "1.51",
       "cost": 1.2477777777777779,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10850.jpg",
@@ -1596,7 +2002,11 @@
           "stock": "6.0",
           "consumption": "7.0"
         }
-      }
+      },
+      "name": "PRIVATE MAXI SUPER 10",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10851",
@@ -1610,11 +2020,11 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "9.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "11.0",
-      "total_consumption": "6.0",
+      "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": 160000,
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
       "cost": 1.3883333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10851.jpg",
@@ -1630,7 +2040,11 @@
           "stock": "9.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIV X-T NORMAL 10",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10852",
@@ -1642,13 +2056,13 @@
       "sub_category": "femi care",
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
-      "consumption_in_geitawi_branch": "3.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "3.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "7.0",
-      "total_consumption": "6.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 160000,
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
       "cost": 1.3883333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10852.jpg",
@@ -1664,7 +2078,11 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIV X-T SUPER 8",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10854",
@@ -1676,27 +2094,33 @@
       "sub_category": "femi care",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "7.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "8.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "13.0",
-      "total_consumption": "8.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "160,000",
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
-      "cost": "1.29",
+      "cost": 1.29,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10854.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "8.0"
-        },
         "Geitawi": {
-          "stock": "5.0"
+          "stock": "5.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "8.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "BT PRIVATE MISS TEEN 10",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10855",
@@ -1714,13 +2138,27 @@
       "total_stock": "5.0",
       "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "135,000",
+      "price_lbp": 135000.0,
       "price_usd": "1.51",
-      "cost": "1.27",
+      "cost": 1.27,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10855.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "FRESHDAYS SINGLE 18",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "3.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "10856",
@@ -1738,13 +2176,27 @@
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "185,000",
+      "price_lbp": 185000.0,
       "price_usd": "2.07",
-      "cost": "1.51",
+      "cost": 1.51,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10856.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "FRESHDAYS STRING 24",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10857",
@@ -1762,13 +2214,27 @@
       "total_stock": "0.0",
       "total_consumption": "5.0",
       "VAT": "NO",
-      "price_lbp": "150,000",
+      "price_lbp": 150000.0,
       "price_usd": "1.68",
-      "cost": "1.40",
+      "cost": 1.4,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10857.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "FRESHDAYS NORMAL 24",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "2.0"
+        }
+      }
     },
     {
       "id": "10858",
@@ -1782,13 +2248,13 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "5.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "7.0",
-      "total_consumption": "4.0",
+      "total_consumption": "2.0",
       "VAT": "NO",
-      "price_lbp": "105,000",
+      "price_lbp": 105000.0,
       "price_usd": "1.17",
-      "cost": "0.88",
+      "cost": 0.88,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10858.jpg",
       "new_items": "",
       "manual": "",
@@ -1799,9 +2265,14 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "5.0"
+          "stock": "5.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRI MAXI POCKETNORMAL 10",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10860",
@@ -1815,22 +2286,31 @@
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "11.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "16.0",
-      "total_consumption": "7.0",
+      "total_consumption": "2.0",
       "VAT": "NO",
-      "price_lbp": "125,000",
+      "price_lbp": 125000.0,
       "price_usd": "1.40",
-      "cost": "1.19",
+      "cost": 1.19,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10860.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "2.0"
+        },
         "Medawar": {
-          "stock": "11.0"
+          "stock": "11.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "FRESH DAYS LONG 18",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10861",
@@ -1848,13 +2328,27 @@
       "total_stock": "2.0",
       "total_consumption": "3.0",
       "VAT": "NO",
-      "price_lbp": "180,000",
+      "price_lbp": 180000.0,
       "price_usd": "2.01",
-      "cost": "1.51",
+      "cost": 1.51,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10861.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "FRESH DAYS 2IN1 24",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10862",
@@ -1868,11 +2362,11 @@
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "5.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "9.0",
-      "total_consumption": "10.0",
+      "total_consumption": "7.0",
       "VAT": "NO",
-      "price_lbp": 185000,
+      "price_lbp": 185000.0,
       "price_usd": "2.07",
       "cost": 1.6183333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10862.jpg",
@@ -1888,7 +2382,11 @@
           "stock": "5.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "FRESH NORMAL SCENTED 24",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10865",
@@ -1906,17 +2404,31 @@
       "total_stock": "3.0",
       "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "240,000",
+      "price_lbp": 240000.0,
       "price_usd": "2.68",
-      "cost": "2.25",
+      "cost": 2.25,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10865.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "PRIVATE X-T NORMAL ECO 18CT",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10866",
-      "barcode": "5281001314869-5281001319369",
+      "barcode": "5281001314869",
       "Product Description": "PRIVATE X-T NIGHT 14CT",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -1926,11 +2438,11 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "9.0",
-      "consumption_in_medawar_branch": "7.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "9.0",
-      "total_consumption": "11.0",
+      "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": 280000,
+      "price_lbp": 280000.0,
       "price_usd": "2.96",
       "cost": 2.4122222222222223,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10866.jpg",
@@ -1946,7 +2458,11 @@
           "stock": "9.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIVATE X-T NIGHT 14CT",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10867",
@@ -1960,11 +2476,11 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "10.0",
-      "consumption_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "13.0",
-      "total_consumption": "12.0",
+      "total_consumption": "8.0",
       "VAT": "NO",
-      "price_lbp": 160000,
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
       "cost": 1.3888888888888888,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10867.jpg",
@@ -1980,7 +2496,11 @@
           "stock": "10.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIVATE MISS TEEN 20CT",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10869",
@@ -1992,13 +2512,13 @@
       "sub_category": "femi care",
       "offers": "0",
       "stock_in_geitawi_branch": "-2.0",
-      "consumption_in_geitawi_branch": "8.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "9.0",
       "total_stock": "8.0",
-      "total_consumption": "17.0",
+      "total_consumption": "9.0",
       "VAT": "NO",
-      "price_lbp": 225000,
+      "price_lbp": 225000.0,
       "price_usd": "2.51",
       "cost": 1.31,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10869.jpg",
@@ -2006,19 +2526,23 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "10.0",
-          "consumption": "9.0"
-        },
         "Geitawi": {
           "stock": "-2.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "10.0",
+          "consumption": "9.0"
         }
-      }
+      },
+      "name": "PRIVATE MAXI NIGHT 9",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10870",
-      "barcode": "5281001312735-5281001319352",
+      "barcode": "5281001312735",
       "Product Description": "PRIV X-T SUPER ECO 16",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -2032,9 +2556,9 @@
       "total_stock": "12.0",
       "total_consumption": "10.0",
       "VAT": "NO",
-      "price_lbp": "275,000",
+      "price_lbp": 275000.0,
       "price_usd": "3.07",
-      "cost": "2.25",
+      "cost": 2.25,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10870.jpg",
       "new_items": "",
       "manual": "",
@@ -2048,7 +2572,11 @@
           "stock": "8.0",
           "consumption": "5.0"
         }
-      }
+      },
+      "name": "PRIV X-T SUPER ECO 16",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10875",
@@ -2062,11 +2590,11 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "11.0",
       "stock_in_medawar_branch": "3.0",
-      "consumption_in_medawar_branch": "13.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "6.0",
-      "total_consumption": "24.0",
+      "total_consumption": "11.0",
       "VAT": "NO",
-      "price_lbp": 130000,
+      "price_lbp": 130000.0,
       "price_usd": "1.45",
       "cost": 1.1391666666666667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10875.jpg",
@@ -2082,11 +2610,15 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIVATE MAXI POCKET NIGHT 8",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10888",
-      "barcode": "1076241-5281023000399",
+      "barcode": "1076241",
       "Product Description": "RIM WATER GALON 10L",
       "SUPPLIERS": "RIM REFRESHMENT SAL USD",
       "unit": "-",
@@ -2094,13 +2626,13 @@
       "sub_category": "MINERAL WATER",
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
-      "consumption_in_geitawi_branch": "120.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "160.0",
-      "consumption_in_medawar_branch": "75.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "169.0",
-      "total_consumption": "195.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 165000,
+      "price_lbp": 165000.0,
       "price_usd": "1.84",
       "cost": 1.4336363636363636,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10888.jpg",
@@ -2116,7 +2648,11 @@
           "stock": "160.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "RIM WATER GALON 10L",
+      "supplier": "RIM REFRESHMENT SAL USD",
+      "subcategory": "MINERAL WATER",
+      "vat": 1
     },
     {
       "id": "10890",
@@ -2131,12 +2667,12 @@
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "3.0",
+      "total_stock": "16.0",
       "total_consumption": "17.0",
       "VAT": "NO",
-      "price_lbp": "85,000",
+      "price_lbp": 85000.0,
       "price_usd": "0.95",
-      "cost": "0.50",
+      "cost": 0.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10890.jpg",
       "new_items": "",
       "manual": "",
@@ -2145,8 +2681,16 @@
         "Geitawi": {
           "stock": "3.0",
           "consumption": "10.0"
+        },
+        "Medawar": {
+          "stock": "13.0",
+          "consumption": "7.0"
         }
-      }
+      },
+      "name": "SOFT SKIN HAIR REMOVALE",
+      "supplier": "PLATCO",
+      "subcategory": "shaving",
+      "vat": 0
     },
     {
       "id": "10916",
@@ -2164,7 +2708,7 @@
       "total_stock": "15.0",
       "total_consumption": "7.0",
       "VAT": "NO",
-      "price_lbp": 275000,
+      "price_lbp": 275000.0,
       "price_usd": "3.07",
       "cost": 2.4116666666666666,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10916.jpg",
@@ -2172,15 +2716,19 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "6.0",
-          "consumption": "7.0"
-        },
         "Geitawi": {
           "stock": "9.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "7.0"
         }
-      }
+      },
+      "name": "MISSTEEN 16*12",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10919",
@@ -2194,13 +2742,13 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "8.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "8.0",
-      "total_consumption": "7.0",
+      "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": "120,000",
+      "price_lbp": 120000.0,
       "price_usd": "1.34",
-      "cost": "1.01",
+      "cost": 1.01,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10919.jpg",
       "new_items": "",
       "manual": "",
@@ -2211,9 +2759,14 @@
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "8.0"
+          "stock": "8.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIVATE MAXI POCKET",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10966",
@@ -2231,13 +2784,27 @@
       "total_stock": "16.0",
       "total_consumption": "13.0",
       "VAT": "NO",
-      "price_lbp": "230,000",
+      "price_lbp": 230000.0,
       "price_usd": "2.57",
-      "cost": "2.13",
+      "cost": 2.13,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10966.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "PRIVATE 20 MATERNITY",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "6.0",
+          "consumption": "6.0"
+        },
+        "Medawar": {
+          "stock": "10.0",
+          "consumption": "7.0"
+        }
+      }
     },
     {
       "id": "10970",
@@ -2255,13 +2822,27 @@
       "total_stock": "6.0",
       "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "245,000",
+      "price_lbp": 245000.0,
       "price_usd": "2.74",
-      "cost": "1.85",
+      "cost": 1.85,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10970.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "SANITA EASYLOCK 20 BAGS",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "FREEZER BAGS",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "10977",
@@ -2275,25 +2856,31 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "175,000",
+      "price_lbp": 175000.0,
       "price_usd": "1.96",
-      "cost": "1.12",
+      "cost": 1.12,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10977.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "0.0"
-        },
         "Geitawi": {
-          "stock": "0.0"
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "SAMOA COTODOU DISQUES A DEMAQUILLER 80 +4",
+      "supplier": "IMAD CHOUEIRY SAL USD",
+      "subcategory": "COTTONS",
+      "vat": 0
     },
     {
       "id": "10978",
@@ -2307,11 +2894,11 @@
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "12.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "17.0",
-      "total_consumption": "7.0",
+      "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": 280000,
+      "price_lbp": 280000.0,
       "price_usd": "4.53",
       "cost": 2.4122222222222223,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10978.jpg",
@@ -2327,7 +2914,11 @@
           "stock": "12.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIVATE MISS TEEN 20 NORMAL ECO",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10979",
@@ -2345,9 +2936,9 @@
       "total_stock": "10.0",
       "total_consumption": "10.0",
       "VAT": "NO",
-      "price_lbp": "205,000",
+      "price_lbp": 205000.0,
       "price_usd": "2.29",
-      "cost": "1.79",
+      "cost": 1.79,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10979.jpg",
       "new_items": "",
       "manual": "",
@@ -2356,8 +2947,16 @@
         "Geitawi": {
           "stock": "6.0",
           "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "7.0"
         }
-      }
+      },
+      "name": "PRIVATE MAXI 20+10FREE",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10980",
@@ -2371,22 +2970,31 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "13.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "15.0",
-      "total_consumption": "7.0",
+      "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": "260,000",
+      "price_lbp": 260000.0,
       "price_usd": "2.91",
-      "cost": "2.10",
+      "cost": 2.1,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10980.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "4.0"
+        },
         "Medawar": {
-          "stock": "13.0"
+          "stock": "13.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRIVATE MAXI 16+8 FREE",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "femi care",
+      "vat": 0
     },
     {
       "id": "10985",
@@ -2404,9 +3012,9 @@
       "total_stock": "5.0",
       "total_consumption": "4.0",
       "VAT": "YES",
-      "price_lbp": "305,000",
+      "price_lbp": 305000.0,
       "price_usd": "3.41",
-      "cost": "2.32",
+      "cost": 2.32,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10985.jpg",
       "new_items": "",
       "manual": "",
@@ -2420,11 +3028,15 @@
           "stock": "3.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "name": "CLIPP",
+      "supplier": "JACK DIB",
+      "subcategory": "nail & skin care",
+      "vat": 1
     },
     {
       "id": "10986",
-      "barcode": "42164104-6009607090012",
+      "barcode": "42164104",
       "Product Description": "NIVEA CREAM 60ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
@@ -2434,13 +3046,13 @@
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "17.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "23.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "200,000",
+      "price_lbp": 200000.0,
       "price_usd": "2.23",
-      "cost": "1.56",
+      "cost": 1.56,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10986.jpg",
       "new_items": "",
       "manual": "",
@@ -2451,11 +3063,16 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "17.0"
+          "stock": "17.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "NIVEA CREAM 60ML",
+      "supplier": "JACK DIB",
+      "subcategory": "nail & skin care",
+      "vat": 1
     }
   ],
-  "updatedAt": "2026-05-09T16:42:42.214377Z",
+  "updatedAt": "2026-05-09T19:32:14.861240Z",
   "source": "sql"
 }
