@@ -4963,7 +4963,19 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "cost": 0.75
+      "cost": 0.75,
+      "stock_in_geitawi_branch": "-1.0",
+      "total_stock": "-1.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "-1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "21686",
@@ -9523,11 +9535,11 @@
       "sub_category": "SHISHA STUFF",
       "offers": "",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-25.0",
+      "stock_in_geitawi_branch": "-26.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "100.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "75.0",
+      "total_stock": "74.0",
       "total_consumption": "13.0",
       "VAT": "YES",
       "price_lbp": 180000,
@@ -9545,7 +9557,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-25.0",
+          "stock": "-26.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -10027,11 +10039,11 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "cost": 0.127083,
-      "stock_in_geitawi_branch": "-11.0",
-      "total_stock": "-11.0",
+      "stock_in_geitawi_branch": "-14.0",
+      "total_stock": "-14.0",
       "branches": {
         "Geitawi": {
-          "stock": "-11.0",
+          "stock": "-14.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -12902,6 +12914,6 @@
       "delivery_rules": ""
     }
   ],
-  "updatedAt": "2026-05-09T13:50:24.198857Z",
+  "updatedAt": "2026-05-09T14:37:02.969709Z",
   "source": "sql"
 }
