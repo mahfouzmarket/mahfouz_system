@@ -15799,9 +15799,9 @@
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.44",
-      "cost": "1.81",
+      "cost": 1.81,
       "cost_ht": "1.81",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20475.jpg",
       "new_items": "",
@@ -15823,7 +15823,11 @@
         }
       },
       "product_setup_save_token": "PS-SAVE-20475-1778357898918310",
-      "product_setup_saved_at_utc": "2026-05-09T20:18:18.918310Z"
+      "product_setup_saved_at_utc": "2026-05-09T20:18:18.918310Z",
+      "name": "PRINGLES CHEESE & ONION 165 G",
+      "supplier": "MAHMOUD CHOCOLATE",
+      "subcategory": "PRINGLES",
+      "vat": 1
     },
     {
       "id": "20476",
@@ -16353,11 +16357,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "43.0",
       "stock_in_medawar_branch": "34.0",
       "consumption_in_medawar_branch": "23.0",
-      "total_stock": "36.0",
+      "total_stock": "35.0",
       "total_consumption": "66.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
@@ -16369,7 +16373,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "1.0",
           "consumption": "43.0"
         },
         "Medawar": {
@@ -16615,6 +16619,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-09T20:18:18.898067Z",
+  "updatedAt": "2026-05-09T20:43:13.600994Z",
   "source": "sql"
 }
