@@ -16,9 +16,9 @@
       "total_stock": "23.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "210,000",
+      "price_lbp": 210000.0,
       "price_usd": "2.07",
-      "cost": "1.6300",
+      "cost": 1.63,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7010.jpg",
       "new_items": "",
       "manual": "",
@@ -27,7 +27,20 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "AL WADI HOMMOS TAHINA 850GR",
+      "subcategory": "cans & jams",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "8.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "15.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "7011",
@@ -41,25 +54,31 @@
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "9.0",
-      "total_consumption": "5.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "105,000",
+      "price_lbp": 105000.0,
       "price_usd": "1.17",
-      "cost": "1.02",
+      "cost": 1.02,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7011.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "1.0"
-        },
         "Geitawi": {
-          "stock": "8.0"
+          "stock": "8.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "PEELED WHEAT 900 G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 1
     },
     {
       "id": "7141",
@@ -77,9 +96,9 @@
       "total_stock": "52.0",
       "total_consumption": "19.0",
       "VAT": "YES",
-      "price_lbp": "100,000",
+      "price_lbp": 100000.0,
       "price_usd": "0.95",
-      "cost": "0.6975",
+      "cost": 0.6975,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7141.jpg",
       "new_items": "",
       "manual": "",
@@ -98,7 +117,10 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "W/A FOUL+CHICK PEAS",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7149",
@@ -116,23 +138,27 @@
       "total_stock": "15.0",
       "total_consumption": "43.0",
       "VAT": "YES",
-      "price_lbp": "250,000",
+      "price_lbp": 250000.0,
       "price_usd": "2.79",
-      "cost": "2.22",
+      "cost": 2.22,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7149.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "13.0",
-          "consumption": "21.0"
-        },
         "Geitawi": {
           "stock": "2.0",
           "consumption": "22.0"
+        },
+        "Medawar": {
+          "stock": "13.0",
+          "consumption": "21.0"
         }
-      }
+      },
+      "name": "MAXIMS TUNA OIL 180 gr",
+      "supplier": "toters",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7246",
@@ -143,14 +169,14 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "307.0",
-      "consumption_in_geitawi_branch": "650.0",
+      "stock_in_geitawi_branch": "306.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "323.0",
-      "consumption_in_medawar_branch": "680.0",
-      "total_stock": "630.0",
-      "total_consumption": "1330.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "629.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 95000,
+      "price_lbp": 95000.0,
       "price_usd": "1.06",
       "cost": 0.8888888888888888,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7246.jpg",
@@ -159,14 +185,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "307.0",
+          "stock": "306.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "323.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AL WAFA WHITE BREAD LARGE",
+      "supplier": "AL HATAB",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7247",
@@ -177,14 +207,14 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "87.0",
-      "consumption_in_geitawi_branch": "120.0",
+      "stock_in_geitawi_branch": "86.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "60.0",
-      "consumption_in_medawar_branch": "99.0",
-      "total_stock": "147.0",
-      "total_consumption": "219.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "146.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 150000,
+      "price_lbp": 150000.0,
       "price_usd": "1.68",
       "cost": 1.4444444444444444,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7247.jpg",
@@ -193,14 +223,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "87.0",
+          "stock": "86.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "60.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MOULIN D'OR BROWN BREAD LARGE",
+      "supplier": "MOULIN D'OR",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7248",
@@ -212,13 +246,13 @@
       "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "70.0",
-      "consumption_in_geitawi_branch": "108.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "21.0",
-      "consumption_in_medawar_branch": "67.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "91.0",
-      "total_consumption": "175.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 120000,
+      "price_lbp": 120000.0,
       "price_usd": "1.34",
       "cost": 1.1666666666666667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7248.jpg",
@@ -234,7 +268,11 @@
           "stock": "21.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MOULIN D'OR BROWN BREAD SMALL",
+      "supplier": "MOULIN D'OR",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7274",
@@ -252,13 +290,27 @@
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "0.95",
+      "cost": 0.95,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7274.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "KAAK AL WAFAA 300G",
+      "supplier": "AL HATAB",
+      "subcategory": "BAKERY",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "7304",
@@ -269,14 +321,14 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "12.0",
-      "consumption_in_geitawi_branch": "194.0",
+      "stock_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "31.0",
-      "consumption_in_medawar_branch": "94.0",
-      "total_stock": "43.0",
-      "total_consumption": "288.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "41.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 65000,
+      "price_lbp": 65000.0,
       "price_usd": "0.73",
       "cost": 0.5777777777777777,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7304.jpg",
@@ -285,14 +337,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "12.0",
+          "stock": "10.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "31.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AL FORNO WHITE SMALL BREAD",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7305",
@@ -304,13 +360,13 @@
       "sub_category": "Croissant",
       "offers": "0",
       "stock_in_geitawi_branch": "35.0",
-      "consumption_in_geitawi_branch": "128.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "20.0",
-      "consumption_in_medawar_branch": "90.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "55.0",
-      "total_consumption": "218.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 75000,
+      "price_lbp": 75000.0,
       "price_usd": "0.73",
       "cost": 0.71,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7305.jpg",
@@ -333,7 +389,10 @@
       "secondary_sub_category": "",
       "supplier": "GLOBAL FOODS SAL",
       "updatedAt": "2026-05-09T00:33:34",
-      "priceRepair": "bimpos_20260508_under_cost_floor"
+      "priceRepair": "bimpos_20260508_under_cost_floor",
+      "name": "FORNO CROISANT CHOCOLAT",
+      "subcategory": "Croissant",
+      "vat": 1
     },
     {
       "id": "7306",
@@ -345,13 +404,13 @@
       "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "351.0",
-      "consumption_in_geitawi_branch": "12.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "5.0",
-      "consumption_in_medawar_branch": "7.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "356.0",
-      "total_consumption": "19.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 215000,
+      "price_lbp": 215000.0,
       "price_usd": "2.40",
       "cost": 2.06,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7306.jpg",
@@ -367,7 +426,11 @@
           "stock": "5.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AL FORNO PAIN DE MIE",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 1
     },
     {
       "id": "7307",
@@ -381,11 +444,11 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "11.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "15.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "2.0",
-      "total_consumption": "26.0",
+      "total_consumption": "11.0",
       "VAT": "NO",
-      "price_lbp": 185000,
+      "price_lbp": 185000.0,
       "price_usd": "2.07",
       "cost": 1.89,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7307.jpg",
@@ -401,7 +464,11 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AL FORNO MARKOUK/ OAT",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7308",
@@ -413,13 +480,13 @@
       "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
-      "consumption_in_geitawi_branch": "14.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "24.0",
-      "consumption_in_medawar_branch": "58.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "27.0",
-      "total_consumption": "72.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 90000,
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
       "cost": 0.99,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7308.jpg",
@@ -435,11 +502,15 @@
           "stock": "24.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AL FORNO TANNOUR BROWN SOURCE OF FIBER",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7310",
-      "barcode": "5280320000507-2285536410105",
+      "barcode": "5280320000507",
       "Product Description": "AL FORNO MARKOUK OAT 190GR 7 PCS",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "unit": "-",
@@ -453,7 +524,7 @@
       "total_stock": "549.0",
       "total_consumption": "74.0",
       "VAT": "NO",
-      "price_lbp": 190000,
+      "price_lbp": 190000.0,
       "price_usd": "2.12",
       "cost": 1.99,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7310.jpg",
@@ -469,7 +540,11 @@
           "stock": "17.0",
           "consumption": "40.0"
         }
-      }
+      },
+      "name": "AL FORNO MARKOUK OAT 190GR 7 PCS",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7311",
@@ -480,14 +555,14 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "351.0",
-      "consumption_in_geitawi_branch": "34.0",
+      "stock_in_geitawi_branch": "350.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "20.0",
-      "consumption_in_medawar_branch": "46.0",
-      "total_stock": "371.0",
-      "total_consumption": "80.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "370.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 100000,
+      "price_lbp": 100000.0,
       "price_usd": "1.12",
       "cost": 1.09,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7311.jpg",
@@ -496,14 +571,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "351.0",
+          "stock": "350.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "20.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AL FORNO MINI SOFT BREAD 8PCS",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7314",
@@ -521,13 +600,27 @@
       "total_stock": "1.0",
       "total_consumption": "10.0",
       "VAT": "NO",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "0.82",
+      "cost": 0.82,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7314.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "AL FORNO MESHTAH PLAIN",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "5.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "5.0"
+        }
+      }
     },
     {
       "id": "7318",
@@ -539,13 +632,13 @@
       "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "10.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 170000,
+      "price_lbp": 170000.0,
       "price_usd": "1.90",
       "cost": 1.88,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7318.jpg",
@@ -561,7 +654,11 @@
           "stock": "9.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KAAK BRAN WITH THYME 250G",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 1
     },
     {
       "id": "7319",
@@ -579,13 +676,27 @@
       "total_stock": "4.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "170,000",
+      "price_lbp": 170000.0,
       "price_usd": "1.90",
-      "cost": "1.08",
+      "cost": 1.08,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7319.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "KAAK LIGHT SON 250G",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "7320",
@@ -597,13 +708,13 @@
       "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "7.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "8.0",
-      "consumption_in_medawar_branch": "14.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "13.0",
-      "total_consumption": "21.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 180000,
+      "price_lbp": 180000.0,
       "price_usd": "1.73",
       "cost": 1.79,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7320.jpg",
@@ -621,7 +732,11 @@
         }
       },
       "updatedAt": "2026-05-09T00:33:34",
-      "priceRepair": "bimpos_20260508_under_cost_floor"
+      "priceRepair": "bimpos_20260508_under_cost_floor",
+      "name": "KAAK CRUNCHY 250G",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 1
     },
     {
       "id": "7321",
@@ -639,13 +754,27 @@
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "170,000",
+      "price_lbp": 170000.0,
       "price_usd": "1.90",
-      "cost": "0.98",
+      "cost": 0.98,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7321.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "KAAK RING 250G",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "7323",
@@ -659,13 +788,13 @@
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "-1.0",
-      "consumption_in_medawar_branch": "18.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "4.0",
-      "total_consumption": "24.0",
+      "total_consumption": "6.0",
       "VAT": "NO",
-      "price_lbp": 180000,
+      "price_lbp": 180000.0,
       "price_usd": "1.79",
-      "cost": "1.08",
+      "cost": 1.08,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7323.jpg",
       "new_items": "",
       "manual": "",
@@ -676,11 +805,16 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "-1.0"
+          "stock": "-1.0",
+          "consumption": "0.0"
         }
       },
       "updatedAt": "2026-05-09T00:33:34",
-      "priceRepair": "bimpos_20260508_under_cost_floor"
+      "priceRepair": "bimpos_20260508_under_cost_floor",
+      "name": "KAAK SESAME LONG 250G FORNO",
+      "supplier": "GLOBAL FOODS SAL",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7348",
@@ -691,14 +825,14 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "74.0",
-      "consumption_in_geitawi_branch": "120.0",
+      "stock_in_geitawi_branch": "72.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "54.0",
-      "consumption_in_medawar_branch": "132.0",
-      "total_stock": "128.0",
-      "total_consumption": "252.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "126.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 75000,
+      "price_lbp": 75000.0,
       "price_usd": "0.84",
       "cost": 0.6666666666666666,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7348.jpg",
@@ -707,18 +841,22 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "74.0",
+          "stock": "72.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "54.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AL WAFA BROWN BREAD SMALL",
+      "supplier": "AL HATAB",
+      "subcategory": "BAKERY",
+      "vat": 0
     },
     {
       "id": "7362",
-      "barcode": "10764-5287001307177",
+      "barcode": "10764",
       "Product Description": "RIMAS",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "unit": "-",
@@ -726,13 +864,13 @@
       "sub_category": "sweets",
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
-      "consumption_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "323.0",
-      "consumption_in_medawar_branch": "702.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "332.0",
-      "total_consumption": "712.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 20000,
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
       "cost": 0.1111111111111111,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7362.jpg",
@@ -753,7 +891,10 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "EDWIN YAZBECK FOR TRADING"
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "name": "RIMAS",
+      "subcategory": "sweets",
+      "vat": 0
     },
     {
       "id": "7444",
@@ -767,13 +908,13 @@
       "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "22.0",
-      "consumption_in_medawar_branch": "18.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "32.0",
-      "total_consumption": "28.0",
+      "total_consumption": "10.0",
       "VAT": "YES",
-      "price_lbp": "235,000",
+      "price_lbp": 235000.0,
       "price_usd": "2.35",
-      "cost": "1.9500",
+      "cost": 1.95,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7444.jpg",
       "new_items": "",
       "manual": "",
@@ -792,7 +933,10 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "AL WADI WHOLE MUSHROOMS 400G",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7448",
@@ -803,35 +947,38 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
-      "consumption_in_geitawi_branch": "21.0",
+      "stock_in_geitawi_branch": "7.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "78.0",
       "consumption_in_medawar_branch": "20.0",
-      "total_stock": "87.0",
-      "total_consumption": "41.0",
+      "total_stock": "85.0",
+      "total_consumption": "20.0",
       "VAT": "YES",
-      "price_lbp": "115,000",
+      "price_lbp": 115000.0,
       "price_usd": "1.12",
-      "cost": "0.7721",
+      "cost": 0.7721,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7448.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "7.0",
+          "consumption": "0.0"
+        },
         "Medawar": {
           "stock": "78.0",
           "consumption": "20.0"
-        },
-        "Geitawi": {
-          "stock": "9.0",
-          "consumption": "0.0"
         }
       },
       "sub": "cans & jams",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "W/A CHICK PEAS 400G",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7449",
@@ -843,15 +990,15 @@
       "sub_category": "cans & jams",
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
-      "consumption_in_geitawi_branch": "29.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "81.0",
-      "consumption_in_medawar_branch": "24.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "87.0",
-      "total_consumption": "53.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "170,000",
+      "price_lbp": 170000.0,
       "price_usd": "1.40",
-      "cost": "1.1790",
+      "cost": 1.179,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7449.jpg",
       "new_items": "",
       "manual": "",
@@ -870,11 +1017,14 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "WAK WHOLE K. CORN 340G",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7454",
-      "barcode": "5281117000168-5283006800958",
+      "barcode": "5281117000168",
       "Product Description": "WAK GARDEN PEAS 400G",
       "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
       "unit": "-",
@@ -885,12 +1035,12 @@
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "21.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "12.0",
+      "total_stock": "33.0",
       "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": "285,000",
+      "price_lbp": 285000.0,
       "price_usd": "2.79",
-      "cost": "2.1000",
+      "cost": 2.1,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7454.jpg",
       "new_items": "",
       "manual": "",
@@ -899,13 +1049,20 @@
         "Geitawi": {
           "stock": "12.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "21.0",
+          "consumption": "3.0"
         }
       },
       "sub": "cans & jams",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "WAK GARDEN PEAS 400G",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7455",
@@ -917,15 +1074,15 @@
       "sub_category": "cans & jams",
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
-      "consumption_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "9.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "12.0",
-      "total_consumption": "12.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "475,000",
+      "price_lbp": 475000.0,
       "price_usd": "4.69",
-      "cost": "3.8000",
+      "cost": 3.8,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7455.jpg",
       "new_items": "",
       "manual": "",
@@ -944,11 +1101,14 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "WAK GARDEN PEAS 800G",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7458",
-      "barcode": "5281117000724-5281117013663",
+      "barcode": "5281117000724",
       "Product Description": "W/A HOMMOS TAHINA 380G.",
       "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
       "unit": "-",
@@ -962,9 +1122,9 @@
       "total_stock": "15.0",
       "total_consumption": "16.0",
       "VAT": "YES",
-      "price_lbp": "125,000",
+      "price_lbp": 125000.0,
       "price_usd": "1.23",
-      "cost": "0.8900",
+      "cost": 0.89,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7458.jpg",
       "new_items": "",
       "manual": "",
@@ -983,7 +1143,10 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "W/A HOMMOS TAHINA 380G.",
+      "subcategory": "cans & jams",
+      "vat": 1
     },
     {
       "id": "7464",
@@ -995,36 +1158,39 @@
       "sub_category": "cans & jams",
       "offers": "0",
       "stock_in_geitawi_branch": "20.0",
-      "consumption_in_geitawi_branch": "22.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "69.0",
       "consumption_in_medawar_branch": "7.0",
       "total_stock": "89.0",
-      "total_consumption": "29.0",
+      "total_consumption": "7.0",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "0.89",
-      "cost": "0.6138",
+      "cost": 0.6138,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7464.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "69.0",
-          "consumption": "7.0"
-        },
         "Geitawi": {
           "stock": "20.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "69.0",
+          "consumption": "7.0"
         }
       },
       "sub": "cans & jams",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "SMART FUNCTION SOCIETY SARL"
+      "supplier": "SMART FUNCTION SOCIETY SARL",
+      "name": "W/A FOUL MOUDAMMAS 400G",
+      "subcategory": "cans & jams",
+      "vat": 1
     }
   ],
-  "updatedAt": "2026-05-09T15:13:14.935889Z",
+  "updatedAt": "2026-05-09T18:53:44.162967Z",
   "source": "sql"
 }

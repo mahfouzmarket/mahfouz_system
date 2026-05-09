@@ -16,19 +16,27 @@
       "total_stock": "0.0",
       "total_consumption": "10.0",
       "VAT": "NO",
-      "price_lbp": "225,000",
+      "price_lbp": 225000.0,
       "price_usd": "2.51",
-      "cost": "2.19",
+      "cost": 2.19,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5608.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "6.0"
+        },
         "Medawar": {
           "stock": "0.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "name": "TARTINA CHEESE 200G",
+      "supplier": "AL HAMAWI TRADING",
+      "subcategory": "PROCESSED CHEESE",
+      "vat": 0
     },
     {
       "id": "5636",
@@ -46,13 +54,27 @@
       "total_stock": "1.0",
       "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "205,000",
+      "price_lbp": 205000.0,
       "price_usd": "2.29",
-      "cost": "2.01",
+      "cost": 2.01,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5636.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "PLEIN SOLEIL BUTTER 200 G",
+      "supplier": "AL HAMAWI TRADING",
+      "subcategory": "BUTTER",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "5672",
@@ -70,13 +92,27 @@
       "total_stock": "2.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "115,000",
+      "price_lbp": 115000.0,
       "price_usd": "1.28",
-      "cost": "1.25",
+      "cost": 1.25,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5672.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "FAVE BEANS AOUN 900 G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "5698",
@@ -90,13 +126,13 @@
       "stock_in_geitawi_branch": "22.0",
       "consumption_in_geitawi_branch": "5.0",
       "stock_in_medawar_branch": "39.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "61.0",
-      "total_consumption": "7.0",
+      "total_consumption": "5.0",
       "VAT": "NO",
-      "price_lbp": "290,000",
+      "price_lbp": 290000.0,
       "price_usd": "3.24",
-      "cost": "2.75",
+      "cost": 2.75,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5698.jpg",
       "new_items": "",
       "manual": "",
@@ -110,7 +146,11 @@
           "stock": "39.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "ZAATAR BALADE 200GR",
+      "supplier": "NOUNA'S FOOD",
+      "subcategory": "SEEDS",
+      "vat": 0
     },
     {
       "id": "5700",
@@ -128,7 +168,7 @@
       "total_stock": "10.0",
       "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": 110000,
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
       "cost": 0.874,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5700.jpg",
@@ -144,7 +184,11 @@
           "stock": "4.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "GRILLED SESAME 200G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 1
     },
     {
       "id": "5703",
@@ -155,14 +199,14 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "22.0",
+      "stock_in_geitawi_branch": "17.0",
       "consumption_in_geitawi_branch": "24.0",
-      "stock_in_medawar_branch": "108.0",
+      "stock_in_medawar_branch": "98.0",
       "consumption_in_medawar_branch": "39.0",
-      "total_stock": "130.0",
+      "total_stock": "115.0",
       "total_consumption": "63.0",
       "VAT": "NO",
-      "price_lbp": 30000,
+      "price_lbp": 30000.0,
       "price_usd": "0.34",
       "cost": 0.2576,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5703.jpg",
@@ -170,15 +214,19 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "108.0",
-          "consumption": "39.0"
-        },
         "Geitawi": {
-          "stock": "22.0",
+          "stock": "17.0",
           "consumption": "24.0"
+        },
+        "Medawar": {
+          "stock": "98.0",
+          "consumption": "39.0"
         }
-      }
+      },
+      "name": "SALT AOUN 1 KG",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 0
     },
     {
       "id": "5712",
@@ -193,12 +241,12 @@
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "13.0",
+      "total_stock": "17.0",
       "total_consumption": "2.0",
       "VAT": "NO",
-      "price_lbp": "115,000",
+      "price_lbp": 115000.0,
       "price_usd": "1.28",
-      "cost": "0.88",
+      "cost": 0.88,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5712.jpg",
       "new_items": "",
       "manual": "",
@@ -207,8 +255,16 @@
         "Geitawi": {
           "stock": "13.0",
           "consumption": "2.0"
+        },
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "MAGIC CHEF SALT 700G.",
+      "supplier": "MANY FOOD SARL",
+      "subcategory": "cans & jams",
+      "vat": 0
     },
     {
       "id": "5736",
@@ -226,13 +282,27 @@
       "total_stock": "-2.0",
       "total_consumption": "2.0",
       "VAT": "NO",
-      "price_lbp": "20,000",
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
-      "cost": "0.14",
+      "cost": 0.14,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5736.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "DAABOOL BROTHERS SALT 700G",
+      "supplier": "R&C DISTRIBUTION SAL USD",
+      "subcategory": "SEEDS",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "-2.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "5740",
@@ -250,7 +320,7 @@
       "total_stock": "11.0",
       "total_consumption": "5.0",
       "VAT": "NO",
-      "price_lbp": 120000,
+      "price_lbp": 120000.0,
       "price_usd": "1.34",
       "cost": 1.012,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5740.jpg",
@@ -266,7 +336,11 @@
           "stock": "10.0",
           "consumption": "3.0"
         }
-      }
+      },
+      "name": "BSEIB ASSORTE 500G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 0
     },
     {
       "id": "5767",
@@ -277,30 +351,34 @@
       "category": "FOOD",
       "sub_category": "POPCORN",
       "offers": "0",
-      "stock_in_geitawi_branch": "34.0",
+      "stock_in_geitawi_branch": "31.0",
       "consumption_in_geitawi_branch": "28.0",
       "stock_in_medawar_branch": "44.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "78.0",
+      "total_stock": "75.0",
       "total_consumption": "40.0",
       "VAT": "NO",
-      "price_lbp": "150,000",
+      "price_lbp": 150000.0,
       "price_usd": "1.68",
-      "cost": "1.37",
+      "cost": 1.37,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5767.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "34.0",
+          "stock": "31.0",
           "consumption": "28.0"
         },
         "Medawar": {
           "stock": "44.0",
           "consumption": "12.0"
         }
-      }
+      },
+      "name": "POP CORN MAGIC CHEF",
+      "supplier": "MANY FOOD SARL",
+      "subcategory": "POPCORN",
+      "vat": 0
     },
     {
       "id": "5777",
@@ -311,29 +389,34 @@
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "6.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "8.0",
-      "total_consumption": "5.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "7.0",
+      "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": "490,000",
+      "price_lbp": 490000.0,
       "price_usd": "5.47",
-      "cost": "3.55",
+      "cost": 3.55,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5777.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "1.0",
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "6.0"
+          "stock": "6.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "KLATCHI DRY FRUITS 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5778",
@@ -346,12 +429,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "7.0",
-      "stock_in_medawar_branch": "-3.0",
+      "stock_in_medawar_branch": "-5.0",
       "consumption_in_medawar_branch": "13.0",
-      "total_stock": "2.0",
+      "total_stock": "0.0",
       "total_consumption": "20.0",
       "VAT": "NO",
-      "price_lbp": 520000,
+      "price_lbp": 520000.0,
       "price_usd": "5.81",
       "cost": 3.42,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5778.jpg",
@@ -359,15 +442,19 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "-3.0",
-          "consumption": "13.0"
-        },
         "Geitawi": {
           "stock": "5.0",
           "consumption": "7.0"
+        },
+        "Medawar": {
+          "stock": "-5.0",
+          "consumption": "13.0"
         }
-      }
+      },
+      "name": "KLATCHI MIXED KERNELS 225G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5779",
@@ -380,12 +467,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "13.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "13.0",
-      "total_stock": "13.0",
+      "total_stock": "12.0",
       "total_consumption": "26.0",
       "VAT": "NO",
-      "price_lbp": 350000,
+      "price_lbp": 350000.0,
       "price_usd": "3.91",
       "cost": 2.8,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5779.jpg",
@@ -393,15 +480,19 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "7.0",
-          "consumption": "13.0"
-        },
         "Geitawi": {
           "stock": "6.0",
           "consumption": "13.0"
+        },
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "13.0"
         }
-      }
+      },
+      "name": "KLATCHI SUPER EXTRA NUTS 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5780",
@@ -412,14 +503,14 @@
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "13.0",
-      "consumption_in_medawar_branch": "7.0",
-      "total_stock": "18.0",
-      "total_consumption": "11.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "15.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 240000,
+      "price_lbp": 240000.0,
       "price_usd": "2.46",
       "cost": 1.92,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5780.jpg",
@@ -428,14 +519,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "2.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "13.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KLATCHI MELON SEEDS 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5781",
@@ -448,12 +543,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "11.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "15.0",
+      "total_stock": "14.0",
       "total_consumption": "3.0",
       "VAT": "NO",
-      "price_lbp": 220000,
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
       "cost": 2.1818181818181817,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5781.jpg",
@@ -461,15 +556,19 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "11.0",
-          "consumption": "2.0"
-        },
         "Geitawi": {
           "stock": "4.0",
           "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "10.0",
+          "consumption": "2.0"
         }
-      }
+      },
+      "name": "KLATCHI SUGARED CHICKPEAS 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5783",
@@ -481,15 +580,15 @@
       "sub_category": "KLATCHI",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "3.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "8.0",
-      "total_consumption": "4.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "6.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 220000,
+      "price_lbp": 220000.0,
       "price_usd": "2.40",
-      "cost": "1.61",
+      "cost": 1.61,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5783.jpg",
       "new_items": "",
       "manual": "",
@@ -500,12 +599,16 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "1.0",
           "consumption": "0.0"
         }
       },
       "updatedAt": "2026-05-09T00:33:34",
-      "priceRepair": "bimpos_20260508_under_cost_floor"
+      "priceRepair": "bimpos_20260508_under_cost_floor",
+      "name": "KLATCHI JAPANESE CRACKERS 160G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5784",
@@ -516,14 +619,14 @@
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
-      "consumption_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "7.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "10.0",
-      "consumption_in_medawar_branch": "18.0",
-      "total_stock": "19.0",
-      "total_consumption": "28.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "17.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 170000,
+      "price_lbp": 170000.0,
       "price_usd": "1.90",
       "cost": 1.36,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5784.jpg",
@@ -532,14 +635,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "9.0",
+          "stock": "7.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "10.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KLATCHI SUNFLOWER SALTED 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5789",
@@ -552,14 +659,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "5.0",
+      "total_stock": "3.0",
       "total_consumption": "9.0",
       "VAT": "NO",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.61",
+      "cost": 1.61,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5789.jpg",
       "new_items": "",
       "manual": "",
@@ -570,10 +677,14 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "1.0",
+          "stock": "-1.0",
           "consumption": "3.0"
         }
-      }
+      },
+      "name": "KLATCHI CRISPY KRI KRI 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5791",
@@ -586,14 +697,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "8.0",
+      "total_stock": "7.0",
       "total_consumption": "3.0",
       "VAT": "NO",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.47",
+      "cost": 1.47,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5791.jpg",
       "new_items": "",
       "manual": "",
@@ -604,14 +715,18 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "5.0",
+          "stock": "4.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "name": "KLATCHI BARBECUE RINGS 170 G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5794",
-      "barcode": "5287000845571-5287000845465",
+      "barcode": "5287000845571",
       "Product Description": "KLATCHI DELUXE MIX 250 G",
       "SUPPLIERS": "WES3 EL MADA",
       "unit": "-",
@@ -625,13 +740,27 @@
       "total_stock": "3.0",
       "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": "390,000",
+      "price_lbp": 390000.0,
       "price_usd": "4.36",
-      "cost": "2.74",
+      "cost": 2.74,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5794.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "KLATCHI DELUXE MIX 250 G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "3.0"
+        }
+      }
     },
     {
       "id": "5797",
@@ -642,14 +771,14 @@
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
-      "stock_in_geitawi_branch": "8.0",
+      "stock_in_geitawi_branch": "7.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "13.0",
-      "consumption_in_medawar_branch": "7.0",
-      "total_stock": "21.0",
-      "total_consumption": "13.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "20.0",
+      "total_consumption": "6.0",
       "VAT": "NO",
-      "price_lbp": 240000,
+      "price_lbp": 240000.0,
       "price_usd": "2.68",
       "cost": 1.92,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5797.jpg",
@@ -658,14 +787,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "8.0",
+          "stock": "7.0",
           "consumption": "6.0"
         },
         "Medawar": {
           "stock": "13.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KLATCHI MIXED NUTS 300G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5804",
@@ -677,13 +810,13 @@
       "sub_category": "KLATCHI",
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
-      "consumption_in_geitawi_branch": "16.0",
-      "stock_in_medawar_branch": "30.0",
-      "consumption_in_medawar_branch": "15.0",
-      "total_stock": "36.0",
-      "total_consumption": "31.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "29.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "35.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 90000,
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
       "cost": 0.68,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5804.jpg",
@@ -696,10 +829,14 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "30.0",
+          "stock": "29.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KLATCHI SUNFLOWER SEEDS 150G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5805",
@@ -712,14 +849,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "13.0",
+      "total_stock": "12.0",
       "total_consumption": "8.0",
       "VAT": "NO",
-      "price_lbp": "240,000",
+      "price_lbp": 240000.0,
       "price_usd": "2.68",
-      "cost": "1.76",
+      "cost": 1.76,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5805.jpg",
       "new_items": "",
       "manual": "",
@@ -730,10 +867,14 @@
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "7.0",
+          "stock": "6.0",
           "consumption": "5.0"
         }
-      }
+      },
+      "name": "KLATCHI KRI KRI BARBECUE 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5807",
@@ -746,12 +887,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "10.0",
-      "stock_in_medawar_branch": "20.0",
-      "consumption_in_medawar_branch": "8.0",
-      "total_stock": "26.0",
-      "total_consumption": "18.0",
+      "stock_in_medawar_branch": "17.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "23.0",
+      "total_consumption": "10.0",
       "VAT": "NO",
-      "price_lbp": 160000,
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
       "cost": 1.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5807.jpg",
@@ -764,10 +905,14 @@
           "consumption": "10.0"
         },
         "Medawar": {
-          "stock": "20.0",
+          "stock": "17.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KLATCHI KERNELS 80 GR",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5810",
@@ -785,9 +930,9 @@
       "total_stock": "6.0",
       "total_consumption": "12.0",
       "VAT": "NO",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.61",
+      "cost": 1.61,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5810.jpg",
       "new_items": "",
       "manual": "",
@@ -801,7 +946,11 @@
           "stock": "3.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "name": "KLATCHI CHINESE MIX HOT 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5811",
@@ -813,24 +962,33 @@
       "sub_category": "KLATCHI",
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "4.0",
-      "total_consumption": "2.0",
+      "total_stock": "6.0",
+      "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.77",
+      "cost": 1.77,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5811.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0"
+          "stock": "4.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "1.0"
         }
-      }
+      },
+      "name": "KLATCHI CHEESE RINGS 170G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5838",
@@ -848,13 +1006,27 @@
       "total_stock": "13.0",
       "total_consumption": "4.0",
       "VAT": "NO",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "1.00",
+      "cost": 1.0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5838.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "BURGHUL WHITE SOFT AOUN 900GR",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "8.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "5839",
@@ -872,13 +1044,27 @@
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "160,000",
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
-      "cost": "0.62",
+      "cost": 0.62,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5839.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "KLATCHI RAW KERNELSGR",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "5841",
@@ -890,13 +1076,13 @@
       "sub_category": "KLATCHI",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "8.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "19.0",
-      "consumption_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "19.0",
-      "total_consumption": "12.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 240000,
+      "price_lbp": 240000.0,
       "price_usd": "2.46",
       "cost": 1.92,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5841.jpg",
@@ -912,7 +1098,11 @@
           "stock": "19.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KLATCHI SUN FLOWERE KERNELS 250G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 0
     },
     {
       "id": "5844",
@@ -925,33 +1115,36 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "10.0",
+      "total_stock": "9.0",
       "total_consumption": "12.0",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
-      "cost": "0.7800",
+      "cost": 0.78,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5844.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "7.0",
-          "consumption": "12.0"
-        },
         "Geitawi": {
           "stock": "3.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "6.0",
+          "consumption": "12.0"
         }
       },
       "sub": "Low calorie delight",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "LEVANTO / DIWAN"
+      "supplier": "LEVANTO / DIWAN",
+      "name": "LEVANTO ENERGY BAR SUGAR FREE",
+      "subcategory": "Low calorie delight",
+      "vat": 1
     },
     {
       "id": "5851",
@@ -962,14 +1155,14 @@
       "category": "FOOD",
       "sub_category": "COLD MEZA",
       "offers": "0",
-      "stock_in_geitawi_branch": "8.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "11.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "37.0",
-      "total_stock": "19.0",
+      "total_stock": "15.0",
       "total_consumption": "52.0",
       "VAT": "YES",
-      "price_lbp": 205000,
+      "price_lbp": 205000.0,
       "price_usd": "2.18",
       "cost": 1.61,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5851.jpg",
@@ -978,14 +1171,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "8.0",
+          "stock": "6.0",
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "11.0",
+          "stock": "9.0",
           "consumption": "37.0"
         }
-      }
+      },
+      "name": "KHOURY HOMUS BI TAHINI 350G",
+      "supplier": "DAIRY KHOURY USD",
+      "subcategory": "COLD MEZA",
+      "vat": 1
     },
     {
       "id": "5874",
@@ -998,12 +1195,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "50.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "137.0",
+      "stock_in_medawar_branch": "133.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "187.0",
+      "total_stock": "183.0",
       "total_consumption": "13.0",
       "VAT": "NO",
-      "price_lbp": 80000,
+      "price_lbp": 80000.0,
       "price_usd": "0.89",
       "cost": 0.72,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5874.jpg",
@@ -1016,10 +1213,14 @@
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "137.0",
+          "stock": "133.0",
           "consumption": "8.0"
         }
-      }
+      },
+      "name": "ECO SUGAR 900 G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 0
     },
     {
       "id": "5905",
@@ -1034,17 +1235,21 @@
       "consumption_in_geitawi_branch": "5.0",
       "stock_in_medawar_branch": "53.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "53.0",
+      "total_stock": "52.0",
       "total_consumption": "9.0",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
-      "cost": "2.0100",
+      "cost": 2.01,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5905.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "-1.0",
+          "consumption": "5.0"
+        },
         "Medawar": {
           "stock": "53.0",
           "consumption": "4.0"
@@ -1054,7 +1259,10 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "supplier": "LEVANTO / DIWAN"
+      "supplier": "LEVANTO / DIWAN",
+      "name": "LEVANTO CRANBERRY MIX",
+      "subcategory": "Low calorie delight",
+      "vat": 1
     },
     {
       "id": "5912",
@@ -1069,12 +1277,12 @@
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "4.0",
+      "total_stock": "6.0",
       "total_consumption": "1.0",
       "VAT": "NO",
-      "price_lbp": "60,000",
+      "price_lbp": 60000.0,
       "price_usd": "0.67",
-      "cost": "0.47",
+      "cost": 0.47,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5912.jpg",
       "new_items": "",
       "manual": "",
@@ -1083,12 +1291,20 @@
         "Geitawi": {
           "stock": "4.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "1.0"
         }
-      }
+      },
+      "name": "AOUN AMIDON ENTEIR 200G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 0
     },
     {
       "id": "5913",
-      "barcode": "5283000910677-5283000901583",
+      "barcode": "5283000910677",
       "Product Description": "AMIDON MOULU 500G",
       "SUPPLIERS": "AOUN FOOD CO",
       "unit": "-",
@@ -1098,11 +1314,11 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "13.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "15.0",
-      "total_consumption": "1.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 80000,
+      "price_lbp": 80000.0,
       "price_usd": "1.23",
       "cost": 0.5519999999999999,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5913.jpg",
@@ -1118,7 +1334,11 @@
           "stock": "13.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "AMIDON MOULU 500G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 0
     },
     {
       "id": "5914",
@@ -1131,14 +1351,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "25.0",
-      "stock_in_medawar_branch": "17.0",
+      "stock_in_medawar_branch": "16.0",
       "consumption_in_medawar_branch": "14.0",
-      "total_stock": "17.0",
+      "total_stock": "16.0",
       "total_consumption": "39.0",
       "VAT": "NO",
-      "price_lbp": "105,000",
+      "price_lbp": 105000.0,
       "price_usd": "1.17",
-      "cost": "0.89",
+      "cost": 0.89,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5914.jpg",
       "new_items": "",
       "manual": "",
@@ -1147,8 +1367,16 @@
         "Geitawi": {
           "stock": "0.0",
           "consumption": "25.0"
+        },
+        "Medawar": {
+          "stock": "16.0",
+          "consumption": "14.0"
         }
-      }
+      },
+      "name": "AOUN SEMOLINA COARSE 900N G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 0
     },
     {
       "id": "5916",
@@ -1161,12 +1389,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "10.0",
-      "stock_in_medawar_branch": "20.0",
+      "stock_in_medawar_branch": "19.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "24.0",
+      "total_stock": "23.0",
       "total_consumption": "18.0",
       "VAT": "YES",
-      "price_lbp": 45000,
+      "price_lbp": 45000.0,
       "price_usd": "0.50",
       "cost": 0.42,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5916.jpg",
@@ -1179,10 +1407,14 @@
           "consumption": "10.0"
         },
         "Medawar": {
-          "stock": "20.0",
+          "stock": "19.0",
           "consumption": "8.0"
         }
-      }
+      },
+      "name": "ECO PLUS BHAR HAR 30G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1
     },
     {
       "id": "5917",
@@ -1195,12 +1427,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "16.0",
+      "stock_in_medawar_branch": "14.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "15.0",
+      "total_stock": "13.0",
       "total_consumption": "12.0",
       "VAT": "YES",
-      "price_lbp": 50000,
+      "price_lbp": 50000.0,
       "price_usd": "0.56",
       "cost": 0.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5917.jpg",
@@ -1213,10 +1445,14 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "16.0",
+          "stock": "14.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "name": "ECO PLUS BHAR HELO 30G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1
     },
     {
       "id": "5918",
@@ -1230,11 +1466,11 @@
       "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "18.0",
-      "consumption_in_medawar_branch": "16.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "29.0",
-      "total_consumption": "25.0",
+      "total_consumption": "9.0",
       "VAT": "YES",
-      "price_lbp": 25000,
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
       "cost": 0.15416666666666667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5918.jpg",
@@ -1250,7 +1486,11 @@
           "stock": "18.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "ECO PLUS HAMOUD LEMON 30G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1
     },
     {
       "id": "5919",
@@ -1262,13 +1502,13 @@
       "sub_category": "herbs & spices",
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
-      "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "23.0",
-      "consumption_in_medawar_branch": "4.0",
-      "total_stock": "29.0",
-      "total_consumption": "5.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "22.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "28.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 40000,
+      "price_lbp": 40000.0,
       "price_usd": "0.28",
       "cost": 0.20833333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5919.jpg",
@@ -1281,10 +1521,14 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "23.0",
+          "stock": "22.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "ECO PLUS KEZEBRA NE3ME 30G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1
     },
     {
       "id": "5920",
@@ -1295,14 +1539,14 @@
       "category": "FOOD",
       "sub_category": "herbs & spices",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "13.0",
-      "consumption_in_medawar_branch": "5.0",
-      "total_stock": "22.0",
-      "total_consumption": "8.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "21.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": 100000,
+      "price_lbp": 100000.0,
       "price_usd": "1.12",
       "cost": 0.874,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5920.jpg",
@@ -1311,14 +1555,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "9.0",
+          "stock": "8.0",
           "consumption": "3.0"
         },
         "Medawar": {
           "stock": "13.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KERFA AOUD 100GR AOUN",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1
     },
     {
       "id": "5921",
@@ -1336,9 +1584,9 @@
       "total_stock": "8.0",
       "total_consumption": "4.0",
       "VAT": "YES",
-      "price_lbp": "55,000",
+      "price_lbp": 55000.0,
       "price_usd": "0.61",
-      "cost": "0.46",
+      "cost": 0.46,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5921.jpg",
       "new_items": "",
       "manual": "",
@@ -1352,7 +1600,11 @@
           "stock": "6.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "name": "LAUREL LEAVES",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "SEEDS",
+      "vat": 1
     },
     {
       "id": "5933",
@@ -1370,13 +1622,27 @@
       "total_stock": "13.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "60,000",
+      "price_lbp": 60000.0,
       "price_usd": "0.67",
-      "cost": "0.49",
+      "cost": 0.49,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5933.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "FALAFEL SPICES 50 GR AOUN",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "8.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "5.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "5936",
@@ -1394,13 +1660,27 @@
       "total_stock": "11.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "75,000",
+      "price_lbp": 75000.0,
       "price_usd": "0.84",
-      "cost": "0.59",
+      "cost": 0.59,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5936.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MOGHRABIEH SPICES 50 GR AOUN",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "7.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "4.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "5942",
@@ -1418,13 +1698,27 @@
       "total_stock": "4.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "60,000",
+      "price_lbp": 60000.0,
       "price_usd": "0.67",
-      "cost": "0.35",
+      "cost": 0.35,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5942.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "KHAMIRIT BIRA 20 GR AOUN",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "5944",
@@ -1442,13 +1736,27 @@
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "60,000",
+      "price_lbp": 60000.0,
       "price_usd": "0.67",
-      "cost": "0.61",
+      "cost": 0.61,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5944.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "AOUN GROUND GINGER 50 G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "5959",
@@ -1463,22 +1771,30 @@
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0.0",
+      "total_stock": "5.0",
       "total_consumption": "5.0",
       "VAT": "YES",
-      "price_lbp": "65,000",
+      "price_lbp": 65000.0,
       "price_usd": "0.73",
-      "cost": "0.62",
+      "cost": 0.62,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5959.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "4.0"
+        },
         "Medawar": {
           "stock": "0.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "name": "AOUN CUMIN SEEDS 50 G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1
     },
     {
       "id": "5964",
@@ -1496,13 +1812,27 @@
       "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": "95,000",
+      "price_lbp": 95000.0,
       "price_usd": "1.06",
-      "cost": "1.01",
+      "cost": 1.01,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5964.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "HEL HAB 20 GR AOUN",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "2.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "5965",
@@ -1515,24 +1845,32 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7.0",
+      "total_stock": "11.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "115,000",
+      "price_lbp": 115000.0,
       "price_usd": "1.28",
-      "cost": "1.09",
+      "cost": 1.09,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5965.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "5.0",
+          "consumption": "1.0"
+        },
         "Medawar": {
-          "stock": "7.0",
+          "stock": "6.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "HEL SOFT 20 GR AOUN",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1
     },
     {
       "id": "5967",
@@ -1550,13 +1888,27 @@
       "total_stock": "2.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "55,000",
+      "price_lbp": 55000.0,
       "price_usd": "0.61",
-      "cost": "0.49",
+      "cost": 0.49,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5967.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "AOUN YANSOUN 50G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "5981",
@@ -1574,13 +1926,27 @@
       "total_stock": "6.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "105,000",
+      "price_lbp": 105000.0,
       "price_usd": "1.17",
-      "cost": "0.88",
+      "cost": 0.88,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5981.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "AOUN SHAWRMA CHICKEN 50G",
+      "supplier": "AOUN FOOD CO",
+      "subcategory": "herbs & spices",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "6.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "5990",
@@ -1598,15 +1964,29 @@
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "185,000",
+      "price_lbp": 185000.0,
       "price_usd": "2.07",
-      "cost": "1.48",
+      "cost": 1.48,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5990.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "ATTAR ZHOURAT SHAMIA",
+      "supplier": "AL RAED TRADING",
+      "subcategory": "sweets",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     }
   ],
-  "updatedAt": "2026-05-09T09:48:55.456792Z",
+  "updatedAt": "2026-05-09T17:59:03.994449Z",
   "source": "sql"
 }

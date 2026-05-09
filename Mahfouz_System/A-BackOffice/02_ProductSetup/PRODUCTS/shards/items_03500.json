@@ -16,9 +16,9 @@
       "total_stock": "16.0",
       "total_consumption": "58.0",
       "VAT": "YES",
-      "price_lbp": "60,000",
+      "price_lbp": 60000.0,
       "price_usd": "0.67",
-      "cost": "0.51",
+      "cost": 0.51,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3539.jpg",
       "new_items": "",
       "manual": "",
@@ -32,11 +32,15 @@
           "stock": "10.0",
           "consumption": "27.0"
         }
-      }
+      },
+      "name": "BISKREM ULKER 110 G",
+      "supplier": "MAHMOUD CHOCOLATE",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3540",
-      "barcode": "8690632056753-8690632017914",
+      "barcode": "8690632056753",
       "Product Description": "NESTLE CLASSIC",
       "SUPPLIERS": "AL RAED TRADING",
       "unit": "-",
@@ -50,7 +54,7 @@
       "total_stock": "83.0",
       "total_consumption": "29.0",
       "VAT": "YES",
-      "price_lbp": 40000,
+      "price_lbp": 40000.0,
       "price_usd": "0.45",
       "cost": 0.304054,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3540.jpg",
@@ -66,7 +70,11 @@
           "stock": "57.0",
           "consumption": "20.0"
         }
-      }
+      },
+      "name": "NESTLE CLASSIC",
+      "supplier": "AL RAED TRADING",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3544",
@@ -78,13 +86,13 @@
       "sub_category": "SEEDS",
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
-      "consumption_in_geitawi_branch": "21.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "42.0",
-      "consumption_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "51.0",
-      "total_consumption": "33.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 150000,
+      "price_lbp": 150000.0,
       "price_usd": "1.68",
       "cost": 1.2825,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3544.jpg",
@@ -100,11 +108,15 @@
           "stock": "42.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "OAT FLAKES 500G",
+      "supplier": "SYDIS SARL",
+      "subcategory": "SEEDS",
+      "vat": 0
     },
     {
       "id": "3555",
-      "barcode": "7613287120151-6294017106365",
+      "barcode": "7613287120151",
       "Product Description": "CRUNCH WHITE 33 G",
       "SUPPLIERS": "PRODIGY SAL USD",
       "unit": "-",
@@ -118,13 +130,27 @@
       "total_stock": "60.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "75,000",
+      "price_lbp": 75000.0,
       "price_usd": "0.84",
-      "cost": "0.62",
+      "cost": 0.62,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3555.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "CRUNCH WHITE 33 G",
+      "supplier": "PRODIGY SAL USD",
+      "subcategory": "sweets",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "20.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "40.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "3560",
@@ -145,9 +171,9 @@
       "total_stock": "6327.0",
       "total_consumption": "239.9",
       "VAT": "YES",
-      "price_lbp": "45,000",
+      "price_lbp": 45000.0,
       "price_usd": "0.50",
-      "cost": "0.33",
+      "cost": 0.33,
       "cost_ht": "0.33",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3560.jpg",
       "new_items": "",
@@ -159,15 +185,19 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "branches": {
-        "Medawar": {
-          "stock": "6286.0",
-          "consumption": "145.3"
-        },
         "Geitawi": {
           "stock": "41.0",
           "consumption": "94.6"
+        },
+        "Medawar": {
+          "stock": "6286.0",
+          "consumption": "145.3"
         }
-      }
+      },
+      "name": "ULKER ALBENI 52 G",
+      "supplier": "MAHMOUD CHOCOLATE",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3566",
@@ -185,13 +215,27 @@
       "total_stock": "0.0",
       "total_consumption": "4.0",
       "VAT": "YES",
-      "price_lbp": "50,000",
+      "price_lbp": 50000.0,
       "price_usd": "0.56",
-      "cost": "0.37",
+      "cost": 0.37,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3566.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "TAC BISCUIT 76G",
+      "supplier": "MAHMOUD CHOCOLATE",
+      "subcategory": "Biscuits",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "4.0"
+        }
+      }
     },
     {
       "id": "3571",
@@ -209,9 +253,9 @@
       "total_stock": "3.0",
       "total_consumption": "14.0",
       "VAT": "YES",
-      "price_lbp": "20,000",
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
-      "cost": "0.17",
+      "cost": 0.17,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3571.jpg",
       "new_items": "",
       "manual": "",
@@ -225,7 +269,11 @@
           "stock": "1.0",
           "consumption": "11.0"
         }
-      }
+      },
+      "name": "UNICA MIX",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "Wafers",
+      "vat": 1
     },
     {
       "id": "3573",
@@ -243,7 +291,7 @@
       "total_stock": "99.0",
       "total_consumption": "42.0",
       "VAT": "YES",
-      "price_lbp": 25000,
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
       "cost": 0.2,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3573.jpg",
@@ -259,7 +307,11 @@
           "stock": "83.0",
           "consumption": "21.0"
         }
-      }
+      },
+      "name": "LEBON PETIT BEURRE 40GR",
+      "supplier": "MANY FOOD SARL",
+      "subcategory": "Biscuits",
+      "vat": 1
     },
     {
       "id": "3595",
@@ -277,13 +329,27 @@
       "total_stock": "0.0",
       "total_consumption": "11.0",
       "VAT": "YES",
-      "price_lbp": "20,000",
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
-      "cost": "0.22",
+      "cost": 0.22,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3595.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MASTER CHIPS SALT 34G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "11.0"
+        }
+      }
     },
     {
       "id": "3599",
@@ -301,13 +367,27 @@
       "total_stock": "0.0",
       "total_consumption": "5.0",
       "VAT": "YES",
-      "price_lbp": "20,000",
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
-      "cost": "0.22",
+      "cost": 0.22,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3599.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MASTER S&V CHIPS 34G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "5.0"
+        }
+      }
     },
     {
       "id": "3620",
@@ -325,13 +405,27 @@
       "total_stock": "0.0",
       "total_consumption": "17.0",
       "VAT": "YES",
-      "price_lbp": "30,000",
+      "price_lbp": 30000.0,
       "price_usd": "0.34",
-      "cost": "0.22",
+      "cost": 0.22,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3620.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MASTER TORTILLA NACHO CHEESE 42 GR",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "17.0"
+        }
+      }
     },
     {
       "id": "3621",
@@ -349,13 +443,27 @@
       "total_stock": "0.0",
       "total_consumption": "24.0",
       "VAT": "YES",
-      "price_lbp": "55,000",
+      "price_lbp": 55000.0,
       "price_usd": "0.61",
-      "cost": "0.57",
+      "cost": 0.57,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3621.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "TORTILLA NACHO CHEESE 110G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "PRINGLES",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "12.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "12.0"
+        }
+      }
     },
     {
       "id": "3626",
@@ -367,15 +475,15 @@
       "sub_category": "MASTER",
       "offers": "0",
       "stock_in_geitawi_branch": "-1.0",
-      "consumption_in_geitawi_branch": "40.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "10.0",
-      "consumption_in_medawar_branch": "71.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "9.0",
-      "total_consumption": "111.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "55,000",
+      "price_lbp": 55000.0,
       "price_usd": "0.61",
-      "cost": "0.57",
+      "cost": 0.57,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3626.jpg",
       "new_items": "",
       "manual": "",
@@ -389,11 +497,15 @@
           "stock": "10.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTER BUFFIES POPCORN 70G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3628",
-      "barcode": "5283003343311-5283003341249",
+      "barcode": "5283003343311",
       "Product Description": "MASTER BUFFIES PEANUT 70G",
       "SUPPLIERS": "DELTA TRADING USD",
       "unit": "-",
@@ -401,13 +513,13 @@
       "sub_category": "MASTER",
       "offers": "0",
       "stock_in_geitawi_branch": "8.0",
-      "consumption_in_geitawi_branch": "20.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "92.0",
-      "consumption_in_medawar_branch": "71.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "100.0",
-      "total_consumption": "91.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 55000,
+      "price_lbp": 55000.0,
       "price_usd": "0.61",
       "cost": 0.5008333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3628.jpg",
@@ -423,7 +535,11 @@
           "stock": "92.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTER BUFFIES PEANUT 70G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3647",
@@ -435,13 +551,13 @@
       "sub_category": "MASTER",
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
-      "consumption_in_geitawi_branch": "40.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "58.0",
-      "consumption_in_medawar_branch": "82.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "61.0",
-      "total_consumption": "122.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 60000.0,
       "price_usd": "0.61",
       "cost": 0.500833333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3647.jpg",
@@ -457,7 +573,11 @@
           "stock": "58.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTERS S&V 80G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3648",
@@ -469,13 +589,13 @@
       "sub_category": "MASTER",
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "37.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "70.0",
-      "consumption_in_medawar_branch": "58.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "72.0",
-      "total_consumption": "95.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 60000.0,
       "price_usd": "0.61",
       "cost": 0.5008333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3648.jpg",
@@ -491,7 +611,11 @@
           "stock": "70.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTER FRENCH CHEESE 70G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3649",
@@ -502,14 +626,14 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-92.0",
-      "consumption_in_geitawi_branch": "13.0",
+      "stock_in_geitawi_branch": "-93.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "158.0",
-      "consumption_in_medawar_branch": "49.0",
-      "total_stock": "66.0",
-      "total_consumption": "62.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "65.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 60000.0,
       "price_usd": "0.61",
       "cost": 0.5008333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3649.jpg",
@@ -518,14 +642,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-92.0",
+          "stock": "-93.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "158.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTER CHIPS BARBECUE 80G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3738",
@@ -539,11 +667,11 @@
       "stock_in_geitawi_branch": "-92.0",
       "consumption_in_geitawi_branch": "30.0",
       "stock_in_medawar_branch": "167.0",
-      "consumption_in_medawar_branch": "47.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "75.0",
-      "total_consumption": "77.0",
+      "total_consumption": "30.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 60000.0,
       "price_usd": "0.61",
       "cost": 0.500833333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3738.jpg",
@@ -559,7 +687,11 @@
           "stock": "167.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTER CHIPS KETCHUP 85G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3748",
@@ -577,17 +709,31 @@
       "total_stock": "9.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.84",
+      "cost": 1.84,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3748.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "PRINGLES H&S 165G",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "PRINGLES",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "9.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "3750",
-      "barcode": "5053990161669-5053990101573",
+      "barcode": "5053990161669",
       "Product Description": "PRINGLES ORG 165G",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
       "unit": "-",
@@ -601,7 +747,7 @@
       "total_stock": "23.0",
       "total_consumption": "48.0",
       "VAT": "YES",
-      "price_lbp": 220000,
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
       "cost": 1.67,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3750.jpg",
@@ -617,7 +763,11 @@
           "stock": "25.0",
           "consumption": "25.0"
         }
-      }
+      },
+      "name": "PRINGLES ORG 165G",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "PRINGLES",
+      "vat": 1
     },
     {
       "id": "3751",
@@ -635,9 +785,9 @@
       "total_stock": "12.0",
       "total_consumption": "27.0",
       "VAT": "YES",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.95",
+      "cost": 1.95,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3751.jpg",
       "new_items": "",
       "manual": "",
@@ -651,11 +801,15 @@
           "stock": "17.0",
           "consumption": "15.0"
         }
-      }
+      },
+      "name": "PRINGLES S&V 165G",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "PRINGLES",
+      "vat": 1
     },
     {
       "id": "3752",
-      "barcode": "5053990107384-5053990107353",
+      "barcode": "5053990107384",
       "Product Description": "PRINGLES SCO 40G",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
       "unit": "-",
@@ -669,7 +823,7 @@
       "total_stock": "2177.0",
       "total_consumption": "121.0",
       "VAT": "YES",
-      "price_lbp": 95000,
+      "price_lbp": 95000.0,
       "price_usd": "1.06",
       "cost": 0.75,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3752.jpg",
@@ -685,7 +839,11 @@
           "stock": "2158.0",
           "consumption": "70.0"
         }
-      }
+      },
+      "name": "PRINGLES SCO 40G",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "PRINGLES",
+      "vat": 1
     },
     {
       "id": "3758",
@@ -703,7 +861,7 @@
       "total_stock": "2138.0",
       "total_consumption": "84.0",
       "VAT": "YES",
-      "price_lbp": 95000,
+      "price_lbp": 95000.0,
       "price_usd": "1.06",
       "cost": 0.75,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3758.jpg",
@@ -719,7 +877,11 @@
           "stock": "2122.0",
           "consumption": "44.0"
         }
-      }
+      },
+      "name": "PRINGLES ORIGINAL 40 GR",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "PRINGLES",
+      "vat": 1
     },
     {
       "id": "3759",
@@ -733,11 +895,11 @@
       "stock_in_geitawi_branch": "19.0",
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "2091.0",
-      "consumption_in_medawar_branch": "29.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "2110.0",
-      "total_consumption": "39.0",
+      "total_consumption": "10.0",
       "VAT": "YES",
-      "price_lbp": 90000,
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
       "cost": 0.6758333333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3759.jpg",
@@ -753,7 +915,11 @@
           "stock": "2091.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "PRINGLES HOT & SPICY 40g",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "PRINGLES",
+      "vat": 1
     },
     {
       "id": "3806",
@@ -771,13 +937,27 @@
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "1.00",
+      "cost": 1.0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3806.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "BEIRUT POPS- SALT 40GR",
+      "supplier": "ABI RAMIA BROS SARL",
+      "subcategory": "POPCORN",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "3807",
@@ -795,13 +975,27 @@
       "total_stock": "1.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "0.93",
+      "cost": 0.93,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3807.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "BEIRUT POPS- CARAMEL 65GR",
+      "supplier": "ABI RAMIA BROS SARL",
+      "subcategory": "POPCORN",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "3817",
@@ -813,29 +1007,33 @@
       "sub_category": "MASTER",
       "offers": "0",
       "stock_in_geitawi_branch": "-6.0",
-      "consumption_in_geitawi_branch": "28.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "-14.0",
-      "consumption_in_medawar_branch": "45.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "-20.0",
-      "total_consumption": "73.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
-      "cost": "0.79",
+      "cost": 0.79,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3817.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "-14.0",
-          "consumption": "0.0"
-        },
         "Geitawi": {
           "stock": "-6.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "-14.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTER KETTLE 90G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3825",
@@ -853,13 +1051,27 @@
       "total_stock": "7.0",
       "total_consumption": "7.0",
       "VAT": "YES",
-      "price_lbp": "410,000",
+      "price_lbp": 410000.0,
       "price_usd": "4.58",
-      "cost": "4.18",
+      "cost": 4.18,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3825.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MASTER MIXED KERNELSS",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "4.0",
+          "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "4.0"
+        }
+      }
     },
     {
       "id": "3828",
@@ -877,13 +1089,27 @@
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "160,000",
+      "price_lbp": 160000.0,
       "price_usd": "1.79",
-      "cost": "1.16",
+      "cost": 1.16,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3828.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MASTER REGULAR MIX",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "3829",
@@ -901,13 +1127,27 @@
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "220,000",
+      "price_lbp": 220000.0,
       "price_usd": "2.46",
-      "cost": "1.96",
+      "cost": 1.96,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3829.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MASTER EXTRA NUTS",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        }
+      }
     },
     {
       "id": "3835",
@@ -925,17 +1165,31 @@
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "250,000",
+      "price_lbp": 250000.0,
       "price_usd": "2.79",
-      "cost": "2.40",
+      "cost": 2.4,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3835.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "MASTER SUPER EXTRA 240 GR",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "1.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "3846",
-      "barcode": "5287001083101-5287001083002",
+      "barcode": "5287001083101",
       "Product Description": "KAAK  EL HAWA",
       "SUPPLIERS": "SAM BAKERY",
       "unit": "-",
@@ -943,24 +1197,33 @@
       "sub_category": "BAKERY",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "8.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "5.0",
-      "total_consumption": "8.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "320,000",
+      "price_lbp": 320000.0,
       "price_usd": "3.58",
-      "cost": "2.69",
+      "cost": 2.69,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3846.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0"
+          "stock": "5.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "KAAK  EL HAWA",
+      "supplier": "SAM BAKERY",
+      "subcategory": "BAKERY",
+      "vat": 1
     },
     {
       "id": "3866",
@@ -971,34 +1234,38 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-9.0",
-      "consumption_in_geitawi_branch": "26.0",
+      "stock_in_geitawi_branch": "-10.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "-5.0",
-      "consumption_in_medawar_branch": "28.0",
-      "total_stock": "-14.0",
-      "total_consumption": "54.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "-15.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
-      "cost": "0.26",
+      "cost": 0.26,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3866.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "-10.0",
+          "consumption": "0.0"
+        },
         "Medawar": {
           "stock": "-5.0",
           "consumption": "0.0"
-        },
-        "Geitawi": {
-          "stock": "-9.0",
-          "consumption": "0.0"
         }
-      }
+      },
+      "name": "MASTER KETTLE COOKED HONEY MUSTARD 76 G",
+      "supplier": "DELTA TRADING USD",
+      "subcategory": "MASTER",
+      "vat": 1
     },
     {
       "id": "3925",
-      "barcode": "6221134000092-6221134000108",
+      "barcode": "6221134000092",
       "Product Description": "GALAXY FLUTES",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
       "unit": "-",
@@ -1012,9 +1279,9 @@
       "total_stock": "5.0",
       "total_consumption": "34.0",
       "VAT": "YES",
-      "price_lbp": "40,000",
+      "price_lbp": 40000.0,
       "price_usd": "0.45",
-      "cost": "0.20",
+      "cost": 0.2,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3925.jpg",
       "new_items": "",
       "manual": "",
@@ -1028,7 +1295,11 @@
           "stock": "0.0",
           "consumption": "14.0"
         }
-      }
+      },
+      "name": "GALAXY FLUTES",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3927",
@@ -1046,9 +1317,9 @@
       "total_stock": "30.0",
       "total_consumption": "50.0",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
-      "cost": "0.71",
+      "cost": 0.71,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3927.jpg",
       "new_items": "",
       "manual": "",
@@ -1062,7 +1333,11 @@
           "stock": "19.0",
           "consumption": "34.0"
         }
-      }
+      },
+      "name": "M & M CHOCO",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3928",
@@ -1073,30 +1348,34 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "24.0",
       "stock_in_medawar_branch": "8.0",
       "consumption_in_medawar_branch": "17.0",
-      "total_stock": "10.0",
+      "total_stock": "9.0",
       "total_consumption": "41.0",
       "VAT": "YES",
-      "price_lbp": "80,000",
+      "price_lbp": 80000.0,
       "price_usd": "0.89",
-      "cost": "0.71",
+      "cost": 0.71,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3928.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "1.0",
           "consumption": "24.0"
         },
         "Medawar": {
           "stock": "8.0",
           "consumption": "17.0"
         }
-      }
+      },
+      "name": "M & M PEANUT",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3945",
@@ -1114,22 +1393,27 @@
       "total_stock": "37.0",
       "total_consumption": "16.0",
       "VAT": "YES",
-      "price_lbp": "65,000",
+      "price_lbp": 65000.0,
       "price_usd": "0.73",
-      "cost": "0.55",
+      "cost": 0.55,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3945.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "25.0",
+          "consumption": "0.0"
+        },
         "Medawar": {
           "stock": "12.0",
           "consumption": "16.0"
-        },
-        "Geitawi": {
-          "stock": "25.0"
         }
-      }
+      },
+      "name": "GHANDOUR UNICA BITES",
+      "supplier": "GANDOUR",
+      "subcategory": "Wafers",
+      "vat": 1
     },
     {
       "id": "3947",
@@ -1147,49 +1431,69 @@
       "total_stock": "1.0",
       "total_consumption": "15.0",
       "VAT": "YES",
-      "price_lbp": "320,000",
+      "price_lbp": 320000.0,
       "price_usd": "3.58",
-      "cost": "2.50",
+      "cost": 2.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3947.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "GANDOUR LUCKY BISCUIT",
+      "supplier": "MAHMOUD CHOCOLATE",
+      "subcategory": "Biscuits",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "10.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "5.0"
+        }
+      }
     },
     {
       "id": "3950",
-      "barcode": "6221134001068-6221134001242",
+      "barcode": "6221134001068",
       "Product Description": "GALAXY MILK 40G",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
       "unit": "-",
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "-18.0",
-      "consumption_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "-20.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "-7.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "-25.0",
-      "total_consumption": "11.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "-27.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "90,000",
+      "price_lbp": 90000.0,
       "price_usd": "1.01",
-      "cost": "0.84",
+      "cost": 0.84,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3950.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-18.0"
+          "stock": "-20.0",
+          "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "-7.0"
+          "stock": "-7.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "GALAXY MILK 40G",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3956",
-      "barcode": "6221134000986-6221134004953",
+      "barcode": "6221134000986",
       "Product Description": "GALAXY  HAZELNUT 40G",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
       "unit": "-",
@@ -1203,13 +1507,27 @@
       "total_stock": "3.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "110,000",
+      "price_lbp": 110000.0,
       "price_usd": "1.23",
-      "cost": "0.87",
+      "cost": 0.87,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3956.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "GALAXY  HAZELNUT 40G",
+      "supplier": "TRANSMED F&B SAL LBP",
+      "subcategory": "sweets",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "0.0"
+        }
+      }
     },
     {
       "id": "3975",
@@ -1223,13 +1541,13 @@
       "stock_in_geitawi_branch": "12.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "27.0",
-      "consumption_in_medawar_branch": "15.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "39.0",
-      "total_consumption": "24.0",
+      "total_consumption": "9.0",
       "VAT": "YES",
-      "price_lbp": "40,000",
+      "price_lbp": 40000.0,
       "price_usd": "0.45",
-      "cost": "0.27",
+      "cost": 0.27,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3975.jpg",
       "new_items": "",
       "manual": "",
@@ -1240,13 +1558,18 @@
           "consumption": "9.0"
         },
         "Medawar": {
-          "stock": "27.0"
+          "stock": "27.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "OZMO HOPPO 25G",
+      "supplier": "MTANIOS TRADING SARL",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3995",
-      "barcode": "80177609-8000500033784",
+      "barcode": "80177609",
       "Product Description": "KINDER 4 FINGERS",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "unit": "-",
@@ -1260,7 +1583,7 @@
       "total_stock": "101.0",
       "total_consumption": "171.0",
       "VAT": "YES",
-      "price_lbp": 100000,
+      "price_lbp": 100000.0,
       "price_usd": "1.12",
       "cost": 0.8332499999999999,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3995.jpg",
@@ -1276,11 +1599,15 @@
           "stock": "73.0",
           "consumption": "75.0"
         }
-      }
+      },
+      "name": "KINDER 4 FINGERS",
+      "supplier": "MAHMOUD CHOCOLATE",
+      "subcategory": "sweets",
+      "vat": 1
     },
     {
       "id": "3996",
-      "barcode": "40084107-54088191",
+      "barcode": "40084107",
       "Product Description": "KINDER OEUF",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "unit": "-",
@@ -1294,9 +1621,9 @@
       "total_stock": "20.0",
       "total_consumption": "58.0",
       "VAT": "YES",
-      "price_lbp": "150,000",
+      "price_lbp": 150000.0,
       "price_usd": "1.68",
-      "cost": "1.26",
+      "cost": 1.26,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3996.jpg",
       "new_items": "",
       "manual": "",
@@ -1310,9 +1637,13 @@
           "stock": "25.0",
           "consumption": "37.0"
         }
-      }
+      },
+      "name": "KINDER OEUF",
+      "supplier": "MAHMOUD CHOCOLATE",
+      "subcategory": "sweets",
+      "vat": 1
     }
   ],
-  "updatedAt": "2026-05-09T15:24:29.597036Z",
+  "updatedAt": "2026-05-09T18:52:18.279137Z",
   "source": "sql"
 }
