@@ -2,10 +2,8 @@
   "items": [
     {
       "id": "4002",
-      "barcode": "4002",
-      "barcodes": [
-        "4002"
-      ],
+      "barcode": "7622400016769",
+      "barcodes": "",
       "Product Description": "LEO GO 48G",
       "product_description": "LEO GO 48G",
       "description": "LEO GO 48G",
@@ -41,9 +39,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "LEO GO 48G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -86,7 +91,9 @@
       "name": "KINDER BUENO 43G",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4007",
@@ -97,11 +104,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "53.0",
+      "stock_in_geitawi_branch": "52.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "6236.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "6289.0",
+      "total_stock": "6288.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
@@ -113,7 +120,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "53.0",
+          "stock": "52.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -124,7 +131,9 @@
       "name": "KINDER MAXI",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4024",
@@ -162,7 +171,9 @@
       "name": "GALAXY MINSTRELS 24G",
       "supplier": "TRANSMED SAL",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4026",
@@ -200,7 +211,9 @@
       "name": "NOUBA 17.5G",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "Wafers",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4030",
@@ -238,7 +251,9 @@
           "stock": "17.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4036",
@@ -276,7 +291,9 @@
       "name": "CHOCO PRINCE 25G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "7622210124401",
+      "barcodes": "7622210124401"
     },
     {
       "id": "4038",
@@ -314,7 +331,9 @@
       "name": "KIT KAT 4FINGER",
       "supplier": "PRODIGY SAL USD",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "40052458",
+      "barcodes": "40052458"
     },
     {
       "id": "4051",
@@ -352,14 +371,14 @@
       "name": "ETI ADICTO BROWNI INTENSE 35 G",
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "cake",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4064",
-      "barcode": "4064",
-      "barcodes": [
-        "4064"
-      ],
+      "barcode": "6291003045790",
+      "barcodes": "",
       "Product Description": "BREAK 2 FINGERS 14.5 G",
       "product_description": "BREAK 2 FINGERS 14.5 G",
       "description": "BREAK 2 FINGERS 14.5 G",
@@ -395,9 +414,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BREAK 2 FINGERS 14.5 G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -444,7 +470,9 @@
       "supplier": "MAHMOUD CHOCOLATE",
       "name": "ALBENI ROLLS 72G",
       "subcategory": "sweets",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "68690504036137",
+      "barcodes": "68690504036137"
     },
     {
       "id": "4074",
@@ -455,11 +483,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "55.0",
+      "stock_in_geitawi_branch": "56.0",
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "3501.0",
       "consumption_in_medawar_branch": "18.0",
-      "total_stock": "3556.0",
+      "total_stock": "3557.0",
       "total_consumption": "28.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
@@ -471,7 +499,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "55.0",
+          "stock": "56.0",
           "consumption": "10.0"
         },
         "Medawar": {
@@ -482,7 +510,9 @@
       "name": "NAPOLITAN ULKER 33G",
       "supplier": "AL RAED TRADING",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4081",
@@ -520,7 +550,9 @@
       "name": "HANIMELLER",
       "supplier": "AL RAED TRADING",
       "subcategory": "Cookies",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "8690504118046",
+      "barcodes": "8690504118046"
     },
     {
       "id": "4088",
@@ -558,7 +590,9 @@
       "name": "TWIX TWIN",
       "supplier": "TRANSMED F&B SAL LBP",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4096",
@@ -596,7 +630,9 @@
       "name": "OZMO CORNET",
       "supplier": "MTANIOS TRADING SARL",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4105",
@@ -634,7 +670,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4120",
@@ -672,7 +710,9 @@
       "name": "KINDER JOY",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4132",
@@ -710,7 +750,9 @@
       "name": "CHOCO DUO 170G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4137",
@@ -748,7 +790,9 @@
           "stock": "0.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4138",
@@ -786,7 +830,9 @@
       "name": "COTE DOR LAIT 47G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4142",
@@ -824,14 +870,14 @@
       "name": "SKITTLES FRUITS 38G",
       "supplier": "TRANSMED F&B SAL LBP",
       "subcategory": "candies",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5000159376792",
+      "barcodes": "5000159376792"
     },
     {
       "id": "4156",
-      "barcode": "4156",
-      "barcodes": [
-        "4156"
-      ],
+      "barcode": "4017100248214",
+      "barcodes": "",
       "Product Description": "PICK UP!",
       "product_description": "PICK UP!",
       "description": "PICK UP!",
@@ -867,9 +913,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PICK UP!",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -878,10 +931,8 @@
     },
     {
       "id": "4163",
-      "barcode": "4163",
-      "barcodes": [
-        "4163"
-      ],
+      "barcode": "8690504012917",
+      "barcodes": "5281034011599",
       "Product Description": "RONDO VANILLE 80 ML",
       "product_description": "RONDO VANILLE 80 ML",
       "description": "RONDO VANILLE 80 ML",
@@ -917,9 +968,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5281034011599",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "RONDO VANILLE 80 ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -928,10 +986,8 @@
     },
     {
       "id": "4176",
-      "barcode": "4176",
-      "barcodes": [
-        "4176"
-      ],
+      "barcode": "5000159459273",
+      "barcodes": "",
       "Product Description": "TWIX 25G",
       "product_description": "TWIX 25G",
       "description": "TWIX 25G",
@@ -967,9 +1023,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TWIX 25G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1012,14 +1075,14 @@
       "name": "ALBENI KEK 35G",
       "supplier": "AL RAED TRADING",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4197",
-      "barcode": "4197",
-      "barcodes": [
-        "4197"
-      ],
+      "barcode": "6294001821670",
+      "barcodes": "",
       "Product Description": "GALAXY CARAMEL 36G",
       "product_description": "GALAXY CARAMEL 36G",
       "description": "GALAXY CARAMEL 36G",
@@ -1055,9 +1118,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GALAXY CARAMEL 36G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1100,14 +1170,14 @@
           "stock": "0.0",
           "consumption": "22.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4205",
-      "barcode": "4205",
-      "barcodes": [
-        "4205"
-      ],
+      "barcode": "7622210292742",
+      "barcodes": "",
       "Product Description": "DAIRY MILK 45G",
       "product_description": "DAIRY MILK 45G",
       "description": "DAIRY MILK 45G",
@@ -1143,9 +1213,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DAIRY MILK 45G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1188,14 +1265,14 @@
       "name": "TORKU NO:1 CHOCOLAT 35G",
       "supplier": "AL RAED TRADING",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4236",
-      "barcode": "4236",
-      "barcodes": [
-        "4236"
-      ],
+      "barcode": "7622300661106",
+      "barcodes": "",
       "Product Description": "BARNI 30G",
       "product_description": "BARNI 30G",
       "description": "BARNI 30G",
@@ -1231,9 +1308,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BARNI 30G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1276,7 +1360,9 @@
       "name": "SNACK CADBWRY",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4244",
@@ -1329,10 +1415,8 @@
     },
     {
       "id": "4266",
-      "barcode": "4266",
-      "barcodes": [
-        "4266"
-      ],
+      "barcode": "8690504019091",
+      "barcodes": "",
       "Product Description": "ULKER RULOKAT 24G",
       "product_description": "ULKER RULOKAT 24G",
       "description": "ULKER RULOKAT 24G",
@@ -1368,9 +1452,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ULKER RULOKAT 24G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1379,10 +1470,8 @@
     },
     {
       "id": "4273",
-      "barcode": "4273",
-      "barcodes": [
-        "4273"
-      ],
+      "barcode": "8691216019805",
+      "barcodes": "",
       "Product Description": "HARIBO ROULETTE 25G",
       "product_description": "HARIBO ROULETTE 25G",
       "description": "HARIBO ROULETTE 25G",
@@ -1418,9 +1507,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "HARIBO ROULETTE 25G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1429,10 +1525,8 @@
     },
     {
       "id": "4283",
-      "barcode": "4283",
-      "barcodes": [
-        "4283"
-      ],
+      "barcode": "5287000835299",
+      "barcodes": "5287000835343",
       "Product Description": "TWINS 2FINGERS 45G",
       "product_description": "TWINS 2FINGERS 45G",
       "description": "TWINS 2FINGERS 45G",
@@ -1468,9 +1562,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5287000835343",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TWINS 2FINGERS 45G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1479,10 +1580,8 @@
     },
     {
       "id": "4286",
-      "barcode": "4286",
-      "barcodes": [
-        "4286"
-      ],
+      "barcode": "5281028424534",
+      "barcodes": "",
       "Product Description": "GANDOUR DIGESTIVE",
       "product_description": "GANDOUR DIGESTIVE",
       "description": "GANDOUR DIGESTIVE",
@@ -1518,9 +1617,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GANDOUR DIGESTIVE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1529,10 +1635,8 @@
     },
     {
       "id": "4308",
-      "barcode": "4308",
-      "barcodes": [
-        "4308"
-      ],
+      "barcode": "7622210327826",
+      "barcodes": "7622210384218",
       "Product Description": "DAIRY MILK COOKIES FRUIT",
       "product_description": "DAIRY MILK COOKIES FRUIT",
       "description": "DAIRY MILK COOKIES FRUIT",
@@ -1568,9 +1672,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "7622210384218",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DAIRY MILK COOKIES FRUIT",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1613,14 +1724,14 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4380",
-      "barcode": "4380",
-      "barcodes": [
-        "4380"
-      ],
+      "barcode": "5281028432034",
+      "barcodes": "",
       "Product Description": "UNICA INTENSE",
       "product_description": "UNICA INTENSE",
       "description": "UNICA INTENSE",
@@ -1656,9 +1767,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "UNICA INTENSE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1667,10 +1785,8 @@
     },
     {
       "id": "4388",
-      "barcode": "4388",
-      "barcodes": [
-        "4388"
-      ],
+      "barcode": "8690526027234",
+      "barcodes": "8690526018713",
       "Product Description": "WANTED 28GR ETI",
       "product_description": "WANTED 28GR ETI",
       "description": "WANTED 28GR ETI",
@@ -1706,9 +1822,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "8690526018713",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "WANTED 28GR ETI",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1751,7 +1874,9 @@
       "name": "MENTOS CHEWING GUM ICE PEPPERMINT 11.44GR",
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "Chewing gum",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4400",
@@ -1789,7 +1914,9 @@
           "stock": "4.0",
           "consumption": "8.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4403",
@@ -1827,7 +1954,9 @@
       "name": "ETI WAFE UP 39.5G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "Wafers",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "8690526005423",
+      "barcodes": "8690526005423"
     },
     {
       "id": "4405",
@@ -1865,7 +1994,9 @@
       "name": "ETI DIGESTIVE .155G",
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "Digestive Biscuits",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "8690526070568",
+      "barcodes": "8690526070568"
     },
     {
       "id": "4412",
@@ -1903,7 +2034,9 @@
           "stock": "0.0",
           "consumption": "6.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4413",
@@ -1941,14 +2074,14 @@
       "name": "GANDOUR UNICA DARK",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "Wafers",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4426",
-      "barcode": "4426",
-      "barcodes": [
-        "4426"
-      ],
+      "barcode": "6281004876639",
+      "barcodes": "",
       "Product Description": "FINGER BISCUIT",
       "product_description": "FINGER BISCUIT",
       "description": "FINGER BISCUIT",
@@ -1984,9 +2117,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FINGER BISCUIT",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1995,10 +2135,8 @@
     },
     {
       "id": "4430",
-      "barcode": "4430",
-      "barcodes": [
-        "4430"
-      ],
+      "barcode": "7622210055439",
+      "barcodes": "3045140105502",
       "Product Description": "MILKA BUNTE KAKAOLINSEN",
       "product_description": "MILKA BUNTE KAKAOLINSEN",
       "description": "MILKA BUNTE KAKAOLINSEN",
@@ -2034,60 +2172,17 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "3045140105502",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MILKA BUNTE KAKAOLINSEN",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
-    },
-    {
-      "id": "4433",
-      "barcode": "4433",
-      "barcodes": [
-        "4433"
-      ],
-      "Product Description": "MILKA BUNTE KAKAOLINSEN/STRAWBERRY 100G",
-      "product_description": "MILKA BUNTE KAKAOLINSEN/STRAWBERRY 100G",
-      "description": "MILKA BUNTE KAKAOLINSEN/STRAWBERRY 100G",
-      "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "",
-      "category": "FOOD",
-      "sub_category": "DAIRY PRODUCTS",
-      "subcategory": "DAIRY PRODUCTS",
-      "subCategory": "DAIRY PRODUCTS",
-      "unit": "EACH",
-      "VAT": "",
-      "vat": 0,
-      "price_lbp": 140000.0,
-      "cost": 0.0,
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "branches": {
-        "geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "the_daily_market": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
-      },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
-      "name": "MILKA BUNTE KAKAOLINSEN/STRAWBERRY 100G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
@@ -2129,7 +2224,9 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "7622210999368",
+      "barcodes": "7622210999368"
     },
     {
       "id": "4441",
@@ -2167,7 +2264,9 @@
       "name": "MILKA CHOCO WAFER",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "Wafers",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "59939788",
+      "barcodes": "59939788"
     },
     {
       "id": "4446",
@@ -2205,14 +2304,14 @@
       "name": "BREAK CHOC 3 FINGERS 21.5 GR",
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4449",
-      "barcode": "4449",
-      "barcodes": [
-        "4449"
-      ],
+      "barcode": "5281128601576",
+      "barcodes": "5281128601552",
       "Product Description": "POPPINS FRUITY DARK CHOC 25G",
       "product_description": "POPPINS FRUITY DARK CHOC 25G",
       "description": "POPPINS FRUITY DARK CHOC 25G",
@@ -2248,9 +2347,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5281128601552",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "POPPINS FRUITY DARK CHOC 25G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2342,14 +2448,14 @@
       "name": "ETI ADICTO BROWNI+HAZELNUT 35G",
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "cake",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "4485",
-      "barcode": "4485",
-      "barcodes": [
-        "4485"
-      ],
+      "barcode": "7622210205728",
+      "barcodes": "7622210203359",
       "Product Description": "MILKA CHOCO COW",
       "product_description": "MILKA CHOCO COW",
       "description": "MILKA CHOCO COW",
@@ -2385,9 +2491,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "7622210203359",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MILKA CHOCO COW",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2485,9 +2598,11 @@
       "supplier": "SMART FUNCTION SOCIETY SARL",
       "name": "DIGESTIVE BISCUITS",
       "subcategory": "Biscuits",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5285008412948",
+      "barcodes": "5285008412948"
     }
   ],
-  "updatedAt": "2026-05-09T22:20:55.195857Z",
+  "updatedAt": "2026-05-10T04:31:14.454695Z",
   "source": "sql"
 }

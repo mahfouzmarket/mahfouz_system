@@ -36,14 +36,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10004",
-      "barcode": "10004",
-      "barcodes": [
-        "10004"
-      ],
+      "barcode": "8001940000213",
+      "barcodes": "",
       "Product Description": "VILEDA CHAMEX X3",
       "product_description": "VILEDA CHAMEX X3",
       "description": "VILEDA CHAMEX X3",
@@ -79,9 +79,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VILEDA CHAMEX X3",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -124,7 +131,9 @@
           "stock": "3.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10034",
@@ -162,14 +171,14 @@
           "stock": "19.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10042",
-      "barcode": "10042",
-      "barcodes": [
-        "10042"
-      ],
+      "barcode": "9004100196718",
+      "barcodes": "6928562021551",
       "Product Description": "NEW LIGHT 200W",
       "product_description": "NEW LIGHT 200W",
       "description": "NEW LIGHT 200W",
@@ -205,9 +214,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "6928562021551",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NEW LIGHT 200W",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -216,10 +232,8 @@
     },
     {
       "id": "10045",
-      "barcode": "10045",
-      "barcodes": [
-        "10045"
-      ],
+      "barcode": "40267609",
+      "barcodes": "",
       "Product Description": "UHU 8.2G",
       "product_description": "UHU 8.2G",
       "description": "UHU 8.2G",
@@ -255,9 +269,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "UHU 8.2G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -300,7 +321,9 @@
       "name": "LOCK 20MM",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10069",
@@ -338,7 +361,9 @@
           "stock": "9.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "8410435040007",
+      "barcodes": "8410435040007"
     },
     {
       "id": "10073",
@@ -376,7 +401,9 @@
       "name": "SPARTAN QUICK 1200G",
       "supplier": "SPARTAN CHEMICAL CO SARL",
       "subcategory": "CLEANING",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10077",
@@ -414,7 +441,9 @@
           "stock": "6.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "5287000715010",
+      "barcodes": "5287000715010"
     },
     {
       "id": "10090",
@@ -452,7 +481,9 @@
           "stock": "10.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "6215001631038",
+      "barcodes": "6215001631038"
     },
     {
       "id": "10093",
@@ -490,7 +521,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "38110201",
+      "barcodes": "38110201"
     },
     {
       "id": "10124",
@@ -528,14 +561,14 @@
       "name": "VILEDA SENSATION",
       "supplier": "JACK DIB",
       "subcategory": "CLEANING",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10146",
-      "barcode": "10146",
-      "barcodes": [
-        "10146"
-      ],
+      "barcode": "5201551488339",
+      "barcodes": "",
       "Product Description": "PLOMA 6 CARTIDGES",
       "product_description": "PLOMA 6 CARTIDGES",
       "description": "PLOMA 6 CARTIDGES",
@@ -571,9 +604,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PLOMA 6 CARTIDGES",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -582,10 +622,8 @@
     },
     {
       "id": "10147",
-      "barcode": "10147",
-      "barcodes": [
-        "10147"
-      ],
+      "barcode": "4968534901216",
+      "barcodes": "",
       "Product Description": "METADOR 200 WATT",
       "product_description": "METADOR 200 WATT",
       "description": "METADOR 200 WATT",
@@ -621,9 +659,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "METADOR 200 WATT",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -666,14 +711,14 @@
           "stock": "76.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "5283022099053",
+      "barcodes": "5283022099053"
     },
     {
       "id": "10168",
-      "barcode": "10168",
-      "barcodes": [
-        "10168"
-      ],
+      "barcode": "5285001986927",
+      "barcodes": "",
       "Product Description": "SOMOPLAST PAPER CUPS 4 OZ 50 PCS",
       "product_description": "SOMOPLAST PAPER CUPS 4 OZ 50 PCS",
       "description": "SOMOPLAST PAPER CUPS 4 OZ 50 PCS",
@@ -709,9 +754,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SOMOPLAST PAPER CUPS 4 OZ 50 PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -720,10 +772,8 @@
     },
     {
       "id": "10169",
-      "barcode": "10169",
-      "barcodes": [
-        "10169"
-      ],
+      "barcode": "5285001981458",
+      "barcodes": "",
       "Product Description": "SOMOPLAST PICNIC 50 PET CUPS 400 CC",
       "product_description": "SOMOPLAST PICNIC 50 PET CUPS 400 CC",
       "description": "SOMOPLAST PICNIC 50 PET CUPS 400 CC",
@@ -759,9 +809,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SOMOPLAST PICNIC 50 PET CUPS 400 CC",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -770,10 +827,8 @@
     },
     {
       "id": "10173",
-      "barcode": "10173",
-      "barcodes": [
-        "10173"
-      ],
+      "barcode": "5285001986910",
+      "barcodes": "",
       "Product Description": "SOMOPLAST PAPER CUPS 2.5OZ 50PCS",
       "product_description": "SOMOPLAST PAPER CUPS 2.5OZ 50PCS",
       "description": "SOMOPLAST PAPER CUPS 2.5OZ 50PCS",
@@ -809,9 +864,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SOMOPLAST PAPER CUPS 2.5OZ 50PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -854,7 +916,9 @@
           "stock": "1.0",
           "consumption": "19.0"
         }
-      }
+      },
+      "barcode2": "5285001986934",
+      "barcodes": "5285001986934"
     },
     {
       "id": "10179",
@@ -892,14 +956,14 @@
       "name": "DISPOSABLE PLATE 9 INCH 24PCS",
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5283019500524",
+      "barcodes": "5283019500524"
     },
     {
       "id": "10180",
-      "barcode": "10180",
-      "barcodes": [
-        "10180"
-      ],
+      "barcode": "6900922404167",
+      "barcodes": "137057989764",
       "Product Description": "200 RICE CHRISTMAS",
       "product_description": "200 RICE CHRISTMAS",
       "description": "200 RICE CHRISTMAS",
@@ -935,9 +999,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "137057989764",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "200 RICE CHRISTMAS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -946,10 +1017,8 @@
     },
     {
       "id": "10185",
-      "barcode": "10185",
-      "barcodes": [
-        "10185"
-      ],
+      "barcode": "6951824500037",
+      "barcodes": "6953039200047",
       "Product Description": "WHITE DIAMOND B22 WHITE",
       "product_description": "WHITE DIAMOND B22 WHITE",
       "description": "WHITE DIAMOND B22 WHITE",
@@ -985,9 +1054,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "6953039200047",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "WHITE DIAMOND B22 WHITE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1030,14 +1106,14 @@
       "name": "GAMEX GREEN",
       "supplier": "JACK DIB",
       "subcategory": "CLEANING",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10199",
-      "barcode": "10199",
-      "barcodes": [
-        "10199"
-      ],
+      "barcode": "8033749470171",
+      "barcodes": "8033749470218",
       "Product Description": "CANDLE ITALINNE T50",
       "product_description": "CANDLE ITALINNE T50",
       "description": "CANDLE ITALINNE T50",
@@ -1073,9 +1149,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "8033749470218",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CANDLE ITALINNE T50",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1084,10 +1167,8 @@
     },
     {
       "id": "10213",
-      "barcode": "10213",
-      "barcodes": [
-        "10213"
-      ],
+      "barcode": "38040509",
+      "barcodes": "",
       "Product Description": "EL80405 FAR MALE-FEMALE PLUG",
       "product_description": "EL80405 FAR MALE-FEMALE PLUG",
       "description": "EL80405 FAR MALE-FEMALE PLUG",
@@ -1123,9 +1204,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "EL80405 FAR MALE-FEMALE PLUG",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1134,10 +1222,8 @@
     },
     {
       "id": "10214",
-      "barcode": "10214",
-      "barcodes": [
-        "10214"
-      ],
+      "barcode": "33100202",
+      "barcodes": "",
       "Product Description": "EL31002- 3 GANG EARTHED SOCKET",
       "product_description": "EL31002- 3 GANG EARTHED SOCKET",
       "description": "EL31002- 3 GANG EARTHED SOCKET",
@@ -1173,9 +1259,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "EL31002- 3 GANG EARTHED SOCKET",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1218,14 +1311,14 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10225",
-      "barcode": "10225",
-      "barcodes": [
-        "10225"
-      ],
+      "barcode": "5286334456149",
+      "barcodes": "5287000715065",
       "Product Description": "ENZO 72 SHEETS",
       "product_description": "ENZO 72 SHEETS",
       "description": "ENZO 72 SHEETS",
@@ -1261,9 +1354,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5287000715065",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ENZO 72 SHEETS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1306,14 +1406,14 @@
           "stock": "0.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10232",
-      "barcode": "10232",
-      "barcodes": [
-        "10232"
-      ],
+      "barcode": "6928686801596",
+      "barcodes": "",
       "Product Description": "MULTI FUNCTION 100 LED LIGHT",
       "product_description": "MULTI FUNCTION 100 LED LIGHT",
       "description": "MULTI FUNCTION 100 LED LIGHT",
@@ -1349,9 +1449,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MULTI FUNCTION 100 LED LIGHT",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1360,10 +1467,8 @@
     },
     {
       "id": "10233",
-      "barcode": "10233",
-      "barcodes": [
-        "10233"
-      ],
+      "barcode": "6922141001507",
+      "barcodes": "",
       "Product Description": "BOARD MARKER",
       "product_description": "BOARD MARKER",
       "description": "BOARD MARKER",
@@ -1399,9 +1504,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BOARD MARKER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1444,7 +1556,9 @@
           "stock": "0.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10243",
@@ -1482,14 +1596,14 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10244",
-      "barcode": "10244",
-      "barcodes": [
-        "10244"
-      ],
+      "barcode": "5285004481160",
+      "barcodes": "",
       "Product Description": "MALE+FEMALE AMERICAN",
       "product_description": "MALE+FEMALE AMERICAN",
       "description": "MALE+FEMALE AMERICAN",
@@ -1525,9 +1639,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MALE+FEMALE AMERICAN",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1570,7 +1691,9 @@
           "stock": "6.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10246",
@@ -1581,11 +1704,11 @@
       "category": "CIGARETTES",
       "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "37.0",
+      "stock_in_geitawi_branch": "36.0",
       "consumption_in_geitawi_branch": "41.0",
       "stock_in_medawar_branch": "209.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "246.0",
+      "total_stock": "245.0",
       "total_consumption": "49.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -1597,7 +1720,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "37.0",
+          "stock": "36.0",
           "consumption": "41.0"
         },
         "Medawar": {
@@ -1608,7 +1731,9 @@
       "name": "SHAM PAPER",
       "supplier": "PLATCO",
       "subcategory": "ROLLING CIGARETTE PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10247",
@@ -1646,7 +1771,9 @@
           "stock": "5.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10250",
@@ -1684,7 +1811,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10251",
@@ -1722,14 +1851,14 @@
       "name": "SOCKS",
       "supplier": "JACK DIB",
       "subcategory": "WOMAN CARE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10252",
-      "barcode": "10252",
-      "barcodes": [
-        "10252"
-      ],
+      "barcode": "2700145",
+      "barcodes": "",
       "Product Description": "GLOVES MEDIUM PURPLE",
       "product_description": "GLOVES MEDIUM PURPLE",
       "description": "GLOVES MEDIUM PURPLE",
@@ -1765,9 +1894,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GLOVES MEDIUM PURPLE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1810,7 +1946,9 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10255",
@@ -1848,7 +1986,9 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10256",
@@ -1886,7 +2026,9 @@
       "name": "ORIGINAL NEGRO STEEL",
       "supplier": "JACK DIB",
       "subcategory": "DISH WASHING",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10257",
@@ -1924,14 +2066,14 @@
       "name": "SANDWICH PAPER 200GR",
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10261",
-      "barcode": "10261",
-      "barcodes": [
-        "10261"
-      ],
+      "barcode": "2700133",
+      "barcodes": "",
       "Product Description": "VILEDA MAMSAHA GREEN",
       "product_description": "VILEDA MAMSAHA GREEN",
       "description": "VILEDA MAMSAHA GREEN",
@@ -1967,9 +2109,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VILEDA MAMSAHA GREEN",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1978,10 +2127,8 @@
     },
     {
       "id": "10262",
-      "barcode": "10262",
-      "barcodes": [
-        "10262"
-      ],
+      "barcode": "2700160",
+      "barcodes": "",
       "Product Description": "COMBO SET 4PCS",
       "product_description": "COMBO SET 4PCS",
       "description": "COMBO SET 4PCS",
@@ -2017,9 +2164,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "COMBO SET 4PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2035,11 +2189,11 @@
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
-      "stock_in_geitawi_branch": "-11.0",
+      "stock_in_geitawi_branch": "-9.0",
       "consumption_in_geitawi_branch": "16.0",
       "stock_in_medawar_branch": "-17.0",
       "consumption_in_medawar_branch": "56.0",
-      "total_stock": "-28.0",
+      "total_stock": "-26.0",
       "total_consumption": "72.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
@@ -2051,7 +2205,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-11.0",
+          "stock": "-9.0",
           "consumption": "16.0"
         },
         "Medawar": {
@@ -2067,14 +2221,13 @@
       "secondary_subcategory": "",
       "barcodes": "",
       "subcategory": "shaving",
-      "vat": 1
+      "vat": 1,
+      "barcode2": ""
     },
     {
       "id": "10265",
-      "barcode": "10265",
-      "barcodes": [
-        "10265"
-      ],
+      "barcode": "2700165",
+      "barcodes": "",
       "Product Description": "CAN OPENER",
       "product_description": "CAN OPENER",
       "description": "CAN OPENER",
@@ -2110,9 +2263,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CAN OPENER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2121,10 +2281,8 @@
     },
     {
       "id": "10266",
-      "barcode": "10266",
-      "barcodes": [
-        "10266"
-      ],
+      "barcode": "2700103",
+      "barcodes": "",
       "Product Description": "MRABBA",
       "product_description": "MRABBA",
       "description": "MRABBA",
@@ -2160,9 +2318,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MRABBA",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2205,14 +2370,14 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10269",
-      "barcode": "10269",
-      "barcodes": [
-        "10269"
-      ],
+      "barcode": "2700166",
+      "barcodes": "",
       "Product Description": "NAIL CLIPPER SMALL",
       "product_description": "NAIL CLIPPER SMALL",
       "description": "NAIL CLIPPER SMALL",
@@ -2248,9 +2413,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NAIL CLIPPER SMALL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2259,10 +2431,8 @@
     },
     {
       "id": "10270",
-      "barcode": "10270",
-      "barcodes": [
-        "10270"
-      ],
+      "barcode": "2700167",
+      "barcodes": "",
       "Product Description": "NAIL CLIPPER BIG",
       "product_description": "NAIL CLIPPER BIG",
       "description": "NAIL CLIPPER BIG",
@@ -2298,9 +2468,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NAIL CLIPPER BIG",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2309,10 +2486,8 @@
     },
     {
       "id": "10273",
-      "barcode": "10273",
-      "barcodes": [
-        "10273"
-      ],
+      "barcode": "2700124",
+      "barcodes": "",
       "Product Description": "STYLO",
       "product_description": "STYLO",
       "description": "STYLO",
@@ -2348,9 +2523,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "STYLO",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2359,10 +2541,8 @@
     },
     {
       "id": "10274",
-      "barcode": "10274",
-      "barcodes": [
-        "10274"
-      ],
+      "barcode": "2700174",
+      "barcodes": "",
       "Product Description": "MODHICH",
       "product_description": "MODHICH",
       "description": "MODHICH",
@@ -2398,9 +2578,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MODHICH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2409,10 +2596,8 @@
     },
     {
       "id": "10275",
-      "barcode": "10275",
-      "barcodes": [
-        "10275"
-      ],
+      "barcode": "2700123",
+      "barcodes": "",
       "Product Description": "POWER OUTLET",
       "product_description": "POWER OUTLET",
       "description": "POWER OUTLET",
@@ -2448,9 +2633,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "POWER OUTLET",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2459,10 +2651,8 @@
     },
     {
       "id": "10276",
-      "barcode": "10276",
-      "barcodes": [
-        "10276"
-      ],
+      "barcode": "2700126",
+      "barcodes": "",
       "Product Description": "ELASTIC FALCON",
       "product_description": "ELASTIC FALCON",
       "description": "ELASTIC FALCON",
@@ -2498,9 +2688,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ELASTIC FALCON",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2509,10 +2706,8 @@
     },
     {
       "id": "10277",
-      "barcode": "10277",
-      "barcodes": [
-        "10277"
-      ],
+      "barcode": "2700179",
+      "barcodes": "",
       "Product Description": "CANDLES NUMBER 1",
       "product_description": "CANDLES NUMBER 1",
       "description": "CANDLES NUMBER 1",
@@ -2548,9 +2743,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CANDLES NUMBER 1",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2593,14 +2795,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10280",
-      "barcode": "10280",
-      "barcodes": [
-        "10280"
-      ],
+      "barcode": "2700189",
+      "barcodes": "",
       "Product Description": "COMPAS",
       "product_description": "COMPAS",
       "description": "COMPAS",
@@ -2636,9 +2838,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "COMPAS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2647,10 +2856,8 @@
     },
     {
       "id": "10281",
-      "barcode": "10281",
-      "barcodes": [
-        "10281"
-      ],
+      "barcode": "2700194",
+      "barcodes": "",
       "Product Description": "BATH ORGANIC LOOFAH",
       "product_description": "BATH ORGANIC LOOFAH",
       "description": "BATH ORGANIC LOOFAH",
@@ -2686,9 +2893,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BATH ORGANIC LOOFAH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2697,10 +2911,8 @@
     },
     {
       "id": "10284",
-      "barcode": "10284",
-      "barcodes": [
-        "10284"
-      ],
+      "barcode": "2700121",
+      "barcodes": "",
       "Product Description": "EVEREADY BATTERY",
       "product_description": "EVEREADY BATTERY",
       "description": "EVEREADY BATTERY",
@@ -2736,9 +2948,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "EVEREADY BATTERY",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2781,14 +3000,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "6215000665102",
+      "barcodes": "6215000665102"
     },
     {
       "id": "10292",
-      "barcode": "10292",
-      "barcodes": [
-        "10292"
-      ],
+      "barcode": "2700199",
+      "barcodes": "",
       "Product Description": "LED LAMP WHITE DIAMOND 48W",
       "product_description": "LED LAMP WHITE DIAMOND 48W",
       "description": "LED LAMP WHITE DIAMOND 48W",
@@ -2824,9 +3043,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "LED LAMP WHITE DIAMOND 48W",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2835,10 +3061,8 @@
     },
     {
       "id": "10293",
-      "barcode": "10293",
-      "barcodes": [
-        "10293"
-      ],
+      "barcode": "2700200",
+      "barcodes": "",
       "Product Description": "TRIM CALLUS SHAVER",
       "product_description": "TRIM CALLUS SHAVER",
       "description": "TRIM CALLUS SHAVER",
@@ -2874,9 +3098,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TRIM CALLUS SHAVER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2919,14 +3150,14 @@
       "name": "PADLOCK 20 MM",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10295",
-      "barcode": "10295",
-      "barcodes": [
-        "10295"
-      ],
+      "barcode": "2700202",
+      "barcodes": "6928052239893",
       "Product Description": "PADLOCK 25 MM",
       "product_description": "PADLOCK 25 MM",
       "description": "PADLOCK 25 MM",
@@ -2962,9 +3193,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "6928052239893",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PADLOCK 25 MM",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3007,7 +3245,9 @@
       "name": "PADLOCK 32 MM",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "6971830760010",
+      "barcodes": "6971830760010"
     },
     {
       "id": "10297",
@@ -3045,14 +3285,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10299",
-      "barcode": "10299",
-      "barcodes": [
-        "10299"
-      ],
+      "barcode": "2700206",
+      "barcodes": "",
       "Product Description": "TOOTHPICK DENTAL FLOSS",
       "product_description": "TOOTHPICK DENTAL FLOSS",
       "description": "TOOTHPICK DENTAL FLOSS",
@@ -3088,9 +3328,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TOOTHPICK DENTAL FLOSS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3099,10 +3346,8 @@
     },
     {
       "id": "10307",
-      "barcode": "10307",
-      "barcodes": [
-        "10307"
-      ],
+      "barcode": "6921494200049",
+      "barcodes": "",
       "Product Description": "JIA JU CLEANING TOOL",
       "product_description": "JIA JU CLEANING TOOL",
       "description": "JIA JU CLEANING TOOL",
@@ -3138,9 +3383,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "JIA JU CLEANING TOOL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3183,7 +3435,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10322",
@@ -3221,14 +3475,14 @@
       "name": "DISPOSABLE PLATE 7 INCH 25PCS",
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10327",
-      "barcode": "10327",
-      "barcodes": [
-        "10327"
-      ],
+      "barcode": "8033749470393",
+      "barcodes": "",
       "Product Description": "CANDLE RED X4",
       "product_description": "CANDLE RED X4",
       "description": "CANDLE RED X4",
@@ -3264,9 +3518,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CANDLE RED X4",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3309,7 +3570,9 @@
       "name": "SOMOPLAST PICNIC 50 PET CUPS 500 CC",
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10329",
@@ -3347,7 +3610,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10336",
@@ -3385,14 +3650,14 @@
       "name": "CLEANING TOOL",
       "supplier": "JACK DIB",
       "subcategory": "CLEANING",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10344",
-      "barcode": "10344",
-      "barcodes": [
-        "10344"
-      ],
+      "barcode": "5287000715072",
+      "barcodes": "",
       "Product Description": "NOTE BOOK 96 SHEETS",
       "product_description": "NOTE BOOK 96 SHEETS",
       "description": "NOTE BOOK 96 SHEETS",
@@ -3428,9 +3693,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NOTE BOOK 96 SHEETS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3473,7 +3745,9 @@
       "name": "LOOFA TALL DOUBLE",
       "supplier": "JACK DIB",
       "subcategory": "hand & body wash",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10347",
@@ -3511,14 +3785,14 @@
       "name": "MATTE TOOL SMALL",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10352",
-      "barcode": "10352",
-      "barcodes": [
-        "10352"
-      ],
+      "barcode": "5281083030411",
+      "barcodes": "",
       "Product Description": "BEST CHOICE T30 CANDLE",
       "product_description": "BEST CHOICE T30 CANDLE",
       "description": "BEST CHOICE T30 CANDLE",
@@ -3554,9 +3828,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BEST CHOICE T30 CANDLE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3565,10 +3846,8 @@
     },
     {
       "id": "10354",
-      "barcode": "10354",
-      "barcodes": [
-        "10354"
-      ],
+      "barcode": "6009693603981",
+      "barcodes": "",
       "Product Description": "SCOTCH BRITE SCOURER X3",
       "product_description": "SCOTCH BRITE SCOURER X3",
       "description": "SCOTCH BRITE SCOURER X3",
@@ -3604,9 +3883,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SCOTCH BRITE SCOURER X3",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3615,10 +3901,8 @@
     },
     {
       "id": "10357",
-      "barcode": "10357",
-      "barcodes": [
-        "10357"
-      ],
+      "barcode": "5281083030565",
+      "barcodes": "",
       "Product Description": "BEST CHOICE T5 CANDLEX4",
       "product_description": "BEST CHOICE T5 CANDLEX4",
       "description": "BEST CHOICE T5 CANDLEX4",
@@ -3654,9 +3938,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BEST CHOICE T5 CANDLEX4",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3665,10 +3956,8 @@
     },
     {
       "id": "10358",
-      "barcode": "10358",
-      "barcodes": [
-        "10358"
-      ],
+      "barcode": "8008243000674",
+      "barcodes": "",
       "Product Description": "BEST CHOICE CANDLES PLAT 30",
       "product_description": "BEST CHOICE CANDLES PLAT 30",
       "description": "BEST CHOICE CANDLES PLAT 30",
@@ -3704,9 +3993,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BEST CHOICE CANDLES PLAT 30",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3715,10 +4011,8 @@
     },
     {
       "id": "10363",
-      "barcode": "10363",
-      "barcodes": [
-        "10363"
-      ],
+      "barcode": "8003511304782",
+      "barcodes": "",
       "Product Description": "INKILLER",
       "product_description": "INKILLER",
       "description": "INKILLER",
@@ -3754,9 +4048,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "INKILLER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3765,10 +4066,8 @@
     },
     {
       "id": "10364",
-      "barcode": "10364",
-      "barcodes": [
-        "10364"
-      ],
+      "barcode": "6947527800307",
+      "barcodes": "",
       "Product Description": "TIPPEX SKYGLORY",
       "product_description": "TIPPEX SKYGLORY",
       "description": "TIPPEX SKYGLORY",
@@ -3804,9 +4103,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TIPPEX SKYGLORY",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3815,10 +4121,8 @@
     },
     {
       "id": "10367",
-      "barcode": "10367",
-      "barcodes": [
-        "10367"
-      ],
+      "barcode": "4007817131404",
+      "barcodes": "",
       "Product Description": "NORICA PEN",
       "product_description": "NORICA PEN",
       "description": "NORICA PEN",
@@ -3854,9 +4158,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NORICA PEN",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3865,10 +4176,8 @@
     },
     {
       "id": "10371",
-      "barcode": "10371",
-      "barcodes": [
-        "10371"
-      ],
+      "barcode": "5283000303462",
+      "barcodes": "",
       "Product Description": "MAXI CARE 10",
       "product_description": "MAXI CARE 10",
       "description": "MAXI CARE 10",
@@ -3904,9 +4213,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MAXI CARE 10",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3915,10 +4231,8 @@
     },
     {
       "id": "10376",
-      "barcode": "10376",
-      "barcodes": [
-        "10376"
-      ],
+      "barcode": "5000394132535",
+      "barcodes": "",
       "Product Description": "DURACELL C2",
       "product_description": "DURACELL C2",
       "description": "DURACELL C2",
@@ -3954,9 +4268,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DURACELL C2",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3965,10 +4286,8 @@
     },
     {
       "id": "10377",
-      "barcode": "10377",
-      "barcodes": [
-        "10377"
-      ],
+      "barcode": "5000394132542",
+      "barcodes": "5000394151000",
       "Product Description": "DURACELL D2",
       "product_description": "DURACELL D2",
       "description": "DURACELL D2",
@@ -4004,9 +4323,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5000394151000",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DURACELL D2",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4049,14 +4375,14 @@
       "name": "DURACELL CR 2025",
       "supplier": "TRANSMED SAL",
       "subcategory": "BATTERIES",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5000394108844",
+      "barcodes": "5000394108844"
     },
     {
       "id": "10387",
-      "barcode": "10387",
-      "barcodes": [
-        "10387"
-      ],
+      "barcode": "5201557438123",
+      "barcodes": "",
       "Product Description": "PLOMA STAPLER",
       "product_description": "PLOMA STAPLER",
       "description": "PLOMA STAPLER",
@@ -4092,9 +4418,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PLOMA STAPLER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4137,14 +4470,14 @@
       "name": "YAHYA CLOCK 400G",
       "supplier": "YEHYA",
       "subcategory": "SHISHA STUFF",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10393",
-      "barcode": "10393",
-      "barcodes": [
-        "10393"
-      ],
+      "barcode": "9556008000982",
+      "barcodes": "",
       "Product Description": "GLOVES  CLASSIC",
       "product_description": "GLOVES  CLASSIC",
       "description": "GLOVES  CLASSIC",
@@ -4180,9 +4513,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GLOVES  CLASSIC",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4225,14 +4565,14 @@
           "stock": "0.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10403",
-      "barcode": "10403",
-      "barcodes": [
-        "10403"
-      ],
+      "barcode": "5283009702174",
+      "barcodes": "5283009702204",
       "Product Description": "GENERAL POWER ACTIVE 2+1 FREE",
       "product_description": "GENERAL POWER ACTIVE 2+1 FREE",
       "description": "GENERAL POWER ACTIVE 2+1 FREE",
@@ -4268,9 +4608,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5283009702204",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GENERAL POWER ACTIVE 2+1 FREE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4279,10 +4626,8 @@
     },
     {
       "id": "10405",
-      "barcode": "10405",
-      "barcodes": [
-        "10405"
-      ],
+      "barcode": "5281083030466",
+      "barcodes": "",
       "Product Description": "BES CHOICE INOX SCOURERS",
       "product_description": "BES CHOICE INOX SCOURERS",
       "description": "BES CHOICE INOX SCOURERS",
@@ -4318,9 +4663,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BES CHOICE INOX SCOURERS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4329,10 +4681,8 @@
     },
     {
       "id": "10406",
-      "barcode": "10406",
-      "barcodes": [
-        "10406"
-      ],
+      "barcode": "5281083030435",
+      "barcodes": "",
       "Product Description": "BEST CHOICE BOUGIE 50T",
       "product_description": "BEST CHOICE BOUGIE 50T",
       "description": "BEST CHOICE BOUGIE 50T",
@@ -4368,9 +4718,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BEST CHOICE BOUGIE 50T",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4413,7 +4770,9 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10410",
@@ -4451,14 +4810,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10417",
-      "barcode": "10417",
-      "barcodes": [
-        "10417"
-      ],
+      "barcode": "5285002564155",
+      "barcodes": "5285002564100",
       "Product Description": "VIDAPOP 275 ML",
       "product_description": "VIDAPOP 275 ML",
       "description": "VIDAPOP 275 ML",
@@ -4494,9 +4853,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5285002564100",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VIDAPOP 275 ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4505,10 +4871,8 @@
     },
     {
       "id": "10421",
-      "barcode": "10421",
-      "barcodes": [
-        "10421"
-      ],
+      "barcode": "5283002999823",
+      "barcodes": "",
       "Product Description": "MAGIC CLEAN COTTON FLOOR 70 CM",
       "product_description": "MAGIC CLEAN COTTON FLOOR 70 CM",
       "description": "MAGIC CLEAN COTTON FLOOR 70 CM",
@@ -4544,9 +4908,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MAGIC CLEAN COTTON FLOOR 70 CM",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4555,10 +4926,8 @@
     },
     {
       "id": "10425",
-      "barcode": "10425",
-      "barcodes": [
-        "10425"
-      ],
+      "barcode": "5285006412902",
+      "barcodes": "",
       "Product Description": "PLATE 7",
       "product_description": "PLATE 7",
       "description": "PLATE 7",
@@ -4594,9 +4963,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PLATE 7",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4605,10 +4981,8 @@
     },
     {
       "id": "10427",
-      "barcode": "10427",
-      "barcodes": [
-        "10427"
-      ],
+      "barcode": "5281083028845",
+      "barcodes": "",
       "Product Description": "TOURNEVIS TESTER",
       "product_description": "TOURNEVIS TESTER",
       "description": "TOURNEVIS TESTER",
@@ -4644,9 +5018,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TOURNEVIS TESTER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4655,10 +5036,8 @@
     },
     {
       "id": "10428",
-      "barcode": "10428",
-      "barcodes": [
-        "10428"
-      ],
+      "barcode": "6951824501010",
+      "barcodes": "",
       "Product Description": "WHITE DIAMOND LED LAMP 20W",
       "product_description": "WHITE DIAMOND LED LAMP 20W",
       "description": "WHITE DIAMOND LED LAMP 20W",
@@ -4694,9 +5073,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "WHITE DIAMOND LED LAMP 20W",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4739,14 +5125,14 @@
           "stock": "1.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10430",
-      "barcode": "10430",
-      "barcodes": [
-        "10430"
-      ],
+      "barcode": "5286334456163",
+      "barcodes": "0091368600520",
       "Product Description": "ENNZO 120 SHEETS",
       "product_description": "ENNZO 120 SHEETS",
       "description": "ENNZO 120 SHEETS",
@@ -4782,9 +5168,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "0091368600520",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ENNZO 120 SHEETS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4827,64 +5220,14 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
-    },
-    {
-      "id": "10433",
-      "barcode": "10433",
-      "barcodes": [
-        "10433"
-      ],
-      "Product Description": "DELIVERY LBP",
-      "product_description": "DELIVERY LBP",
-      "description": "DELIVERY LBP",
-      "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "",
-      "category": "SERVICES",
-      "sub_category": "DELIVERY",
-      "subcategory": "DELIVERY",
-      "subCategory": "DELIVERY",
-      "unit": "EACH",
-      "VAT": "",
-      "vat": 0,
-      "price_lbp": 20000.0,
-      "cost": 0.0,
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "branches": {
-        "geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "the_daily_market": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
       },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
-      "name": "DELIVERY LBP",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
+      "barcode2": "5283001501089",
+      "barcodes": "5283001501089"
     },
     {
       "id": "10436",
-      "barcode": "10436",
-      "barcodes": [
-        "10436"
-      ],
+      "barcode": "3086126727769",
+      "barcodes": "",
       "Product Description": "BIC  LIGHTER",
       "product_description": "BIC  LIGHTER",
       "description": "BIC  LIGHTER",
@@ -4920,9 +5263,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BIC  LIGHTER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4931,10 +5281,8 @@
     },
     {
       "id": "10438",
-      "barcode": "10438",
-      "barcodes": [
-        "10438"
-      ],
+      "barcode": "8711252058597",
+      "barcodes": "",
       "Product Description": "LIFETIME CLEAN 24 PCS",
       "product_description": "LIFETIME CLEAN 24 PCS",
       "description": "LIFETIME CLEAN 24 PCS",
@@ -4970,9 +5318,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "LIFETIME CLEAN 24 PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5015,14 +5370,14 @@
       "name": "SALTZ CLASSIC 36 G",
       "supplier": "MANY FOOD SARL",
       "subcategory": "Biscuits",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5285008412825",
+      "barcodes": "5285008412825"
     },
     {
       "id": "10447",
-      "barcode": "10447",
-      "barcodes": [
-        "10447"
-      ],
+      "barcode": "5000394108882",
+      "barcodes": "",
       "Product Description": "DU LI COINA HSDC 2016",
       "product_description": "DU LI COINA HSDC 2016",
       "description": "DU LI COINA HSDC 2016",
@@ -5058,9 +5413,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DU LI COINA HSDC 2016",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5069,10 +5431,8 @@
     },
     {
       "id": "10449",
-      "barcode": "10449",
-      "barcodes": [
-        "10449"
-      ],
+      "barcode": "6215000660701",
+      "barcodes": "",
       "Product Description": "FAMILY",
       "product_description": "FAMILY",
       "description": "FAMILY",
@@ -5108,9 +5468,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FAMILY",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5119,10 +5486,8 @@
     },
     {
       "id": "10452",
-      "barcode": "10452",
-      "barcodes": [
-        "10452"
-      ],
+      "barcode": "5285008412924",
+      "barcodes": "",
       "Product Description": "DIGESTIVE BISCUIT",
       "product_description": "DIGESTIVE BISCUIT",
       "description": "DIGESTIVE BISCUIT",
@@ -5158,9 +5523,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DIGESTIVE BISCUIT",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5203,14 +5575,14 @@
           "stock": "1.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10457",
-      "barcode": "10457",
-      "barcodes": [
-        "10457"
-      ],
+      "barcode": "6281015002119",
+      "barcodes": "",
       "Product Description": "MAOG GLOVES SMALL",
       "product_description": "MAOG GLOVES SMALL",
       "description": "MAOG GLOVES SMALL",
@@ -5246,9 +5618,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MAOG GLOVES SMALL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5256,61 +5635,9 @@
       "consumption_in_the_daily_market_branch": "0.0"
     },
     {
-      "id": "10459",
-      "barcode": "10459",
-      "barcodes": [
-        "10459"
-      ],
-      "Product Description": "DELIVERY GAZ  LBP",
-      "product_description": "DELIVERY GAZ  LBP",
-      "description": "DELIVERY GAZ  LBP",
-      "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "",
-      "category": "SERVICES",
-      "sub_category": "DELIVERY",
-      "subcategory": "DELIVERY",
-      "subCategory": "DELIVERY",
-      "unit": "EACH",
-      "VAT": "",
-      "vat": 0,
-      "price_lbp": 25000.0,
-      "cost": 0.0,
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "branches": {
-        "geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "the_daily_market": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
-      },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
-      "name": "DELIVERY GAZ  LBP",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
-    },
-    {
       "id": "10462",
-      "barcode": "10462",
-      "barcodes": [
-        "10462"
-      ],
+      "barcode": "5287001451177",
+      "barcodes": "",
       "Product Description": "APEX DEEP ACTION HAND SOAP 3.8L",
       "product_description": "APEX DEEP ACTION HAND SOAP 3.8L",
       "description": "APEX DEEP ACTION HAND SOAP 3.8L",
@@ -5346,9 +5673,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "APEX DEEP ACTION HAND SOAP 3.8L",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5357,10 +5691,8 @@
     },
     {
       "id": "10464",
-      "barcode": "10464",
-      "barcodes": [
-        "10464"
-      ],
+      "barcode": "5287001451078",
+      "barcodes": "",
       "Product Description": "APEX DISHWASHER 3.8L",
       "product_description": "APEX DISHWASHER 3.8L",
       "description": "APEX DISHWASHER 3.8L",
@@ -5396,9 +5728,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "APEX DISHWASHER 3.8L",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5407,10 +5746,8 @@
     },
     {
       "id": "10466",
-      "barcode": "10466",
-      "barcodes": [
-        "10466"
-      ],
+      "barcode": "5287001451061",
+      "barcodes": "",
       "Product Description": "APEX ANTISEPTIC 3.8L",
       "product_description": "APEX ANTISEPTIC 3.8L",
       "description": "APEX ANTISEPTIC 3.8L",
@@ -5446,9 +5783,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "APEX ANTISEPTIC 3.8L",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5457,10 +5801,8 @@
     },
     {
       "id": "10469",
-      "barcode": "10469",
-      "barcodes": [
-        "10469"
-      ],
+      "barcode": "5281110221799",
+      "barcodes": "",
       "Product Description": "VILEDA FC JORDAN WIPER 42",
       "product_description": "VILEDA FC JORDAN WIPER 42",
       "description": "VILEDA FC JORDAN WIPER 42",
@@ -5496,9 +5838,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VILEDA FC JORDAN WIPER 42",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5541,14 +5890,14 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10471",
-      "barcode": "10471",
-      "barcodes": [
-        "10471"
-      ],
+      "barcode": "4003364582034",
+      "barcodes": "",
       "Product Description": "NEGRO INOX POWER",
       "product_description": "NEGRO INOX POWER",
       "description": "NEGRO INOX POWER",
@@ -5584,9 +5933,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NEGRO INOX POWER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5595,10 +5951,8 @@
     },
     {
       "id": "10472",
-      "barcode": "10472",
-      "barcodes": [
-        "10472"
-      ],
+      "barcode": "5281083030473",
+      "barcodes": "",
       "Product Description": "GIANT EASY GRIP GREEN",
       "product_description": "GIANT EASY GRIP GREEN",
       "description": "GIANT EASY GRIP GREEN",
@@ -5634,9 +5988,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GIANT EASY GRIP GREEN",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5645,10 +6006,8 @@
     },
     {
       "id": "10473",
-      "barcode": "10473",
-      "barcodes": [
-        "10473"
-      ],
+      "barcode": "5281083030480",
+      "barcodes": "",
       "Product Description": "EASY GRIP SCOURER WHITE",
       "product_description": "EASY GRIP SCOURER WHITE",
       "description": "EASY GRIP SCOURER WHITE",
@@ -5684,9 +6043,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "EASY GRIP SCOURER WHITE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5729,14 +6095,14 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10478",
-      "barcode": "10478",
-      "barcodes": [
-        "10478"
-      ],
+      "barcode": "5281083027534",
+      "barcodes": "",
       "Product Description": "BEST CHOICE ALLUMETTES 10 BOITES",
       "product_description": "BEST CHOICE ALLUMETTES 10 BOITES",
       "description": "BEST CHOICE ALLUMETTES 10 BOITES",
@@ -5772,9 +6138,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BEST CHOICE ALLUMETTES 10 BOITES",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5783,10 +6156,8 @@
     },
     {
       "id": "10479",
-      "barcode": "10479",
-      "barcodes": [
-        "10479"
-      ],
+      "barcode": "3142761040103",
+      "barcodes": "",
       "Product Description": "ROZENBAL 10 M",
       "product_description": "ROZENBAL 10 M",
       "description": "ROZENBAL 10 M",
@@ -5822,9 +6193,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ROZENBAL 10 M",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5867,7 +6245,9 @@
       "name": "EMPTY GAZ CYLINDER",
       "supplier": "TONY HANNA - GAZ",
       "subcategory": "GAS",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10481",
@@ -5905,7 +6285,9 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10482",
@@ -5943,14 +6325,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10483",
-      "barcode": "10483",
-      "barcodes": [
-        "10483"
-      ],
+      "barcode": "9639557673804",
+      "barcodes": "",
       "Product Description": "ALSHAMES LOOFAH",
       "product_description": "ALSHAMES LOOFAH",
       "description": "ALSHAMES LOOFAH",
@@ -5986,9 +6368,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ALSHAMES LOOFAH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5997,10 +6386,8 @@
     },
     {
       "id": "10484",
-      "barcode": "10484",
-      "barcodes": [
-        "10484"
-      ],
+      "barcode": "6972280415215",
+      "barcodes": "",
       "Product Description": "FASHION LIGHTER",
       "product_description": "FASHION LIGHTER",
       "description": "FASHION LIGHTER",
@@ -6036,9 +6423,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FASHION LIGHTER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6047,10 +6441,8 @@
     },
     {
       "id": "10485",
-      "barcode": "10485",
-      "barcodes": [
-        "10485"
-      ],
+      "barcode": "4713928049056",
+      "barcodes": "",
       "Product Description": "PINZAS PLASTICO 24",
       "product_description": "PINZAS PLASTICO 24",
       "description": "PINZAS PLASTICO 24",
@@ -6086,9 +6478,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PINZAS PLASTICO 24",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6097,10 +6496,8 @@
     },
     {
       "id": "10486",
-      "barcode": "10486",
-      "barcodes": [
-        "10486"
-      ],
+      "barcode": "6951824501003",
+      "barcodes": "",
       "Product Description": "WHITE DIAMOND 15 W",
       "product_description": "WHITE DIAMOND 15 W",
       "description": "WHITE DIAMOND 15 W",
@@ -6136,9 +6533,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "WHITE DIAMOND 15 W",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6147,10 +6551,8 @@
     },
     {
       "id": "10487",
-      "barcode": "10487",
-      "barcodes": [
-        "10487"
-      ],
+      "barcode": "020205008043",
+      "barcodes": "",
       "Product Description": "DURULEX CRYSTAL GLASS 6PCS",
       "product_description": "DURULEX CRYSTAL GLASS 6PCS",
       "description": "DURULEX CRYSTAL GLASS 6PCS",
@@ -6186,9 +6588,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DURULEX CRYSTAL GLASS 6PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6231,14 +6640,14 @@
           "stock": "0.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10489",
-      "barcode": "10489",
-      "barcodes": [
-        "10489"
-      ],
+      "barcode": "6972764791286",
+      "barcodes": "652369110243",
       "Product Description": "LIGHTER sp",
       "product_description": "LIGHTER sp",
       "description": "LIGHTER sp",
@@ -6274,9 +6683,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "652369110243",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "LIGHTER sp",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6319,14 +6735,14 @@
           "stock": "11.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "6972910240309",
+      "barcodes": "6972910240309"
     },
     {
       "id": "10491",
-      "barcode": "10491",
-      "barcodes": [
-        "10491"
-      ],
+      "barcode": "6804545025962",
+      "barcodes": "",
       "Product Description": "HAYBA LIGHT 5 WATT",
       "product_description": "HAYBA LIGHT 5 WATT",
       "description": "HAYBA LIGHT 5 WATT",
@@ -6362,9 +6778,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "HAYBA LIGHT 5 WATT",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6373,10 +6796,8 @@
     },
     {
       "id": "10492",
-      "barcode": "10492",
-      "barcodes": [
-        "10492"
-      ],
+      "barcode": "6991626398661",
+      "barcodes": "",
       "Product Description": "BALLONS + MANFAKH",
       "product_description": "BALLONS + MANFAKH",
       "description": "BALLONS + MANFAKH",
@@ -6412,9 +6833,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BALLONS + MANFAKH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6457,14 +6885,14 @@
           "stock": "7.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10494",
-      "barcode": "10494",
-      "barcodes": [
-        "10494"
-      ],
+      "barcode": "8699621151516",
+      "barcodes": "",
       "Product Description": "JUNIOR LIGHTER GAS",
       "product_description": "JUNIOR LIGHTER GAS",
       "description": "JUNIOR LIGHTER GAS",
@@ -6500,9 +6928,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "JUNIOR LIGHTER GAS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6545,14 +6980,14 @@
       "name": "BALLONS HAPPY BIRTHDAY",
       "supplier": "JACK DIB",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "6954534868541",
+      "barcodes": "6954534868541"
     },
     {
       "id": "10496",
-      "barcode": "10496",
-      "barcodes": [
-        "10496"
-      ],
+      "barcode": "6920191707110",
+      "barcodes": "",
       "Product Description": "BALLOONS GLOBOS DE LATEX",
       "product_description": "BALLOONS GLOBOS DE LATEX",
       "description": "BALLOONS GLOBOS DE LATEX",
@@ -6588,9 +7023,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BALLOONS GLOBOS DE LATEX",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6599,10 +7041,8 @@
     },
     {
       "id": "10497",
-      "barcode": "10497",
-      "barcodes": [
-        "10497"
-      ],
+      "barcode": "1248646767018",
+      "barcodes": "6948171200772",
       "Product Description": "FUTURE XIN CLEAN BALL",
       "product_description": "FUTURE XIN CLEAN BALL",
       "description": "FUTURE XIN CLEAN BALL",
@@ -6638,9 +7078,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "6948171200772",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FUTURE XIN CLEAN BALL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6683,14 +7130,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10499",
-      "barcode": "10499",
-      "barcodes": [
-        "10499"
-      ],
+      "barcode": "6970668842028",
+      "barcodes": "",
       "Product Description": "ORCHID CHOFATA",
       "product_description": "ORCHID CHOFATA",
       "description": "ORCHID CHOFATA",
@@ -6726,9 +7173,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ORCHID CHOFATA",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6736,6 +7190,6 @@
       "consumption_in_the_daily_market_branch": "0.0"
     }
   ],
-  "updatedAt": "2026-05-09T21:54:55.069095Z",
+  "updatedAt": "2026-05-10T07:39:54.784178Z",
   "source": "sql"
 }

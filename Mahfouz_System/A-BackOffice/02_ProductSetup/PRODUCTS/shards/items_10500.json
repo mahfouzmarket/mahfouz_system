@@ -36,7 +36,9 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10510",
@@ -74,7 +76,9 @@
       "name": "FL GIPSY 300SH SOFT PLUS",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281001116265",
+      "barcodes": "5281001116265"
     },
     {
       "id": "10511",
@@ -112,14 +116,14 @@
       "name": "FL GIPSY 200SH SOFT PLUSX12",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10512",
-      "barcode": "10512",
-      "barcodes": [
-        "10512"
-      ],
+      "barcode": "5281001115008",
+      "barcodes": "",
       "Product Description": "GIPSY POCKET WINTER 10SH",
       "product_description": "GIPSY POCKET WINTER 10SH",
       "description": "GIPSY POCKET WINTER 10SH",
@@ -155,9 +159,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GIPSY POCKET WINTER 10SH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -166,10 +177,8 @@
     },
     {
       "id": "10513",
-      "barcode": "10513",
-      "barcodes": [
-        "10513"
-      ],
+      "barcode": "5281001115015",
+      "barcodes": "",
       "Product Description": "GIPSY POCKET SCHOOL 10SH",
       "product_description": "GIPSY POCKET SCHOOL 10SH",
       "description": "GIPSY POCKET SCHOOL 10SH",
@@ -205,9 +214,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GIPSY POCKET SCHOOL 10SH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -216,10 +232,8 @@
     },
     {
       "id": "10527",
-      "barcode": "10527",
-      "barcodes": [
-        "10527"
-      ],
+      "barcode": "5281001214701",
+      "barcodes": "",
       "Product Description": "SANITA SMALL TRASH BAGS 15L 30BAGS",
       "product_description": "SANITA SMALL TRASH BAGS 15L 30BAGS",
       "description": "SANITA SMALL TRASH BAGS 15L 30BAGS",
@@ -255,9 +269,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SANITA SMALL TRASH BAGS 15L 30BAGS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -300,7 +321,9 @@
       "name": "PRIMO MIMOSA",
       "supplier": "MIMOSA",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10534",
@@ -338,7 +361,9 @@
       "name": "MIMOSA TISSUE",
       "supplier": "MIMOSA",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10536",
@@ -376,7 +401,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10542",
@@ -414,7 +441,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10546",
@@ -425,11 +454,11 @@
       "category": "HOME USAGE",
       "sub_category": "WIPES",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "33.0",
       "stock_in_medawar_branch": "19.0",
       "consumption_in_medawar_branch": "13.0",
-      "total_stock": "18.0",
+      "total_stock": "16.0",
       "total_consumption": "46.0",
       "VAT": "YES",
       "price_lbp": 255000.0,
@@ -441,7 +470,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "-3.0",
           "consumption": "33.0"
         },
         "Medawar": {
@@ -452,7 +481,9 @@
       "name": "GIPSY WIPES 100S",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "WIPES",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281001943533",
+      "barcodes": "5281001943533"
     },
     {
       "id": "10551",
@@ -490,14 +521,14 @@
       "name": "TENDREX TISSUES 200SH",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281030111538",
+      "barcodes": "5281030111538"
     },
     {
       "id": "10560",
-      "barcode": "10560",
-      "barcodes": [
-        "10560"
-      ],
+      "barcode": "5281001943465",
+      "barcodes": "",
       "Product Description": "GIPSY MULTIPURPOSE 40 SHEETS",
       "product_description": "GIPSY MULTIPURPOSE 40 SHEETS",
       "description": "GIPSY MULTIPURPOSE 40 SHEETS",
@@ -533,9 +564,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GIPSY MULTIPURPOSE 40 SHEETS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -544,10 +582,8 @@
     },
     {
       "id": "10571",
-      "barcode": "10571",
-      "barcodes": [
-        "10571"
-      ],
+      "barcode": "5281001127049",
+      "barcodes": "5281001125069",
       "Product Description": "GIPSY 9 ROLLS",
       "product_description": "GIPSY 9 ROLLS",
       "description": "GIPSY 9 ROLLS",
@@ -583,9 +619,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5281001125069",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GIPSY 9 ROLLS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -594,10 +637,8 @@
     },
     {
       "id": "10574",
-      "barcode": "10574",
-      "barcodes": [
-        "10574"
-      ],
+      "barcode": "5281001214886",
+      "barcodes": "",
       "Product Description": "LIGHT TRASH BAG SML",
       "product_description": "LIGHT TRASH BAG SML",
       "description": "LIGHT TRASH BAG SML",
@@ -633,9 +674,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "LIGHT TRASH BAG SML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -678,7 +726,9 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10592",
@@ -716,7 +766,9 @@
       "name": "ELSADA COTTON STERILE 100G",
       "supplier": "SADAPACK",
       "subcategory": "COTTONS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10593",
@@ -754,7 +806,9 @@
       "name": "ELSADA BEAUTY COTTON DISCS",
       "supplier": "SADAPACK",
       "subcategory": "COTTONS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10598",
@@ -792,7 +846,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10602",
@@ -830,14 +886,14 @@
           "stock": "11.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10611",
-      "barcode": "10611",
-      "barcodes": [
-        "10611"
-      ],
+      "barcode": "5281001215241",
+      "barcodes": "",
       "Product Description": "SANITA EASY LOCK HANDY MEDIUM",
       "product_description": "SANITA EASY LOCK HANDY MEDIUM",
       "description": "SANITA EASY LOCK HANDY MEDIUM",
@@ -873,9 +929,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SANITA EASY LOCK HANDY MEDIUM",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -884,10 +947,8 @@
     },
     {
       "id": "10612",
-      "barcode": "10612",
-      "barcodes": [
-        "10612"
-      ],
+      "barcode": "5281001215258",
+      "barcodes": "",
       "Product Description": "SANITA EASY LOCK HANDY LARGE",
       "product_description": "SANITA EASY LOCK HANDY LARGE",
       "description": "SANITA EASY LOCK HANDY LARGE",
@@ -923,9 +984,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SANITA EASY LOCK HANDY LARGE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -934,10 +1002,8 @@
     },
     {
       "id": "10614",
-      "barcode": "10614",
-      "barcodes": [
-        "10614"
-      ],
+      "barcode": "5281001120675",
+      "barcodes": "",
       "Product Description": "SANITA DREAMS IMPERIAL 6 ROLLS 1680 SHEETS",
       "product_description": "SANITA DREAMS IMPERIAL 6 ROLLS 1680 SHEETS",
       "description": "SANITA DREAMS IMPERIAL 6 ROLLS 1680 SHEETS",
@@ -973,9 +1039,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SANITA DREAMS IMPERIAL 6 ROLLS 1680 SHEETS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1018,7 +1091,9 @@
           "stock": "4.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10629",
@@ -1056,14 +1131,14 @@
       "name": "MIMOSA EASY TIE TRASH BAG 20 LARGE- BLUE",
       "supplier": "MIMOSA",
       "subcategory": "TRASH BAGS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10647",
-      "barcode": "10647",
-      "barcodes": [
-        "10647"
-      ],
+      "barcode": "5287001033991",
+      "barcodes": "5287001033977",
       "Product Description": "NYLON ZIPPER BAGS VITAL",
       "product_description": "NYLON ZIPPER BAGS VITAL",
       "description": "NYLON ZIPPER BAGS VITAL",
@@ -1099,9 +1174,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5287001033977",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NYLON ZIPPER BAGS VITAL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1110,10 +1192,8 @@
     },
     {
       "id": "10651",
-      "barcode": "10651",
-      "barcodes": [
-        "10651"
-      ],
+      "barcode": "5281030121698",
+      "barcodes": "",
       "Product Description": "TENDREX ECO 4 ROLL",
       "product_description": "TENDREX ECO 4 ROLL",
       "description": "TENDREX ECO 4 ROLL",
@@ -1149,9 +1229,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TENDREX ECO 4 ROLL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1160,10 +1247,8 @@
     },
     {
       "id": "10652",
-      "barcode": "10652",
-      "barcodes": [
-        "10652"
-      ],
+      "barcode": "5281030121704",
+      "barcodes": "",
       "Product Description": "TENDREX ECO 8 ROLL",
       "product_description": "TENDREX ECO 8 ROLL",
       "description": "TENDREX ECO 8 ROLL",
@@ -1199,9 +1284,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "TENDREX ECO 8 ROLL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1244,7 +1336,9 @@
       "name": "TENDREX TISSUE 300 JUMBO",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281030162349",
+      "barcodes": "5281030162349"
     },
     {
       "id": "10655",
@@ -1329,7 +1423,9 @@
       "name": "ROSANA 4 ROLLS 520SH",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10660",
@@ -1367,7 +1463,9 @@
       "name": "ROSANA 18 ROLLS 1800SH",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281001123782",
+      "barcodes": "5281001123782"
     },
     {
       "id": "10661",
@@ -1405,7 +1503,9 @@
       "name": "ROSANA 270SHEETS 15%",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281001111864",
+      "barcodes": "5281001111864"
     },
     {
       "id": "10662",
@@ -1443,14 +1543,14 @@
       "name": "GIPSY TOILET CLASSIC 4ROLLS",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281001127735",
+      "barcodes": "5281001127735"
     },
     {
       "id": "10664",
-      "barcode": "10664",
-      "barcodes": [
-        "10664"
-      ],
+      "barcode": "5281001133118",
+      "barcodes": "",
       "Product Description": "SANITA HANDY 50 NAPKINS 2 PLY",
       "product_description": "SANITA HANDY 50 NAPKINS 2 PLY",
       "description": "SANITA HANDY 50 NAPKINS 2 PLY",
@@ -1486,9 +1586,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SANITA HANDY 50 NAPKINS 2 PLY",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1578,7 +1685,9 @@
       "name": "MIMOSA INTERFOLD 200 SHEETS",
       "supplier": "MIMOSA",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10667",
@@ -1616,7 +1725,9 @@
       "name": "MIMOSA EASY TIE TRASH BAG 20 XL",
       "supplier": "MIMOSA",
       "subcategory": "TRASH BAGS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10668",
@@ -1701,14 +1812,14 @@
       "name": "ROSANA TOILETTE 32",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281001123775",
+      "barcodes": "5281001123775"
     },
     {
       "id": "10675",
-      "barcode": "10675",
-      "barcodes": [
-        "10675"
-      ],
+      "barcode": "5285001953868",
+      "barcodes": "",
       "Product Description": "ELSADA COTTON 200PCS",
       "product_description": "ELSADA COTTON 200PCS",
       "description": "ELSADA COTTON 200PCS",
@@ -1744,9 +1855,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ELSADA COTTON 200PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1755,10 +1873,8 @@
     },
     {
       "id": "10677",
-      "barcode": "10677",
-      "barcodes": [
-        "10677"
-      ],
+      "barcode": "5281001153109",
+      "barcodes": "",
       "Product Description": "ROSANA INTERFOLD DRY WIPE TOWELS 120SH",
       "product_description": "ROSANA INTERFOLD DRY WIPE TOWELS 120SH",
       "description": "ROSANA INTERFOLD DRY WIPE TOWELS 120SH",
@@ -1794,9 +1910,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ROSANA INTERFOLD DRY WIPE TOWELS 120SH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -1839,7 +1962,9 @@
           "stock": "3.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10682",
@@ -1877,7 +2002,9 @@
           "stock": "0.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "barcode2": "5281001461822",
+      "barcodes": "5281001461822"
     },
     {
       "id": "10683",
@@ -1915,14 +2042,14 @@
       "name": "ALUMINUM CLASSIC 100 SQFT",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "ALUMINUM FOIL",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10696",
-      "barcode": "10696",
-      "barcodes": [
-        "10696"
-      ],
+      "barcode": "5283002991667",
+      "barcodes": "",
       "Product Description": "MAGIC CLEAN 2 PIECES",
       "product_description": "MAGIC CLEAN 2 PIECES",
       "description": "MAGIC CLEAN 2 PIECES",
@@ -1958,9 +2085,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MAGIC CLEAN 2 PIECES",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2003,7 +2137,9 @@
           "stock": "0.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10698",
@@ -2041,7 +2177,9 @@
           "stock": "3.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10701",
@@ -2079,14 +2217,14 @@
       "name": "SANITA TRASH BAGS MEDIUM 30L",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TRASH BAGS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10704",
-      "barcode": "10704",
-      "barcodes": [
-        "10704"
-      ],
+      "barcode": "5283022012458",
+      "barcodes": "",
       "Product Description": "ELSADA SPIRIT ETHANOL 60ML",
       "product_description": "ELSADA SPIRIT ETHANOL 60ML",
       "description": "ELSADA SPIRIT ETHANOL 60ML",
@@ -2122,9 +2260,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ELSADA SPIRIT ETHANOL 60ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2167,7 +2312,9 @@
       "name": "SANITA MY HOME TRASH BAG LARGE 30",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TRASH BAGS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10707",
@@ -2205,14 +2352,14 @@
       "name": "MIMOSA EASY TIE BIO MEDIUM",
       "supplier": "MIMOSA",
       "subcategory": "TISSUES & TOILET PAPER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10708",
-      "barcode": "10708",
-      "barcodes": [
-        "10708"
-      ],
+      "barcode": "5281001115619",
+      "barcodes": "",
       "Product Description": "SANITA DREAMS LIVING 200",
       "product_description": "SANITA DREAMS LIVING 200",
       "description": "SANITA DREAMS LIVING 200",
@@ -2248,9 +2395,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SANITA DREAMS LIVING 200",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2293,14 +2447,14 @@
       "name": "HAPPY FRESH 72 PCS",
       "supplier": "MTANIOS TRADING SARL",
       "subcategory": "WIPES",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10714",
-      "barcode": "10714",
-      "barcodes": [
-        "10714"
-      ],
+      "barcode": "5281001462614",
+      "barcodes": "",
       "Product Description": "HAPPIES MEGA BOX XLG 92",
       "product_description": "HAPPIES MEGA BOX XLG 92",
       "description": "HAPPIES MEGA BOX XLG 92",
@@ -2336,9 +2490,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "HAPPIES MEGA BOX XLG 92",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2381,14 +2542,14 @@
       "name": "SANITA.TRASHBAGS XL",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TRASH BAGS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10717",
-      "barcode": "10717",
-      "barcodes": [
-        "10717"
-      ],
+      "barcode": "8697420534462",
+      "barcodes": "",
       "Product Description": "HAPPY FRESH WT WIPES 100PCS",
       "product_description": "HAPPY FRESH WT WIPES 100PCS",
       "description": "HAPPY FRESH WT WIPES 100PCS",
@@ -2424,9 +2585,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "HAPPY FRESH WT WIPES 100PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2435,10 +2603,8 @@
     },
     {
       "id": "10718",
-      "barcode": "10718",
-      "barcodes": [
-        "10718"
-      ],
+      "barcode": "5281001116982",
+      "barcodes": "",
       "Product Description": "SANITA DREAMS 56 PCS",
       "product_description": "SANITA DREAMS 56 PCS",
       "description": "SANITA DREAMS 56 PCS",
@@ -2474,9 +2640,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SANITA DREAMS 56 PCS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2485,10 +2658,8 @@
     },
     {
       "id": "10730",
-      "barcode": "10730",
-      "barcodes": [
-        "10730"
-      ],
+      "barcode": "8006320087594",
+      "barcodes": "",
       "Product Description": "VAPE LIQUID REFIL",
       "product_description": "VAPE LIQUID REFIL",
       "description": "VAPE LIQUID REFIL",
@@ -2524,9 +2695,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VAPE LIQUID REFIL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2535,10 +2713,8 @@
     },
     {
       "id": "10731",
-      "barcode": "10731",
-      "barcodes": [
-        "10731"
-      ],
+      "barcode": "5289000035303",
+      "barcodes": "",
       "Product Description": "POWER TERMINATES COCKROACHES COMPLETEY",
       "product_description": "POWER TERMINATES COCKROACHES COMPLETEY",
       "description": "POWER TERMINATES COCKROACHES COMPLETEY",
@@ -2574,9 +2750,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "POWER TERMINATES COCKROACHES COMPLETEY",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2616,7 +2799,7 @@
           "consumption": "1.0"
         }
       },
-      "barcodes": "",
+      "barcodes": "6926313588261",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "sub": "INSECT KILLER",
@@ -2624,14 +2807,13 @@
       "secondary_category": "",
       "name": "HACKER WARRIOR  750ML",
       "subcategory": "INSECT KILLER",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "6926313588261"
     },
     {
       "id": "10739",
-      "barcode": "10739",
-      "barcodes": [
-        "10739"
-      ],
+      "barcode": "8697409840492",
+      "barcodes": "6215001631113",
       "Product Description": "ZAMBAK BRUSH",
       "product_description": "ZAMBAK BRUSH",
       "description": "ZAMBAK BRUSH",
@@ -2667,9 +2849,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "6215001631113",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ZAMBAK BRUSH",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2712,7 +2901,9 @@
           "stock": "0.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10750",
@@ -2750,14 +2941,14 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10751",
-      "barcode": "10751",
-      "barcodes": [
-        "10751"
-      ],
+      "barcode": "9556089153133",
+      "barcodes": "",
       "Product Description": "FABER CASTELL",
       "product_description": "FABER CASTELL",
       "description": "FABER CASTELL",
@@ -2793,9 +2984,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FABER CASTELL",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2804,10 +3002,8 @@
     },
     {
       "id": "10756",
-      "barcode": "10756",
-      "barcodes": [
-        "10756"
-      ],
+      "barcode": "8992857130660",
+      "barcodes": "",
       "Product Description": "VAPE COILS JUMBO 150 G",
       "product_description": "VAPE COILS JUMBO 150 G",
       "description": "VAPE COILS JUMBO 150 G",
@@ -2843,9 +3039,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VAPE COILS JUMBO 150 G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -2888,7 +3091,9 @@
           "stock": "4.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10758",
@@ -2926,7 +3131,9 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10759",
@@ -2964,7 +3171,58 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "10764",
+      "barcode": "8006320083459",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "VAPE MAT SET W/C+10FREE",
+      "product_description": "VAPE MAT SET W/C+10FREE",
+      "description": "VAPE MAT SET W/C+10FREE",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "price_lbp": 260000.0,
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "VAPE MAT SET W/C+10FREE",
+      "vat": 0,
+      "cost": 0.0,
+      "stock_in_geitawi_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "total_stock": "0.0",
+      "total_consumption": "0.0"
     },
     {
       "id": "10776",
@@ -3002,14 +3260,14 @@
       "name": "HALEK MOUDHECH YELLOW",
       "supplier": "PLATCO",
       "subcategory": "INSECT KILLER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10781",
-      "barcode": "10781",
-      "barcodes": [
-        "10781"
-      ],
+      "barcode": "8006320084142",
+      "barcodes": "",
       "Product Description": "VAPE DIFFUSER+10PLATES",
       "product_description": "VAPE DIFFUSER+10PLATES",
       "description": "VAPE DIFFUSER+10PLATES",
@@ -3045,9 +3303,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VAPE DIFFUSER+10PLATES",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3056,10 +3321,8 @@
     },
     {
       "id": "10789",
-      "barcode": "10789",
-      "barcodes": [
-        "10789"
-      ],
+      "barcode": "6926313588278",
+      "barcodes": "",
       "Product Description": "HACKER WARRIOR 750ML",
       "product_description": "HACKER WARRIOR 750ML",
       "description": "HACKER WARRIOR 750ML",
@@ -3095,9 +3358,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "HACKER WARRIOR 750ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3106,10 +3376,8 @@
     },
     {
       "id": "10793",
-      "barcode": "10793",
-      "barcodes": [
-        "10793"
-      ],
+      "barcode": "8006320068340",
+      "barcodes": "",
       "Product Description": "VAP SUPER KO2 AIK 400ML",
       "product_description": "VAP SUPER KO2 AIK 400ML",
       "description": "VAP SUPER KO2 AIK 400ML",
@@ -3145,9 +3413,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VAP SUPER KO2 AIK 400ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3156,10 +3431,8 @@
     },
     {
       "id": "10799",
-      "barcode": "10799",
-      "barcodes": [
-        "10799"
-      ],
+      "barcode": "8015100570942",
+      "barcodes": "8015100572793",
       "Product Description": "VAPE SUPER KO 2",
       "product_description": "VAPE SUPER KO 2",
       "description": "VAPE SUPER KO 2",
@@ -3195,9 +3468,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "8015100572793",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VAPE SUPER KO 2",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3206,10 +3486,8 @@
     },
     {
       "id": "10800",
-      "barcode": "10800",
-      "barcodes": [
-        "10800"
-      ],
+      "barcode": "5286094369031",
+      "barcodes": "",
       "Product Description": "SMASH PLUS CRAWLING INSECTS",
       "product_description": "SMASH PLUS CRAWLING INSECTS",
       "description": "SMASH PLUS CRAWLING INSECTS",
@@ -3245,9 +3523,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SMASH PLUS CRAWLING INSECTS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3256,10 +3541,8 @@
     },
     {
       "id": "10801",
-      "barcode": "10801",
-      "barcodes": [
-        "10801"
-      ],
+      "barcode": "5286094369086",
+      "barcodes": "",
       "Product Description": "SMACH PLUS  FLYING INSECTS",
       "product_description": "SMACH PLUS  FLYING INSECTS",
       "description": "SMACH PLUS  FLYING INSECTS",
@@ -3295,9 +3578,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SMACH PLUS  FLYING INSECTS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3340,7 +3630,9 @@
           "stock": "2.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "6927009710034",
+      "barcodes": "6927009710034"
     },
     {
       "id": "10828",
@@ -3378,7 +3670,9 @@
       "name": "VASELINE BLUE SEAL 100ML",
       "supplier": "JACK DIB",
       "subcategory": "nail & skin care",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10829",
@@ -3416,7 +3710,9 @@
       "name": "VASELINE SMALL",
       "supplier": "JACK DIB",
       "subcategory": "nail & skin care",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10833",
@@ -3454,14 +3750,14 @@
       "name": "VASELINE 250ML",
       "supplier": "JACK DIB",
       "subcategory": "nail & skin care",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "6001087005647",
+      "barcodes": "6001087005647"
     },
     {
       "id": "10841",
-      "barcode": "10841",
-      "barcodes": [
-        "10841"
-      ],
+      "barcode": "6281006408647",
+      "barcodes": "",
       "Product Description": "VASELINE 50ML",
       "product_description": "VASELINE 50ML",
       "description": "VASELINE 50ML",
@@ -3497,9 +3793,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VASELINE 50ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3542,14 +3845,14 @@
       "name": "ALMA",
       "supplier": "IMAD CHOUEIRY SAL USD",
       "subcategory": "WOMAN CARE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281011004156",
+      "barcodes": "5281011004156"
     },
     {
       "id": "10845",
-      "barcode": "10845",
-      "barcodes": [
-        "10845"
-      ],
+      "barcode": "5281011004149",
+      "barcodes": "",
       "Product Description": "ALMA SPEED DRY BOOSTER",
       "product_description": "ALMA SPEED DRY BOOSTER",
       "description": "ALMA SPEED DRY BOOSTER",
@@ -3585,9 +3888,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ALMA SPEED DRY BOOSTER",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3596,10 +3906,8 @@
     },
     {
       "id": "10846",
-      "barcode": "10846",
-      "barcodes": [
-        "10846"
-      ],
+      "barcode": "5283027835403",
+      "barcodes": "",
       "Product Description": "FRESHN SOFT NAIL REMOVER 200ML",
       "product_description": "FRESHN SOFT NAIL REMOVER 200ML",
       "description": "FRESHN SOFT NAIL REMOVER 200ML",
@@ -3635,9 +3943,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FRESHN SOFT NAIL REMOVER 200ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -3680,7 +3995,9 @@
       "name": "MIM HAIR REMOVALE",
       "supplier": "JACK DIB",
       "subcategory": "shaving",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "6210260053799",
+      "barcodes": "6210260053799"
     },
     {
       "id": "10849",
@@ -3718,7 +4035,9 @@
       "name": "PRIVATE- MAXI NORMAL 10",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10850",
@@ -3756,7 +4075,9 @@
       "name": "PRIVATE MAXI SUPER 10",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10851",
@@ -3794,7 +4115,9 @@
       "name": "PRIV X-T NORMAL 10",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10852",
@@ -3832,7 +4155,9 @@
       "name": "PRIV X-T SUPER 8",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10854",
@@ -3870,7 +4195,9 @@
       "name": "BT PRIVATE MISS TEEN 10",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10855",
@@ -3908,7 +4235,9 @@
           "stock": "2.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10856",
@@ -3946,7 +4275,9 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10857",
@@ -3984,7 +4315,9 @@
           "stock": "0.0",
           "consumption": "2.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10858",
@@ -4022,7 +4355,9 @@
       "name": "PRI MAXI POCKETNORMAL 10",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10860",
@@ -4060,7 +4395,9 @@
       "name": "FRESH DAYS LONG 18",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10861",
@@ -4098,7 +4435,9 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10862",
@@ -4109,11 +4448,11 @@
       "category": "HOME USAGE",
       "sub_category": "femi care",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "8.0",
+      "total_stock": "9.0",
       "total_consumption": "7.0",
       "VAT": "NO",
       "price_lbp": 185000.0,
@@ -4125,7 +4464,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "4.0",
           "consumption": "7.0"
         },
         "Medawar": {
@@ -4136,14 +4475,14 @@
       "name": "FRESH NORMAL SCENTED 24",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10864",
-      "barcode": "10864",
-      "barcodes": [
-        "10864"
-      ],
+      "barcode": "5281001314906",
+      "barcodes": "",
       "Product Description": "PRIVATE MAXI SUPER 20PADS",
       "product_description": "PRIVATE MAXI SUPER 20PADS",
       "description": "PRIVATE MAXI SUPER 20PADS",
@@ -4179,9 +4518,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PRIVATE MAXI SUPER 20PADS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4224,7 +4570,9 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10866",
@@ -4262,7 +4610,9 @@
       "name": "PRIVATE X-T NIGHT 14CT",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "5281001319369",
+      "barcodes": "5281001319369"
     },
     {
       "id": "10867",
@@ -4300,14 +4650,14 @@
       "name": "PRIVATE MISS TEEN 20CT",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10868",
-      "barcode": "10868",
-      "barcodes": [
-        "10868"
-      ],
+      "barcode": "5281001311615",
+      "barcodes": "",
       "Product Description": "PRIVATE MAXI NORMAL 20CT",
       "product_description": "PRIVATE MAXI NORMAL 20CT",
       "description": "PRIVATE MAXI NORMAL 20CT",
@@ -4343,9 +4693,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PRIVATE MAXI NORMAL 20CT",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4388,7 +4745,9 @@
       "name": "PRIVATE MAXI NIGHT 9",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10870",
@@ -4426,14 +4785,14 @@
       "name": "PRIV X-T SUPER ECO 16",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "5281001319352",
+      "barcodes": "5281001319352"
     },
     {
       "id": "10871",
-      "barcode": "10871",
-      "barcodes": [
-        "10871"
-      ],
+      "barcode": "4015400205166",
+      "barcodes": "",
       "Product Description": "ALW ULT LIGHT FRESH 10S",
       "product_description": "ALW ULT LIGHT FRESH 10S",
       "description": "ALW ULT LIGHT FRESH 10S",
@@ -4469,9 +4828,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ALW ULT LIGHT FRESH 10S",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4480,10 +4846,8 @@
     },
     {
       "id": "10872",
-      "barcode": "10872",
-      "barcodes": [
-        "10872"
-      ],
+      "barcode": "4015400214496",
+      "barcodes": "",
       "Product Description": "ALW ULT NORM FRESH/WINGS 8S",
       "product_description": "ALW ULT NORM FRESH/WINGS 8S",
       "description": "ALW ULT NORM FRESH/WINGS 8S",
@@ -4519,9 +4883,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ALW ULT NORM FRESH/WINGS 8S",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4530,10 +4901,8 @@
     },
     {
       "id": "10873",
-      "barcode": "10873",
-      "barcodes": [
-        "10873"
-      ],
+      "barcode": "4015400269502",
+      "barcodes": "",
       "Product Description": "ALW MAXI N+ FRESH 10S",
       "product_description": "ALW MAXI N+ FRESH 10S",
       "description": "ALW MAXI N+ FRESH 10S",
@@ -4569,9 +4938,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ALW MAXI N+ FRESH 10S",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4614,14 +4990,14 @@
       "name": "PRIVATE MAXI POCKET NIGHT 8",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10884",
-      "barcode": "10884",
-      "barcodes": [
-        "10884"
-      ],
+      "barcode": "4015400417491",
+      "barcodes": "",
       "Product Description": "ALW MAXI THICK LONG 9S 1X16",
       "product_description": "ALW MAXI THICK LONG 9S 1X16",
       "description": "ALW MAXI THICK LONG 9S 1X16",
@@ -4657,9 +5033,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ALW MAXI THICK LONG 9S 1X16",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4702,7 +5085,9 @@
       "name": "RIM WATER GALON 10L",
       "supplier": "RIM REFRESHMENT SAL USD",
       "subcategory": "MINERAL WATER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281023000399",
+      "barcodes": "5281023000399"
     },
     {
       "id": "10890",
@@ -4740,14 +5125,14 @@
       "name": "SOFT SKIN HAIR REMOVALE",
       "supplier": "PLATCO",
       "subcategory": "shaving",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10907",
-      "barcode": "10907",
-      "barcodes": [
-        "10907"
-      ],
+      "barcode": "5285000530077",
+      "barcodes": "",
       "Product Description": "CARAMEL HAIR REMOVE",
       "product_description": "CARAMEL HAIR REMOVE",
       "description": "CARAMEL HAIR REMOVE",
@@ -4783,9 +5168,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CARAMEL HAIR REMOVE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4794,10 +5186,8 @@
     },
     {
       "id": "10911",
-      "barcode": "10911",
-      "barcodes": [
-        "10911"
-      ],
+      "barcode": "4015400457848",
+      "barcodes": "",
       "Product Description": "ALWAYS MAXI THICK EXTRALONG",
       "product_description": "ALWAYS MAXI THICK EXTRALONG",
       "description": "ALWAYS MAXI THICK EXTRALONG",
@@ -4833,9 +5223,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "ALWAYS MAXI THICK EXTRALONG",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4878,7 +5275,9 @@
       "name": "MISSTEEN 16*12",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10919",
@@ -4916,14 +5315,14 @@
       "name": "PRIVATE MAXI POCKET",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10931",
-      "barcode": "10931",
-      "barcodes": [
-        "10931"
-      ],
+      "barcode": "5010724527733",
+      "barcodes": "5010724529645",
       "Product Description": "NAIR HAIR REMOVER.",
       "product_description": "NAIR HAIR REMOVER.",
       "description": "NAIR HAIR REMOVER.",
@@ -4959,9 +5358,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5010724529645",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NAIR HAIR REMOVER.",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -4970,10 +5376,8 @@
     },
     {
       "id": "10935",
-      "barcode": "10935",
-      "barcodes": [
-        "10935"
-      ],
+      "barcode": "6251001157208",
+      "barcodes": "",
       "Product Description": "NANA BUY 2A MAXI THICK/LONG",
       "product_description": "NANA BUY 2A MAXI THICK/LONG",
       "description": "NANA BUY 2A MAXI THICK/LONG",
@@ -5009,9 +5413,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NANA BUY 2A MAXI THICK/LONG",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5020,10 +5431,8 @@
     },
     {
       "id": "10941",
-      "barcode": "10941",
-      "barcodes": [
-        "10941"
-      ],
+      "barcode": "5281001318065",
+      "barcodes": "",
       "Product Description": "FRESHDAYS LONG SCENTED 24 PANTYLINERS",
       "product_description": "FRESHDAYS LONG SCENTED 24 PANTYLINERS",
       "description": "FRESHDAYS LONG SCENTED 24 PANTYLINERS",
@@ -5059,9 +5468,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FRESHDAYS LONG SCENTED 24 PANTYLINERS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5070,10 +5486,8 @@
     },
     {
       "id": "10963",
-      "barcode": "10963",
-      "barcodes": [
-        "10963"
-      ],
+      "barcode": "5281112075055",
+      "barcodes": "",
       "Product Description": "KOTEX ULTRA THIN SUPER 10 -20%",
       "product_description": "KOTEX ULTRA THIN SUPER 10 -20%",
       "description": "KOTEX ULTRA THIN SUPER 10 -20%",
@@ -5109,9 +5523,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "KOTEX ULTRA THIN SUPER 10 -20%",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5154,64 +5575,14 @@
           "stock": "10.0",
           "consumption": "7.0"
         }
-      }
-    },
-    {
-      "id": "10967",
-      "barcode": "10967",
-      "barcodes": [
-        "10967"
-      ],
-      "Product Description": "HACKER 750 ML",
-      "product_description": "HACKER 750 ML",
-      "description": "HACKER 750 ML",
-      "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "",
-      "category": "HOME USAGE",
-      "sub_category": "INSECT KILLER",
-      "subcategory": "INSECT KILLER",
-      "subCategory": "INSECT KILLER",
-      "unit": "EACH",
-      "VAT": "",
-      "vat": 0,
-      "price_lbp": 420000.0,
-      "cost": 0.0,
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "branches": {
-        "geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "the_daily_market": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
       },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
-      "name": "HACKER 750 ML",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10968",
-      "barcode": "10968",
-      "barcodes": [
-        "10968"
-      ],
+      "barcode": "8001841694603",
+      "barcodes": "",
       "Product Description": "FAIRY 1 L",
       "product_description": "FAIRY 1 L",
       "description": "FAIRY 1 L",
@@ -5247,9 +5618,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "FAIRY 1 L",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5292,14 +5670,14 @@
           "stock": "4.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10971",
-      "barcode": "10971",
-      "barcodes": [
-        "10971"
-      ],
+      "barcode": "7322540422801",
+      "barcodes": "",
       "Product Description": "NANA ECONOMY PACK",
       "product_description": "NANA ECONOMY PACK",
       "description": "NANA ECONOMY PACK",
@@ -5335,9 +5713,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NANA ECONOMY PACK",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5346,10 +5731,8 @@
     },
     {
       "id": "10973",
-      "barcode": "10973",
-      "barcodes": [
-        "10973"
-      ],
+      "barcode": "8697924594184",
+      "barcodes": "8697924594160",
       "Product Description": "CONFY LADY MAXI LONG 9 PADS",
       "product_description": "CONFY LADY MAXI LONG 9 PADS",
       "description": "CONFY LADY MAXI LONG 9 PADS",
@@ -5385,9 +5768,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "8697924594160",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CONFY LADY MAXI LONG 9 PADS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5396,10 +5786,8 @@
     },
     {
       "id": "10974",
-      "barcode": "10974",
-      "barcodes": [
-        "10974"
-      ],
+      "barcode": "8697924594122",
+      "barcodes": "",
       "Product Description": "CONFY LADY ULTRA LONG 8 PADS",
       "product_description": "CONFY LADY ULTRA LONG 8 PADS",
       "description": "CONFY LADY ULTRA LONG 8 PADS",
@@ -5435,9 +5823,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CONFY LADY ULTRA LONG 8 PADS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5446,10 +5841,8 @@
     },
     {
       "id": "10975",
-      "barcode": "10975",
-      "barcodes": [
-        "10975"
-      ],
+      "barcode": "8697924594108",
+      "barcodes": "8697924594146",
       "Product Description": "CONFY LADY ULTRA NORMAL 10 PADS",
       "product_description": "CONFY LADY ULTRA NORMAL 10 PADS",
       "description": "CONFY LADY ULTRA NORMAL 10 PADS",
@@ -5485,9 +5878,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "8697924594146",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CONFY LADY ULTRA NORMAL 10 PADS",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5496,10 +5896,8 @@
     },
     {
       "id": "10976",
-      "barcode": "10976",
-      "barcodes": [
-        "10976"
-      ],
+      "barcode": "5281011160012",
+      "barcodes": "",
       "Product Description": "SAMOA COTODOU 50 G",
       "product_description": "SAMOA COTODOU 50 G",
       "description": "SAMOA COTODOU 50 G",
@@ -5535,9 +5933,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "SAMOA COTODOU 50 G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5580,7 +5985,9 @@
       "name": "SAMOA COTODOU DISQUES A DEMAQUILLER 80 +4",
       "supplier": "IMAD CHOUEIRY SAL USD",
       "subcategory": "COTTONS",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10978",
@@ -5618,7 +6025,9 @@
       "name": "PRIVATE MISS TEEN 20 NORMAL ECO",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10979",
@@ -5656,7 +6065,9 @@
       "name": "PRIVATE MAXI 20+10FREE",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10980",
@@ -5694,14 +6105,14 @@
       "name": "PRIVATE MAXI 16+8 FREE",
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "femi care",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10981",
-      "barcode": "10981",
-      "barcodes": [
-        "10981"
-      ],
+      "barcode": "5281011950101",
+      "barcodes": "5281011950057",
       "Product Description": "RUBBING ALCOHOL 130 ML SPRAY",
       "product_description": "RUBBING ALCOHOL 130 ML SPRAY",
       "description": "RUBBING ALCOHOL 130 ML SPRAY",
@@ -5737,9 +6148,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5281011950057",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "RUBBING ALCOHOL 130 ML SPRAY",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5748,10 +6166,8 @@
     },
     {
       "id": "10982",
-      "barcode": "10982",
-      "barcodes": [
-        "10982"
-      ],
+      "barcode": "8019622640015",
+      "barcodes": "",
       "Product Description": "CIR DEPILATOIRE 100 ML",
       "product_description": "CIR DEPILATOIRE 100 ML",
       "description": "CIR DEPILATOIRE 100 ML",
@@ -5787,9 +6203,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CIR DEPILATOIRE 100 ML",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5797,61 +6220,9 @@
       "consumption_in_the_daily_market_branch": "0.0"
     },
     {
-      "id": "10983",
-      "barcode": "10983",
-      "barcodes": [
-        "10983"
-      ],
-      "Product Description": "MONELLA POLISH REMOVER",
-      "product_description": "MONELLA POLISH REMOVER",
-      "description": "MONELLA POLISH REMOVER",
-      "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "",
-      "category": "HOME USAGE",
-      "sub_category": "nail & skin care",
-      "subcategory": "nail & skin care",
-      "subCategory": "nail & skin care",
-      "unit": "EACH",
-      "VAT": "",
-      "vat": 0,
-      "price_lbp": 70000.0,
-      "cost": 0.0,
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "branches": {
-        "geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "the_daily_market": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
-      },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
-      "name": "MONELLA POLISH REMOVER",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
-    },
-    {
       "id": "10984",
-      "barcode": "10984",
-      "barcodes": [
-        "10984"
-      ],
+      "barcode": "8698703028685",
+      "barcodes": "",
       "Product Description": "BIOWAX",
       "product_description": "BIOWAX",
       "description": "BIOWAX",
@@ -5887,9 +6258,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "BIOWAX",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -5932,7 +6310,9 @@
       "name": "CLIPP",
       "supplier": "JACK DIB",
       "subcategory": "nail & skin care",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "10986",
@@ -5970,14 +6350,14 @@
       "name": "NIVEA CREAM 60ML",
       "supplier": "JACK DIB",
       "subcategory": "nail & skin care",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "6009607090012",
+      "barcodes": "6009607090012"
     },
     {
       "id": "10988",
-      "barcode": "10988",
-      "barcodes": [
-        "10988"
-      ],
+      "barcode": "773008351053",
+      "barcodes": "",
       "Product Description": "CLIPP POCKET SIZE",
       "product_description": "CLIPP POCKET SIZE",
       "description": "CLIPP POCKET SIZE",
@@ -6013,9 +6393,16 @@
       },
       "created_by_user_code": "1",
       "createdByUserCode": "1",
-      "import_source": "active products listing.csv",
+      "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "CLIPP POCKET SIZE",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
@@ -6023,6 +6410,6 @@
       "consumption_in_the_daily_market_branch": "0.0"
     }
   ],
-  "updatedAt": "2026-05-09T22:12:09.051498Z",
+  "updatedAt": "2026-05-10T07:37:06.443395Z",
   "source": "sql"
 }
