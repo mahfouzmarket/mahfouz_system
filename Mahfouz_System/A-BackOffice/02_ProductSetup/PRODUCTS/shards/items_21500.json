@@ -1646,7 +1646,11 @@
       "secondary_sub_category": "",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "expiry_days": "15",
+      "cost_ht": "0.74",
+      "product_setup_save_token": "PS-SAVE-21529-1778501440692883",
+      "product_setup_saved_at_utc": "2026-05-11T12:10:40.692883Z"
     },
     {
       "id": "21530",
@@ -11871,7 +11875,7 @@
       "cost": 2.06,
       "branches": {
         "Geitawi": {
-          "stock": "-2.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -11879,9 +11883,9 @@
           "consumption": "0.0"
         }
       },
-      "stock_in_geitawi_branch": "-2.0",
+      "stock_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "4.0",
-      "total_stock": "2.0",
+      "total_stock": "4.0",
       "Product Description": "ALFORNO BURGER SESAME",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "updatedAt": "2026-05-09T00:33:34",
@@ -22476,6 +22480,6 @@
       "product_setup_saved_at_utc": "2026-05-11T10:40:47.765820Z"
     }
   ],
-  "updatedAt": "2026-05-11T10:40:47.355731Z",
+  "updatedAt": "2026-05-11T12:10:40.669955Z",
   "source": "sql"
 }
