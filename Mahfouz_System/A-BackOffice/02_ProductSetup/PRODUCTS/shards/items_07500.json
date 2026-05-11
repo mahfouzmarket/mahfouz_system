@@ -9,11 +9,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "11.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10.0",
+      "total_stock": "12.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
@@ -25,18 +25,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "3.0",
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "11.0",
+          "stock": "9.0",
           "consumption": "0.0"
         }
       },
       "name": "MAXIMS SLICED PINEAPPLE 565GR",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "cans & jams",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7512",
@@ -78,7 +80,64 @@
       "supplier": "SMART FUNCTION SOCIETY SARL",
       "name": "ALWADI POIS ET CARROTS TRES FINS 400G CAN",
       "subcategory": "cans & jams",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7580",
+      "barcode": "5283000300713",
+      "barcodes": "",
+      "Product Description": "MAXIMS ASPERGE VERTE 370 ML",
+      "product_description": "MAXIMS ASPERGE VERTE 370 ML",
+      "description": "MAXIMS ASPERGE VERTE 370 ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "cans & jams",
+      "subcategory": "cans & jams",
+      "subCategory": "cans & jams",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 15000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MAXIMS ASPERGE VERTE 370 ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7590",
@@ -116,7 +175,9 @@
       "name": "WHOLE WHEAT 900 G",
       "supplier": "AOUN FOOD CO",
       "subcategory": "SEEDS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7599",
@@ -154,7 +215,64 @@
           "stock": "0.0",
           "consumption": "5.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7600",
+      "barcode": "735143002498",
+      "barcodes": "",
+      "Product Description": "CORTAS GREEN PEAS & CARROTS 400 G",
+      "product_description": "CORTAS GREEN PEAS & CARROTS 400 G",
+      "description": "CORTAS GREEN PEAS & CARROTS 400 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "cans & jams",
+      "subcategory": "cans & jams",
+      "subCategory": "cans & jams",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 55000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CORTAS GREEN PEAS & CARROTS 400 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7601",
@@ -165,11 +283,11 @@
       "category": "FOOD",
       "sub_category": "SAUCE",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7.0",
+      "total_stock": "6.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 305000.0,
@@ -181,7 +299,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "3.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -196,7 +314,64 @@
       "supplier": "SMART FUNCTION SOCIETY SARL",
       "name": "TABASCO GREEN PEPPER SCE 60ML",
       "subcategory": "SAUCE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7602",
+      "barcode": "041390001017",
+      "barcodes": "",
+      "Product Description": "KIKKOMAN LITE SOY SCE 5 OZ",
+      "product_description": "KIKKOMAN LITE SOY SCE 5 OZ",
+      "description": "KIKKOMAN LITE SOY SCE 5 OZ",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 305000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "KIKKOMAN LITE SOY SCE 5 OZ",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7605",
@@ -207,11 +382,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "40.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "43.0",
+      "total_stock": "42.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 230000.0,
@@ -223,7 +398,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "2.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -238,7 +413,9 @@
       "supplier": "SMART FUNCTION SOCIETY SARL",
       "name": "AL WADI SLICED MUSHROOMS 400 G",
       "subcategory": "cans & jams",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7606",
@@ -274,7 +451,7 @@
         }
       },
       "barcode2": "7702018489664",
-      "barcodes": "7702018489664",
+      "barcodes": "7702018489664 | 7702018949946",
       "expiry_days": "0",
       "cost_ht": "2.37",
       "linked_profile_enabled": false,
@@ -323,7 +500,64 @@
       "name": "TAWOUS TOMATO PASTE 400G",
       "supplier": "MASSOUD MASSOUD S.A.R.L",
       "subcategory": "SAUCE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "5281044026132",
+      "barcodes": "5281044026132"
+    },
+    {
+      "id": "7615",
+      "barcode": "04139140",
+      "barcodes": "",
+      "Product Description": "KIKKOMAN SOY SAUCE 5OZ",
+      "product_description": "KIKKOMAN SOY SAUCE 5OZ",
+      "description": "KIKKOMAN SOY SAUCE 5OZ",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 355000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "KIKKOMAN SOY SAUCE 5OZ",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7630",
@@ -361,7 +595,64 @@
           "stock": "5.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7644",
+      "barcode": "5283000300331",
+      "barcodes": "",
+      "Product Description": "MAXIMS TOMATINI 680G",
+      "product_description": "MAXIMS TOMATINI 680G",
+      "description": "MAXIMS TOMATINI 680G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "cans & jams",
+      "subcategory": "cans & jams",
+      "subCategory": "cans & jams",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 145000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MAXIMS TOMATINI 680G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7645",
@@ -399,7 +690,9 @@
       "name": "KETCHUP EXTRA 800G SQUEEZ",
       "supplier": "MASSOUD MASSOUD S.A.R.L",
       "subcategory": "KETCHUP, MAYO & MUSTARD",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7699",
@@ -437,7 +730,504 @@
       "name": "YAMAMA CONCENTRE DE TOMATES TOMATO PASTE",
       "supplier": "CHARTOUNI FRERES PR LE COMMERC",
       "subcategory": "SAUCE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7708",
+      "barcode": "5283019400053",
+      "barcodes": "",
+      "Product Description": "MIA MAYONNAISE 250 ML",
+      "product_description": "MIA MAYONNAISE 250 ML",
+      "description": "MIA MAYONNAISE 250 ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 90000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MIA MAYONNAISE 250 ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7739",
+      "barcode": "5283000302588",
+      "barcodes": "",
+      "Product Description": "CORN FLOUR  200 G",
+      "product_description": "CORN FLOUR  200 G",
+      "description": "CORN FLOUR  200 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "BAKING & COOKING",
+      "subcategory": "BAKING & COOKING",
+      "subCategory": "BAKING & COOKING",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 75000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CORN FLOUR  200 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7742",
+      "barcode": "5283019400077",
+      "barcodes": "",
+      "Product Description": "MIA MAYONNAISE  450 ML",
+      "product_description": "MIA MAYONNAISE  450 ML",
+      "description": "MIA MAYONNAISE  450 ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 160000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MIA MAYONNAISE  450 ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7753",
+      "barcode": "5283000302113",
+      "barcodes": "",
+      "Product Description": "MAXIMS WORCESTERSHIRE SAUCE 280G",
+      "product_description": "MAXIMS WORCESTERSHIRE SAUCE 280G",
+      "description": "MAXIMS WORCESTERSHIRE SAUCE 280G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 180000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MAXIMS WORCESTERSHIRE SAUCE 280G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7755",
+      "barcode": "5285004112958",
+      "barcodes": "",
+      "Product Description": "JULIAS MAYONNAISE 235 ML",
+      "product_description": "JULIAS MAYONNAISE 235 ML",
+      "description": "JULIAS MAYONNAISE 235 ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 110000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "JULIAS MAYONNAISE 235 ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7761",
+      "barcode": "5283034100532",
+      "barcodes": "",
+      "Product Description": "CLASSICA FOOD HOT CHILI 350G",
+      "product_description": "CLASSICA FOOD HOT CHILI 350G",
+      "description": "CLASSICA FOOD HOT CHILI 350G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "CHIPS",
+      "sub_category": "MASTER",
+      "subcategory": "MASTER",
+      "subCategory": "MASTER",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 170000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CLASSICA FOOD HOT CHILI 350G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7762",
+      "barcode": "5281117016831",
+      "barcodes": "",
+      "Product Description": "WADI DONIA ROB 1.05 KG",
+      "product_description": "WADI DONIA ROB 1.05 KG",
+      "description": "WADI DONIA ROB 1.05 KG",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "KETCHUP, MAYO & MUSTARD",
+      "subcategory": "KETCHUP, MAYO & MUSTARD",
+      "subCategory": "KETCHUP, MAYO & MUSTARD",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 180000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "WADI DONIA ROB 1.05 KG",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7763",
+      "barcode": "5283027853407",
+      "barcodes": "",
+      "Product Description": "TODAY TOMATO KETCHUP 340 G",
+      "product_description": "TODAY TOMATO KETCHUP 340 G",
+      "description": "TODAY TOMATO KETCHUP 340 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 75000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TODAY TOMATO KETCHUP 340 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7764",
+      "barcode": "5285007522266",
+      "barcodes": "",
+      "Product Description": "OCEAN GARDEN TOMATO KETCHUP 510 G",
+      "product_description": "OCEAN GARDEN TOMATO KETCHUP 510 G",
+      "description": "OCEAN GARDEN TOMATO KETCHUP 510 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 140000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "OCEAN GARDEN TOMATO KETCHUP 510 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7766",
@@ -475,7 +1265,229 @@
           "stock": "4.0",
           "consumption": "1.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7771",
+      "barcode": "5285004113993",
+      "barcodes": "",
+      "Product Description": "CLASSIC FOOD KETCHUP 340G",
+      "product_description": "CLASSIC FOOD KETCHUP 340G",
+      "description": "CLASSIC FOOD KETCHUP 340G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 80000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CLASSIC FOOD KETCHUP 340G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7772",
+      "barcode": "5283019400114",
+      "barcodes": "",
+      "Product Description": "MIA MAYONNAISE 1000ML",
+      "product_description": "MIA MAYONNAISE 1000ML",
+      "description": "MIA MAYONNAISE 1000ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 290000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MIA MAYONNAISE 1000ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7774",
+      "barcode": "5283019400459",
+      "barcodes": "",
+      "Product Description": "MIA MUSTARD 260 G",
+      "product_description": "MIA MUSTARD 260 G",
+      "description": "MIA MUSTARD 260 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "KETCHUP, MAYO & MUSTARD",
+      "subcategory": "KETCHUP, MAYO & MUSTARD",
+      "subCategory": "KETCHUP, MAYO & MUSTARD",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 120000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MIA MUSTARD 260 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7775",
+      "barcode": "5283019400473",
+      "barcodes": "",
+      "Product Description": "MIA MUSTARD 454 G",
+      "product_description": "MIA MUSTARD 454 G",
+      "description": "MIA MUSTARD 454 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "KETCHUP, MAYO & MUSTARD",
+      "subcategory": "KETCHUP, MAYO & MUSTARD",
+      "subCategory": "KETCHUP, MAYO & MUSTARD",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 145000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MIA MUSTARD 454 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7776",
@@ -517,7 +1529,9 @@
       "supplier": "SMART FUNCTION SOCIETY SARL",
       "name": "TABASCO 60ML",
       "subcategory": "SAUCE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7813",
@@ -555,7 +1569,174 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "014940191612",
+      "barcodes": "014940191612"
+    },
+    {
+      "id": "7814",
+      "barcode": "014940380771",
+      "barcodes": "",
+      "Product Description": "MAGIC CHEF RANCH DRESSING FAT FREE 473ML",
+      "product_description": "MAGIC CHEF RANCH DRESSING FAT FREE 473ML",
+      "description": "MAGIC CHEF RANCH DRESSING FAT FREE 473ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 470000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MAGIC CHEF RANCH DRESSING FAT FREE 473ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7822",
+      "barcode": "5285002367923",
+      "barcodes": "5285008120164",
+      "Product Description": "TAJ BALSAMIC VINEAGER 250ML",
+      "product_description": "TAJ BALSAMIC VINEAGER 250ML",
+      "description": "TAJ BALSAMIC VINEAGER 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 255000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5285008120164",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TAJ BALSAMIC VINEAGER 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7823",
+      "barcode": "5285006350457",
+      "barcodes": "",
+      "Product Description": "GOLD HOT SAUCE 90GR",
+      "product_description": "GOLD HOT SAUCE 90GR",
+      "description": "GOLD HOT SAUCE 90GR",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 70000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "GOLD HOT SAUCE 90GR",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7827",
@@ -593,7 +1774,9 @@
       "name": "MAGIC CHEF NAPOLITANA PASTA SAUCE 350 G",
       "supplier": "MANY FOOD SARL",
       "subcategory": "SAUCE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7828",
@@ -631,7 +1814,284 @@
       "name": "MAGIC CHEF ORIGINAL PIZZA SAUCE 350G",
       "supplier": "MANY FOOD SARL",
       "subcategory": "SAUCE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7830",
+      "barcode": "5281044800077",
+      "barcodes": "",
+      "Product Description": "GLOBUS TOMATO PASTE 600G",
+      "product_description": "GLOBUS TOMATO PASTE 600G",
+      "description": "GLOBUS TOMATO PASTE 600G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 120000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "GLOBUS TOMATO PASTE 600G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7831",
+      "barcode": "5281003720125",
+      "barcodes": "",
+      "Product Description": "ZAHRET CHTAURA 300GR",
+      "product_description": "ZAHRET CHTAURA 300GR",
+      "description": "ZAHRET CHTAURA 300GR",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 75000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "ZAHRET CHTAURA 300GR",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7832",
+      "barcode": "5281003720132",
+      "barcodes": "",
+      "Product Description": "ZAHRET CHTAURA 660 G",
+      "product_description": "ZAHRET CHTAURA 660 G",
+      "description": "ZAHRET CHTAURA 660 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "cans & jams",
+      "subcategory": "cans & jams",
+      "subCategory": "cans & jams",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 140000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "ZAHRET CHTAURA 660 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7833",
+      "barcode": "8680587040013",
+      "barcodes": "",
+      "Product Description": "LINDO TOMATO PASTE 400G",
+      "product_description": "LINDO TOMATO PASTE 400G",
+      "description": "LINDO TOMATO PASTE 400G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "SAUCE",
+      "subcategory": "SAUCE",
+      "subCategory": "SAUCE",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 125000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "LINDO TOMATO PASTE 400G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7849",
+      "barcode": "623695000461",
+      "barcodes": "",
+      "Product Description": "YAMAMA  APPLE VINEAGRE",
+      "product_description": "YAMAMA  APPLE VINEAGRE",
+      "description": "YAMAMA  APPLE VINEAGRE",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "CHI TAYIB",
+      "sub_category": "cake",
+      "subcategory": "cake",
+      "subCategory": "cake",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 185000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "YAMAMA  APPLE VINEAGRE",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7860",
@@ -669,7 +2129,9 @@
       "name": "YAMAMA TOMATO PASTE 300G",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "SAUCE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7864",
@@ -707,7 +2169,9 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7865",
@@ -745,7 +2209,9 @@
       "name": "CHTOURA TAHINA 400G",
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "TAHINA, LOUKOM & HALAWI",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7867",
@@ -783,7 +2249,174 @@
           "stock": "13.0",
           "consumption": "3.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7868",
+      "barcode": "5285007392319",
+      "barcodes": "",
+      "Product Description": "JULIAS APPLE VINEGAR 500ML",
+      "product_description": "JULIAS APPLE VINEGAR 500ML",
+      "description": "JULIAS APPLE VINEGAR 500ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "VINEGAR & PICKLES",
+      "subcategory": "VINEGAR & PICKLES",
+      "subCategory": "VINEGAR & PICKLES",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 100000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "JULIAS APPLE VINEGAR 500ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7871",
+      "barcode": "5281017002309",
+      "barcodes": "",
+      "Product Description": "BEIT ALSAFA TAHINA",
+      "product_description": "BEIT ALSAFA TAHINA",
+      "description": "BEIT ALSAFA TAHINA",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 130000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "BEIT ALSAFA TAHINA",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7872",
+      "barcode": "6332321102502",
+      "barcodes": "",
+      "Product Description": "LEYA WHITE VINEGAR 1 L",
+      "product_description": "LEYA WHITE VINEGAR 1 L",
+      "description": "LEYA WHITE VINEGAR 1 L",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "VINEGAR & PICKLES",
+      "subcategory": "VINEGAR & PICKLES",
+      "subCategory": "VINEGAR & PICKLES",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 60000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "LEYA WHITE VINEGAR 1 L",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7874",
@@ -821,7 +2454,9 @@
       "name": "BURGHUL WHITE KHICHIN AOUN 1 KG",
       "supplier": "AOUN FOOD CO",
       "subcategory": "SEEDS",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "5283000904058",
+      "barcodes": "5283000904058"
     },
     {
       "id": "7904",
@@ -859,7 +2494,9 @@
       "name": "CANDEREL SUCRALOSE 100 PC",
       "supplier": "toters",
       "subcategory": "sucralose powder",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7908",
@@ -897,7 +2534,174 @@
       "name": "SUCRE MINCE 500G AOUN",
       "supplier": "AOUN FOOD CO",
       "subcategory": "SEEDS",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "7923",
+      "barcode": "3220034226000",
+      "barcodes": "",
+      "Product Description": "BOUCHOUN SUGAR 500G",
+      "product_description": "BOUCHOUN SUGAR 500G",
+      "description": "BOUCHOUN SUGAR 500G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "BAKING & COOKING",
+      "subcategory": "BAKING & COOKING",
+      "subCategory": "BAKING & COOKING",
+      "unit": "kg",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 145000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "BOUCHOUN SUGAR 500G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7924",
+      "barcode": "4250351200161",
+      "barcodes": "",
+      "Product Description": "BENT AL REEF  1000 G",
+      "product_description": "BENT AL REEF  1000 G",
+      "description": "BENT AL REEF  1000 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "CHI TAYIB",
+      "sub_category": "sweets",
+      "subcategory": "sweets",
+      "subCategory": "sweets",
+      "unit": "kg",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 90000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "BENT AL REEF  1000 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
+    },
+    {
+      "id": "7925",
+      "barcode": "5283000914842",
+      "barcodes": "",
+      "Product Description": "RICI 4 KG",
+      "product_description": "RICI 4 KG",
+      "description": "RICI 4 KG",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "VAT": "",
+      "vat": 0,
+      "price_lbp": 340000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "RICI 4 KG",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "7926",
@@ -935,7 +2739,9 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7929",
@@ -973,7 +2779,9 @@
       "name": "BROWN COARSE BULGUR 900 G",
       "supplier": "AOUN FOOD CO",
       "subcategory": "SEEDS",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7930",
@@ -1011,7 +2819,9 @@
       "name": "LONG RICE AMERICAN 900 G",
       "supplier": "AOUN FOOD CO",
       "subcategory": "SEEDS",
-      "vat": 0
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7984",
@@ -1049,7 +2859,9 @@
           "stock": "4.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "7987",
@@ -1087,9 +2899,11 @@
           "stock": "1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "barcode2": "",
+      "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-09T20:22:37.573681Z",
+  "updatedAt": "2026-05-10T22:08:21.688534Z",
   "source": "sql"
 }
