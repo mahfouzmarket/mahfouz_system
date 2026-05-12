@@ -1,6 +1,77 @@
 {
   "items": [
     {
+      "id": "500",
+      "barcode": "7616100776207",
+      "barcodes": "7610100026126",
+      "Product Description": "NESCAFE GOLD 200G",
+      "product_description": "NESCAFE GOLD 200G",
+      "description": "NESCAFE GOLD 200G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 1095000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "7610100026126",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "NESCAFE GOLD 200G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
       "id": "502",
       "barcode": "8888311091946",
       "Product Description": "CAFE 21",
@@ -9,27 +80,27 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "709.0",
+      "stock_in_geitawi_branch": "661.0",
       "consumption_in_geitawi_branch": "508.0",
-      "stock_in_medawar_branch": "1109.0",
+      "stock_in_medawar_branch": "1060.0",
       "consumption_in_medawar_branch": "467.0",
-      "total_stock": "1818.0",
+      "total_stock": "1721.0",
       "total_consumption": "975.0",
       "VAT": "YES",
-      "price_lbp": "30,000",
+      "price_lbp": 30000.0,
       "price_usd": "0.33",
-      "cost": "0.22",
+      "cost": 0.22,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID502.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "709.0",
+          "stock": "661.0",
           "consumption": "508.0"
         },
         "Medawar": {
-          "stock": "1109.0",
+          "stock": "1060.0",
           "consumption": "467.0"
         }
       },
@@ -41,7 +112,11 @@
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
       "linked_profile_category": "",
-      "linked_profile_sub_category": ""
+      "linked_profile_sub_category": "",
+      "name": "CAFE 21",
+      "supplier": "AL HAMAWI TRADING",
+      "subcategory": "instant coffee",
+      "vat": 1
     },
     {
       "id": "509",
@@ -52,14 +127,14 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "16.0",
-      "stock_in_medawar_branch": "69.0",
+      "stock_in_medawar_branch": "77.0",
       "consumption_in_medawar_branch": "31.0",
-      "total_stock": "70.0",
+      "total_stock": "88.0",
       "total_consumption": "47.0",
       "VAT": "YES",
-      "price_lbp": 355000,
+      "price_lbp": 355000.0,
       "price_usd": "3.97",
       "cost": 2.964,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID509.jpg",
@@ -68,14 +143,162 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "11.0",
           "consumption": "16.0"
         },
         "Medawar": {
-          "stock": "69.0",
+          "stock": "77.0",
           "consumption": "31.0"
         }
-      }
+      },
+      "name": "NAJJAR CARDAMON 180 gr",
+      "supplier": "ETS MICHEL NAJJAR",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "510",
+      "barcode": "1077351",
+      "barcodes": "",
+      "Product Description": "NESCAFE 2IN1",
+      "product_description": "NESCAFE 2IN1",
+      "description": "NESCAFE 2IN1",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 15000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "NESCAFE 2IN1",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "513",
+      "barcode": "5281009058123",
+      "barcodes": "",
+      "Product Description": "CAFE DANIEL",
+      "product_description": "CAFE DANIEL",
+      "description": "CAFE DANIEL",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 245000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CAFE DANIEL",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "523",
@@ -86,14 +309,14 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "48.0",
+      "stock_in_geitawi_branch": "58.0",
       "consumption_in_geitawi_branch": "49.0",
-      "stock_in_medawar_branch": "95.0",
+      "stock_in_medawar_branch": "85.0",
       "consumption_in_medawar_branch": "48.0",
       "total_stock": "143.0",
       "total_consumption": "97.0",
       "VAT": "YES",
-      "price_lbp": 275000,
+      "price_lbp": 275000.0,
       "price_usd": "3.07",
       "cost": 2.34225,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID523.jpg",
@@ -102,14 +325,304 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "48.0",
+          "stock": "58.0",
           "consumption": "49.0"
         },
         "Medawar": {
-          "stock": "95.0",
+          "stock": "85.0",
           "consumption": "48.0"
         }
-      }
+      },
+      "name": "DOMINGO 180 GR",
+      "supplier": "ETS MICHEL NAJJAR",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "565",
+      "barcode": "8888311091694",
+      "barcodes": "",
+      "Product Description": "CAFE 21 LOW FAT",
+      "product_description": "CAFE 21 LOW FAT",
+      "description": "CAFE 21 LOW FAT",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "DAIRY PRODUCTS",
+      "subcategory": "DAIRY PRODUCTS",
+      "subCategory": "DAIRY PRODUCTS",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 380000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CAFE 21 LOW FAT",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "DAIRY PRODUCTS",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "592",
+      "barcode": "6294003571405",
+      "barcodes": "",
+      "Product Description": "NESCAFE SUGAR FREE 2 IN 11.7G*30",
+      "product_description": "NESCAFE SUGAR FREE 2 IN 11.7G*30",
+      "description": "NESCAFE SUGAR FREE 2 IN 11.7G*30",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "BAKING & COOKING",
+      "subcategory": "BAKING & COOKING",
+      "subCategory": "BAKING & COOKING",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 10000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "NESCAFE SUGAR FREE 2 IN 11.7G*30",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "BAKING & COOKING",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "596",
+      "barcode": "022644000284",
+      "barcodes": "",
+      "Product Description": "CAFE NAJJAR DECAF 200GR",
+      "product_description": "CAFE NAJJAR DECAF 200GR",
+      "description": "CAFE NAJJAR DECAF 200GR",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 180000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CAFE NAJJAR DECAF 200GR",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "606",
+      "barcode": "5281017001289",
+      "barcodes": "",
+      "Product Description": "REAL CAFE 180 GRS",
+      "product_description": "REAL CAFE 180 GRS",
+      "description": "REAL CAFE 180 GRS",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 180000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "REAL CAFE 180 GRS",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "608",
@@ -120,14 +633,14 @@
       "category": "COFFEE SHOP",
       "sub_category": "coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "1145.0",
+      "stock_in_geitawi_branch": "1074.0",
       "consumption_in_geitawi_branch": "560.0",
-      "stock_in_medawar_branch": "5059.0",
-      "consumption_in_medawar_branch": "369.0",
-      "total_stock": "6204.0",
-      "total_consumption": "929.0",
+      "stock_in_medawar_branch": "5025.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "6099.0",
+      "total_consumption": "560.0",
       "VAT": "YES",
-      "price_lbp": 50000,
+      "price_lbp": 50000.0,
       "price_usd": "0.56",
       "cost": 0.19827,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID608.jpg",
@@ -136,14 +649,18 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1145.0",
+          "stock": "1074.0",
           "consumption": "560.0"
         },
         "Medawar": {
-          "stock": "5059.0",
+          "stock": "5025.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "NAJJAR RAQWA / PIECE SINGLE",
+      "supplier": "ETS MICHEL NAJJAR",
+      "subcategory": "coffee",
+      "vat": 1
     },
     {
       "id": "611",
@@ -154,29 +671,176 @@
       "category": "COFFEE SHOP",
       "sub_category": "HOT DRINK",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "-5.0",
       "consumption_in_geitawi_branch": "33.0",
       "stock_in_medawar_branch": "269.0",
-      "consumption_in_medawar_branch": "7.0",
-      "total_stock": "270.0",
-      "total_consumption": "40.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "264.0",
+      "total_consumption": "33.0",
       "VAT": "YES",
-      "price_lbp": "70,000",
+      "price_lbp": 70000.0,
       "price_usd": "0.78",
-      "cost": "0.47",
+      "cost": 0.47,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID611.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.225",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "-5.0",
           "consumption": "33.0"
         },
         "Medawar": {
-          "stock": "269.0"
+          "stock": "269.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "CUP OF HOT CHOCOLATE",
+      "supplier": "PRODIGY SAL USD",
+      "subcategory": "HOT DRINK",
+      "vat": 1
+    },
+    {
+      "id": "618",
+      "barcode": "5281017001302",
+      "barcodes": "",
+      "Product Description": "CAFE BON BRASIL 180GR",
+      "product_description": "CAFE BON BRASIL 180GR",
+      "description": "CAFE BON BRASIL 180GR",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 270000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CAFE BON BRASIL 180GR",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "624",
+      "barcode": "5281017001319",
+      "barcodes": "",
+      "Product Description": "BON BRASIL 400G",
+      "product_description": "BON BRASIL 400G",
+      "description": "BON BRASIL 400G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 605000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "BON BRASIL 400G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "625",
@@ -187,30 +851,107 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "35.0",
+      "stock_in_geitawi_branch": "40.0",
       "consumption_in_geitawi_branch": "27.0",
-      "stock_in_medawar_branch": "23.0",
-      "consumption_in_medawar_branch": "32.0",
-      "total_stock": "58.0",
-      "total_consumption": "59.0",
+      "stock_in_medawar_branch": "37.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "77.0",
+      "total_consumption": "27.0",
       "VAT": "YES",
-      "price_lbp": "360,000",
+      "price_lbp": 360000.0,
       "price_usd": "4.02",
-      "cost": "3.50",
+      "cost": 3.14,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID625.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "35.0",
+          "stock": "40.0",
           "consumption": "27.0"
         },
         "Medawar": {
-          "stock": "23.0",
+          "stock": "37.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "CAFE SUPER BRASIL 180G",
+      "supplier": "SUPER BRASIL COMPANY SAL",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "627",
+      "barcode": "5289000056308",
+      "barcodes": "",
+      "Product Description": "DIWAN COFFEE 200G",
+      "product_description": "DIWAN COFFEE 200G",
+      "description": "DIWAN COFFEE 200G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 120000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "DIWAN COFFEE 200G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "632",
@@ -222,27 +963,35 @@
       "sub_category": "instant coffee",
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "3.0",
-      "total_consumption": "3.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "800,000",
+      "price_lbp": 800000.0,
       "price_usd": "8.94",
-      "cost": "7.24",
+      "cost": 7.24,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID632.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "1.0"
-        },
         "Geitawi": {
-          "stock": "2.0"
+          "stock": "2.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "1.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "TCHIBO GOLD SELECTION 200G",
+      "supplier": "GOLDEN FOOD SAL",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "639",
@@ -253,14 +1002,14 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "7.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "10.0",
-      "consumption_in_medawar_branch": "3.0",
-      "total_stock": "17.0",
-      "total_consumption": "3.0",
+      "stock_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "14.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 580000,
+      "price_lbp": 580000.0,
       "price_usd": "6.48",
       "cost": 4.373333333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID639.jpg",
@@ -269,14 +1018,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "6.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "10.0",
+          "stock": "8.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "TCHIBO GOLD 100G",
+      "supplier": "GOLDEN FOOD SAL",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "643",
@@ -287,30 +1042,34 @@
       "category": "COFFEE SHOP",
       "sub_category": "nescafe 3 in 1",
       "offers": "0",
-      "stock_in_geitawi_branch": "43.0",
+      "stock_in_geitawi_branch": "29.0",
       "consumption_in_geitawi_branch": "129.0",
-      "stock_in_medawar_branch": "537.0",
+      "stock_in_medawar_branch": "536.0",
       "consumption_in_medawar_branch": "94.0",
-      "total_stock": "580.0",
+      "total_stock": "565.0",
       "total_consumption": "223.0",
       "VAT": "YES",
-      "price_lbp": "65,000",
+      "price_lbp": 65000.0,
       "price_usd": "0.73",
-      "cost": "0.38",
+      "cost": 0.38,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID643.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "43.0",
+          "stock": "29.0",
           "consumption": "129.0"
         },
         "Medawar": {
-          "stock": "537.0",
+          "stock": "536.0",
           "consumption": "94.0"
         }
-      }
+      },
+      "name": "CUP OF ALLEGRIA 3IN1",
+      "supplier": "JACK DIB",
+      "subcategory": "nescafe 3 in 1",
+      "vat": 1
     },
     {
       "id": "644",
@@ -321,30 +1080,105 @@
       "category": "COFFEE SHOP",
       "sub_category": "espresso 1.7",
       "offers": "0",
-      "stock_in_geitawi_branch": "18.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "65.0",
       "stock_in_medawar_branch": "485.0",
       "consumption_in_medawar_branch": "57.0",
-      "total_stock": "503.0",
+      "total_stock": "491.0",
       "total_consumption": "122.0",
       "VAT": "YES",
-      "price_lbp": "50,000",
+      "price_lbp": 50000.0,
       "price_usd": "0.56",
-      "cost": "0.21",
+      "cost": 0.21,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID644.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "18.0",
+          "stock": "6.0",
           "consumption": "65.0"
         },
         "Medawar": {
           "stock": "485.0",
           "consumption": "57.0"
         }
-      }
+      },
+      "name": "ESPRESSO 1.7",
+      "supplier": "PRODIGY SAL USD",
+      "subcategory": "espresso 1.7",
+      "vat": 1
+    },
+    {
+      "id": "649",
+      "barcode": "5283002530392",
+      "barcodes": "",
+      "Product Description": "CAFFECREMA 3 IN 1 20",
+      "product_description": "CAFFECREMA 3 IN 1 20",
+      "description": "CAFFECREMA 3 IN 1 20",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "HOME USAGE",
+      "sub_category": "CLOTH CLEANING",
+      "subcategory": "CLOTH CLEANING",
+      "subCategory": "CLOTH CLEANING",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 15000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "CAFFECREMA 3 IN 1 20",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "CLOTH CLEANING",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "659",
@@ -356,15 +1190,15 @@
       "sub_category": "instant coffee",
       "offers": "-",
       "stock_in_geitawi_branch": "-10.0",
-      "consumption_in_geitawi_branch": "16",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "-19.0",
-      "consumption_in_medawar_branch": "22",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "-29.0",
-      "total_consumption": "38",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "540,000",
+      "price_lbp": 540000.0,
       "price_usd": "6.03",
-      "cost": "5.06",
+      "cost": 5.06,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID659.jpg",
       "new_items": "",
       "manual": "1",
@@ -390,7 +1224,11 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-659-1777456918030620",
-      "product_setup_saved_at_utc": "2026-04-29T10:01:58.030620Z"
+      "product_setup_saved_at_utc": "2026-04-29T10:01:58.030620Z",
+      "name": "CAFE 21 SACHET x 22 pcs",
+      "supplier": "SUPPLIERS DIVERS",
+      "subcategory": "instant coffee",
+      "vat": 0
     },
     {
       "id": "664",
@@ -402,13 +1240,13 @@
       "sub_category": "instant coffee",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "10.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "15.0",
-      "total_consumption": "9.0",
+      "total_stock": "14.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": 1150000,
+      "price_lbp": 1150000.0,
       "price_usd": "12.85",
       "cost": 8.919166666666667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID664.jpg",
@@ -416,15 +1254,21 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "10.0",
-          "consumption": "3.0"
-        },
         "Geitawi": {
           "stock": "5.0",
           "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "9.0",
+          "consumption": "3.0"
         }
-      }
+      },
+      "name": "NESCAFE GOLD",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "665",
@@ -439,22 +1283,32 @@
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "30.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "30.0",
+      "total_stock": "42.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "25,000",
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
-      "cost": "0.26",
+      "cost": 0.26,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID665.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "12.0",
+          "consumption": "1.0"
+        },
         "Medawar": {
           "stock": "30.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "CAFE21 LOW FAT SACHET",
+      "supplier": "AL HAMAWI TRADING",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "666",
@@ -465,14 +1319,14 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "636.0",
+      "stock_in_geitawi_branch": "609.0",
       "consumption_in_geitawi_branch": "282.0",
-      "stock_in_medawar_branch": "1940.0",
-      "consumption_in_medawar_branch": "421.0",
-      "total_stock": "2576.0",
-      "total_consumption": "703.0",
+      "stock_in_medawar_branch": "1904.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "2513.0",
+      "total_consumption": "282.0",
       "VAT": "YES",
-      "price_lbp": 30000,
+      "price_lbp": 30000.0,
       "price_usd": "0.34",
       "cost": 0.18087121212121213,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID666.jpg",
@@ -481,14 +1335,91 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "636.0",
+          "stock": "609.0",
           "consumption": "282.0"
         },
         "Medawar": {
-          "stock": "1940.0",
+          "stock": "1904.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "TORABIKA SACHET",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "668",
+      "barcode": "8992696427587",
+      "barcodes": "",
+      "Product Description": "NESCAFE CLASSIC 30 +10 FREE",
+      "product_description": "NESCAFE CLASSIC 30 +10 FREE",
+      "description": "NESCAFE CLASSIC 30 +10 FREE",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "subcategory": "instant coffee",
+      "subCategory": "instant coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 780000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "NESCAFE CLASSIC 30 +10 FREE",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "672",
@@ -502,11 +1433,11 @@
       "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "26.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "37.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 295000,
+      "price_lbp": 295000.0,
       "price_usd": "2.68",
       "cost": 2.5225,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID672.jpg",
@@ -522,7 +1453,84 @@
           "stock": "26.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "STAR CAFE",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "673",
+      "barcode": "5281092304961",
+      "barcodes": "5281092304862",
+      "Product Description": "BLEND MOCHA ICE COFFE 190 ML",
+      "product_description": "BLEND MOCHA ICE COFFE 190 ML",
+      "description": "BLEND MOCHA ICE COFFE 190 ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "cold coffee",
+      "subcategory": "cold coffee",
+      "subCategory": "cold coffee",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 80000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5281092304862",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "BLEND MOCHA ICE COFFE 190 ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "cold coffee",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "678",
@@ -533,30 +1541,36 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
-      "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_geitawi_branch": "7.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "2.0",
+      "total_stock": "17.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 940000,
+      "price_lbp": 960000.0,
       "price_usd": "10.50",
-      "cost": 7.341666666666666,
+      "cost": 8.0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID678.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "7.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "4.0",
+          "stock": "10.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "NESCAFE RED MUG 190G",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "instant coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "679",
@@ -567,14 +1581,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-5.0",
+      "stock_in_geitawi_branch": "-14.0",
       "consumption_in_geitawi_branch": "33.0",
-      "stock_in_medawar_branch": "11003.0",
+      "stock_in_medawar_branch": "10983.0",
       "consumption_in_medawar_branch": "169.0",
-      "total_stock": "10998.0",
+      "total_stock": "10969.0",
       "total_consumption": "202.0",
       "VAT": "YES",
-      "price_lbp": 20000,
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
       "cost": 0.13676997206703911,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID679.jpg",
@@ -582,15 +1596,305 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "11003.0",
-          "consumption": "169.0"
-        },
         "Geitawi": {
-          "stock": "-5.0",
+          "stock": "-14.0",
           "consumption": "33.0"
+        },
+        "Medawar": {
+          "stock": "10983.0",
+          "consumption": "169.0"
         }
-      }
+      },
+      "name": "MR. JUICY APPLE 200ML",
+      "supplier": "PEPSI LBP",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "681",
+      "barcode": "5285000326915",
+      "barcodes": "",
+      "Product Description": "TROP SLICE POMEGRANATE 250ML",
+      "product_description": "TROP SLICE POMEGRANATE 250ML",
+      "description": "TROP SLICE POMEGRANATE 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 35000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TROP SLICE POMEGRANATE 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "MISC",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "682",
+      "barcode": "5285000326892",
+      "barcodes": "",
+      "Product Description": "TROPICANA MANGO 250ML",
+      "product_description": "TROPICANA MANGO 250ML",
+      "description": "TROPICANA MANGO 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "juice",
+      "subcategory": "juice",
+      "subCategory": "juice",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 35000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TROPICANA MANGO 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "juice",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "684",
+      "barcode": "5285000326878",
+      "barcodes": "",
+      "Product Description": "TROPICANA PINE 250ML",
+      "product_description": "TROPICANA PINE 250ML",
+      "description": "TROPICANA PINE 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 35000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TROPICANA PINE 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "MISC",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "685",
+      "barcode": "5285000326861",
+      "barcodes": "",
+      "Product Description": "TROPICANA ORANGE 250ML",
+      "product_description": "TROPICANA ORANGE 250ML",
+      "description": "TROPICANA ORANGE 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "juice",
+      "subcategory": "juice",
+      "subCategory": "juice",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 30000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TROPICANA ORANGE 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "juice",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "696",
@@ -603,14 +1907,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "30.0",
-      "stock_in_medawar_branch": "25.0",
+      "stock_in_medawar_branch": "17.0",
       "consumption_in_medawar_branch": "37.0",
-      "total_stock": "33.0",
+      "total_stock": "25.0",
       "total_consumption": "67.0",
       "VAT": "YES",
-      "price_lbp": "35,000",
+      "price_lbp": 35000.0,
       "price_usd": "0.39",
-      "cost": "0.24",
+      "cost": 0.24,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID696.jpg",
       "new_items": "",
       "manual": "",
@@ -621,10 +1925,16 @@
           "consumption": "30.0"
         },
         "Medawar": {
-          "stock": "25.0",
+          "stock": "17.0",
           "consumption": "37.0"
         }
-      }
+      },
+      "name": "MACCAW EXOTIC FRUIT 200ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "697",
@@ -635,14 +1945,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-14.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "33.0",
-      "stock_in_medawar_branch": "88.0",
+      "stock_in_medawar_branch": "112.0",
       "consumption_in_medawar_branch": "51.0",
-      "total_stock": "74.0",
+      "total_stock": "118.0",
       "total_consumption": "84.0",
       "VAT": "YES",
-      "price_lbp": 35000,
+      "price_lbp": 35000.0,
       "price_usd": "0.39",
       "cost": 0.240416666,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID697.jpg",
@@ -651,14 +1961,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-14.0",
+          "stock": "6.0",
           "consumption": "33.0"
         },
         "Medawar": {
-          "stock": "88.0",
+          "stock": "112.0",
           "consumption": "51.0"
         }
-      }
+      },
+      "name": "MACCAW ORANGE 180ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "699",
@@ -669,30 +1985,36 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-8.0",
+      "stock_in_geitawi_branch": "-2.0",
       "consumption_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "31.0",
+      "stock_in_medawar_branch": "39.0",
       "consumption_in_medawar_branch": "15.0",
-      "total_stock": "23.0",
+      "total_stock": "37.0",
       "total_consumption": "33.0",
       "VAT": "YES",
-      "price_lbp": 175000,
+      "price_lbp": 190000.0,
       "price_usd": "1.96",
-      "cost": 1.4125,
+      "cost": 1.5125,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID699.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-8.0",
+          "stock": "-2.0",
           "consumption": "18.0"
         },
         "Medawar": {
-          "stock": "31.0",
+          "stock": "39.0",
           "consumption": "15.0"
         }
-      }
+      },
+      "name": "MACCAW APPLE 1L",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "700",
@@ -703,30 +2025,36 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-10.0",
+      "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "33.0",
+      "stock_in_medawar_branch": "41.0",
       "consumption_in_medawar_branch": "26.0",
-      "total_stock": "23.0",
+      "total_stock": "38.0",
       "total_consumption": "44.0",
       "VAT": "YES",
-      "price_lbp": 175000,
+      "price_lbp": 190000.0,
       "price_usd": "1.96",
-      "cost": 1.4125,
+      "cost": 1.5125,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID700.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-10.0",
+          "stock": "-3.0",
           "consumption": "18.0"
         },
         "Medawar": {
-          "stock": "33.0",
+          "stock": "41.0",
           "consumption": "26.0"
         }
-      }
+      },
+      "name": "MACCAW EXOTIC FRUIT 1L",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "702",
@@ -737,30 +2065,36 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "29.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "14.0",
       "consumption_in_medawar_branch": "26.0",
-      "total_stock": "6.0",
+      "total_stock": "22.0",
       "total_consumption": "55.0",
       "VAT": "YES",
-      "price_lbp": 175000,
+      "price_lbp": 190000.0,
       "price_usd": "1.96",
-      "cost": 1.4125,
+      "cost": 1.5125,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID702.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "6.0",
-          "consumption": "26.0"
-        },
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "8.0",
           "consumption": "29.0"
+        },
+        "Medawar": {
+          "stock": "14.0",
+          "consumption": "26.0"
         }
-      }
+      },
+      "name": "MACCAW MANGO 1L",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "703",
@@ -771,30 +2105,36 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-10.0",
-      "consumption_in_geitawi_branch": "40.0",
-      "stock_in_medawar_branch": "24.0",
-      "consumption_in_medawar_branch": "30.0",
-      "total_stock": "14.0",
-      "total_consumption": "70.0",
+      "stock_in_geitawi_branch": "-3.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "32.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "29.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 175000,
+      "price_lbp": 190000.0,
       "price_usd": "1.96",
-      "cost": 1.4125,
+      "cost": 1.5125,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID703.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-10.0",
+          "stock": "-3.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "24.0",
+          "stock": "32.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MACCAW STRAW&BANN 1L",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "704",
@@ -805,14 +2145,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "19.0",
-      "stock_in_medawar_branch": "41.0",
+      "stock_in_medawar_branch": "49.0",
       "consumption_in_medawar_branch": "37.0",
-      "total_stock": "39.0",
+      "total_stock": "55.0",
       "total_consumption": "56.0",
       "VAT": "YES",
-      "price_lbp": 270000,
+      "price_lbp": 270000.0,
       "price_usd": "3.02",
       "cost": 2.11875,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID704.jpg",
@@ -821,14 +2161,91 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-2.0",
+          "stock": "6.0",
           "consumption": "19.0"
         },
         "Medawar": {
-          "stock": "41.0",
+          "stock": "49.0",
           "consumption": "37.0"
         }
-      }
+      },
+      "name": "MACCAW PINEAPPLE 1L",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "705",
+      "barcode": "5281034010387",
+      "barcodes": "",
+      "Product Description": "MACCAW GRAPE FRUIT 1LTR",
+      "product_description": "MACCAW GRAPE FRUIT 1LTR",
+      "description": "MACCAW GRAPE FRUIT 1LTR",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "juice",
+      "subcategory": "juice",
+      "subCategory": "juice",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 160000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MACCAW GRAPE FRUIT 1LTR",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "juice",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "706",
@@ -839,14 +2256,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-7.0",
+      "stock_in_geitawi_branch": "-11.0",
       "consumption_in_geitawi_branch": "22.0",
-      "stock_in_medawar_branch": "46.0",
+      "stock_in_medawar_branch": "45.0",
       "consumption_in_medawar_branch": "24.0",
-      "total_stock": "39.0",
+      "total_stock": "34.0",
       "total_consumption": "46.0",
       "VAT": "YES",
-      "price_lbp": 270000,
+      "price_lbp": 270000.0,
       "price_usd": "3.02",
       "cost": 2.11875,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID706.jpg",
@@ -855,14 +2272,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-7.0",
+          "stock": "-11.0",
           "consumption": "22.0"
         },
         "Medawar": {
-          "stock": "46.0",
+          "stock": "45.0",
           "consumption": "24.0"
         }
-      }
+      },
+      "name": "MACCAW ORANGE 1L",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "707",
@@ -873,14 +2296,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "27.0",
-      "consumption_in_geitawi_branch": "38.0",
-      "stock_in_medawar_branch": "10941.0",
-      "consumption_in_medawar_branch": "169.0",
-      "total_stock": "10968.0",
-      "total_consumption": "207.0",
+      "stock_in_geitawi_branch": "17.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "11001.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "11018.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 20000,
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
       "cost": 0.13676997206703911,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID707.jpg",
@@ -889,14 +2312,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "27.0",
+          "stock": "17.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "10941.0",
+          "stock": "11001.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MR. JUICY ORANGE 200ML",
+      "supplier": "PEPSI LBP",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "708",
@@ -907,14 +2336,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-16.0",
+      "stock_in_geitawi_branch": "-24.0",
       "consumption_in_geitawi_branch": "70.0",
-      "stock_in_medawar_branch": "164.0",
+      "stock_in_medawar_branch": "188.0",
       "consumption_in_medawar_branch": "64.0",
-      "total_stock": "148.0",
+      "total_stock": "164.0",
       "total_consumption": "134.0",
       "VAT": "YES",
-      "price_lbp": 35000,
+      "price_lbp": 35000.0,
       "price_usd": "0.39",
       "cost": 0.2375,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID708.jpg",
@@ -923,14 +2352,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-16.0",
+          "stock": "-24.0",
           "consumption": "70.0"
         },
         "Medawar": {
-          "stock": "164.0",
+          "stock": "188.0",
           "consumption": "64.0"
         }
-      }
+      },
+      "name": "MACCAW BAN&STRW JUICE 180ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "709",
@@ -941,14 +2376,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-25.0",
+      "stock_in_geitawi_branch": "-9.0",
       "consumption_in_geitawi_branch": "77.0",
-      "stock_in_medawar_branch": "126.0",
+      "stock_in_medawar_branch": "150.0",
       "consumption_in_medawar_branch": "98.0",
-      "total_stock": "101.0",
+      "total_stock": "141.0",
       "total_consumption": "175.0",
       "VAT": "YES",
-      "price_lbp": 35000,
+      "price_lbp": 35000.0,
       "price_usd": "0.39",
       "cost": 0.2375,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID709.jpg",
@@ -957,14 +2392,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-25.0",
+          "stock": "-9.0",
           "consumption": "77.0"
         },
         "Medawar": {
-          "stock": "126.0",
+          "stock": "150.0",
           "consumption": "98.0"
         }
-      }
+      },
+      "name": "MACCAW MANGO JUICE 180ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "710",
@@ -975,30 +2416,107 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-6.0",
+      "stock_in_geitawi_branch": "13.0",
       "consumption_in_geitawi_branch": "72.0",
-      "stock_in_medawar_branch": "78.0",
+      "stock_in_medawar_branch": "102.0",
       "consumption_in_medawar_branch": "67.0",
-      "total_stock": "72.0",
+      "total_stock": "115.0",
       "total_consumption": "139.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 65000.0,
       "price_usd": "0.67",
-      "cost": 0.45,
+      "cost": 0.4895833333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID710.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-6.0",
+          "stock": "13.0",
           "consumption": "72.0"
         },
         "Medawar": {
-          "stock": "78.0",
+          "stock": "102.0",
           "consumption": "67.0"
         }
-      }
+      },
+      "name": "MACCAW PINEAPPLE JUICE 250ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "712",
+      "barcode": "5285000326885",
+      "barcodes": "",
+      "Product Description": "TROPICANA SLICE COCKTAIL 250ML",
+      "product_description": "TROPICANA SLICE COCKTAIL 250ML",
+      "description": "TROPICANA SLICE COCKTAIL 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "juice",
+      "subcategory": "juice",
+      "subCategory": "juice",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 35000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TROPICANA SLICE COCKTAIL 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "juice",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "714",
@@ -1009,14 +2527,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-6.0",
+      "stock_in_geitawi_branch": "-14.0",
       "consumption_in_geitawi_branch": "35.0",
-      "stock_in_medawar_branch": "150.0",
+      "stock_in_medawar_branch": "143.0",
       "consumption_in_medawar_branch": "80.0",
-      "total_stock": "144.0",
+      "total_stock": "129.0",
       "total_consumption": "115.0",
       "VAT": "YES",
-      "price_lbp": 35000,
+      "price_lbp": 35000.0,
       "price_usd": "0.39",
       "cost": 0.2375,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID714.jpg",
@@ -1025,14 +2543,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-6.0",
+          "stock": "-14.0",
           "consumption": "35.0"
         },
         "Medawar": {
-          "stock": "150.0",
+          "stock": "143.0",
           "consumption": "80.0"
         }
-      }
+      },
+      "name": "MACCAW APPLE JUICE 180ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "715",
@@ -1043,14 +2567,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "15.0",
+      "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "44.0",
       "stock_in_medawar_branch": "75.0",
-      "consumption_in_medawar_branch": "58.0",
-      "total_stock": "90.0",
-      "total_consumption": "102.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "85.0",
+      "total_consumption": "44.0",
       "VAT": "YES",
-      "price_lbp": 35000,
+      "price_lbp": 35000.0,
       "price_usd": "0.39",
       "cost": 0.2375,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID715.jpg",
@@ -1059,18 +2583,24 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "15.0",
+          "stock": "10.0",
           "consumption": "44.0"
         },
         "Medawar": {
           "stock": "75.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "MACCAW ORANGE&CARROTS 180ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "717",
-      "barcode": "5281034400133-5281034430987",
+      "barcode": "5281034400133",
       "Product Description": "MACCAW CRANBERRY WELLNESS 1L",
       "SUPPLIERS": "LIBAN JUS SAL",
       "unit": "-",
@@ -1079,14 +2609,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "11.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "3.0",
+      "total_stock": "11.0",
       "total_consumption": "12.0",
       "VAT": "YES",
-      "price_lbp": "270,000",
+      "price_lbp": 270000.0,
       "price_usd": "3.02",
-      "cost": "2.25",
+      "cost": 2.11875,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID717.jpg",
       "new_items": "",
       "manual": "",
@@ -1097,10 +2627,16 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "11.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "name": "MACCAW CRANBERRY WELLNESS 1L",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "5281034430987",
+      "barcodes": "5281034430987"
     },
     {
       "id": "752",
@@ -1112,13 +2648,13 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "41.0",
-      "consumption_in_geitawi_branch": "7.0",
-      "stock_in_medawar_branch": "15.0",
-      "consumption_in_medawar_branch": "14.0",
-      "total_stock": "56.0",
-      "total_consumption": "21.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "14.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "55.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 25000,
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
       "cost": 0.18400000000000002,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID752.jpg",
@@ -1131,10 +2667,16 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "15.0",
+          "stock": "14.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "F ARUBA PINEAPPLE DRINK 30GR",
+      "supplier": "HINTRAG",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "753",
@@ -1152,7 +2694,7 @@
       "total_stock": "33.0",
       "total_consumption": "10.0",
       "VAT": "YES",
-      "price_lbp": 25000,
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
       "cost": 0.18400000000000002,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID753.jpg",
@@ -1168,7 +2710,13 @@
           "stock": "13.0",
           "consumption": "4.0"
         }
-      }
+      },
+      "name": "F ARUBA MANDARIN DRINK 30 GR",
+      "supplier": "HINTRAG",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "754",
@@ -1180,28 +2728,35 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "22.0",
-      "consumption_in_geitawi_branch": "11.0",
-      "stock_in_medawar_branch": "36.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "35.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "58.0",
-      "total_consumption": "13.0",
+      "total_stock": "57.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
-      "price_lbp": "25,000",
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
-      "cost": "0.19",
+      "cost": 0.19,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID754.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "36.0",
-          "consumption": "2.0"
-        },
         "Geitawi": {
-          "stock": "22.0"
+          "stock": "22.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "35.0",
+          "consumption": "2.0"
         }
-      }
+      },
+      "name": "ARUBA TROPICAL DRINK 30 GR",
+      "supplier": "HINTRAG",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "755",
@@ -1219,9 +2774,9 @@
       "total_stock": "15.0",
       "total_consumption": "10.0",
       "VAT": "YES",
-      "price_lbp": "25,000",
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
-      "cost": "0.19",
+      "cost": 0.19,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID755.jpg",
       "new_items": "",
       "manual": "",
@@ -1235,7 +2790,13 @@
           "stock": "15.0",
           "consumption": "8.0"
         }
-      }
+      },
+      "name": "ARUBA STRAWBERRY DRINK 30GR",
+      "supplier": "HINTRAG",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "756",
@@ -1248,12 +2809,12 @@
       "offers": "0",
       "stock_in_geitawi_branch": "16.0",
       "consumption_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "37.0",
-      "consumption_in_medawar_branch": "11.0",
-      "total_stock": "53.0",
-      "total_consumption": "29.0",
+      "stock_in_medawar_branch": "36.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "52.0",
+      "total_consumption": "18.0",
       "VAT": "YES",
-      "price_lbp": 25000,
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
       "cost": 0.18400000000000002,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID756.jpg",
@@ -1266,10 +2827,16 @@
           "consumption": "18.0"
         },
         "Medawar": {
-          "stock": "37.0",
+          "stock": "36.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "F ARUBA ORANGE DRINK 30GR",
+      "supplier": "HINTRAG",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "757",
@@ -1281,27 +2848,35 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "17.0",
-      "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "27.0",
-      "consumption_in_medawar_branch": "13.0",
-      "total_stock": "44.0",
-      "total_consumption": "18.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "26.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "43.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "25,000",
+      "price_lbp": 25000.0,
       "price_usd": "0.28",
-      "cost": "0.19",
+      "cost": 0.19,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID757.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "27.0"
-        },
         "Geitawi": {
-          "stock": "17.0"
+          "stock": "17.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "26.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "F ARUBA MANGO DRINK 30GR",
+      "supplier": "HINTRAG",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "760",
@@ -1319,13 +2894,29 @@
       "total_stock": "0.0",
       "total_consumption": "6.0",
       "VAT": "YES",
-      "price_lbp": "45,000",
+      "price_lbp": 45000.0,
       "price_usd": "0.50",
-      "cost": "0.37",
+      "cost": 0.37,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID760.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "X-TRA PINEAPPLE 250ML",
+      "supplier": "SUPPLIERS DIVERS",
+      "subcategory": "juice",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "6.0"
+        }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "761",
@@ -1336,14 +2927,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "34.0",
       "stock_in_medawar_branch": "115.0",
       "consumption_in_medawar_branch": "22.0",
-      "total_stock": "121.0",
+      "total_stock": "118.0",
       "total_consumption": "56.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 60000.0,
       "price_usd": "0.67",
       "cost": 0.45,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID761.jpg",
@@ -1352,48 +2943,60 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
+          "stock": "3.0",
           "consumption": "34.0"
         },
         "Medawar": {
           "stock": "115.0",
           "consumption": "22.0"
         }
-      }
+      },
+      "name": "MACCAW ORANGE JUICE 250ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "762",
-      "barcode": "5281034012503-7622210049384",
+      "barcode": "5281034012503",
       "Product Description": "MACCAW BAN\\STRAW JUICE 250ML",
       "SUPPLIERS": "LIBAN JUS SAL",
       "unit": "-",
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-8.0",
+      "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "55.0",
-      "stock_in_medawar_branch": "94.0",
+      "stock_in_medawar_branch": "118.0",
       "consumption_in_medawar_branch": "39.0",
-      "total_stock": "86.0",
+      "total_stock": "133.0",
       "total_consumption": "94.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 65000.0,
       "price_usd": "0.67",
-      "cost": 0.45,
+      "cost": 0.4895833333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID762.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-8.0",
+          "stock": "15.0",
           "consumption": "55.0"
         },
         "Medawar": {
-          "stock": "94.0",
+          "stock": "118.0",
           "consumption": "39.0"
         }
-      }
+      },
+      "name": "MACCAW BAN\\STRAW JUICE 250ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "7622210049384",
+      "barcodes": "7622210049384"
     },
     {
       "id": "764",
@@ -1407,13 +3010,13 @@
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "22.0",
       "stock_in_medawar_branch": "-1.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "24.0",
+      "total_consumption": "22.0",
       "VAT": "YES",
-      "price_lbp": "40,000",
+      "price_lbp": 40000.0,
       "price_usd": "0.45",
-      "cost": "0.35",
+      "cost": 0.35,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID764.jpg",
       "new_items": "",
       "manual": "",
@@ -1424,13 +3027,20 @@
           "consumption": "22.0"
         },
         "Medawar": {
-          "stock": "-1.0"
+          "stock": "-1.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "X-TRA JALLAB 250 ML",
+      "supplier": "toters",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "765",
-      "barcode": "031200200075-031200342270",
+      "barcode": "031200200075",
       "Product Description": "CRANBERRY OCEAN SPRAY 1.89L",
       "SUPPLIERS": "MANY FOOD SARL",
       "unit": "-",
@@ -1444,9 +3054,9 @@
       "total_stock": "7.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": "800,000",
+      "price_lbp": 800000.0,
       "price_usd": "8.94",
-      "cost": "7.49",
+      "cost": 7.7,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID765.jpg",
       "new_items": "",
       "manual": "",
@@ -1457,52 +3067,63 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "3.0"
+          "stock": "3.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "CRANBERRY OCEAN SPRAY 1.89L",
+      "supplier": "MANY FOOD SARL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "031200342270",
+      "barcodes": "031200342270"
     },
     {
       "id": "767",
-      "barcode": "5281034012534-5281034430420",
+      "barcode": "5281034012534",
       "Product Description": "MACCAW EXOTIC 250ML",
       "SUPPLIERS": "LIBAN JUS SAL",
       "unit": "-",
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "40.0",
+      "stock_in_medawar_branch": "64.0",
       "consumption_in_medawar_branch": "44.0",
-      "total_stock": "41.0",
+      "total_stock": "88.0",
       "total_consumption": "64.0",
       "VAT": "YES",
-      "price_lbp": "60,000",
+      "price_lbp": 65000.0,
       "price_usd": "0.67",
-      "cost": "0.48",
+      "cost": 0.4895833333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID767.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "24.0",
           "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "40.0",
+          "stock": "64.0",
           "consumption": "44.0"
         }
       },
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5281034430420",
+      "barcodes": "5281034430420",
       "expiry_days": "0",
       "cost_ht": "0.48",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
       "linked_profile_category": "",
-      "linked_profile_sub_category": ""
+      "linked_profile_sub_category": "",
+      "name": "MACCAW EXOTIC 250ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1
     },
     {
       "id": "780",
@@ -1513,30 +3134,107 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-34.0",
+      "stock_in_geitawi_branch": "-38.0",
       "consumption_in_geitawi_branch": "61.0",
-      "stock_in_medawar_branch": "96.0",
+      "stock_in_medawar_branch": "120.0",
       "consumption_in_medawar_branch": "60.0",
-      "total_stock": "62.0",
+      "total_stock": "82.0",
       "total_consumption": "121.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 65000.0,
       "price_usd": "0.67",
-      "cost": 0.45,
+      "cost": 0.4895833333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID780.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-34.0",
+          "stock": "-38.0",
           "consumption": "61.0"
         },
         "Medawar": {
-          "stock": "96.0",
+          "stock": "120.0",
           "consumption": "60.0"
         }
-      }
+      },
+      "name": "MACCAW MANGO 250ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "782",
+      "barcode": "5281034011520",
+      "barcodes": "",
+      "Product Description": "MACCAW PINK GRAPEFRUIT LITE 250ML",
+      "product_description": "MACCAW PINK GRAPEFRUIT LITE 250ML",
+      "description": "MACCAW PINK GRAPEFRUIT LITE 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "juice",
+      "subcategory": "juice",
+      "subCategory": "juice",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 60000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MACCAW PINK GRAPEFRUIT LITE 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "juice",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "783",
@@ -1547,30 +3245,36 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "25.0",
+      "stock_in_geitawi_branch": "23.0",
       "consumption_in_geitawi_branch": "29.0",
-      "stock_in_medawar_branch": "27.0",
+      "stock_in_medawar_branch": "24.0",
       "consumption_in_medawar_branch": "52.0",
-      "total_stock": "52.0",
+      "total_stock": "47.0",
       "total_consumption": "81.0",
       "VAT": "YES",
-      "price_lbp": "60,000",
+      "price_lbp": 60000.0,
       "price_usd": "0.67",
-      "cost": "0.48",
+      "cost": 0.48,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID783.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "27.0",
-          "consumption": "52.0"
-        },
         "Geitawi": {
-          "stock": "25.0",
+          "stock": "23.0",
           "consumption": "29.0"
+        },
+        "Medawar": {
+          "stock": "24.0",
+          "consumption": "52.0"
         }
-      }
+      },
+      "name": "MACCAW ORANGE CARROT 250ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "784",
@@ -1581,14 +3285,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-16.0",
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "92.0",
-      "stock_in_medawar_branch": "140.0",
+      "stock_in_medawar_branch": "164.0",
       "consumption_in_medawar_branch": "108.0",
-      "total_stock": "124.0",
+      "total_stock": "169.0",
       "total_consumption": "200.0",
       "VAT": "YES",
-      "price_lbp": 35000,
+      "price_lbp": 35000.0,
       "price_usd": "0.39",
       "cost": 0.2375,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID784.jpg",
@@ -1597,14 +3301,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-16.0",
+          "stock": "5.0",
           "consumption": "92.0"
         },
         "Medawar": {
-          "stock": "140.0",
+          "stock": "164.0",
           "consumption": "108.0"
         }
-      }
+      },
+      "name": "MACCAW PINEAPPLE JUICE 180ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "804",
@@ -1615,14 +3325,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "30.0",
+      "stock_in_geitawi_branch": "17.0",
       "consumption_in_geitawi_branch": "39.0",
-      "stock_in_medawar_branch": "10948.0",
+      "stock_in_medawar_branch": "10933.0",
       "consumption_in_medawar_branch": "173.0",
-      "total_stock": "10978.0",
+      "total_stock": "10950.0",
       "total_consumption": "212.0",
       "VAT": "YES",
-      "price_lbp": 20000,
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
       "cost": 0.13676997206703911,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID804.jpg",
@@ -1631,14 +3341,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "30.0",
+          "stock": "17.0",
           "consumption": "39.0"
         },
         "Medawar": {
-          "stock": "10948.0",
+          "stock": "10933.0",
           "consumption": "173.0"
         }
-      }
+      },
+      "name": "MR JUICY TROPICANA COKTAIL 180ML",
+      "supplier": "PEPSI LBP",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "805",
@@ -1649,14 +3365,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "37.0",
+      "stock_in_geitawi_branch": "28.0",
       "consumption_in_geitawi_branch": "41.0",
-      "stock_in_medawar_branch": "10988.0",
+      "stock_in_medawar_branch": "11048.0",
       "consumption_in_medawar_branch": "179.0",
-      "total_stock": "11025.0",
+      "total_stock": "11076.0",
       "total_consumption": "220.0",
       "VAT": "YES",
-      "price_lbp": 20000,
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
       "cost": 0.13676997206703911,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID805.jpg",
@@ -1664,15 +3380,21 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "10988.0",
-          "consumption": "179.0"
-        },
         "Geitawi": {
-          "stock": "37.0",
+          "stock": "28.0",
           "consumption": "41.0"
+        },
+        "Medawar": {
+          "stock": "11048.0",
+          "consumption": "179.0"
         }
-      }
+      },
+      "name": "MR JUICE PINEAPPLE 180 ML",
+      "supplier": "PEPSI LBP",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "812",
@@ -1683,14 +3405,14 @@
       "category": "BEVERAGES",
       "sub_category": "cold coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "48.0",
+      "stock_in_geitawi_branch": "27.0",
       "consumption_in_geitawi_branch": "163.0",
-      "stock_in_medawar_branch": "350.0",
-      "consumption_in_medawar_branch": "140.0",
-      "total_stock": "398.0",
-      "total_consumption": "303.0",
+      "stock_in_medawar_branch": "327.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "354.0",
+      "total_consumption": "163.0",
       "VAT": "YES",
-      "price_lbp": 80000,
+      "price_lbp": 80000.0,
       "price_usd": "0.89",
       "cost": 0.6137916666,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID812.jpg",
@@ -1699,14 +3421,91 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "48.0",
+          "stock": "27.0",
           "consumption": "163.0"
         },
         "Medawar": {
-          "stock": "350.0",
+          "stock": "327.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "LUNA ICE COFFEE MOCHA 190 ML",
+      "supplier": "EDWIN YAZBECK FOR TRADING",
+      "subcategory": "cold coffee",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "814",
+      "barcode": "5281034430437",
+      "barcodes": "",
+      "Product Description": "MACCAW POMEGRENATE 1LTR",
+      "product_description": "MACCAW POMEGRENATE 1LTR",
+      "description": "MACCAW POMEGRENATE 1LTR",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "juice",
+      "subcategory": "juice",
+      "subCategory": "juice",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 235000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MACCAW POMEGRENATE 1LTR",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "juice",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "816",
@@ -1717,48 +3516,125 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "32.0",
       "consumption_in_geitawi_branch": "43.0",
-      "stock_in_medawar_branch": "62.0",
+      "stock_in_medawar_branch": "86.0",
       "consumption_in_medawar_branch": "44.0",
-      "total_stock": "71.0",
+      "total_stock": "118.0",
       "total_consumption": "87.0",
       "VAT": "YES",
-      "price_lbp": 60000,
+      "price_lbp": 65000.0,
       "price_usd": "0.67",
-      "cost": 0.45,
+      "cost": 0.4895833333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID816.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "9.0",
+          "stock": "32.0",
           "consumption": "43.0"
         },
         "Medawar": {
-          "stock": "62.0",
+          "stock": "86.0",
           "consumption": "44.0"
         }
-      }
+      },
+      "name": "MACCAW APPLE NECTAR 250ML",
+      "supplier": "LIBAN JUS SAL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "827",
+      "barcode": "788930203127",
+      "barcodes": "",
+      "Product Description": "X-TRA MANGO 250ML",
+      "product_description": "X-TRA MANGO 250ML",
+      "description": "X-TRA MANGO 250ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "juice",
+      "subcategory": "juice",
+      "subCategory": "juice",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 45000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "X-TRA MANGO 250ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "juice",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "835",
-      "barcode": "5283024600097-5283024600080",
+      "barcode": "5283024600097",
       "Product Description": "TROPICANA SLICE 1 LITRE",
       "SUPPLIERS": "PEPSI LBP",
       "unit": "-",
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "30.0",
+      "stock_in_geitawi_branch": "26.0",
       "consumption_in_geitawi_branch": "76.0",
       "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "29.0",
+      "total_stock": "25.0",
       "total_consumption": "76.0",
       "VAT": "YES",
-      "price_lbp": 95000,
+      "price_lbp": 95000.0,
       "price_usd": "1.06",
       "cost": 0.8245187444444445,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID835.jpg",
@@ -1767,14 +3643,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "30.0",
+          "stock": "26.0",
           "consumption": "76.0"
         },
         "Medawar": {
           "stock": "-1.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "TROPICANA SLICE 1 LITRE",
+      "supplier": "PEPSI LBP",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "875",
@@ -1786,27 +3668,390 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "4.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": "800,000",
+      "price_lbp": 800000.0,
       "price_usd": "8.94",
-      "cost": "7.49",
+      "cost": 7.7,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID875.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "3.0"
-        },
         "Geitawi": {
-          "stock": "1.0"
+          "stock": "1.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "3.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "OCEAN SPRAY DIET",
+      "supplier": "MANY FOOD SARL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "883",
+      "barcode": "5283024602695",
+      "barcodes": "",
+      "Product Description": "AMP ENERGY CLASSIC 330 ML",
+      "product_description": "AMP ENERGY CLASSIC 330 ML",
+      "description": "AMP ENERGY CLASSIC 330 ML",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "BEVERAGES",
+      "sub_category": "ENERGY DRINK",
+      "subcategory": "ENERGY DRINK",
+      "subCategory": "ENERGY DRINK",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 35000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "AMP ENERGY CLASSIC 330 ML",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "ENERGY DRINK",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "884",
+      "barcode": "5285008412757",
+      "barcodes": "5285008412764",
+      "Product Description": "OOPS CLASSIC 37 G",
+      "product_description": "OOPS CLASSIC 37 G",
+      "description": "OOPS CLASSIC 37 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "HOME USAGE",
+      "sub_category": "deodorant & roll on",
+      "subcategory": "deodorant & roll on",
+      "subCategory": "deodorant & roll on",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 20000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5285008412764",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "OOPS CLASSIC 37 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "deodorant & roll on",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "885",
+      "barcode": "5283014927869",
+      "barcodes": "5283014927876",
+      "Product Description": "MARVY 28G",
+      "product_description": "MARVY 28G",
+      "description": "MARVY 28G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 20000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5283014927876",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MARVY 28G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "MISC",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "886",
+      "barcode": "5287001498004",
+      "barcodes": "5287001498011",
+      "Product Description": "MATTINO CHOCO CREAM 45 G",
+      "product_description": "MATTINO CHOCO CREAM 45 G",
+      "description": "MATTINO CHOCO CREAM 45 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "CHI TAYIB",
+      "sub_category": "Wafers",
+      "subcategory": "Wafers",
+      "subCategory": "Wafers",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 40000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5287001498011",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "MATTINO CHOCO CREAM 45 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "Wafers",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "887",
+      "barcode": "5283000914248",
+      "barcodes": "",
+      "Product Description": "ECO RICE AMERICAN  900 G",
+      "product_description": "ECO RICE AMERICAN  900 G",
+      "description": "ECO RICE AMERICAN  900 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "RICE",
+      "subcategory": "RICE",
+      "subCategory": "RICE",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 130000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "ECO RICE AMERICAN  900 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "RICE",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "891",
@@ -1817,14 +4062,14 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "44.0",
+      "stock_in_geitawi_branch": "42.0",
       "consumption_in_geitawi_branch": "42.0",
-      "stock_in_medawar_branch": "10908.0",
+      "stock_in_medawar_branch": "10938.0",
       "consumption_in_medawar_branch": "159.0",
-      "total_stock": "10952.0",
+      "total_stock": "10980.0",
       "total_consumption": "201.0",
       "VAT": "YES",
-      "price_lbp": 20000,
+      "price_lbp": 20000.0,
       "price_usd": "0.22",
       "cost": 0.13676997206703911,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID891.jpg",
@@ -1832,15 +4077,92 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Medawar": {
-          "stock": "10908.0",
-          "consumption": "159.0"
-        },
         "Geitawi": {
-          "stock": "44.0",
+          "stock": "42.0",
           "consumption": "42.0"
+        },
+        "Medawar": {
+          "stock": "10938.0",
+          "consumption": "159.0"
         }
-      }
+      },
+      "name": "MR JUICY TROPICANA MANGO 180ML",
+      "supplier": "PEPSI LBP",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "896",
+      "barcode": "5281092171136",
+      "barcodes": "5281092172034",
+      "Product Description": "PIKO 1L",
+      "product_description": "PIKO 1L",
+      "description": "PIKO 1L",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "HOME USAGE",
+      "sub_category": "CLEANING",
+      "subcategory": "CLEANING",
+      "subCategory": "CLEANING",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 120000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "5281092172034",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "PIKO 1L",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "CLEANING",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
     },
     {
       "id": "897",
@@ -1851,26 +4173,36 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
+      "total_stock": "4.0",
       "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": "450,000",
+      "price_lbp": 450000.0,
       "price_usd": "5.03",
-      "cost": "3.68",
+      "cost": 3.68,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID897.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "2.0",
           "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "0.0"
         }
-      }
+      },
+      "name": "OCEAN SPRAY CRANBERRY CLASSIC 1 L",
+      "supplier": "MANY FOOD SARL",
+      "subcategory": "juice",
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "898",
@@ -1888,31 +4220,47 @@
       "total_stock": "1.0",
       "total_consumption": "3.0",
       "VAT": "YES",
-      "price_lbp": "445,000",
+      "price_lbp": 445000.0,
       "price_usd": "4.97",
-      "cost": "2.30",
+      "cost": 2.3,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID898.jpg",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "name": "OCEAN SPRAY CRANBERRY LIGHT 1 L",
+      "supplier": "MANY FOOD SARL",
+      "subcategory": "juice",
+      "vat": 1,
+      "branches": {
+        "Geitawi": {
+          "stock": "1.0",
+          "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "906",
-      "barcode": "6211002513182-6294003563165",
+      "barcode": "6211002513182",
       "Product Description": "NIDO FORTIFIED FCMP POUCH 900G",
       "SUPPLIERS": "PRODIGY SAL USD",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "MILK",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "1.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1376.0",
-      "consumption_in_medawar_branch": "9.0",
-      "total_stock": "1378.0",
-      "total_consumption": "15.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "1377.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 945000,
+      "price_lbp": 945000.0,
       "price_usd": "10.56",
       "cost": 8.138333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID906.jpg",
@@ -1921,14 +4269,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "1.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "1376.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "NIDO FORTIFIED FCMP POUCH 900G",
+      "supplier": "PRODIGY SAL USD",
+      "subcategory": "MILK",
+      "vat": 0,
+      "barcode2": "6294003563165",
+      "barcodes": "6294003563165"
     },
     {
       "id": "917",
@@ -1946,7 +4300,7 @@
       "total_stock": "1371.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": 490000,
+      "price_lbp": 490000.0,
       "price_usd": "5.47",
       "cost": 3.94,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID917.jpg",
@@ -1962,7 +4316,13 @@
           "stock": "1371.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "NIDO POUCH 400G",
+      "supplier": "PRODIGY SAL USD",
+      "subcategory": "MILK",
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "959",
@@ -1973,14 +4333,14 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "68.0",
-      "stock_in_medawar_branch": "38.0",
-      "consumption_in_medawar_branch": "56.0",
-      "total_stock": "49.0",
-      "total_consumption": "124.0",
+      "stock_in_medawar_branch": "36.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "42.0",
+      "total_consumption": "68.0",
       "VAT": "NO",
-      "price_lbp": 175000,
+      "price_lbp": 175000.0,
       "price_usd": "1.96",
       "cost": 1.55,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID959.jpg",
@@ -1989,14 +4349,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "6.0",
           "consumption": "68.0"
         },
         "Medawar": {
-          "stock": "38.0",
+          "stock": "36.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "name": "KHOURY MILK FULL FAT 1 L",
+      "supplier": "DAIRY KHOURY USD",
+      "subcategory": "DAIRY PRODUCTS",
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "960",
@@ -2007,14 +4373,14 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "-6.0",
       "consumption_in_geitawi_branch": "12.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "22.0",
-      "total_stock": "10.0",
+      "total_stock": "-1.0",
       "total_consumption": "34.0",
       "VAT": "NO",
-      "price_lbp": 175000,
+      "price_lbp": 175000.0,
       "price_usd": "1.96",
       "cost": 1.55,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID960.jpg",
@@ -2023,14 +4389,20 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "-6.0",
           "consumption": "12.0"
         },
         "Medawar": {
-          "stock": "6.0",
+          "stock": "5.0",
           "consumption": "22.0"
         }
-      }
+      },
+      "name": "KHOURY LOW FAT 1 L",
+      "supplier": "DAIRY KHOURY USD",
+      "subcategory": "DAIRY PRODUCTS",
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "961",
@@ -2041,20 +4413,180 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "31.0",
+      "stock_in_geitawi_branch": "27.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "31.0",
+      "total_stock": "27.0",
       "total_consumption": "0.0",
       "VAT": "NO",
-      "price_lbp": "175,000",
+      "price_lbp": 175000.0,
       "price_usd": "1.96",
-      "cost": "1.34",
+      "cost": 1.34,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID961.jpg",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "branches": {
+        "Geitawi": {
+          "stock": "27.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "name": "KHOURY MILKL NON FAT 1",
+      "supplier": "DAIRY KHOURY USD",
+      "subcategory": "DAIRY PRODUCTS",
+      "vat": 0,
+      "barcode2": "",
+      "barcodes": ""
+    },
+    {
+      "id": "967",
+      "barcode": "5285001563630",
+      "barcodes": "",
+      "Product Description": "TRUST PLASTICO",
+      "product_description": "TRUST PLASTICO",
+      "description": "TRUST PLASTICO",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "MISC",
+      "sub_category": "MISC",
+      "subcategory": "MISC",
+      "subCategory": "MISC",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 105000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "TRUST PLASTICO",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "MISC",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005"
+    },
+    {
+      "id": "990",
+      "barcode": "5283018700055",
+      "barcodes": "",
+      "Product Description": "PUCK PROCESSED CHEESE 240 G",
+      "product_description": "PUCK PROCESSED CHEESE 240 G",
+      "description": "PUCK PROCESSED CHEESE 240 G",
+      "brand": "",
+      "supplier": "",
+      "SUPPLIERS": "",
+      "category": "FOOD",
+      "sub_category": "PROCESSED CHEESE",
+      "subcategory": "PROCESSED CHEESE",
+      "subCategory": "PROCESSED CHEESE",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 205000.0,
+      "cost": 0.0,
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "PUCK PROCESSED CHEESE 240 G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "PROCESSED CHEESE",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005"
     }
-  ]
+  ],
+  "updatedAt": "2026-05-12T10:32:56.332258Z",
+  "source": "sql"
 }
