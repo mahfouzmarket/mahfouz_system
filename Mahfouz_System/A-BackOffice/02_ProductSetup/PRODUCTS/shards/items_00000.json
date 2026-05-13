@@ -74,30 +74,39 @@
     {
       "id": "9",
       "barcode": "5283005902073",
+      "barcode2": "",
       "barcodes": "",
       "Product Description": "AL HALABI PUMPKIN SEEDS 175G",
-      "product_description": "AL HALABI PUMPKIN SEEDS 175G",
-      "description": "AL HALABI PUMPKIN SEEDS 175G",
-      "brand": "",
-      "supplier": "",
       "SUPPLIERS": "",
+      "unit": "EACH",
       "category": "FOOD",
       "sub_category": "SEEDS",
-      "subcategory": "SEEDS",
-      "subCategory": "SEEDS",
-      "unit": "EACH",
-      "VAT": "NO",
-      "vat": 0,
-      "price_lbp": 110000.0,
-      "cost": 0.0,
-      "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "offers": "",
+      "expiry_days": "0",
       "stock_in_geitawi_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "1.0",
+      "VAT": "NO",
+      "price_lbp": 110000.0,
+      "price_usd": "1.22",
+      "cost": 0.0,
+      "cost_ht": "0.00",
+      "imageURL": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
@@ -116,31 +125,13 @@
           "consumption": "0.0"
         }
       },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.pdf",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "",
-      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "product_setup_save_token": "PS-SAVE-9-1778654134748493",
+      "product_setup_saved_at_utc": "2026-05-13T06:35:34.748493Z",
       "name": "AL HALABI PUMPKIN SEEDS 175G",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "subcategory": "SEEDS",
+      "vat": 0,
       "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "SEEDS",
-      "secondary_category": "",
-      "secondary_subcategory": "",
-      "secondary_sub_category": "",
-      "offers": "",
-      "new_items": "",
-      "manual": "",
-      "delivery_rules": "0.005"
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "12",
@@ -700,11 +691,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "arak",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "11.0",
       "consumption_in_medawar_branch": "15.0",
-      "total_stock": "21.0",
+      "total_stock": "22.0",
       "total_consumption": "21.0",
       "VAT": "YES",
       "price_lbp": 140000.0,
@@ -716,7 +707,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10.0",
+          "stock": "11.0",
           "consumption": "6.0"
         },
         "Medawar": {
@@ -5796,14 +5787,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "131.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "132.0",
+      "stock_in_medawar_branch": "492.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "263.0",
+      "total_stock": "623.0",
       "total_consumption": "0.0",
       "VAT": "YES",
-      "price_lbp": 130000.0,
+      "price_lbp": 120000.0,
       "price_usd": "1.45",
-      "cost": 1.025,
+      "cost": 0.8541666666666666,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID403.jpg",
       "new_items": "",
       "manual": "",
@@ -5814,7 +5805,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "132.0",
+          "stock": "492.0",
           "consumption": "0.0"
         }
       },
@@ -6962,6 +6953,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-12T21:27:56.328183Z",
+  "updatedAt": "2026-05-13T06:48:15.687950Z",
   "source": "sql"
 }
