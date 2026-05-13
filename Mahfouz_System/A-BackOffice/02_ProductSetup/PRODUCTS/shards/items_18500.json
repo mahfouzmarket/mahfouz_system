@@ -7081,9 +7081,9 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "22.0",
+      "stock_in_medawar_branch": "20.0",
       "consumption_in_medawar_branch": "2.0",
       "total_stock": "23.0",
       "total_consumption": "3.0",
@@ -7097,11 +7097,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "3.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "22.0",
+          "stock": "20.0",
           "consumption": "2.0"
         }
       },
@@ -19998,11 +19998,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "26.0",
+      "stock_in_medawar_branch": "25.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "30.0",
+      "total_stock": "31.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 385000.0,
@@ -20014,11 +20014,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "6.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "26.0",
+          "stock": "25.0",
           "consumption": "0.0"
         }
       },
@@ -22024,11 +22024,11 @@
       "subcategory": "ICEBERG",
       "subCategory": "ICEBERG",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": 0,
-      "price_lbp": 150000.0,
-      "cost": 1.39,
-      "total_stock": "0.0",
+      "VAT": "YES",
+      "vat": 1,
+      "price_lbp": 160000.0,
+      "cost": 1.2638888888888888,
+      "total_stock": "18.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
@@ -22038,7 +22038,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "18.0",
           "consumption": "0.0"
         },
         "geitawi": {
@@ -22078,12 +22078,7 @@
       "offers": "",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005",
-      "cost_ht": "1.39",
-      "costUsd": 1.39,
-      "cost_ht_usd": 1.39,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
+      "delivery_rules": "0.005"
     },
     {
       "id": "18901",
@@ -23548,9 +23543,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-12.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "-11.0",
+      "total_stock": "1.0",
       "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 200000.0,
@@ -23566,7 +23561,7 @@
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "1.0",
+          "stock": "13.0",
           "consumption": "12.0"
         }
       },
@@ -27747,6 +27742,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-13T10:42:42.253931Z",
+  "updatedAt": "2026-05-13T12:34:09.493275Z",
   "source": "sql"
 }
