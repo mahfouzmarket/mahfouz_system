@@ -319,7 +319,7 @@
     {
       "id": "22010",
       "barcode": "2709409",
-      "barcodes": "11223344",
+      "barcodes": "",
       "Product Description": "NF DRIED APRICOT NT 100G",
       "product_description": "NF DRIED APRICOT NT 100G",
       "description": "NF DRIED APRICOT NT 100G",
@@ -334,7 +334,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 200000.0,
-      "cost": 0.0,
+      "cost": 1.85,
       "total_stock": "0.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -366,7 +366,7 @@
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
       "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "11223344",
+      "barcode2": "",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
       "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
@@ -388,7 +388,7 @@
       "delivery_rules": "0.005",
       "expiry_days": "0",
       "price_usd": "2.22",
-      "cost_ht": "0.00",
+      "cost_ht": "1.85",
       "imageURL": "",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
@@ -396,7 +396,11 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-22010-1778496254899361",
-      "product_setup_saved_at_utc": "2026-05-11T10:44:14.899361Z"
+      "product_setup_saved_at_utc": "2026-05-11T10:44:14.899361Z",
+      "costUsd": 1.85,
+      "cost_ht_usd": 1.85,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     },
     {
       "id": "22019",
@@ -492,7 +496,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 90000.0,
-      "cost": 0.0,
+      "cost": 0.83,
       "total_stock": "0.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -543,7 +547,12 @@
       "offers": "",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "cost_ht": "0.83",
+      "costUsd": 0.83,
+      "cost_ht_usd": 0.83,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     },
     {
       "id": "22040",
@@ -628,6 +637,6 @@
       "product_setup_saved_at_utc": "2026-05-12T10:59:32.129695Z"
     }
   ],
-  "updatedAt": "2026-05-13T09:53:27.168877Z",
+  "updatedAt": "2026-05-13T10:37:32.321631Z",
   "source": "sql"
 }
