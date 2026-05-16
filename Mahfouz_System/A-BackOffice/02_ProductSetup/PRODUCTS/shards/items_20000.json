@@ -589,9 +589,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "9.0",
-      "total_stock": "3.0",
+      "total_stock": "6.0",
       "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 170000.0,
@@ -607,7 +607,7 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "3.0",
           "consumption": "9.0"
         }
       },
@@ -16880,42 +16880,51 @@
     {
       "id": "20392",
       "barcode": "587710",
+      "barcode2": "05877100",
+      "barcodes": "05877100",
       "Product Description": "SPEED STICK FRESH FRAIS 85 G",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
+      "expiry_days": "0",
       "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": 370000.0,
       "price_usd": "4.11",
       "cost": 2.77,
+      "cost_ht": "2.77",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20392.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "SPEED STICK FRESH FRAIS 85 G",
-      "supplier": "JACK DIB",
-      "subcategory": "deodorant & roll on",
-      "vat": 0,
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
           "consumption": "0.0"
         }
       },
-      "barcode2": "",
-      "barcodes": ""
+      "product_setup_save_token": "PS-SAVE-20392-1778937950909103",
+      "product_setup_saved_at_utc": "2026-05-16T13:25:50.909103Z",
+      "name": "SPEED STICK FRESH FRAIS 85 G",
+      "supplier": "JACK DIB",
+      "subcategory": "deodorant & roll on",
+      "vat": 0
     },
     {
       "id": "20393",
@@ -21546,6 +21555,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-16T13:32:20.275575Z",
+  "updatedAt": "2026-05-16T13:34:19.490844Z",
   "source": "sql"
 }
