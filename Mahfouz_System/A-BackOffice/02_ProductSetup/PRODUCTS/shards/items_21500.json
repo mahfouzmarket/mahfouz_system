@@ -9866,7 +9866,7 @@
       "vat": 0,
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
@@ -9874,11 +9874,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       },
-      "total_stock": "1.0",
+      "total_stock": "4.0",
       "total_consumption": "0.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -13102,13 +13102,13 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "0.0"
         }
       },
       "stock_in_geitawi_branch": "3.0",
-      "total_stock": "3.0",
-      "stock_in_medawar_branch": "0.0",
+      "total_stock": "5.0",
+      "stock_in_medawar_branch": "2.0",
       "Product Description": "NAKHLA TOW APPLES 250 G",
       "SUPPLIERS": "CIGARETTES",
       "subcategory": "TANBAK",
@@ -22386,7 +22386,7 @@
     {
       "id": "21983",
       "barcode": "2709467",
-      "barcodes": "",
+      "barcodes": "000",
       "Product Description": "NF FRESH LEMONADE",
       "product_description": "NF FRESH LEMONADE",
       "description": "NF FRESH LEMONADE",
@@ -22433,7 +22433,7 @@
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
       "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "",
+      "barcode2": "000",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
       "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
@@ -22629,6 +22629,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-17T20:05:47.863897Z",
+  "updatedAt": "2026-05-17T21:09:41.177041Z",
   "source": "sql"
 }
