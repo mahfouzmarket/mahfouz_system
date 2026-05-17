@@ -611,9 +611,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "41.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "197.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "0.0",
+      "total_stock": "197.0",
       "total_consumption": "49.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -629,7 +629,7 @@
           "consumption": "41.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "197.0",
           "consumption": "8.0"
         }
       },
@@ -638,7 +638,16 @@
       "subcategory": "ROLLING CIGARETTE PAPER",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "0.16",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-10246-1778956975731050",
+      "product_setup_saved_at_utc": "2026-05-16T18:42:55.731050Z"
     },
     {
       "id": "10247",
@@ -1678,8 +1687,8 @@
           "consumption": "0.0"
         }
       },
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5287007157004",
+      "barcodes": "5287007157004 | 5283001501089",
       "expiry_days": "0",
       "cost_ht": "2.23",
       "linked_profile_enabled": false,
@@ -2079,11 +2088,11 @@
       "category": "HOME USAGE",
       "sub_category": "GAS",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "18.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "29.0",
+      "total_stock": "18.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": 7000000.0,
@@ -2095,7 +2104,7 @@
       "delivery_rules": "1.95",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -2369,6 +2378,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-17T09:29:01.178709Z",
+  "updatedAt": "2026-05-17T09:30:43.022871Z",
   "source": "sql"
 }
