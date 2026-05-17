@@ -1320,9 +1320,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "21.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "21.0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": 125000.0,
@@ -1338,7 +1338,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "21.0",
           "consumption": "0.0"
         }
       },
@@ -1347,7 +1347,16 @@
       "subcategory": "DAIRY PRODUCTS",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "1.10",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-2819-1778929015884121",
+      "product_setup_saved_at_utc": "2026-05-16T10:56:55.884121Z"
     },
     {
       "id": "2821",
@@ -1604,8 +1613,8 @@
       "supplier": "DAIRY KHOURY USD",
       "subcategory": "DAIRY PRODUCTS",
       "vat": 0,
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5285008140223",
+      "barcodes": "5285008140223",
       "expiry_days": "0",
       "cost_ht": "6.30",
       "linked_profile_enabled": false,
@@ -1824,6 +1833,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-17T09:33:01.154624Z",
+  "updatedAt": "2026-05-17T09:36:40.986548Z",
   "source": "sql"
 }
