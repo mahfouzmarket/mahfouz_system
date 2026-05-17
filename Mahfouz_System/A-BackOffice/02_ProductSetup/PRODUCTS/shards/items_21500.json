@@ -859,7 +859,7 @@
       "cost": 0.7407,
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -867,9 +867,9 @@
           "consumption": "0.0"
         }
       },
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "2.0",
       "Product Description": "NF RED VELVET CUP CAKE 1PC",
       "SUPPLIERS": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
@@ -6359,15 +6359,15 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       },
       "stock_in_geitawi_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "3.0",
       "Product Description": "GRAMLESS BASMATI RICE GOLDEN 800G",
       "SUPPLIERS": "al fakir gamless",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "3.0",
       "subcategory": "SEEDS",
       "vat": 0,
       "consumption_in_geitawi_branch": "0.0",
@@ -6378,7 +6378,11 @@
       "secondary_sub_category": "",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "expiry_days": "0",
+      "cost_ht": "1.79",
+      "product_setup_save_token": "PS-SAVE-21668-1778935886410507",
+      "product_setup_saved_at_utc": "2026-05-16T12:51:26.410507Z"
     },
     {
       "id": "21672",
@@ -7343,7 +7347,7 @@
       "vat": 0,
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
@@ -7351,11 +7355,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       },
-      "total_stock": "1.0",
+      "total_stock": "4.0",
       "total_consumption": "0.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -9409,13 +9413,13 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "0.0"
         }
       },
       "stock_in_geitawi_branch": "3.0",
-      "total_stock": "3.0",
-      "stock_in_medawar_branch": "0.0",
+      "total_stock": "5.0",
+      "stock_in_medawar_branch": "2.0",
       "Product Description": "NAKHLA TOW APPLES 250 G",
       "SUPPLIERS": "CIGARETTES",
       "subcategory": "TANBAK",
@@ -14458,7 +14462,7 @@
       "vat": 0,
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
@@ -14466,18 +14470,22 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "0.0"
         }
       },
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "0.0",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "new_items": "",
       "manual": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "expiry_days": "0",
+      "cost_ht": "6.02",
+      "product_setup_save_token": "PS-SAVE-21872-1778924946286621",
+      "product_setup_saved_at_utc": "2026-05-16T09:49:06.286621Z"
     },
     {
       "id": "21874",
@@ -17926,7 +17934,7 @@
     {
       "id": "21983",
       "barcode": "2709467",
-      "barcodes": "",
+      "barcodes": "000",
       "Product Description": "NF FRESH LEMONADE",
       "product_description": "NF FRESH LEMONADE",
       "description": "NF FRESH LEMONADE",
@@ -17973,7 +17981,7 @@
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
       "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "",
+      "barcode2": "000",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
       "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
@@ -18096,6 +18104,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-17T06:09:41.015645Z",
+  "updatedAt": "2026-05-17T06:15:40.691061Z",
   "source": "sql"
 }
