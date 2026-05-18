@@ -63,7 +63,19 @@
     "subcategory": "SEEDS",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0"
+    "consumption_in_the_daily_market_branch": "0.0",
+    "brand": "",
+    "created_by_user_code": "1",
+    "createdByUserCode": "1",
+    "import_source": "active products listing.pdf",
+    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
   },
   {
     "id": "12",
@@ -3702,11 +3714,11 @@
     "category": "COFFEE SHOP",
     "sub_category": "coffee",
     "offers": "0",
-    "stock_in_geitawi_branch": "721.0",
+    "stock_in_geitawi_branch": "722.0",
     "consumption_in_geitawi_branch": "560.0",
     "stock_in_medawar_branch": "1103.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1824.0",
+    "total_stock": "1825.0",
     "total_consumption": "560.0",
     "VAT": "YES",
     "price_lbp": 50000.0,
@@ -3718,7 +3730,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "721.0",
+        "stock": "722.0",
         "consumption": "560.0"
       },
       "Medawar": {
@@ -8286,9 +8298,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "-1.0",
+    "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "3.0",
+    "total_stock": "5.0",
     "total_consumption": "5.0",
     "VAT": "YES",
     "price_lbp": 440000.0,
@@ -8304,7 +8316,7 @@
         "consumption": "5.0"
       },
       "Medawar": {
-        "stock": "-1.0",
+        "stock": "1.0",
         "consumption": "0.0"
       }
     },
@@ -33628,7 +33640,19 @@
     "subcategory": "STATIONARY",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0"
+    "consumption_in_the_daily_market_branch": "0.0",
+    "created_by_user_code": "1",
+    "createdByUserCode": "1",
+    "import_source": "active products listing.pdf",
+    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+    "brand": ""
   },
   {
     "id": "10470",
@@ -42539,11 +42563,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Croissant",
     "offers": "0",
-    "stock_in_geitawi_branch": "18.0",
+    "stock_in_geitawi_branch": "19.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "15.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "33.0",
+    "total_stock": "34.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 65000.0,
@@ -42555,7 +42579,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "18.0",
+        "stock": "19.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -47739,7 +47763,15 @@
     "subcategory": "MINERAL WATER",
     "vat": 1,
     "barcode2": "",
-    "barcodes": ""
+    "barcodes": "",
+    "deliveryRules": 0.225,
+    "priceLbp": 220000,
+    "priceUsd": 2.4444444444444446,
+    "productDescription": "RIM WATER 500 ML x 12",
+    "is_bulk": true,
+    "ignore_stock": true,
+    "bulk_parent_id": 1437,
+    "bulk_qty": 12
   },
   {
     "id": "13304",
@@ -52222,7 +52254,18 @@
     "costUsd": 3.24,
     "cost_ht_usd": 3.24,
     "cost_formula": "sale_price_usd_div_1.2",
-    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
+    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+    "created_by_user_code": "1",
+    "createdByUserCode": "1",
+    "import_source": "active products listing.pdf",
+    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
   },
   {
     "id": "13663",
@@ -54575,11 +54618,11 @@
     "category": "CHIPS",
     "sub_category": "DOLSI",
     "offers": "0",
-    "stock_in_geitawi_branch": "43.0",
+    "stock_in_geitawi_branch": "44.0",
     "consumption_in_geitawi_branch": "181.0",
     "stock_in_medawar_branch": "41.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "84.0",
+    "total_stock": "85.0",
     "total_consumption": "181.0",
     "VAT": "YES",
     "price_lbp": 80000.0,
@@ -54591,7 +54634,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "43.0",
+        "stock": "44.0",
         "consumption": "181.0"
       },
       "Medawar": {
@@ -89904,11 +89947,11 @@
     "category": "NOUNA'S FOOD",
     "sub_category": "NOUNA'S FOOD",
     "offers": "0",
-    "stock_in_geitawi_branch": "4.0",
+    "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "65.0",
     "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "10.0",
+    "total_stock": "11.0",
     "total_consumption": "65.0",
     "VAT": "NO",
     "price_lbp": 120000.0,
@@ -89920,7 +89963,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "4.0",
+        "stock": "5.0",
         "consumption": "65.0"
       },
       "Medawar": {
@@ -244004,7 +244047,13 @@
     "name": "GAS CYLINDER 10K",
     "supplier": "TONY HANNA - GAZ USD",
     "subcategory": "GAS",
-    "vat": 0
+    "vat": 0,
+    "lastCostHtUsd": 18.0,
+    "createdByUserCode": "1",
+    "createdByUser": "Elias Mahfouz",
+    "source": "bimpos_purchase_reconcile_20260508",
+    "updatedAt": "2026-05-09T00:32:10",
+    "_categoryMethod": "fuzzy"
   },
   {
     "id": "100074",
