@@ -223,9 +223,9 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "27.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "6.0",
       "total_consumption": "27.0",
@@ -239,11 +239,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "3.0",
           "consumption": "27.0"
         },
         "Medawar": {
-          "stock": "7.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       },
@@ -458,7 +458,17 @@
       "name": "CAFE 21 SACHET x 22 pcs",
       "supplier": "SUPPLIERS DIVERS",
       "subcategory": "instant coffee",
-      "vat": 0
+      "vat": 0,
+      "base_id": "502",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 502,
+      "bulk_qty": 22,
+      "productDescription": "CAFE 21 SACHET x 22 pcs",
+      "description": "CAFE 21 SACHET x 22 pcs",
+      "product_description": "CAFE 21 SACHET x 22 pcs",
+      "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
+      "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1"
     },
     {
       "id": "664",
@@ -2505,6 +2515,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-18T14:55:54.676469Z",
+  "updatedAt": "2026-05-18T15:03:06.900323Z",
   "source": "sql"
 }

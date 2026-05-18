@@ -1849,9 +1849,9 @@
       "category": "CIGARETTES",
       "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "48.0",
-      "stock_in_medawar_branch": "39.0",
+      "stock_in_medawar_branch": "15.0",
       "consumption_in_medawar_branch": "2.0",
       "total_stock": "39.0",
       "total_consumption": "50.0",
@@ -1865,11 +1865,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "24.0",
           "consumption": "48.0"
         },
         "Medawar": {
-          "stock": "39.0",
+          "stock": "15.0",
           "consumption": "2.0"
         }
       },
@@ -3724,7 +3724,7 @@
     {
       "id": "12962",
       "barcode": "5283007400119",
-      "Product Description": "TANNOURINE WATER 2 L",
+      "Product Description": "TANNOURINE WATER 2L x 6 pcs",
       "SUPPLIERS": "TANNOURINE",
       "unit": "-",
       "category": "BEVERAGES",
@@ -3769,14 +3769,24 @@
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "supplier": "TANNOURINE",
-      "name": "TANNOURINE WATER 2 L",
+      "name": "TANNOURINE WATER 2L x 6 pcs",
       "subcategory": "MINERAL WATER",
-      "vat": 1
+      "vat": 1,
+      "base_id": "1435",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 1435,
+      "bulk_qty": 6,
+      "productDescription": "TANNOURINE WATER 2L x 6 pcs",
+      "description": "TANNOURINE WATER 2L x 6 pcs",
+      "product_description": "TANNOURINE WATER 2L x 6 pcs",
+      "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
+      "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1"
     },
     {
       "id": "12963",
       "barcode": "",
-      "Product Description": "TANNOURINE WATER 0.5",
+      "Product Description": "TANNOURINE WATER 0.5 x 12 pcs",
       "SUPPLIERS": "TANNOURINE",
       "unit": "-",
       "category": "BEVERAGES",
@@ -3821,17 +3831,20 @@
       "deliveryRules": 0.225,
       "priceLbp": 220000,
       "priceUsd": 2.4444444444444446,
-      "name": "TANNOURINE WATER 0.5",
-      "productDescription": "TANNOURINE WATER 0.5 x 12",
-      "description": "TANNOURINE WATER 0.5 x 12",
-      "product_description": "TANNOURINE WATER 0.5 x 12",
+      "name": "TANNOURINE WATER 0.5 x 12 pcs",
+      "productDescription": "TANNOURINE WATER 0.5 x 12 pcs",
+      "description": "TANNOURINE WATER 0.5 x 12 pcs",
+      "product_description": "TANNOURINE WATER 0.5 x 12 pcs",
       "is_bulk": true,
       "ignore_stock": true,
       "bulk_parent_id": 1433,
       "bulk_qty": 12,
       "supplier": "TANNOURINE",
       "subcategory": "MINERAL WATER",
-      "vat": 1
+      "vat": 1,
+      "base_id": "1433",
+      "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
+      "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1"
     },
     {
       "id": "12972",
@@ -4112,6 +4125,6 @@
       "barcodes": "6712427868746"
     }
   ],
-  "updatedAt": "2026-05-18T14:55:54.754660Z",
+  "updatedAt": "2026-05-18T15:03:07.245027Z",
   "source": "sql"
 }
