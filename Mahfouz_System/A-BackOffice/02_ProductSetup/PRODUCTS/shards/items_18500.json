@@ -7893,11 +7893,11 @@
       "subcategory": "ICEBERG",
       "subCategory": "ICEBERG",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": 0,
-      "price_lbp": 150000.0,
-      "cost": 1.39,
-      "total_stock": "13.0",
+      "VAT": "YES",
+      "vat": 1,
+      "price_lbp": 160000.0,
+      "cost": 1.2638888888888888,
+      "total_stock": "31.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
@@ -7907,7 +7907,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "13.0",
+          "stock": "31.0",
           "consumption": "0.0"
         },
         "geitawi": {
@@ -7953,7 +7953,7 @@
       "cost_ht_usd": 1.39,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "price_usd": "1.67"
+      "price_usd": "1.78"
     },
     {
       "id": "18900",
@@ -9392,6 +9392,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-18T10:51:04.895088Z",
+  "updatedAt": "2026-05-18T10:51:08.732795Z",
   "source": "sql"
 }
