@@ -7509,11 +7509,11 @@
     "category": "BEVERAGES",
     "sub_category": "MINERAL WATER",
     "offers": "0",
-    "stock_in_geitawi_branch": "111.0",
+    "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "122.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "233.0",
+    "total_stock": "124.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 45000.0,
@@ -7525,7 +7525,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "111.0",
+        "stock": "2.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -7538,7 +7538,16 @@
     "subcategory": "MINERAL WATER",
     "vat": 1,
     "barcode2": "",
-    "barcodes": ""
+    "barcodes": "",
+    "expiry_days": "0",
+    "cost_ht": "0.34",
+    "linked_profile_enabled": false,
+    "linked_profile_repo_root": "",
+    "linked_profile_item_id": "",
+    "linked_profile_category": "",
+    "linked_profile_sub_category": "",
+    "product_setup_save_token": "PS-SAVE-1438-1779087504995398",
+    "product_setup_saved_at_utc": "2026-05-18T06:58:24.995398Z"
   },
   {
     "id": "1458",
@@ -45855,11 +45864,11 @@
     "category": "CHI TAYIB",
     "sub_category": "candies",
     "offers": "0",
-    "stock_in_geitawi_branch": "55.0",
+    "stock_in_geitawi_branch": "54.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "136.0",
     "consumption_in_medawar_branch": "50.0",
-    "total_stock": "191.0",
+    "total_stock": "190.0",
     "total_consumption": "50.0",
     "VAT": "NO",
     "price_lbp": 45000.0,
@@ -45871,7 +45880,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "55.0",
+        "stock": "54.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -53481,56 +53490,52 @@
   {
     "id": "13821",
     "barcode": "",
+    "barcode2": "",
+    "barcodes": "",
     "Product Description": "RIM WATER 2 L X 6 PCS",
     "SUPPLIERS": "RIM REFRESHMENT SAL USD",
     "unit": "-",
     "category": "BEVERAGES",
     "sub_category": "MINERAL WATER",
     "offers": "-",
+    "expiry_days": "0",
     "stock_in_geitawi_branch": "0.0",
-    "consumption_in_geitawi_branch": "21.0",
+    "consumption_in_geitawi_branch": "39.0",
     "stock_in_medawar_branch": "0.0",
-    "consumption_in_medawar_branch": "36.0",
+    "consumption_in_medawar_branch": "6.0",
     "total_stock": "0.0",
-    "total_consumption": "57.0",
+    "total_consumption": "45.0",
     "VAT": "YES",
     "price_lbp": 220000.0,
     "price_usd": "2.44",
     "cost": 1.92,
+    "cost_ht": "1.92",
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13821.jpg",
     "new_items": "",
     "manual": "1",
-    "delivery_rules": "0.9",
-    "pcs_in_box": "6",
-    "branches": {
-      "Geitawi": {
-        "stock": "0.0",
-        "consumption": "21.0"
-      },
-      "Medawar": {
-        "stock": "0.0",
-        "consumption": "36.0"
-      }
-    },
-    "sub": "MINERAL WATER",
-    "secondary_category": "",
-    "secondary_subcategory": "",
-    "secondary_sub_category": "",
-    "supplier": "RIM REFRESHMENT SAL USD",
-    "name": "RIM WATER 2 L X 6 PCS",
-    "subcategory": "MINERAL WATER",
-    "vat": 1,
-    "barcode2": "",
-    "barcodes": "",
-    "expiry_days": "0",
-    "cost_ht": "1.92",
+    "delivery_rules": "0.900",
     "linked_profile_enabled": false,
     "linked_profile_repo_root": "",
     "linked_profile_item_id": "",
     "linked_profile_category": "",
     "linked_profile_sub_category": "",
-    "product_setup_save_token": "PS-SAVE-13821-1779087387897497",
-    "product_setup_saved_at_utc": "2026-05-18T06:56:27.897497Z"
+    "branches": {
+      "Geitawi": {
+        "stock": "0.0",
+        "consumption": "39.0"
+      },
+      "Medawar": {
+        "stock": "0.0",
+        "consumption": "6.0"
+      }
+    },
+    "product_setup_save_token": "PS-SAVE-13821-1779087449223994",
+    "product_setup_saved_at_utc": "2026-05-18T06:57:29.223994Z",
+    "name": "RIM WATER 2 L X 6 PCS",
+    "supplier": "RIM REFRESHMENT SAL USD",
+    "subcategory": "MINERAL WATER",
+    "vat": 1,
+    "pcs_in_box": "6"
   },
   {
     "id": "13825",
@@ -89377,11 +89382,11 @@
     "category": "CHI TAYIB",
     "sub_category": "candies",
     "offers": "0",
-    "stock_in_geitawi_branch": "-1.0",
+    "stock_in_geitawi_branch": "-2.0",
     "consumption_in_geitawi_branch": "33.0",
     "stock_in_medawar_branch": "4.0",
     "consumption_in_medawar_branch": "8.0",
-    "total_stock": "3.0",
+    "total_stock": "2.0",
     "total_consumption": "41.0",
     "VAT": "YES",
     "price_lbp": 75000.0,
@@ -89393,7 +89398,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "-1.0",
+        "stock": "-2.0",
         "consumption": "33.0"
       },
       "Medawar": {
@@ -89549,11 +89554,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Chewing gum",
     "offers": "0",
-    "stock_in_geitawi_branch": "18.0",
+    "stock_in_geitawi_branch": "17.0",
     "consumption_in_geitawi_branch": "4.0",
     "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "41.0",
+    "total_stock": "40.0",
     "total_consumption": "4.0",
     "VAT": "YES",
     "price_lbp": 65000.0,
@@ -89565,7 +89570,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "18.0",
+        "stock": "17.0",
         "consumption": "4.0"
       },
       "Medawar": {
@@ -101402,9 +101407,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "7.0",
     "consumption_in_geitawi_branch": "7.0",
-    "stock_in_medawar_branch": "30.0",
+    "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "12.0",
-    "total_stock": "37.0",
+    "total_stock": "14.0",
     "total_consumption": "19.0",
     "VAT": "YES",
     "price_lbp": 175000.0,
@@ -101420,7 +101425,7 @@
         "consumption": "7.0"
       },
       "Medawar": {
-        "stock": "30.0",
+        "stock": "7.0",
         "consumption": "12.0"
       }
     },
@@ -196611,11 +196616,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Chewing gum",
     "offers": "0",
-    "stock_in_geitawi_branch": "28.0",
+    "stock_in_geitawi_branch": "27.0",
     "consumption_in_geitawi_branch": "52.0",
     "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "42.0",
-    "total_stock": "33.0",
+    "total_stock": "32.0",
     "total_consumption": "94.0",
     "VAT": "YES",
     "price_lbp": 40000.0,
@@ -196627,7 +196632,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "28.0",
+        "stock": "27.0",
         "consumption": "52.0"
       },
       "Medawar": {
