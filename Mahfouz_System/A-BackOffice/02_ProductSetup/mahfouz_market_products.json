@@ -63,19 +63,7 @@
     "subcategory": "SEEDS",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0",
-    "brand": "",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "12",
@@ -8298,9 +8286,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "5.0",
+    "total_stock": "3.0",
     "total_consumption": "5.0",
     "VAT": "YES",
     "price_lbp": 440000.0,
@@ -8316,7 +8304,7 @@
         "consumption": "5.0"
       },
       "Medawar": {
-        "stock": "1.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       }
     },
@@ -33651,19 +33639,7 @@
     "subcategory": "STATIONARY",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-    "brand": ""
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "10470",
@@ -47774,15 +47750,7 @@
     "subcategory": "MINERAL WATER",
     "vat": 1,
     "barcode2": "",
-    "barcodes": "",
-    "deliveryRules": 0.225,
-    "priceLbp": 220000,
-    "priceUsd": 2.4444444444444446,
-    "productDescription": "RIM WATER 500 ML x 12",
-    "is_bulk": true,
-    "ignore_stock": true,
-    "bulk_parent_id": 1437,
-    "bulk_qty": 12
+    "barcodes": ""
   },
   {
     "id": "13304",
@@ -52265,18 +52233,7 @@
     "costUsd": 3.24,
     "cost_ht_usd": 3.24,
     "cost_formula": "sale_price_usd_div_1.2",
-    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
+    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
   },
   {
     "id": "13663",
@@ -239070,7 +239027,7 @@
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21962.jpg",
     "linked_profile_enabled": true,
     "linked_profile_repo_root": "Nounas_Food",
-    "linked_profile_item_id": "2196200001",
+    "linked_profile_item_id": "",
     "linked_profile_category": "NOUNA'S FOOD",
     "linked_profile_sub_category": "NOUNA'S FOOD",
     "stock_in_medawar_branch": "2.0",
@@ -244082,13 +244039,7 @@
     "name": "GAS CYLINDER 10K",
     "supplier": "TONY HANNA - GAZ USD",
     "subcategory": "GAS",
-    "vat": 0,
-    "lastCostHtUsd": 18.0,
-    "createdByUserCode": "1",
-    "createdByUser": "Elias Mahfouz",
-    "source": "bimpos_purchase_reconcile_20260508",
-    "updatedAt": "2026-05-09T00:32:10",
-    "_categoryMethod": "fuzzy"
+    "vat": 0
   },
   {
     "id": "100074",
