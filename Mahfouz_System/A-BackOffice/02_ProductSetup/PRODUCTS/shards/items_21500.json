@@ -5133,8 +5133,8 @@
       "id": "21600",
       "name": "BOUMALI",
       "category": "VEGETABLES AND FRUITS",
-      "sub": "fruits",
-      "sub_category": "fruits",
+      "sub": "FRUITS",
+      "sub_category": "FRUITS",
       "supplier": "VEGETABLES AND FRUITS",
       "unit": "kg",
       "barcode": "7200032",
@@ -5174,8 +5174,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "subcategory": "fruits",
-      "vat": 0
+      "subcategory": "FRUITS",
+      "vat": 0,
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": ""
     },
     {
       "id": "21601",
@@ -20088,8 +20091,8 @@
       "id": "21909",
       "name": "KLIM MILK POWDER POUCH 2 KG",
       "category": "VEGETABLES AND FRUITS",
-      "sub": "fruits",
-      "sub_category": "fruits",
+      "sub": "FRUITS",
+      "sub_category": "FRUITS",
       "supplier": "PRODIGY SAL USD",
       "unit": "kg",
       "barcode": "",
@@ -20108,7 +20111,7 @@
       "cost": 2.7778,
       "Product Description": "KLIM MILK POWDER POUCH 2 KG",
       "SUPPLIERS": "PRODIGY SAL USD",
-      "subcategory": "fruits",
+      "subcategory": "FRUITS",
       "vat": 0,
       "stock_in_geitawi_branch": "0.000",
       "consumption_in_geitawi_branch": "0.0",
@@ -21688,8 +21691,8 @@
       "id": "21955",
       "name": "LOZ AKHDAR",
       "category": "VEGETABLES AND FRUITS",
-      "sub": "fruits",
-      "sub_category": "fruits",
+      "sub": "FRUITS",
+      "sub_category": "FRUITS",
       "supplier": "VEGETABLES AND FRUITS",
       "unit": "kg",
       "barcode": "",
@@ -21729,15 +21732,18 @@
       "new_items": "x",
       "manual": "",
       "delivery_rules": "0.005",
-      "subcategory": "fruits",
-      "vat": 0
+      "subcategory": "FRUITS",
+      "vat": 0,
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": ""
     },
     {
       "id": "21957",
       "name": "FOUL AKHDAR",
       "category": "VEGETABLES AND FRUITS",
-      "sub": "fruits",
-      "sub_category": "VEGETABLES",
+      "sub": "FRUITS",
+      "sub_category": "FRUITS",
       "supplier": "VEGETABLES AND FRUITS",
       "unit": "kg",
       "barcode": "",
@@ -21772,15 +21778,18 @@
       "Product Description": "FOUL AKHDAR",
       "SUPPLIERS": "VEGETABLES AND FRUITS",
       "expiry_days": "0",
-      "cost": 0.6666666666666666,
+      "cost": 0.6667,
       "cost_ht": "2.29",
       "new_items": "x",
       "manual": "",
       "delivery_rules": "0.005",
-      "subcategory": "VEGETABLES",
+      "subcategory": "FRUITS",
       "vat": 0,
       "product_setup_save_token": "PS-SAVE-21957-1779000135788054",
-      "product_setup_saved_at_utc": "2026-05-17T06:42:15.788054Z"
+      "product_setup_saved_at_utc": "2026-05-17T06:42:15.788054Z",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": ""
     },
     {
       "id": "21961",
@@ -22601,6 +22610,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-19T19:02:53.124143Z",
+  "updatedAt": "2026-05-19T19:04:55.009023Z",
   "source": "sql"
 }
