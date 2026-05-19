@@ -421,8 +421,8 @@
       "cost": 2.27,
       "total_stock": "10.0",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
           "stock": "2.0",
@@ -432,7 +432,15 @@
           "stock": "8.0",
           "consumption": "0.0"
         },
-        "The Daily Market": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
           "stock": "0.0",
           "consumption": "0.0"
         }
@@ -4368,8 +4376,8 @@
       "cost": 3.807,
       "total_stock": "10.0",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
           "stock": "5.0",
@@ -4379,7 +4387,15 @@
           "stock": "5.0",
           "consumption": "0.0"
         },
-        "The Daily Market": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
           "stock": "0.0",
           "consumption": "0.0"
         }
@@ -6037,11 +6053,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "46.0",
+      "stock_in_geitawi_branch": "47.0",
       "consumption_in_geitawi_branch": "24.0",
       "stock_in_medawar_branch": "-2.0",
       "consumption_in_medawar_branch": "77.0",
-      "total_stock": "44.0",
+      "total_stock": "45.0",
       "total_consumption": "101.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -6053,7 +6069,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "46.0",
+          "stock": "47.0",
           "consumption": "24.0"
         },
         "Medawar": {
@@ -6746,6 +6762,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-19T06:53:25.275851Z",
+  "updatedAt": "2026-05-19T06:55:12.582659Z",
   "source": "sql"
 }
