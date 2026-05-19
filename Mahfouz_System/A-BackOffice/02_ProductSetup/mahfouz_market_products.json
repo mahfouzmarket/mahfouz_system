@@ -55,19 +55,7 @@
     "subcategory": "SEEDS",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0",
-    "brand": "",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "12",
@@ -7417,11 +7405,11 @@
     "category": "BEVERAGES",
     "sub_category": "MINERAL WATER",
     "offers": "0",
-    "stock_in_geitawi_branch": "363.0",
+    "stock_in_geitawi_branch": "361.0",
     "consumption_in_geitawi_branch": "927.0",
     "stock_in_medawar_branch": "541.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "904.0",
+    "total_stock": "902.0",
     "total_consumption": "927.0",
     "VAT": "YES",
     "price_lbp": 25000.0,
@@ -7433,7 +7421,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "363.0",
+        "stock": "361.0",
         "consumption": "927.0"
       },
       "Medawar": {
@@ -8317,9 +8305,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "5.0",
+    "total_stock": "3.0",
     "total_consumption": "5.0",
     "VAT": "YES",
     "price_lbp": 440000.0,
@@ -8335,7 +8323,7 @@
         "consumption": "5.0"
       },
       "Medawar": {
-        "stock": "1.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       }
     },
@@ -11388,11 +11376,11 @@
     "category": "FOOD",
     "sub_category": "DAIRY PRODUCTS",
     "offers": "0",
-    "stock_in_geitawi_branch": "4.0",
+    "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "5.0",
+    "total_stock": "4.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 290000.0,
@@ -11404,7 +11392,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "4.0",
+        "stock": "3.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -33599,19 +33587,7 @@
     "subcategory": "STATIONARY",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-    "brand": ""
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "10470",
@@ -42329,9 +42305,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "48.0",
-    "stock_in_medawar_branch": "48.0",
+    "stock_in_medawar_branch": "46.0",
     "consumption_in_medawar_branch": "78.0",
-    "total_stock": "53.0",
+    "total_stock": "51.0",
     "total_consumption": "126.0",
     "VAT": "YES",
     "price_lbp": 40000.0,
@@ -42347,7 +42323,7 @@
         "consumption": "48.0"
       },
       "Medawar": {
-        "stock": "48.0",
+        "stock": "46.0",
         "consumption": "78.0"
       }
     },
@@ -47651,10 +47627,7 @@
     "description": "RIM WATER 500ML x 12 pcs",
     "product_description": "RIM WATER 500ML x 12 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
-    "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
-    "deliveryRules": 0.225,
-    "priceLbp": 220000,
-    "priceUsd": 2.4444444444444446
+    "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1"
   },
   {
     "id": "13304",
@@ -52118,18 +52091,7 @@
     "costUsd": 3.24,
     "cost_ht_usd": 3.24,
     "cost_formula": "sale_price_usd_div_1.2",
-    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
+    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
   },
   {
     "id": "13663",
@@ -69782,9 +69744,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "20.0",
     "consumption_in_geitawi_branch": "141.0",
-    "stock_in_medawar_branch": "37.0",
+    "stock_in_medawar_branch": "35.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "57.0",
+    "total_stock": "55.0",
     "total_consumption": "141.0",
     "VAT": "NO",
     "price_lbp": 250000.0,
@@ -69800,7 +69762,7 @@
         "consumption": "141.0"
       },
       "Medawar": {
-        "stock": "37.0",
+        "stock": "35.0",
         "consumption": "0.0"
       }
     },
@@ -140395,11 +140357,11 @@
     "category": "FOOD",
     "sub_category": "DAIRY PRODUCTS",
     "offers": "0",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "3.0",
+    "total_stock": "2.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 220000.0,
@@ -140411,7 +140373,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "1.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -175658,9 +175620,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "51.0",
-    "stock_in_medawar_branch": "11.0",
+    "stock_in_medawar_branch": "10.0",
     "consumption_in_medawar_branch": "42.0",
-    "total_stock": "11.0",
+    "total_stock": "10.0",
     "total_consumption": "93.0",
     "VAT": "YES",
     "price_lbp": 130000.0,
@@ -175676,7 +175638,7 @@
         "consumption": "51.0"
       },
       "Medawar": {
-        "stock": "11.0",
+        "stock": "10.0",
         "consumption": "42.0"
       }
     },
@@ -208364,7 +208326,7 @@
   {
     "id": "21317",
     "barcode": "5281117018897",
-    "Product Description": "AL WADI ARTICHOKE BOTTOMS FROZEN 400 G*2",
+    "Product Description": "AL WADI ARTICHOKE BOTTOMS FROZEN 400G*2",
     "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
     "unit": "-",
     "category": "FOOD",
@@ -208389,7 +208351,7 @@
     "secondary_subcategory": "",
     "secondary_sub_category": "",
     "supplier": "SMART FUNCTION SOCIETY SARL",
-    "name": "AL WADI ARTICHOKE BOTTOMS FROZEN 400 G*2",
+    "name": "AL WADI ARTICHOKE BOTTOMS FROZEN 400G*2",
     "subcategory": "FROZEN FOOD",
     "vat": 0,
     "branches": {
@@ -238921,7 +238883,7 @@
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21962.jpg",
     "linked_profile_enabled": true,
     "linked_profile_repo_root": "Nounas_Food",
-    "linked_profile_item_id": "2196200001",
+    "linked_profile_item_id": "",
     "linked_profile_category": "NOUNA'S FOOD",
     "linked_profile_sub_category": "NOUNA'S FOOD",
     "stock_in_medawar_branch": "2.0",
@@ -243849,13 +243811,7 @@
     "name": "GAS CYLINDER 10K",
     "supplier": "TONY HANNA - GAZ USD",
     "subcategory": "GAS",
-    "vat": 0,
-    "lastCostHtUsd": 18.0,
-    "createdByUserCode": "1",
-    "createdByUser": "Elias Mahfouz",
-    "source": "bimpos_purchase_reconcile_20260508",
-    "updatedAt": "2026-05-09T00:32:10",
-    "_categoryMethod": "fuzzy"
+    "vat": 0
   },
   {
     "id": "100074",
@@ -244527,7 +244483,15 @@
     "new_items": "",
     "manual": "",
     "delivery_rules": "0.005",
-    "price_usd": "0.22"
+    "price_usd": "0.22",
+    "expiry_days": "0",
+    "linked_profile_enabled": false,
+    "linked_profile_repo_root": "",
+    "linked_profile_item_id": "",
+    "linked_profile_category": "",
+    "linked_profile_sub_category": "",
+    "product_setup_save_token": "PS-SAVE-100086-1778843420757255",
+    "product_setup_saved_at_utc": "2026-05-15T11:10:20.757255Z"
   },
   {
     "id": "100087",
