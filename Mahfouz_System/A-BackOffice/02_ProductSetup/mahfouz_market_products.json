@@ -16,7 +16,7 @@
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
     "total_stock": "0.0",
-    "total_consumption": "1.0",
+    "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 110000.0,
     "price_usd": "1.22",
@@ -34,21 +34,13 @@
     "branches": {
       "Geitawi": {
         "stock": "0.0",
-        "consumption": "1.0"
+        "consumption": "0.0"
       },
       "Medawar": {
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -63,19 +55,7 @@
     "subcategory": "SEEDS",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0",
-    "brand": "",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "12",
@@ -479,7 +459,7 @@
     "total_stock": "6.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "6.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -489,15 +469,7 @@
         "stock": "6.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -752,11 +724,11 @@
     "category": "BEVERAGES",
     "sub_category": "ENERGY DRINK",
     "offers": "0",
-    "stock_in_geitawi_branch": "47.0",
+    "stock_in_geitawi_branch": "46.0",
     "consumption_in_geitawi_branch": "114.0",
     "stock_in_medawar_branch": "129.0",
     "consumption_in_medawar_branch": "227.0",
-    "total_stock": "176.0",
+    "total_stock": "175.0",
     "total_consumption": "341.0",
     "VAT": "YES",
     "price_lbp": 100000.0,
@@ -768,7 +740,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "47.0",
+        "stock": "46.0",
         "consumption": "114.0"
       },
       "Medawar": {
@@ -844,8 +816,8 @@
     "cost": 10.0,
     "total_stock": "10.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
+    "stock_in_medawar_branch": "8.0",
     "branches": {
       "Geitawi": {
         "stock": "2.0",
@@ -855,15 +827,7 @@
         "stock": "8.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -1290,7 +1254,7 @@
     "cost": 2.22,
     "total_stock": "5.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -1301,15 +1265,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -3008,8 +2964,8 @@
     "cost": 0.85,
     "total_stock": "45.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "19.0",
+    "stock_in_medawar_branch": "26.0",
     "branches": {
       "Geitawi": {
         "stock": "19.0",
@@ -3019,15 +2975,7 @@
         "stock": "26.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -3760,11 +3708,11 @@
     "category": "COFFEE SHOP",
     "sub_category": "coffee",
     "offers": "0",
-    "stock_in_geitawi_branch": "708.0",
+    "stock_in_geitawi_branch": "707.0",
     "consumption_in_geitawi_branch": "560.0",
     "stock_in_medawar_branch": "1097.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1805.0",
+    "total_stock": "1804.0",
     "total_consumption": "560.0",
     "VAT": "YES",
     "price_lbp": 50000.0,
@@ -3776,7 +3724,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "708.0",
+        "stock": "707.0",
         "consumption": "560.0"
       },
       "Medawar": {
@@ -3969,9 +3917,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "-7.0",
     "consumption_in_geitawi_branch": "129.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "94.0",
-    "total_stock": "-7.0",
+    "total_stock": "-8.0",
     "total_consumption": "223.0",
     "VAT": "YES",
     "price_lbp": 65000.0,
@@ -3987,7 +3935,7 @@
         "consumption": "129.0"
       },
       "Medawar": {
-        "stock": "0.0",
+        "stock": "-1.0",
         "consumption": "94.0"
       }
     },
@@ -5183,11 +5131,11 @@
     "category": "BEVERAGES",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "31.0",
+    "stock_in_geitawi_branch": "30.0",
     "consumption_in_geitawi_branch": "34.0",
     "stock_in_medawar_branch": "43.0",
     "consumption_in_medawar_branch": "22.0",
-    "total_stock": "74.0",
+    "total_stock": "73.0",
     "total_consumption": "56.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -5199,7 +5147,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "31.0",
+        "stock": "30.0",
         "consumption": "34.0"
       },
       "Medawar": {
@@ -5345,9 +5293,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "24.0",
     "consumption_in_geitawi_branch": "20.0",
-    "stock_in_medawar_branch": "19.0",
+    "stock_in_medawar_branch": "18.0",
     "consumption_in_medawar_branch": "44.0",
-    "total_stock": "43.0",
+    "total_stock": "42.0",
     "total_consumption": "64.0",
     "VAT": "YES",
     "price_lbp": 65000.0,
@@ -5363,7 +5311,7 @@
         "consumption": "20.0"
       },
       "Medawar": {
-        "stock": "19.0",
+        "stock": "18.0",
         "consumption": "44.0"
       }
     },
@@ -5430,11 +5378,11 @@
     "category": "BEVERAGES",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "26.0",
+    "stock_in_geitawi_branch": "25.0",
     "consumption_in_geitawi_branch": "29.0",
     "stock_in_medawar_branch": "24.0",
     "consumption_in_medawar_branch": "52.0",
-    "total_stock": "50.0",
+    "total_stock": "49.0",
     "total_consumption": "81.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -5446,7 +5394,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "26.0",
+        "stock": "25.0",
         "consumption": "29.0"
       },
       "Medawar": {
@@ -5470,11 +5418,11 @@
     "category": "BEVERAGES",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "24.0",
+    "stock_in_geitawi_branch": "23.0",
     "consumption_in_geitawi_branch": "92.0",
     "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "108.0",
-    "total_stock": "47.0",
+    "total_stock": "46.0",
     "total_consumption": "200.0",
     "VAT": "YES",
     "price_lbp": 35000.0,
@@ -5486,7 +5434,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "24.0",
+        "stock": "23.0",
         "consumption": "92.0"
       },
       "Medawar": {
@@ -5512,9 +5460,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "39.0",
-    "stock_in_medawar_branch": "20.0",
+    "stock_in_medawar_branch": "19.0",
     "consumption_in_medawar_branch": "173.0",
-    "total_stock": "20.0",
+    "total_stock": "19.0",
     "total_consumption": "212.0",
     "VAT": "YES",
     "price_lbp": 20000.0,
@@ -5530,7 +5478,7 @@
         "consumption": "39.0"
       },
       "Medawar": {
-        "stock": "20.0",
+        "stock": "19.0",
         "consumption": "173.0"
       }
     },
@@ -5590,11 +5538,11 @@
     "category": "BEVERAGES",
     "sub_category": "cold coffee",
     "offers": "0",
-    "stock_in_geitawi_branch": "72.0",
+    "stock_in_geitawi_branch": "71.0",
     "consumption_in_geitawi_branch": "163.0",
     "stock_in_medawar_branch": "105.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "177.0",
+    "total_stock": "176.0",
     "total_consumption": "163.0",
     "VAT": "YES",
     "price_lbp": 80000.0,
@@ -5606,7 +5554,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "72.0",
+        "stock": "71.0",
         "consumption": "163.0"
       },
       "Medawar": {
@@ -5763,7 +5711,7 @@
     "total_stock": "9.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "9.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -5773,15 +5721,7 @@
         "stock": "9.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -5829,9 +5769,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "42.0",
-    "stock_in_medawar_branch": "30.0",
+    "stock_in_medawar_branch": "29.0",
     "consumption_in_medawar_branch": "159.0",
-    "total_stock": "30.0",
+    "total_stock": "29.0",
     "total_consumption": "201.0",
     "VAT": "YES",
     "price_lbp": 20000.0,
@@ -5847,7 +5787,7 @@
         "consumption": "42.0"
       },
       "Medawar": {
-        "stock": "30.0",
+        "stock": "29.0",
         "consumption": "159.0"
       }
     },
@@ -6932,11 +6872,11 @@
     "category": "BEVERAGES",
     "sub_category": "COLD DRINKS",
     "offers": "0",
-    "stock_in_geitawi_branch": "137.0",
+    "stock_in_geitawi_branch": "136.0",
     "consumption_in_geitawi_branch": "262.0",
     "stock_in_medawar_branch": "234.0",
     "consumption_in_medawar_branch": "430.0",
-    "total_stock": "371.0",
+    "total_stock": "370.0",
     "total_consumption": "692.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -6948,7 +6888,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "137.0",
+        "stock": "136.0",
         "consumption": "262.0"
       },
       "Medawar": {
@@ -7182,8 +7122,8 @@
     "product_description": "LIPTON ICE TEA PEACH PLASTIC 330ML",
     "description": "LIPTON ICE TEA PEACH PLASTIC 330ML",
     "brand": "",
-    "supplier": "PEPSI LBP",
-    "SUPPLIERS": "PEPSI LBP",
+    "supplier": "",
+    "SUPPLIERS": "",
     "category": "FOOD",
     "sub_category": "TEA",
     "subcategory": "TEA",
@@ -7195,7 +7135,7 @@
     "cost": 0.56,
     "total_stock": "4.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "4.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -7206,15 +7146,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -7249,16 +7181,7 @@
     "cost_ht_usd": 0.56,
     "cost_formula": "sale_price_usd_div_1.2",
     "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-    "price_usd": "0.67",
-    "expiry_days": "0",
-    "imageURL": "",
-    "linked_profile_enabled": false,
-    "linked_profile_repo_root": "",
-    "linked_profile_item_id": "",
-    "linked_profile_category": "",
-    "linked_profile_sub_category": "",
-    "product_setup_save_token": "PS-SAVE-1322-1779173679232214",
-    "product_setup_saved_at_utc": "2026-05-19T06:54:39.232214Z"
+    "price_usd": "0.67"
   },
   {
     "id": "1326",
@@ -7362,7 +7285,7 @@
     "total_stock": "2.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "2.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -7372,15 +7295,7 @@
         "stock": "2.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -8066,7 +7981,7 @@
     "total_stock": "33.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "33.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -8076,15 +7991,7 @@
         "stock": "33.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -8372,9 +8279,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "5.0",
-    "stock_in_medawar_branch": "1.0",
+    "stock_in_medawar_branch": "-1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "5.0",
+    "total_stock": "3.0",
     "total_consumption": "5.0",
     "VAT": "YES",
     "price_lbp": 440000.0,
@@ -8390,7 +8297,7 @@
         "consumption": "5.0"
       },
       "Medawar": {
-        "stock": "1.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       }
     },
@@ -9765,11 +9672,11 @@
     "category": "CHI TAYIB",
     "sub_category": "cake",
     "offers": "0",
-    "stock_in_geitawi_branch": "40.0",
+    "stock_in_geitawi_branch": "37.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "13.0",
+    "stock_in_medawar_branch": "12.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "53.0",
+    "total_stock": "49.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 35000.0,
@@ -9781,11 +9688,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "40.0",
+        "stock": "37.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "13.0",
+        "stock": "12.0",
         "consumption": "0.0"
       }
     },
@@ -10096,9 +10003,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "24.0",
+    "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "24.0",
+    "total_stock": "23.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 30000.0,
@@ -10114,7 +10021,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "24.0",
+        "stock": "23.0",
         "consumption": "0.0"
       }
     },
@@ -13085,9 +12992,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "24.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "16.0",
+    "stock_in_medawar_branch": "15.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "40.0",
+    "total_stock": "39.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 350000.0,
@@ -13103,7 +13010,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "16.0",
+        "stock": "15.0",
         "consumption": "0.0"
       }
     },
@@ -14736,9 +14643,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "8.0",
     "consumption_in_geitawi_branch": "133.0",
-    "stock_in_medawar_branch": "40.0",
+    "stock_in_medawar_branch": "39.0",
     "consumption_in_medawar_branch": "137.0",
-    "total_stock": "48.0",
+    "total_stock": "47.0",
     "total_consumption": "270.0",
     "VAT": "YES",
     "price_lbp": 35000.0,
@@ -14754,7 +14661,7 @@
         "consumption": "133.0"
       },
       "Medawar": {
-        "stock": "40.0",
+        "stock": "39.0",
         "consumption": "137.0"
       }
     },
@@ -15596,11 +15503,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Wafers",
     "offers": "0",
-    "stock_in_geitawi_branch": "18.0",
+    "stock_in_geitawi_branch": "17.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "30.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "48.0",
+    "total_stock": "47.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 55000.0,
@@ -15612,7 +15519,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "18.0",
+        "stock": "17.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -15938,7 +15845,7 @@
     "total_stock": "20.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "20.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -15948,15 +15855,7 @@
         "stock": "20.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -16377,11 +16276,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Wafers",
     "offers": "0",
-    "stock_in_geitawi_branch": "10.0",
+    "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "21.0",
     "stock_in_medawar_branch": "27.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "37.0",
+    "total_stock": "36.0",
     "total_consumption": "21.0",
     "VAT": "YES",
     "price_lbp": 70000.0,
@@ -16393,7 +16292,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "10.0",
+        "stock": "9.0",
         "consumption": "21.0"
       },
       "Medawar": {
@@ -16741,11 +16640,11 @@
     "category": "CHI TAYIB",
     "sub_category": "sweets",
     "offers": "0",
-    "stock_in_geitawi_branch": "46.0",
+    "stock_in_geitawi_branch": "45.0",
     "consumption_in_geitawi_branch": "64.0",
     "stock_in_medawar_branch": "54.0",
     "consumption_in_medawar_branch": "86.0",
-    "total_stock": "100.0",
+    "total_stock": "99.0",
     "total_consumption": "150.0",
     "VAT": "YES",
     "price_lbp": 50000.0,
@@ -16757,7 +16656,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "46.0",
+        "stock": "45.0",
         "consumption": "64.0"
       },
       "Medawar": {
@@ -22624,9 +22523,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "13.0",
     "consumption_in_geitawi_branch": "2.0",
-    "stock_in_medawar_branch": "6.0",
+    "stock_in_medawar_branch": "4.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "19.0",
+    "total_stock": "17.0",
     "total_consumption": "2.0",
     "VAT": "YES",
     "price_lbp": 240000.0,
@@ -22642,7 +22541,7 @@
         "consumption": "2.0"
       },
       "Medawar": {
-        "stock": "6.0",
+        "stock": "4.0",
         "consumption": "0.0"
       }
     },
@@ -23533,15 +23432,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -23995,11 +23886,11 @@
     "category": "FOOD",
     "sub_category": "BAKERY",
     "offers": "0",
-    "stock_in_geitawi_branch": "21.0",
+    "stock_in_geitawi_branch": "19.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "6.0",
+    "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "27.0",
+    "total_stock": "24.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 65000.0,
@@ -24011,11 +23902,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "21.0",
+        "stock": "19.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "6.0",
+        "stock": "5.0",
         "consumption": "0.0"
       }
     },
@@ -24035,11 +23926,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Croissant",
     "offers": "0",
-    "stock_in_geitawi_branch": "18.0",
+    "stock_in_geitawi_branch": "17.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "24.0",
+    "total_stock": "23.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 75000.0,
@@ -24051,7 +23942,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "18.0",
+        "stock": "17.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -25751,9 +25642,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "-2.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "17.0",
+    "stock_in_medawar_branch": "16.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "15.0",
+    "total_stock": "14.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 80000.0,
@@ -25773,7 +25664,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "17.0",
+        "stock": "16.0",
         "consumption": "0.0"
       }
     },
@@ -25972,15 +25863,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -27014,7 +26897,7 @@
     "total_stock": "26.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "26.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -27024,15 +26907,7 @@
         "stock": "26.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -27558,7 +27433,7 @@
     "cost": 0.74,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -27569,15 +27444,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -29061,15 +28928,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -30310,15 +30169,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -31759,7 +31610,7 @@
     "total_stock": "18.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "18.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -31769,15 +31620,7 @@
         "stock": "18.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -33208,7 +33051,7 @@
     "cost": 4.17,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -33219,15 +33062,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -33614,7 +33449,7 @@
     "cost": 0.74,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -33625,15 +33460,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -33711,15 +33538,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -33734,19 +33553,7 @@
     "subcategory": "STATIONARY",
     "vat": 0,
     "stock_in_the_daily_market_branch": "0.0",
-    "consumption_in_the_daily_market_branch": "0.0",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-    "brand": ""
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "10470",
@@ -33809,7 +33616,7 @@
     "cost": 0.51,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -33820,15 +33627,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -35889,8 +35688,8 @@
     "cost": 3.89,
     "total_stock": "6.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
+    "stock_in_medawar_branch": "5.0",
     "branches": {
       "Geitawi": {
         "stock": "1.0",
@@ -35900,15 +35699,7 @@
         "stock": "5.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -35967,7 +35758,7 @@
     "total_stock": "15.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "15.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -35977,15 +35768,7 @@
         "stock": "15.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -37623,15 +37406,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -37812,7 +37587,7 @@
     "total_stock": "1.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "1.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -37822,15 +37597,7 @@
         "stock": "1.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -38219,7 +37986,7 @@
     "total_stock": "5.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "5.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -38229,15 +37996,7 @@
         "stock": "5.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -38792,15 +38551,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -38939,7 +38690,7 @@
     "total_stock": "1.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "1.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -38949,15 +38700,7 @@
         "stock": "1.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -39420,7 +39163,7 @@
     "total_stock": "1.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "1.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -39430,15 +39173,7 @@
         "stock": "1.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -39980,7 +39715,7 @@
     "cost": 1.25,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -39991,15 +39726,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -40305,11 +40032,11 @@
     "category": "CIGARETTES",
     "sub_category": "CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "70.0",
+    "stock_in_geitawi_branch": "69.0",
     "consumption_in_geitawi_branch": "205.0",
     "stock_in_medawar_branch": "41.0",
     "consumption_in_medawar_branch": "231.0",
-    "total_stock": "111.0",
+    "total_stock": "110.0",
     "total_consumption": "436.0",
     "VAT": "NO",
     "price_lbp": 70000.0,
@@ -40321,7 +40048,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "70.0",
+        "stock": "69.0",
         "consumption": "205.0"
       },
       "Medawar": {
@@ -41033,11 +40760,11 @@
     "category": "CIGARETTES",
     "sub_category": "CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "330.0",
+    "stock_in_geitawi_branch": "325.0",
     "consumption_in_geitawi_branch": "1523.0",
     "stock_in_medawar_branch": "246.0",
     "consumption_in_medawar_branch": "1827.0",
-    "total_stock": "576.0",
+    "total_stock": "571.0",
     "total_consumption": "3350.0",
     "VAT": "NO",
     "price_lbp": 80000.0,
@@ -41049,7 +40776,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "330.0",
+        "stock": "325.0",
         "consumption": "1523.0"
       },
       "Medawar": {
@@ -41180,11 +40907,11 @@
     "category": "CIGARETTES",
     "sub_category": "CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "49.0",
+    "stock_in_geitawi_branch": "48.0",
     "consumption_in_geitawi_branch": "251.0",
     "stock_in_medawar_branch": "55.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "104.0",
+    "total_stock": "103.0",
     "total_consumption": "251.0",
     "VAT": "NO",
     "price_lbp": 150000.0,
@@ -41196,7 +40923,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "49.0",
+        "stock": "48.0",
         "consumption": "251.0"
       },
       "Medawar": {
@@ -41373,9 +41100,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "23.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "24.0",
+    "stock_in_medawar_branch": "23.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "47.0",
+    "total_stock": "46.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 165000.0,
@@ -41391,7 +41118,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "24.0",
+        "stock": "23.0",
         "consumption": "0.0"
       }
     },
@@ -41420,11 +41147,11 @@
     "category": "CIGARETTES",
     "sub_category": "CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "38.0",
+    "stock_in_geitawi_branch": "37.0",
     "consumption_in_geitawi_branch": "189.0",
     "stock_in_medawar_branch": "16.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "54.0",
+    "total_stock": "53.0",
     "total_consumption": "189.0",
     "VAT": "NO",
     "price_lbp": 200000.0,
@@ -41436,7 +41163,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "38.0",
+        "stock": "37.0",
         "consumption": "189.0"
       },
       "Medawar": {
@@ -42490,11 +42217,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Crackers",
     "offers": "0",
-    "stock_in_geitawi_branch": "19.0",
+    "stock_in_geitawi_branch": "18.0",
     "consumption_in_geitawi_branch": "35.0",
     "stock_in_medawar_branch": "48.0",
     "consumption_in_medawar_branch": "21.0",
-    "total_stock": "67.0",
+    "total_stock": "66.0",
     "total_consumption": "56.0",
     "VAT": "YES",
     "price_lbp": 40000.0,
@@ -42506,7 +42233,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "19.0",
+        "stock": "18.0",
         "consumption": "35.0"
       },
       "Medawar": {
@@ -43212,9 +42939,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "32.0",
     "consumption_in_geitawi_branch": "42.0",
-    "stock_in_medawar_branch": "212.0",
+    "stock_in_medawar_branch": "211.0",
     "consumption_in_medawar_branch": "142.0",
-    "total_stock": "244.0",
+    "total_stock": "243.0",
     "total_consumption": "184.0",
     "VAT": "YES",
     "price_lbp": 85000.0,
@@ -43230,7 +42957,7 @@
         "consumption": "42.0"
       },
       "Medawar": {
-        "stock": "212.0",
+        "stock": "211.0",
         "consumption": "142.0"
       }
     },
@@ -43262,8 +42989,8 @@
     "cost": 0.792792,
     "total_stock": "25.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "7.0",
+    "stock_in_medawar_branch": "18.0",
     "branches": {
       "Geitawi": {
         "stock": "7.0",
@@ -43273,15 +43000,7 @@
         "stock": "18.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -43534,7 +43253,7 @@
     "cost": 0.69,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -43545,15 +43264,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -44343,7 +44054,7 @@
     "cost": 0.37,
     "total_stock": "10.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "10.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -44354,15 +44065,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -44420,8 +44123,8 @@
     "cost": 1.3542,
     "total_stock": "8.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
+    "stock_in_medawar_branch": "5.0",
     "branches": {
       "Geitawi": {
         "stock": "3.0",
@@ -44431,15 +44134,7 @@
         "stock": "5.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -45833,7 +45528,7 @@
     "total_stock": "1.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "1.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -45843,15 +45538,7 @@
         "stock": "1.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -45920,15 +45607,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -46580,9 +46259,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "171.0",
-    "stock_in_medawar_branch": "134.0",
+    "stock_in_medawar_branch": "132.0",
     "consumption_in_medawar_branch": "272.0",
-    "total_stock": "140.0",
+    "total_stock": "138.0",
     "total_consumption": "443.0",
     "VAT": "NO",
     "price_lbp": 60000.0,
@@ -46598,7 +46277,7 @@
         "consumption": "171.0"
       },
       "Medawar": {
-        "stock": "134.0",
+        "stock": "132.0",
         "consumption": "272.0"
       }
     },
@@ -46750,8 +46429,8 @@
     "cost": 1.48,
     "total_stock": "31.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "14.0",
+    "stock_in_medawar_branch": "17.0",
     "branches": {
       "Geitawi": {
         "stock": "14.0",
@@ -46761,15 +46440,7 @@
         "stock": "17.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -47900,10 +47571,7 @@
     "description": "RIM WATER 500ML x 12 pcs",
     "product_description": "RIM WATER 500ML x 12 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
-    "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
-    "deliveryRules": 0.225,
-    "priceLbp": 220000,
-    "priceUsd": 2.4444444444444446
+    "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1"
   },
   {
     "id": "13304",
@@ -48057,15 +47725,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -50304,15 +49964,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -51364,9 +51016,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "117.0",
     "consumption_in_geitawi_branch": "245.0",
-    "stock_in_medawar_branch": "89.0",
+    "stock_in_medawar_branch": "88.0",
     "consumption_in_medawar_branch": "111.0",
-    "total_stock": "206.0",
+    "total_stock": "205.0",
     "total_consumption": "356.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -51382,7 +51034,7 @@
         "consumption": "245.0"
       },
       "Medawar": {
-        "stock": "89.0",
+        "stock": "88.0",
         "consumption": "111.0"
       }
     },
@@ -51484,9 +51136,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "72.0",
     "consumption_in_geitawi_branch": "104.0",
-    "stock_in_medawar_branch": "93.0",
+    "stock_in_medawar_branch": "92.0",
     "consumption_in_medawar_branch": "105.0",
-    "total_stock": "165.0",
+    "total_stock": "164.0",
     "total_consumption": "209.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -51502,7 +51154,7 @@
         "consumption": "104.0"
       },
       "Medawar": {
-        "stock": "93.0",
+        "stock": "92.0",
         "consumption": "105.0"
       }
     },
@@ -51682,11 +51334,11 @@
     "category": "BEVERAGES",
     "sub_category": "COLD DRINKS",
     "offers": "0",
-    "stock_in_geitawi_branch": "22.0",
+    "stock_in_geitawi_branch": "21.0",
     "consumption_in_geitawi_branch": "110.0",
     "stock_in_medawar_branch": "57.0",
     "consumption_in_medawar_branch": "162.0",
-    "total_stock": "79.0",
+    "total_stock": "78.0",
     "total_consumption": "272.0",
     "VAT": "YES",
     "price_lbp": 70000.0,
@@ -51698,7 +51350,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "22.0",
+        "stock": "21.0",
         "consumption": "110.0"
       },
       "Medawar": {
@@ -51974,7 +51626,7 @@
     "cost": 0.46,
     "total_stock": "4.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "4.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -51985,15 +51637,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -52333,7 +51977,7 @@
     "sub_category": "DAIRY PRODUCTS",
     "offers": "",
     "expiry_days": "12",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
@@ -52362,15 +52006,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -52386,18 +52022,7 @@
     "costUsd": 3.24,
     "cost_ht_usd": 3.24,
     "cost_formula": "sale_price_usd_div_1.2",
-    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-    "created_by_user_code": "1",
-    "createdByUserCode": "1",
-    "import_source": "active products listing.pdf",
-    "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-    "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-    "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-    "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-    "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-    "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-    "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-    "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z"
+    "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
   },
   {
     "id": "13663",
@@ -52904,7 +52529,7 @@
     "cost": 1.06,
     "total_stock": "3.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -52915,15 +52540,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -52971,9 +52588,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "7.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "22.0",
-    "total_stock": "7.0",
+    "total_stock": "6.0",
     "total_consumption": "22.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -52989,7 +52606,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "7.0",
+        "stock": "6.0",
         "consumption": "22.0"
       }
     },
@@ -53916,11 +53533,11 @@
     "category": "ICE CREAM",
     "sub_category": "ICEBERG",
     "offers": "0",
-    "stock_in_geitawi_branch": "47.0",
+    "stock_in_geitawi_branch": "46.0",
     "consumption_in_geitawi_branch": "96.0",
     "stock_in_medawar_branch": "90.0",
     "consumption_in_medawar_branch": "179.0",
-    "total_stock": "137.0",
+    "total_stock": "136.0",
     "total_consumption": "275.0",
     "VAT": "YES",
     "price_lbp": 85000.0,
@@ -53932,7 +53549,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "47.0",
+        "stock": "46.0",
         "consumption": "96.0"
       },
       "Medawar": {
@@ -54290,11 +53907,11 @@
     "category": "CIGARETTES",
     "sub_category": "CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "39.0",
+    "stock_in_geitawi_branch": "38.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "21.0",
+    "stock_in_medawar_branch": "20.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "60.0",
+    "total_stock": "58.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 80000.0,
@@ -54306,11 +53923,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "39.0",
+        "stock": "38.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "21.0",
+        "stock": "20.0",
         "consumption": "0.0"
       }
     },
@@ -55237,11 +54854,11 @@
     "category": "CHIPS",
     "sub_category": "DOLSI",
     "offers": "0",
-    "stock_in_geitawi_branch": "13.0",
+    "stock_in_geitawi_branch": "12.0",
     "consumption_in_geitawi_branch": "117.0",
     "stock_in_medawar_branch": "20.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "33.0",
+    "total_stock": "32.0",
     "total_consumption": "117.0",
     "VAT": "YES",
     "price_lbp": 80000.0,
@@ -55253,7 +54870,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "13.0",
+        "stock": "12.0",
         "consumption": "117.0"
       },
       "Medawar": {
@@ -55366,11 +54983,11 @@
     "category": "PET SUPPLIES",
     "sub_category": "PETS FOOD",
     "offers": "0",
-    "stock_in_geitawi_branch": "-1.0",
+    "stock_in_geitawi_branch": "-2.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "47.0",
-    "total_stock": "-1.0",
+    "total_stock": "-2.0",
     "total_consumption": "47.0",
     "VAT": "YES",
     "price_lbp": 95000.0,
@@ -55382,7 +54999,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "-1.0",
+        "stock": "-2.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -56953,7 +56570,7 @@
     "cost": 0.19,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -56964,15 +56581,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -57020,9 +56629,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "6.0",
-    "stock_in_medawar_branch": "7.0",
+    "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "13.0",
+    "total_stock": "12.0",
     "total_consumption": "6.0",
     "VAT": "NO",
     "price_lbp": 90000.0,
@@ -57038,7 +56647,7 @@
         "consumption": "6.0"
       },
       "Medawar": {
-        "stock": "7.0",
+        "stock": "6.0",
         "consumption": "0.0"
       }
     },
@@ -58249,9 +57858,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "31.0",
-    "stock_in_medawar_branch": "3.0",
+    "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "4.0",
+    "total_stock": "3.0",
     "total_consumption": "31.0",
     "VAT": "YES",
     "price_lbp": 200000.0,
@@ -58267,7 +57876,7 @@
         "consumption": "31.0"
       },
       "Medawar": {
-        "stock": "3.0",
+        "stock": "2.0",
         "consumption": "0.0"
       }
     },
@@ -58287,11 +57896,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Digestive Biscuits",
     "offers": "0",
-    "stock_in_geitawi_branch": "10.0",
+    "stock_in_geitawi_branch": "9.0",
     "consumption_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "10.0",
+    "total_stock": "9.0",
     "total_consumption": "3.0",
     "VAT": "YES",
     "price_lbp": 290000.0,
@@ -58303,7 +57912,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "10.0",
+        "stock": "9.0",
         "consumption": "3.0"
       },
       "Medawar": {
@@ -59487,11 +59096,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Croissant",
     "offers": "0",
-    "stock_in_geitawi_branch": "19.0",
+    "stock_in_geitawi_branch": "18.0",
     "consumption_in_geitawi_branch": "24.0",
-    "stock_in_medawar_branch": "22.0",
+    "stock_in_medawar_branch": "20.0",
     "consumption_in_medawar_branch": "38.0",
-    "total_stock": "41.0",
+    "total_stock": "38.0",
     "total_consumption": "62.0",
     "VAT": "YES",
     "price_lbp": 50000.0,
@@ -59503,11 +59112,11 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "19.0",
+        "stock": "18.0",
         "consumption": "24.0"
       },
       "Medawar": {
-        "stock": "22.0",
+        "stock": "20.0",
         "consumption": "38.0"
       }
     },
@@ -60434,7 +60043,7 @@
     "cost": 3.29,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -60445,15 +60054,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -60985,9 +60586,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "34.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "28.0",
+    "stock_in_medawar_branch": "27.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "62.0",
+    "total_stock": "61.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 120000.0,
@@ -61003,7 +60604,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "28.0",
+        "stock": "27.0",
         "consumption": "0.0"
       }
     },
@@ -61852,7 +61453,7 @@
     "cost": 1.48,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -61863,15 +61464,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -61929,8 +61522,8 @@
     "cost": 1.48,
     "total_stock": "5.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
+    "stock_in_medawar_branch": "3.0",
     "branches": {
       "Geitawi": {
         "stock": "2.0",
@@ -61940,15 +61533,7 @@
         "stock": "3.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -62280,9 +61865,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "18.0",
+    "stock_in_medawar_branch": "17.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "18.0",
+    "total_stock": "17.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 30000.0,
@@ -62298,7 +61883,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "18.0",
+        "stock": "17.0",
         "consumption": "0.0"
       }
     },
@@ -63171,7 +62756,7 @@
     "total_stock": "2.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "2.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -63181,15 +62766,7 @@
         "stock": "2.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -64221,9 +63798,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "6.0",
+    "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "11.0",
+    "total_stock": "10.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 100000.0,
@@ -64239,7 +63816,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "6.0",
+        "stock": "5.0",
         "consumption": "0.0"
       }
     },
@@ -65850,7 +65427,7 @@
     "cost": 2.64,
     "total_stock": "5.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -65861,15 +65438,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -66555,11 +66124,11 @@
     "category": "CHIPS",
     "sub_category": "FANTASIA",
     "offers": "0",
-    "stock_in_geitawi_branch": "14.0",
+    "stock_in_geitawi_branch": "13.0",
     "consumption_in_geitawi_branch": "8.0",
     "stock_in_medawar_branch": "27.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "41.0",
+    "total_stock": "40.0",
     "total_consumption": "8.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -66571,7 +66140,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "14.0",
+        "stock": "13.0",
         "consumption": "8.0"
       },
       "Medawar": {
@@ -66891,7 +66460,7 @@
     "cost": 0.93,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -66902,15 +66471,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -68543,15 +68104,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -68609,7 +68162,7 @@
     "cost": 2.08,
     "total_stock": "5.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -68620,15 +68173,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -68727,7 +68272,7 @@
     "total_stock": "2.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "2.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -68737,15 +68282,7 @@
         "stock": "2.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -70064,11 +69601,11 @@
     "category": "CIGARETTES",
     "sub_category": "ELECTRIC CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "5.0",
+    "stock_in_geitawi_branch": "4.0",
     "consumption_in_geitawi_branch": "293.0",
     "stock_in_medawar_branch": "21.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "26.0",
+    "total_stock": "25.0",
     "total_consumption": "293.0",
     "VAT": "NO",
     "price_lbp": 250000.0,
@@ -70080,7 +69617,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "5.0",
+        "stock": "4.0",
         "consumption": "293.0"
       },
       "Medawar": {
@@ -70534,8 +70071,8 @@
     "cost": 0.7083333333333334,
     "total_stock": "48.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "24.0",
+    "stock_in_medawar_branch": "24.0",
     "branches": {
       "Geitawi": {
         "stock": "24.0",
@@ -70545,15 +70082,7 @@
         "stock": "24.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -72896,7 +72425,7 @@
     "total_stock": "1.100",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.000",
-    "stock_in_medawar_branch": "0.000",
+    "stock_in_medawar_branch": "1.100",
     "branches": {
       "Geitawi": {
         "stock": "0.000",
@@ -72906,15 +72435,7 @@
         "stock": "1.100",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.000",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.000",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.000",
         "consumption": "0.0"
       }
@@ -74851,7 +74372,7 @@
     "cost": 0.65,
     "total_stock": "3.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -74862,15 +74383,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -75288,7 +74801,7 @@
     "cost": 0.65,
     "total_stock": "6.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "6.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -75299,15 +74812,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -75415,7 +74920,7 @@
     "total_stock": "27.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "27.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -75425,15 +74930,7 @@
         "stock": "27.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -76019,7 +75516,7 @@
     "cost": 0.37,
     "total_stock": "5.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -76030,15 +75527,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -81446,11 +80935,11 @@
     "category": "CHIPS",
     "sub_category": "MASTER",
     "offers": "0",
-    "stock_in_geitawi_branch": "20.0",
+    "stock_in_geitawi_branch": "19.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "102.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "122.0",
+    "total_stock": "121.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 90000.0,
@@ -81462,7 +80951,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "20.0",
+        "stock": "19.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -82999,7 +82488,7 @@
     "cost": 0.88,
     "total_stock": "5.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -83010,15 +82499,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -83064,11 +82545,11 @@
     "category": "FOOD",
     "sub_category": "BAKERY",
     "offers": "0",
-    "stock_in_geitawi_branch": "68.0",
+    "stock_in_geitawi_branch": "67.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "14.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "82.0",
+    "total_stock": "81.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 75000.0,
@@ -83080,7 +82561,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "68.0",
+        "stock": "67.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -84102,11 +83583,11 @@
     "category": "CIGARETTES",
     "sub_category": "ELECTRIC CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "24.0",
+    "stock_in_geitawi_branch": "22.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "-4.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "20.0",
+    "total_stock": "18.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 105000.0,
@@ -84118,7 +83599,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "24.0",
+        "stock": "22.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -84429,7 +83910,7 @@
     "total_stock": "4.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "4.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -84439,15 +83920,7 @@
         "stock": "4.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -84985,9 +84458,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "14.0",
+    "stock_in_medawar_branch": "13.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "14.0",
+    "total_stock": "13.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 60000.0,
@@ -85003,7 +84476,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "14.0",
+        "stock": "13.0",
         "consumption": "0.0"
       }
     },
@@ -85134,15 +84607,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -86184,7 +85649,7 @@
     "cost": 3.75,
     "total_stock": "3.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -86195,15 +85660,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -86501,7 +85958,7 @@
     "cost": 0.74,
     "total_stock": "6.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "6.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -86512,15 +85969,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -87906,11 +87355,11 @@
     "category": "CHI TAYIB",
     "sub_category": "sweets",
     "offers": "0",
-    "stock_in_geitawi_branch": "24.0",
+    "stock_in_geitawi_branch": "23.0",
     "consumption_in_geitawi_branch": "28.0",
     "stock_in_medawar_branch": "58.0",
     "consumption_in_medawar_branch": "34.0",
-    "total_stock": "82.0",
+    "total_stock": "81.0",
     "total_consumption": "62.0",
     "VAT": "YES",
     "price_lbp": 25000.0,
@@ -87922,7 +87371,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "24.0",
+        "stock": "23.0",
         "consumption": "28.0"
       },
       "Medawar": {
@@ -87962,7 +87411,7 @@
     "cost": 3.24,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -87973,15 +87422,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -89597,11 +89038,11 @@
     "category": "CHI TAYIB",
     "sub_category": "candies",
     "offers": "0",
-    "stock_in_geitawi_branch": "-3.0",
+    "stock_in_geitawi_branch": "-4.0",
     "consumption_in_geitawi_branch": "33.0",
     "stock_in_medawar_branch": "3.0",
     "consumption_in_medawar_branch": "8.0",
-    "total_stock": "0.0",
+    "total_stock": "-1.0",
     "total_consumption": "41.0",
     "VAT": "YES",
     "price_lbp": 75000.0,
@@ -89613,7 +89054,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "-3.0",
+        "stock": "-4.0",
         "consumption": "33.0"
       },
       "Medawar": {
@@ -90043,7 +89484,7 @@
     "cost": 0.83,
     "total_stock": "12.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "12.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -90054,15 +89495,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -91753,15 +91186,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -91975,11 +91400,11 @@
     "category": "NOUNA'S FOOD",
     "sub_category": "READY TO EAT",
     "offers": "0",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "8.0",
     "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "3.0",
+    "total_stock": "2.0",
     "total_consumption": "8.0",
     "VAT": "NO",
     "price_lbp": 600000.0,
@@ -91991,7 +91416,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "1.0",
+        "stock": "0.0",
         "consumption": "8.0"
       },
       "Medawar": {
@@ -93507,15 +92932,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -94789,7 +94206,15 @@
     "subcategory": "Wafers",
     "vat": 1,
     "barcode2": "",
-    "barcodes": ""
+    "barcodes": "",
+    "expiry_days": "0",
+    "linked_profile_enabled": false,
+    "linked_profile_repo_root": "",
+    "linked_profile_item_id": "",
+    "linked_profile_category": "",
+    "linked_profile_sub_category": "",
+    "product_setup_save_token": "PS-SAVE-17084-1778833464865651",
+    "product_setup_saved_at_utc": "2026-05-15T08:24:24.865651Z"
   },
   {
     "id": "17088",
@@ -95639,7 +95064,7 @@
     "cost": 8.52,
     "total_stock": "3.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -95650,15 +95075,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -96880,7 +96297,7 @@
     "total_stock": "13.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "13.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -96890,15 +96307,7 @@
         "stock": "13.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -97183,11 +96592,11 @@
     "category": "FOOD",
     "sub_category": "DAIRY PRODUCTS",
     "offers": "0",
-    "stock_in_geitawi_branch": "24.0",
+    "stock_in_geitawi_branch": "23.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "11.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "35.0",
+    "total_stock": "34.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 280000.0,
@@ -97199,7 +96608,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "24.0",
+        "stock": "23.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -97223,11 +96632,11 @@
     "category": "FOOD",
     "sub_category": "DAIRY PRODUCTS",
     "offers": "0",
-    "stock_in_geitawi_branch": "18.0",
+    "stock_in_geitawi_branch": "17.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "9.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "27.0",
+    "total_stock": "26.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 235000.0,
@@ -97239,7 +96648,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "18.0",
+        "stock": "17.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -98222,7 +97631,7 @@
     "cost": 2.31,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -98233,15 +97642,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -99311,8 +98712,8 @@
     "cost": 1.57,
     "total_stock": "12.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
+    "stock_in_medawar_branch": "7.0",
     "branches": {
       "Geitawi": {
         "stock": "5.0",
@@ -99322,15 +98723,7 @@
         "stock": "7.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -99761,7 +99154,7 @@
     "total_stock": "1.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "1.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -99771,15 +99164,7 @@
         "stock": "1.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -99838,7 +99223,7 @@
     "total_stock": "7.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "7.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -99848,15 +99233,7 @@
         "stock": "7.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -100085,15 +99462,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -100995,7 +100364,7 @@
     "total_stock": "8.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "8.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -101005,15 +100374,7 @@
         "stock": "8.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -101673,9 +101034,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "11.0",
     "consumption_in_geitawi_branch": "19.0",
-    "stock_in_medawar_branch": "-2.0",
+    "stock_in_medawar_branch": "-3.0",
     "consumption_in_medawar_branch": "33.0",
-    "total_stock": "9.0",
+    "total_stock": "8.0",
     "total_consumption": "52.0",
     "VAT": "YES",
     "price_lbp": 170000.0,
@@ -101691,7 +101052,7 @@
         "consumption": "19.0"
       },
       "Medawar": {
-        "stock": "-2.0",
+        "stock": "-3.0",
         "consumption": "33.0"
       }
     },
@@ -102431,8 +101792,8 @@
     "cost": 2.27,
     "total_stock": "10.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
+    "stock_in_medawar_branch": "8.0",
     "branches": {
       "Geitawi": {
         "stock": "2.0",
@@ -102442,15 +101803,7 @@
         "stock": "8.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -106386,8 +105739,8 @@
     "cost": 3.807,
     "total_stock": "10.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
+    "stock_in_medawar_branch": "5.0",
     "branches": {
       "Geitawi": {
         "stock": "5.0",
@@ -106397,15 +105750,7 @@
         "stock": "5.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -108063,11 +107408,11 @@
     "category": "CHI TAYIB",
     "sub_category": "sweets",
     "offers": "0",
-    "stock_in_geitawi_branch": "47.0",
+    "stock_in_geitawi_branch": "46.0",
     "consumption_in_geitawi_branch": "24.0",
     "stock_in_medawar_branch": "-2.0",
     "consumption_in_medawar_branch": "77.0",
-    "total_stock": "45.0",
+    "total_stock": "44.0",
     "total_consumption": "101.0",
     "VAT": "YES",
     "price_lbp": 25000.0,
@@ -108079,7 +107424,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "47.0",
+        "stock": "46.0",
         "consumption": "24.0"
       },
       "Medawar": {
@@ -109207,15 +108552,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -110060,7 +109397,7 @@
     "cost": 0.78,
     "total_stock": "4.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "4.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -110071,15 +109408,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -111282,7 +110611,7 @@
     "total_stock": "7.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "7.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -111292,15 +110621,7 @@
         "stock": "7.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -113398,7 +112719,7 @@
     "total_stock": "2.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "2.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -113408,15 +112729,7 @@
         "stock": "2.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -114712,15 +114025,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -115922,7 +115227,7 @@
     "cost": 0.83,
     "total_stock": "6.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "6.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -115933,15 +115238,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -117499,7 +116796,7 @@
     "total_stock": "1.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "1.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -117509,15 +116806,7 @@
         "stock": "1.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -119315,11 +118604,11 @@
     "category": "FOOD",
     "sub_category": "CHARCUTERIE",
     "offers": "0",
-    "stock_in_geitawi_branch": "3.0",
+    "stock_in_geitawi_branch": "2.0",
     "consumption_in_geitawi_branch": "4.0",
     "stock_in_medawar_branch": "6.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "9.0",
+    "total_stock": "8.0",
     "total_consumption": "4.0",
     "VAT": "NO",
     "price_lbp": 550000.0,
@@ -119331,7 +118620,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "3.0",
+        "stock": "2.0",
         "consumption": "4.0"
       },
       "Medawar": {
@@ -122824,15 +122113,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -123294,9 +122575,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "26.0",
     "consumption_in_geitawi_branch": "48.0",
-    "stock_in_medawar_branch": "9.0",
+    "stock_in_medawar_branch": "8.0",
     "consumption_in_medawar_branch": "16.0",
-    "total_stock": "35.0",
+    "total_stock": "34.0",
     "total_consumption": "64.0",
     "VAT": "NO",
     "price_lbp": 180000.0,
@@ -123312,7 +122593,7 @@
         "consumption": "48.0"
       },
       "Medawar": {
-        "stock": "9.0",
+        "stock": "8.0",
         "consumption": "16.0"
       }
     },
@@ -123362,15 +122643,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -125639,7 +124912,7 @@
     "total_stock": "30.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "30.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -125649,15 +124922,7 @@
         "stock": "30.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -125716,7 +124981,7 @@
     "total_stock": "16.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "16.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -125726,15 +124991,7 @@
         "stock": "16.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -126262,9 +125519,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "6.0",
     "consumption_in_geitawi_branch": "58.0",
-    "stock_in_medawar_branch": "3.0",
+    "stock_in_medawar_branch": "2.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "9.0",
+    "total_stock": "8.0",
     "total_consumption": "58.0",
     "VAT": "YES",
     "price_lbp": 100000.0,
@@ -126280,7 +125537,7 @@
         "consumption": "58.0"
       },
       "Medawar": {
-        "stock": "3.0",
+        "stock": "2.0",
         "consumption": "0.0"
       }
     },
@@ -126665,15 +125922,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -127191,8 +126440,8 @@
     "cost": 1.33,
     "total_stock": "10.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
+    "stock_in_medawar_branch": "5.0",
     "branches": {
       "Geitawi": {
         "stock": "5.0",
@@ -127202,15 +126451,7 @@
         "stock": "5.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -127343,7 +126584,7 @@
     "cost": 0.88,
     "total_stock": "5.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "5.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -127354,15 +126595,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -129499,7 +128732,7 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "3.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -129509,15 +128742,7 @@
         "stock": "3.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -130092,7 +129317,7 @@
     "total_stock": "9.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "9.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -130102,15 +129327,7 @@
         "stock": "9.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -131888,7 +131105,7 @@
     "cost": 7.5,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -131899,15 +131116,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -132856,7 +132065,7 @@
     "cost": 1.1633333333333333,
     "total_stock": "7.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "7.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -132867,15 +132076,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -133150,8 +132351,8 @@
     "cost": 26.0945,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
+    "stock_in_medawar_branch": "1.0",
     "branches": {
       "Geitawi": {
         "stock": "1.0",
@@ -133161,15 +132362,7 @@
         "stock": "1.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -135802,11 +134995,11 @@
     "category": "CIGARETTES",
     "sub_category": "ELECTRIC CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "44.0",
+    "stock_in_geitawi_branch": "43.0",
     "consumption_in_geitawi_branch": "60.0",
     "stock_in_medawar_branch": "29.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "73.0",
+    "total_stock": "72.0",
     "total_consumption": "60.0",
     "VAT": "NO",
     "price_lbp": 175000.0,
@@ -135818,7 +135011,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "44.0",
+        "stock": "43.0",
         "consumption": "60.0"
       },
       "Medawar": {
@@ -136305,15 +135498,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -139370,15 +138555,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -139569,8 +138746,8 @@
     "cost": 1.5230000000000001,
     "total_stock": "8.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
+    "stock_in_medawar_branch": "5.0",
     "branches": {
       "Geitawi": {
         "stock": "3.0",
@@ -139580,15 +138757,7 @@
         "stock": "5.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -140108,15 +139277,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -140614,7 +139775,7 @@
     "cost": 1.76,
     "total_stock": "1.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -140625,15 +139786,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -144699,11 +143852,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Chewing gum",
     "offers": "0",
-    "stock_in_geitawi_branch": "9.0",
+    "stock_in_geitawi_branch": "8.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "15.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "24.0",
+    "total_stock": "23.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 55000.0,
@@ -144715,7 +143868,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "9.0",
+        "stock": "8.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -144779,11 +143932,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Chewing gum",
     "offers": "0",
-    "stock_in_geitawi_branch": "2.0",
+    "stock_in_geitawi_branch": "1.0",
     "consumption_in_geitawi_branch": "22.0",
     "stock_in_medawar_branch": "10.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "12.0",
+    "total_stock": "11.0",
     "total_consumption": "22.0",
     "VAT": "YES",
     "price_lbp": 50000.0,
@@ -144795,7 +143948,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "2.0",
+        "stock": "1.0",
         "consumption": "22.0"
       },
       "Medawar": {
@@ -145107,11 +144260,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Chewing gum",
     "offers": "0",
-    "stock_in_geitawi_branch": "20.0",
+    "stock_in_geitawi_branch": "19.0",
     "consumption_in_geitawi_branch": "10.0",
     "stock_in_medawar_branch": "17.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "37.0",
+    "total_stock": "36.0",
     "total_consumption": "25.0",
     "VAT": "YES",
     "price_lbp": 65000.0,
@@ -145123,7 +144276,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "20.0",
+        "stock": "19.0",
         "consumption": "10.0"
       },
       "Medawar": {
@@ -147143,7 +146296,7 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "3.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -147153,15 +146306,7 @@
         "stock": "3.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -162128,11 +161273,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Chewing gum",
     "offers": "0",
-    "stock_in_geitawi_branch": "16.0",
+    "stock_in_geitawi_branch": "15.0",
     "consumption_in_geitawi_branch": "18.0",
     "stock_in_medawar_branch": "19.0",
     "consumption_in_medawar_branch": "41.0",
-    "total_stock": "35.0",
+    "total_stock": "34.0",
     "total_consumption": "59.0",
     "VAT": "YES",
     "price_lbp": 40000.0,
@@ -162144,7 +161289,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "16.0",
+        "stock": "15.0",
         "consumption": "18.0"
       },
       "Medawar": {
@@ -162918,11 +162063,11 @@
     "category": "CIGARETTES",
     "sub_category": "CIGARETTES",
     "offers": "0",
-    "stock_in_geitawi_branch": "50.0",
+    "stock_in_geitawi_branch": "49.0",
     "consumption_in_geitawi_branch": "60.0",
     "stock_in_medawar_branch": "25.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "75.0",
+    "total_stock": "74.0",
     "total_consumption": "60.0",
     "VAT": "NO",
     "price_lbp": 50000.0,
@@ -162934,7 +162079,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "50.0",
+        "stock": "49.0",
         "consumption": "60.0"
       },
       "Medawar": {
@@ -172202,11 +171347,11 @@
     "category": "CHI TAYIB",
     "sub_category": "Wafers",
     "offers": "0",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "18.0",
-    "total_stock": "8.0",
+    "total_stock": "7.0",
     "total_consumption": "18.0",
     "VAT": "YES",
     "price_lbp": 50000.0,
@@ -172218,7 +171363,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "1.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -178242,8 +177387,8 @@
     "cost": 1.6203703703703705,
     "total_stock": "4.975",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.000",
-    "stock_in_medawar_branch": "0.000",
+    "stock_in_geitawi_branch": "1.175",
+    "stock_in_medawar_branch": "3.800",
     "branches": {
       "Geitawi": {
         "stock": "1.175",
@@ -178253,15 +177398,7 @@
         "stock": "3.800",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.000",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.000",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.000",
         "consumption": "0.0"
       }
@@ -178777,15 +177914,7 @@
         "stock": "0.000",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.000",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.000",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.000",
         "consumption": "0.0"
       }
@@ -183650,8 +182779,8 @@
     "cost": 1.219969,
     "total_stock": "39.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "11.0",
+    "stock_in_medawar_branch": "28.0",
     "branches": {
       "Geitawi": {
         "stock": "11.0",
@@ -183661,15 +182790,7 @@
         "stock": "28.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -188642,7 +187763,7 @@
     "cost": 1.06,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -188653,15 +187774,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -192333,11 +191446,11 @@
     "category": "NOUNA'S FOOD",
     "sub_category": "NOUNA'S FOOD",
     "offers": "0",
-    "stock_in_geitawi_branch": "2.0",
+    "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "12.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "2.0",
+    "total_stock": "3.0",
     "total_consumption": "12.0",
     "VAT": "NO",
     "price_lbp": 250000.0,
@@ -192349,7 +191462,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "2.0",
+        "stock": "3.0",
         "consumption": "12.0"
       },
       "Medawar": {
@@ -192380,11 +191493,11 @@
     "category": "NOUNA'S FOOD",
     "sub_category": "NOUNA'S FOOD",
     "offers": "0",
-    "stock_in_geitawi_branch": "2.0",
+    "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "2.0",
+    "total_stock": "3.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 250000.0,
@@ -192396,7 +191509,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "2.0",
+        "stock": "3.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -195100,9 +194213,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "15.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "20.0",
+    "stock_in_medawar_branch": "19.0",
     "consumption_in_medawar_branch": "3.0",
-    "total_stock": "35.0",
+    "total_stock": "34.0",
     "total_consumption": "3.0",
     "VAT": "YES",
     "price_lbp": 25000.0,
@@ -195118,7 +194231,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "20.0",
+        "stock": "19.0",
         "consumption": "3.0"
       }
     },
@@ -195685,11 +194798,11 @@
     "category": "BEVERAGES",
     "sub_category": "juice",
     "offers": "0",
-    "stock_in_geitawi_branch": "6.0",
+    "stock_in_geitawi_branch": "5.0",
     "consumption_in_geitawi_branch": "11.0",
     "stock_in_medawar_branch": "5.0",
     "consumption_in_medawar_branch": "9.0",
-    "total_stock": "11.0",
+    "total_stock": "10.0",
     "total_consumption": "20.0",
     "VAT": "YES",
     "price_lbp": 140000.0,
@@ -195701,7 +194814,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "6.0",
+        "stock": "5.0",
         "consumption": "11.0"
       },
       "Medawar": {
@@ -216701,11 +215814,11 @@
     "category": "CHI TAYIB",
     "sub_category": "sweets",
     "offers": "0",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "VAT": "YES",
     "price_lbp": 495000.0,
@@ -216717,7 +215830,7 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "1.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -227803,7 +226916,7 @@
     "vat": 1,
     "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "8.0",
+    "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -227811,11 +226924,11 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "8.0",
+        "stock": "7.0",
         "consumption": "0.0"
       }
     },
-    "total_stock": "8.0",
+    "total_stock": "7.0",
     "total_consumption": "0.0",
     "secondary_category": "",
     "secondary_subcategory": "",
@@ -231547,7 +230660,7 @@
     "linked_profile_sub_category": "",
     "branches": {
       "Geitawi": {
-        "stock": "7.0",
+        "stock": "6.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -231555,8 +230668,8 @@
         "consumption": "0.0"
       }
     },
-    "stock_in_geitawi_branch": "7.0",
-    "total_stock": "5.0",
+    "stock_in_geitawi_branch": "6.0",
+    "total_stock": "4.0",
     "stock_in_medawar_branch": "-2.0",
     "cost": 1.0648,
     "Product Description": "CARTOON CUP 50 PCS",
@@ -233130,15 +232243,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -236501,13 +235606,13 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "13.0",
+        "stock": "11.0",
         "consumption": "0.0"
       }
     },
     "stock_in_geitawi_branch": "33.0",
-    "total_stock": "46.0",
-    "stock_in_medawar_branch": "13.0",
+    "total_stock": "44.0",
+    "stock_in_medawar_branch": "11.0",
     "cost": 0.5387,
     "Product Description": "TWIX TWIN (46 G)",
     "SUPPLIERS": "TRANSMED F&B SAL LBP",
@@ -236991,7 +236096,7 @@
     "linked_profile_sub_category": "",
     "branches": {
       "Geitawi": {
-        "stock": "70.0",
+        "stock": "69.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -236999,8 +236104,8 @@
         "consumption": "0.0"
       }
     },
-    "stock_in_geitawi_branch": "70.0",
-    "total_stock": "127.0",
+    "stock_in_geitawi_branch": "69.0",
+    "total_stock": "126.0",
     "stock_in_medawar_branch": "57.0",
     "cost": 0.325,
     "Product Description": "HALLS MENTHOL FLAVOR (COPY)",
@@ -239492,7 +238597,7 @@
     "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21962.jpg",
     "linked_profile_enabled": true,
     "linked_profile_repo_root": "Nounas_Food",
-    "linked_profile_item_id": "2196200001",
+    "linked_profile_item_id": "",
     "linked_profile_category": "NOUNA'S FOOD",
     "linked_profile_sub_category": "NOUNA'S FOOD",
     "stock_in_medawar_branch": "2.0",
@@ -239895,7 +239000,7 @@
     "cost": 2.69,
     "total_stock": "3.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -239906,15 +239011,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -239972,7 +239069,7 @@
     "cost": 5.56,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -239983,15 +239080,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240060,15 +239149,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240219,15 +239300,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240294,8 +239367,8 @@
     "cost": 0.83,
     "total_stock": "85.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "13.0",
+    "stock_in_medawar_branch": "72.0",
     "branches": {
       "Geitawi": {
         "stock": "13.0",
@@ -240305,15 +239378,7 @@
         "stock": "72.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240380,7 +239445,7 @@
     "cost": 297500.0,
     "total_stock": "3.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "3.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -240391,15 +239456,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240462,7 +239519,7 @@
     "cost": 127500.0,
     "total_stock": "2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -240473,15 +239530,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240544,7 +239593,7 @@
     "cost": 1.85,
     "total_stock": "-2.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "-2.0",
     "stock_in_medawar_branch": "0.0",
     "branches": {
       "Geitawi": {
@@ -240555,15 +239604,7 @@
         "stock": "0.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240631,7 +239672,7 @@
     "total_stock": "10.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "10.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -240641,15 +239682,7 @@
         "stock": "10.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240716,8 +239749,8 @@
     "cost": 1.67,
     "total_stock": "12.0",
     "total_consumption": "0.0",
-    "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_geitawi_branch": "4.0",
+    "stock_in_medawar_branch": "8.0",
     "branches": {
       "Geitawi": {
         "stock": "4.0",
@@ -240727,15 +239760,7 @@
         "stock": "8.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -240867,7 +239892,7 @@
     "total_stock": "3.0",
     "total_consumption": "0.0",
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "0.0",
+    "stock_in_medawar_branch": "3.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
@@ -240877,15 +239902,7 @@
         "stock": "3.0",
         "consumption": "0.0"
       },
-      "geitawi": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "medawar": {
-        "stock": "0.0",
-        "consumption": "0.0"
-      },
-      "the_daily_market": {
+      "The Daily Market": {
         "stock": "0.0",
         "consumption": "0.0"
       }
@@ -241036,11 +240053,11 @@
     "category": "NOUNA'S FOOD",
     "sub_category": "NOUNA'S FOOD",
     "offers": "",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "vat": 0,
     "price_lbp": 250200.0,
@@ -241057,7 +240074,7 @@
     "linked_profile_item_id": "90029",
     "branches": {
       "Geitawi": {
-        "stock": "1.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -241083,11 +240100,11 @@
     "category": "NOUNA'S FOOD",
     "sub_category": "NOUNA'S FOOD",
     "offers": "",
-    "stock_in_geitawi_branch": "1.0",
+    "stock_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "1.0",
+    "total_stock": "0.0",
     "total_consumption": "0.0",
     "vat": 0,
     "price_lbp": 250200.0,
@@ -241104,7 +240121,7 @@
     "linked_profile_item_id": "90030",
     "branches": {
       "Geitawi": {
-        "stock": "1.0",
+        "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
@@ -242029,11 +241046,11 @@
     "linked_profile_item_id": "",
     "linked_profile_category": "",
     "linked_profile_sub_category": "",
-    "stock_in_medawar_branch": "22.0",
+    "stock_in_medawar_branch": "21.0",
     "stock_in_geitawi_branch": "7.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "29.0",
+    "total_stock": "28.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -242041,7 +241058,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "22.0",
+        "stock": "21.0",
         "consumption": "0.0"
       }
     },
@@ -242478,11 +241495,11 @@
     "linked_profile_item_id": "",
     "linked_profile_category": "",
     "linked_profile_sub_category": "",
-    "stock_in_medawar_branch": "10.000",
+    "stock_in_medawar_branch": "9.000",
     "stock_in_geitawi_branch": "0.000",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "10.000",
+    "total_stock": "9.000",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -242490,7 +241507,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "10.000",
+        "stock": "9.000",
         "consumption": "0.0"
       }
     },
@@ -244504,13 +243521,7 @@
     "name": "GAS CYLINDER 10K",
     "supplier": "TONY HANNA - GAZ USD",
     "subcategory": "GAS",
-    "vat": 0,
-    "lastCostHtUsd": 18.0,
-    "createdByUserCode": "1",
-    "createdByUser": "Elias Mahfouz",
-    "source": "bimpos_purchase_reconcile_20260508",
-    "updatedAt": "2026-05-09T00:32:10",
-    "_categoryMethod": "fuzzy"
+    "vat": 0
   },
   {
     "id": "100074",
@@ -245182,7 +244193,15 @@
     "new_items": "",
     "manual": "",
     "delivery_rules": "0.005",
-    "price_usd": "0.22"
+    "price_usd": "0.22",
+    "expiry_days": "0",
+    "linked_profile_enabled": false,
+    "linked_profile_repo_root": "",
+    "linked_profile_item_id": "",
+    "linked_profile_category": "",
+    "linked_profile_sub_category": "",
+    "product_setup_save_token": "PS-SAVE-100086-1778843420757255",
+    "product_setup_saved_at_utc": "2026-05-15T11:10:20.757255Z"
   },
   {
     "id": "100087",
@@ -245610,15 +244629,15 @@
     "lastCostHtUsd": 0.35,
     "price_lbp": 40000.0,
     "stock_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "15.0",
-    "total_stock": "15.0",
+    "stock_in_medawar_branch": "12.0",
+    "total_stock": "12.0",
     "branches": {
       "Geitawi": {
         "stock": "0.0",
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "15.0",
+        "stock": "12.0",
         "consumption": "0.0"
       }
     },
@@ -252250,11 +251269,11 @@
   },
   {
     "id": "400022",
-    "stock_in_medawar_branch": "33.0",
+    "stock_in_medawar_branch": "32.0",
     "stock_in_geitawi_branch": "18.0",
     "consumption_in_medawar_branch": "0.0",
     "consumption_in_geitawi_branch": "0.0",
-    "total_stock": "51.0",
+    "total_stock": "50.0",
     "total_consumption": "0.0",
     "branches": {
       "Geitawi": {
@@ -252262,7 +251281,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "33.0",
+        "stock": "32.0",
         "consumption": "0.0"
       }
     },
@@ -256005,11 +255024,11 @@
     "sub_category": "READY TO EAT",
     "offers": "",
     "expiry_days": "4",
-    "stock_in_geitawi_branch": "0.0",
+    "stock_in_geitawi_branch": "-1.0",
     "consumption_in_geitawi_branch": "0.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "0.0",
+    "total_stock": "-1.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 400000.0,
@@ -256027,7 +255046,7 @@
     "linked_profile_sub_category": "READY TO EAT",
     "branches": {
       "Geitawi": {
-        "stock": "0.0",
+        "stock": "-1.0",
         "consumption": "0.0"
       },
       "Medawar": {
