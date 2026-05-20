@@ -276,9 +276,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "141.0",
       "consumption_in_geitawi_branch": "157.0",
-      "stock_in_medawar_branch": "163.0",
+      "stock_in_medawar_branch": "161.0",
       "consumption_in_medawar_branch": "241.0",
-      "total_stock": "304.0",
+      "total_stock": "302.0",
       "total_consumption": "398.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -294,7 +294,7 @@
           "consumption": "157.0"
         },
         "Medawar": {
-          "stock": "163.0",
+          "stock": "161.0",
           "consumption": "241.0"
         }
       },
@@ -1364,11 +1364,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "563.0",
+      "stock_in_geitawi_branch": "562.0",
       "consumption_in_geitawi_branch": "487.0",
       "stock_in_medawar_branch": "347.0",
       "consumption_in_medawar_branch": "457.0",
-      "total_stock": "910.0",
+      "total_stock": "909.0",
       "total_consumption": "944.0",
       "VAT": "YES",
       "price_lbp": 45000.0,
@@ -1380,7 +1380,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "563.0",
+          "stock": "562.0",
           "consumption": "487.0"
         },
         "Medawar": {
@@ -1402,7 +1402,8 @@
       "name": "TANNOURINE WATER 2 L",
       "supplier": "TANNOURINE",
       "subcategory": "MINERAL WATER",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "909"
     },
     {
       "id": "1437",
@@ -1574,6 +1575,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-20T13:48:42.978160Z",
+  "updatedAt": "2026-05-20T13:50:52.853077Z",
   "source": "sql"
 }
