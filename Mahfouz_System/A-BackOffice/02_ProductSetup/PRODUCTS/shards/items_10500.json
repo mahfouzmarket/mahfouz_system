@@ -410,11 +410,11 @@
       "sub_category": "COTTONS",
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "12.0",
       "consumption_in_medawar_branch": "1.0",
       "total_stock": "17.0",
-      "total_consumption": "2.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 145000.0,
       "price_usd": "1.61",
@@ -426,7 +426,7 @@
       "branches": {
         "Geitawi": {
           "stock": "5.0",
-          "consumption": "1.0"
+          "consumption": "2.0"
         },
         "Medawar": {
           "stock": "12.0",
@@ -1696,6 +1696,10 @@
         "Medawar": {
           "stock": "5.0",
           "consumption": "2.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "created_by_user_code": "1",
@@ -1713,8 +1717,8 @@
       "name": "HACKER WARRIOR 750 ML",
       "consumption_in_geitawi_branch": "1.0",
       "consumption_in_medawar_branch": "2.0",
-      "stock_in_the_daily_market_branch": "0",
-      "consumption_in_the_daily_market_branch": "0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
       "sub": "INSECT KILLER",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -1762,6 +1766,10 @@
         },
         "Medawar": {
           "stock": "15.0",
+          "consumption": "0.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
           "consumption": "0.0"
         }
       },
@@ -2657,11 +2665,11 @@
       "category": "HOME USAGE",
       "sub_category": "femi care",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
+      "total_stock": "9.0",
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": 275000.0,
@@ -2673,7 +2681,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "4.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -2817,11 +2825,11 @@
       "category": "HOME USAGE",
       "sub_category": "femi care",
       "offers": "0",
-      "stock_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "14.0",
+      "total_stock": "10.0",
       "total_consumption": "6.0",
       "VAT": "NO",
       "price_lbp": 275000.0,
@@ -2833,11 +2841,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
+          "stock": "1.0",
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "8.0",
+          "stock": "9.0",
           "consumption": "1.0"
         }
       },
@@ -2846,7 +2854,16 @@
       "subcategory": "femi care",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "2.41",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-10916-1779260899254739",
+      "product_setup_saved_at_utc": "2026-05-20T07:08:19.254739Z"
     },
     {
       "id": "10919",
@@ -3209,6 +3226,6 @@
       "barcodes": "6009607090012"
     }
   ],
-  "updatedAt": "2026-05-20T07:08:04.816732Z",
+  "updatedAt": "2026-05-20T07:09:39.346828Z",
   "source": "sql"
 }
