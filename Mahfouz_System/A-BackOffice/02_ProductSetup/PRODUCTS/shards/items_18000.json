@@ -3774,11 +3774,11 @@
       "category": "FOOD",
       "sub_category": "CHARCUTERIE",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "22.0",
       "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "8.0",
+      "total_stock": "7.0",
       "total_consumption": "25.0",
       "VAT": "YES",
       "price_lbp": 435000.0,
@@ -3790,7 +3790,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "22.0"
         },
         "Medawar": {
@@ -3810,7 +3810,8 @@
       "name": "LA PIARA TURKEY 200 G",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "CHARCUTERIE",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "7"
     },
     {
       "id": "18194",
@@ -3969,11 +3970,11 @@
       "category": "FOOD",
       "sub_category": "CHARCUTERIE",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "17.0",
       "stock_in_medawar_branch": "14.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "19.0",
+      "total_stock": "18.0",
       "total_consumption": "22.0",
       "VAT": "NO",
       "price_lbp": 370000.0,
@@ -3985,7 +3986,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "4.0",
           "consumption": "17.0"
         },
         "Medawar": {
@@ -4011,7 +4012,8 @@
       "subcategory": "CHARCUTERIE",
       "vat": 0,
       "product_setup_save_token": "PS-SAVE-18197-1778925236843493",
-      "product_setup_saved_at_utc": "2026-05-16T09:53:56.843493Z"
+      "product_setup_saved_at_utc": "2026-05-16T09:53:56.843493Z",
+      "totalStock": "18"
     },
     {
       "id": "18198",
@@ -8898,6 +8900,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-20T14:24:48.555769Z",
+  "updatedAt": "2026-05-20T14:26:46.761922Z",
   "source": "sql"
 }
