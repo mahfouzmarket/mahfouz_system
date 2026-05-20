@@ -1140,7 +1140,7 @@
       "category": "CROISSANT",
       "sub_category": "CROISSANT",
       "offers": "",
-      "total_stock": "3.0",
+      "total_stock": "2.0",
       "total_consumption": "1.0",
       "price_lbp": 200000.0,
       "price_usd": "2.22",
@@ -1152,9 +1152,9 @@
       "unit": "",
       "cost": 1.89,
       "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "consumption_in_medawar_branch": "0.0",
       "batches": [
         {
           "batchId": "prod-1774853950339",
@@ -1338,12 +1338,16 @@
       "stock_in_nouna_branch": "3.0",
       "consumption_in_nouna_branch": "1.0",
       "branches": {
+        "Medawar": {
+          "stock": "-1.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
           "stock": "3.0",
           "consumption": "1.0"
         }
       },
-      "totalStock": "3",
+      "totalStock": "2",
       "updated_at_utc": "2026-05-20T09:32:38.161845Z",
       "name": "NF Cheese Croissant",
       "subcategory": "CROISSANT",
@@ -1474,7 +1478,7 @@
       "category": "BROWNIES",
       "sub_category": "BROWNIES",
       "offers": "",
-      "total_stock": "4.0",
+      "total_stock": "3.0",
       "total_consumption": "0.0",
       "price_lbp": 220000.0,
       "price_usd": "2.44",
@@ -1581,8 +1585,8 @@
           "note": "zeina"
         }
       ],
-      "stock_in_nouna_branch": "4.0",
-      "totalStock": "4",
+      "stock_in_nouna_branch": "3.0",
+      "totalStock": "3",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
@@ -1593,16 +1597,16 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "4.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       },
-      "updated_at_utc": "2026-05-20T13:35:15.994923Z",
+      "updated_at_utc": "2026-05-20T22:08:45.242145Z",
       "consumption_in_nouna_branch": "0.0",
       "name": "NF BROOKIE",
+      "subcategory": "BROWNIES",
       "barcode2": "",
       "barcodes": "",
-      "subcategory": "BROWNIES",
       "vat": 0
     },
     {
@@ -18628,6 +18632,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-20T18:45:30.092105Z",
+  "updatedAt": "2026-05-20T22:09:07.510112Z",
   "source": "sql"
 }

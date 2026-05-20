@@ -311,7 +311,7 @@
       "category": "CHRISTMAS",
       "sub_category": "nouna's food Christmas",
       "offers": "0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "0.0",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
@@ -323,24 +323,29 @@
       "unit": "",
       "cost": 0.94,
       "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "consumption_in_medawar_branch": "0.0",
       "shortcut_category": "",
       "shortcut_sub_category": "",
+      "branches": {
+        "Medawar": {
+          "stock": "-1.0",
+          "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "totalStock": "-1",
       "name": "CHRISTMAS YUMMY GUMMY",
       "barcode2": "",
       "barcodes": "",
       "subcategory": "nouna's food Christmas",
       "vat": 0,
       "stock_in_nouna_branch": "0.0",
-      "consumption_in_nouna_branch": "0.0",
-      "branches": {
-        "Nouna": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
-      }
+      "consumption_in_nouna_branch": "0.0"
     },
     {
       "id": "20623",
@@ -1223,6 +1228,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-20T18:45:30.018105Z",
+  "updatedAt": "2026-05-20T22:09:07.457115Z",
   "source": "sql"
 }
