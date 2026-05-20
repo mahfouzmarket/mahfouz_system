@@ -195,7 +195,7 @@
       "category": "FOOD",
       "sub_category": "CHARCUTERIE",
       "offers": "0",
-      "total_stock": "6.0",
+      "total_stock": "12.0",
       "total_consumption": "0.0",
       "price_lbp": 435000.0,
       "price_usd": "4.83",
@@ -206,10 +206,10 @@
       "SUPPLIERS": "",
       "unit": "",
       "cost": 4.11,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "batches": [
         {
           "batchId": "prod-1774295359349",
@@ -334,11 +334,19 @@
       ],
       "shortcut_category": "",
       "shortcut_sub_category": "",
-      "stock_in_nouna_branch": "6.0",
+      "stock_in_nouna_branch": "12.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
-          "stock": "6.0",
+          "stock": "12.0",
           "consumption": "0.0"
         }
       },
@@ -348,7 +356,8 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "CHARCUTERIE",
-      "vat": 0
+      "vat": 0,
+      "VAT": "NO"
     },
     {
       "id": "18194",
@@ -797,7 +806,7 @@
       "category": "FOOD",
       "sub_category": "CHARCUTERIE",
       "offers": "0",
-      "total_stock": "14.0",
+      "total_stock": "28.0",
       "total_consumption": "0.0",
       "price_lbp": 245000.0,
       "price_usd": "2.72",
@@ -893,7 +902,7 @@
       "barcodes": "",
       "subcategory": "CHARCUTERIE",
       "vat": 0,
-      "stock_in_nouna_branch": "14.0",
+      "stock_in_nouna_branch": "28.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
         "Geitawi": {
@@ -905,7 +914,7 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "14.0",
+          "stock": "28.0",
           "consumption": "0.0"
         }
       },
@@ -1281,6 +1290,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-20T13:14:18.044269Z",
+  "updatedAt": "2026-05-20T15:12:23.964876Z",
   "source": "sql"
 }

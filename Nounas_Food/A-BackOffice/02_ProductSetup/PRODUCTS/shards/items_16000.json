@@ -18,10 +18,10 @@
       "SUPPLIERS": "",
       "unit": "",
       "cost": 1.51,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "batches": [
         {
           "batchId": "prod-1774447877648",
@@ -93,6 +93,14 @@
       "stock_in_nouna_branch": "11.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
           "stock": "11.0",
           "consumption": "0.0"
@@ -102,9 +110,20 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "COLD DRINKS",
-      "vat": 0
+      "vat": 0,
+      "expiry_days": "10",
+      "VAT": "NO",
+      "cost_ht": "1.51",
+      "manual": "",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-16375-1779288939420076",
+      "product_setup_saved_at_utc": "2026-05-20T14:55:39.420076Z"
     }
   ],
-  "updatedAt": "2026-05-20T13:14:17.992270Z",
+  "updatedAt": "2026-05-20T15:12:23.922677Z",
   "source": "sql"
 }
