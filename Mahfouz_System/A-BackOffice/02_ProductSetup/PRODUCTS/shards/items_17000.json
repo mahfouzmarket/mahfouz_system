@@ -682,11 +682,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Chewing gum",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "16.0",
       "VAT": "YES",
       "price_lbp": 370000.0,
@@ -698,7 +698,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -5234,11 +5234,11 @@
       "category": "CHI TAYIB",
       "sub_category": "marshmallow & jellybon",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "6.0",
+      "total_stock": "4.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 135000.0,
@@ -5250,7 +5250,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "4.0"
         },
         "Medawar": {
@@ -5267,7 +5267,8 @@
       "subcategory": "marshmallow & jellybon",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "6"
     },
     {
       "id": "17322",
@@ -6074,11 +6075,11 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "15.0",
+      "stock_in_geitawi_branch": "16.0",
       "consumption_in_geitawi_branch": "19.0",
       "stock_in_medawar_branch": "91.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "106.0",
+      "total_stock": "107.0",
       "total_consumption": "31.0",
       "VAT": "YES",
       "price_lbp": 55000.0,
@@ -6090,7 +6091,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "15.0",
+          "stock": "16.0",
           "consumption": "19.0"
         },
         "Medawar": {
@@ -6120,9 +6121,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "33.0",
       "consumption_in_geitawi_branch": "33.0",
-      "stock_in_medawar_branch": "36.0",
+      "stock_in_medawar_branch": "64.0",
       "consumption_in_medawar_branch": "43.0",
-      "total_stock": "69.0",
+      "total_stock": "97.0",
       "total_consumption": "76.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -6144,7 +6145,7 @@
           "consumption": "33.0"
         },
         "Medawar": {
-          "stock": "36.0",
+          "stock": "64.0",
           "consumption": "43.0"
         }
       },
@@ -7078,7 +7079,6 @@
       "updated_at_utc": "2026-05-18T15:23:41.981Z",
       "bulk_link_repaired_at_utc": "2026-05-18T15:23:41.981Z",
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1_create_missing",
-      "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0"
     },
@@ -8528,6 +8528,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-21T22:37:38.467862Z",
+  "updatedAt": "2026-05-21T22:38:29.809917Z",
   "source": "sql"
 }
