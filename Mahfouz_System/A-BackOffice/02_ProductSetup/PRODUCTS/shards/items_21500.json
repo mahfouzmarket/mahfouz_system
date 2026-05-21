@@ -19640,14 +19640,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "75.0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_medawar_branch": "24.0",
       "consumption_in_geitawi_branch": "16.0",
-      "total_stock": "76.0",
+      "total_stock": "74.0",
       "total_consumption": "40.0",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "-1.0",
           "consumption": "16.0"
         },
         "Medawar": {
@@ -19669,7 +19669,8 @@
       "product_setup_save_token": "PS-SAVE-21888-1777396930951677",
       "product_setup_saved_at_utc": "2026-04-28T17:22:10.951677Z",
       "subcategory": "Digestive Biscuits",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "74"
     },
     {
       "id": "21889",
@@ -22756,6 +22757,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-21T19:17:38.758538Z",
+  "updatedAt": "2026-05-21T19:18:12.060633Z",
   "source": "sql"
 }
