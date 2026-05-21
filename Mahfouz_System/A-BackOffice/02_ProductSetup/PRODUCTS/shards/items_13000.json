@@ -1000,9 +1000,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "13.0",
+      "stock_in_medawar_branch": "8.0",
       "consumption_in_medawar_branch": "16.0",
-      "total_stock": "17.0",
+      "total_stock": "12.0",
       "total_consumption": "24.0",
       "VAT": "NO",
       "price_lbp": 175000.0,
@@ -1018,7 +1018,7 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "13.0",
+          "stock": "8.0",
           "consumption": "16.0"
         }
       },
@@ -1027,7 +1027,8 @@
       "subcategory": "OIL & FAT",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "12"
     },
     {
       "id": "13079",
@@ -2390,7 +2391,8 @@
       "subcategory": "BAKERY",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "9"
     },
     {
       "id": "13191",
@@ -2953,11 +2955,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "19.0",
+      "stock_in_geitawi_branch": "20.0",
       "consumption_in_geitawi_branch": "42.0",
       "stock_in_medawar_branch": "15.0",
       "consumption_in_medawar_branch": "18.0",
-      "total_stock": "34.0",
+      "total_stock": "35.0",
       "total_consumption": "60.0",
       "VAT": "YES",
       "price_lbp": 65000.0,
@@ -2969,7 +2971,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "19.0",
+          "stock": "20.0",
           "consumption": "42.0"
         },
         "Medawar": {
@@ -3646,7 +3648,6 @@
       "product_description": "RIM WATER 500ML x 12 pcs",
       "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
-      "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0"
     },
@@ -4870,7 +4871,8 @@
       "subcategory": "CASTANIA",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "6"
     },
     {
       "id": "13401",
@@ -6215,6 +6217,6 @@
       "totalStock": "77"
     }
   ],
-  "updatedAt": "2026-05-21T21:47:30.623178Z",
+  "updatedAt": "2026-05-21T21:46:46.788393Z",
   "source": "sql"
 }
