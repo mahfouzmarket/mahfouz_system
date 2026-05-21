@@ -178,7 +178,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 135000.0,
-      "cost": 1.25,
+      "cost": 0.0,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -222,11 +222,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.25",
-      "costUsd": 1.25,
-      "cost_ht_usd": 1.25,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "1.50"
     },
     {
@@ -390,7 +385,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790726Z",
       "barcode2": "5283014904846",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -416,12 +411,14 @@
       "cost_ht_usd": 2.64,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11251.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11251.jpg",
       "price_usd": "3.17"
     },
     {
       "id": "11253",
       "barcode": "4084500795297",
-      "Product Description": "PANTINE CONDITIONER ANTI HAIR FALL500ML",
+      "Product Description": "PANTINE CONDITIONER ANTI HAIR FALL500 ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -441,7 +438,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "PANTINE CONDITIONER ANTI HAIR FALL500ML",
+      "name": "PANTINE CONDITIONER ANTI HAIR FALL500 ML",
       "barcode2": "",
       "barcodes": "",
       "supplier": "JACK DIB",
@@ -501,7 +498,7 @@
     {
       "id": "11316",
       "barcode": "3610340652349",
-      "Product Description": "ULTRA DOUX SHAMPOO BLACK CHARCOAL 400ML",
+      "Product Description": "ULTRA DOUX SHAMPOO BLACK CHARCOAL 400 ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -531,12 +528,13 @@
           "consumption": "0.0"
         }
       },
-      "name": "ULTRA DOUX SHAMPOO BLACK CHARCOAL 400ML",
+      "name": "ULTRA DOUX SHAMPOO BLACK CHARCOAL 400 ML",
       "barcode2": "",
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "3"
     },
     {
       "id": "11400",
@@ -571,6 +569,7 @@
           "consumption": "1.0"
         }
       },
+      "totalStock": "5",
       "name": "ULTRA DOUX 400ML",
       "barcode2": "",
       "barcodes": "",
@@ -620,7 +619,8 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "shampoo & cond",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "7"
     },
     {
       "id": "11458",
@@ -663,6 +663,6 @@
       "vat": 1
     }
   ],
-  "updatedAt": "2026-05-21T23:11:48.589003Z",
+  "updatedAt": "2026-05-21T23:15:22.412955Z",
   "source": "sql"
 }
