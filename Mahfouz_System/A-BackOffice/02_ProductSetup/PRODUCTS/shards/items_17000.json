@@ -680,11 +680,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Chewing gum",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "16.0",
       "VAT": "YES",
       "price_lbp": 370000.0,
@@ -696,7 +696,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -1101,11 +1101,11 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "49.0",
+      "stock_in_geitawi_branch": "37.0",
       "consumption_in_geitawi_branch": "29.0",
       "stock_in_medawar_branch": "94.0",
       "consumption_in_medawar_branch": "12.0",
-      "total_stock": "143.0",
+      "total_stock": "131.0",
       "total_consumption": "41.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -1117,7 +1117,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "49.0",
+          "stock": "37.0",
           "consumption": "29.0"
         },
         "Medawar": {
@@ -1437,7 +1437,8 @@
       "subcategory": "LIGHTER",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "13"
     },
     {
       "id": "17092",
@@ -2773,7 +2774,6 @@
       "product_description": "AQUAFINA WATER 2 L x 6 pcs",
       "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
-      "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "barcode2": "",
       "barcodes": "",
       "stock_in_the_daily_market_branch": "0.0",
@@ -5267,7 +5267,8 @@
       "subcategory": "marshmallow & jellybon",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "6"
     },
     {
       "id": "17322",
@@ -5355,7 +5356,8 @@
       "subcategory": "marshmallow & jellybon",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "3"
     },
     {
       "id": "17325",
@@ -6080,7 +6082,6 @@
       "product_description": "AQUAFINA WATER 0.5 L x 12 pcs",
       "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
-      "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0"
     },
@@ -6139,9 +6140,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "33.0",
       "consumption_in_geitawi_branch": "33.0",
-      "stock_in_medawar_branch": "36.0",
+      "stock_in_medawar_branch": "64.0",
       "consumption_in_medawar_branch": "43.0",
-      "total_stock": "69.0",
+      "total_stock": "97.0",
       "total_consumption": "76.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -6163,7 +6164,7 @@
           "consumption": "33.0"
         },
         "Medawar": {
-          "stock": "36.0",
+          "stock": "64.0",
           "consumption": "43.0"
         }
       },
@@ -7096,7 +7097,6 @@
       "updated_at_utc": "2026-05-18T15:23:41.981Z",
       "bulk_link_repaired_at_utc": "2026-05-18T15:23:41.981Z",
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1_create_missing",
-      "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0"
     },
@@ -8548,6 +8548,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-21T21:20:41.727062Z",
+  "updatedAt": "2026-05-21T21:21:39.234932Z",
   "source": "sql"
 }
