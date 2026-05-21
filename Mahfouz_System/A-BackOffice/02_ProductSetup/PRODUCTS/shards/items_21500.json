@@ -12059,7 +12059,7 @@
       "cost": 2.06,
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "13.0"
         },
         "Medawar": {
@@ -12067,9 +12067,9 @@
           "consumption": "16.0"
         }
       },
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "2.0",
-      "total_stock": "2.0",
+      "total_stock": "4.0",
       "Product Description": "ALFORNO BURGER SESAME",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "updatedAt": "2026-05-09T00:33:34",
@@ -18007,7 +18007,7 @@
       "branches": {
         "Geitawi": {
           "stock": "27.0",
-          "consumption": "2.0"
+          "consumption": "1.0"
         },
         "Medawar": {
           "stock": "28.0",
@@ -18019,8 +18019,8 @@
       "cost": 0.8708333333333333,
       "stock_in_medawar_branch": "28.0",
       "consumption_in_medawar_branch": "8.0",
-      "consumption_in_geitawi_branch": "2.0",
-      "total_consumption": "10.0",
+      "consumption_in_geitawi_branch": "1.0",
+      "total_consumption": "9.0",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -18897,13 +18897,13 @@
       "SUPPLIERS": "CIGARETTES",
       "subcategory": "TANBAK",
       "vat": 0,
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "1.0",
           "consumption": "2.0"
         },
         "Medawar": {
@@ -18911,7 +18911,7 @@
           "consumption": "0.0"
         }
       },
-      "total_stock": "0.0",
+      "total_stock": "2.0",
       "total_consumption": "2.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -22473,17 +22473,17 @@
       "vat": 0,
       "price_lbp": 600000.0,
       "cost": 5.56,
-      "total_stock": "2.0",
+      "total_stock": "10.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "8.0",
       "branches": {
         "Geitawi": {
           "stock": "2.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "8.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -22526,7 +22526,7 @@
     {
       "id": "21983",
       "barcode": "2709467",
-      "barcodes": "",
+      "barcodes": "000",
       "Product Description": "NF FRESH LEMONADE",
       "product_description": "NF FRESH LEMONADE",
       "description": "NF FRESH LEMONADE",
@@ -22565,7 +22565,7 @@
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
       "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "",
+      "barcode2": "000",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
       "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
@@ -22756,6 +22756,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-21T15:18:49.336825Z",
+  "updatedAt": "2026-05-21T15:19:44.317141Z",
   "source": "sql"
 }
