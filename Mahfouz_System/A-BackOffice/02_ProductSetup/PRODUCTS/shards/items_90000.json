@@ -7032,7 +7032,7 @@
     {
       "id": "90110",
       "barcode": "2709259",
-      "Product Description": "DRAGEE RAISIN 150g",
+      "Product Description": "NF DRAGEE RAISIN NT 150 G",
       "category": "CHOCOLATE AND DRAGEE",
       "sub_category": "CHOCOLATE AND DRAGÉE",
       "offers": "",
@@ -7044,29 +7044,49 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID90110.jpg",
       "new_items": "",
       "delivery_rules": "0.005",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "",
       "cost": 5.1,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "batches": "[{batchId: prod-1770232740368, branch: , qty: 6, expiryDate: 2027-01-19T00:00:00.000, tsUtc: 2026-02-04T19:19:00.368379Z, note: Samir}]",
       "shortcut_category": "",
       "shortcut_sub_category": "",
       "stock_in_nouna_branch": "5.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
           "stock": "5.0",
           "consumption": "0.0"
         }
       },
-      "name": "DRAGEE RAISIN 150g",
+      "name": "NF DRAGEE RAISIN NT 150 G",
       "barcode2": "",
       "barcodes": "",
       "subcategory": "CHOCOLATE AND DRAGÉE",
-      "vat": 0
+      "vat": 0,
+      "expiry_days": "365",
+      "VAT": "NO",
+      "cost_ht": "5.10",
+      "manual": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Mahfouz_System",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "CHOCOLATE AND DRAGEE",
+      "product_setup_save_token": "PS-SAVE-90110-1779344373577475",
+      "product_setup_saved_at_utc": "2026-05-21T06:19:33.577475Z",
+      "supplier": "NOUNA'S FOOD"
     },
     {
       "id": "90111",
@@ -18696,6 +18716,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-21T06:18:54.263713Z",
+  "updatedAt": "2026-05-21T06:19:54.720402Z",
   "source": "sql"
 }
