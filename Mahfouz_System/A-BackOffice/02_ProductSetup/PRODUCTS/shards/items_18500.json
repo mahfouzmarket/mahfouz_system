@@ -15,13 +15,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18661.jpg",
       "new_items": "",
       "delivery_rules": "0.005",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "",
       "cost": 1.89,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "batches": [
         {
           "batchId": "prod-1773920511687",
@@ -69,6 +69,14 @@
       "stock_in_nouna_branch": "6.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
           "stock": "6.0",
           "consumption": "0.0"
@@ -80,7 +88,19 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "SABLE AND PETIT FOUR",
-      "vat": 0
+      "vat": 0,
+      "expiry_days": "30",
+      "VAT": "NO",
+      "cost_ht": "1.89",
+      "manual": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Mahfouz_System",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "SABLE AND PETIT FOUR",
+      "product_setup_save_token": "PS-SAVE-18661-1779368134840531",
+      "product_setup_saved_at_utc": "2026-05-21T12:55:34.840531Z",
+      "supplier": "NOUNA'S FOOD"
     },
     {
       "id": "18712",
@@ -941,6 +961,6 @@
       "supplier": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-05-21T12:55:31.913161Z",
+  "updatedAt": "2026-05-21T12:56:05.421164Z",
   "source": "sql"
 }
