@@ -742,13 +742,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20713.jpg",
       "new_items": "",
       "delivery_rules": "0.005",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "",
       "cost": 2.98,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "batches": "[{batchId: prod-1770221980867, branch: , qty: 1, expiryDate: 2026-12-31T00:00:00.000, tsUtc: 2026-02-04T16:19:40.867846Z, note: Samir}]",
       "shortcut_category": "",
       "shortcut_sub_category": "",
@@ -760,11 +760,31 @@
       "stock_in_nouna_branch": "0.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "expiry_days": "365",
+      "VAT": "NO",
+      "cost_ht": "2.98",
+      "manual": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Mahfouz_System",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "CHRISTMAS",
+      "product_setup_save_token": "PS-SAVE-20713-1779343580334054",
+      "product_setup_saved_at_utc": "2026-05-21T06:06:20.334054Z",
+      "supplier": "NOUNA'S FOOD"
     },
     {
       "id": "20714",
@@ -1228,6 +1248,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-21T06:05:41.690255Z",
+  "updatedAt": "2026-05-21T06:06:54.367961Z",
   "source": "sql"
 }
