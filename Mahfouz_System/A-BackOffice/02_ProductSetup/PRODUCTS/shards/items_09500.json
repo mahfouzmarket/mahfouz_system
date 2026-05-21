@@ -18,7 +18,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 350000.0,
-      "cost": 0.0,
+      "cost": 3.24,
       "total_stock": "0.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -62,6 +62,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "3.24",
+      "costUsd": 3.24,
+      "cost_ht_usd": 3.24,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "3.89"
     },
     {
@@ -113,12 +118,12 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "3.0",
-      "total_stock": "0.0",
-      "total_consumption": "6.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 210000.0,
       "price_usd": "2.33",
@@ -129,12 +134,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "3.0"
+          "stock": "2.0",
+          "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "3.0"
+          "consumption": "0.0"
         }
       },
       "name": "JAVEL LA CROIX TRADIT. 2L",
@@ -147,18 +152,18 @@
     {
       "id": "9572",
       "barcode": "5285001613229",
-      "Product Description": "JAVEL LA CROIX TRADIT. 1 L",
+      "Product Description": "JAVEL LA CROIX TRADIT. 1L",
       "SUPPLIERS": "NEAR EAST PERSONAL CARE CO SAL",
       "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "10.0",
-      "stock_in_medawar_branch": "18.0",
-      "consumption_in_medawar_branch": "8.0",
-      "total_stock": "18.0",
-      "total_consumption": "18.0",
+      "stock_in_geitawi_branch": "4.0",
+      "consumption_in_geitawi_branch": "14.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "4.0",
+      "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -169,37 +174,36 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "10.0"
+          "stock": "4.0",
+          "consumption": "14.0"
         },
         "Medawar": {
-          "stock": "18.0",
-          "consumption": "8.0"
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
-      "name": "JAVEL LA CROIX TRADIT. 1 L",
+      "name": "JAVEL LA CROIX TRADIT. 1L",
       "supplier": "NEAR EAST PERSONAL CARE CO SAL",
       "subcategory": "DISH WASHING",
       "vat": 1,
       "barcode2": "5283004315812",
-      "barcodes": "5283004315812",
-      "totalStock": "18"
+      "barcodes": "5283004315812"
     },
     {
       "id": "9575",
       "barcode": "6281006100060",
-      "Product Description": "JIF LEMON 500 ML",
+      "Product Description": "JIF LEMON 500ML",
       "SUPPLIERS": "ENDURANCE SAL",
       "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "12.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "12.0",
-      "total_consumption": "5.0",
+      "stock_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "1.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "2.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 260000.0,
       "price_usd": "2.89",
@@ -210,15 +214,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "3.0"
+          "stock": "2.0",
+          "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "12.0",
-          "consumption": "2.0"
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
-      "name": "JIF LEMON 500 ML",
+      "name": "JIF LEMON 500ML",
       "supplier": "ENDURANCE SAL",
       "subcategory": "CLEANING",
       "vat": 1,
@@ -236,9 +240,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "17.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "22.0",
+      "total_stock": "5.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 260000.0,
@@ -254,7 +258,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "17.0",
+          "stock": "0.0",
           "consumption": "0.0"
         }
       },
@@ -267,8 +271,7 @@
       "subcategory": "CLEANING",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "22"
+      "barcodes": ""
     },
     {
       "id": "9588",
@@ -279,11 +282,11 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "10.0",
       "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 430000.0,
@@ -295,12 +298,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "2.0"
+          "stock": "10.0",
+          "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "2.0"
         }
       },
       "name": "TAB 1LITER 20% FREE",
@@ -319,12 +322,12 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "14.0",
-      "consumption_in_medawar_branch": "9.0",
-      "total_stock": "14.0",
-      "total_consumption": "10.0",
+      "stock_in_geitawi_branch": "8.0",
+      "consumption_in_geitawi_branch": "5.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "8.0",
+      "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 290000.0,
       "price_usd": "3.22",
@@ -335,12 +338,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "1.0"
+          "stock": "8.0",
+          "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "14.0",
-          "consumption": "9.0"
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "name": "GERMAX BIG 1200C",
@@ -359,12 +362,12 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "4.0",
+      "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "8.0",
-      "total_stock": "0.0",
-      "total_consumption": "12.0",
+      "consumption_in_medawar_branch": "7.0",
+      "total_stock": "4.0",
+      "total_consumption": "10.0",
       "VAT": "YES",
       "price_lbp": 310000.0,
       "price_usd": "3.44",
@@ -375,12 +378,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "4.0"
+          "stock": "4.0",
+          "consumption": "3.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "8.0"
+          "consumption": "7.0"
         }
       },
       "name": "RAMBO 650 ML",
@@ -393,18 +396,18 @@
     {
       "id": "9625",
       "barcode": "5283022044664",
-      "Product Description": "DIMEX 1 L",
+      "Product Description": "DIMEX 1L",
       "SUPPLIERS": "SADAPACK",
       "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "6.0",
-      "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "42.0",
-      "consumption_in_medawar_branch": "7.0",
-      "total_stock": "48.0",
-      "total_consumption": "10.0",
+      "stock_in_geitawi_branch": "9.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "3.0",
+      "total_stock": "9.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -415,15 +418,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
-          "consumption": "3.0"
+          "stock": "9.0",
+          "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "42.0",
-          "consumption": "7.0"
+          "stock": "0.0",
+          "consumption": "3.0"
         }
       },
-      "name": "DIMEX 1 L",
+      "name": "DIMEX 1L",
       "supplier": "SADAPACK",
       "subcategory": "CLEANING",
       "vat": 1,
@@ -439,12 +442,12 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "0.0",
-      "total_consumption": "4.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "2.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 450000.0,
       "price_usd": "5.00",
@@ -455,12 +458,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "2.0"
+          "stock": "2.0",
+          "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "1.0"
         }
       },
       "name": "SEPTOL SPRAY & WIPE SANITIZER 825 ML",
@@ -522,9 +525,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -544,7 +547,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "barcode2": "",
@@ -602,9 +605,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "3.0",
       "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -624,7 +627,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "3.0"
         }
       },
       "barcode2": "",
@@ -681,9 +684,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7.0",
+      "total_stock": "2.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 655000.0,
@@ -699,7 +702,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "5.0",
+          "stock": "0.0",
           "consumption": "0.0"
         }
       },
@@ -708,8 +711,7 @@
       "subcategory": "hair care",
       "vat": 1,
       "barcode2": "5285001951000",
-      "barcodes": "5285001951000",
-      "totalStock": "7"
+      "barcodes": "5285001951000"
     },
     {
       "id": "9685",
@@ -722,9 +724,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10.0",
+      "total_stock": "4.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 655000.0,
@@ -744,13 +746,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "6.0",
+          "stock": "0.0",
           "consumption": "0.0"
         }
       },
       "barcode2": "5285001951406",
-      "barcodes": "5285001951406",
-      "totalStock": "10"
+      "barcodes": "5285001951406"
     },
     {
       "id": "9711",
@@ -764,9 +765,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "4.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 105000.0,
       "price_usd": "1.17",
@@ -782,7 +783,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "3.0"
+          "consumption": "0.0"
         }
       },
       "name": "ELSADA HAND WASH",
@@ -841,12 +842,12 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "9.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "0.0",
-      "total_consumption": "3.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "9.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 195000.0,
       "price_usd": "2.17",
@@ -857,12 +858,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "1.0"
+          "stock": "9.0",
+          "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "name": "EASY 750CC",
@@ -910,12 +911,21 @@
         }
       },
       "barcode2": "5290426205409",
-      "barcodes": "5290426205409"
+      "barcodes": "5290426205409",
+      "expiry_days": "0",
+      "cost_ht": "0.41",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-9744-1778919839393390",
+      "product_setup_saved_at_utc": "2026-05-16T08:23:59.393390Z"
     },
     {
       "id": "9747",
       "barcode": "8888299758435",
-      "Product Description": "SUPER GLUE 3 G",
+      "Product Description": "SUPER GLUE 3G",
       "SUPPLIERS": "PLATCO",
       "unit": "-",
       "category": "HOME USAGE",
@@ -923,10 +933,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "49.0",
-      "stock_in_medawar_branch": "26.0",
-      "consumption_in_medawar_branch": "43.0",
-      "total_stock": "35.0",
-      "total_consumption": "92.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "55.0",
+      "total_stock": "9.0",
+      "total_consumption": "104.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -941,11 +951,11 @@
           "consumption": "49.0"
         },
         "Medawar": {
-          "stock": "26.0",
-          "consumption": "43.0"
+          "stock": "0.0",
+          "consumption": "55.0"
         }
       },
-      "name": "SUPER GLUE 3 G",
+      "name": "SUPER GLUE 3G",
       "supplier": "PLATCO",
       "subcategory": "TOOLS",
       "vat": 1,
@@ -963,9 +973,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "2.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
+      "total_stock": "0.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 125000.0,
@@ -985,11 +995,10 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "0.0"
         }
       },
-      "totalStock": "2",
       "barcode2": "",
       "barcodes": ""
     },
@@ -1005,9 +1014,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 125000.0,
       "price_usd": "1.39",
@@ -1023,7 +1032,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "name": "LIGHTER GAZ",
@@ -1042,12 +1051,12 @@
       "category": "HOME USAGE",
       "sub_category": "PLAY CARDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "10.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "10.0",
-      "total_consumption": "2.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "3.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 510000.0,
       "price_usd": "5.67",
@@ -1058,12 +1067,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "3.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "10.0",
-          "consumption": "1.0"
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "name": "B.R GRIMAUD 2",
@@ -1071,8 +1080,7 @@
       "subcategory": "PLAY CARDS",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "10"
+      "barcodes": ""
     },
     {
       "id": "9820",
@@ -1085,10 +1093,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "42.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "50.0",
-      "consumption_in_medawar_branch": "6.0",
-      "total_stock": "92.0",
-      "total_consumption": "6.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "7.0",
+      "total_stock": "42.0",
+      "total_consumption": "7.0",
       "VAT": "YES",
       "price_lbp": 80000.0,
       "price_usd": "0.89",
@@ -1103,8 +1111,8 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "50.0",
-          "consumption": "6.0"
+          "stock": "0.0",
+          "consumption": "7.0"
         }
       },
       "name": "GAMEX",
@@ -1126,9 +1134,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "3.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
       "price_usd": "0.44",
@@ -1144,7 +1152,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "3.0"
         }
       },
       "name": "ZEBRA KABRIT X10",
@@ -1163,12 +1171,12 @@
       "category": "HOME USAGE",
       "sub_category": "hand & body wash",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "12.0",
+      "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "12.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 200000.0,
       "price_usd": "2.22",
@@ -1179,12 +1187,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "12.0",
+          "consumption": "4.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "name": "LOOFAH ALNOUR SMALL K",
@@ -1205,10 +1213,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "3.0",
-      "consumption_in_medawar_branch": "3.0",
-      "total_stock": "3.0",
-      "total_consumption": "6.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "0.0",
+      "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 545000.0,
       "price_usd": "6.06",
@@ -1223,8 +1231,8 @@
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "3.0",
-          "consumption": "3.0"
+          "stock": "0.0",
+          "consumption": "2.0"
         }
       },
       "name": "FOURNIER 777",
@@ -1232,8 +1240,7 @@
       "subcategory": "PLAY CARDS",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "3"
+      "barcodes": ""
     },
     {
       "id": "9889",
@@ -1244,11 +1251,11 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "2.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 200000.0,
@@ -1260,12 +1267,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "1.0"
+          "stock": "2.0",
+          "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "QUICK ALTECO",
@@ -1284,12 +1291,12 @@
       "category": "HOME USAGE",
       "sub_category": "WOMAN CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "19.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "4.0",
-      "total_stock": "0.0",
-      "total_consumption": "6.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "19.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 265000.0,
       "price_usd": "2.94",
@@ -1300,12 +1307,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "2.0"
+          "stock": "19.0",
+          "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "4.0"
+          "consumption": "0.0"
         }
       },
       "name": "DEDE COLLANT SATINE",
@@ -1324,11 +1331,11 @@
       "category": "HOME USAGE",
       "sub_category": "WOMAN CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "9.0",
+      "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "0.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "9.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 95000.0,
@@ -1340,12 +1347,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "9.0",
+          "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "1.0"
         }
       },
       "name": "MI-BAS",
@@ -1393,7 +1400,16 @@
       "subcategory": "STATIONARY",
       "vat": 1,
       "barcode2": "5283001500945",
-      "barcodes": "5283001500945"
+      "barcodes": "5283001500945",
+      "expiry_days": "0",
+      "cost_ht": "0.39",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-9912-1778908526859498",
+      "product_setup_saved_at_utc": "2026-05-16T05:15:26.859498Z"
     },
     {
       "id": "9958",
@@ -1404,12 +1420,12 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "30.0",
-      "consumption_in_medawar_branch": "3.0",
-      "total_stock": "30.0",
-      "total_consumption": "5.0",
+      "stock_in_geitawi_branch": "9.0",
+      "consumption_in_geitawi_branch": "1.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "9.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -1420,12 +1436,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "2.0"
+          "stock": "9.0",
+          "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "30.0",
-          "consumption": "3.0"
+          "stock": "0.0",
+          "consumption": "1.0"
         }
       },
       "name": "COFFEE CUP 100 SOMOPLAST",
@@ -1433,8 +1449,7 @@
       "subcategory": "PICNIC & OFFICE USE",
       "vat": 1,
       "barcode2": "6281102040260",
-      "barcodes": "6281102040260",
-      "totalStock": "30"
+      "barcodes": "6281102040260"
     },
     {
       "id": "9989",
@@ -1454,18 +1469,18 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 55000.0,
-      "cost": 0.0,
-      "total_stock": "18.0",
+      "cost": 0.51,
+      "total_stock": "0.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "18.0",
+      "stock_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "18.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -1498,10 +1513,14 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "18",
+      "cost_ht": "0.51",
+      "costUsd": 0.51,
+      "cost_ht_usd": 0.51,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "0.61"
     }
   ],
-  "updatedAt": "2026-05-21T23:20:02.382267Z",
+  "updatedAt": "2026-05-21T23:22:20.698240Z",
   "source": "sql"
 }
