@@ -20,7 +20,7 @@
       "price_lbp": 90000.0,
       "cost": 0.83,
       "total_stock": "83.0",
-      "total_consumption": "13.0",
+      "total_consumption": "15.0",
       "stock_in_geitawi_branch": "13.0",
       "stock_in_medawar_branch": "70.0",
       "branches": {
@@ -30,7 +30,7 @@
         },
         "Medawar": {
           "stock": "70.0",
-          "consumption": "5.0"
+          "consumption": "7.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -51,7 +51,7 @@
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "LIGHTER GOLD",
       "consumption_in_geitawi_branch": "8.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "7.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
       "sub": "LIGHTER",
@@ -246,13 +246,13 @@
       "price_lbp": 200000.0,
       "cost": 1.85,
       "total_stock": "-5.0",
-      "total_consumption": "6.0",
+      "total_consumption": "11.0",
       "stock_in_geitawi_branch": "-4.0",
       "stock_in_medawar_branch": "-1.0",
       "branches": {
         "Geitawi": {
           "stock": "-4.0",
-          "consumption": "6.0"
+          "consumption": "11.0"
         },
         "Medawar": {
           "stock": "-1.0",
@@ -276,7 +276,7 @@
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NF ENERGY COOKIE NT 70 G",
-      "consumption_in_geitawi_branch": "6.0",
+      "consumption_in_geitawi_branch": "11.0",
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
@@ -307,7 +307,7 @@
     {
       "id": "22010",
       "barcode": "2709409",
-      "barcodes": "11223344",
+      "barcodes": "",
       "Product Description": "NF DRIED APRICOT NT 100 G",
       "product_description": "NF DRIED APRICOT NT 100G",
       "description": "NF DRIED APRICOT NT 100G",
@@ -346,7 +346,7 @@
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
       "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "11223344",
+      "barcode2": "",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
       "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
@@ -602,6 +602,6 @@
       "product_setup_saved_at_utc": "2026-05-12T10:59:32.129695Z"
     }
   ],
-  "updatedAt": "2026-05-21T13:12:56.323567Z",
+  "updatedAt": "2026-05-21T13:13:40.222349Z",
   "source": "sql"
 }
