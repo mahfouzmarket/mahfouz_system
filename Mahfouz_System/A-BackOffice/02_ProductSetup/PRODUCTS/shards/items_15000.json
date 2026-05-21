@@ -57,9 +57,9 @@
       "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "54.0",
-      "consumption_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "9.0",
       "total_stock": "65.0",
-      "total_consumption": "15.0",
+      "total_consumption": "16.0",
       "VAT": "NO",
       "price_lbp": 90000.0,
       "price_usd": "1.00",
@@ -75,7 +75,7 @@
         },
         "Medawar": {
           "stock": "54.0",
-          "consumption": "8.0"
+          "consumption": "9.0"
         }
       },
       "name": "SIBELLE FACIAL TISSUES 200",
@@ -137,9 +137,9 @@
       "stock_in_geitawi_branch": "13.0",
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "31.0",
-      "consumption_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "14.0",
       "total_stock": "44.0",
-      "total_consumption": "22.0",
+      "total_consumption": "24.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
       "price_usd": "0.56",
@@ -155,7 +155,7 @@
         },
         "Medawar": {
           "stock": "31.0",
-          "consumption": "12.0"
+          "consumption": "14.0"
         }
       },
       "name": "TISSUES PUZZ 300",
@@ -186,9 +186,9 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "65.0",
       "stock_in_medawar_branch": "4.0",
-      "consumption_in_medawar_branch": "73.0",
+      "consumption_in_medawar_branch": "79.0",
       "total_stock": "7.0",
-      "total_consumption": "138.0",
+      "total_consumption": "144.0",
       "VAT": "NO",
       "price_lbp": 150000.0,
       "price_usd": "1.67",
@@ -204,7 +204,7 @@
         },
         "Medawar": {
           "stock": "4.0",
-          "consumption": "73.0"
+          "consumption": "79.0"
         }
       },
       "name": "MOULIN DOR WHOLE WHEAT BREAD",
@@ -232,7 +232,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 665000.0,
-      "cost": 6.16,
+      "cost": 0.0,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -276,11 +276,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "6.16",
-      "costUsd": 6.16,
-      "cost_ht_usd": 6.16,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "7.39"
     },
     {
@@ -639,7 +634,7 @@
     {
       "id": "15077",
       "barcode": "5281014000032",
-      "Product Description": "CYLON TEA HORSE HEAD 350 G",
+      "Product Description": "CYLON TEA HORSE HEAD 350G",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "unit": "-",
       "category": "FOOD",
@@ -669,12 +664,13 @@
           "consumption": "3.0"
         }
       },
-      "name": "CYLON TEA HORSE HEAD 350 G",
+      "name": "CYLON TEA HORSE HEAD 350G",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "TEA",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "15084",
@@ -719,7 +715,7 @@
     {
       "id": "15085",
       "barcode": "5285008140728",
-      "Product Description": "LABAN KHOURY LACTOSE FREE 1 KG",
+      "Product Description": "LABAN KHOURY LACTOSE FREE 1KG",
       "SUPPLIERS": "DAIRY KHOURY USD",
       "unit": "-",
       "category": "FOOD",
@@ -749,7 +745,7 @@
           "consumption": "0.0"
         }
       },
-      "name": "LABAN KHOURY LACTOSE FREE 1 KG",
+      "name": "LABAN KHOURY LACTOSE FREE 1KG",
       "supplier": "DAIRY KHOURY USD",
       "subcategory": "DAIRY PRODUCTS",
       "vat": 0,
@@ -803,7 +799,7 @@
     {
       "id": "15093",
       "barcode": "5283007104376",
-      "Product Description": "SMEDS KACHTA PLAIN FLAVOUR 170 G",
+      "Product Description": "SMEDS KACHTA PLAIN FLAVOUR 170G",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "unit": "-",
       "category": "FOOD",
@@ -833,7 +829,7 @@
           "consumption": "0.0"
         }
       },
-      "name": "SMEDS KACHTA PLAIN FLAVOUR 170 G",
+      "name": "SMEDS KACHTA PLAIN FLAVOUR 170G",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "cans & jams",
       "vat": 0,
@@ -843,7 +839,7 @@
     {
       "id": "15094",
       "barcode": "5283007104482",
-      "Product Description": "SMEDS KASHTA STRAWBERRY FLAVOUR 170 G",
+      "Product Description": "SMEDS KASHTA STRAWBERRY FLAVOUR 170G",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "unit": "-",
       "category": "FOOD",
@@ -873,7 +869,7 @@
           "consumption": "10.0"
         }
       },
-      "name": "SMEDS KASHTA STRAWBERRY FLAVOUR 170 G",
+      "name": "SMEDS KASHTA STRAWBERRY FLAVOUR 170G",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "cans & jams",
       "vat": 0,
@@ -932,9 +928,9 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "5.0",
       "stock_in_medawar_branch": "13.0",
-      "consumption_in_medawar_branch": "22.0",
+      "consumption_in_medawar_branch": "24.0",
       "total_stock": "16.0",
-      "total_consumption": "27.0",
+      "total_consumption": "29.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -950,7 +946,7 @@
         },
         "Medawar": {
           "stock": "13.0",
-          "consumption": "22.0"
+          "consumption": "24.0"
         }
       },
       "name": "WHITE BELL MAYONNAISE 250 ML",
@@ -1043,7 +1039,7 @@
     {
       "id": "15108",
       "barcode": "5283000903563",
-      "Product Description": "RED ROUND KIDNEY BEANS 900 G",
+      "Product Description": "RED ROUND KIDNEY BEANS 900G",
       "SUPPLIERS": "AOUN FOOD CO",
       "unit": "-",
       "category": "FOOD",
@@ -1073,7 +1069,7 @@
           "consumption": "2.0"
         }
       },
-      "name": "RED ROUND KIDNEY BEANS 900 G",
+      "name": "RED ROUND KIDNEY BEANS 900G",
       "supplier": "AOUN FOOD CO",
       "subcategory": "SEEDS",
       "vat": 0,
@@ -1282,7 +1278,8 @@
       "subcategory": "cold coffee",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "9"
     },
     {
       "id": "15125",
@@ -1381,12 +1378,12 @@
       "category": "CHI TAYIB",
       "sub_category": "Low calorie delight",
       "offers": "0",
-      "stock_in_geitawi_branch": "12.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "29.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "41.0",
-      "total_consumption": "8.0",
+      "consumption_in_medawar_branch": "3.0",
+      "total_stock": "29.0",
+      "total_consumption": "10.0",
       "VAT": "YES",
       "price_lbp": 195000.0,
       "price_usd": "2.17",
@@ -1397,12 +1394,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "12.0",
+          "stock": "0.0",
           "consumption": "7.0"
         },
         "Medawar": {
           "stock": "29.0",
-          "consumption": "1.0"
+          "consumption": "3.0"
         }
       },
       "sub": "Low calorie delight",
@@ -1428,9 +1425,9 @@
       "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "22.0",
-      "consumption_in_medawar_branch": "10.0",
+      "consumption_in_medawar_branch": "11.0",
       "total_stock": "32.0",
-      "total_consumption": "17.0",
+      "total_consumption": "18.0",
       "VAT": "YES",
       "price_lbp": 215000.0,
       "price_usd": "2.39",
@@ -1446,7 +1443,7 @@
         },
         "Medawar": {
           "stock": "22.0",
-          "consumption": "10.0"
+          "consumption": "11.0"
         }
       },
       "sub": "Low calorie delight",
@@ -1552,9 +1549,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "113.0",
       "stock_in_medawar_branch": "7.0",
-      "consumption_in_medawar_branch": "62.0",
+      "consumption_in_medawar_branch": "63.0",
       "total_stock": "7.0",
-      "total_consumption": "175.0",
+      "total_consumption": "176.0",
       "VAT": "NO",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -1570,7 +1567,7 @@
         },
         "Medawar": {
           "stock": "7.0",
-          "consumption": "62.0"
+          "consumption": "63.0"
         }
       },
       "name": "TEREA SIENNA",
@@ -1600,10 +1597,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "99.0",
-      "stock_in_medawar_branch": "12.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "14.0",
-      "total_consumption": "109.0",
+      "stock_in_medawar_branch": "10.0",
+      "consumption_in_medawar_branch": "13.0",
+      "total_stock": "12.0",
+      "total_consumption": "112.0",
       "VAT": "NO",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -1618,8 +1615,8 @@
           "consumption": "99.0"
         },
         "Medawar": {
-          "stock": "12.0",
-          "consumption": "10.0"
+          "stock": "10.0",
+          "consumption": "13.0"
         }
       },
       "name": "TEREA YELLOW",
@@ -1648,11 +1645,11 @@
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
       "stock_in_geitawi_branch": "31.0",
-      "consumption_in_geitawi_branch": "57.0",
+      "consumption_in_geitawi_branch": "58.0",
       "stock_in_medawar_branch": "24.0",
       "consumption_in_medawar_branch": "23.0",
       "total_stock": "55.0",
-      "total_consumption": "80.0",
+      "total_consumption": "81.0",
       "VAT": "NO",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -1664,7 +1661,7 @@
       "branches": {
         "Geitawi": {
           "stock": "31.0",
-          "consumption": "57.0"
+          "consumption": "58.0"
         },
         "Medawar": {
           "stock": "24.0",
@@ -1685,7 +1682,8 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-15137-1779081363936920",
-      "product_setup_saved_at_utc": "2026-05-18T05:16:03.936920Z"
+      "product_setup_saved_at_utc": "2026-05-18T05:16:03.936920Z",
+      "totalStock": "55"
     },
     {
       "id": "15138",
@@ -1697,11 +1695,11 @@
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
       "stock_in_geitawi_branch": "10.0",
-      "consumption_in_geitawi_branch": "136.0",
+      "consumption_in_geitawi_branch": "137.0",
       "stock_in_medawar_branch": "35.0",
-      "consumption_in_medawar_branch": "40.0",
+      "consumption_in_medawar_branch": "42.0",
       "total_stock": "45.0",
-      "total_consumption": "176.0",
+      "total_consumption": "179.0",
       "VAT": "NO",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -1713,11 +1711,11 @@
       "branches": {
         "Geitawi": {
           "stock": "10.0",
-          "consumption": "136.0"
+          "consumption": "137.0"
         },
         "Medawar": {
           "stock": "35.0",
-          "consumption": "40.0"
+          "consumption": "42.0"
         }
       },
       "name": "TEREA PURPLE WAVE",
@@ -1746,11 +1744,11 @@
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
       "stock_in_geitawi_branch": "-4.0",
-      "consumption_in_geitawi_branch": "213.0",
+      "consumption_in_geitawi_branch": "214.0",
       "stock_in_medawar_branch": "20.0",
       "consumption_in_medawar_branch": "64.0",
       "total_stock": "16.0",
-      "total_consumption": "277.0",
+      "total_consumption": "278.0",
       "VAT": "NO",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -1762,7 +1760,7 @@
       "branches": {
         "Geitawi": {
           "stock": "-4.0",
-          "consumption": "213.0"
+          "consumption": "214.0"
         },
         "Medawar": {
           "stock": "20.0",
@@ -1783,7 +1781,8 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-15139-1779081633380051",
-      "product_setup_saved_at_utc": "2026-05-18T05:20:33.380051Z"
+      "product_setup_saved_at_utc": "2026-05-18T05:20:33.380051Z",
+      "totalStock": "16"
     },
     {
       "id": "15140",
@@ -1797,9 +1796,9 @@
       "stock_in_geitawi_branch": "27.0",
       "consumption_in_geitawi_branch": "113.0",
       "stock_in_medawar_branch": "35.0",
-      "consumption_in_medawar_branch": "21.0",
+      "consumption_in_medawar_branch": "23.0",
       "total_stock": "62.0",
-      "total_consumption": "134.0",
+      "total_consumption": "136.0",
       "VAT": "NO",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -1815,7 +1814,7 @@
         },
         "Medawar": {
           "stock": "35.0",
-          "consumption": "21.0"
+          "consumption": "23.0"
         }
       },
       "name": "TEREA TURQUOISE",
@@ -1912,7 +1911,8 @@
       "subcategory": "TOOTH CARE",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "33"
     },
     {
       "id": "15149",
@@ -1926,9 +1926,9 @@
       "stock_in_geitawi_branch": "18.0",
       "consumption_in_geitawi_branch": "36.0",
       "stock_in_medawar_branch": "23.0",
-      "consumption_in_medawar_branch": "19.0",
+      "consumption_in_medawar_branch": "21.0",
       "total_stock": "41.0",
-      "total_consumption": "55.0",
+      "total_consumption": "57.0",
       "VAT": "YES",
       "price_lbp": 115000.0,
       "price_usd": "1.28",
@@ -1944,7 +1944,7 @@
         },
         "Medawar": {
           "stock": "23.0",
-          "consumption": "19.0"
+          "consumption": "21.0"
         }
       },
       "name": "WHITE BELL SWEET CORN 340 G",
@@ -1957,7 +1957,7 @@
     {
       "id": "15152",
       "barcode": "5281009158090",
-      "Product Description": "CASTANIA MELON SEEDS 150 G",
+      "Product Description": "CASTANIA MELON SEEDS 150G",
       "SUPPLIERS": "LEBANESE ROASTING GROUP SAL",
       "unit": "-",
       "category": "NUTS",
@@ -1987,12 +1987,13 @@
           "consumption": "9.0"
         }
       },
-      "name": "CASTANIA MELON SEEDS 150 G",
+      "name": "CASTANIA MELON SEEDS 150G",
       "supplier": "LEBANESE ROASTING GROUP SAL",
       "subcategory": "CASTANIA",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "11"
     },
     {
       "id": "15153",
@@ -2037,7 +2038,7 @@
     {
       "id": "15154",
       "barcode": "6294017119181",
-      "Product Description": "MAGGI CREAM OF MUSHROOM SOUP 55 G",
+      "Product Description": "MAGGI CREAM OF MUSHROOM SOUP 55G",
       "SUPPLIERS": "AL HAMAWI TRADING",
       "unit": "-",
       "category": "FOOD",
@@ -2067,13 +2068,12 @@
           "consumption": "3.0"
         }
       },
-      "name": "MAGGI CREAM OF MUSHROOM SOUP 55 G",
+      "name": "MAGGI CREAM OF MUSHROOM SOUP 55G",
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "SOUP",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "57"
+      "barcodes": ""
     },
     {
       "id": "15156",
@@ -2113,7 +2113,8 @@
       "subcategory": "KLATCHI",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "10"
     },
     {
       "id": "15172",
@@ -2388,7 +2389,7 @@
     {
       "id": "15235",
       "barcode": "5285007802528",
-      "Product Description": "DAABOOL SEA SALT 1 KG",
+      "Product Description": "DAABOOL SEA SALT 1KG",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "unit": "-",
       "category": "FOOD",
@@ -2418,7 +2419,7 @@
           "consumption": "0.0"
         }
       },
-      "name": "DAABOOL SEA SALT 1 KG",
+      "name": "DAABOOL SEA SALT 1KG",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "SEEDS",
       "vat": 0,
@@ -2895,7 +2896,8 @@
       "subcategory": "CHOCOMAX",
       "vat": 1,
       "barcode2": "009800800056",
-      "barcodes": "009800800056"
+      "barcodes": "009800800056",
+      "totalStock": "3"
     },
     {
       "id": "15264",
@@ -4094,10 +4096,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "12.0",
-      "stock_in_medawar_branch": "51.0",
-      "consumption_in_medawar_branch": "22.0",
-      "total_stock": "50.0",
-      "total_consumption": "34.0",
+      "stock_in_medawar_branch": "50.0",
+      "consumption_in_medawar_branch": "23.0",
+      "total_stock": "49.0",
+      "total_consumption": "35.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
       "price_usd": "1.00",
@@ -4112,8 +4114,8 @@
           "consumption": "12.0"
         },
         "Medawar": {
-          "stock": "51.0",
-          "consumption": "22.0"
+          "stock": "50.0",
+          "consumption": "23.0"
         }
       },
       "sub": "MASTER",
@@ -4223,7 +4225,7 @@
     {
       "id": "15409",
       "barcode": "5287000457545",
-      "Product Description": "ENGLISH CAKE PREMUIM MARBLE CAKE 650 G",
+      "Product Description": "ENGLISH CAKE PREMUIM MARBLE CAKE 650G",
       "SUPPLIERS": "ENGLISH CAKE SAL",
       "unit": "-",
       "category": "CHI TAYIB",
@@ -4253,7 +4255,7 @@
           "consumption": "1.0"
         }
       },
-      "name": "ENGLISH CAKE PREMUIM MARBLE CAKE 650 G",
+      "name": "ENGLISH CAKE PREMUIM MARBLE CAKE 650G",
       "supplier": "ENGLISH CAKE SAL",
       "subcategory": "cake",
       "vat": 1,
@@ -4418,7 +4420,8 @@
       "subcategory": "PASTA & INDOMI",
       "vat": 0,
       "barcode2": "8076809583367",
-      "barcodes": "8076809583367"
+      "barcodes": "8076809583367",
+      "totalStock": "3"
     },
     {
       "id": "15427",
@@ -4642,9 +4645,9 @@
       "stock_in_geitawi_branch": "4.070",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "2.400",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "5.6",
       "total_stock": "6.470",
-      "total_consumption": "13.0",
+      "total_consumption": "13.6",
       "VAT": "NO",
       "price_lbp": 1805000.0,
       "price_usd": "20.06",
@@ -4660,7 +4663,7 @@
         },
         "Medawar": {
           "stock": "2.400",
-          "consumption": "5.0"
+          "consumption": "5.6"
         }
       },
       "name": "KHOURY HALLOUM",
@@ -4737,11 +4740,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.570",
+      "stock_in_geitawi_branch": "1.600",
       "consumption_in_geitawi_branch": "2.6",
       "stock_in_medawar_branch": "0.545",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "2.115",
+      "total_stock": "2.145",
       "total_consumption": "3.6",
       "VAT": "NO",
       "price_lbp": 1385000.0,
@@ -4753,7 +4756,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.570",
+          "stock": "1.600",
           "consumption": "2.6"
         },
         "Medawar": {
@@ -4786,12 +4789,12 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.500",
+      "stock_in_geitawi_branch": "0.000",
       "consumption_in_geitawi_branch": "0.4",
-      "stock_in_medawar_branch": "1.800",
-      "consumption_in_medawar_branch": "1.1",
-      "total_stock": "3.300",
-      "total_consumption": "1.5",
+      "stock_in_medawar_branch": "1.545",
+      "consumption_in_medawar_branch": "1.4",
+      "total_stock": "1.545",
+      "total_consumption": "1.8",
       "VAT": "NO",
       "price_lbp": 1560000.0,
       "price_usd": "17.33",
@@ -4802,12 +4805,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.500",
+          "stock": "0.000",
           "consumption": "0.4"
         },
         "Medawar": {
-          "stock": "1.800",
-          "consumption": "1.1"
+          "stock": "1.545",
+          "consumption": "1.4"
         }
       },
       "barcode2": "",
@@ -4822,9 +4825,7 @@
       "name": "DAIRY KHOURY AKKAWI LIGHT",
       "supplier": "DAIRY KHOURY USD",
       "subcategory": "DAIRY PRODUCTS",
-      "vat": 0,
-      "product_setup_save_token": "PS-SAVE-15445-1778922064039772",
-      "product_setup_saved_at_utc": "2026-05-16T09:01:04.039772Z"
+      "vat": 0
     },
     {
       "id": "15446",
@@ -4875,9 +4876,7 @@
       "sub": "DAIRY PRODUCTS",
       "secondary_category": "",
       "secondary_subcategory": "",
-      "secondary_sub_category": "",
-      "product_setup_save_token": "PS-SAVE-15446-1778922276299769",
-      "product_setup_saved_at_utc": "2026-05-16T09:04:36.299769Z"
+      "secondary_sub_category": ""
     },
     {
       "id": "15447",
@@ -5230,7 +5229,8 @@
       "subcategory": "PROCESSED CHEESE",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "15484",
@@ -5316,7 +5316,7 @@
     {
       "id": "15496",
       "barcode": "5287000076487",
-      "Product Description": "BEE FLOWER HONEY 125 G",
+      "Product Description": "BEE FLOWER HONEY 125G",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "unit": "-",
       "category": "FOOD",
@@ -5346,13 +5346,13 @@
           "consumption": "2.0"
         }
       },
-      "name": "BEE FLOWER HONEY 125 G",
+      "name": "BEE FLOWER HONEY 125G",
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "cans & jams",
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "1"
     },
     {
       "id": "15497",
@@ -5405,10 +5405,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "14.0",
       "consumption_in_geitawi_branch": "22.0",
-      "stock_in_medawar_branch": "34.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "48.0",
-      "total_consumption": "32.0",
+      "stock_in_medawar_branch": "29.0",
+      "consumption_in_medawar_branch": "15.0",
+      "total_stock": "43.0",
+      "total_consumption": "37.0",
       "VAT": "YES",
       "price_lbp": 20000.0,
       "price_usd": "0.22",
@@ -5423,8 +5423,8 @@
           "consumption": "22.0"
         },
         "Medawar": {
-          "stock": "34.0",
-          "consumption": "10.0"
+          "stock": "29.0",
+          "consumption": "15.0"
         }
       },
       "sub": "Wafers",
@@ -5437,7 +5437,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "48"
+      "totalStock": "16"
     },
     {
       "id": "15499",
@@ -5484,6 +5484,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-21T22:24:22.861467Z",
+  "updatedAt": "2026-05-21T22:26:21.951138Z",
   "source": "sql"
 }
