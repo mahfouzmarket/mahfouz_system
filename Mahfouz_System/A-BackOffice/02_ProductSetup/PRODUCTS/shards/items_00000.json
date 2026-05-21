@@ -3,35 +3,26 @@
     {
       "id": "9",
       "barcode": "5283005902073",
-      "barcode2": "",
       "barcodes": "",
       "Product Description": "AL HALABI PUMPKIN SEEDS 175G",
+      "product_description": "AL HALABI PUMPKIN SEEDS 175G",
+      "description": "AL HALABI PUMPKIN SEEDS 175G",
+      "brand": "",
+      "supplier": "",
       "SUPPLIERS": "",
-      "unit": "EACH",
       "category": "FOOD",
       "sub_category": "SEEDS",
-      "offers": "",
-      "expiry_days": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "subcategory": "SEEDS",
+      "subCategory": "SEEDS",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 110000.0,
+      "cost": 0.0,
       "total_stock": "0.0",
       "total_consumption": "1.0",
-      "VAT": "NO",
-      "price_lbp": 110000.0,
-      "price_usd": "1.22",
-      "cost": 0.0,
-      "cost_ht": "0.00",
-      "imageURL": "",
-      "new_items": "",
-      "manual": "",
-      "delivery_rules": "0.005",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
@@ -46,13 +37,32 @@
           "consumption": "0.0"
         }
       },
-      "product_setup_save_token": "PS-SAVE-9-1778654134748493",
-      "product_setup_saved_at_utc": "2026-05-13T06:35:34.748493Z",
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "AL HALABI PUMPKIN SEEDS 175G",
-      "subcategory": "SEEDS",
-      "vat": 0,
+      "consumption_in_geitawi_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "SEEDS",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "price_usd": "1.22"
     },
     {
       "id": "12",
@@ -106,45 +116,48 @@
     {
       "id": "13",
       "barcode": "5281022441971",
+      "barcode2": "",
+      "barcodes": "",
       "Product Description": "KSARAK 700ML",
       "SUPPLIERS": "ETS WASSEF CHEIBANE",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "arak",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "expiry_days": "0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "5.0",
+      "total_stock": "2.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 1240000.0,
       "price_usd": "13.78",
       "cost": 10.94,
+      "cost_ht": "10.94",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "branches": {
-        "Geitawi": {
-          "stock": "5.0",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "0.0",
-          "consumption": "1.0"
-        }
-      },
-      "barcode2": "",
-      "barcodes": "",
-      "expiry_days": "0",
-      "cost_ht": "10.94",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "2.0",
+          "consumption": "1.0"
+        }
+      },
+      "product_setup_save_token": "PS-SAVE-13-1778907436287433",
+      "product_setup_saved_at_utc": "2026-05-16T04:57:16.287433Z",
+      "totalStock": "2",
       "name": "KSARAK 700ML",
       "supplier": "ETS WASSEF CHEIBANE",
       "subcategory": "arak",
@@ -159,12 +172,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "arak",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
-      "total_consumption": "6.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "7.0",
       "VAT": "YES",
       "price_lbp": 650000.0,
       "price_usd": "7.22",
@@ -175,12 +188,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "0.0",
           "consumption": "6.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "ARAK TOUMA 50 CL",
@@ -199,12 +212,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "arak",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "8.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "6.0",
+      "total_consumption": "9.0",
       "VAT": "YES",
       "price_lbp": 1270000.0,
       "price_usd": "14.11",
@@ -215,12 +228,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "6.0",
           "consumption": "8.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "ARAK BRUN 700ML",
@@ -228,7 +241,8 @@
       "subcategory": "arak",
       "vat": 1,
       "barcode2": "5280190013980",
-      "barcodes": "5280190013980"
+      "barcodes": "5280190013980",
+      "totalStock": "6"
     },
     {
       "id": "18",
@@ -242,9 +256,9 @@
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "5.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "18.0",
       "total_stock": "8.0",
-      "total_consumption": "5.0",
+      "total_consumption": "23.0",
       "VAT": "YES",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -260,7 +274,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "18.0"
         }
       },
       "name": "ARAK BERDAWNI EXTRA",
@@ -279,12 +293,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "arak",
       "offers": "0",
-      "stock_in_geitawi_branch": "8.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "8.0",
-      "total_consumption": "1.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "0.0",
+      "total_consumption": "3.0",
       "VAT": "NO",
       "price_lbp": 290000.0,
       "price_usd": "3.22",
@@ -295,12 +309,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "8.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         }
       },
       "name": "ARAK LITANI 75 CL",
@@ -319,12 +333,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "wine",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
-      "total_consumption": "2.0",
+      "consumption_in_medawar_branch": "6.0",
+      "total_stock": "0.0",
+      "total_consumption": "8.0",
       "VAT": "YES",
       "price_lbp": 685000.0,
       "price_usd": "7.61",
@@ -335,12 +349,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "6.0"
         }
       },
       "name": "KSARA LE PRIEURE 750ML",
@@ -360,11 +374,11 @@
       "sub_category": "arak",
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "2.0",
-      "total_consumption": "11.0",
+      "consumption_in_geitawi_branch": "5.0",
+      "stock_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "7.0",
+      "total_stock": "4.0",
+      "total_consumption": "12.0",
       "VAT": "YES",
       "price_lbp": 350000.0,
       "price_usd": "3.89",
@@ -376,11 +390,11 @@
       "branches": {
         "Geitawi": {
           "stock": "2.0",
-          "consumption": "1.0"
+          "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "10.0"
+          "stock": "2.0",
+          "consumption": "7.0"
         }
       },
       "name": "ARAK NADER BALADE 75CL",
@@ -388,7 +402,8 @@
       "subcategory": "arak",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "31",
@@ -399,27 +414,27 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "arak",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "15.0",
-      "total_stock": "2.0",
+      "total_stock": "8.0",
       "total_consumption": "23.0",
       "VAT": "YES",
-      "price_lbp": 140000.0,
-      "price_usd": "1.56",
-      "cost": 1.4,
+      "price_lbp": 160000.0,
+      "price_usd": "1.78",
+      "cost": 1.25,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID31.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "4.0",
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "4.0",
           "consumption": "15.0"
         }
       },
@@ -448,18 +463,18 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 465000.0,
-      "cost": 4.31,
-      "total_stock": "0.0",
+      "cost": 0.0,
+      "total_stock": "6.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "6.0",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -492,11 +507,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "4.31",
-      "costUsd": 4.31,
-      "cost_ht_usd": 4.31,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "6",
       "price_usd": "5.17"
     },
     {
@@ -510,9 +521,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
@@ -532,10 +543,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "0.0"
         }
       },
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -550,9 +562,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
+      "total_stock": "7.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 420000.0,
@@ -572,12 +584,13 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "4.0",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "7"
     },
     {
       "id": "84",
@@ -591,9 +604,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "3.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 410000.0,
       "price_usd": "4.56",
@@ -613,7 +626,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -630,9 +643,9 @@
       "offers": "x",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
+      "total_stock": "15.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 525000.0,
@@ -652,12 +665,13 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "10.0",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "15"
     },
     {
       "id": "106",
@@ -668,12 +682,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "wine",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
-      "total_consumption": "0.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 450000.0,
       "price_usd": "5.00",
@@ -688,12 +702,12 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "barcode2": "",
@@ -710,10 +724,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "32.0",
       "consumption_in_geitawi_branch": "116.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "227.0",
-      "total_stock": "32.0",
-      "total_consumption": "343.0",
+      "stock_in_medawar_branch": "124.0",
+      "consumption_in_medawar_branch": "121.0",
+      "total_stock": "156.0",
+      "total_consumption": "237.0",
       "VAT": "YES",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
@@ -728,8 +742,8 @@
           "consumption": "116.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "227.0"
+          "stock": "124.0",
+          "consumption": "121.0"
         }
       },
       "name": "BOOM BOOM ENERGY DRINK",
@@ -737,7 +751,8 @@
       "subcategory": "ENERGY DRINK",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "156"
     },
     {
       "id": "132",
@@ -748,12 +763,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Vodka",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "4.0",
-      "total_stock": "1.0",
-      "total_consumption": "4.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 810000.0,
       "price_usd": "9.00",
@@ -764,12 +779,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "4.0"
+          "consumption": "0.0"
         }
       },
       "name": "VODKA STOLICHNAYA 70CL",
@@ -787,8 +802,8 @@
       "product_description": "VODKA ABSOLUT 75 CL",
       "description": "VODKA ABSOLUT 75 CL",
       "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "",
+      "supplier": "ETS WASSEF CHEIBANE",
+      "SUPPLIERS": "ETS WASSEF CHEIBANE",
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "VODKA",
       "subcategory": "VODKA",
@@ -798,18 +813,18 @@
       "vat": 0,
       "price_lbp": 1080000.0,
       "cost": 10.0,
-      "total_stock": "2.0",
-      "total_consumption": "0.0",
+      "total_stock": "9.0",
+      "total_consumption": "1.0",
       "stock_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "7.0",
       "branches": {
         "Geitawi": {
           "stock": "2.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "7.0",
+          "consumption": "1.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -820,7 +835,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790714Z",
       "barcode2": "",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -830,7 +845,7 @@
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "VODKA ABSOLUT 75 CL",
       "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
       "sub": "VODKA",
@@ -846,7 +861,17 @@
       "cost_ht_usd": 10.0,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "price_usd": "12.00"
+      "price_usd": "12.00",
+      "expiry_days": "0",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID134.jpg",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-134-1779173016899139",
+      "product_setup_saved_at_utc": "2026-05-19T06:43:36.899139Z",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID134.jpg"
     },
     {
       "id": "139",
@@ -857,12 +882,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "15.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "14.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "15.0",
-      "total_consumption": "14.0",
+      "stock_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "8.0",
+      "total_stock": "12.0",
+      "total_consumption": "22.0",
       "VAT": "YES",
       "price_lbp": 105000.0,
       "price_usd": "1.17",
@@ -873,12 +898,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "15.0",
+          "stock": "0.0",
           "consumption": "14.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "12.0",
+          "consumption": "8.0"
         }
       },
       "name": "BUZZ YELLOW VODKA MIX CAN 10% 250ML",
@@ -886,12 +911,13 @@
       "subcategory": "alcohol cold drink",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "12"
     },
     {
       "id": "140",
       "barcode": "762571305037",
-      "Product Description": "BUZZ CRANBERRY VODKA MIX CAN 10% 250ML",
+      "Product Description": "BUZZ CRANBERRY VODKA MIX CAN 10% 250 ML",
       "SUPPLIERS": "KASSATLY CHTOURA SAL USD",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
@@ -899,10 +925,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "19.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "17.0",
-      "total_stock": "19.0",
-      "total_consumption": "32.0",
+      "stock_in_medawar_branch": "-2.0",
+      "consumption_in_medawar_branch": "12.0",
+      "total_stock": "17.0",
+      "total_consumption": "27.0",
       "VAT": "YES",
       "price_lbp": 105000.0,
       "price_usd": "1.17",
@@ -917,16 +943,17 @@
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "17.0"
+          "stock": "-2.0",
+          "consumption": "12.0"
         }
       },
-      "name": "BUZZ CRANBERRY VODKA MIX CAN 10% 250ML",
+      "name": "BUZZ CRANBERRY VODKA MIX CAN 10% 250 ML",
       "supplier": "KASSATLY CHTOURA SAL USD",
       "subcategory": "alcohol cold drink",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "17"
     },
     {
       "id": "141",
@@ -937,12 +964,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "10.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "28.0",
-      "total_stock": "5.0",
-      "total_consumption": "38.0",
+      "stock_in_medawar_branch": "25.0",
+      "consumption_in_medawar_branch": "5.0",
+      "total_stock": "25.0",
+      "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
       "price_usd": "1.22",
@@ -953,12 +980,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "0.0",
           "consumption": "10.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "28.0"
+          "stock": "25.0",
+          "consumption": "5.0"
         }
       },
       "name": "BUZZ MEGA ENERGY VODKA 20% 250ML",
@@ -966,7 +993,8 @@
       "subcategory": "alcohol cold drink",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "25"
     },
     {
       "id": "146",
@@ -977,12 +1005,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "13.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
-      "total_consumption": "13.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 115000.0,
       "price_usd": "1.28",
@@ -993,12 +1021,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "13.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "BUZZ EXTRA STRONG PLUS ENERGY DRINK 10% 27",
@@ -1011,7 +1039,7 @@
     {
       "id": "147",
       "barcode": "762571303057",
-      "Product Description": "BUZZ BLUE HAWAI 5.5%  275ML",
+      "Product Description": "BUZZ BLUE HAWAI 5.5% 275 ML",
       "SUPPLIERS": "KASSATLY CHTOURA SAL USD",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
@@ -1019,10 +1047,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "12.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "12.0",
+      "stock_in_medawar_branch": "34.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "39.0",
+      "total_consumption": "13.0",
       "VAT": "YES",
       "price_lbp": 105000.0,
       "price_usd": "1.17",
@@ -1037,11 +1065,11 @@
           "consumption": "12.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "34.0",
+          "consumption": "1.0"
         }
       },
-      "name": "BUZZ BLUE HAWAI 5.5%  275ML",
+      "name": "BUZZ BLUE HAWAI 5.5% 275 ML",
       "supplier": "KASSATLY CHTOURA SAL USD",
       "subcategory": "alcohol cold drink",
       "vat": 1,
@@ -1057,12 +1085,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Vodka",
       "offers": "0",
-      "stock_in_geitawi_branch": "9.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "9.0",
-      "total_consumption": "2.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 210000.0,
       "price_usd": "2.33",
@@ -1077,12 +1105,12 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "9.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -1091,7 +1119,7 @@
     {
       "id": "181",
       "barcode": "762571303392",
-      "Product Description": "BUZZ EXTRA STRONG  LEMON 10% 275 ML",
+      "Product Description": "BUZZ EXTRA STRONG LEMON 10% 275 ML",
       "SUPPLIERS": "KASSATLY CHTOURA SAL USD",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
@@ -1100,9 +1128,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "11.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "0.0",
-      "total_consumption": "11.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
       "price_usd": "1.22",
@@ -1118,10 +1146,10 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "11.0"
+          "consumption": "2.0"
         }
       },
-      "name": "BUZZ EXTRA STRONG  LEMON 10% 275 ML",
+      "name": "BUZZ EXTRA STRONG LEMON 10% 275 ML",
       "supplier": "KASSATLY CHTOURA SAL USD",
       "subcategory": "alcohol cold drink",
       "vat": 1,
@@ -1131,18 +1159,18 @@
     {
       "id": "191",
       "barcode": "4603400000043",
-      "Product Description": "RUSSIAN STANDARD  70CL",
+      "Product Description": "RUSSIAN STANDARD 70CL",
       "SUPPLIERS": "ETS WASSEF CHEIBANE",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Vodka",
       "offers": "0",
-      "stock_in_geitawi_branch": "14.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "14.0",
-      "total_consumption": "10.0",
+      "stock_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "3.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 850000.0,
       "price_usd": "9.44",
@@ -1151,18 +1179,18 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "RUSSIAN STANDARD  70CL",
+      "name": "RUSSIAN STANDARD 70CL",
       "supplier": "ETS WASSEF CHEIBANE",
       "subcategory": "Vodka",
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "14.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "10.0"
+          "stock": "3.0",
+          "consumption": "2.0"
         }
       },
       "barcode2": "5280190010132",
@@ -1179,9 +1207,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "6.0",
+      "total_stock": "13.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 350000.0,
@@ -1201,12 +1229,13 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "7.0",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "13"
     },
     {
       "id": "217",
@@ -1226,7 +1255,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 240000.0,
-      "cost": 2.22,
+      "cost": 0.0,
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "5.0",
@@ -1270,11 +1299,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "2.22",
-      "costUsd": 2.22,
-      "cost_ht_usd": 2.22,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "5",
       "price_usd": "2.67"
     },
     {
@@ -1286,11 +1311,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Vodka",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "5.0",
+      "total_stock": "6.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 430000.0,
@@ -1302,11 +1327,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "0.0",
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "2.0"
         }
       },
@@ -1315,7 +1340,8 @@
       "subcategory": "Vodka",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "6"
     },
     {
       "id": "221",
@@ -1326,12 +1352,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "1.0",
-      "total_consumption": "2.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 125000.0,
       "price_usd": "1.39",
@@ -1345,12 +1371,12 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -1370,12 +1396,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Vodka",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "8.0",
-      "total_stock": "2.0",
-      "total_consumption": "10.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 650000.0,
       "price_usd": "7.22",
@@ -1386,12 +1412,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "8.0"
+          "consumption": "0.0"
         }
       },
       "name": "BELENKAYA GOLD PREMIUM 70 CL",
@@ -1413,9 +1439,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "66.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "149.0",
       "total_stock": "0.0",
-      "total_consumption": "66.0",
+      "total_consumption": "215.0",
       "VAT": "YES",
       "price_lbp": 65000.0,
       "price_usd": "0.72",
@@ -1431,7 +1457,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "149.0"
         }
       },
       "sub": "ENERGY DRINK",
@@ -1456,10 +1482,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "49.0",
       "consumption_in_geitawi_branch": "67.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "49.0",
-      "total_consumption": "67.0",
+      "stock_in_medawar_branch": "96.0",
+      "consumption_in_medawar_branch": "94.0",
+      "total_stock": "145.0",
+      "total_consumption": "161.0",
       "VAT": "YES",
       "price_lbp": 85000.0,
       "price_usd": "0.94",
@@ -1474,8 +1500,8 @@
           "consumption": "67.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "96.0",
+          "consumption": "94.0"
         }
       },
       "sub": "ENERGY DRINK",
@@ -1487,7 +1513,8 @@
       "subcategory": "ENERGY DRINK",
       "vat": 1,
       "barcode2": "5287001490350",
-      "barcodes": "5287001490350"
+      "barcodes": "5287001490350",
+      "totalStock": "146"
     },
     {
       "id": "234",
@@ -1500,10 +1527,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
-      "total_consumption": "5.0",
+      "stock_in_medawar_branch": "22.0",
+      "consumption_in_medawar_branch": "4.0",
+      "total_stock": "26.0",
+      "total_consumption": "9.0",
       "VAT": "YES",
       "price_lbp": 105000.0,
       "price_usd": "1.17",
@@ -1518,8 +1545,8 @@
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "22.0",
+          "consumption": "4.0"
         }
       },
       "name": "BUZZ PEACH 5.5% 275ML",
@@ -1527,7 +1554,8 @@
       "subcategory": "alcohol cold drink",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "26"
     },
     {
       "id": "235",
@@ -1541,9 +1569,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 300000.0,
       "price_usd": "3.33",
@@ -1563,7 +1591,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -1581,9 +1609,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 530000.0,
       "price_usd": "5.89",
@@ -1599,7 +1627,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "HIGH COMMISSIONER WHISKEY",
@@ -1618,12 +1646,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "15.0",
+      "stock_in_geitawi_branch": "16.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "11.0",
-      "total_stock": "15.0",
-      "total_consumption": "26.0",
+      "stock_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "12.0",
+      "total_stock": "24.0",
+      "total_consumption": "27.0",
       "VAT": "YES",
       "price_lbp": 105000.0,
       "price_usd": "1.17",
@@ -1634,12 +1662,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "15.0",
+          "stock": "16.0",
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "11.0"
+          "stock": "8.0",
+          "consumption": "12.0"
         }
       },
       "name": "XXL MIX VODKA 250 ML",
@@ -1698,12 +1726,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
-      "total_consumption": "8.0",
+      "consumption_in_medawar_branch": "9.0",
+      "total_stock": "0.0",
+      "total_consumption": "17.0",
       "VAT": "YES",
       "price_lbp": 480000.0,
       "price_usd": "5.33",
@@ -1714,12 +1742,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "8.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "9.0"
         }
       },
       "name": "J.W RED 20 CL",
@@ -1732,7 +1760,7 @@
     {
       "id": "271",
       "barcode": "5287000137386",
-      "Product Description": "OLD LORD WHISKY 1L",
+      "Product Description": "OLD LORD WHISKY 1 L",
       "SUPPLIERS": "SOCIETE BOU NADER",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
@@ -1740,10 +1768,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
-      "total_consumption": "2.0",
+      "stock_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "14.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 250000.0,
       "price_usd": "2.78",
@@ -1758,16 +1786,17 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "12.0",
+          "consumption": "2.0"
         }
       },
-      "name": "OLD LORD WHISKY 1L",
+      "name": "OLD LORD WHISKY 1 L",
       "supplier": "SOCIETE BOU NADER",
       "subcategory": "WHISKEY",
       "vat": 1,
       "barcode2": "5287000137300",
-      "barcodes": "5287000137300"
+      "barcodes": "5287000137300",
+      "totalStock": "14"
     },
     {
       "id": "273",
@@ -1781,9 +1810,9 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "3.0",
-      "total_consumption": "0.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 2670000.0,
       "price_usd": "29.67",
@@ -1799,7 +1828,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         }
       },
       "name": "BLACK LABEL JHONNIE WALKER 75CL TINS",
@@ -1807,7 +1836,8 @@
       "subcategory": "WHISKEY",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "3"
     },
     {
       "id": "274",
@@ -1818,12 +1848,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
-      "total_consumption": "7.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "8.0",
       "VAT": "YES",
       "price_lbp": 1270000.0,
       "price_usd": "14.11",
@@ -1834,12 +1864,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "0.0",
           "consumption": "7.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "J&B RARE 700 CL",
@@ -1858,12 +1888,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "4.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "6.0",
+      "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 925000.0,
       "price_usd": "10.28",
@@ -1874,12 +1904,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "6.0",
           "consumption": "4.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         }
       },
       "sub": "WHISKEY",
@@ -1891,7 +1921,8 @@
       "subcategory": "WHISKEY",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "6"
     },
     {
       "id": "302",
@@ -1902,12 +1933,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "5.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "5.0",
-      "total_consumption": "15.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 1740000.0,
       "price_usd": "19.33",
@@ -1918,12 +1949,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "0.0",
           "consumption": "5.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "10.0"
+          "consumption": "1.0"
         }
       },
       "name": "JAMESON IRISH WISKEYE 70CL",
@@ -1944,9 +1975,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
+      "total_stock": "8.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 1000000.0,
@@ -1962,7 +1993,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "4.0",
           "consumption": "0.0"
         }
       },
@@ -1971,7 +2002,8 @@
       "subcategory": "WHISKEY",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "8"
     },
     {
       "id": "314",
@@ -1985,9 +2017,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "4.0",
       "total_stock": "0.0",
-      "total_consumption": "4.0",
+      "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 220000.0,
       "price_usd": "2.44",
@@ -2003,7 +2035,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "4.0"
         }
       },
       "name": "JAGERMEISTER 4 CL NEW",
@@ -2025,9 +2057,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 370000.0,
       "price_usd": "4.11",
@@ -2043,7 +2075,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "JAGERMEISTER 10 CL",
@@ -2064,9 +2096,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 1040000.0,
@@ -2082,7 +2114,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "0.0"
         }
       },
@@ -2090,13 +2122,14 @@
       "supplier": "ETS WASSEF CHEIBANE",
       "subcategory": "WHISKEY",
       "vat": 1,
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
     {
       "id": "334",
       "barcode": "5011007003227",
-      "Product Description": "JAMESON IRISH 1LTR",
+      "Product Description": "JAMESON IRISH 1 L",
       "SUPPLIERS": "GOLDEN FOOD SAL",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
@@ -2104,10 +2137,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "0.0",
+      "stock_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "10.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 2060000.0,
       "price_usd": "22.89",
@@ -2122,11 +2155,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "5.0",
+          "consumption": "1.0"
         }
       },
-      "name": "JAMESON IRISH 1LTR",
+      "name": "JAMESON IRISH 1 L",
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "WHISKEY",
       "vat": 1,
@@ -2144,9 +2177,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "71.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "0.0",
+      "total_stock": "71.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 1010000.0,
@@ -2162,7 +2195,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "71.0",
           "consumption": "5.0"
         }
       },
@@ -2171,7 +2204,8 @@
       "subcategory": "WHISKEY",
       "vat": 1,
       "barcode2": "5024546366630",
-      "barcodes": "5024546366630"
+      "barcodes": "5024546366630",
+      "totalStock": "71"
     },
     {
       "id": "364",
@@ -2182,12 +2216,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "8.0",
-      "total_stock": "4.0",
-      "total_consumption": "17.0",
+      "consumption_in_medawar_branch": "3.0",
+      "total_stock": "0.0",
+      "total_consumption": "12.0",
       "VAT": "YES",
       "price_lbp": 750000.0,
       "price_usd": "8.33",
@@ -2198,12 +2232,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "0.0",
           "consumption": "9.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "8.0"
+          "consumption": "3.0"
         }
       },
       "name": "LAUDERS SCOTCH WISKEY 0.75LTR",
@@ -2222,11 +2256,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "1.0",
+      "total_stock": "5.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 650000.0,
@@ -2238,11 +2272,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "5.0",
           "consumption": "3.0"
         }
       },
@@ -2251,7 +2285,8 @@
       "subcategory": "WHISKEY",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "5"
     },
     {
       "id": "381",
@@ -2265,9 +2300,9 @@
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "5.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "4.0",
-      "total_consumption": "7.0",
+      "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 1275000.0,
       "price_usd": "14.17",
@@ -2287,7 +2322,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -2302,12 +2337,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "6.0",
-      "total_stock": "3.0",
-      "total_consumption": "10.0",
+      "consumption_in_medawar_branch": "7.0",
+      "total_stock": "0.0",
+      "total_consumption": "11.0",
       "VAT": "YES",
       "price_lbp": 850000.0,
       "price_usd": "9.44",
@@ -2318,12 +2353,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "4.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "6.0"
+          "consumption": "7.0"
         }
       },
       "name": "HAIG GOLD LABEL 70 CL",
@@ -2336,7 +2371,7 @@
     {
       "id": "388",
       "barcode": "5287000267892",
-      "Product Description": "JOHNNIE WALKER RED LABEL 750ML",
+      "Product Description": "JOHNNIE WALKER RED LABEL 750 ML",
       "SUPPLIERS": "ETS WASSEF CHEIBANE",
       "unit": "-",
       "category": "ALCOHOL 18+ (RESTRICTED)",
@@ -2344,10 +2379,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "8.0",
-      "total_consumption": "5.0",
+      "stock_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "8.0",
+      "total_stock": "13.0",
+      "total_consumption": "13.0",
       "VAT": "YES",
       "price_lbp": 1420000.0,
       "price_usd": "15.78",
@@ -2362,11 +2397,11 @@
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "5.0",
+          "consumption": "8.0"
         }
       },
-      "name": "JOHNNIE WALKER RED LABEL 750ML",
+      "name": "JOHNNIE WALKER RED LABEL 750 ML",
       "supplier": "ETS WASSEF CHEIBANE",
       "subcategory": "WHISKEY",
       "vat": 1,
@@ -2382,12 +2417,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "51.0",
-      "consumption_in_geitawi_branch": "50.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "51.0",
-      "total_consumption": "60.0",
+      "stock_in_geitawi_branch": "49.0",
+      "consumption_in_geitawi_branch": "35.0",
+      "stock_in_medawar_branch": "63.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "112.0",
+      "total_consumption": "36.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -2398,12 +2433,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "51.0",
-          "consumption": "50.0"
+          "stock": "49.0",
+          "consumption": "35.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "10.0"
+          "stock": "63.0",
+          "consumption": "1.0"
         }
       },
       "name": "BEER EFES EXTRA 50 CL",
@@ -2422,28 +2457,28 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "96.0",
-      "consumption_in_geitawi_branch": "181.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "96.0",
-      "total_consumption": "181.0",
+      "stock_in_geitawi_branch": "83.0",
+      "consumption_in_geitawi_branch": "127.0",
+      "stock_in_medawar_branch": "652.0",
+      "consumption_in_medawar_branch": "197.0",
+      "total_stock": "735.0",
+      "total_consumption": "324.0",
       "VAT": "YES",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
-      "cost": 0.85,
+      "cost": 0.79,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID393.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "96.0",
-          "consumption": "181.0"
+          "stock": "83.0",
+          "consumption": "127.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "652.0",
+          "consumption": "197.0"
         }
       },
       "name": "WEIDMANN BEER 50 cl",
@@ -2464,10 +2499,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "13.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "13.0",
-      "total_consumption": "20.0",
+      "stock_in_medawar_branch": "91.0",
+      "consumption_in_medawar_branch": "3.0",
+      "total_stock": "104.0",
+      "total_consumption": "23.0",
       "VAT": "YES",
       "price_lbp": 180000.0,
       "price_usd": "2.00",
@@ -2482,8 +2517,8 @@
           "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "91.0",
+          "consumption": "3.0"
         }
       },
       "name": "HEINKENN 330 ML",
@@ -2491,7 +2526,8 @@
       "subcategory": "Beer",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "104"
     },
     {
       "id": "395",
@@ -2504,10 +2540,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "46.0",
       "consumption_in_geitawi_branch": "29.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "46.0",
-      "total_consumption": "29.0",
+      "stock_in_medawar_branch": "83.0",
+      "consumption_in_medawar_branch": "21.0",
+      "total_stock": "129.0",
+      "total_consumption": "50.0",
       "VAT": "YES",
       "price_lbp": 210000.0,
       "price_usd": "2.33",
@@ -2522,8 +2558,8 @@
           "consumption": "29.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "83.0",
+          "consumption": "21.0"
         }
       },
       "name": "HEINKENN DOUBLE",
@@ -2531,7 +2567,8 @@
       "subcategory": "Beer",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "131"
     },
     {
       "id": "396",
@@ -2542,12 +2579,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "70.0",
-      "consumption_in_geitawi_branch": "147.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "150.0",
-      "total_stock": "70.0",
-      "total_consumption": "297.0",
+      "stock_in_geitawi_branch": "58.0",
+      "consumption_in_geitawi_branch": "172.0",
+      "stock_in_medawar_branch": "122.0",
+      "consumption_in_medawar_branch": "155.0",
+      "total_stock": "180.0",
+      "total_consumption": "327.0",
       "VAT": "YES",
       "price_lbp": 95000.0,
       "price_usd": "1.06",
@@ -2558,12 +2595,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "70.0",
-          "consumption": "147.0"
+          "stock": "58.0",
+          "consumption": "172.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "150.0"
+          "stock": "122.0",
+          "consumption": "155.0"
         }
       },
       "name": "REX STRONG CAN BEER 50 CL",
@@ -2585,9 +2622,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "26.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "40.6",
+      "consumption_in_medawar_branch": "22.0",
       "total_stock": "0.0",
-      "total_consumption": "66.6",
+      "total_consumption": "48.0",
       "VAT": "YES",
       "price_lbp": 85000.0,
       "price_usd": "0.94",
@@ -2603,7 +2640,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "40.6"
+          "consumption": "22.0"
         }
       },
       "barcode2": "",
@@ -2631,10 +2668,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "21.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "-3.0",
-      "total_consumption": "21.0",
+      "stock_in_medawar_branch": "24.0",
+      "consumption_in_medawar_branch": "12.0",
+      "total_stock": "21.0",
+      "total_consumption": "33.0",
       "VAT": "YES",
       "price_lbp": 85000.0,
       "price_usd": "0.94",
@@ -2649,8 +2686,8 @@
           "consumption": "21.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "24.0",
+          "consumption": "12.0"
         }
       },
       "name": "LAZIZA APPLE",
@@ -2671,10 +2708,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "22.0",
       "consumption_in_geitawi_branch": "81.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "85.0",
-      "total_stock": "22.0",
-      "total_consumption": "166.0",
+      "stock_in_medawar_branch": "146.0",
+      "consumption_in_medawar_branch": "92.0",
+      "total_stock": "168.0",
+      "total_consumption": "173.0",
       "VAT": "YES",
       "price_lbp": 150000.0,
       "price_usd": "1.67",
@@ -2689,8 +2726,8 @@
           "consumption": "81.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "85.0"
+          "stock": "146.0",
+          "consumption": "92.0"
         }
       },
       "name": "BEER ALMAZA 50CL",
@@ -2709,12 +2746,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "146.0",
-      "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "146.0",
-      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "133.0",
+      "consumption_in_geitawi_branch": "170.0",
+      "stock_in_medawar_branch": "273.0",
+      "consumption_in_medawar_branch": "226.0",
+      "total_stock": "406.0",
+      "total_consumption": "396.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -2725,12 +2762,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "146.0",
-          "consumption": "0.0"
+          "stock": "133.0",
+          "consumption": "170.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "273.0",
+          "consumption": "226.0"
         }
       },
       "name": "BEER ALMAZA 33 CL",
@@ -2751,10 +2788,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33.0",
       "consumption_in_geitawi_branch": "89.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "19.0",
-      "total_stock": "33.0",
-      "total_consumption": "108.0",
+      "stock_in_medawar_branch": "9.0",
+      "consumption_in_medawar_branch": "68.0",
+      "total_stock": "42.0",
+      "total_consumption": "157.0",
       "VAT": "YES",
       "price_lbp": 130000.0,
       "price_usd": "1.44",
@@ -2769,8 +2806,8 @@
           "consumption": "89.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "19.0"
+          "stock": "9.0",
+          "consumption": "68.0"
         }
       },
       "name": "ALMAZA LIGHT 33 CL",
@@ -2791,10 +2828,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "69.0",
       "consumption_in_geitawi_branch": "33.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "16.0",
-      "total_stock": "69.0",
-      "total_consumption": "49.0",
+      "stock_in_medawar_branch": "9.0",
+      "consumption_in_medawar_branch": "75.0",
+      "total_stock": "78.0",
+      "total_consumption": "108.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -2809,8 +2846,8 @@
           "consumption": "33.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "16.0"
+          "stock": "9.0",
+          "consumption": "75.0"
         }
       },
       "name": "ALMAZA CAN 33CL",
@@ -2829,12 +2866,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "23.0",
+      "stock_in_geitawi_branch": "27.0",
       "consumption_in_geitawi_branch": "71.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "23.0",
-      "total_consumption": "71.0",
+      "stock_in_medawar_branch": "126.0",
+      "consumption_in_medawar_branch": "80.0",
+      "total_stock": "153.0",
+      "total_consumption": "151.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
       "price_usd": "0.78",
@@ -2845,12 +2882,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "23.0",
+          "stock": "27.0",
           "consumption": "71.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "126.0",
+          "consumption": "80.0"
         }
       },
       "name": "BEIRUT BEER 250 ML",
@@ -2869,12 +2906,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "39.0",
+      "stock_in_geitawi_branch": "40.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "39.0",
-      "total_consumption": "9.0",
+      "stock_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "6.0",
+      "total_stock": "52.0",
+      "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 160000.0,
       "price_usd": "1.78",
@@ -2885,12 +2922,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "39.0",
+          "stock": "40.0",
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "1.0"
+          "stock": "12.0",
+          "consumption": "6.0"
         }
       },
       "name": "ALMAZA PURE MALT 33CL",
@@ -2898,39 +2935,40 @@
       "subcategory": "Beer",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "52"
     },
     {
       "id": "426",
       "barcode": "8725000639679",
       "barcodes": "",
-      "Product Description": "ATLAS SUPER STRONG ALC.12% 500ML",
+      "Product Description": "ATLAS SUPER STRONG ALC.12% 500 ML",
       "product_description": "ATLAS SUPER STRONG ALC.12% 500ML",
       "description": "ATLAS SUPER STRONG ALC.12% 500ML",
       "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "",
-      "category": "MISC",
-      "sub_category": "MISC",
-      "subcategory": "MISC",
+      "supplier": "FOODS TOBACO & WHISKEY USD",
+      "SUPPLIERS": "FOODS TOBACO & WHISKEY USD",
+      "category": "ALCOHOL 18+ (RESTRICTED)",
+      "sub_category": "Beer",
+      "subcategory": "Beer",
       "subCategory": "MISC",
       "unit": "EACH",
       "VAT": "YES",
       "vat": 1,
       "price_lbp": 110000.0,
       "cost": 0.85,
-      "total_stock": "18.0",
-      "total_consumption": "7.0",
+      "total_stock": "42.0",
+      "total_consumption": "10.0",
       "stock_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "24.0",
       "branches": {
         "Geitawi": {
           "stock": "18.0",
           "consumption": "7.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "24.0",
+          "consumption": "3.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -2941,7 +2979,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790716Z",
       "barcode2": "",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -2949,9 +2987,9 @@
       "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "ATLAS SUPER STRONG ALC.12% 500ML",
+      "name": "ATLAS SUPER STRONG ALC.12% 500 ML",
       "consumption_in_geitawi_branch": "7.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "3.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
       "sub": "MISC",
@@ -2967,7 +3005,17 @@
       "cost_ht_usd": 0.83,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "price_usd": "1.22"
+      "price_usd": "1.22",
+      "expiry_days": "0",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID426.jpg",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-426-1779172915569183",
+      "product_setup_saved_at_utc": "2026-05-19T06:41:55.569183Z",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID426.jpg"
     },
     {
       "id": "430",
@@ -2980,10 +3028,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "34.0",
       "consumption_in_geitawi_branch": "9.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "15.0",
-      "total_stock": "34.0",
-      "total_consumption": "24.0",
+      "stock_in_medawar_branch": "18.0",
+      "consumption_in_medawar_branch": "18.0",
+      "total_stock": "52.0",
+      "total_consumption": "27.0",
       "VAT": "YES",
       "price_lbp": 180000.0,
       "price_usd": "2.00",
@@ -2998,8 +3046,8 @@
           "consumption": "9.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "15.0"
+          "stock": "18.0",
+          "consumption": "18.0"
         }
       },
       "name": "HEINEKEN NRB 330ML",
@@ -3007,7 +3055,8 @@
       "subcategory": "Beer",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "52"
     },
     {
       "id": "441",
@@ -3018,11 +3067,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "27.0",
+      "stock_in_geitawi_branch": "29.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "82.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "27.0",
+      "total_stock": "111.0",
       "total_consumption": "24.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -3034,11 +3083,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "27.0",
+          "stock": "29.0",
           "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "82.0",
           "consumption": "4.0"
         }
       },
@@ -3047,7 +3096,8 @@
       "subcategory": "Beer",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "111"
     },
     {
       "id": "445",
@@ -3058,12 +3108,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "124.0",
-      "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "124.0",
-      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "121.0",
+      "consumption_in_geitawi_branch": "170.0",
+      "stock_in_medawar_branch": "79.0",
+      "consumption_in_medawar_branch": "350.0",
+      "total_stock": "200.0",
+      "total_consumption": "520.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -3074,12 +3124,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "124.0",
-          "consumption": "0.0"
+          "stock": "121.0",
+          "consumption": "170.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "79.0",
+          "consumption": "350.0"
         }
       },
       "name": "ALMAZA 25 CL",
@@ -3100,10 +3150,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "64.0",
       "consumption_in_geitawi_branch": "122.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "64.0",
-      "total_consumption": "122.0",
+      "stock_in_medawar_branch": "537.0",
+      "consumption_in_medawar_branch": "155.0",
+      "total_stock": "601.0",
+      "total_consumption": "277.0",
       "VAT": "YES",
       "price_lbp": 130000.0,
       "price_usd": "1.44",
@@ -3118,8 +3168,8 @@
           "consumption": "122.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "537.0",
+          "consumption": "155.0"
         }
       },
       "name": "ALMAZA CAN 50 CL",
@@ -3134,32 +3184,32 @@
       "barcode": "",
       "Product Description": "GAZ CYLINDER 10K",
       "SUPPLIERS": "TONY HANNA - GAZ",
-      "unit": "",
+      "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "GAS",
       "offers": "",
-      "stock_in_geitawi_branch": "4.0",
-      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "75.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "9.8",
-      "total_stock": "4.0",
-      "total_consumption": "9.8",
+      "consumption_in_medawar_branch": "9.0",
+      "total_stock": "10.0",
+      "total_consumption": "84.0",
       "VAT": "NO",
       "price_lbp": 1800000.0,
       "price_usd": "20.00",
-      "cost": 17.0,
+      "cost": 15.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID463.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
-          "consumption": "0.0"
+          "stock": "10.0",
+          "consumption": "75.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "9.8"
+          "consumption": "9.0"
         }
       },
       "barcode2": "",
@@ -3180,23 +3230,24 @@
       "sub": "GAS",
       "secondary_category": "",
       "secondary_subcategory": "",
-      "secondary_sub_category": ""
+      "secondary_sub_category": "",
+      "totalStock": "13"
     },
     {
       "id": "467",
       "barcode": "022644003698",
-      "Product Description": "CARIOCA 180G",
+      "Product Description": "CARIOCA 180 G",
       "SUPPLIERS": "ETS MICHEL NAJJAR",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "15.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "15.0",
-      "total_consumption": "18.0",
+      "stock_in_medawar_branch": "23.0",
+      "consumption_in_medawar_branch": "23.0",
+      "total_stock": "23.0",
+      "total_consumption": "41.0",
       "VAT": "YES",
       "price_lbp": 315000.0,
       "price_usd": "3.50",
@@ -3207,15 +3258,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "15.0",
+          "stock": "0.0",
           "consumption": "18.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "23.0",
+          "consumption": "23.0"
         }
       },
-      "name": "CARIOCA 180G",
+      "name": "CARIOCA 180 G",
       "supplier": "ETS MICHEL NAJJAR",
       "subcategory": "instant coffee",
       "vat": 1,
@@ -3225,7 +3276,7 @@
     {
       "id": "468",
       "barcode": "022644003919",
-      "Product Description": "CAFE NAJJAR CLASSIC NORMAL 400G",
+      "Product Description": "CAFE NAJJAR CLASSIC NORMAL 400 G",
       "SUPPLIERS": "ETS MICHEL NAJJAR",
       "unit": "-",
       "category": "FOOD",
@@ -3233,10 +3284,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "36.0",
-      "total_stock": "2.0",
-      "total_consumption": "54.0",
+      "stock_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "28.0",
+      "total_stock": "14.0",
+      "total_consumption": "46.0",
       "VAT": "YES",
       "price_lbp": 715000.0,
       "price_usd": "7.94",
@@ -3251,11 +3302,11 @@
           "consumption": "18.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "36.0"
+          "stock": "12.0",
+          "consumption": "28.0"
         }
       },
-      "name": "CAFE NAJJAR CLASSIC NORMAL 400G",
+      "name": "CAFE NAJJAR CLASSIC NORMAL 400 G",
       "supplier": "ETS MICHEL NAJJAR",
       "subcategory": "instant coffee",
       "vat": 1,
@@ -3274,9 +3325,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "-1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "-1.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 735000.0,
       "price_usd": "8.17",
@@ -3296,7 +3347,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "-1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -3305,7 +3356,7 @@
     {
       "id": "472",
       "barcode": "022644000338",
-      "Product Description": "STAR SOFT NORMAL 200G",
+      "Product Description": "STAR SOFT NORMAL 200 G",
       "SUPPLIERS": "ETS MICHEL NAJJAR",
       "unit": "-",
       "category": "FOOD",
@@ -3313,10 +3364,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "29.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "29.0",
-      "total_consumption": "20.0",
+      "stock_in_medawar_branch": "14.0",
+      "consumption_in_medawar_branch": "18.0",
+      "total_stock": "43.0",
+      "total_consumption": "38.0",
       "VAT": "YES",
       "price_lbp": 300000.0,
       "price_usd": "3.33",
@@ -3331,11 +3382,11 @@
           "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "14.0",
+          "consumption": "18.0"
         }
       },
-      "name": "STAR SOFT NORMAL 200G",
+      "name": "STAR SOFT NORMAL 200 G",
       "supplier": "ETS MICHEL NAJJAR",
       "subcategory": "instant coffee",
       "vat": 1,
@@ -3354,9 +3405,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "6.0",
+      "consumption_in_medawar_branch": "8.0",
       "total_stock": "0.0",
-      "total_consumption": "9.0",
+      "total_consumption": "11.0",
       "VAT": "YES",
       "price_lbp": 680000.0,
       "price_usd": "7.56",
@@ -3372,7 +3423,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "6.0"
+          "consumption": "8.0"
         }
       },
       "barcode2": "7891000361481",
@@ -3392,7 +3443,7 @@
     {
       "id": "478",
       "barcode": "8850124037350",
-      "Product Description": "NESCAFE 3IN1 MY CUP 30(20G)",
+      "Product Description": "NESCAFE 3IN1 MY CUP 30(20 G)",
       "SUPPLIERS": "PRODIGY SAL USD",
       "unit": "-",
       "category": "FOOD",
@@ -3400,14 +3451,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "315.0",
       "consumption_in_geitawi_branch": "1512.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "315.0",
-      "total_consumption": "1512.0",
+      "stock_in_medawar_branch": "1671.0",
+      "consumption_in_medawar_branch": "1132.0",
+      "total_stock": "1986.0",
+      "total_consumption": "2644.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
       "price_usd": "0.28",
-      "cost": 0.16,
+      "cost": 0.15675833333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID478.jpg",
       "new_items": "",
       "manual": "",
@@ -3418,11 +3469,11 @@
           "consumption": "1512.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "1671.0",
+          "consumption": "1132.0"
         }
       },
-      "name": "NESCAFE 3IN1 MY CUP 30(20G)",
+      "name": "NESCAFE 3IN1 MY CUP 30(20 G)",
       "supplier": "PRODIGY SAL USD",
       "subcategory": "instant coffee",
       "vat": 1,
@@ -3438,12 +3489,12 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "19.0",
-      "total_stock": "1.0",
-      "total_consumption": "21.0",
+      "stock_in_medawar_branch": "-1.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "-1.0",
+      "total_consumption": "3.0",
       "VAT": "NO",
       "price_lbp": 450000.0,
       "price_usd": "5.00",
@@ -3455,12 +3506,12 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "19.0"
+          "stock": "-1.0",
+          "consumption": "1.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -3473,13 +3524,24 @@
       "vat": 0,
       "barcode2": "8998666000880",
       "barcodes": "8998666000880",
+      "base_id": "666",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 666,
+      "bulk_qty": 22,
+      "productDescription": "TORABIKA SACHET x 22 pcs",
+      "description": "TORABIKA SACHET x 22 pcs",
+      "product_description": "TORABIKA SACHET x 22 pcs",
+      "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
+      "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
+      "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "499",
       "barcode": "022644002639",
-      "Product Description": "CAFE NAJJAR 180 GR",
+      "Product Description": "CAFE NAJJAR 180 G",
       "SUPPLIERS": "ETS MICHEL NAJJAR",
       "unit": "-",
       "category": "FOOD",
@@ -3487,10 +3549,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "26.0",
       "consumption_in_geitawi_branch": "45.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "77.0",
-      "total_stock": "26.0",
-      "total_consumption": "122.0",
+      "stock_in_medawar_branch": "52.0",
+      "consumption_in_medawar_branch": "54.0",
+      "total_stock": "78.0",
+      "total_consumption": "99.0",
       "VAT": "YES",
       "price_lbp": 325000.0,
       "price_usd": "3.61",
@@ -3505,11 +3567,11 @@
           "consumption": "45.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "77.0"
+          "stock": "52.0",
+          "consumption": "54.0"
         }
       },
-      "name": "CAFE NAJJAR 180 GR",
+      "name": "CAFE NAJJAR 180 G",
       "supplier": "ETS MICHEL NAJJAR",
       "subcategory": "instant coffee",
       "vat": 1,
@@ -3517,6 +3579,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-21T23:18:58.166269Z",
+  "updatedAt": "2026-05-21T23:20:00.640858Z",
   "source": "sql"
 }

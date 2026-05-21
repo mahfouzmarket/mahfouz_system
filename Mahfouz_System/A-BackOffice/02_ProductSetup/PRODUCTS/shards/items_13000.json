@@ -12,9 +12,9 @@
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "6.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 785000.0,
       "price_usd": "8.72",
@@ -34,11 +34,12 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "5287000267922",
-      "barcodes": "5287000267922"
+      "barcodes": "5287000267922",
+      "totalStock": "6"
     },
     {
       "id": "13001",
@@ -78,7 +79,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "13009",
@@ -98,7 +100,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 40000.0,
-      "cost": 0.37,
+      "cost": 0.0,
       "total_stock": "10.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "10.0",
@@ -142,11 +144,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.37",
-      "costUsd": 0.37,
-      "cost_ht_usd": 0.37,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "10",
       "price_usd": "0.44"
     },
     {
@@ -168,18 +166,18 @@
       "vat": 1,
       "price_lbp": 160000.0,
       "cost": 1.3542,
-      "total_stock": "3.0",
-      "total_consumption": "2.0",
-      "stock_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "0.0",
+      "total_stock": "4.0",
+      "total_consumption": "5.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "4.0",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "4.0",
+          "consumption": "3.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -190,7 +188,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790732Z",
       "barcode2": "",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -200,7 +198,7 @@
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "DERONI MAYONNAISE 250 ML",
       "consumption_in_geitawi_branch": "2.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "3.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
       "sub": "SAUCE",
@@ -211,6 +209,8 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13013.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13013.jpg",
       "price_usd": "1.78"
     },
     {
@@ -225,9 +225,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -247,7 +247,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -265,9 +265,9 @@
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "69.0",
+      "consumption_in_medawar_branch": "17.0",
       "total_stock": "8.0",
-      "total_consumption": "78.0",
+      "total_consumption": "26.0",
       "VAT": "NO",
       "price_lbp": 500000.0,
       "price_usd": "5.56",
@@ -284,7 +284,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "69.0"
+          "consumption": "17.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -304,6 +304,17 @@
       "supplier": "PRODIGY SAL USD",
       "subcategory": "instant coffee",
       "vat": 0,
+      "base_id": "478",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 478,
+      "bulk_qty": 30,
+      "productDescription": "NESCAFE 3IN1 MY CUP 30(20G) x 30 pcs",
+      "description": "NESCAFE 3IN1 MY CUP 30(20G) x 30 pcs",
+      "product_description": "NESCAFE 3IN1 MY CUP 30(20G) x 30 pcs",
+      "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
+      "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
+      "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0"
     },
@@ -319,9 +330,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 230000.0,
       "price_usd": "2.56",
@@ -337,7 +348,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "VIN NADER VIN BLANC 750 ML",
@@ -356,12 +367,12 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "7.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7.0",
-      "total_consumption": "0.0",
+      "stock_in_medawar_branch": "25.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "25.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 305000.0,
       "price_usd": "3.39",
@@ -372,12 +383,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "25.0",
+          "consumption": "2.0"
         }
       },
       "name": "JOHNNIE WALKER BLACK LABEL 5CL",
@@ -399,9 +410,9 @@
       "stock_in_geitawi_branch": "12.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "13.0",
       "total_stock": "12.0",
-      "total_consumption": "3.0",
+      "total_consumption": "16.0",
       "VAT": "YES",
       "price_lbp": 190000.0,
       "price_usd": "2.11",
@@ -417,7 +428,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "13.0"
         }
       },
       "name": "JOHNNIE WALKER RED LABEL 5CL",
@@ -436,11 +447,11 @@
       "category": "FOOD",
       "sub_category": "SAUCE",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
+      "total_stock": "0.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 140000.0,
@@ -452,7 +463,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -476,12 +487,12 @@
       "category": "CIGARETTES",
       "sub_category": "LIGHTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "188.0",
+      "stock_in_geitawi_branch": "191.0",
       "consumption_in_geitawi_branch": "37.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "124.0",
-      "total_stock": "188.0",
-      "total_consumption": "161.0",
+      "stock_in_medawar_branch": "178.0",
+      "consumption_in_medawar_branch": "69.0",
+      "total_stock": "369.0",
+      "total_consumption": "106.0",
       "VAT": "YES",
       "price_lbp": 30000.0,
       "price_usd": "0.33",
@@ -492,18 +503,29 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "188.0",
+          "stock": "191.0",
           "consumption": "37.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "124.0"
+          "stock": "178.0",
+          "consumption": "69.0"
         }
       },
       "name": "LIGHTER WITH LAMP",
       "supplier": "JACK DIB",
       "subcategory": "LIGHTER",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "0.16",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-13034-1778914276162595",
+      "product_setup_saved_at_utc": "2026-05-16T06:51:16.162595Z"
     },
     {
       "id": "13036",
@@ -514,12 +536,12 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "11.0",
-      "total_stock": "10.0",
-      "total_consumption": "12.0",
+      "consumption_in_medawar_branch": "7.0",
+      "total_stock": "0.0",
+      "total_consumption": "8.0",
       "VAT": "YES",
       "price_lbp": 850000.0,
       "price_usd": "9.44",
@@ -530,12 +552,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "11.0"
+          "consumption": "7.0"
         }
       },
       "name": "CAFE SUPER BRASIL 400G",
@@ -556,9 +578,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "3.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 410000.0,
@@ -574,7 +596,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       },
@@ -583,7 +605,8 @@
       "subcategory": "DISH WASHING",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "3"
     },
     {
       "id": "13039",
@@ -597,9 +620,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -619,7 +642,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "5281011950088",
@@ -717,9 +740,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "3.0",
+      "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -739,7 +762,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "3.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "5289000103309",
@@ -748,18 +771,18 @@
     {
       "id": "13057",
       "barcode": "5711953136528",
-      "Product Description": "PUCK DANISH WHITE 500G",
+      "Product Description": "PUCK DANISH WHITE 500 G",
       "SUPPLIERS": "ARLA KALLASSI FOODS LB SAL",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "PROCESSED CHEESE",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "13.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "3.0",
-      "total_stock": "-1.0",
-      "total_consumption": "16.0",
+      "stock_in_medawar_branch": "9.0",
+      "consumption_in_medawar_branch": "8.0",
+      "total_stock": "9.0",
+      "total_consumption": "21.0",
       "VAT": "NO",
       "price_lbp": 285000.0,
       "price_usd": "3.17",
@@ -770,15 +793,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "13.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "3.0"
+          "stock": "9.0",
+          "consumption": "8.0"
         }
       },
-      "name": "PUCK DANISH WHITE 500G",
+      "name": "PUCK DANISH WHITE 500 G",
       "supplier": "ARLA KALLASSI FOODS LB SAL",
       "subcategory": "PROCESSED CHEESE",
       "vat": 0,
@@ -794,12 +817,12 @@
       "category": "HOME USAGE",
       "sub_category": "nail & skin care",
       "offers": "0",
-      "stock_in_geitawi_branch": "27.0",
-      "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "26.0",
+      "consumption_in_geitawi_branch": "4.0",
+      "stock_in_medawar_branch": "27.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "27.0",
-      "total_consumption": "0.0",
+      "total_stock": "53.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 345000.0,
       "price_usd": "3.83",
@@ -810,11 +833,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "27.0",
-          "consumption": "0.0"
+          "stock": "26.0",
+          "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "27.0",
           "consumption": "0.0"
         }
       },
@@ -823,7 +846,17 @@
       "subcategory": "nail & skin care",
       "vat": 1,
       "barcode2": "5281011177003",
-      "barcodes": "5281011177003"
+      "barcodes": "5281011177003",
+      "expiry_days": "0",
+      "cost_ht": "2.33",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-13061-1778936925536686",
+      "product_setup_saved_at_utc": "2026-05-16T13:08:45.536686Z",
+      "totalStock": "55"
     },
     {
       "id": "13062",
@@ -834,11 +867,11 @@
       "category": "HOME USAGE",
       "sub_category": "WOMAN CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10.0",
+      "total_stock": "19.0",
       "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 285000.0,
@@ -854,16 +887,16 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "10.0",
+          "stock": "9.0",
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "10.0",
           "consumption": "0.0"
         }
       },
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5281011208103",
+      "barcodes": "5281011208103",
       "expiry_days": "0",
       "cost_ht": "1.94",
       "linked_profile_enabled": false,
@@ -872,7 +905,8 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13062-1778664995307082",
-      "product_setup_saved_at_utc": "2026-05-13T09:36:35.307082Z"
+      "product_setup_saved_at_utc": "2026-05-13T09:36:35.307082Z",
+      "totalStock": "19"
     },
     {
       "id": "13063",
@@ -885,9 +919,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "2.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 1275000.0,
@@ -903,7 +937,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "0.0"
         }
       },
@@ -911,6 +945,7 @@
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
       "vat": 1,
+      "totalStock": "2",
       "barcode2": "",
       "barcodes": ""
     },
@@ -925,10 +960,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "66.0",
       "consumption_in_geitawi_branch": "28.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "66.0",
-      "total_consumption": "28.0",
+      "stock_in_medawar_branch": "7.0",
+      "consumption_in_medawar_branch": "46.0",
+      "total_stock": "73.0",
+      "total_consumption": "74.0",
       "VAT": "NO",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
@@ -943,8 +978,8 @@
           "consumption": "28.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "7.0",
+          "consumption": "46.0"
         }
       },
       "name": "AL WAFA FRANJI",
@@ -963,12 +998,12 @@
       "category": "FOOD",
       "sub_category": "OIL & FAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "8.0",
-      "total_stock": "4.0",
-      "total_consumption": "16.0",
+      "stock_in_medawar_branch": "24.0",
+      "consumption_in_medawar_branch": "16.0",
+      "total_stock": "24.0",
+      "total_consumption": "24.0",
       "VAT": "NO",
       "price_lbp": 175000.0,
       "price_usd": "1.94",
@@ -979,12 +1014,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "0.0",
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "8.0"
+          "stock": "24.0",
+          "consumption": "16.0"
         }
       },
       "name": "ZER SUNFLOWER OIL 825 ML",
@@ -992,12 +1027,13 @@
       "subcategory": "OIL & FAT",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "24"
     },
     {
       "id": "13079",
       "barcode": "5283000904225",
-      "Product Description": "AOUN RICE EGYPTIAN TYPE 900 GR",
+      "Product Description": "AOUN RICE EGYPTIAN TYPE 900 G",
       "SUPPLIERS": "AOUN FOOD CO",
       "unit": "-",
       "category": "FOOD",
@@ -1005,10 +1041,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "26.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
-      "total_consumption": "26.0",
+      "stock_in_medawar_branch": "44.0",
+      "consumption_in_medawar_branch": "10.0",
+      "total_stock": "46.0",
+      "total_consumption": "36.0",
       "VAT": "NO",
       "price_lbp": 115000.0,
       "price_usd": "1.28",
@@ -1023,11 +1059,11 @@
           "consumption": "26.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "44.0",
+          "consumption": "10.0"
         }
       },
-      "name": "AOUN RICE EGYPTIAN TYPE 900 GR",
+      "name": "AOUN RICE EGYPTIAN TYPE 900 G",
       "supplier": "AOUN FOOD CO",
       "subcategory": "SEEDS",
       "vat": 0,
@@ -1043,12 +1079,12 @@
       "category": "HOME USAGE",
       "sub_category": "TOOTH CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "4.0",
-      "total_stock": "4.0",
-      "total_consumption": "4.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "0.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 160000.0,
       "price_usd": "1.78",
@@ -1059,12 +1095,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "4.0"
+          "consumption": "2.0"
         }
       },
       "name": "CLOSE UP",
@@ -1083,12 +1119,12 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "-1.0",
-      "total_consumption": "6.0",
+      "consumption_in_medawar_branch": "8.0",
+      "total_stock": "0.0",
+      "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -1099,12 +1135,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "6.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "8.0"
         }
       },
       "name": "ALTECO PVC TAPE",
@@ -1125,10 +1161,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "24.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
-      "total_consumption": "24.0",
+      "stock_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "29.0",
+      "total_stock": "7.0",
+      "total_consumption": "53.0",
       "VAT": "YES",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
@@ -1143,8 +1179,8 @@
           "consumption": "24.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "5.0",
+          "consumption": "29.0"
         }
       },
       "updatedAt": "2026-05-09T00:33:34",
@@ -1165,11 +1201,11 @@
       "category": "HOME USAGE",
       "sub_category": "glue",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
+      "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 115000.0,
@@ -1181,7 +1217,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -1203,7 +1239,7 @@
     {
       "id": "13096",
       "barcode": "5285001522118",
-      "Product Description": "DERONI SWEET CORN 340 GR",
+      "Product Description": "DERONI SWEET CORN 340 G",
       "SUPPLIERS": "BITAR INTERNATIONAL S.A.L",
       "unit": "-",
       "category": "FOOD",
@@ -1212,9 +1248,9 @@
       "stock_in_geitawi_branch": "-4.0",
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "4.0",
       "total_stock": "-4.0",
-      "total_consumption": "12.0",
+      "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 135000.0,
       "price_usd": "1.50",
@@ -1223,7 +1259,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "DERONI SWEET CORN 340 GR",
+      "name": "DERONI SWEET CORN 340 G",
       "supplier": "BITAR INTERNATIONAL S.A.L",
       "subcategory": "cans & jams",
       "vat": 1,
@@ -1234,11 +1270,12 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "4.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "9"
     },
     {
       "id": "13099",
@@ -1252,9 +1289,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "5.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -1270,7 +1307,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "5.0"
+          "consumption": "1.0"
         }
       },
       "name": "DERONI SPIRALI  PASTA 500 GR",
@@ -1285,7 +1322,7 @@
       "barcode": "089686120226",
       "barcode2": "",
       "barcodes": "",
-      "Product Description": "INDOMIE VEGETABLES WITH OIL 75GR",
+      "Product Description": "INDOMIE VEGETABLES WITH OIL 75 G",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "unit": "-",
       "category": "FOOD",
@@ -1294,10 +1331,10 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "212.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "37.0",
-      "total_stock": "15.0",
-      "total_consumption": "249.0",
+      "stock_in_medawar_branch": "561.0",
+      "consumption_in_medawar_branch": "230.0",
+      "total_stock": "576.0",
+      "total_consumption": "442.0",
       "VAT": "NO",
       "price_lbp": 45000.0,
       "price_usd": "0.50",
@@ -1318,13 +1355,13 @@
           "consumption": "212.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "37.0"
+          "stock": "561.0",
+          "consumption": "230.0"
         }
       },
       "product_setup_save_token": "PS-SAVE-13112-1778849989992610",
       "product_setup_saved_at_utc": "2026-05-15T12:59:49.992610Z",
-      "name": "INDOMIE VEGETABLES WITH OIL 75GR",
+      "name": "INDOMIE VEGETABLES WITH OIL 75 G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "PASTA & INDOMI",
       "vat": 0
@@ -1341,9 +1378,9 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "12.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "3.0",
-      "total_consumption": "12.0",
+      "total_consumption": "13.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
       "price_usd": "1.00",
@@ -1359,7 +1396,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "TROPICANA CARTOON 1L",
@@ -1367,7 +1404,8 @@
       "subcategory": "juice",
       "vat": 1,
       "barcode2": "5283024600073",
-      "barcodes": "5283024600073"
+      "barcodes": "5283024600073",
+      "totalStock": "3"
     },
     {
       "id": "13120",
@@ -1381,9 +1419,9 @@
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "9.0",
-      "total_consumption": "9.0",
+      "total_consumption": "10.0",
       "VAT": "YES",
       "price_lbp": 130000.0,
       "price_usd": "1.44",
@@ -1399,7 +1437,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "ALPH ORGANIC HEMP",
@@ -1412,7 +1450,7 @@
     {
       "id": "13121",
       "barcode": "80874652",
-      "Product Description": "KINDER CARDS 12.8 GR",
+      "Product Description": "KINDER CARDS 12.8 G",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "unit": "-",
       "category": "CHI TAYIB",
@@ -1420,14 +1458,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "39.0",
       "consumption_in_geitawi_branch": "30.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "16.0",
-      "total_stock": "39.0",
-      "total_consumption": "46.0",
+      "stock_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "34.0",
+      "total_stock": "42.0",
+      "total_consumption": "64.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
       "price_usd": "1.00",
-      "cost": 0.77,
+      "cost": 0.72,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13121.jpg",
       "new_items": "",
       "manual": "",
@@ -1438,21 +1476,22 @@
           "consumption": "30.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "16.0"
+          "stock": "3.0",
+          "consumption": "34.0"
         }
       },
-      "name": "KINDER CARDS 12.8 GR",
+      "name": "KINDER CARDS 12.8 G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "68"
     },
     {
       "id": "13122",
       "barcode": "8690504086642",
-      "Product Description": "ALBENI WHITE 36 GR",
+      "Product Description": "ALBENI WHITE 36 G",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "unit": "-",
       "category": "CHI TAYIB",
@@ -1460,10 +1499,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "19.0",
-      "total_stock": "5.0",
-      "total_consumption": "34.0",
+      "stock_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "12.0",
+      "total_stock": "17.0",
+      "total_consumption": "27.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -1478,16 +1517,17 @@
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "19.0"
+          "stock": "12.0",
+          "consumption": "12.0"
         }
       },
-      "name": "ALBENI WHITE 36 GR",
+      "name": "ALBENI WHITE 36 G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "16"
     },
     {
       "id": "13124",
@@ -1501,9 +1541,9 @@
       "stock_in_geitawi_branch": "70.0",
       "consumption_in_geitawi_branch": "17.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "70.0",
-      "total_consumption": "20.0",
+      "total_consumption": "19.0",
       "VAT": "YES",
       "price_lbp": 30000.0,
       "price_usd": "0.33",
@@ -1519,7 +1559,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "3.0"
+          "consumption": "2.0"
         }
       },
       "name": "AILA MILK CHOCOLATE",
@@ -1547,18 +1587,18 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 70000.0,
-      "cost": 0.65,
-      "total_stock": "0.0",
+      "cost": 0.0,
+      "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -1591,11 +1631,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.65",
-      "costUsd": 0.65,
-      "cost_ht_usd": 0.65,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "1",
       "price_usd": "0.78"
     },
     {
@@ -1616,7 +1652,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 110000.0,
-      "cost": 1.02,
+      "cost": 0.0,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -1660,11 +1696,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.02",
-      "costUsd": 1.02,
-      "cost_ht_usd": 1.02,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "1.22"
     },
     {
@@ -1678,10 +1709,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "stock_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "168.0",
+      "total_stock": "5.0",
+      "total_consumption": "169.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
       "price_usd": "0.28",
@@ -1696,8 +1727,8 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "5.0",
+          "consumption": "168.0"
         }
       },
       "name": "NESCAFE 2IN1 SUGAR FREE",
@@ -1716,12 +1747,12 @@
       "category": "CHI TAYIB",
       "sub_category": "candies",
       "offers": "0",
-      "stock_in_geitawi_branch": "52.0",
+      "stock_in_geitawi_branch": "51.0",
       "consumption_in_geitawi_branch": "31.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "50.0",
-      "total_stock": "52.0",
-      "total_consumption": "81.0",
+      "stock_in_medawar_branch": "127.0",
+      "consumption_in_medawar_branch": "29.0",
+      "total_stock": "178.0",
+      "total_consumption": "60.0",
       "VAT": "NO",
       "price_lbp": 45000.0,
       "price_usd": "0.50",
@@ -1732,12 +1763,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "52.0",
+          "stock": "51.0",
           "consumption": "31.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "50.0"
+          "stock": "127.0",
+          "consumption": "29.0"
         }
       },
       "name": "HALLS CHERRY FLAVOR",
@@ -1796,12 +1827,12 @@
       "category": "CIGARETTES",
       "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "13.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "13.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "0.0",
+      "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
       "price_usd": "0.56",
@@ -1812,12 +1843,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "0.0",
           "consumption": "13.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         }
       },
       "name": "ALPH CHALUMEAU LIGHTER CLICK",
@@ -1839,9 +1870,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -1860,7 +1891,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "barcode2": "",
@@ -1883,9 +1914,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 630000.0,
       "price_usd": "7.00",
@@ -1905,7 +1936,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "6902500000754",
@@ -1922,9 +1953,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 290000.0,
@@ -1940,7 +1971,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "1.0"
         }
       },
@@ -1949,7 +1980,8 @@
       "subcategory": "shaving",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "13159",
@@ -1963,9 +1995,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "12.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "12.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 80000.0,
       "price_usd": "0.89",
@@ -1985,7 +2017,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "12.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -2040,12 +2072,12 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "3.0",
-      "total_stock": "11.0",
-      "total_consumption": "3.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 130000.0,
       "price_usd": "1.44",
@@ -2060,12 +2092,12 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "3.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -2194,7 +2226,7 @@
     {
       "id": "13176",
       "barcode": "8690632017983",
-      "Product Description": "WHITE CRUNCH 31.5 GR",
+      "Product Description": "WHITE CRUNCH 31.5 G",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "unit": "-",
       "category": "CHI TAYIB",
@@ -2202,10 +2234,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "55.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10.0",
-      "total_consumption": "55.0",
+      "stock_in_medawar_branch": "19.0",
+      "consumption_in_medawar_branch": "25.0",
+      "total_stock": "29.0",
+      "total_consumption": "80.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
       "price_usd": "0.78",
@@ -2220,11 +2252,11 @@
           "consumption": "55.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "19.0",
+          "consumption": "25.0"
         }
       },
-      "name": "WHITE CRUNCH 31.5 GR",
+      "name": "WHITE CRUNCH 31.5 G",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
       "vat": 1,
@@ -2243,9 +2275,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "0.0",
-      "total_consumption": "3.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 130000.0,
       "price_usd": "1.44",
@@ -2261,7 +2293,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "3.0"
+          "consumption": "2.0"
         }
       },
       "name": "B-READY X 2",
@@ -2280,12 +2312,12 @@
       "category": "HOME USAGE",
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "131.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "272.0",
-      "total_stock": "4.0",
-      "total_consumption": "403.0",
+      "stock_in_medawar_branch": "117.0",
+      "consumption_in_medawar_branch": "290.0",
+      "total_stock": "123.0",
+      "total_consumption": "421.0",
       "VAT": "NO",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -2296,12 +2328,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "6.0",
           "consumption": "131.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "272.0"
+          "stock": "117.0",
+          "consumption": "290.0"
         }
       },
       "name": "AL OUMDA",
@@ -2320,12 +2352,12 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "1.0",
+      "consumption_in_medawar_branch": "4.0",
+      "total_stock": "3.0",
+      "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 270000.0,
       "price_usd": "3.00",
@@ -2336,12 +2368,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "3.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "4.0"
         }
       },
       "name": "MOULIN D'OR KAAK LONG",
@@ -2362,9 +2394,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
@@ -2384,10 +2416,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "0.0"
         }
       },
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -2400,12 +2433,12 @@
       "category": "HOME USAGE",
       "sub_category": "TRASH BAGS",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "1.0",
-      "total_consumption": "3.0",
+      "consumption_in_medawar_branch": "5.0",
+      "total_stock": "2.0",
+      "total_consumption": "8.0",
       "VAT": "YES",
       "price_lbp": 180000.0,
       "price_usd": "2.00",
@@ -2416,12 +2449,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "2.0",
           "consumption": "3.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "5.0"
         }
       },
       "name": "MARVY TRASH BAG MED 30+3 FREE",
@@ -2429,7 +2462,8 @@
       "subcategory": "TRASH BAGS",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "13198",
@@ -2449,9 +2483,9 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 160000.0,
-      "cost": 1.48,
+      "cost": 0.0,
       "total_stock": "14.0",
-      "total_consumption": "0.0",
+      "total_consumption": "1.0",
       "stock_in_geitawi_branch": "14.0",
       "stock_in_medawar_branch": "0.0",
       "branches": {
@@ -2461,7 +2495,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -2482,7 +2516,7 @@
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "GIPSY SOFT PLUS 200 SHEETS -15%",
       "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
       "sub": "TISSUES & TOILET PAPER",
@@ -2493,11 +2527,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.48",
-      "costUsd": 1.48,
-      "cost_ht_usd": 1.48,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "14",
       "price_usd": "1.78"
     },
     {
@@ -2512,9 +2542,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "6.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
       "price_usd": "0.56",
@@ -2530,7 +2560,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "5.0"
+          "consumption": "1.0"
         }
       },
       "name": "SANITA GIPSY WIPES 15 SHEETS",
@@ -2549,12 +2579,12 @@
       "category": "HOME USAGE",
       "sub_category": "femi care",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "stock_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "3.0",
-      "total_consumption": "4.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 425000.0,
       "price_usd": "4.72",
@@ -2565,12 +2595,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "2.0"
+          "stock": "3.0",
+          "consumption": "1.0"
         }
       },
       "name": "FRESHDAYS LONG 76 PANTYLINERS",
@@ -2578,7 +2608,8 @@
       "subcategory": "femi care",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "3"
     },
     {
       "id": "13205",
@@ -2589,12 +2620,12 @@
       "category": "HOME USAGE",
       "sub_category": "femi care",
       "offers": "0",
-      "stock_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "6.0",
-      "total_consumption": "0.0",
+      "stock_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "4.0",
+      "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": 375000.0,
       "price_usd": "4.17",
@@ -2605,12 +2636,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "4.0",
+          "consumption": "2.0"
         }
       },
       "name": "FRESHDAYS NORMAL 72 PANTYLINERS",
@@ -2618,7 +2649,8 @@
       "subcategory": "femi care",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "13206",
@@ -2629,12 +2661,12 @@
       "category": "HOME USAGE",
       "sub_category": "femi care",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
-      "total_consumption": "3.0",
+      "stock_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "4.0",
+      "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 405000.0,
       "price_usd": "4.50",
@@ -2645,12 +2677,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "4.0",
+          "consumption": "2.0"
         }
       },
       "name": "FRESHDAYS NORMAL SCENTED 72 PANTYLINERS",
@@ -2658,7 +2690,8 @@
       "subcategory": "femi care",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "13207",
@@ -2672,9 +2705,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 415000.0,
       "price_usd": "4.61",
@@ -2690,7 +2723,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "name": "FRESHDAYS LONG SCENTED 72 PANTS",
@@ -2709,12 +2742,12 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "10.0",
-      "total_consumption": "1.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -2729,12 +2762,12 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "10.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -2749,12 +2782,12 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
-      "total_consumption": "1.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": 160000.0,
       "price_usd": "1.78",
@@ -2769,12 +2802,12 @@
       "vat": 0,
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "barcode2": "",
@@ -2783,18 +2816,18 @@
     {
       "id": "13218",
       "barcode": "5283000915184",
-      "Product Description": "FAMILY FLOUR 900GR",
+      "Product Description": "FAMILY FLOUR 900 G",
       "SUPPLIERS": "AOUN FOOD CO",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "BAKING & COOKING",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "12.0",
-      "total_stock": "2.0",
-      "total_consumption": "27.0",
+      "stock_in_medawar_branch": "46.0",
+      "consumption_in_medawar_branch": "26.0",
+      "total_stock": "51.0",
+      "total_consumption": "41.0",
       "VAT": "NO",
       "price_lbp": 90000.0,
       "price_usd": "1.00",
@@ -2805,15 +2838,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "5.0",
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "12.0"
+          "stock": "46.0",
+          "consumption": "26.0"
         }
       },
-      "name": "FAMILY FLOUR 900GR",
+      "name": "FAMILY FLOUR 900 G",
       "supplier": "AOUN FOOD CO",
       "subcategory": "BAKING & COOKING",
       "vat": 0,
@@ -2829,12 +2862,12 @@
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "6.0",
-      "total_stock": "2.0",
-      "total_consumption": "7.0",
+      "consumption_in_medawar_branch": "3.0",
+      "total_stock": "0.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 35000.0,
       "price_usd": "0.39",
@@ -2845,12 +2878,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "6.0"
+          "consumption": "3.0"
         }
       },
       "name": "GIL NACETTE",
@@ -2872,9 +2905,9 @@
       "stock_in_geitawi_branch": "7.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "3.0",
       "total_stock": "7.0",
-      "total_consumption": "0.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 280000.0,
       "price_usd": "3.11",
@@ -2890,7 +2923,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "3.0"
         }
       },
       "name": "DERONI MAYONNAISE 500 ML",
@@ -2898,7 +2931,8 @@
       "subcategory": "KETCHUP, MAYO & MUSTARD",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "7"
     },
     {
       "id": "13235",
@@ -2911,10 +2945,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "19.0",
       "consumption_in_geitawi_branch": "42.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "53.0",
-      "total_stock": "19.0",
-      "total_consumption": "95.0",
+      "stock_in_medawar_branch": "15.0",
+      "consumption_in_medawar_branch": "18.0",
+      "total_stock": "34.0",
+      "total_consumption": "60.0",
       "VAT": "YES",
       "price_lbp": 65000.0,
       "price_usd": "0.72",
@@ -2929,8 +2963,8 @@
           "consumption": "42.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "53.0"
+          "stock": "15.0",
+          "consumption": "18.0"
         }
       },
       "name": "ULKER LAVIVA MILKY CREAM FILLING",
@@ -2951,9 +2985,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
+      "total_stock": "9.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 155000.0,
@@ -2969,7 +3003,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "0.0"
         }
       },
@@ -2978,7 +3012,8 @@
       "subcategory": "CLEANING",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "9"
     },
     {
       "id": "13238",
@@ -2992,9 +3027,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
       "price_usd": "3.56",
@@ -3014,7 +3049,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "5283022046286",
@@ -3029,12 +3064,12 @@
       "category": "FOOD",
       "sub_category": "FROZEN FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "12.0",
-      "total_stock": "1.0",
-      "total_consumption": "12.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 375000.0,
       "price_usd": "4.17",
@@ -3049,12 +3084,12 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "12.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -3152,9 +3187,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "3.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 30000.0,
       "price_usd": "0.33",
@@ -3174,7 +3209,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "3.0"
         }
       }
     },
@@ -3187,12 +3222,12 @@
       "category": "HOME USAGE",
       "sub_category": "glue",
       "offers": "0",
-      "stock_in_geitawi_branch": "8.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "8.0",
-      "total_consumption": "0.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 85000.0,
       "price_usd": "0.94",
@@ -3203,12 +3238,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "8.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "SCOTCH MEDIUM",
@@ -3227,12 +3262,12 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "10.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "15.0",
-      "total_stock": "6.0",
-      "total_consumption": "25.0",
+      "stock_in_medawar_branch": "16.0",
+      "consumption_in_medawar_branch": "13.0",
+      "total_stock": "16.0",
+      "total_consumption": "23.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -3243,12 +3278,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
+          "stock": "0.0",
           "consumption": "10.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "15.0"
+          "stock": "16.0",
+          "consumption": "13.0"
         }
       },
       "name": "CARNAVAL LIGHT PLASTIC CUTLERY 50 SPOONS",
@@ -3269,10 +3304,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "59.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "420.0",
-      "total_stock": "0.0",
-      "total_consumption": "479.0",
+      "stock_in_medawar_branch": "-3.0",
+      "consumption_in_medawar_branch": "225.0",
+      "total_stock": "-3.0",
+      "total_consumption": "284.0",
       "VAT": "YES",
       "price_lbp": 5000.0,
       "price_usd": "0.06",
@@ -3287,8 +3322,8 @@
           "consumption": "59.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "420.0"
+          "stock": "-3.0",
+          "consumption": "225.0"
         }
       },
       "secondary_sub_category": "",
@@ -3307,7 +3342,8 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "subcategory": "cup",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "-3"
     },
     {
       "id": "13287",
@@ -3318,12 +3354,12 @@
       "category": "mahfouz market",
       "sub_category": "cup",
       "offers": "0",
-      "stock_in_geitawi_branch": "-15.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "67.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "262.0",
-      "total_stock": "-15.0",
-      "total_consumption": "329.0",
+      "consumption_in_medawar_branch": "178.0",
+      "total_stock": "0.0",
+      "total_consumption": "245.0",
       "VAT": "YES",
       "price_lbp": 3000.0,
       "price_usd": "0.03",
@@ -3334,12 +3370,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-15.0",
+          "stock": "0.0",
           "consumption": "67.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "262.0"
+          "consumption": "178.0"
         }
       },
       "secondary_subcategory": "",
@@ -3369,12 +3405,12 @@
       "category": "mahfouz market",
       "sub_category": "cup",
       "offers": "0",
-      "stock_in_geitawi_branch": "18.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "80.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "112.0",
-      "total_stock": "18.0",
-      "total_consumption": "192.0",
+      "stock_in_medawar_branch": "40.0",
+      "consumption_in_medawar_branch": "129.0",
+      "total_stock": "40.0",
+      "total_consumption": "209.0",
       "VAT": "YES",
       "price_lbp": 10000.0,
       "price_usd": "0.11",
@@ -3385,12 +3421,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "18.0",
+          "stock": "0.0",
           "consumption": "80.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "112.0"
+          "stock": "40.0",
+          "consumption": "129.0"
         }
       },
       "barcodes": "",
@@ -3401,23 +3437,33 @@
       "secondary_sub_category": "",
       "sub": "cup",
       "subcategory": "cup",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "expiry_days": "0",
+      "cost_ht": "0.08",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-13288-1779168420310292",
+      "product_setup_saved_at_utc": "2026-05-19T05:27:00.310292Z"
     },
     {
       "id": "13292",
       "barcode": "8690504034438",
-      "Product Description": "ALBENI 40 GR",
+      "Product Description": "ALBENI 40 G",
       "SUPPLIERS": "",
       "unit": "-",
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "21.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "20.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "6.0",
-      "total_stock": "21.0",
-      "total_consumption": "26.0",
+      "consumption_in_medawar_branch": "14.0",
+      "total_stock": "0.0",
+      "total_consumption": "34.0",
       "VAT": "YES",
       "price_lbp": 35000.0,
       "price_usd": "0.39",
@@ -3427,12 +3473,12 @@
       "manual": "",
       "branches": {
         "Geitawi": {
-          "stock": "21.0",
+          "stock": "0.0",
           "consumption": "20.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "6.0"
+          "consumption": "14.0"
         }
       },
       "sub": "sweets",
@@ -3441,7 +3487,7 @@
       "secondary_sub_category": "",
       "supplier": "",
       "delivery_rules": "0.005",
-      "name": "ALBENI 40 GR",
+      "name": "ALBENI 40 G",
       "subcategory": "sweets",
       "vat": 1,
       "barcode2": "",
@@ -3458,10 +3504,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "5.0",
-      "total_consumption": "13.0",
+      "stock_in_medawar_branch": "25.0",
+      "consumption_in_medawar_branch": "17.0",
+      "total_stock": "30.0",
+      "total_consumption": "20.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
       "price_usd": "1.22",
@@ -3476,8 +3522,8 @@
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "10.0"
+          "stock": "25.0",
+          "consumption": "17.0"
         }
       },
       "name": "NUTELLA BISCUITS X3",
@@ -3498,10 +3544,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "31.0",
       "consumption_in_geitawi_branch": "424.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "31.0",
-      "total_consumption": "424.0",
+      "stock_in_medawar_branch": "75.0",
+      "consumption_in_medawar_branch": "586.0",
+      "total_stock": "106.0",
+      "total_consumption": "1010.0",
       "VAT": "NO",
       "price_lbp": 95000.0,
       "price_usd": "1.06",
@@ -3516,8 +3562,8 @@
           "consumption": "424.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "75.0",
+          "consumption": "586.0"
         }
       },
       "name": "MOULIN D'OR WHITE LARGE BREAD",
@@ -3525,7 +3571,8 @@
       "subcategory": "BAKERY",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "113"
     },
     {
       "id": "13297",
@@ -3539,9 +3586,9 @@
       "stock_in_geitawi_branch": "-2.0",
       "consumption_in_geitawi_branch": "14.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "24.0",
+      "consumption_in_medawar_branch": "10.0",
       "total_stock": "-2.0",
-      "total_consumption": "38.0",
+      "total_consumption": "24.0",
       "VAT": "YES",
       "price_lbp": 220000.0,
       "price_usd": "2.44",
@@ -3558,7 +3605,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "24.0"
+          "consumption": "10.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -3575,6 +3622,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
+      "totalStock": "-2",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0"
     },
@@ -3590,9 +3638,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 180000.0,
       "price_usd": "2.00",
@@ -3612,7 +3660,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -3630,9 +3678,9 @@
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "3.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 65000.0,
       "price_usd": "0.72",
@@ -3652,11 +3700,12 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "3"
     },
     {
       "id": "13310",
@@ -3696,7 +3745,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "13315",
@@ -3716,9 +3766,9 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 110000.0,
-      "cost": 1.02,
+      "cost": 0.0,
       "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "total_consumption": "2.0",
       "stock_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "branches": {
@@ -3728,7 +3778,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -3749,7 +3799,7 @@
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "MAGIC CLEAN 3",
       "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "2.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
       "sub": "CLEANING",
@@ -3760,11 +3810,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.02",
-      "costUsd": 1.02,
-      "cost_ht_usd": 1.02,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "1.22"
     },
     {
@@ -3776,12 +3821,12 @@
       "category": "HOME USAGE",
       "sub_category": "STATIONARY",
       "offers": "0",
-      "stock_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "24.0",
-      "total_stock": "6.0",
-      "total_consumption": "24.0",
+      "consumption_in_medawar_branch": "6.0",
+      "total_stock": "0.0",
+      "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 55000.0,
       "price_usd": "0.61",
@@ -3792,12 +3837,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "24.0"
+          "consumption": "6.0"
         }
       },
       "name": "PENCILX12 HB CONTINUE",
@@ -3818,10 +3863,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "12.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "31.0",
-      "total_stock": "2.0",
-      "total_consumption": "43.0",
+      "stock_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "23.0",
+      "total_stock": "7.0",
+      "total_consumption": "35.0",
       "VAT": "YES",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
@@ -3836,8 +3881,8 @@
           "consumption": "12.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "31.0"
+          "stock": "5.0",
+          "consumption": "23.0"
         }
       },
       "barcode2": "528320005632",
@@ -3867,10 +3912,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "14.0",
-      "total_stock": "4.0",
-      "total_consumption": "22.0",
+      "stock_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "7.0",
+      "total_stock": "12.0",
+      "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -3885,8 +3930,8 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "14.0"
+          "stock": "8.0",
+          "consumption": "7.0"
         }
       },
       "name": "CARNAVAL LIGHT PLASTIC CUTLERY 50 FORK",
@@ -3908,9 +3953,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "13.0",
       "total_stock": "0.0",
-      "total_consumption": "10.0",
+      "total_consumption": "23.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -3926,7 +3971,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "13.0"
         }
       },
       "name": "KINDER COUNTRY 23.5G",
@@ -3947,9 +3992,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "3.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 1250000.0,
@@ -3969,10 +4014,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "3.0",
           "consumption": "0.0"
         }
       },
+      "totalStock": "3",
       "barcode2": "",
       "barcodes": ""
     },
@@ -3988,9 +4034,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "27.0",
+      "consumption_in_medawar_branch": "6.0",
       "total_stock": "0.0",
-      "total_consumption": "28.0",
+      "total_consumption": "7.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
       "price_usd": "0.44",
@@ -4006,7 +4052,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "27.0"
+          "consumption": "6.0"
         }
       },
       "name": "BAKE ROLZ OLIVE FLAVOR 48-52 GM",
@@ -4027,10 +4073,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
-      "total_consumption": "8.0",
+      "stock_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "13.0",
+      "total_stock": "2.0",
+      "total_consumption": "21.0",
       "VAT": "YES",
       "price_lbp": 45000.0,
       "price_usd": "0.50",
@@ -4045,8 +4091,8 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "2.0",
+          "consumption": "13.0"
         }
       },
       "barcode2": "",
@@ -4078,10 +4124,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "12.0",
-      "total_stock": "8.0",
-      "total_consumption": "17.0",
+      "stock_in_medawar_branch": "10.0",
+      "consumption_in_medawar_branch": "3.0",
+      "total_stock": "18.0",
+      "total_consumption": "8.0",
       "VAT": "YES",
       "price_lbp": 80000.0,
       "price_usd": "0.89",
@@ -4100,12 +4146,13 @@
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "12.0"
+          "stock": "10.0",
+          "consumption": "3.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "18"
     },
     {
       "id": "13360",
@@ -4116,12 +4163,12 @@
       "category": "FOOD",
       "sub_category": "KETCHUP, MAYO & MUSTARD",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
-      "total_consumption": "5.0",
+      "stock_in_medawar_branch": "9.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "9.0",
+      "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 210000.0,
       "price_usd": "2.33",
@@ -4132,12 +4179,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "9.0",
+          "consumption": "1.0"
         }
       },
       "sub": "KETCHUP, MAYO & MUSTARD",
@@ -4163,9 +4210,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "5.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 160000.0,
       "price_usd": "1.78",
@@ -4181,7 +4228,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "name": "MERMAID TALCUM POWDER 120 GMS",
@@ -4203,9 +4250,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "0.0",
-      "total_consumption": "0.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 330000.0,
       "price_usd": "3.67",
@@ -4221,7 +4268,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         }
       },
       "name": "DOVE DEO CUMCUMBER 250 ML",
@@ -4243,9 +4290,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 335000.0,
       "price_usd": "3.72",
@@ -4261,7 +4308,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "supplier": "JACK DIB",
@@ -4287,9 +4334,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 270000.0,
       "price_usd": "3.00",
@@ -4305,7 +4352,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "barcodes": "",
@@ -4371,9 +4418,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 330000.0,
       "price_usd": "3.67",
@@ -4389,7 +4436,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         }
       },
       "name": "REXONA INVISIBLE BLACK & WHITE 200 ML",
@@ -4437,7 +4484,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "13"
     },
     {
       "id": "13376",
@@ -4450,9 +4498,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "11.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "1.0",
+      "total_stock": "12.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -4472,12 +4520,13 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "11.0",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "12"
     },
     {
       "id": "13381",
@@ -4488,12 +4537,12 @@
       "category": "HOME USAGE",
       "sub_category": "TOOTH CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "0.0",
-      "total_consumption": "3.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "1.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 285000.0,
       "price_usd": "3.17",
@@ -4504,12 +4553,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "1.0"
         }
       },
       "name": "COLGATE MAXI FRESH WITH WHITENING STRIPS 10",
@@ -4517,7 +4566,8 @@
       "subcategory": "TOOTH CARE",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "13384",
@@ -4531,9 +4581,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "0.0",
-      "total_consumption": "7.0",
+      "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 205000.0,
       "price_usd": "2.28",
@@ -4549,7 +4599,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "4.0"
+          "consumption": "2.0"
         }
       },
       "name": "COLGATE MAXFRESH CLEAN MINT 100 ML",
@@ -4570,10 +4620,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17.0",
       "consumption_in_geitawi_branch": "29.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "40.0",
-      "total_stock": "17.0",
-      "total_consumption": "69.0",
+      "stock_in_medawar_branch": "40.0",
+      "consumption_in_medawar_branch": "31.0",
+      "total_stock": "57.0",
+      "total_consumption": "60.0",
       "VAT": "YES",
       "price_lbp": 35000.0,
       "price_usd": "0.39",
@@ -4588,8 +4638,8 @@
           "consumption": "29.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "40.0"
+          "stock": "40.0",
+          "consumption": "31.0"
         }
       },
       "name": "MACCAW POMEGRENATE 180 ML",
@@ -4610,10 +4660,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "17.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "17.0",
+      "stock_in_medawar_branch": "6.0",
+      "consumption_in_medawar_branch": "15.0",
+      "total_stock": "11.0",
+      "total_consumption": "32.0",
       "VAT": "YES",
       "price_lbp": 140000.0,
       "price_usd": "1.56",
@@ -4628,8 +4678,8 @@
           "consumption": "17.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "6.0",
+          "consumption": "15.0"
         }
       },
       "name": "CASTANIA SUNFLOWER SEED SALT & VINEGAR 150",
@@ -4642,18 +4692,18 @@
     {
       "id": "13397",
       "barcode": "5281009568219",
-      "Product Description": "CASTANIA SUNFLOWER SEEDS 150GR",
+      "Product Description": "CASTANIA SUNFLOWER SEEDS 150 G",
       "SUPPLIERS": "LEBANESE ROASTING GROUP SAL",
       "unit": "-",
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "12.0",
       "consumption_in_geitawi_branch": "30.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "11.0",
-      "total_consumption": "30.0",
+      "stock_in_medawar_branch": "14.0",
+      "consumption_in_medawar_branch": "8.0",
+      "total_stock": "26.0",
+      "total_consumption": "38.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -4664,15 +4714,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "12.0",
           "consumption": "30.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "14.0",
+          "consumption": "8.0"
         }
       },
-      "name": "CASTANIA SUNFLOWER SEEDS 150GR",
+      "name": "CASTANIA SUNFLOWER SEEDS 150 G",
       "supplier": "LEBANESE ROASTING GROUP SAL",
       "subcategory": "CASTANIA",
       "vat": 1,
@@ -4682,7 +4732,7 @@
     {
       "id": "13398",
       "barcode": "5281009153620",
-      "Product Description": "CASTANIA SUNFLOWER SEEDS BBQ 150 GR",
+      "Product Description": "CASTANIA SUNFLOWER SEEDS BBQ 150 G",
       "SUPPLIERS": "LEBANESE ROASTING GROUP SAL",
       "unit": "-",
       "category": "NUTS",
@@ -4691,9 +4741,9 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "15.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "5.0",
       "total_stock": "2.0",
-      "total_consumption": "15.0",
+      "total_consumption": "20.0",
       "VAT": "YES",
       "price_lbp": 140000.0,
       "price_usd": "1.56",
@@ -4709,10 +4759,10 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "5.0"
         }
       },
-      "name": "CASTANIA SUNFLOWER SEEDS BBQ 150 GR",
+      "name": "CASTANIA SUNFLOWER SEEDS BBQ 150 G",
       "supplier": "LEBANESE ROASTING GROUP SAL",
       "subcategory": "CASTANIA",
       "vat": 1,
@@ -4728,12 +4778,12 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "14.0",
-      "total_stock": "6.0",
-      "total_consumption": "22.0",
+      "consumption_in_medawar_branch": "6.0",
+      "total_stock": "0.0",
+      "total_consumption": "14.0",
       "VAT": "YES",
       "price_lbp": 210000.0,
       "price_usd": "2.33",
@@ -4744,12 +4794,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
+          "stock": "0.0",
           "consumption": "8.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "14.0"
+          "consumption": "6.0"
         }
       },
       "name": "CASTANIA PUMPKIN SEEDS 160 GR",
@@ -4768,12 +4818,12 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "3.0",
-      "total_consumption": "2.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 125000.0,
       "price_usd": "1.39",
@@ -4784,12 +4834,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "name": "CASTANIA IN-SHELL PEANUTS 150 GR",
@@ -4808,12 +4858,12 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "19.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "19.0",
+      "stock_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "8.0",
+      "total_consumption": "21.0",
       "VAT": "YES",
       "price_lbp": 175000.0,
       "price_usd": "1.94",
@@ -4824,12 +4874,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "6.0",
           "consumption": "19.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "2.0",
+          "consumption": "2.0"
         }
       },
       "name": "CASTANIA SMALL SEEDS 200 GR",
@@ -4837,7 +4887,8 @@
       "subcategory": "CASTANIA",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "8"
     },
     {
       "id": "13402",
@@ -4850,9 +4901,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
+      "total_stock": "4.0",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 2285000.0,
@@ -4872,12 +4923,13 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "13405",
@@ -4890,9 +4942,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0.0",
+      "total_stock": "1.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 250000.0,
@@ -4912,10 +4964,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "1.0"
         }
       },
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -4931,9 +4984,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "2.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
       "price_usd": "3.56",
@@ -4953,7 +5006,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "2.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -4971,9 +5024,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "9.0",
       "total_stock": "0.0",
-      "total_consumption": "9.0",
+      "total_consumption": "18.0",
       "VAT": "YES",
       "price_lbp": 95000.0,
       "price_usd": "1.06",
@@ -4989,7 +5042,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "9.0"
         }
       },
       "name": "PRINGLES PAPRIKA 40 GR",
@@ -5010,10 +5063,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "7.0",
-      "total_stock": "0.0",
-      "total_consumption": "15.0",
+      "stock_in_medawar_branch": "-1.0",
+      "consumption_in_medawar_branch": "3.0",
+      "total_stock": "-1.0",
+      "total_consumption": "11.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
       "price_usd": "0.28",
@@ -5028,8 +5081,8 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "7.0"
+          "stock": "-1.0",
+          "consumption": "3.0"
         }
       },
       "name": "CUP OF TEA",
@@ -5048,10 +5101,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "-1.0",
-      "total_consumption": "6.0",
+      "stock_in_medawar_branch": "11.0",
+      "consumption_in_medawar_branch": "52.0",
+      "total_stock": "10.0",
+      "total_consumption": "58.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
       "price_usd": "0.44",
@@ -5065,8 +5118,8 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "11.0",
+          "consumption": "52.0"
         }
       },
       "barcode2": "089686120134",
@@ -5097,11 +5150,11 @@
       "category": "FOOD",
       "sub_category": "SAUCE",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "2.0",
+      "total_stock": "7.0",
       "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -5117,16 +5170,17 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "7.0",
           "consumption": "2.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "7"
     },
     {
       "id": "13443",
@@ -5140,9 +5194,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "4.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 20000.0,
       "price_usd": "0.22",
@@ -5162,7 +5216,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "4.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -5171,7 +5225,7 @@
     {
       "id": "13444",
       "barcode": "5281028458331",
-      "Product Description": "GANDOUR UNICA CREAMY VANILLA 24 GR",
+      "Product Description": "GANDOUR UNICA CREAMY VANILLA 24 G",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "unit": "-",
       "category": "CHI TAYIB",
@@ -5180,9 +5234,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "8.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 20000.0,
       "price_usd": "0.22",
@@ -5198,10 +5252,10 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "8.0"
+          "consumption": "0.0"
         }
       },
-      "name": "GANDOUR UNICA CREAMY VANILLA 24 GR",
+      "name": "GANDOUR UNICA CREAMY VANILLA 24 G",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "Wafers",
       "vat": 1,
@@ -5219,10 +5273,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "35.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "25.0",
-      "total_stock": "-3.0",
-      "total_consumption": "60.0",
+      "stock_in_medawar_branch": "-6.0",
+      "consumption_in_medawar_branch": "154.0",
+      "total_stock": "-9.0",
+      "total_consumption": "189.0",
       "VAT": "YES",
       "price_lbp": 5000.0,
       "price_usd": "0.06",
@@ -5237,14 +5291,26 @@
           "consumption": "35.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "25.0"
+          "stock": "-6.0",
+          "consumption": "154.0"
         }
       },
       "name": "COFFE CUP CARTOUNE",
       "supplier": "LEVANTO / DIWAN",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": "",
+      "expiry_days": "0",
+      "cost_ht": "0.03",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-13459-1779256267998601",
+      "product_setup_saved_at_utc": "2026-05-20T05:51:07.998601Z",
+      "totalStock": "-9"
     },
     {
       "id": "13461",
@@ -5255,12 +5321,12 @@
       "category": "CIGARETTES",
       "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "16.0",
-      "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "consumption_in_geitawi_branch": "3.0",
+      "stock_in_medawar_branch": "16.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "16.0",
-      "total_consumption": "6.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 85000.0,
       "price_usd": "0.94",
@@ -5271,11 +5337,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "16.0",
-          "consumption": "6.0"
+          "stock": "0.0",
+          "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "16.0",
           "consumption": "0.0"
         }
       },
@@ -5284,7 +5350,8 @@
       "subcategory": "ROLLING CIGARETTE PAPER",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "16"
     },
     {
       "id": "13469",
@@ -5298,9 +5365,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "0.0",
-      "total_consumption": "8.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 125000.0,
       "price_usd": "1.39",
@@ -5320,7 +5387,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "8.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
@@ -5337,9 +5404,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "3.0",
+      "total_stock": "5.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 700000.0,
@@ -5355,7 +5422,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "1.0"
         }
       },
@@ -5364,7 +5431,8 @@
       "subcategory": "PETS FOOD",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "5"
     },
     {
       "id": "13471",
@@ -5378,9 +5446,9 @@
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_medawar_branch": "0.0",
       "total_stock": "2.0",
-      "total_consumption": "1.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 700000.0,
       "price_usd": "7.78",
@@ -5400,11 +5468,12 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "1.0"
+          "consumption": "0.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "13472",
@@ -5415,12 +5484,12 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS SUPPLIES",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
-      "total_consumption": "0.0",
+      "stock_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "8.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 390000.0,
       "price_usd": "4.33",
@@ -5435,16 +5504,17 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "8.0",
+          "consumption": "1.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "8"
     },
     {
       "id": "13473",
@@ -5455,12 +5525,12 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS SUPPLIES",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "3.0",
-      "consumption_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "4.0",
-      "total_consumption": "1.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 390000.0,
       "price_usd": "4.33",
@@ -5475,21 +5545,22 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "3.0",
-          "consumption": "0.0"
+          "stock": "4.0",
+          "consumption": "1.0"
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "13474",
       "barcode": "2700240",
-      "Product Description": "KLATCHI EGYPTIAN SEEDS 200 GR",
+      "Product Description": "KLATCHI EGYPTIAN SEEDS 200 G",
       "SUPPLIERS": "WES3 EL MADA",
       "unit": "-",
       "category": "NUTS",
@@ -5497,10 +5568,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "29.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "29.0",
+      "stock_in_medawar_branch": "10.0",
+      "consumption_in_medawar_branch": "21.0",
+      "total_stock": "15.0",
+      "total_consumption": "50.0",
       "VAT": "NO",
       "price_lbp": 140000.0,
       "price_usd": "1.56",
@@ -5515,8 +5586,8 @@
           "consumption": "29.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "10.0",
+          "consumption": "21.0"
         }
       },
       "linked_profile_enabled": false,
@@ -5533,14 +5604,14 @@
       "secondary_category": "",
       "sub": "KLATCHI",
       "supplier": "WES3 EL MADA",
-      "name": "KLATCHI EGYPTIAN SEEDS 200 GR",
+      "name": "KLATCHI EGYPTIAN SEEDS 200 G",
       "subcategory": "KLATCHI",
       "vat": 0
     },
     {
       "id": "13475",
       "barcode": "2700241",
-      "Product Description": "KLATCHI SUNFLOWER SEEDS 100 GR",
+      "Product Description": "KLATCHI SUNFLOWER SEEDS 100 G",
       "SUPPLIERS": "WES3 EL MADA",
       "unit": "-",
       "category": "NUTS",
@@ -5548,10 +5619,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "15.0",
       "consumption_in_geitawi_branch": "54.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "15.0",
-      "total_consumption": "54.0",
+      "stock_in_medawar_branch": "57.0",
+      "consumption_in_medawar_branch": "53.0",
+      "total_stock": "72.0",
+      "total_consumption": "107.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -5566,72 +5637,92 @@
           "consumption": "54.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "57.0",
+          "consumption": "53.0"
         }
       },
-      "name": "KLATCHI SUNFLOWER SEEDS 100 GR",
+      "name": "KLATCHI SUNFLOWER SEEDS 100 G",
       "supplier": "WES3 EL MADA",
       "subcategory": "KLATCHI",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "expiry_days": "365",
+      "cost_ht": "0.32",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-13475-1778843018292184",
+      "product_setup_saved_at_utc": "2026-05-15T11:03:38.292184Z"
     },
     {
       "id": "13476",
       "barcode": "2700242",
-      "Product Description": "KLATCHI PEANUTS SUDANI 200 GR",
+      "barcode2": "",
+      "barcodes": "",
+      "SUPPLIERS": "WES3 EL MADA",
+      "unit": "-",
+      "category": "NUTS",
+      "sub_category": "KLATCHI",
+      "offers": "0",
+      "expiry_days": "365",
+      "stock_in_geitawi_branch": "-5.0",
+      "consumption_in_geitawi_branch": "33.0",
+      "stock_in_medawar_branch": "28.0",
+      "consumption_in_medawar_branch": "61.0",
+      "total_stock": "23.0",
+      "total_consumption": "94.0",
+      "VAT": "YES",
+      "price_lbp": 120000.0,
+      "price_usd": "1.33",
+      "cost": 0.8,
+      "cost_ht": "0.80",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13476.jpg",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "branches": {
+        "Geitawi": {
+          "stock": "-5.0",
+          "consumption": "33.0"
+        },
+        "Medawar": {
+          "stock": "28.0",
+          "consumption": "61.0"
+        }
+      },
+      "product_setup_save_token": "PS-SAVE-13476-1778943262406199",
+      "product_setup_saved_at_utc": "2026-05-16T14:54:22.406199Z",
+      "Product Description": "KLATCHI PEANUTS SUDANI 200 G",
+      "name": "KLATCHI PEANUTS SUDANI 200 G",
+      "productDescription": "KLATCHI PEANUTS SUDANI 200 G",
+      "description": "KLATCHI PEANUTS SUDANI 200 G",
+      "supplier": "WES3 EL MADA",
+      "subcategory": "KLATCHI",
+      "vat": 1
+    },
+    {
+      "id": "13477",
+      "barcode": "2700243",
+      "Product Description": "KLATCHI CRI CRI 200 G",
       "SUPPLIERS": "WES3 EL MADA",
       "unit": "-",
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "28.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
-      "total_consumption": "28.0",
-      "VAT": "YES",
-      "price_lbp": 120000.0,
-      "price_usd": "1.33",
-      "cost": 0.8,
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13476.jpg",
-      "new_items": "",
-      "manual": "",
-      "delivery_rules": "0.005",
-      "branches": {
-        "Geitawi": {
-          "stock": "0.0",
-          "consumption": "28.0"
-        },
-        "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        }
-      },
-      "name": "KLATCHI PEANUTS SUDANI 200 GR",
-      "supplier": "WES3 EL MADA",
-      "subcategory": "KLATCHI",
-      "vat": 1,
-      "barcode2": "",
-      "barcodes": ""
-    },
-    {
-      "id": "13477",
-      "barcode": "2700243",
-      "Product Description": "KLATCHI CRI CRI 200 GR",
-      "SUPPLIERS": "WES3 EL MADA",
-      "unit": "-",
-      "category": "NUTS",
-      "sub_category": "KLATCHI",
-      "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "16.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
-      "total_consumption": "16.0",
+      "stock_in_medawar_branch": "19.0",
+      "consumption_in_medawar_branch": "34.0",
+      "total_stock": "19.0",
+      "total_consumption": "50.0",
       "VAT": "NO",
       "price_lbp": 130000.0,
       "price_usd": "1.44",
@@ -5642,15 +5733,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "16.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "19.0",
+          "consumption": "34.0"
         }
       },
-      "name": "KLATCHI CRI CRI 200 GR",
+      "name": "KLATCHI CRI CRI 200 G",
       "supplier": "WES3 EL MADA",
       "subcategory": "KLATCHI",
       "vat": 0,
@@ -5666,12 +5757,12 @@
       "category": "CHI TAYIB",
       "sub_category": "gifts",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3.0",
-      "total_consumption": "4.0",
+      "stock_in_medawar_branch": "5.0",
+      "consumption_in_medawar_branch": "8.0",
+      "total_stock": "5.0",
+      "total_consumption": "12.0",
       "VAT": "YES",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
@@ -5682,12 +5773,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "0.0",
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "5.0",
+          "consumption": "8.0"
         }
       },
       "barcode2": "",
@@ -5706,7 +5797,8 @@
       "supplier": "WES3 EL MADA",
       "name": "BOMBA CAR 40 GR",
       "subcategory": "gifts",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "5"
     },
     {
       "id": "13481",
@@ -5717,11 +5809,11 @@
       "category": "FOOD",
       "sub_category": "herbs & spices",
       "offers": "0",
-      "stock_in_geitawi_branch": "7.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7.0",
+      "total_stock": "6.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 55000.0,
@@ -5733,11 +5825,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "0.0"
         }
       },
@@ -5746,7 +5838,8 @@
       "subcategory": "herbs & spices",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "6"
     },
     {
       "id": "13482",
@@ -5760,9 +5853,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "2.0",
       "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 35000.0,
       "price_usd": "0.39",
@@ -5778,7 +5871,7 @@
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "2.0"
         }
       },
       "name": "ECO GARLIC POWDER 30 GR",
@@ -5797,12 +5890,12 @@
       "category": "FOOD",
       "sub_category": "herbs & spices",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
-      "total_consumption": "0.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
       "price_usd": "0.44",
@@ -5813,12 +5906,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "ECO HABBIT EL BARAKE 20 GR",
@@ -5837,12 +5930,12 @@
       "category": "FOOD",
       "sub_category": "herbs & spices",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
-      "total_consumption": "1.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "0.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 65000.0,
       "price_usd": "0.72",
@@ -5853,12 +5946,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
           "stock": "0.0",
-          "consumption": "0.0"
+          "consumption": "1.0"
         }
       },
       "name": "ECO KRONFOL HABB 20 GR",
@@ -5923,10 +6016,10 @@
       "subcategory": "SEEDS",
       "subCategory": "SEEDS",
       "unit": "EACH",
-      "VAT": "YES",
-      "vat": 1,
+      "VAT": "NO",
+      "vat": 0,
       "price_lbp": 40000.0,
-      "cost": 0.225,
+      "cost": 0.0,
       "total_stock": "0.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -5970,11 +6063,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.37",
-      "costUsd": 0.37,
-      "cost_ht_usd": 0.37,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "0.44"
     },
     {
@@ -6015,12 +6103,13 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "13490",
       "barcode": "5285001522637",
-      "Product Description": "DERONI EGYPTIAN RICE 900 GR",
+      "Product Description": "DERONI EGYPTIAN RICE 900 G",
       "SUPPLIERS": "BITAR INTERNATIONAL S.A.L",
       "unit": "-",
       "category": "FOOD",
@@ -6028,10 +6117,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "5.0",
-      "total_consumption": "6.0",
+      "stock_in_medawar_branch": "16.0",
+      "consumption_in_medawar_branch": "6.0",
+      "total_stock": "21.0",
+      "total_consumption": "12.0",
       "VAT": "NO",
       "price_lbp": 95000.0,
       "price_usd": "1.06",
@@ -6046,11 +6135,11 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "16.0",
+          "consumption": "6.0"
         }
       },
-      "name": "DERONI EGYPTIAN RICE 900 GR",
+      "name": "DERONI EGYPTIAN RICE 900 G",
       "supplier": "BITAR INTERNATIONAL S.A.L",
       "subcategory": "SEEDS",
       "vat": 0,
@@ -6060,7 +6149,7 @@
     {
       "id": "13494",
       "barcode": "6294017116470",
-      "Product Description": "MAGGI CHICKEN BOUILLON STOCK 18 GR",
+      "Product Description": "MAGGI CHICKEN BOUILLON STOCK 18 G",
       "SUPPLIERS": "PRODIGY SAL USD",
       "unit": "-",
       "category": "FOOD",
@@ -6068,10 +6157,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "23.0",
       "consumption_in_geitawi_branch": "70.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "23.0",
-      "total_consumption": "70.0",
+      "stock_in_medawar_branch": "59.0",
+      "consumption_in_medawar_branch": "40.0",
+      "total_stock": "82.0",
+      "total_consumption": "110.0",
       "VAT": "YES",
       "price_lbp": 15000.0,
       "price_usd": "0.17",
@@ -6086,18 +6175,19 @@
           "consumption": "70.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
+          "stock": "59.0",
+          "consumption": "40.0"
         }
       },
-      "name": "MAGGI CHICKEN BOUILLON STOCK 18 GR",
+      "name": "MAGGI CHICKEN BOUILLON STOCK 18 G",
       "supplier": "PRODIGY SAL USD",
       "subcategory": "SOUP",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "77"
     }
   ],
-  "updatedAt": "2026-05-21T23:19:00.932938Z",
+  "updatedAt": "2026-05-21T23:20:03.129809Z",
   "source": "sql"
 }
