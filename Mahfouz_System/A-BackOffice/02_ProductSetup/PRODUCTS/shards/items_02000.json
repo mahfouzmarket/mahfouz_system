@@ -218,11 +218,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "53.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "10.0",
+      "total_stock": "9.0",
       "total_consumption": "55.0",
       "VAT": "NO",
       "price_lbp": 85000.0,
@@ -234,7 +234,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10.0",
+          "stock": "9.0",
           "consumption": "53.0"
         },
         "Medawar": {
@@ -254,7 +254,8 @@
       "name": "SAJ MN ZAMAN",
       "supplier": "MEN ZAMAN",
       "subcategory": "BAKERY",
-      "vat": 0
+      "vat": 0,
+      "totalStock": "9"
     },
     {
       "id": "2265",
@@ -267,9 +268,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "105.0",
-      "stock_in_medawar_branch": "33.0",
+      "stock_in_medawar_branch": "32.0",
       "consumption_in_medawar_branch": "260.0",
-      "total_stock": "44.0",
+      "total_stock": "43.0",
       "total_consumption": "365.0",
       "VAT": "NO",
       "price_lbp": 95000.0,
@@ -285,7 +286,7 @@
           "consumption": "105.0"
         },
         "Medawar": {
-          "stock": "33.0",
+          "stock": "32.0",
           "consumption": "260.0"
         }
       },
@@ -1086,9 +1087,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "16.0",
+      "stock_in_medawar_branch": "43.0",
       "consumption_in_medawar_branch": "33.0",
-      "total_stock": "16.0",
+      "total_stock": "43.0",
       "total_consumption": "34.0",
       "VAT": "YES",
       "price_lbp": 30000.0,
@@ -1104,7 +1105,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "16.0",
+          "stock": "43.0",
           "consumption": "33.0"
         }
       },
@@ -1124,11 +1125,11 @@
       "category": "CHI TAYIB",
       "sub_category": "cake",
       "offers": "0",
-      "stock_in_geitawi_branch": "22.0",
+      "stock_in_geitawi_branch": "21.0",
       "consumption_in_geitawi_branch": "107.0",
-      "stock_in_medawar_branch": "12.0",
+      "stock_in_medawar_branch": "43.0",
       "consumption_in_medawar_branch": "106.0",
-      "total_stock": "34.0",
+      "total_stock": "64.0",
       "total_consumption": "213.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
@@ -1140,11 +1141,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22.0",
+          "stock": "21.0",
           "consumption": "107.0"
         },
         "Medawar": {
-          "stock": "12.0",
+          "stock": "43.0",
           "consumption": "106.0"
         }
       },
@@ -1206,9 +1207,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "33.0",
-      "stock_in_medawar_branch": "52.0",
+      "stock_in_medawar_branch": "51.0",
       "consumption_in_medawar_branch": "50.0",
-      "total_stock": "76.0",
+      "total_stock": "75.0",
       "total_consumption": "83.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -1224,7 +1225,7 @@
           "consumption": "33.0"
         },
         "Medawar": {
-          "stock": "52.0",
+          "stock": "51.0",
           "consumption": "50.0"
         }
       },
@@ -1608,6 +1609,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-21T11:04:39.595028Z",
+  "updatedAt": "2026-05-21T11:07:53.950998Z",
   "source": "sql"
 }
