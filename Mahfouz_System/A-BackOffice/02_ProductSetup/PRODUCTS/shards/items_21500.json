@@ -595,14 +595,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "0.0",
-      "stock_in_geitawi_branch": "-2.0",
+      "stock_in_geitawi_branch": "-3.0",
       "consumption_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "10.0",
-      "total_stock": "-2.0",
+      "total_stock": "-3.0",
       "total_consumption": "10.0",
       "branches": {
         "Geitawi": {
-          "stock": "-2.0",
+          "stock": "-3.0",
           "consumption": "10.0"
         },
         "Medawar": {
@@ -622,7 +622,8 @@
       "vat": 0,
       "secondary_category": "",
       "secondary_subcategory": "",
-      "secondary_sub_category": ""
+      "secondary_sub_category": "",
+      "totalStock": "-3"
     },
     {
       "id": "21511",
@@ -5296,7 +5297,7 @@
       "vat": 1,
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "10.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "7.0",
       "branches": {
         "Geitawi": {
@@ -5304,11 +5305,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "10.0",
+          "stock": "9.0",
           "consumption": "7.0"
         }
       },
-      "total_stock": "10.0",
+      "total_stock": "9.0",
       "total_consumption": "7.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -5345,7 +5346,7 @@
       "vat": 1,
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "4.0",
       "branches": {
         "Geitawi": {
@@ -5353,11 +5354,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "6.0",
+          "stock": "5.0",
           "consumption": "4.0"
         }
       },
-      "total_stock": "6.0",
+      "total_stock": "5.0",
       "total_consumption": "4.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -5394,7 +5395,7 @@
       "vat": 1,
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "10.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "4.0",
       "branches": {
         "Geitawi": {
@@ -5402,11 +5403,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "10.0",
+          "stock": "9.0",
           "consumption": "4.0"
         }
       },
-      "total_stock": "10.0",
+      "total_stock": "9.0",
       "total_consumption": "4.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -5981,12 +5982,12 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "24.0",
+          "stock": "22.0",
           "consumption": "40.0"
         }
       },
-      "stock_in_medawar_branch": "24.0",
-      "total_stock": "24.0",
+      "stock_in_medawar_branch": "22.0",
+      "total_stock": "22.0",
       "cost": 0.981,
       "stock_in_geitawi_branch": "0.0",
       "Product Description": "BISOUS BOX POSICLE AVOCADO",
@@ -6275,12 +6276,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "16.0",
+          "stock": "14.0",
           "consumption": "28.0"
         }
       },
-      "stock_in_medawar_branch": "16.0",
-      "total_stock": "16.0",
+      "stock_in_medawar_branch": "14.0",
+      "total_stock": "14.0",
       "cost": 0.6446,
       "Product Description": "BISOUS POPSICLE MANGO SARBET",
       "SUPPLIERS": "bisous douceur",
@@ -18767,7 +18768,7 @@
       "cost": 0.1271,
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "-1.0",
           "consumption": "328.0"
         },
         "Medawar": {
@@ -18775,8 +18776,8 @@
           "consumption": "279.0"
         }
       },
-      "stock_in_geitawi_branch": "7.0",
-      "total_stock": "-24.0",
+      "stock_in_geitawi_branch": "-1.0",
+      "total_stock": "-32.0",
       "stock_in_medawar_branch": "-31.0",
       "Product Description": "TROPICANA ICE CREAM TRIO",
       "SUPPLIERS": "LIBAN JUS SAL GLACES",
@@ -18791,7 +18792,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "-19"
+      "totalStock": "-32"
     },
     {
       "id": "21871",
@@ -22724,6 +22725,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-21T12:01:32.955332Z",
+  "updatedAt": "2026-05-21T12:02:07.852032Z",
   "source": "sql"
 }
