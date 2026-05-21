@@ -166,8 +166,7 @@
       "subcategory": "ICEBERG",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "15"
+      "barcodes": ""
     },
     {
       "id": "16530",
@@ -4862,11 +4861,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "1.0",
+      "total_stock": "0.0",
       "total_consumption": "6.0",
       "VAT": "NO",
       "price_lbp": 600000.0,
@@ -4878,7 +4877,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "6.0"
         },
         "Medawar": {
@@ -4902,7 +4901,8 @@
       "linked_profile_sub_category": "",
       "name": "CRAB SALAD",
       "subcategory": "READY TO EAT",
-      "vat": 0
+      "vat": 0,
+      "totalStock": "0"
     },
     {
       "id": "16924",
@@ -6327,6 +6327,6 @@
       "vat": 0
     }
   ],
-  "updatedAt": "2026-05-21T12:02:36.218875Z",
+  "updatedAt": "2026-05-21T12:03:04.772505Z",
   "source": "sql"
 }
