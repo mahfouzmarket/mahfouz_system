@@ -132,9 +132,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "2.0",
-      "consumption_in_medawar_branch": "13.0",
+      "consumption_in_medawar_branch": "10.0",
       "total_stock": "2.0",
-      "total_consumption": "20.0",
+      "total_consumption": "17.0",
       "VAT": "YES",
       "price_lbp": 220000.0,
       "price_usd": "2.44",
@@ -150,7 +150,7 @@
         },
         "Medawar": {
           "stock": "2.0",
-          "consumption": "13.0"
+          "consumption": "10.0"
         }
       },
       "name": "SOMOPLAST PICNIC 50 PET CUPS",
@@ -158,7 +158,8 @@
       "barcodes": "",
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "2"
     },
     {
       "id": "11075",
@@ -540,7 +541,8 @@
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "4"
     },
     {
       "id": "11400",
@@ -582,7 +584,8 @@
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "5"
     },
     {
       "id": "11456",
@@ -594,11 +597,11 @@
       "sub_category": "shampoo & cond",
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "4.0",
+      "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "7.0",
-      "total_consumption": "4.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 290000.0,
       "price_usd": "3.22",
@@ -610,7 +613,7 @@
       "branches": {
         "Geitawi": {
           "stock": "2.0",
-          "consumption": "4.0"
+          "consumption": "3.0"
         },
         "Medawar": {
           "stock": "5.0",
@@ -626,7 +629,8 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "shampoo & cond",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "7"
     },
     {
       "id": "11458",
@@ -669,6 +673,6 @@
       "vat": 1
     }
   ],
-  "updatedAt": "2026-05-21T13:39:57.441128Z",
+  "updatedAt": "2026-05-21T13:39:37.825621Z",
   "source": "sql"
 }
