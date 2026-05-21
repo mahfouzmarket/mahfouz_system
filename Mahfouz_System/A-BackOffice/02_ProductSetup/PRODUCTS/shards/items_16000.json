@@ -865,8 +865,7 @@
       "name": "COCKTAIL AVOCAT 270 ML",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
-      "vat": 0,
-      "totalStock": "-1"
+      "vat": 0
     },
     {
       "id": "16103",
@@ -959,7 +958,7 @@
     {
       "id": "16105",
       "barcode": "2701030",
-      "Product Description": "CD PCS",
+      "Product Description": "CD PIECES",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -979,7 +978,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "CD PCS",
+      "name": "CD PIECES",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
       "vat": 0,
@@ -2501,16 +2500,7 @@
       "subcategory": "ELECTRIC CIGARETTES",
       "vat": 0,
       "barcode2": "",
-      "barcodes": "",
-      "expiry_days": "0",
-      "cost_ht": "1.05",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
-      "product_setup_save_token": "PS-SAVE-16248-1779082580717231",
-      "product_setup_saved_at_utc": "2026-05-18T05:36:20.717231Z"
+      "barcodes": ""
     },
     {
       "id": "16249",
@@ -3473,7 +3463,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 285000.0,
-      "cost": 0.0,
+      "cost": 2.64,
       "total_stock": "0.0",
       "total_consumption": "3.0",
       "stock_in_geitawi_branch": "0.0",
@@ -3519,7 +3509,7 @@
       "delivery_rules": "0.005",
       "expiry_days": "0",
       "price_usd": "3.17",
-      "cost_ht": "0.00",
+      "cost_ht": "2.64",
       "imageURL": "",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
@@ -3527,7 +3517,11 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-16308-1778657280887668",
-      "product_setup_saved_at_utc": "2026-05-13T07:28:00.887668Z"
+      "product_setup_saved_at_utc": "2026-05-13T07:28:00.887668Z",
+      "costUsd": 2.64,
+      "cost_ht_usd": 2.64,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     },
     {
       "id": "16312",
@@ -3572,7 +3566,7 @@
     {
       "id": "16319",
       "barcode": "5280303613168",
-      "Product Description": "XSMART LEAVE IN KERATIN&MACADEMIA 200 ML",
+      "Product Description": "XSMART LEAVE IN KERATIN&MACADEMIA 200ML",
       "SUPPLIERS": "LUNAR GROUP",
       "unit": "-",
       "category": "HOME USAGE",
@@ -3592,7 +3586,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "XSMART LEAVE IN KERATIN&MACADEMIA 200 ML",
+      "name": "XSMART LEAVE IN KERATIN&MACADEMIA 200ML",
       "supplier": "LUNAR GROUP",
       "subcategory": "shampoo & cond",
       "vat": 0,
@@ -4522,7 +4516,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 405000.0,
-      "cost": 0.0,
+      "cost": 3.75,
       "total_stock": "3.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "3.0",
@@ -4566,6 +4560,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "3.75",
+      "costUsd": 3.75,
+      "cost_ht_usd": 3.75,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "4.50"
     },
     {
@@ -4875,16 +4874,7 @@
       "cost_ht_usd": 0.74,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "price_usd": "0.89",
-      "expiry_days": "0",
-      "imageURL": "",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
-      "product_setup_save_token": "PS-SAVE-16401-1778938396571043",
-      "product_setup_saved_at_utc": "2026-05-16T13:33:16.571043Z"
+      "price_usd": "0.89"
     },
     {
       "id": "16432",
@@ -5267,8 +5257,7 @@
       "subcategory": "CASTANIA",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "21"
+      "barcodes": ""
     },
     {
       "id": "16475",
@@ -5431,6 +5420,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-21T23:09:01.793909Z",
+  "updatedAt": "2026-05-21T23:10:24.336606Z",
   "source": "sql"
 }
