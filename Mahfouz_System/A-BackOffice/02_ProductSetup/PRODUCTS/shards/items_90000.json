@@ -9421,29 +9421,37 @@
       "category": "HOT DRINKS",
       "sub_category": "HOT DRINKS",
       "offers": "",
-      "total_stock": "12.0",
+      "total_stock": "13.0",
       "total_consumption": "1.0",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID90152.jpg",
       "new_items": "",
       "delivery_rules": "0.005",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "",
       "cost": 0.94,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "market_sp": "0.94",
       "shortcut_category": "",
       "shortcut_sub_category": "",
       "totalStock": "13",
-      "stock_in_nouna_branch": "12.0",
+      "stock_in_nouna_branch": "13.0",
       "consumption_in_nouna_branch": "1.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
-          "stock": "12.0",
+          "stock": "13.0",
           "consumption": "1.0"
         }
       },
@@ -9452,7 +9460,19 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "HOT DRINKS",
-      "vat": 0
+      "vat": 0,
+      "expiry_days": "365",
+      "VAT": "NO",
+      "cost_ht": "0.94",
+      "manual": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Mahfouz_System",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "HOT DRINKS",
+      "product_setup_save_token": "PS-SAVE-90152-1779438762486229",
+      "product_setup_saved_at_utc": "2026-05-22T08:32:42.486229Z",
+      "supplier": "NOUNA'S FOOD"
     },
     {
       "id": "90153",
@@ -19100,6 +19120,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-22T08:32:15.013088Z",
+  "updatedAt": "2026-05-22T08:33:00.214906Z",
   "source": "sql"
 }
