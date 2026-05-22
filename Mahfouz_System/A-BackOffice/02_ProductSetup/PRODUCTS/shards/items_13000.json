@@ -5066,11 +5066,11 @@
       "category": "COFFEE SHOP",
       "sub_category": "HOT DRINK",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "-2.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "-2.0",
+      "total_stock": "-3.0",
       "total_consumption": "11.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -5082,7 +5082,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -5093,7 +5093,8 @@
       "name": "CUP OF TEA",
       "supplier": "SUPPLIERS DIVERS",
       "subcategory": "HOT DRINK",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "-3"
     },
     {
       "id": "13433",
@@ -6205,6 +6206,6 @@
       "totalStock": "77"
     }
   ],
-  "updatedAt": "2026-05-22T11:01:23.726909Z",
+  "updatedAt": "2026-05-22T11:01:52.381380Z",
   "source": "sql"
 }
