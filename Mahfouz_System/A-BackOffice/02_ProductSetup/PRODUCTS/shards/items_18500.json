@@ -520,7 +520,7 @@
       "category": "HEALTHY CHOICES",
       "sub_category": "HEALTHY CHOICES",
       "offers": "0",
-      "total_stock": "40.0",
+      "total_stock": "5.0",
       "total_consumption": "0.0",
       "price_lbp": 180000.0,
       "price_usd": "2.00",
@@ -528,13 +528,13 @@
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18781.jpg",
       "new_items": "",
       "delivery_rules": "0.005",
-      "SUPPLIERS": "",
+      "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "",
       "cost": 1.7,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "batches": [
         {
           "batchId": "prod-1774035729722",
@@ -587,11 +587,19 @@
       ],
       "shortcut_category": "",
       "shortcut_sub_category": "",
-      "stock_in_nouna_branch": "40.0",
+      "stock_in_nouna_branch": "5.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
-          "stock": "40.0",
+          "stock": "5.0",
           "consumption": "0.0"
         }
       },
@@ -599,7 +607,19 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "HEALTHY CHOICES",
-      "vat": 0
+      "vat": 0,
+      "expiry_days": "365",
+      "VAT": "NO",
+      "cost_ht": "1.70",
+      "manual": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Mahfouz_System",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
+      "product_setup_save_token": "PS-SAVE-18781-1779437160250251",
+      "product_setup_saved_at_utc": "2026-05-22T08:06:00.250251Z",
+      "supplier": "NOUNA'S FOOD"
     },
     {
       "id": "18786",
@@ -914,6 +934,6 @@
       "supplier": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-05-22T08:05:19.998826Z",
+  "updatedAt": "2026-05-22T08:06:30.214408Z",
   "source": "sql"
 }
