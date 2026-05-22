@@ -565,7 +565,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "245"
+      "totalStock": "134"
     },
     {
       "id": "12606",
@@ -1505,9 +1505,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "34.0",
       "consumption_in_geitawi_branch": "35.0",
-      "stock_in_medawar_branch": "29.0",
+      "stock_in_medawar_branch": "28.0",
       "consumption_in_medawar_branch": "25.0",
-      "total_stock": "63.0",
+      "total_stock": "62.0",
       "total_consumption": "60.0",
       "VAT": "NO",
       "price_lbp": 100000.0,
@@ -1523,7 +1523,7 @@
           "consumption": "35.0"
         },
         "Medawar": {
-          "stock": "29.0",
+          "stock": "28.0",
           "consumption": "25.0"
         }
       },
@@ -1837,7 +1837,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12767-1778928563756417",
       "product_setup_saved_at_utc": "2026-05-16T10:49:23.756417Z",
-      "totalStock": "31"
+      "totalStock": "32"
     },
     {
       "id": "12772",
@@ -2927,11 +2927,11 @@
       "category": "recharge card",
       "sub_category": "touch",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "6.0",
       "VAT": "NO",
       "price_lbp": 885000.0,
@@ -2943,7 +2943,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -2967,7 +2967,8 @@
       "linked_profile_sub_category": "",
       "name": "TOUCH 7.58 $",
       "subcategory": "touch",
-      "vat": 0
+      "vat": 0,
+      "totalStock": "-1"
     },
     {
       "id": "12889",
@@ -4111,6 +4112,6 @@
       "barcodes": "6712427868746"
     }
   ],
-  "updatedAt": "2026-05-22T14:29:23.064912Z",
+  "updatedAt": "2026-05-22T14:30:18.769967Z",
   "source": "sql"
 }
