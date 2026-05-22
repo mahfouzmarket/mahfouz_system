@@ -9511,11 +9511,11 @@
       "category": "FOOD",
       "sub_category": "BAKING & COOKING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "4.0",
       "VAT": "NO",
       "price_lbp": 600000.0,
@@ -9527,7 +9527,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "4.0"
         },
         "Medawar": {
@@ -9547,7 +9547,8 @@
       "name": "NF CHICKEN SALAD",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "BAKING & COOKING",
-      "vat": 0
+      "vat": 0,
+      "totalStock": "-1"
     },
     {
       "id": "21182",
@@ -25124,6 +25125,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-22T09:15:06.995938Z",
+  "updatedAt": "2026-05-22T09:16:05.457742Z",
   "source": "sql"
 }
