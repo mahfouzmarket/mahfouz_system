@@ -660,7 +660,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "20"
     },
     {
       "id": "15552",
@@ -2451,7 +2452,8 @@
       "name": "PUCK COOKING CREAM 500 ML",
       "supplier": "ARLA KALLASSI FOODS LB SAL",
       "subcategory": "BAKING & COOKING",
-      "vat": 0
+      "vat": 0,
+      "totalStock": "9"
     },
     {
       "id": "15683",
@@ -3590,11 +3592,11 @@
       "sub_category": "VEGETABLES",
       "offers": "0",
       "stock_in_geitawi_branch": "2.995",
-      "consumption_in_geitawi_branch": "50.3",
-      "stock_in_medawar_branch": "26.705",
+      "consumption_in_geitawi_branch": "50.9",
+      "stock_in_medawar_branch": "27.865",
       "consumption_in_medawar_branch": "85.2",
-      "total_stock": "29.700",
-      "total_consumption": "135.5",
+      "total_stock": "30.860",
+      "total_consumption": "136.1",
       "VAT": "NO",
       "price_lbp": 120000.0,
       "price_usd": "1.33",
@@ -3606,10 +3608,10 @@
       "branches": {
         "Geitawi": {
           "stock": "2.995",
-          "consumption": "50.3"
+          "consumption": "50.9"
         },
         "Medawar": {
-          "stock": "26.705",
+          "stock": "27.865",
           "consumption": "85.2"
         }
       },
@@ -4951,9 +4953,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "27.0",
-      "total_stock": "3.0",
+      "total_stock": "4.0",
       "total_consumption": "27.0",
       "VAT": "NO",
       "price_lbp": 100000.0,
@@ -4969,7 +4971,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "4.0",
           "consumption": "27.0"
         }
       },
@@ -7802,6 +7804,6 @@
       "totalStock": "5"
     }
   ],
-  "updatedAt": "2026-05-23T13:29:54.111028Z",
+  "updatedAt": "2026-05-23T13:30:55.323249Z",
   "source": "sql"
 }
