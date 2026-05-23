@@ -818,10 +818,10 @@
       "SUPPLIERS": "",
       "unit": "",
       "cost": 5.71,
-      "stock_in_geitawi_branch": "",
-      "stock_in_medawar_branch": "",
-      "consumption_in_geitawi_branch": "",
-      "consumption_in_medawar_branch": "",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
       "batches": [
         {
           "batchId": "prod-1775673721016",
@@ -842,11 +842,30 @@
       "stock_in_nouna_branch": "0.0",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "expiry_days": "210",
+      "VAT": "NO",
+      "cost_ht": "5.71",
+      "manual": "",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-18797-1779552825004839",
+      "product_setup_saved_at_utc": "2026-05-23T16:13:45.004839Z"
     },
     {
       "id": "18843",
@@ -935,6 +954,6 @@
       "supplier": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-05-23T16:10:44.501494Z",
+  "updatedAt": "2026-05-23T16:13:49.894967Z",
   "source": "sql"
 }
