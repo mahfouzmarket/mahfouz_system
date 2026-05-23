@@ -15031,7 +15031,7 @@
       "category": "ICE CREAM BISOUS",
       "sub_category": "ICE CREAM BISOUS",
       "offers": "",
-      "total_stock": "7.0",
+      "total_stock": "5.0",
       "total_consumption": "1.0",
       "price_lbp": 220000.0,
       "price_usd": "2.44",
@@ -15059,11 +15059,19 @@
         }
       ],
       "updated_at_utc": "2026-05-19T14:53:47.213109Z",
-      "stock_in_nouna_branch": "7.0",
+      "stock_in_nouna_branch": "5.0",
       "consumption_in_nouna_branch": "1.0",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
         "Nouna": {
-          "stock": "7.0",
+          "stock": "5.0",
           "consumption": "1.0"
         }
       },
@@ -15071,7 +15079,18 @@
       "barcode2": "",
       "barcodes": "",
       "subcategory": "ICE CREAM BISOUS",
-      "vat": 0
+      "vat": 0,
+      "expiry_days": "0",
+      "VAT": "NO",
+      "cost_ht": "2.08",
+      "manual": "",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-90271-1779518035370733",
+      "product_setup_saved_at_utc": "2026-05-23T06:33:55.370733Z"
     },
     {
       "id": "90272",
@@ -19238,6 +19257,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-23T06:33:15.093092Z",
+  "updatedAt": "2026-05-23T06:34:26.095495Z",
   "source": "sql"
 }
