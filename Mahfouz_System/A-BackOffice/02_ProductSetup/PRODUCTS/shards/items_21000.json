@@ -4357,11 +4357,11 @@
       "category": "BEVERAGES",
       "sub_category": "ice tea",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "-2.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "-1.0",
+      "total_stock": "-2.0",
       "total_consumption": "9.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -4373,7 +4373,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "-2.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -4390,7 +4390,8 @@
       "subcategory": "ice tea",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "-2"
     },
     {
       "id": "21085",
@@ -7490,9 +7491,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "13.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "19.0",
-      "total_stock": "9.0",
+      "total_stock": "8.0",
       "total_consumption": "32.0",
       "VAT": "NO",
       "price_lbp": 180000.0,
@@ -7508,7 +7509,7 @@
           "consumption": "13.0"
         },
         "Medawar": {
-          "stock": "6.0",
+          "stock": "5.0",
           "consumption": "19.0"
         }
       },
@@ -10577,9 +10578,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "11.0",
-      "stock_in_medawar_branch": "12.0",
+      "stock_in_medawar_branch": "11.0",
       "consumption_in_medawar_branch": "24.0",
-      "total_stock": "21.0",
+      "total_stock": "20.0",
       "total_consumption": "35.0",
       "VAT": "NO",
       "price_lbp": 400000.0,
@@ -10595,7 +10596,7 @@
           "consumption": "11.0"
         },
         "Medawar": {
-          "stock": "12.0",
+          "stock": "11.0",
           "consumption": "24.0"
         }
       },
@@ -25131,6 +25132,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-23T14:54:58.094746Z",
+  "updatedAt": "2026-05-23T14:56:27.587832Z",
   "source": "sql"
 }
