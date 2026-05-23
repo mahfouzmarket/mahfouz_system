@@ -3819,11 +3819,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "22.0",
+      "stock_in_geitawi_branch": "21.0",
       "consumption_in_geitawi_branch": "22.0",
       "stock_in_medawar_branch": "70.0",
       "consumption_in_medawar_branch": "32.0",
-      "total_stock": "92.0",
+      "total_stock": "91.0",
       "total_consumption": "54.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -3835,7 +3835,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22.0",
+          "stock": "21.0",
           "consumption": "22.0"
         },
         "Medawar": {
@@ -3849,7 +3849,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "97"
+      "totalStock": "91"
     },
     {
       "id": "21075",
@@ -4358,11 +4358,11 @@
       "category": "BEVERAGES",
       "sub_category": "ice tea",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "9.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -4374,7 +4374,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -4391,7 +4391,8 @@
       "subcategory": "ice tea",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "-1"
     },
     {
       "id": "21085",
@@ -25129,6 +25130,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-23T08:35:46.497791Z",
+  "updatedAt": "2026-05-23T08:37:16.960973Z",
   "source": "sql"
 }
