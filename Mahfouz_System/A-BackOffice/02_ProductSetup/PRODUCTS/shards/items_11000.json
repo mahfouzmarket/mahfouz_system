@@ -51,9 +51,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "16.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "21.0",
-      "total_stock": "40.0",
+      "total_stock": "23.0",
       "total_consumption": "41.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -69,7 +69,7 @@
           "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "16.0",
+          "stock": "-1.0",
           "consumption": "21.0"
         }
       },
@@ -118,7 +118,8 @@
           "stock": "8.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "totalStock": "12"
     },
     {
       "id": "11073",
@@ -158,7 +159,8 @@
       "barcodes": "",
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "0"
     },
     {
       "id": "11075",
@@ -178,7 +180,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 135000.0,
-      "cost": 0.0,
+      "cost": 1.25,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -222,6 +224,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "1.25",
+      "costUsd": 1.25,
+      "cost_ht_usd": 1.25,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "1.50"
     },
     {
@@ -257,6 +264,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "4",
       "name": "BABY JOHNSOUNS",
       "barcode2": "",
       "barcodes": "",
@@ -418,7 +426,7 @@
     {
       "id": "11253",
       "barcode": "4084500795297",
-      "Product Description": "PANTINE CONDITIONER ANTI HAIR FALL500 ML",
+      "Product Description": "PANTINE CONDITIONER ANTI HAIR FALL500ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -438,7 +446,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "PANTINE CONDITIONER ANTI HAIR FALL500 ML",
+      "name": "PANTINE CONDITIONER ANTI HAIR FALL500ML",
       "barcode2": "",
       "barcodes": "",
       "supplier": "JACK DIB",
@@ -453,7 +461,8 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "totalStock": "2"
     },
     {
       "id": "11312",
@@ -548,9 +557,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "4.0",
+      "total_stock": "6.0",
       "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 410000.0,
@@ -566,7 +575,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "5.0",
           "consumption": "1.0"
         }
       },
@@ -587,11 +596,11 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7.0",
+      "total_stock": "8.0",
       "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 290000.0,
@@ -603,7 +612,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "3.0",
           "consumption": "4.0"
         },
         "Medawar": {
@@ -621,7 +630,7 @@
       "barcodes": "",
       "subcategory": "shampoo & cond",
       "vat": 1,
-      "totalStock": "7"
+      "totalStock": "8"
     },
     {
       "id": "11458",
@@ -661,9 +670,10 @@
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-05-24T13:32:51.756752Z",
+  "updatedAt": "2026-05-24T13:34:22.567274Z",
   "source": "sql"
 }
