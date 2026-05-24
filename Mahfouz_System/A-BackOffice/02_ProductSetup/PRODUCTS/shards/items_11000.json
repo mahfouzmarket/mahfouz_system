@@ -51,9 +51,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "23.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "18.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "21.0",
-      "total_stock": "41.0",
+      "total_stock": "22.0",
       "total_consumption": "41.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -69,7 +69,7 @@
           "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "18.0",
+          "stock": "-1.0",
           "consumption": "21.0"
         }
       },
@@ -78,7 +78,8 @@
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "22"
     },
     {
       "id": "11070",
@@ -557,9 +558,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "4.0",
+      "total_stock": "6.0",
       "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 410000.0,
@@ -575,7 +576,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "5.0",
           "consumption": "1.0"
         }
       },
@@ -674,6 +675,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-05-24T19:07:22.626854Z",
+  "updatedAt": "2026-05-24T19:11:24.928127Z",
   "source": "sql"
 }
