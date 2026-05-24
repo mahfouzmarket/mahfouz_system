@@ -2220,11 +2220,11 @@
       "category": "ICE CREAM",
       "sub_category": "ICEBERG",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-10.0",
       "consumption_in_geitawi_branch": "22.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "32.0",
-      "total_stock": "1.0",
+      "total_stock": "-9.0",
       "total_consumption": "54.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
@@ -2236,7 +2236,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-10.0",
           "consumption": "22.0"
         },
         "Medawar": {
@@ -2253,7 +2253,8 @@
       "subcategory": "ICEBERG",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "-9"
     },
     {
       "id": "16222",
@@ -5506,6 +5507,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-24T15:49:34.810165Z",
+  "updatedAt": "2026-05-24T15:50:03.582795Z",
   "source": "sql"
 }
