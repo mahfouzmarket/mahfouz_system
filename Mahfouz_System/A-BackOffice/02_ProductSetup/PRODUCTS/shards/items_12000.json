@@ -74,6 +74,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "3",
       "name": "DIMEX DISHWASHING CLASSC 3.7 L",
       "barcode2": "",
       "barcodes": "",
@@ -130,11 +131,11 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
+      "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "51.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "55.0",
+      "total_stock": "56.0",
       "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 155000.0,
@@ -146,7 +147,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
+          "stock": "5.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -199,7 +200,8 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "totalStock": "2"
     },
     {
       "id": "12155",
@@ -348,6 +350,7 @@
       "cost_ht_usd": 3.1,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "1",
       "price_usd": "3.72"
     },
     {
@@ -399,11 +402,11 @@
       "category": "HOME USAGE",
       "sub_category": "STATIONARY",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "9.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "14.0",
+      "total_stock": "16.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 100000.0,
@@ -421,15 +424,15 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "6.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "9.0",
+          "stock": "10.0",
           "consumption": "1.0"
         }
       },
-      "totalStock": "10"
+      "totalStock": "16"
     },
     {
       "id": "12274",
@@ -522,9 +525,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "12.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "12.0",
+      "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 170000.0,
@@ -540,7 +543,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "12.0",
+          "stock": "0.0",
           "consumption": "2.0"
         }
       },
@@ -669,7 +672,8 @@
       "barcodes": "8693495048019",
       "supplier": "JACK DIB",
       "subcategory": "TOOTH CARE",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "37"
     },
     {
       "id": "12300",
@@ -744,7 +748,7 @@
           "consumption": "0.0"
         }
       },
-      "totalStock": "2",
+      "totalStock": "4",
       "name": "CHAMSA 250G",
       "barcode2": "",
       "barcodes": "",
@@ -763,9 +767,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "4.0",
+      "total_stock": "5.0",
       "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 205000.0,
@@ -781,7 +785,7 @@
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "4.0",
+          "stock": "5.0",
           "consumption": "1.0"
         }
       },
@@ -830,7 +834,8 @@
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "TOOTH CARE",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "12"
     },
     {
       "id": "12398",
@@ -850,7 +855,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 135000.0,
-      "cost": 0.0,
+      "cost": 1.25,
       "total_stock": "1.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "1.0",
@@ -873,7 +878,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790729Z",
       "barcode2": "3094901410003",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -894,7 +899,13 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "cost_ht": "1.25",
+      "costUsd": 1.25,
+      "cost_ht_usd": 1.25,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12398.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12398.jpg",
       "price_usd": "1.50"
     },
     {
@@ -978,6 +989,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-24T11:48:56.423500Z",
+  "updatedAt": "2026-05-24T11:48:39.471497Z",
   "source": "sql"
 }
