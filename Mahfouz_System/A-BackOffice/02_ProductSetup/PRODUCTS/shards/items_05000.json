@@ -198,8 +198,8 @@
       "supplier": "MANY FOOD SARL",
       "subcategory": "chocolate bar",
       "vat": 1,
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5285008412955",
+      "barcodes": "5285008412955",
       "expiry_days": "0",
       "cost_ht": "0.21",
       "linked_profile_enabled": false,
@@ -451,7 +451,8 @@
       "subcategory": "ICEBERG",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "15"
     },
     {
       "id": "5069",
@@ -727,9 +728,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33.0",
       "consumption_in_geitawi_branch": "72.0",
-      "stock_in_medawar_branch": "12.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "54.0",
-      "total_stock": "45.0",
+      "total_stock": "42.0",
       "total_consumption": "126.0",
       "VAT": "YES",
       "price_lbp": 45000.0,
@@ -745,7 +746,7 @@
           "consumption": "72.0"
         },
         "Medawar": {
-          "stock": "12.0",
+          "stock": "9.0",
           "consumption": "54.0"
         }
       },
@@ -813,11 +814,11 @@
       "category": "ICE CREAM",
       "sub_category": "ICEBERG",
       "offers": "0",
-      "stock_in_geitawi_branch": "7.0",
+      "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "17.0",
       "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "17.0",
+      "total_stock": "21.0",
       "total_consumption": "19.0",
       "VAT": "YES",
       "price_lbp": 160000.0,
@@ -829,7 +830,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "11.0",
           "consumption": "17.0"
         },
         "Medawar": {
@@ -1149,11 +1150,11 @@
       "sub_category": "PROCESSED CHEESE",
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
-      "consumption_in_geitawi_branch": "15.0",
+      "consumption_in_geitawi_branch": "16.0",
       "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "15.0",
       "total_stock": "11.0",
-      "total_consumption": "30.0",
+      "total_consumption": "31.0",
       "VAT": "NO",
       "price_lbp": 220000.0,
       "price_usd": "2.44",
@@ -1165,7 +1166,7 @@
       "branches": {
         "Geitawi": {
           "stock": "4.0",
-          "consumption": "15.0"
+          "consumption": "16.0"
         },
         "Medawar": {
           "stock": "7.0",
@@ -1349,11 +1350,11 @@
       "category": "FOOD",
       "sub_category": "BUTTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "14.0",
       "consumption_in_medawar_branch": "18.0",
-      "total_stock": "17.0",
+      "total_stock": "15.0",
       "total_consumption": "27.0",
       "VAT": "NO",
       "price_lbp": 160000.0,
@@ -1365,7 +1366,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "1.0",
           "consumption": "9.0"
         },
         "Medawar": {
@@ -1481,11 +1482,11 @@
       "sub_category": "EGGS",
       "offers": "0",
       "stock_in_geitawi_branch": "774.0",
-      "consumption_in_geitawi_branch": "1931.0",
-      "stock_in_medawar_branch": "390.0",
+      "consumption_in_geitawi_branch": "1936.0",
+      "stock_in_medawar_branch": "383.0",
       "consumption_in_medawar_branch": "2104.0",
-      "total_stock": "1164.0",
-      "total_consumption": "4035.0",
+      "total_stock": "1157.0",
+      "total_consumption": "4040.0",
       "VAT": "NO",
       "price_lbp": 15000.0,
       "price_usd": "0.17",
@@ -1497,10 +1498,10 @@
       "branches": {
         "Geitawi": {
           "stock": "774.0",
-          "consumption": "1931.0"
+          "consumption": "1936.0"
         },
         "Medawar": {
-          "stock": "390.0",
+          "stock": "383.0",
           "consumption": "2104.0"
         }
       },
@@ -1522,6 +1523,6 @@
       "totalStock": "1162"
     }
   ],
-  "updatedAt": "2026-05-24T20:45:47.384907Z",
+  "updatedAt": "2026-05-24T20:49:53.952160Z",
   "source": "sql"
 }
