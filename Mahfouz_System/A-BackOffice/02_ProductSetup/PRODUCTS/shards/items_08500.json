@@ -78,7 +78,8 @@
       "subcategory": "CLOTH CLEANING",
       "vat": 1,
       "barcode2": "6221048600197",
-      "barcodes": "6221048600197"
+      "barcodes": "6221048600197",
+      "totalStock": "5"
     },
     {
       "id": "8519",
@@ -118,7 +119,8 @@
       "subcategory": "CLOTH CLEANING",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "8521",
@@ -243,7 +245,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "8645",
@@ -283,7 +286,8 @@
       "subcategory": "CLOTH CLEANING",
       "vat": 1,
       "barcode2": "8001090804112",
-      "barcodes": "8001090804112"
+      "barcodes": "8001090804112",
+      "totalStock": "3"
     },
     {
       "id": "8649",
@@ -323,7 +327,8 @@
       "subcategory": "CLOTH CLEANING",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "8691",
@@ -496,9 +501,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "6.0",
-      "total_stock": "5.0",
+      "total_stock": "6.0",
       "total_consumption": "7.0",
       "VAT": "YES",
       "price_lbp": 20000.0,
@@ -514,7 +519,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "5.0",
+          "stock": "6.0",
           "consumption": "6.0"
         }
       },
@@ -523,8 +528,7 @@
       "subcategory": "COTTONS",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "5"
+      "barcodes": ""
     },
     {
       "id": "8746",
@@ -731,7 +735,8 @@
       "subcategory": "deodorant & roll on",
       "vat": 1,
       "barcode2": "4005900088505",
-      "barcodes": "4005900088505"
+      "barcodes": "4005900088505",
+      "totalStock": "5"
     },
     {
       "id": "8924",
@@ -751,7 +756,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 350000.0,
-      "cost": 0.0,
+      "cost": 3.24,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -795,6 +800,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "3.24",
+      "costUsd": 3.24,
+      "cost_ht_usd": 3.24,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "3.89"
     },
     {
@@ -879,7 +889,8 @@
       "barcodes": "",
       "subcategory": "deodorant & roll on",
       "vat": 1,
-      "barcode2": ""
+      "barcode2": "",
+      "totalStock": "2"
     },
     {
       "id": "8979",
@@ -959,9 +970,10 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "7"
     }
   ],
-  "updatedAt": "2026-05-24T19:11:46.070928Z",
+  "updatedAt": "2026-05-24T19:13:22.757036Z",
   "source": "sql"
 }
