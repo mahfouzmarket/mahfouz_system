@@ -259,7 +259,8 @@
       "name": "GILLETTE  BLUE 3",
       "supplier": "TRANSMED SAL",
       "subcategory": "shaving",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "7"
     },
     {
       "id": "7614",
@@ -636,11 +637,11 @@
       "sub_category": "SAUCE",
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "2.0",
       "total_stock": "8.0",
-      "total_consumption": "4.0",
+      "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
       "price_usd": "1.22",
@@ -652,7 +653,7 @@
       "branches": {
         "Geitawi": {
           "stock": "3.0",
-          "consumption": "2.0"
+          "consumption": "3.0"
         },
         "Medawar": {
           "stock": "5.0",
@@ -665,7 +666,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9"
+      "totalStock": "8"
     },
     {
       "id": "7864",
@@ -916,11 +917,11 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-8.0",
+      "stock_in_geitawi_branch": "-9.0",
       "consumption_in_geitawi_branch": "10.0",
       "stock_in_medawar_branch": "15.0",
       "consumption_in_medawar_branch": "35.0",
-      "total_stock": "7.0",
+      "total_stock": "6.0",
       "total_consumption": "45.0",
       "VAT": "NO",
       "price_lbp": 80000.0,
@@ -936,7 +937,7 @@
       "vat": 0,
       "branches": {
         "Geitawi": {
-          "stock": "-8.0",
+          "stock": "-9.0",
           "consumption": "10.0"
         },
         "Medawar": {
@@ -946,7 +947,7 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8"
+      "totalStock": "6"
     },
     {
       "id": "7929",
@@ -1027,7 +1028,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "71"
+      "totalStock": "73"
     },
     {
       "id": "7984",
@@ -1110,6 +1111,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-24T07:27:12.014435Z",
+  "updatedAt": "2026-05-24T07:30:33.095143Z",
   "source": "sql"
 }
