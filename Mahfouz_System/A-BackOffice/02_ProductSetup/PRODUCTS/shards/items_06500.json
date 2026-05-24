@@ -445,7 +445,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "23"
     },
     {
       "id": "6724",
@@ -709,7 +710,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 60000.0,
-      "cost": 0.0,
+      "cost": 0.56,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -753,6 +754,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.56",
+      "costUsd": 0.56,
+      "cost_ht_usd": 0.56,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "0.67"
     },
     {
@@ -877,6 +883,6 @@
       "totalStock": "12"
     }
   ],
-  "updatedAt": "2026-05-24T11:53:51.606017Z",
+  "updatedAt": "2026-05-24T11:54:26.325843Z",
   "source": "sql"
 }
