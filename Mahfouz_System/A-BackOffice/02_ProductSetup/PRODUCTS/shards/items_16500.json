@@ -1633,11 +1633,11 @@
       "category": "CIGARETTES",
       "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "7.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "9.0",
-      "total_stock": "1.0",
+      "total_stock": "0.0",
       "total_consumption": "16.0",
       "VAT": "YES",
       "price_lbp": 350000.0,
@@ -1649,7 +1649,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "7.0"
         },
         "Medawar": {
@@ -1666,7 +1666,8 @@
       "subcategory": "ROLLING CIGARETTE PAPER",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "0"
     },
     {
       "id": "16702",
@@ -6328,6 +6329,6 @@
       "vat": 0
     }
   ],
-  "updatedAt": "2026-05-24T10:26:24.773247Z",
+  "updatedAt": "2026-05-24T10:26:54.779406Z",
   "source": "sql"
 }
