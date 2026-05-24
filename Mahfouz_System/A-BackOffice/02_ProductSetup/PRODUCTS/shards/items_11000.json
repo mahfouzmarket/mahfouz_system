@@ -118,7 +118,8 @@
           "stock": "8.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "totalStock": "12"
     },
     {
       "id": "11073",
@@ -178,7 +179,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 135000.0,
-      "cost": 0.0,
+      "cost": 1.25,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -222,6 +223,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "1.25",
+      "costUsd": 1.25,
+      "cost_ht_usd": 1.25,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "1.50"
     },
     {
@@ -257,6 +263,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "4",
       "name": "BABY JOHNSOUNS",
       "barcode2": "",
       "barcodes": "",
@@ -418,7 +425,7 @@
     {
       "id": "11253",
       "barcode": "4084500795297",
-      "Product Description": "PANTINE CONDITIONER ANTI HAIR FALL500 ML",
+      "Product Description": "PANTINE CONDITIONER ANTI HAIR FALL500ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -438,7 +445,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "PANTINE CONDITIONER ANTI HAIR FALL500 ML",
+      "name": "PANTINE CONDITIONER ANTI HAIR FALL500ML",
       "barcode2": "",
       "barcodes": "",
       "supplier": "JACK DIB",
@@ -453,7 +460,8 @@
           "stock": "2.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "totalStock": "2"
     },
     {
       "id": "11312",
@@ -621,7 +629,7 @@
       "barcodes": "",
       "subcategory": "shampoo & cond",
       "vat": 1,
-      "totalStock": "7"
+      "totalStock": "8"
     },
     {
       "id": "11458",
@@ -661,9 +669,10 @@
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-05-24T11:54:29.032435Z",
+  "updatedAt": "2026-05-24T11:54:52.660204Z",
   "source": "sql"
 }
