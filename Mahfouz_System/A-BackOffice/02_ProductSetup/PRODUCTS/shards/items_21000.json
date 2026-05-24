@@ -14958,11 +14958,11 @@
       "category": "NUTS",
       "sub_category": "AL KAZZI",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "1.0",
+      "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": 450000.0,
@@ -14974,7 +14974,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -14987,7 +14987,8 @@
       "subcategory": "AL KAZZI",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "0"
     },
     {
       "id": "21288",
@@ -25126,6 +25127,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-24T10:58:33.111697Z",
+  "updatedAt": "2026-05-24T10:59:28.290326Z",
   "source": "sql"
 }
