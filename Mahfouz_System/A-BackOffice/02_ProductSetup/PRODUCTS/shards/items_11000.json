@@ -38,8 +38,7 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      },
-      "totalStock": "7"
+      }
     },
     {
       "id": "11068",
@@ -52,9 +51,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "20.0",
-      "stock_in_medawar_branch": "16.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "21.0",
-      "total_stock": "40.0",
+      "total_stock": "23.0",
       "total_consumption": "41.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -70,7 +69,7 @@
           "consumption": "20.0"
         },
         "Medawar": {
-          "stock": "16.0",
+          "stock": "-1.0",
           "consumption": "21.0"
         }
       },
@@ -133,9 +132,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "7.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "14.0",
-      "total_stock": "1.0",
+      "total_stock": "0.0",
       "total_consumption": "21.0",
       "VAT": "YES",
       "price_lbp": 220000.0,
@@ -151,7 +150,7 @@
           "consumption": "7.0"
         },
         "Medawar": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "14.0"
         }
       },
@@ -394,7 +393,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790726Z",
       "barcode2": "5283014904846",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -420,7 +419,8 @@
       "cost_ht_usd": 2.64,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "1",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11251.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11251.jpg",
       "price_usd": "3.17"
     },
     {
@@ -557,9 +557,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "5.0",
+      "total_stock": "3.0",
       "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 410000.0,
@@ -575,7 +575,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "5.0",
+          "stock": "3.0",
           "consumption": "1.0"
         }
       },
@@ -596,11 +596,11 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "8.0",
+      "total_stock": "7.0",
       "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 290000.0,
@@ -612,7 +612,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "2.0",
           "consumption": "4.0"
         },
         "Medawar": {
@@ -674,6 +674,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-05-24T12:08:43.696090Z",
+  "updatedAt": "2026-05-24T12:10:54.561456Z",
   "source": "sql"
 }
