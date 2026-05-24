@@ -398,7 +398,8 @@
       "subcategory": "PICNIC & OFFICE USE",
       "vat": 1,
       "barcode2": "5283019500524",
-      "barcodes": "5283019500524"
+      "barcodes": "5283019500524",
+      "totalStock": "26"
     },
     {
       "id": "10197",
@@ -647,8 +648,7 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-10246-1778956975731050",
-      "product_setup_saved_at_utc": "2026-05-16T18:42:55.731050Z",
-      "totalStock": "193"
+      "product_setup_saved_at_utc": "2026-05-16T18:42:55.731050Z"
     },
     {
       "id": "10247",
@@ -902,9 +902,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "11.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "22.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "33.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
@@ -920,7 +920,7 @@
           "consumption": "11.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "22.0"
         }
       },
@@ -1224,11 +1224,11 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "5.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "4.0",
+      "total_stock": "2.0",
       "total_consumption": "9.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
@@ -1240,7 +1240,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "1.0",
           "consumption": "5.0"
         },
         "Medawar": {
@@ -1267,9 +1267,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "22.0",
+      "stock_in_medawar_branch": "21.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "27.0",
+      "total_stock": "26.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 115000.0,
@@ -1285,7 +1285,7 @@
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "22.0",
+          "stock": "21.0",
           "consumption": "2.0"
         }
       },
@@ -2354,6 +2354,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-24T11:15:25.984600Z",
+  "updatedAt": "2026-05-24T11:15:32.332651Z",
   "source": "sql"
 }
