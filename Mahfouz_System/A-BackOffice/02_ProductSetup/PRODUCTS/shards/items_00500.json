@@ -960,12 +960,12 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
-      "consumption_in_geitawi_branch": "27.0",
+      "stock_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "28.0",
       "stock_in_medawar_branch": "12.0",
       "consumption_in_medawar_branch": "20.0",
-      "total_stock": "23.0",
-      "total_consumption": "47.0",
+      "total_stock": "22.0",
+      "total_consumption": "48.0",
       "VAT": "YES",
       "price_lbp": 190000.0,
       "price_usd": "2.11",
@@ -976,8 +976,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
-          "consumption": "27.0"
+          "stock": "10.0",
+          "consumption": "28.0"
         },
         "Medawar": {
           "stock": "12.0",
@@ -989,7 +989,8 @@
       "subcategory": "juice",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "22"
     },
     {
       "id": "704",
@@ -1725,7 +1726,7 @@
     {
       "id": "765",
       "barcode": "031200200075",
-      "Product Description": "CRANBERRY OCEAN SPRAY 1.89L",
+      "Product Description": "CRANBERRY OCEAN SPRAY 1.89 L",
       "SUPPLIERS": "MANY FOOD SARL",
       "unit": "-",
       "category": "BEVERAGES",
@@ -1755,13 +1756,12 @@
           "consumption": "0.0"
         }
       },
-      "name": "CRANBERRY OCEAN SPRAY 1.89L",
+      "name": "CRANBERRY OCEAN SPRAY 1.89 L",
       "supplier": "MANY FOOD SARL",
       "subcategory": "juice",
       "vat": 1,
       "barcode2": "031200342270",
-      "barcodes": "031200342270",
-      "totalStock": "8"
+      "barcodes": "031200342270"
     },
     {
       "id": "767",
@@ -2175,14 +2175,13 @@
       "subcategory": "juice",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "3"
+      "barcodes": ""
     },
     {
       "id": "885",
       "barcode": "5283014927869",
       "barcodes": "5283014927876",
-      "Product Description": "MARVY 28G",
+      "Product Description": "MARVY 28 G",
       "product_description": "MARVY 28G",
       "description": "MARVY 28G",
       "brand": "",
@@ -2196,7 +2195,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 20000.0,
-      "cost": 0.0,
+      "cost": 0.19,
       "total_stock": "9.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -2227,7 +2226,7 @@
       "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "MARVY 28G",
+      "name": "MARVY 28 G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
@@ -2240,7 +2239,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "9",
+      "cost_ht": "0.19",
+      "costUsd": 0.19,
+      "cost_ht_usd": 0.19,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "0.22"
     },
     {
@@ -2322,8 +2325,7 @@
       "subcategory": "juice",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "12"
+      "barcodes": ""
     },
     {
       "id": "898",
@@ -2566,6 +2568,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-25T21:05:49.555634Z",
+  "updatedAt": "2026-05-25T21:09:31.146243Z",
   "source": "sql"
 }
