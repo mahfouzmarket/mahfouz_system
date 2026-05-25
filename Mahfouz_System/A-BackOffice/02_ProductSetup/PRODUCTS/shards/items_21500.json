@@ -12100,7 +12100,7 @@
       "cost": 2.06,
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "15.0"
         },
         "Medawar": {
@@ -12108,9 +12108,9 @@
           "consumption": "17.0"
         }
       },
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "stock_in_medawar_branch": "4.0",
-      "total_stock": "4.0",
+      "total_stock": "3.0",
       "Product Description": "ALFORNO BURGER SESAME",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "updatedAt": "2026-05-09T00:33:34",
@@ -22547,19 +22547,19 @@
       "unit": "EACH",
       "VAT": "NO",
       "vat": 0,
-      "price_lbp": 600000.0,
+      "price_lbp": 150000.0,
       "cost": 5.56,
-      "total_stock": "10.0",
+      "total_stock": "9.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_medawar_branch": "7.0",
       "branches": {
         "Geitawi": {
           "stock": "2.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "8.0",
+          "stock": "7.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -22598,7 +22598,16 @@
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "2",
-      "price_usd": "6.67"
+      "price_usd": "1.67",
+      "expiry_days": "0",
+      "imageURL": "",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-21982-1779709889818058",
+      "product_setup_saved_at_utc": "2026-05-25T11:51:29.818058Z"
     },
     {
       "id": "21983",
@@ -22833,6 +22842,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-25T11:51:01.696125Z",
+  "updatedAt": "2026-05-25T11:53:06.768466Z",
   "source": "sql"
 }
