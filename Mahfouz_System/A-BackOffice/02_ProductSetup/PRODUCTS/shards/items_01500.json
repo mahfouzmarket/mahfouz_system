@@ -11,9 +11,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "14.0",
-      "total_stock": "25.0",
+      "total_stock": "24.0",
       "total_consumption": "22.0",
       "VAT": "YES",
       "price_lbp": 55000.0,
@@ -29,7 +29,7 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "8.0",
+          "stock": "7.0",
           "consumption": "14.0"
         }
       },
@@ -49,9 +49,9 @@
       "category": "CHI TAYIB",
       "sub_category": "Chewing gum",
       "offers": "0",
-      "stock_in_geitawi_branch": "18.0",
+      "stock_in_geitawi_branch": "14.0",
       "consumption_in_geitawi_branch": "36.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "24.0",
       "total_stock": "21.0",
       "total_consumption": "60.0",
@@ -65,11 +65,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "18.0",
+          "stock": "14.0",
           "consumption": "36.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "7.0",
           "consumption": "24.0"
         }
       },
@@ -78,7 +78,8 @@
       "subcategory": "Chewing gum",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "21"
     },
     {
       "id": "1684",
@@ -252,11 +253,11 @@
       "sub_category": "Chewing gum",
       "offers": "0",
       "stock_in_geitawi_branch": "34.0",
-      "consumption_in_geitawi_branch": "67.0",
-      "stock_in_medawar_branch": "18.0",
+      "consumption_in_geitawi_branch": "68.0",
+      "stock_in_medawar_branch": "16.0",
       "consumption_in_medawar_branch": "68.0",
-      "total_stock": "52.0",
-      "total_consumption": "135.0",
+      "total_stock": "50.0",
+      "total_consumption": "136.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
       "price_usd": "0.44",
@@ -268,10 +269,10 @@
       "branches": {
         "Geitawi": {
           "stock": "34.0",
-          "consumption": "67.0"
+          "consumption": "68.0"
         },
         "Medawar": {
-          "stock": "18.0",
+          "stock": "16.0",
           "consumption": "68.0"
         }
       },
@@ -335,7 +336,7 @@
       "id": "1861",
       "barcode": "8690840214945",
       "barcodes": "8690840214976",
-      "Product Description": "ULKER  ONEO",
+      "Product Description": "ULKER ONEO",
       "product_description": "ULKER  ONEO",
       "description": "ULKER  ONEO",
       "brand": "",
@@ -372,7 +373,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790719Z",
       "barcode2": "8690840214976",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -380,7 +381,7 @@
       "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "ULKER  ONEO",
+      "name": "ULKER ONEO",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
@@ -398,7 +399,8 @@
       "cost_ht_usd": 0.23,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "33",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1861.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1861.jpg",
       "price_usd": "0.28"
     },
     {
@@ -819,9 +821,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "13.0",
+      "stock_in_medawar_branch": "8.0",
       "consumption_in_medawar_branch": "23.0",
-      "total_stock": "22.0",
+      "total_stock": "17.0",
       "total_consumption": "38.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
@@ -837,7 +839,7 @@
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "13.0",
+          "stock": "8.0",
           "consumption": "23.0"
         }
       },
@@ -890,6 +892,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-25T11:13:48.944802Z",
+  "updatedAt": "2026-05-25T11:17:52.299734Z",
   "source": "sql"
 }
