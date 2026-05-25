@@ -223,8 +223,8 @@
           "consumption": "0.0"
         }
       },
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5283022011673",
+      "barcodes": "5283022011673",
       "expiry_days": "0",
       "cost_ht": "1.23",
       "linked_profile_enabled": false,
@@ -491,10 +491,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "4.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "6.0",
-      "total_consumption": "0.0",
+      "stock_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "5.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 150000.0,
       "price_usd": "1.67",
@@ -509,8 +509,8 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "4.0",
-          "consumption": "0.0"
+          "stock": "3.0",
+          "consumption": "1.0"
         }
       },
       "name": "SANITA ALUMINIUM CLASIC 25 FT",
@@ -785,9 +785,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "7.0",
+      "total_stock": "6.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 375000.0,
@@ -807,7 +807,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "6.0",
+          "stock": "5.0",
           "consumption": "1.0"
         }
       },
@@ -2129,11 +2129,11 @@
       "category": "HOME USAGE",
       "sub_category": "BATTERIES",
       "offers": "0",
-      "stock_in_geitawi_branch": "39.0",
+      "stock_in_geitawi_branch": "37.0",
       "consumption_in_geitawi_branch": "16.0",
-      "stock_in_medawar_branch": "81.0",
+      "stock_in_medawar_branch": "79.0",
       "consumption_in_medawar_branch": "24.0",
-      "total_stock": "120.0",
+      "total_stock": "116.0",
       "total_consumption": "40.0",
       "VAT": "YES",
       "price_lbp": 140000.0,
@@ -2145,11 +2145,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "39.0",
+          "stock": "37.0",
           "consumption": "16.0"
         },
         "Medawar": {
-          "stock": "81.0",
+          "stock": "79.0",
           "consumption": "24.0"
         }
       },
@@ -2162,7 +2162,8 @@
       "subcategory": "BATTERIES",
       "vat": 1,
       "barcode2": "8888021205077",
-      "barcodes": "8888021205077"
+      "barcodes": "8888021205077",
+      "totalStock": "116"
     },
     {
       "id": "8428",
@@ -2365,6 +2366,6 @@
       "barcodes": "2700131"
     }
   ],
-  "updatedAt": "2026-05-25T03:41:31.820397Z",
+  "updatedAt": "2026-05-25T03:42:22.063417Z",
   "source": "sql"
 }
