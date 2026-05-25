@@ -223,8 +223,8 @@
           "consumption": "0.0"
         }
       },
-      "barcode2": "5283022011673",
-      "barcodes": "5283022011673",
+      "barcode2": "",
+      "barcodes": "",
       "expiry_days": "0",
       "cost_ht": "1.23",
       "linked_profile_enabled": false,
@@ -451,9 +451,9 @@
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "2.0",
-      "consumption_in_medawar_branch": "2.0",
+      "consumption_in_medawar_branch": "1.0",
       "total_stock": "2.0",
-      "total_consumption": "2.0",
+      "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 255000.0,
       "price_usd": "2.83",
@@ -473,7 +473,7 @@
         },
         "Medawar": {
           "stock": "2.0",
-          "consumption": "2.0"
+          "consumption": "1.0"
         }
       },
       "totalStock": "3",
@@ -948,12 +948,12 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
-      "consumption_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "6.0",
+      "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "31.0",
-      "consumption_in_medawar_branch": "22.0",
-      "total_stock": "36.0",
-      "total_consumption": "32.0",
+      "consumption_in_medawar_branch": "21.0",
+      "total_stock": "37.0",
+      "total_consumption": "30.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
       "price_usd": "3.56",
@@ -964,12 +964,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
-          "consumption": "10.0"
+          "stock": "6.0",
+          "consumption": "9.0"
         },
         "Medawar": {
           "stock": "31.0",
-          "consumption": "22.0"
+          "consumption": "21.0"
         }
       },
       "name": "FLASH 1 L",
@@ -978,7 +978,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "36"
+      "totalStock": "37"
     },
     {
       "id": "8169",
@@ -2133,9 +2133,9 @@
       "stock_in_geitawi_branch": "37.0",
       "consumption_in_geitawi_branch": "16.0",
       "stock_in_medawar_branch": "79.0",
-      "consumption_in_medawar_branch": "26.0",
+      "consumption_in_medawar_branch": "24.0",
       "total_stock": "116.0",
-      "total_consumption": "42.0",
+      "total_consumption": "40.0",
       "VAT": "YES",
       "price_lbp": 140000.0,
       "price_usd": "1.56",
@@ -2151,7 +2151,7 @@
         },
         "Medawar": {
           "stock": "79.0",
-          "consumption": "26.0"
+          "consumption": "24.0"
         }
       },
       "sub": "BATTERIES",
@@ -2366,6 +2366,6 @@
       "barcodes": "2700131"
     }
   ],
-  "updatedAt": "2026-05-25T21:06:34.717634Z",
+  "updatedAt": "2026-05-25T21:07:03.032841Z",
   "source": "sql"
 }
