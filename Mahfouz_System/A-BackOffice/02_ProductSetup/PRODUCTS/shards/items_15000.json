@@ -302,7 +302,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 225000.0,
-      "cost": 0.0,
+      "cost": 2.08,
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "5.0",
@@ -346,6 +346,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "2.08",
+      "costUsd": 2.08,
+      "cost_ht_usd": 2.08,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "5",
       "price_usd": "2.50"
     },
@@ -408,18 +413,18 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 705000.0,
-      "cost": 0.0,
-      "total_stock": "0.0",
+      "cost": 6.53,
+      "total_stock": "2.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "2.0",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -452,6 +457,12 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "6.53",
+      "costUsd": 6.53,
+      "cost_ht_usd": 6.53,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "2",
       "price_usd": "7.83"
     },
     {
@@ -945,7 +956,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13"
+      "totalStock": "15"
     },
     {
       "id": "15099",
@@ -2046,9 +2057,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "20.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "40.0",
+      "stock_in_medawar_branch": "39.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "60.0",
+      "total_stock": "59.0",
       "total_consumption": "10.0",
       "VAT": "YES",
       "price_lbp": 65000.0,
@@ -2064,7 +2075,7 @@
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "40.0",
+          "stock": "39.0",
           "consumption": "2.0"
         }
       },
@@ -2210,10 +2221,10 @@
       "subcategory": "WIPES",
       "subCategory": "WIPES",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": 0,
+      "VAT": "YES",
+      "vat": 1,
       "price_lbp": 110000.0,
-      "cost": 0.0,
+      "cost": 0.7083333333333334,
       "total_stock": "48.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "24.0",
@@ -2257,7 +2268,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "48",
       "price_usd": "1.22"
     },
     {
@@ -4598,18 +4608,18 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 1275000.0,
-      "cost": 0.0,
-      "total_stock": "0.000",
+      "cost": 11.81,
+      "total_stock": "1.100",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.000",
-      "stock_in_medawar_branch": "0.000",
+      "stock_in_medawar_branch": "1.100",
       "branches": {
         "Geitawi": {
           "stock": "0.000",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.000",
+          "stock": "1.100",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -4642,6 +4652,12 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "11.81",
+      "costUsd": 11.81,
+      "cost_ht_usd": 11.81,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "1.1",
       "price_usd": "14.17"
     },
     {
@@ -4655,9 +4671,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.550",
       "consumption_in_geitawi_branch": "8.5",
-      "stock_in_medawar_branch": "2.470",
+      "stock_in_medawar_branch": "2.500",
       "consumption_in_medawar_branch": "5.6",
-      "total_stock": "6.020",
+      "total_stock": "6.050",
       "total_consumption": "14.1",
       "VAT": "NO",
       "price_lbp": 1805000.0,
@@ -4673,7 +4689,7 @@
           "consumption": "8.5"
         },
         "Medawar": {
-          "stock": "2.470",
+          "stock": "2.500",
           "consumption": "5.6"
         }
       },
@@ -4889,7 +4905,8 @@
       "sub": "DAIRY PRODUCTS",
       "secondary_category": "",
       "secondary_subcategory": "",
-      "secondary_sub_category": ""
+      "secondary_sub_category": "",
+      "totalStock": "1.97"
     },
     {
       "id": "15447",
@@ -5500,6 +5517,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-25T06:56:15.631401Z",
+  "updatedAt": "2026-05-25T06:56:34.813843Z",
   "source": "sql"
 }

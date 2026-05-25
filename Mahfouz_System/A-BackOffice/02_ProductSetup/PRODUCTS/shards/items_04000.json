@@ -1342,7 +1342,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 60000.0,
-      "cost": 0.0,
+      "cost": 0.56,
       "total_stock": "20.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -1386,6 +1386,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.56",
+      "costUsd": 0.56,
+      "cost_ht_usd": 0.56,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "20",
       "price_usd": "0.67"
     },
@@ -1495,6 +1500,6 @@
       "product_setup_saved_at_utc": "2026-05-24T09:37:47.829834Z"
     }
   ],
-  "updatedAt": "2026-05-25T06:56:12.688353Z",
+  "updatedAt": "2026-05-25T06:56:32.222726Z",
   "source": "sql"
 }

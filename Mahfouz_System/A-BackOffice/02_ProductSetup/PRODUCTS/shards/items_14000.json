@@ -222,7 +222,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 20000.0,
-      "cost": 0.0,
+      "cost": 0.19,
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "2.0",
@@ -266,6 +266,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.19",
+      "costUsd": 0.19,
+      "cost_ht_usd": 0.19,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "2",
       "price_usd": "0.22"
     },
@@ -434,7 +439,7 @@
     {
       "id": "14074",
       "barcode": "5285000832713",
-      "Product Description": "FRUMER 2*10 FISH FINGER 250 G SPECIAL OFFER",
+      "Product Description": "FRUMER 2*10 FISH FINGER 250 GR SPECIAL OFFER",
       "SUPPLIERS": "HALWANY SAL",
       "unit": "-",
       "category": "FOOD",
@@ -464,12 +469,13 @@
           "consumption": "1.0"
         }
       },
-      "name": "FRUMER 2*10 FISH FINGER 250 G SPECIAL OFFER",
+      "name": "FRUMER 2*10 FISH FINGER 250 GR SPECIAL OFFER",
       "supplier": "HALWANY SAL",
       "subcategory": "FROZEN FOOD",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "14075",
@@ -2740,11 +2746,11 @@
       "category": "CHIPS",
       "sub_category": "PRINGLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "19.0",
       "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "14.0",
-      "total_stock": "6.0",
+      "total_stock": "4.0",
       "total_consumption": "33.0",
       "VAT": "YES",
       "price_lbp": 220000.0,
@@ -2756,7 +2762,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "1.0",
           "consumption": "19.0"
         },
         "Medawar": {
@@ -3735,7 +3741,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 355000.0,
-      "cost": 0.0,
+      "cost": 3.29,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -3779,6 +3785,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "3.29",
+      "costUsd": 3.29,
+      "cost_ht_usd": 3.29,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "1",
       "price_usd": "3.94"
     },
@@ -4666,11 +4677,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "7.0",
+      "total_stock": "6.0",
       "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 350000.0,
@@ -4682,7 +4693,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "3.0"
         },
         "Medawar": {
@@ -4952,9 +4963,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "6.0",
+      "total_stock": "5.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 330000.0,
@@ -4970,7 +4981,7 @@
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "5.0",
+          "stock": "4.0",
           "consumption": "2.0"
         }
       },
@@ -5233,7 +5244,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 160000.0,
-      "cost": 0.0,
+      "cost": 1.48,
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "2.0",
@@ -5277,6 +5288,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "1.48",
+      "costUsd": 1.48,
+      "cost_ht_usd": 1.48,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "5",
       "price_usd": "1.78"
     },
@@ -5931,6 +5947,6 @@
       "totalStock": "3"
     }
   ],
-  "updatedAt": "2026-05-25T06:56:15.346163Z",
+  "updatedAt": "2026-05-25T06:56:34.577564Z",
   "source": "sql"
 }

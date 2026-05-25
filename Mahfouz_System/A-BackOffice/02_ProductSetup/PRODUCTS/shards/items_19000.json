@@ -2922,11 +2922,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "25.0",
       "consumption_in_geitawi_branch": "36.0",
       "stock_in_medawar_branch": "48.0",
       "consumption_in_medawar_branch": "20.0",
-      "total_stock": "59.0",
+      "total_stock": "73.0",
       "total_consumption": "56.0",
       "VAT": "YES",
       "price_lbp": 110000.0,
@@ -2938,7 +2938,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "25.0",
           "consumption": "36.0"
         },
         "Medawar": {
@@ -4899,9 +4899,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "1.0",
+      "total_stock": "2.0",
       "total_consumption": "7.0",
       "VAT": "NO",
       "price_lbp": 550000.0,
@@ -4917,7 +4917,7 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "1.0"
         }
       },
@@ -5709,10 +5709,10 @@
       "subcategory": "CLEANING",
       "subCategory": "CLEANING",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": 0,
-      "price_lbp": 150000.0,
-      "cost": 1.39,
+      "VAT": "YES",
+      "vat": 1,
+      "price_lbp": 170000.0,
+      "cost": 1.1633333333333333,
       "total_stock": "7.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "7.0",
@@ -5762,7 +5762,7 @@
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "7",
-      "price_usd": "1.67"
+      "price_usd": "1.89"
     },
     {
       "id": "19268",
@@ -5988,10 +5988,10 @@
       "subcategory": "WHISKEY",
       "subCategory": "WHISKEY",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": 0,
+      "VAT": "YES",
+      "vat": 1,
       "price_lbp": 3100000.0,
-      "cost": 0.0,
+      "cost": 26.0945,
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -6035,7 +6035,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "2",
       "price_usd": "34.44"
     },
     {
@@ -7841,9 +7840,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4.0",
+      "total_stock": "10.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 380000.0,
@@ -7859,7 +7858,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "4.0",
+          "stock": "10.0",
           "consumption": "0.0"
         }
       },
@@ -9626,9 +9625,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "1.0",
+      "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": 400000.0,
@@ -9648,7 +9647,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "1.0"
         }
       },
@@ -10015,7 +10014,7 @@
       "manual": "",
       "delivery_rules": "0.005",
       "SUPPLIERS": "NOUNA'S FOOD",
-      "unit": "",
+      "unit": "-",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "19483",
@@ -10376,6 +10375,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-25T06:56:16.957549Z",
+  "updatedAt": "2026-05-25T06:56:35.832107Z",
   "source": "sql"
 }

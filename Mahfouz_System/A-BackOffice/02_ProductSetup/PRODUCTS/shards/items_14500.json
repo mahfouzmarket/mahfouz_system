@@ -2161,7 +2161,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19"
+      "totalStock": "23"
     },
     {
       "id": "14703",
@@ -2495,7 +2495,8 @@
       "subcategory": "cans & jams",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "12"
     },
     {
       "id": "14721",
@@ -3245,7 +3246,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 285000.0,
-      "cost": 0.0,
+      "cost": 2.64,
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "5.0",
@@ -3289,6 +3290,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "2.64",
+      "costUsd": 2.64,
+      "cost_ht_usd": 2.64,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "5",
       "price_usd": "3.17"
     },
@@ -3737,7 +3743,8 @@
       "subcategory": "FANTASIA",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "32"
     },
     {
       "id": "14838",
@@ -4290,7 +4297,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 100000.0,
-      "cost": 0.0,
+      "cost": 0.93,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -4334,6 +4341,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.93",
+      "costUsd": 0.93,
+      "cost_ht_usd": 0.93,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "1",
       "price_usd": "1.11"
     },
@@ -5712,6 +5724,6 @@
       "totalStock": "20"
     }
   ],
-  "updatedAt": "2026-05-25T06:56:15.458862Z",
+  "updatedAt": "2026-05-25T06:56:34.696934Z",
   "source": "sql"
 }

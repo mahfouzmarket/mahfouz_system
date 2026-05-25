@@ -240,9 +240,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_medawar_branch": "16.0",
       "consumption_in_medawar_branch": "30.0",
-      "total_stock": "6.0",
+      "total_stock": "16.0",
       "total_consumption": "45.0",
       "VAT": "YES",
       "price_lbp": 360000.0,
@@ -258,7 +258,7 @@
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "6.0",
+          "stock": "16.0",
           "consumption": "30.0"
         }
       },
@@ -2060,11 +2060,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "32.0",
+      "stock_in_geitawi_branch": "31.0",
       "consumption_in_geitawi_branch": "32.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "24.0",
-      "total_stock": "45.0",
+      "total_stock": "44.0",
       "total_consumption": "56.0",
       "VAT": "YES",
       "price_lbp": 65000.0,
@@ -2076,7 +2076,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "32.0",
+          "stock": "31.0",
           "consumption": "32.0"
         },
         "Medawar": {
@@ -2192,7 +2192,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 20000.0,
-      "cost": 0.0,
+      "cost": 0.19,
       "total_stock": "9.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -2236,6 +2236,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.19",
+      "costUsd": 0.19,
+      "cost_ht_usd": 0.19,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "9",
       "price_usd": "0.22"
     },
@@ -2317,8 +2322,7 @@
       "subcategory": "juice",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "12"
+      "barcodes": ""
     },
     {
       "id": "898",
@@ -2403,7 +2407,7 @@
     {
       "id": "917",
       "barcode": "6211002513144",
-      "Product Description": "NIDO POUCH 400 G",
+      "Product Description": "NIDO POUCH 400G",
       "SUPPLIERS": "PRODIGY SAL USD",
       "unit": "-",
       "category": "FOOD",
@@ -2433,7 +2437,7 @@
           "consumption": "0.0"
         }
       },
-      "name": "NIDO POUCH 400 G",
+      "name": "NIDO POUCH 400G",
       "supplier": "PRODIGY SAL USD",
       "subcategory": "MILK",
       "vat": 0,
@@ -2561,6 +2565,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-25T06:56:11.615125Z",
+  "updatedAt": "2026-05-25T06:56:31.404109Z",
   "source": "sql"
 }
