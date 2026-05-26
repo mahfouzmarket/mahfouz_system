@@ -1411,7 +1411,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 450000.0,
-      "cost": 0.0,
+      "cost": 4.17,
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "2.0",
@@ -1455,6 +1455,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "4.17",
+      "costUsd": 4.17,
+      "cost_ht_usd": 4.17,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "2",
       "price_usd": "5.00"
     },
@@ -1811,7 +1816,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 80000.0,
-      "cost": 0.0,
+      "cost": 0.74,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -1855,6 +1860,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.74",
+      "costUsd": 0.74,
+      "cost_ht_usd": 0.74,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "1",
       "price_usd": "0.89"
     },
@@ -1971,7 +1981,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 55000.0,
-      "cost": 0.0,
+      "cost": 0.51,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -2015,6 +2025,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.51",
+      "costUsd": 0.51,
+      "cost_ht_usd": 0.51,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "1",
       "price_usd": "0.61"
     },
@@ -2354,6 +2369,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-05-26T09:11:20.948683Z",
+  "updatedAt": "2026-05-26T09:12:37.226552Z",
   "source": "sql"
 }

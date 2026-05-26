@@ -121,7 +121,7 @@
       "vat": 1,
       "barcode2": "90162848",
       "barcodes": "90162848",
-      "totalStock": "80"
+      "totalStock": "81"
     },
     {
       "id": "14024",
@@ -162,7 +162,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7"
+      "totalStock": "3"
     },
     {
       "id": "14045",
@@ -222,7 +222,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 20000.0,
-      "cost": 0.0,
+      "cost": 0.19,
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "2.0",
@@ -266,6 +266,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "0.19",
+      "costUsd": 0.19,
+      "cost_ht_usd": 0.19,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "2",
       "price_usd": "0.22"
     },
@@ -320,9 +325,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "26.0",
       "consumption_in_geitawi_branch": "103.0",
-      "stock_in_medawar_branch": "54.0",
+      "stock_in_medawar_branch": "112.0",
       "consumption_in_medawar_branch": "53.0",
-      "total_stock": "80.0",
+      "total_stock": "138.0",
       "total_consumption": "156.0",
       "VAT": "YES",
       "price_lbp": 195000.0,
@@ -338,7 +343,7 @@
           "consumption": "103.0"
         },
         "Medawar": {
-          "stock": "54.0",
+          "stock": "112.0",
           "consumption": "53.0"
         }
       },
@@ -434,7 +439,7 @@
     {
       "id": "14074",
       "barcode": "5285000832713",
-      "Product Description": "FRUMER 2*10 FISH FINGER 250 G SPECIAL OFFER",
+      "Product Description": "FRUMER 2*10 FISH FINGER 250 GR SPECIAL OFFER",
       "SUPPLIERS": "HALWANY SAL",
       "unit": "-",
       "category": "FOOD",
@@ -464,12 +469,13 @@
           "consumption": "1.0"
         }
       },
-      "name": "FRUMER 2*10 FISH FINGER 250 G SPECIAL OFFER",
+      "name": "FRUMER 2*10 FISH FINGER 250 GR SPECIAL OFFER",
       "supplier": "HALWANY SAL",
       "subcategory": "FROZEN FOOD",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "14075",
@@ -1514,8 +1520,7 @@
       "subcategory": "instant coffee",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "47"
+      "barcodes": ""
     },
     {
       "id": "14128",
@@ -2371,11 +2376,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "-4.0",
+      "stock_in_geitawi_branch": "-3.0",
       "consumption_in_geitawi_branch": "23.0",
       "stock_in_medawar_branch": "17.0",
       "consumption_in_medawar_branch": "19.0",
-      "total_stock": "13.0",
+      "total_stock": "14.0",
       "total_consumption": "42.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
@@ -2387,7 +2392,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-4.0",
+          "stock": "-3.0",
           "consumption": "23.0"
         },
         "Medawar": {
@@ -2400,7 +2405,8 @@
       "subcategory": "Wafers",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "13"
     },
     {
       "id": "14176",
@@ -2747,9 +2753,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
       "consumption_in_geitawi_branch": "18.0",
-      "stock_in_medawar_branch": "-3.0",
+      "stock_in_medawar_branch": "16.0",
       "consumption_in_medawar_branch": "14.0",
-      "total_stock": "6.0",
+      "total_stock": "25.0",
       "total_consumption": "32.0",
       "VAT": "YES",
       "price_lbp": 220000.0,
@@ -2765,7 +2771,7 @@
           "consumption": "18.0"
         },
         "Medawar": {
-          "stock": "-3.0",
+          "stock": "16.0",
           "consumption": "14.0"
         }
       },
@@ -3741,7 +3747,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 355000.0,
-      "cost": 0.0,
+      "cost": 3.29,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -3785,6 +3791,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "3.29",
+      "costUsd": 3.29,
+      "cost_ht_usd": 3.29,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "1",
       "price_usd": "3.94"
     },
@@ -4289,11 +4300,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "53.0",
+      "stock_in_geitawi_branch": "54.0",
       "consumption_in_geitawi_branch": "182.0",
       "stock_in_medawar_branch": "74.0",
       "consumption_in_medawar_branch": "182.0",
-      "total_stock": "127.0",
+      "total_stock": "128.0",
       "total_consumption": "364.0",
       "VAT": "NO",
       "price_lbp": 120000.0,
@@ -4305,7 +4316,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "53.0",
+          "stock": "54.0",
           "consumption": "182.0"
         },
         "Medawar": {
@@ -4328,7 +4339,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-14364-1778924724892851",
       "product_setup_saved_at_utc": "2026-05-16T09:45:24.892851Z",
-      "totalStock": "127"
+      "totalStock": "128"
     },
     {
       "id": "14370",
@@ -4673,11 +4684,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "4.0",
+      "total_stock": "3.0",
       "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 350000.0,
@@ -4689,7 +4700,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "3.0"
         },
         "Medawar": {
@@ -4959,9 +4970,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "6.0",
+      "total_stock": "5.0",
       "total_consumption": "6.0",
       "VAT": "YES",
       "price_lbp": 330000.0,
@@ -4977,7 +4988,7 @@
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "5.0",
+          "stock": "4.0",
           "consumption": "2.0"
         }
       },
@@ -5619,7 +5630,8 @@
       "subcategory": "cake",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "9"
     },
     {
       "id": "14445",
@@ -5945,6 +5957,6 @@
       "totalStock": "3"
     }
   ],
-  "updatedAt": "2026-05-26T09:11:22.188720Z",
+  "updatedAt": "2026-05-26T09:12:38.995454Z",
   "source": "sql"
 }
