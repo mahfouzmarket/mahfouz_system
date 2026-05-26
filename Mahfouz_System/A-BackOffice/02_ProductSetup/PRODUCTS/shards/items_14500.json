@@ -1456,7 +1456,6 @@
       },
       "product_setup_save_token": "PS-SAVE-14623-1778622686036400",
       "product_setup_saved_at_utc": "2026-05-12T21:51:26.036400Z",
-      "totalStock": "12",
       "name": "NAJJAR INSTANT COFFEE GOLD 190 GR",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "instant coffee",
@@ -2544,9 +2543,9 @@
       "category": "FOOD",
       "sub_category": "herbs & spices",
       "offers": "0",
-      "stock_in_geitawi_branch": "-3.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "9.0",
+      "stock_in_medawar_branch": "6.0",
       "consumption_in_medawar_branch": "1.0",
       "total_stock": "6.0",
       "total_consumption": "2.0",
@@ -2564,11 +2563,11 @@
       "vat": 1,
       "branches": {
         "Geitawi": {
-          "stock": "-3.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "9.0",
+          "stock": "6.0",
           "consumption": "1.0"
         }
       },
@@ -3671,11 +3670,11 @@
       "sub_category": "FANTASIA",
       "offers": "0",
       "stock_in_geitawi_branch": "12.0",
-      "consumption_in_geitawi_branch": "23.0",
+      "consumption_in_geitawi_branch": "24.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "24.0",
       "total_stock": "25.0",
-      "total_consumption": "47.0",
+      "total_consumption": "48.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -3687,7 +3686,7 @@
       "branches": {
         "Geitawi": {
           "stock": "12.0",
-          "consumption": "23.0"
+          "consumption": "24.0"
         },
         "Medawar": {
           "stock": "13.0",
@@ -3699,7 +3698,8 @@
       "subcategory": "FANTASIA",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "25"
     },
     {
       "id": "14837",
@@ -3915,9 +3915,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "13.0",
       "consumption_in_geitawi_branch": "90.0",
-      "stock_in_medawar_branch": "88.0",
+      "stock_in_medawar_branch": "87.0",
       "consumption_in_medawar_branch": "100.0",
-      "total_stock": "101.0",
+      "total_stock": "100.0",
       "total_consumption": "190.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
@@ -3933,7 +3933,7 @@
           "consumption": "90.0"
         },
         "Medawar": {
-          "stock": "88.0",
+          "stock": "87.0",
           "consumption": "100.0"
         }
       },
@@ -3954,9 +3954,9 @@
       "category": "CHIPS",
       "sub_category": "FANTASIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "19.0",
+      "stock_in_geitawi_branch": "20.0",
       "consumption_in_geitawi_branch": "37.0",
-      "stock_in_medawar_branch": "21.0",
+      "stock_in_medawar_branch": "20.0",
       "consumption_in_medawar_branch": "28.0",
       "total_stock": "40.0",
       "total_consumption": "65.0",
@@ -3970,11 +3970,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "19.0",
+          "stock": "20.0",
           "consumption": "37.0"
         },
         "Medawar": {
-          "stock": "21.0",
+          "stock": "20.0",
           "consumption": "28.0"
         }
       },
@@ -3996,11 +3996,11 @@
       "sub_category": "FANTASIA",
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "43.0",
+      "consumption_in_geitawi_branch": "44.0",
       "stock_in_medawar_branch": "21.0",
       "consumption_in_medawar_branch": "39.0",
       "total_stock": "21.0",
-      "total_consumption": "82.0",
+      "total_consumption": "83.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -4012,7 +4012,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0.0",
-          "consumption": "43.0"
+          "consumption": "44.0"
         },
         "Medawar": {
           "stock": "21.0",
@@ -4025,7 +4025,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "22"
+      "totalStock": "21"
     },
     {
       "id": "14864",
@@ -5709,6 +5709,6 @@
       "totalStock": "20"
     }
   ],
-  "updatedAt": "2026-05-26T04:25:15.445955Z",
+  "updatedAt": "2026-05-26T04:27:04.181191Z",
   "source": "sql"
 }
