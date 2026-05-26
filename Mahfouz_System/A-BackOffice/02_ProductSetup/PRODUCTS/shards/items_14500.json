@@ -1472,8 +1472,7 @@
       "name": "NAJJAR INSTANT COFFEE GOLD 190 GR",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "instant coffee",
-      "vat": 1,
-      "totalStock": "12"
+      "vat": 1
     },
     {
       "id": "14634",
@@ -2171,7 +2170,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "23"
+      "totalStock": "19"
     },
     {
       "id": "14703",
@@ -2344,8 +2343,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "12"
+      "barcodes": ""
     },
     {
       "id": "14709",
@@ -2507,8 +2505,7 @@
       "subcategory": "cans & jams",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "12"
+      "barcodes": ""
     },
     {
       "id": "14721",
@@ -2846,11 +2843,11 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "50.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
+      "total_stock": "50.0",
       "total_consumption": "0.0",
-      "VAT": "YES",
+      "VAT": "NO",
       "price_lbp": 25000.0,
       "price_usd": "0.28",
       "cost": 0.13,
@@ -2861,14 +2858,14 @@
       "name": "FABER CASTELL PEN 0.75 M",
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
-      "vat": 1,
+      "vat": 0,
       "branches": {
         "Geitawi": {
           "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "50.0",
           "consumption": "0.0"
         }
       },
@@ -3168,11 +3165,11 @@
       "category": "BEVERAGES",
       "sub_category": "cold coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "42.0",
+      "stock_in_geitawi_branch": "43.0",
       "consumption_in_geitawi_branch": "75.0",
       "stock_in_medawar_branch": "1643.0",
       "consumption_in_medawar_branch": "77.0",
-      "total_stock": "1685.0",
+      "total_stock": "1686.0",
       "total_consumption": "152.0",
       "VAT": "YES",
       "price_lbp": 80000.0,
@@ -3184,7 +3181,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "42.0",
+          "stock": "43.0",
           "consumption": "75.0"
         },
         "Medawar": {
@@ -3259,7 +3256,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 285000.0,
-      "cost": 2.64,
+      "cost": 0.0,
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "5.0",
@@ -3303,11 +3300,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "2.64",
-      "costUsd": 2.64,
-      "cost_ht_usd": 2.64,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "5",
       "price_usd": "3.17"
     },
@@ -3523,11 +3515,11 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "25.0",
+      "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "14.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "10.0",
-      "total_stock": "30.0",
+      "total_stock": "29.0",
       "total_consumption": "24.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -3539,7 +3531,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "25.0",
+          "stock": "24.0",
           "consumption": "14.0"
         },
         "Medawar": {
@@ -4310,7 +4302,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 100000.0,
-      "cost": 0.93,
+      "cost": 0.0,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -4354,11 +4346,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.93",
-      "costUsd": 0.93,
-      "cost_ht_usd": 0.93,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "1",
       "price_usd": "1.11"
     },
@@ -5738,6 +5725,6 @@
       "totalStock": "20"
     }
   ],
-  "updatedAt": "2026-05-26T09:08:58.106197Z",
+  "updatedAt": "2026-05-26T09:11:22.346299Z",
   "source": "sql"
 }

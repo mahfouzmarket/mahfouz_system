@@ -4809,11 +4809,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "64.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "10.0",
+      "total_stock": "11.0",
       "total_consumption": "69.0",
       "VAT": "NO",
       "price_lbp": 90000.0,
@@ -4825,7 +4825,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10.0",
+          "stock": "11.0",
           "consumption": "64.0"
         },
         "Medawar": {
@@ -4846,7 +4846,7 @@
       "supplier": "DELIZZIO",
       "subcategory": "BAKERY",
       "vat": 0,
-      "totalStock": "10"
+      "totalStock": "11"
     },
     {
       "id": "19220",
@@ -5715,10 +5715,10 @@
       "subcategory": "CLEANING",
       "subCategory": "CLEANING",
       "unit": "EACH",
-      "VAT": "YES",
-      "vat": 1,
-      "price_lbp": 170000.0,
-      "cost": 1.1633333333333333,
+      "VAT": "NO",
+      "vat": 0,
+      "price_lbp": 150000.0,
+      "cost": 1.39,
       "total_stock": "7.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "7.0",
@@ -5768,7 +5768,7 @@
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "totalStock": "7",
-      "price_usd": "1.89"
+      "price_usd": "1.67"
     },
     {
       "id": "19268",
@@ -5994,10 +5994,10 @@
       "subcategory": "WHISKEY",
       "subCategory": "WHISKEY",
       "unit": "EACH",
-      "VAT": "YES",
-      "vat": 1,
+      "VAT": "NO",
+      "vat": 0,
       "price_lbp": 3100000.0,
-      "cost": 26.0945,
+      "cost": 0.0,
       "total_stock": "2.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "1.0",
@@ -6041,6 +6041,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "totalStock": "2",
       "price_usd": "34.44"
     },
     {
@@ -7849,9 +7850,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "10.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10.0",
+      "total_stock": "4.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 380000.0,
@@ -7867,7 +7868,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "10.0",
+          "stock": "4.0",
           "consumption": "0.0"
         }
       },
@@ -10023,7 +10024,7 @@
       "manual": "",
       "delivery_rules": "0.005",
       "SUPPLIERS": "NOUNA'S FOOD",
-      "unit": "-",
+      "unit": "",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "19483",
@@ -10384,6 +10385,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-26T09:08:59.381814Z",
+  "updatedAt": "2026-05-26T09:11:23.631278Z",
   "source": "sql"
 }
