@@ -849,9 +849,9 @@
       "expiry_days": "6",
       "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "27.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "-2.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "-1.0",
+      "total_stock": "-3.0",
       "total_consumption": "29.0",
       "VAT": "NO",
       "price_lbp": 220000.0,
@@ -873,7 +873,7 @@
           "consumption": "27.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "-2.0",
           "consumption": "2.0"
         }
       },
@@ -977,7 +977,7 @@
     {
       "id": "16105",
       "barcode": "2701030",
-      "Product Description": "CD PCS",
+      "Product Description": "CD PIECES",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -997,7 +997,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "CD PCS",
+      "name": "CD PIECES",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
       "vat": 0,
@@ -1065,9 +1065,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "26.0",
-      "stock_in_medawar_branch": "32.0",
+      "stock_in_medawar_branch": "33.0",
       "consumption_in_medawar_branch": "38.0",
-      "total_stock": "33.0",
+      "total_stock": "34.0",
       "total_consumption": "64.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
@@ -1083,7 +1083,7 @@
           "consumption": "26.0"
         },
         "Medawar": {
-          "stock": "32.0",
+          "stock": "33.0",
           "consumption": "38.0"
         }
       },
@@ -1186,9 +1186,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
+      "total_stock": "6.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": 230000.0,
@@ -1208,7 +1208,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "4.0",
           "consumption": "0.0"
         }
       },
@@ -1373,8 +1373,8 @@
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
       "vat": 0,
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "3092744679953",
+      "barcodes": "3092744679953",
       "expiry_days": "0",
       "cost_ht": "0.35",
       "linked_profile_enabled": false,
@@ -1404,7 +1404,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 95000.0,
-      "cost": 0.88,
+      "cost": 0.0,
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "5.0",
@@ -1448,11 +1448,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.88",
-      "costUsd": 0.88,
-      "cost_ht_usd": 0.88,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "5",
       "price_usd": "1.06"
     },
     {
@@ -2093,11 +2089,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2.0",
+      "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": 180000.0,
@@ -2109,7 +2105,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -2123,7 +2119,6 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
       "vat": 0,
-      "totalStock": "2",
       "barcode2": "",
       "barcodes": ""
     },
@@ -2165,8 +2160,7 @@
       "subcategory": "GLOVES",
       "vat": 0,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "5"
+      "barcodes": ""
     },
     {
       "id": "16212",
@@ -3392,9 +3386,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "28.0",
-      "total_stock": "8.0",
+      "total_stock": "10.0",
       "total_consumption": "29.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
@@ -3410,7 +3404,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "8.0",
+          "stock": "10.0",
           "consumption": "28.0"
         }
       },
@@ -3590,7 +3584,7 @@
     {
       "id": "16312",
       "barcode": "5280303613151",
-      "Product Description": "XSMART PLUSLEAVE IN GREEN TEA 200 ML",
+      "Product Description": "XSMART PLUSLEAVE IN GREEN TEA 200ML",
       "SUPPLIERS": "LUNAR GROUP",
       "unit": "-",
       "category": "HOME USAGE",
@@ -3610,7 +3604,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "XSMART PLUSLEAVE IN GREEN TEA 200 ML",
+      "name": "XSMART PLUSLEAVE IN GREEN TEA 200ML",
       "supplier": "LUNAR GROUP",
       "subcategory": "shampoo & cond",
       "vat": 0,
@@ -3625,12 +3619,13 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "16319",
       "barcode": "5280303613168",
-      "Product Description": "XSMART LEAVE IN KERATIN&MACADEMIA 200 ML",
+      "Product Description": "XSMART LEAVE IN KERATIN&MACADEMIA 200ML",
       "SUPPLIERS": "LUNAR GROUP",
       "unit": "-",
       "category": "HOME USAGE",
@@ -3650,7 +3645,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "XSMART LEAVE IN KERATIN&MACADEMIA 200 ML",
+      "name": "XSMART LEAVE IN KERATIN&MACADEMIA 200ML",
       "supplier": "LUNAR GROUP",
       "subcategory": "shampoo & cond",
       "vat": 0,
@@ -3665,7 +3660,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "16320",
@@ -3704,6 +3700,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -3786,7 +3783,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "16337",
@@ -3826,7 +3824,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "16340",
@@ -3866,7 +3865,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "16341",
@@ -3906,7 +3906,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "16348",
@@ -3945,6 +3946,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -4026,6 +4028,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -4148,7 +4151,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "9"
     },
     {
       "id": "16358",
@@ -4188,7 +4192,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "2"
     },
     {
       "id": "16359",
@@ -4228,7 +4233,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "16360",
@@ -4268,7 +4274,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "16366",
@@ -4479,7 +4486,8 @@
       "subcategory": "Vodka",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "10"
     },
     {
       "id": "16375",
@@ -4566,6 +4574,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -4904,15 +4913,15 @@
       "cost": 0.74,
       "total_stock": "6.0",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "6.0",
       "branches": {
         "Geitawi": {
-          "stock": "6.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -4950,16 +4959,8 @@
       "cost_ht_usd": 0.74,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "price_usd": "0.89",
-      "expiry_days": "0",
-      "imageURL": "",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
-      "product_setup_save_token": "PS-SAVE-16401-1778938396571043",
-      "product_setup_saved_at_utc": "2026-05-16T13:33:16.571043Z"
+      "totalStock": "6",
+      "price_usd": "0.89"
     },
     {
       "id": "16432",
@@ -5515,6 +5516,6 @@
       "totalStock": "24"
     }
   ],
-  "updatedAt": "2026-05-26T05:12:04.149657Z",
+  "updatedAt": "2026-05-26T05:11:02.748065Z",
   "source": "sql"
 }
