@@ -18,7 +18,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 350000.0,
-      "cost": 3.24,
+      "cost": 0.0,
       "total_stock": "0.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -62,11 +62,6 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "3.24",
-      "costUsd": 3.24,
-      "cost_ht_usd": 3.24,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "3.89"
     },
     {
@@ -481,7 +476,7 @@
     {
       "id": "9647",
       "barcode": "5285001953059",
-      "Product Description": "ELSADA GEL GREEN 100 ML",
+      "Product Description": "ELSADA GEL GREEN 100ML",
       "SUPPLIERS": "SADAPACK",
       "unit": "-",
       "category": "HOME USAGE",
@@ -501,7 +496,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "ELSADA GEL GREEN 100 ML",
+      "name": "ELSADA GEL GREEN 100ML",
       "supplier": "SADAPACK",
       "subcategory": "hair care",
       "vat": 1,
@@ -716,12 +711,13 @@
       "subcategory": "hair care",
       "vat": 1,
       "barcode2": "5285001951000",
-      "barcodes": "5285001951000"
+      "barcodes": "5285001951000",
+      "totalStock": "7"
     },
     {
       "id": "9685",
       "barcode": "5285001951383",
-      "Product Description": "ELEGANCE PLUS 1000 ML",
+      "Product Description": "ELEGANCE PLUS 1000ML",
       "SUPPLIERS": "SADAPACK",
       "unit": "-",
       "category": "HOME USAGE",
@@ -741,7 +737,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "ELEGANCE PLUS 1000 ML",
+      "name": "ELEGANCE PLUS 1000ML",
       "supplier": "SADAPACK",
       "subcategory": "hair care",
       "vat": 1,
@@ -756,7 +752,8 @@
         }
       },
       "barcode2": "5285001951406",
-      "barcodes": "5285001951406"
+      "barcodes": "5285001951406",
+      "totalStock": "10"
     },
     {
       "id": "9711",
@@ -801,7 +798,7 @@
     {
       "id": "9727",
       "barcode": "5285009960738",
-      "Product Description": "MALIZIA UOMO DEO AMBER 150 ML",
+      "Product Description": "MALIZIA UOMO DEO AMBER 150ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -821,7 +818,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "MALIZIA UOMO DEO AMBER 150 ML",
+      "name": "MALIZIA UOMO DEO AMBER 150ML",
       "supplier": "JACK DIB",
       "subcategory": "deodorant & roll on",
       "vat": 1,
@@ -916,17 +913,8 @@
           "consumption": "0.0"
         }
       },
-      "barcode2": "",
-      "barcodes": "",
-      "expiry_days": "0",
-      "cost_ht": "0.41",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
-      "product_setup_save_token": "PS-SAVE-9744-1778919839393390",
-      "product_setup_saved_at_utc": "2026-05-16T08:23:59.393390Z"
+      "barcode2": "5290426205409",
+      "barcodes": "5290426205409"
     },
     {
       "id": "9747",
@@ -939,9 +927,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "54.0",
-      "stock_in_medawar_branch": "20.0",
+      "stock_in_medawar_branch": "19.0",
       "consumption_in_medawar_branch": "54.0",
-      "total_stock": "24.0",
+      "total_stock": "23.0",
       "total_consumption": "108.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
@@ -957,7 +945,7 @@
           "consumption": "54.0"
         },
         "Medawar": {
-          "stock": "20.0",
+          "stock": "19.0",
           "consumption": "54.0"
         }
       },
@@ -967,12 +955,12 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "25"
+      "totalStock": "23"
     },
     {
       "id": "9757",
       "barcode": "5281053031219",
-      "Product Description": "GADA GREEN 65 G",
+      "Product Description": "GADA GREEN 65G",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -992,7 +980,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "GADA GREEN 65 G",
+      "name": "GADA GREEN 65G",
       "supplier": "JACK DIB",
       "subcategory": "shaving",
       "vat": 1,
@@ -1006,6 +994,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "2",
       "barcode2": "",
       "barcodes": ""
     },
@@ -1058,34 +1047,34 @@
       "category": "HOME USAGE",
       "sub_category": "PLAY CARDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "10.0",
+      "stock_in_medawar_branch": "16.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "10.0",
+      "total_stock": "22.0",
       "total_consumption": "2.0",
-      "VAT": "YES",
+      "VAT": "NO",
       "price_lbp": 510000.0,
       "price_usd": "5.67",
-      "cost": 3.35,
+      "cost": 3.25,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID9801.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "10.0",
+          "stock": "16.0",
           "consumption": "1.0"
         }
       },
       "name": "B.R GRIMAUD 2",
       "supplier": "PLATCO",
       "subcategory": "PLAY CARDS",
-      "vat": 1,
+      "vat": 0,
       "barcode2": "",
       "barcodes": "",
       "totalStock": "10"
@@ -1222,34 +1211,34 @@
       "category": "HOME USAGE",
       "sub_category": "PLAY CARDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "3.0",
+      "total_stock": "15.0",
       "total_consumption": "7.0",
-      "VAT": "YES",
+      "VAT": "NO",
       "price_lbp": 545000.0,
       "price_usd": "6.06",
-      "cost": 3.91,
+      "cost": 3.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID9844.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "9.0",
           "consumption": "4.0"
         }
       },
       "name": "FOURNIER 777",
       "supplier": "JACK DIB",
       "subcategory": "PLAY CARDS",
-      "vat": 1,
+      "vat": 0,
       "barcode2": "",
       "barcodes": "",
       "totalStock": "3"
@@ -1413,8 +1402,8 @@
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
       "vat": 1,
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5283001500945",
+      "barcodes": "5283001500945",
       "expiry_days": "0",
       "cost_ht": "0.39",
       "linked_profile_enabled": false,
@@ -1484,7 +1473,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 55000.0,
-      "cost": 0.51,
+      "cost": 0.0,
       "total_stock": "18.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -1528,14 +1517,10 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.51",
-      "costUsd": 0.51,
-      "cost_ht_usd": 0.51,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "18",
       "price_usd": "0.61"
     }
   ],
-  "updatedAt": "2026-05-26T11:36:10.719416Z",
+  "updatedAt": "2026-05-26T11:35:46.132633Z",
   "source": "sql"
 }
