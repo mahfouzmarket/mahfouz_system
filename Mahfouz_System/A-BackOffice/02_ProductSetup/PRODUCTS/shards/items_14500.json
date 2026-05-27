@@ -646,10 +646,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
-      "consumption_in_medawar_branch": "2.0",
-      "total_stock": "5.0",
-      "total_consumption": "3.0",
+      "stock_in_medawar_branch": "-1.0",
+      "consumption_in_medawar_branch": "1.0",
+      "total_stock": "4.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 280000.0,
       "price_usd": "3.11",
@@ -664,8 +664,8 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
-          "consumption": "2.0"
+          "stock": "-1.0",
+          "consumption": "1.0"
         }
       },
       "name": "DIMEX JAVEL 3750 GR",
@@ -674,7 +674,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "4"
     },
     {
       "id": "14550",
@@ -1333,51 +1333,42 @@
     {
       "id": "14621",
       "barcode": "022644004770",
-      "barcode2": "",
-      "barcodes": "",
       "Product Description": "NAJJAR INSTANT COFFEE RED 95 G",
       "SUPPLIERS": "ETS MICHEL NAJJAR",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "expiry_days": "0",
       "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "7.0",
-      "stock_in_medawar_branch": "8.0",
+      "consumption_in_geitawi_branch": "6.0",
+      "stock_in_medawar_branch": "9.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "8.0",
-      "total_consumption": "10.0",
+      "total_stock": "9.0",
+      "total_consumption": "9.0",
       "VAT": "YES",
       "price_lbp": 310000.0,
       "price_usd": "3.44",
       "cost": 2.57,
-      "cost_ht": "2.57",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14621.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
-          "consumption": "7.0"
+          "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "8.0",
+          "stock": "9.0",
           "consumption": "3.0"
         }
       },
-      "product_setup_save_token": "PS-SAVE-14621-1779786266357433",
-      "product_setup_saved_at_utc": "2026-05-26T09:04:26.357433Z",
       "name": "NAJJAR INSTANT COFFEE RED 95 G",
       "supplier": "ETS MICHEL NAJJAR",
       "subcategory": "instant coffee",
-      "vat": 1
+      "vat": 1,
+      "barcode2": "",
+      "barcodes": ""
     },
     {
       "id": "14622",
@@ -1432,11 +1423,11 @@
       "sub_category": "instant coffee",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "7.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "8.0",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "15.0",
+      "total_stock": "10.0",
       "total_consumption": "13.0",
       "VAT": "YES",
       "price_lbp": 670000.0,
@@ -1454,7 +1445,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "2.0",
           "consumption": "6.0"
         },
         "Medawar": {
@@ -1508,7 +1499,7 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "14"
     },
     {
       "id": "14640",
@@ -1993,7 +1984,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "334"
+      "totalStock": "342"
     },
     {
       "id": "14689",
@@ -2036,6 +2027,7 @@
       "name": "POPPINS FROSTED FLAKES 350 GR",
       "subcategory": "corn flakes",
       "vat": 1,
+      "totalStock": "2",
       "barcode2": "",
       "barcodes": ""
     },
@@ -2123,7 +2115,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "3"
     },
     {
       "id": "14701",
@@ -2337,7 +2329,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "12"
     },
     {
       "id": "14709",
@@ -2498,7 +2491,8 @@
       "subcategory": "cans & jams",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "12"
     },
     {
       "id": "14721",
@@ -2840,7 +2834,7 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "50.0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": 25000.0,
       "price_usd": "0.28",
       "cost": 0.13,
@@ -2851,7 +2845,7 @@
       "name": "FABER CASTELL PEN 0.75 M",
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
-      "vat": 0,
+      "vat": 1,
       "branches": {
         "Geitawi": {
           "stock": "0.0",
@@ -2863,7 +2857,8 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "50"
     },
     {
       "id": "14768",
@@ -3117,12 +3112,12 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "2.0",
+      "stock_in_geitawi_branch": "3.0",
+      "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "6.0",
-      "total_stock": "7.0",
-      "total_consumption": "8.0",
+      "total_stock": "8.0",
+      "total_consumption": "7.0",
       "VAT": "NO",
       "price_lbp": 160000.0,
       "price_usd": "1.78",
@@ -3133,8 +3128,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
-          "consumption": "2.0"
+          "stock": "3.0",
+          "consumption": "1.0"
         },
         "Medawar": {
           "stock": "5.0",
@@ -3556,10 +3551,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "10.0",
-      "stock_in_medawar_branch": "5.0",
-      "consumption_in_medawar_branch": "17.0",
-      "total_stock": "11.0",
-      "total_consumption": "27.0",
+      "stock_in_medawar_branch": "3.0",
+      "consumption_in_medawar_branch": "15.0",
+      "total_stock": "9.0",
+      "total_consumption": "25.0",
       "VAT": "YES",
       "price_lbp": 95000.0,
       "price_usd": "1.06",
@@ -3574,8 +3569,8 @@
           "consumption": "10.0"
         },
         "Medawar": {
-          "stock": "5.0",
-          "consumption": "17.0"
+          "stock": "3.0",
+          "consumption": "15.0"
         }
       },
       "name": "I LOVE MY DOG CHUNKS WITH LAMB 400 G",
@@ -3636,12 +3631,12 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "4.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "5.0",
+      "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "4.0",
-      "total_stock": "9.0",
-      "total_consumption": "5.0",
+      "total_stock": "10.0",
+      "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 690000.0,
       "price_usd": "7.67",
@@ -3652,8 +3647,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4.0",
-          "consumption": "1.0"
+          "stock": "5.0",
+          "consumption": "0.0"
         },
         "Medawar": {
           "stock": "5.0",
@@ -3677,12 +3672,12 @@
       "category": "CHIPS",
       "sub_category": "FANTASIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "13.0",
-      "consumption_in_geitawi_branch": "24.0",
+      "stock_in_geitawi_branch": "12.0",
+      "consumption_in_geitawi_branch": "23.0",
       "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "25.0",
-      "total_stock": "23.0",
-      "total_consumption": "49.0",
+      "total_stock": "22.0",
+      "total_consumption": "48.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -3693,8 +3688,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "13.0",
-          "consumption": "24.0"
+          "stock": "12.0",
+          "consumption": "23.0"
         },
         "Medawar": {
           "stock": "10.0",
@@ -3800,9 +3795,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "22.0",
       "consumption_in_geitawi_branch": "13.0",
-      "stock_in_medawar_branch": "15.0",
+      "stock_in_medawar_branch": "16.0",
       "consumption_in_medawar_branch": "25.0",
-      "total_stock": "37.0",
+      "total_stock": "38.0",
       "total_consumption": "38.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
@@ -3818,7 +3813,7 @@
           "consumption": "13.0"
         },
         "Medawar": {
-          "stock": "15.0",
+          "stock": "16.0",
           "consumption": "25.0"
         }
       },
@@ -3840,9 +3835,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "11.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "13.0",
-      "total_stock": "10.0",
+      "total_stock": "12.0",
       "total_consumption": "24.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
@@ -3858,7 +3853,7 @@
           "consumption": "11.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "2.0",
           "consumption": "13.0"
         }
       },
@@ -3920,12 +3915,12 @@
       "category": "CHIPS",
       "sub_category": "FANTASIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
-      "consumption_in_geitawi_branch": "90.0",
+      "stock_in_geitawi_branch": "14.0",
+      "consumption_in_geitawi_branch": "96.0",
       "stock_in_medawar_branch": "95.0",
       "consumption_in_medawar_branch": "103.0",
-      "total_stock": "106.0",
-      "total_consumption": "193.0",
+      "total_stock": "109.0",
+      "total_consumption": "199.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -3936,8 +3931,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
-          "consumption": "90.0"
+          "stock": "14.0",
+          "consumption": "96.0"
         },
         "Medawar": {
           "stock": "95.0",
@@ -3950,7 +3945,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "111"
+      "totalStock": "113"
     },
     {
       "id": "14845",
@@ -3963,9 +3958,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7.0",
       "consumption_in_geitawi_branch": "37.0",
-      "stock_in_medawar_branch": "20.0",
+      "stock_in_medawar_branch": "32.0",
       "consumption_in_medawar_branch": "28.0",
-      "total_stock": "27.0",
+      "total_stock": "39.0",
       "total_consumption": "65.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
@@ -3981,7 +3976,7 @@
           "consumption": "37.0"
         },
         "Medawar": {
-          "stock": "20.0",
+          "stock": "32.0",
           "consumption": "28.0"
         }
       },
@@ -4130,9 +4125,9 @@
       "total_stock": "4.0",
       "total_consumption": "1.0",
       "VAT": "YES",
-      "price_lbp": 350000.0,
-      "price_usd": "3.89",
-      "cost": 2.92,
+      "price_lbp": 315000.0,
+      "price_usd": "3.50",
+      "cost": 1.946667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14880.jpg",
       "new_items": "",
       "manual": "",
@@ -4157,7 +4152,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "4"
     },
     {
       "id": "14882",
@@ -4210,9 +4205,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "-1.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "-1.0",
+      "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 265000.0,
@@ -4232,7 +4227,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "1.0"
         }
       },
@@ -5716,6 +5711,6 @@
       "totalStock": "20"
     }
   ],
-  "updatedAt": "2026-05-27T16:51:30.014329Z",
+  "updatedAt": "2026-05-27T16:52:20.418008Z",
   "source": "sql"
 }
