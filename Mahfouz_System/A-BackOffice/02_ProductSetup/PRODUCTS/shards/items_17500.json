@@ -510,6 +510,7 @@
           "consumption": "0.0"
         }
       },
+      "totalStock": "9",
       "barcode2": "",
       "barcodes": ""
     },
@@ -2806,7 +2807,10 @@
       "supplier": "ARLA KALLASSI FOODS LB SAL",
       "name": "TIVOLI FETA PUCK",
       "subcategory": "DAIRY PRODUCTS",
-      "vat": 0
+      "vat": 0,
+      "product_setup_save_token": "PS-SAVE-17701-1778929459886005",
+      "product_setup_saved_at_utc": "2026-05-16T11:04:19.886005Z",
+      "totalStock": "11.205"
     },
     {
       "id": "17703",
@@ -6341,7 +6345,8 @@
       "subcategory": "PASTA & INDOMI",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "1"
     },
     {
       "id": "17960",
@@ -6790,6 +6795,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-05-27T11:20:02.083081Z",
+  "updatedAt": "2026-05-27T11:20:27.634761Z",
   "source": "sql"
 }
