@@ -248,18 +248,18 @@
       "vat": 0,
       "price_lbp": 200000.0,
       "cost": 1.85,
-      "total_stock": "-16.0",
-      "total_consumption": "29.0",
-      "stock_in_geitawi_branch": "-11.0",
-      "stock_in_medawar_branch": "-5.0",
+      "total_stock": "-15.0",
+      "total_consumption": "28.0",
+      "stock_in_geitawi_branch": "-12.0",
+      "stock_in_medawar_branch": "-3.0",
       "branches": {
         "Geitawi": {
-          "stock": "-11.0",
+          "stock": "-12.0",
           "consumption": "23.0"
         },
         "Medawar": {
-          "stock": "-5.0",
-          "consumption": "6.0"
+          "stock": "-3.0",
+          "consumption": "5.0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -280,7 +280,7 @@
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "NF ENERGY COOKIE NT 70 G",
       "consumption_in_geitawi_branch": "23.0",
-      "consumption_in_medawar_branch": "6.0",
+      "consumption_in_medawar_branch": "5.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
       "sub": "NOUNA'S FOOD",
@@ -390,7 +390,7 @@
       "id": "22019",
       "barcode": "5281117000793",
       "barcodes": "",
-      "Product Description": "WADI WHITE KIDNEY BEANS 400 G",
+      "Product Description": "WADI WHITE KIDNEY BEANS 400GR",
       "product_description": "WADI WHITE KIDNEY BEANS 400GR",
       "description": "WADI WHITE KIDNEY BEANS 400GR",
       "brand": "",
@@ -435,7 +435,7 @@
       "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "WADI WHITE KIDNEY BEANS 400 G",
+      "name": "WADI WHITE KIDNEY BEANS 400GR",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
@@ -453,6 +453,7 @@
       "cost_ht_usd": 1.67,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "12",
       "price_usd": "2.00"
     },
     {
@@ -607,6 +608,6 @@
       "totalStock": "5"
     }
   ],
-  "updatedAt": "2026-05-27T04:46:10.388151Z",
+  "updatedAt": "2026-05-27T04:47:06.471825Z",
   "source": "sql"
 }
