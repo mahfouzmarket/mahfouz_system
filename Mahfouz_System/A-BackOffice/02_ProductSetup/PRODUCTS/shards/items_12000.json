@@ -200,7 +200,8 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "totalStock": "2"
     },
     {
       "id": "12155",
@@ -220,7 +221,7 @@
       "VAT": "YES",
       "price_lbp": 150000.0,
       "price_usd": "1.67",
-      "cost": 0.9,
+      "cost": 1.0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12155.jpg",
       "new_items": "",
       "manual": "",
@@ -241,7 +242,7 @@
       "supplier": "JACK DIB",
       "subcategory": "DISH WASHING",
       "vat": 1,
-      "totalStock": "57"
+      "totalStock": "17"
     },
     {
       "id": "12170",
@@ -302,7 +303,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 335000.0,
-      "cost": 3.1,
+      "cost": 0.0,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -346,11 +347,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "3.10",
-      "costUsd": 3.1,
-      "cost_ht_usd": 3.1,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "totalStock": "1",
       "price_usd": "3.72"
     },
     {
@@ -855,7 +852,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 135000.0,
-      "cost": 0.0,
+      "cost": 1.25,
       "total_stock": "0.0",
       "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0.0",
@@ -878,7 +875,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "updated_at_utc": "2026-05-19T12:22:00.790729Z",
       "barcode2": "3094901410003",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -899,7 +896,13 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "cost_ht": "1.25",
+      "costUsd": 1.25,
+      "cost_ht_usd": 1.25,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12398.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12398.jpg",
       "price_usd": "1.50"
     },
     {
@@ -983,6 +986,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-27T04:53:50.245637Z",
+  "updatedAt": "2026-05-27T04:55:13.067821Z",
   "source": "sql"
 }
