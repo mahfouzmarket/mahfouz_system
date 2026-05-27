@@ -2586,12 +2586,12 @@
       "category": "FOOD",
       "sub_category": "BUTTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
-      "consumption_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "-1.0",
+      "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0.0",
-      "total_consumption": "1.0",
+      "total_stock": "-1.0",
+      "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 260000.0,
       "price_usd": "2.89",
@@ -2602,8 +2602,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
-          "consumption": "1.0"
+          "stock": "-1.0",
+          "consumption": "2.0"
         },
         "Medawar": {
           "stock": "0.0",
@@ -2615,7 +2615,8 @@
       "subcategory": "BUTTER",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "-1"
     },
     {
       "id": "17682",
@@ -6803,6 +6804,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-05-27T21:50:43.389011Z",
+  "updatedAt": "2026-05-27T21:51:49.787342Z",
   "source": "sql"
 }
