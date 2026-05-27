@@ -52,13 +52,13 @@
       "stock_in_geitawi_branch": "23.0",
       "consumption_in_geitawi_branch": "21.0",
       "stock_in_medawar_branch": "16.0",
-      "consumption_in_medawar_branch": "24.0",
+      "consumption_in_medawar_branch": "25.0",
       "total_stock": "39.0",
-      "total_consumption": "45.0",
-      "VAT": "YES",
+      "total_consumption": "46.0",
+      "VAT": "NO",
       "price_lbp": 25000.0,
       "price_usd": "0.28",
-      "cost": 0.17,
+      "cost": 0.18,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11068.jpg",
       "new_items": "",
       "manual": "",
@@ -70,7 +70,7 @@
         },
         "Medawar": {
           "stock": "16.0",
-          "consumption": "24.0"
+          "consumption": "25.0"
         }
       },
       "name": "BIC CRISTAL MEDIUM BLUE",
@@ -78,7 +78,8 @@
       "barcodes": "",
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
-      "vat": 1
+      "vat": 0,
+      "totalStock": "39"
     },
     {
       "id": "11070",
@@ -674,6 +675,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-05-27T11:43:05.361251Z",
+  "updatedAt": "2026-05-27T11:43:06.699370Z",
   "source": "sql"
 }
