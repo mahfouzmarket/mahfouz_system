@@ -1236,9 +1236,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33.0",
       "consumption_in_geitawi_branch": "127.0",
-      "stock_in_medawar_branch": "69.0",
+      "stock_in_medawar_branch": "68.0",
       "consumption_in_medawar_branch": "125.0",
-      "total_stock": "102.0",
+      "total_stock": "101.0",
       "total_consumption": "252.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -1254,7 +1254,7 @@
           "consumption": "127.0"
         },
         "Medawar": {
-          "stock": "69.0",
+          "stock": "68.0",
           "consumption": "125.0"
         }
       },
@@ -3710,11 +3710,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.0",
+      "stock_in_geitawi_branch": "19.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "19.0",
       "consumption_in_medawar_branch": "10.0",
-      "total_stock": "10.0",
+      "total_stock": "38.0",
       "total_consumption": "14.0",
       "VAT": "NO",
       "price_lbp": 120000.0,
@@ -3726,11 +3726,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10.0",
+          "stock": "19.0",
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "19.0",
           "consumption": "10.0"
         }
       },
@@ -3893,52 +3893,51 @@
     {
       "id": "13843",
       "barcode": "3663849700271",
+      "barcode2": "",
+      "barcodes": "",
       "Product Description": "GAULOISES RED",
       "SUPPLIERS": "CIGARETTES",
       "unit": "-",
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "37.0",
+      "expiry_days": "0",
+      "stock_in_geitawi_branch": "25.0",
       "consumption_in_geitawi_branch": "61.0",
-      "stock_in_medawar_branch": "8.0",
+      "stock_in_medawar_branch": "33.0",
       "consumption_in_medawar_branch": "85.0",
-      "total_stock": "45.0",
+      "total_stock": "58.0",
       "total_consumption": "146.0",
       "VAT": "NO",
       "price_lbp": 150000.0,
       "price_usd": "1.67",
       "cost": 1.53,
+      "cost_ht": "1.53",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13843.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "branches": {
-        "Geitawi": {
-          "stock": "37.0",
-          "consumption": "61.0"
-        },
-        "Medawar": {
-          "stock": "8.0",
-          "consumption": "85.0"
-        }
-      },
-      "name": "GAULOISES RED",
-      "supplier": "CIGARETTES",
-      "subcategory": "CIGARETTES",
-      "vat": 0,
-      "barcode2": "",
-      "barcodes": "",
-      "expiry_days": "0",
-      "cost_ht": "1.53",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "product_setup_save_token": "PS-SAVE-13843-1778906752348102",
-      "product_setup_saved_at_utc": "2026-05-16T04:45:52.348102Z",
-      "totalStock": "45"
+      "branches": {
+        "Geitawi": {
+          "stock": "25.0",
+          "consumption": "61.0"
+        },
+        "Medawar": {
+          "stock": "33.0",
+          "consumption": "85.0"
+        }
+      },
+      "product_setup_save_token": "PS-SAVE-13843-1779885946030837",
+      "product_setup_saved_at_utc": "2026-05-27T12:45:46.030837Z",
+      "name": "GAULOISES RED",
+      "supplier": "CIGARETTES",
+      "subcategory": "CIGARETTES",
+      "vat": 0
     },
     {
       "id": "13844",
@@ -6322,6 +6321,6 @@
       "totalStock": "11"
     }
   ],
-  "updatedAt": "2026-05-27T12:39:39.861993Z",
+  "updatedAt": "2026-05-27T12:49:02.650402Z",
   "source": "sql"
 }
