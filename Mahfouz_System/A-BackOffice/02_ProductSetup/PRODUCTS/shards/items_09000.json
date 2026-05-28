@@ -625,7 +625,7 @@
       "VAT": "YES",
       "price_lbp": 90000.0,
       "price_usd": "1.00",
-      "cost": 0.56,
+      "cost": 0.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID9210.jpg",
       "new_items": "",
       "manual": "",
@@ -686,7 +686,8 @@
         }
       },
       "barcode2": "8710447171325",
-      "barcodes": "8710447171325"
+      "barcodes": "8710447171325",
+      "totalStock": "8"
     },
     {
       "id": "9263",
@@ -737,9 +738,9 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "8.0",
-      "stock_in_medawar_branch": "-11.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "19.0",
       "total_stock": "0.0",
       "total_consumption": "27.0",
@@ -753,11 +754,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "1.0",
           "consumption": "8.0"
         },
         "Medawar": {
-          "stock": "-11.0",
+          "stock": "-1.0",
           "consumption": "19.0"
         }
       },
@@ -766,8 +767,7 @@
       "subcategory": "PICNIC & OFFICE USE",
       "vat": 0,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "0"
+      "barcodes": ""
     },
     {
       "id": "9350",
@@ -1015,6 +1015,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-28T09:12:01.615497Z",
+  "updatedAt": "2026-05-28T09:11:31.176629Z",
   "source": "sql"
 }
