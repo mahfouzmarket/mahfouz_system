@@ -504,9 +504,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "4.0",
-      "stock_in_medawar_branch": "2.0",
+      "stock_in_medawar_branch": "3.0",
       "consumption_in_medawar_branch": "8.0",
-      "total_stock": "5.0",
+      "total_stock": "6.0",
       "total_consumption": "12.0",
       "VAT": "YES",
       "price_lbp": 250000.0,
@@ -522,7 +522,7 @@
           "consumption": "4.0"
         },
         "Medawar": {
-          "stock": "2.0",
+          "stock": "3.0",
           "consumption": "8.0"
         }
       },
@@ -871,7 +871,7 @@
     {
       "id": "2648",
       "barcode": "5285002199470",
-      "Product Description": "ARUBA BERRIES 500 G",
+      "Product Description": "ARUBA BERRIES 500 gr",
       "SUPPLIERS": "HINTRAG",
       "unit": "-",
       "category": "BEVERAGES",
@@ -901,12 +901,13 @@
           "consumption": "0.0"
         }
       },
-      "name": "ARUBA BERRIES 500 G",
+      "name": "ARUBA BERRIES 500 gr",
       "supplier": "HINTRAG",
       "subcategory": "juice",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "totalStock": "4"
     },
     {
       "id": "2663",
@@ -917,11 +918,11 @@
       "category": "CHI TAYIB",
       "sub_category": "corn flakes",
       "offers": "0",
-      "stock_in_geitawi_branch": "7.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "18.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "25.0",
+      "total_stock": "18.0",
       "total_consumption": "11.0",
       "VAT": "YES",
       "price_lbp": 35000.0,
@@ -933,7 +934,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "0.0",
           "consumption": "9.0"
         },
         "Medawar": {
@@ -1212,11 +1213,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.930",
+      "stock_in_geitawi_branch": "0.000",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.000",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0.930",
+      "total_stock": "0.000",
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": 675000.0,
@@ -1228,7 +1229,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.930",
+          "stock": "0.000",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -1380,7 +1381,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-2819-1778929015884121",
       "product_setup_saved_at_utc": "2026-05-16T10:56:55.884121Z",
-      "totalStock": "18"
+      "totalStock": "19"
     },
     {
       "id": "2821",
@@ -1421,7 +1422,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "54"
+      "totalStock": "55"
     },
     {
       "id": "2824",
@@ -1642,8 +1643,8 @@
       "supplier": "DAIRY KHOURY USD",
       "subcategory": "DAIRY PRODUCTS",
       "vat": 0,
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5285008140223",
+      "barcodes": "5285008140223",
       "expiry_days": "0",
       "cost_ht": "6.30",
       "linked_profile_enabled": false,
@@ -1866,6 +1867,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-05-28T06:43:58.333721Z",
+  "updatedAt": "2026-05-28T06:45:57.909804Z",
   "source": "sql"
 }
