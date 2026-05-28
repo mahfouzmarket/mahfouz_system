@@ -3425,11 +3425,11 @@
       "category": "FOOD",
       "sub_category": "FROZEN FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "1.0",
       "consumption_in_geitawi_branch": "4.0",
       "stock_in_medawar_branch": "33.0",
       "consumption_in_medawar_branch": "10.0",
-      "total_stock": "36.0",
+      "total_stock": "34.0",
       "total_consumption": "14.0",
       "VAT": "NO",
       "price_lbp": 255000.0,
@@ -3441,7 +3441,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "1.0",
           "consumption": "4.0"
         },
         "Medawar": {
@@ -3459,7 +3459,16 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11"
+      "totalStock": "34",
+      "expiry_days": "0",
+      "cost_ht": "1.97",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-18679-1779698066578206",
+      "product_setup_saved_at_utc": "2026-05-25T08:34:26.578206Z"
     },
     {
       "id": "18680",
@@ -5498,11 +5507,11 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "9.0",
-      "consumption_in_geitawi_branch": "28.0",
+      "consumption_in_geitawi_branch": "27.0",
       "stock_in_medawar_branch": "83.0",
       "consumption_in_medawar_branch": "10.0",
       "total_stock": "92.0",
-      "total_consumption": "38.0",
+      "total_consumption": "37.0",
       "VAT": "YES",
       "price_lbp": 55000.0,
       "price_usd": "0.61",
@@ -5518,7 +5527,7 @@
       "branches": {
         "Geitawi": {
           "stock": "9.0",
-          "consumption": "28.0"
+          "consumption": "27.0"
         },
         "Medawar": {
           "stock": "83.0",
@@ -9467,6 +9476,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-05-28T09:36:17.962267Z",
+  "updatedAt": "2026-05-28T09:37:51.237606Z",
   "source": "sql"
 }
