@@ -856,9 +856,9 @@
       "expiry_days": "6",
       "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "26.0",
-      "stock_in_medawar_branch": "-2.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "-3.0",
+      "total_stock": "-1.0",
       "total_consumption": "28.0",
       "VAT": "NO",
       "price_lbp": 220000.0,
@@ -880,7 +880,7 @@
           "consumption": "26.0"
         },
         "Medawar": {
-          "stock": "-2.0",
+          "stock": "0.0",
           "consumption": "2.0"
         }
       },
@@ -985,7 +985,7 @@
     {
       "id": "16105",
       "barcode": "2701030",
-      "Product Description": "CD PIECES",
+      "Product Description": "CD PCS",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -1005,7 +1005,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "CD PIECES",
+      "name": "CD PCS",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
       "vat": 0,
@@ -1413,7 +1413,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 95000.0,
-      "cost": 0.0,
+      "cost": 0.88,
       "total_stock": "5.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "5.0",
@@ -1457,7 +1457,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "5",
+      "cost_ht": "0.88",
+      "costUsd": 0.88,
+      "cost_ht_usd": 0.88,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "1.06"
     },
     {
@@ -1499,7 +1503,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "77"
+      "totalStock": "63"
     },
     {
       "id": "16153",
@@ -1620,7 +1624,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6"
+      "totalStock": "5"
     },
     {
       "id": "16166",
@@ -1672,7 +1676,7 @@
       "name": "MASTER HOT CHILI 180 G",
       "subcategory": "MASTER",
       "vat": 1,
-      "totalStock": "15"
+      "totalStock": "10"
     },
     {
       "id": "16169",
@@ -1717,7 +1721,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "53"
+      "totalStock": "45"
     },
     {
       "id": "16170",
@@ -1803,7 +1807,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "116"
+      "totalStock": "75"
     },
     {
       "id": "16173",
@@ -1923,7 +1927,7 @@
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "SAUCE",
       "vat": 1,
-      "totalStock": "6",
+      "totalStock": "5",
       "barcode2": "",
       "barcodes": ""
     },
@@ -2217,7 +2221,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "27"
+      "totalStock": "23"
     },
     {
       "id": "16213",
@@ -2827,7 +2831,7 @@
       "vat": 0,
       "barcode2": "3014260265885",
       "barcodes": "3014260265885",
-      "totalStock": "42"
+      "totalStock": "28"
     },
     {
       "id": "16270",
@@ -3155,9 +3159,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "2.0",
-      "total_stock": "3.0",
+      "total_stock": "2.0",
       "total_consumption": "4.0",
       "VAT": "NO",
       "price_lbp": 310000.0,
@@ -3173,7 +3177,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "2.0",
           "consumption": "2.0"
         }
       },
@@ -3316,7 +3320,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "30"
+      "totalStock": "26"
     },
     {
       "id": "16293",
@@ -3610,7 +3614,7 @@
     {
       "id": "16312",
       "barcode": "5280303613151",
-      "Product Description": "XSMART PLUSLEAVE IN GREEN TEA 200ML",
+      "Product Description": "XSMART PLUSLEAVE IN GREEN TEA 200 ML",
       "SUPPLIERS": "LUNAR GROUP",
       "unit": "-",
       "category": "HOME USAGE",
@@ -3630,7 +3634,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "XSMART PLUSLEAVE IN GREEN TEA 200ML",
+      "name": "XSMART PLUSLEAVE IN GREEN TEA 200 ML",
       "supplier": "LUNAR GROUP",
       "subcategory": "shampoo & cond",
       "vat": 0,
@@ -3645,13 +3649,12 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "1"
+      "barcodes": ""
     },
     {
       "id": "16319",
       "barcode": "5280303613168",
-      "Product Description": "XSMART LEAVE IN KERATIN&MACADEMIA 200ML",
+      "Product Description": "XSMART LEAVE IN KERATIN&MACADEMIA 200 ML",
       "SUPPLIERS": "LUNAR GROUP",
       "unit": "-",
       "category": "HOME USAGE",
@@ -3671,7 +3674,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "XSMART LEAVE IN KERATIN&MACADEMIA 200ML",
+      "name": "XSMART LEAVE IN KERATIN&MACADEMIA 200 ML",
       "supplier": "LUNAR GROUP",
       "subcategory": "shampoo & cond",
       "vat": 0,
@@ -3686,8 +3689,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "1"
+      "barcodes": ""
     },
     {
       "id": "16320",
@@ -3726,7 +3728,6 @@
           "consumption": "0.0"
         }
       },
-      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -3809,8 +3810,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "1"
+      "barcodes": ""
     },
     {
       "id": "16337",
@@ -3850,8 +3850,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "2"
+      "barcodes": ""
     },
     {
       "id": "16340",
@@ -3891,8 +3890,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "2"
+      "barcodes": ""
     },
     {
       "id": "16341",
@@ -3932,8 +3930,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "1"
+      "barcodes": ""
     },
     {
       "id": "16348",
@@ -3972,7 +3969,6 @@
           "consumption": "0.0"
         }
       },
-      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -4054,7 +4050,6 @@
           "consumption": "0.0"
         }
       },
-      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -4177,8 +4172,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "9"
+      "barcodes": ""
     },
     {
       "id": "16358",
@@ -4218,8 +4212,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "2"
+      "barcodes": ""
     },
     {
       "id": "16359",
@@ -4259,8 +4252,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "4"
+      "barcodes": ""
     },
     {
       "id": "16360",
@@ -4300,8 +4292,7 @@
         }
       },
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "4"
+      "barcodes": ""
     },
     {
       "id": "16366",
@@ -4513,8 +4504,7 @@
       "subcategory": "Vodka",
       "vat": 1,
       "barcode2": "",
-      "barcodes": "",
-      "totalStock": "10"
+      "barcodes": ""
     },
     {
       "id": "16375",
@@ -4601,7 +4591,6 @@
           "consumption": "0.0"
         }
       },
-      "totalStock": "1",
       "barcode2": "",
       "barcodes": ""
     },
@@ -4940,15 +4929,15 @@
       "cost": 0.74,
       "total_stock": "6.0",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "6.0",
+      "stock_in_geitawi_branch": "6.0",
+      "stock_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "6.0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "6.0",
+          "stock": "0.0",
           "consumption": "0.0"
         },
         "The Daily Market": {
@@ -4986,8 +4975,16 @@
       "cost_ht_usd": 0.74,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "6",
-      "price_usd": "0.89"
+      "price_usd": "0.89",
+      "expiry_days": "0",
+      "imageURL": "",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-16401-1778938396571043",
+      "product_setup_saved_at_utc": "2026-05-16T13:33:16.571043Z"
     },
     {
       "id": "16432",
@@ -5032,7 +5029,7 @@
       "vat": 1,
       "barcode2": "5000201499776",
       "barcodes": "5000201499776",
-      "totalStock": "57"
+      "totalStock": "37"
     },
     {
       "id": "16445",
@@ -5161,7 +5158,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "15"
+      "totalStock": "7"
     },
     {
       "id": "16466",
@@ -5336,7 +5333,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "23"
+      "totalStock": "16"
     },
     {
       "id": "16474",
@@ -5418,7 +5415,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "27"
+      "totalStock": "17"
     },
     {
       "id": "16476",
@@ -5459,7 +5456,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9"
+      "totalStock": "1"
     },
     {
       "id": "16498",
@@ -5544,6 +5541,6 @@
       "totalStock": "14"
     }
   ],
-  "updatedAt": "2026-05-29T22:55:39.200588Z",
+  "updatedAt": "2026-05-29T22:57:20.890073Z",
   "source": "sql"
 }
