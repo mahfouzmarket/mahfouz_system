@@ -38,7 +38,8 @@
           "stock": "3.0",
           "consumption": "0.0"
         }
-      }
+      },
+      "totalStock": "7"
     },
     {
       "id": "11068",
@@ -370,7 +371,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 285000.0,
-      "cost": 2.64,
+      "cost": 0.0,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -393,7 +394,7 @@
       "createdByUserCode": "1",
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-19T12:22:00.790726Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
       "barcode2": "5283014904846",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
@@ -414,13 +415,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "2.64",
-      "costUsd": 2.64,
-      "cost_ht_usd": 2.64,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11251.jpg",
-      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11251.jpg",
+      "totalStock": "1",
       "price_usd": "3.17"
     },
     {
@@ -557,9 +552,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "4.0",
+      "total_stock": "2.0",
       "total_consumption": "4.0",
       "VAT": "YES",
       "price_lbp": 410000.0,
@@ -575,11 +570,11 @@
           "consumption": "3.0"
         },
         "Medawar": {
-          "stock": "4.0",
+          "stock": "2.0",
           "consumption": "1.0"
         }
       },
-      "totalStock": "5",
+      "totalStock": "2",
       "name": "ULTRA DOUX 400ML",
       "barcode2": "",
       "barcodes": "",
@@ -650,7 +645,7 @@
       "VAT": "YES",
       "price_lbp": 390000.0,
       "price_usd": "4.33",
-      "cost": 2.5,
+      "cost": 2.79,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11458.jpg",
       "new_items": "",
       "manual": "",
@@ -671,9 +666,9 @@
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
       "vat": 1,
-      "totalStock": "1"
+      "totalStock": "7"
     }
   ],
-  "updatedAt": "2026-05-29T20:02:04.434503Z",
+  "updatedAt": "2026-05-29T20:06:07.625610Z",
   "source": "sql"
 }
