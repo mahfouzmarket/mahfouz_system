@@ -1119,9 +1119,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "34.0",
       "consumption_in_geitawi_branch": "33.0",
-      "stock_in_medawar_branch": "87.0",
+      "stock_in_medawar_branch": "27.0",
       "consumption_in_medawar_branch": "15.0",
-      "total_stock": "121.0",
+      "total_stock": "61.0",
       "total_consumption": "48.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -1137,7 +1137,7 @@
           "consumption": "33.0"
         },
         "Medawar": {
-          "stock": "87.0",
+          "stock": "27.0",
           "consumption": "15.0"
         }
       },
@@ -1147,7 +1147,8 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "121"
+      "totalStock": 61.0,
+      "stock_in_nouna_branch": 0
     },
     {
       "id": "17074",
@@ -4378,9 +4379,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "11.0",
       "consumption_in_geitawi_branch": "15.0",
-      "stock_in_medawar_branch": "4.0",
+      "stock_in_medawar_branch": "-8.0",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "15.0",
+      "total_stock": "3.0",
       "total_consumption": "22.0",
       "VAT": "YES",
       "price_lbp": 180000.0,
@@ -4396,7 +4397,7 @@
           "consumption": "15.0"
         },
         "Medawar": {
-          "stock": "4.0",
+          "stock": "-8.0",
           "consumption": "7.0"
         }
       },
@@ -4406,7 +4407,8 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "15"
+      "totalStock": 3.0,
+      "stock_in_nouna_branch": 0
     },
     {
       "id": "17265",
@@ -4460,9 +4462,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "6.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "-12.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "0.0",
+      "total_stock": "-12.0",
       "total_consumption": "11.0",
       "VAT": "YES",
       "price_lbp": 180000.0,
@@ -4478,7 +4480,7 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "-12.0",
           "consumption": "5.0"
         }
       },
@@ -4487,7 +4489,9 @@
       "subcategory": "MASTER",
       "vat": 1,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "stock_in_nouna_branch": 0,
+      "totalStock": -12.0
     },
     {
       "id": "17274",
@@ -6152,9 +6156,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "28.0",
-      "stock_in_medawar_branch": "70.0",
+      "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "16.0",
-      "total_stock": "75.0",
+      "total_stock": "15.0",
       "total_consumption": "44.0",
       "VAT": "YES",
       "price_lbp": 55000.0,
@@ -6170,7 +6174,7 @@
           "consumption": "28.0"
         },
         "Medawar": {
-          "stock": "70.0",
+          "stock": "10.0",
           "consumption": "16.0"
         }
       },
@@ -6180,7 +6184,8 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "75"
+      "totalStock": 15.0,
+      "stock_in_nouna_branch": 0
     },
     {
       "id": "17353",
@@ -8038,9 +8043,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10.0",
       "consumption_in_geitawi_branch": "93.0",
-      "stock_in_medawar_branch": "52.0",
+      "stock_in_medawar_branch": "-20.0",
       "consumption_in_medawar_branch": "53.0",
-      "total_stock": "62.0",
+      "total_stock": "-10.0",
       "total_consumption": "146.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -8056,7 +8061,7 @@
           "consumption": "93.0"
         },
         "Medawar": {
-          "stock": "52.0",
+          "stock": "-20.0",
           "consumption": "53.0"
         }
       },
@@ -8066,7 +8071,8 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "62"
+      "totalStock": -10.0,
+      "stock_in_nouna_branch": 0
     },
     {
       "id": "17469",
@@ -8633,6 +8639,6 @@
       "totalStock": "15"
     }
   ],
-  "updatedAt": "2026-05-29T23:03:21.358770Z",
+  "updatedAt": "2026-05-29T23:04:22.271592Z",
   "source": "sql"
 }

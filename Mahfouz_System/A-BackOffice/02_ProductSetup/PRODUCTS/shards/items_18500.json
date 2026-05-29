@@ -6746,9 +6746,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "1.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "1.0",
+      "total_stock": "0.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": 120000.0,
@@ -6764,7 +6764,7 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "1.0"
         }
       },
@@ -6773,7 +6773,9 @@
       "subcategory": "cans & jams",
       "vat": 0,
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "stock_in_nouna_branch": 0,
+      "totalStock": 0.0
     },
     {
       "id": "18842",
@@ -9502,6 +9504,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-05-29T23:03:21.852770Z",
+  "updatedAt": "2026-05-29T23:04:22.766216Z",
   "source": "sql"
 }
