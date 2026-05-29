@@ -625,7 +625,7 @@
       "VAT": "YES",
       "price_lbp": 90000.0,
       "price_usd": "1.00",
-      "cost": 0.56,
+      "cost": 0.5,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID9210.jpg",
       "new_items": "",
       "manual": "",
@@ -686,7 +686,8 @@
         }
       },
       "barcode2": "8710447171325",
-      "barcodes": "8710447171325"
+      "barcodes": "8710447171325",
+      "totalStock": "8"
     },
     {
       "id": "9263",
@@ -767,7 +768,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "66",
+      "totalStock": "64",
       "expiry_days": "0",
       "cost_ht": "0.70",
       "linked_profile_enabled": false,
@@ -827,11 +828,11 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "15.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "14.0",
+      "total_stock": "15.0",
       "total_consumption": "5.0",
       "VAT": "NO",
       "price_lbp": 160000.0,
@@ -843,7 +844,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
@@ -857,7 +858,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "14"
+      "totalStock": "15"
     },
     {
       "id": "9389",
@@ -1025,6 +1026,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-29T16:31:45.473163Z",
+  "updatedAt": "2026-05-29T16:30:07.557040Z",
   "source": "sql"
 }
