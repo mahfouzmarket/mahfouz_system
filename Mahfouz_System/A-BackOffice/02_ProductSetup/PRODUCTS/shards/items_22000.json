@@ -19,13 +19,13 @@
       "vat": 0,
       "price_lbp": 90000.0,
       "cost": 0.83,
-      "total_stock": "77.0",
+      "total_stock": "75.0",
       "total_consumption": "27.0",
-      "stock_in_geitawi_branch": "11.0",
+      "stock_in_geitawi_branch": "9.0",
       "stock_in_medawar_branch": "66.0",
       "branches": {
         "Geitawi": {
-          "stock": "11.0",
+          "stock": "9.0",
           "consumption": "12.0"
         },
         "Medawar": {
@@ -248,13 +248,13 @@
       "vat": 0,
       "price_lbp": 200000.0,
       "cost": 1.85,
-      "total_stock": "-14.0",
+      "total_stock": "-15.0",
       "total_consumption": "29.0",
-      "stock_in_geitawi_branch": "-10.0",
+      "stock_in_geitawi_branch": "-11.0",
       "stock_in_medawar_branch": "-4.0",
       "branches": {
         "Geitawi": {
-          "stock": "-10.0",
+          "stock": "-11.0",
           "consumption": "23.0"
         },
         "Medawar": {
@@ -306,7 +306,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-22009-1778926500311898",
       "product_setup_saved_at_utc": "2026-05-16T10:15:00.311898Z",
-      "totalStock": "-12"
+      "totalStock": "-15"
     },
     {
       "id": "22010",
@@ -391,7 +391,7 @@
       "id": "22019",
       "barcode": "5281117000793",
       "barcodes": "",
-      "Product Description": "WADI WHITE KIDNEY BEANS 400GR",
+      "Product Description": "WADI WHITE KIDNEY BEANS 400 G",
       "product_description": "WADI WHITE KIDNEY BEANS 400GR",
       "description": "WADI WHITE KIDNEY BEANS 400GR",
       "brand": "",
@@ -436,7 +436,7 @@
       "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "WADI WHITE KIDNEY BEANS 400GR",
+      "name": "WADI WHITE KIDNEY BEANS 400 G",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
@@ -454,7 +454,6 @@
       "cost_ht_usd": 1.67,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "12",
       "price_usd": "2.00"
     },
     {
@@ -495,6 +494,9 @@
         },
         "Medawar": {
           "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
           "consumption": "0.0"
         }
       },
@@ -606,6 +608,6 @@
       "totalStock": "5"
     }
   ],
-  "updatedAt": "2026-05-29T09:28:12.202657Z",
+  "updatedAt": "2026-05-29T09:29:18.966536Z",
   "source": "sql"
 }
