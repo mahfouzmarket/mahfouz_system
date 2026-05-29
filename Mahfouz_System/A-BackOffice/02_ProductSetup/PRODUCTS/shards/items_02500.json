@@ -584,11 +584,11 @@
       "category": "CHI TAYIB",
       "sub_category": "cake",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
       "stock_in_medawar_branch": "1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "2.0",
+      "total_stock": "1.0",
       "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 130000.0,
@@ -600,7 +600,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "2.0"
         },
         "Medawar": {
@@ -1119,7 +1119,8 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-2808-1778919420994990",
-      "product_setup_saved_at_utc": "2026-05-16T08:17:00.994990Z"
+      "product_setup_saved_at_utc": "2026-05-16T08:17:00.994990Z",
+      "totalStock": "13.615"
     },
     {
       "id": "2811",
@@ -1132,9 +1133,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "24.0",
       "consumption_in_geitawi_branch": "113.0",
-      "stock_in_medawar_branch": "33.0",
+      "stock_in_medawar_branch": "32.0",
       "consumption_in_medawar_branch": "110.0",
-      "total_stock": "57.0",
+      "total_stock": "56.0",
       "total_consumption": "223.0",
       "VAT": "NO",
       "price_lbp": 270000.0,
@@ -1150,7 +1151,7 @@
           "consumption": "113.0"
         },
         "Medawar": {
-          "stock": "33.0",
+          "stock": "32.0",
           "consumption": "110.0"
         }
       },
@@ -1421,7 +1422,7 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "55"
+      "totalStock": "57"
     },
     {
       "id": "2824",
@@ -1471,7 +1472,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-2824-1778919399265509",
       "product_setup_saved_at_utc": "2026-05-16T08:16:39.265509Z",
-      "totalStock": "3.225"
+      "totalStock": "3.585"
     },
     {
       "id": "2825",
@@ -1642,8 +1643,8 @@
       "supplier": "DAIRY KHOURY USD",
       "subcategory": "DAIRY PRODUCTS",
       "vat": 0,
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5285008140223",
+      "barcodes": "5285008140223",
       "expiry_days": "0",
       "cost_ht": "6.30",
       "linked_profile_enabled": false,
@@ -1866,6 +1867,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-05-29T10:42:47.679571Z",
+  "updatedAt": "2026-05-29T10:45:07.602809Z",
   "source": "sql"
 }
