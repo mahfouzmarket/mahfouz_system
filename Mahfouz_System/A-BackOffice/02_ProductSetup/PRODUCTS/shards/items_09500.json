@@ -409,12 +409,12 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
-      "consumption_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "0.0",
+      "consumption_in_geitawi_branch": "6.0",
       "stock_in_medawar_branch": "36.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "10.0",
       "total_stock": "36.0",
-      "total_consumption": "0.0",
+      "total_consumption": "16.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -424,9 +424,13 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "6.0"
+        },
         "Medawar": {
           "stock": "36.0",
-          "consumption": "0.0"
+          "consumption": "10.0"
         }
       },
       "name": "DIMEX 1 L",
@@ -1542,6 +1546,6 @@
       "price_usd": "0.61"
     }
   ],
-  "updatedAt": "2026-05-30T09:17:28.632964Z",
+  "updatedAt": "2026-05-30T09:18:19.541583Z",
   "source": "sql"
 }
