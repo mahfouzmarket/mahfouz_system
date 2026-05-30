@@ -201,8 +201,7 @@
           "stock": "0.0",
           "consumption": "0.0"
         }
-      },
-      "totalStock": "2"
+      }
     },
     {
       "id": "12155",
@@ -216,11 +215,11 @@
       "sub_category": "DISH WASHING",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "7.0",
+      "stock_in_geitawi_branch": "8.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "10.0",
       "consumption_in_medawar_branch": "20.0",
-      "total_stock": "17.0",
+      "total_stock": "18.0",
       "total_consumption": "28.0",
       "VAT": "YES",
       "price_lbp": 150000.0,
@@ -238,7 +237,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "7.0",
+          "stock": "8.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -248,7 +247,7 @@
       },
       "product_setup_save_token": "PS-SAVE-12155-1779961270432170",
       "product_setup_saved_at_utc": "2026-05-28T09:41:10.432170Z",
-      "totalStock": "17",
+      "totalStock": "19",
       "name": "SPONGE OPPLA",
       "supplier": "JACK DIB",
       "subcategory": "DISH WASHING",
@@ -312,7 +311,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 335000.0,
-      "cost": 0.0,
+      "cost": 3.1,
       "total_stock": "1.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -356,7 +355,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "cost_ht": "3.10",
+      "costUsd": 3.1,
+      "cost_ht_usd": 3.1,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "3.72"
     },
     {
@@ -438,7 +441,7 @@
           "consumption": "1.0"
         }
       },
-      "totalStock": "15"
+      "totalStock": "14"
     },
     {
       "id": "12274",
@@ -864,13 +867,13 @@
       "vat": 0,
       "price_lbp": 135000.0,
       "cost": 1.25,
-      "total_stock": "1.0",
+      "total_stock": "0.0",
       "total_consumption": "1.0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -997,6 +1000,6 @@
       }
     }
   ],
-  "updatedAt": "2026-05-30T04:52:52.485152Z",
+  "updatedAt": "2026-05-30T04:56:20.196774Z",
   "source": "sql"
 }
