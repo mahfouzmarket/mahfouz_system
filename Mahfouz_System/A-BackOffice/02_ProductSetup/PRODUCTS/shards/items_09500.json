@@ -189,7 +189,7 @@
       "vat": 1,
       "barcode2": "5283004315812",
       "barcodes": "5283004315812",
-      "totalStock": "20"
+      "totalStock": "24"
     },
     {
       "id": "9575",
@@ -316,7 +316,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16"
+      "totalStock": "15"
     },
     {
       "id": "9589",
@@ -357,7 +357,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17"
+      "totalStock": "18"
     },
     {
       "id": "9602",
@@ -409,12 +409,12 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
-      "consumption_in_geitawi_branch": "6.0",
+      "stock_in_geitawi_branch": "3",
+      "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "36.0",
-      "consumption_in_medawar_branch": "10.0",
-      "total_stock": "39.0",
-      "total_consumption": "16.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "36.0",
+      "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": 75000.0,
       "price_usd": "0.83",
@@ -424,13 +424,9 @@
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
-        "Geitawi": {
-          "stock": "3.0",
-          "consumption": "6.0"
-        },
         "Medawar": {
           "stock": "36.0",
-          "consumption": "10.0"
+          "consumption": "0.0"
         }
       },
       "name": "DIMEX 1 L",
@@ -439,7 +435,12 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "39"
+      "totalStock": "36",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "cost_ht": "0.58"
     },
     {
       "id": "9630",
@@ -920,8 +921,8 @@
           "consumption": "0.0"
         }
       },
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5290426205409",
+      "barcodes": "5290426205409",
       "expiry_days": "0",
       "cost_ht": "0.41",
       "linked_profile_enabled": false,
@@ -1215,7 +1216,7 @@
       "vat": 1,
       "barcode2": "5289000272265",
       "barcodes": "5289000272265",
-      "totalStock": "29"
+      "totalStock": "28"
     },
     {
       "id": "9844",
@@ -1297,7 +1298,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "14"
+      "totalStock": "12"
     },
     {
       "id": "9900",
@@ -1418,8 +1419,8 @@
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
       "vat": 1,
-      "barcode2": "",
-      "barcodes": "",
+      "barcode2": "5283001500945",
+      "barcodes": "5283001500945",
       "expiry_days": "0",
       "cost_ht": "0.39",
       "linked_profile_enabled": false,
@@ -1541,6 +1542,6 @@
       "price_usd": "0.61"
     }
   ],
-  "updatedAt": "2026-05-30T09:14:32.936422Z",
+  "updatedAt": "2026-05-30T09:16:58.606217Z",
   "source": "sql"
 }
