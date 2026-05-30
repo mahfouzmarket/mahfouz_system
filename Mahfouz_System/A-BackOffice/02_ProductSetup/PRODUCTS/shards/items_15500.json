@@ -4095,15 +4095,15 @@
       "barcode": "7100010",
       "Product Description": "TOMATE CERISE",
       "SUPPLIERS": "VEGETABLES AND FRUITS",
-      "unit": "-",
+      "unit": "kg",
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "5.000",
       "consumption_in_geitawi_branch": "13.0",
-      "stock_in_medawar_branch": "13.0",
+      "stock_in_medawar_branch": "13.000",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "18.0",
+      "total_stock": "18.000",
       "total_consumption": "20.0",
       "VAT": "NO",
       "price_lbp": 200000.0,
@@ -4115,11 +4115,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "5.000",
           "consumption": "13.0"
         },
         "Medawar": {
-          "stock": "13.0",
+          "stock": "13.000",
           "consumption": "7.0"
         }
       },
@@ -4142,7 +4142,9 @@
       "vat": 0,
       "product_setup_save_token": "PS-SAVE-15755-1779008639232500",
       "product_setup_saved_at_utc": "2026-05-17T09:03:59.232500Z",
-      "totalStock": "18"
+      "totalStock": "18",
+      "arabic_name": "",
+      "name_ar": ""
     },
     {
       "id": "15756",
@@ -7882,6 +7884,6 @@
       "totalStock": "8"
     }
   ],
-  "updatedAt": "2026-05-30T19:31:03.458162Z",
+  "updatedAt": "2026-05-30T19:32:32.921941Z",
   "source": "sql"
 }
