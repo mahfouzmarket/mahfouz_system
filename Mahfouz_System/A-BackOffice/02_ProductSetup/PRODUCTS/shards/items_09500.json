@@ -18,7 +18,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 350000.0,
-      "cost": 0.0,
+      "cost": 3.24,
       "total_stock": "0.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -62,6 +62,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "cost_ht": "3.24",
+      "costUsd": 3.24,
+      "cost_ht_usd": 3.24,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "3.89"
     },
     {
@@ -311,7 +316,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16"
+      "totalStock": "15"
     },
     {
       "id": "9589",
@@ -480,7 +485,7 @@
     {
       "id": "9647",
       "barcode": "5285001953059",
-      "Product Description": "ELSADA GEL GREEN 100ML",
+      "Product Description": "ELSADA GEL GREEN 100 ML",
       "SUPPLIERS": "SADAPACK",
       "unit": "-",
       "category": "HOME USAGE",
@@ -500,7 +505,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "ELSADA GEL GREEN 100ML",
+      "name": "ELSADA GEL GREEN 100 ML",
       "supplier": "SADAPACK",
       "subcategory": "hair care",
       "vat": 1,
@@ -715,13 +720,12 @@
       "subcategory": "hair care",
       "vat": 1,
       "barcode2": "5285001951000",
-      "barcodes": "5285001951000",
-      "totalStock": "7"
+      "barcodes": "5285001951000"
     },
     {
       "id": "9685",
       "barcode": "5285001951383",
-      "Product Description": "ELEGANCE PLUS 1000ML",
+      "Product Description": "ELEGANCE PLUS 1000 ML",
       "SUPPLIERS": "SADAPACK",
       "unit": "-",
       "category": "HOME USAGE",
@@ -741,7 +745,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "ELEGANCE PLUS 1000ML",
+      "name": "ELEGANCE PLUS 1000 ML",
       "supplier": "SADAPACK",
       "subcategory": "hair care",
       "vat": 1,
@@ -756,8 +760,7 @@
         }
       },
       "barcode2": "5285001951406",
-      "barcodes": "5285001951406",
-      "totalStock": "10"
+      "barcodes": "5285001951406"
     },
     {
       "id": "9711",
@@ -802,7 +805,7 @@
     {
       "id": "9727",
       "barcode": "5285009960738",
-      "Product Description": "MALIZIA UOMO DEO AMBER 150ML",
+      "Product Description": "MALIZIA UOMO DEO AMBER 150 ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -822,7 +825,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "MALIZIA UOMO DEO AMBER 150ML",
+      "name": "MALIZIA UOMO DEO AMBER 150 ML",
       "supplier": "JACK DIB",
       "subcategory": "deodorant & roll on",
       "vat": 1,
@@ -918,7 +921,16 @@
         }
       },
       "barcode2": "5290426205409",
-      "barcodes": "5290426205409"
+      "barcodes": "5290426205409",
+      "expiry_days": "0",
+      "cost_ht": "0.41",
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "product_setup_save_token": "PS-SAVE-9744-1778919839393390",
+      "product_setup_saved_at_utc": "2026-05-16T08:23:59.393390Z"
     },
     {
       "id": "9747",
@@ -929,12 +941,12 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.0",
-      "consumption_in_geitawi_branch": "49.0",
+      "stock_in_geitawi_branch": "4.0",
+      "consumption_in_geitawi_branch": "50.0",
       "stock_in_medawar_branch": "5.0",
       "consumption_in_medawar_branch": "45.0",
-      "total_stock": "7.0",
-      "total_consumption": "94.0",
+      "total_stock": "9.0",
+      "total_consumption": "95.0",
       "VAT": "YES",
       "price_lbp": 60000.0,
       "price_usd": "0.67",
@@ -945,8 +957,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.0",
-          "consumption": "49.0"
+          "stock": "4.0",
+          "consumption": "50.0"
         },
         "Medawar": {
           "stock": "5.0",
@@ -964,7 +976,7 @@
     {
       "id": "9757",
       "barcode": "5281053031219",
-      "Product Description": "GADA GREEN 65G",
+      "Product Description": "GADA GREEN 65 G",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -984,7 +996,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "name": "GADA GREEN 65G",
+      "name": "GADA GREEN 65 G",
       "supplier": "JACK DIB",
       "subcategory": "shaving",
       "vat": 1,
@@ -998,7 +1010,6 @@
           "consumption": "0.0"
         }
       },
-      "totalStock": "2",
       "barcode2": "",
       "barcodes": ""
     },
@@ -1204,7 +1215,7 @@
       "vat": 1,
       "barcode2": "5289000272265",
       "barcodes": "5289000272265",
-      "totalStock": "29"
+      "totalStock": "28"
     },
     {
       "id": "9844",
@@ -1286,7 +1297,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "14"
+      "totalStock": "12"
     },
     {
       "id": "9900",
@@ -1478,7 +1489,7 @@
       "VAT": "NO",
       "vat": 0,
       "price_lbp": 55000.0,
-      "cost": 0.0,
+      "cost": 0.51,
       "total_stock": "18.0",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
@@ -1522,10 +1533,14 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "18",
+      "cost_ht": "0.51",
+      "costUsd": 0.51,
+      "cost_ht_usd": 0.51,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "price_usd": "0.61"
     }
   ],
-  "updatedAt": "2026-05-30T03:07:14.765934Z",
+  "updatedAt": "2026-05-30T03:10:20.963586Z",
   "source": "sql"
 }
