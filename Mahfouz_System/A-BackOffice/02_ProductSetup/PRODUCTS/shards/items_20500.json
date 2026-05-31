@@ -1555,9 +1555,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "26.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "21.0",
-      "total_stock": "0.0",
+      "total_stock": "-1.0",
       "total_consumption": "47.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
@@ -1573,7 +1573,7 @@
           "consumption": "26.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "21.0"
         }
       },
@@ -1587,7 +1587,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "20537",
@@ -5085,9 +5085,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-8.0",
       "consumption_in_geitawi_branch": "14.0",
-      "stock_in_medawar_branch": "-8.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "-16.0",
+      "total_stock": "-9.0",
       "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 70000.0,
@@ -5103,7 +5103,7 @@
           "consumption": "14.0"
         },
         "Medawar": {
-          "stock": "-8.0",
+          "stock": "-1.0",
           "consumption": "1.0"
         }
       },
@@ -5111,7 +5111,7 @@
       "supplier": "SUPPLIERS DIVERS",
       "subcategory": "coffee",
       "vat": 1,
-      "totalStock": "-16"
+      "totalStock": "-9"
     },
     {
       "id": "20620",
@@ -8318,17 +8318,17 @@
       "vat": 0,
       "price_lbp": 500000.0,
       "cost": 4.63,
-      "total_stock": "-6.350",
+      "total_stock": "-5.175",
       "total_consumption": "3.2",
       "stock_in_geitawi_branch": "-3.175",
-      "stock_in_medawar_branch": "-3.175",
+      "stock_in_medawar_branch": "-2.000",
       "branches": {
         "Geitawi": {
           "stock": "-3.175",
           "consumption": "2.2"
         },
         "Medawar": {
-          "stock": "-3.175",
+          "stock": "-2.000",
           "consumption": "1.0"
         },
         "The Daily Market": {
@@ -8366,7 +8366,7 @@
       "cost_ht_usd": 4.63,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "-6.35",
+      "totalStock": "-5.175",
       "price_usd": "5.56"
     },
     {
@@ -19101,9 +19101,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "3.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "6.0",
+      "total_stock": "2.0",
       "total_consumption": "1.0",
       "VAT": "NO",
       "price_lbp": 1800000.0,
@@ -19123,13 +19123,13 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "3.0",
+          "stock": "-1.0",
           "consumption": "1.0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6"
+      "totalStock": "2"
     },
     {
       "id": "20919",
@@ -22100,9 +22100,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-6.0",
       "consumption_in_geitawi_branch": "13.0",
-      "stock_in_medawar_branch": "-6.0",
+      "stock_in_medawar_branch": "-1.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "-12.0",
+      "total_stock": "-7.0",
       "total_consumption": "16.0",
       "VAT": "NO",
       "price_lbp": 250000.0,
@@ -22118,7 +22118,7 @@
           "consumption": "13.0"
         },
         "Medawar": {
-          "stock": "-6.0",
+          "stock": "-1.0",
           "consumption": "3.0"
         }
       },
@@ -22135,7 +22135,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": 0,
-      "totalStock": "-12"
+      "totalStock": "-7"
     },
     {
       "id": "20988",
@@ -22673,6 +22673,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-31T11:27:55.263058Z",
+  "updatedAt": "2026-05-31T11:29:57.814128Z",
   "source": "sql"
 }
