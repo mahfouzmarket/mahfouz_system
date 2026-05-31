@@ -1408,9 +1408,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "13.0",
-      "stock_in_medawar_branch": "-9.0",
+      "stock_in_medawar_branch": "-10.0",
       "consumption_in_medawar_branch": "18.0",
-      "total_stock": "-9.0",
+      "total_stock": "-10.0",
       "total_consumption": "31.0",
       "VAT": "YES",
       "price_lbp": 55000.0,
@@ -1426,7 +1426,7 @@
           "consumption": "13.0"
         },
         "Medawar": {
-          "stock": "-9.0",
+          "stock": "-10.0",
           "consumption": "18.0"
         }
       },
@@ -3415,11 +3415,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-50.0",
+      "stock_in_geitawi_branch": "-146.0",
       "consumption_in_geitawi_branch": "76.0",
-      "stock_in_medawar_branch": "78.0",
+      "stock_in_medawar_branch": "30.0",
       "consumption_in_medawar_branch": "111.0",
-      "total_stock": "28.0",
+      "total_stock": "-116.0",
       "total_consumption": "187.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -3431,12 +3431,16 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-50.0",
+          "stock": "-146.0",
           "consumption": "76.0"
         },
         "Medawar": {
-          "stock": "78.0",
+          "stock": "30.0",
           "consumption": "111.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "name": "AQUAFINA WATER 0.5 L",
@@ -3445,7 +3449,25 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "35"
+      "totalStock": "35",
+      "stock": "-116",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "-146",
+          "consumption": "76"
+        },
+        "Medawar": {
+          "stock": "30",
+          "consumption": "111"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "13832",
@@ -6363,6 +6385,6 @@
       "totalStock": "14"
     }
   ],
-  "updatedAt": "2026-05-31T17:53:32.779932Z",
+  "updatedAt": "2026-05-31T17:54:33.236185Z",
   "source": "sql"
 }

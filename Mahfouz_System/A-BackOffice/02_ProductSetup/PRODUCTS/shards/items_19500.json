@@ -5585,7 +5585,27 @@
       "barcode2": "",
       "barcodes": "",
       "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
+      "consumption_in_the_daily_market_branch": "0.0",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 17947,
+      "bulk_qty": 24,
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock": "0",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      }
     },
     {
       "id": "19743",
@@ -5636,7 +5656,27 @@
       "barcode2": "",
       "barcodes": "",
       "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
+      "consumption_in_the_daily_market_branch": "0.0",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 19744,
+      "bulk_qty": 24,
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock": "0",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      }
     },
     {
       "id": "19744",
@@ -5669,6 +5709,10 @@
         "Medawar": {
           "stock": "1.0",
           "consumption": "47.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "sub": "sweets",
@@ -5681,7 +5725,25 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "stock": "2",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "1",
+          "consumption": "23"
+        },
+        "Medawar": {
+          "stock": "1",
+          "consumption": "47"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "19745",
@@ -5777,7 +5839,27 @@
       "barcode2": "",
       "barcodes": "",
       "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
+      "consumption_in_the_daily_market_branch": "0.0",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 17553,
+      "bulk_qty": 12,
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock": "0",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      }
     },
     {
       "id": "19748",
@@ -5826,7 +5908,27 @@
       "subcategory": "sweets",
       "vat": 1,
       "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0"
+      "consumption_in_the_daily_market_branch": "0.0",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 16582,
+      "bulk_qty": 12,
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock": "0",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      }
     },
     {
       "id": "19750",
@@ -12313,6 +12415,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-31T17:53:34.568347Z",
+  "updatedAt": "2026-05-31T17:54:35.029002Z",
   "source": "sql"
 }

@@ -2720,11 +2720,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-3.0",
+      "stock_in_geitawi_branch": "-9.0",
       "consumption_in_geitawi_branch": "19.0",
       "stock_in_medawar_branch": "7.0",
       "consumption_in_medawar_branch": "28.0",
-      "total_stock": "4.0",
+      "total_stock": "-2.0",
       "total_consumption": "47.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
@@ -2736,12 +2736,16 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-3.0",
+          "stock": "-9.0",
           "consumption": "19.0"
         },
         "Medawar": {
           "stock": "7.0",
           "consumption": "28.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "sub": "MINERAL WATER",
@@ -2754,7 +2758,25 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6"
+      "totalStock": "6",
+      "stock": "-2",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "-9",
+          "consumption": "19"
+        },
+        "Medawar": {
+          "stock": "7",
+          "consumption": "28"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "17180",
@@ -2765,11 +2787,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "-",
-      "stock_in_geitawi_branch": "-1.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "-1.0",
+      "total_stock": "0.0",
       "total_consumption": "1.0",
       "VAT": "YES",
       "price_lbp": 210000.0,
@@ -2782,7 +2804,7 @@
       "pcs_in_box": "6",
       "branches": {
         "Geitawi": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -2804,6 +2826,26 @@
       "vat": 1,
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 17179,
+      "bulk_qty": 6,
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock": "0",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "1"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
       "barcode2": "",
       "barcodes": ""
     },
@@ -6104,11 +6146,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "-",
-      "stock_in_geitawi_branch": "-8.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "10.0",
-      "stock_in_medawar_branch": "-4.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "-12.0",
+      "total_stock": "0.0",
       "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 210000.0,
@@ -6121,11 +6163,11 @@
       "pcs_in_box": "12",
       "branches": {
         "Geitawi": {
-          "stock": "-8.0",
+          "stock": "0.0",
           "consumption": "10.0"
         },
         "Medawar": {
-          "stock": "-4.0",
+          "stock": "0.0",
           "consumption": "5.0"
         },
         "The Daily Market": {
@@ -6143,7 +6185,27 @@
       "vat": 1,
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
-      "totalStock": "-12"
+      "totalStock": "-12",
+      "is_bulk": true,
+      "ignore_stock": true,
+      "bulk_parent_id": 13829,
+      "bulk_qty": 12,
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock": "0",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "10"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "5"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      }
     },
     {
       "id": "17352",
@@ -8639,6 +8701,6 @@
       "totalStock": "15"
     }
   ],
-  "updatedAt": "2026-05-31T17:53:33.810887Z",
+  "updatedAt": "2026-05-31T17:54:34.282339Z",
   "source": "sql"
 }

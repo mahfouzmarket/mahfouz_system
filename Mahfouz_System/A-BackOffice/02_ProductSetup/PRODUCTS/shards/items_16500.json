@@ -785,6 +785,10 @@
         "Medawar": {
           "stock": "130.0",
           "consumption": "56.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "sub": "sweets",
@@ -797,7 +801,25 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "133"
+      "totalStock": "133",
+      "stock": "130",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "21"
+        },
+        "Medawar": {
+          "stock": "130",
+          "consumption": "56"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "16583",
@@ -2046,9 +2068,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "73.0",
       "consumption_in_geitawi_branch": "580.0",
-      "stock_in_medawar_branch": "85.0",
+      "stock_in_medawar_branch": "84.0",
       "consumption_in_medawar_branch": "581.0",
-      "total_stock": "158.0",
+      "total_stock": "157.0",
       "total_consumption": "1161.0",
       "VAT": "NO",
       "price_lbp": 70000.0,
@@ -2064,7 +2086,7 @@
           "consumption": "580.0"
         },
         "Medawar": {
-          "stock": "85.0",
+          "stock": "84.0",
           "consumption": "581.0"
         }
       },
@@ -6399,6 +6421,6 @@
       "vat": 0
     }
   ],
-  "updatedAt": "2026-05-31T17:53:33.660886Z",
+  "updatedAt": "2026-05-31T17:54:34.132601Z",
   "source": "sql"
 }

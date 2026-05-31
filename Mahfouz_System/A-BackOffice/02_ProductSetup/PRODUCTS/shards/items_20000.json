@@ -6170,6 +6170,10 @@
         "Medawar": {
           "stock": "0.0",
           "consumption": "24.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "sub": "sweets",
@@ -6182,7 +6186,25 @@
       "vat": 0,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "stock": "0",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "12"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "24"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "20158",
@@ -21161,6 +21183,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-31T17:53:34.728335Z",
+  "updatedAt": "2026-05-31T17:54:35.197337Z",
   "source": "sql"
 }

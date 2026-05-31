@@ -628,6 +628,10 @@
         "Medawar": {
           "stock": "42.0",
           "consumption": "70.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "sub": "sweets",
@@ -640,7 +644,25 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "48"
+      "totalStock": "48",
+      "stock": "45",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "3",
+          "consumption": "22"
+        },
+        "Medawar": {
+          "stock": "42",
+          "consumption": "70"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "17554",
@@ -6130,6 +6152,10 @@
         "Medawar": {
           "stock": "1.0",
           "consumption": "69.0"
+        },
+        "The Daily Market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
       "sub": "sweets",
@@ -6142,7 +6168,25 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "22"
+      "totalStock": "22",
+      "stock": "41",
+      "branch_stock": {
+        "Geitawi": {
+          "stock": "40",
+          "consumption": "15"
+        },
+        "Medawar": {
+          "stock": "1",
+          "consumption": "69"
+        },
+        "The Daily Market": {
+          "stock": "0",
+          "consumption": "0"
+        }
+      },
+      "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0"
     },
     {
       "id": "17948",
@@ -6830,6 +6874,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-05-31T17:53:33.958906Z",
+  "updatedAt": "2026-05-31T17:54:34.430326Z",
   "source": "sql"
 }
