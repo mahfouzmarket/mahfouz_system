@@ -3691,11 +3691,11 @@
     "category": "FOOD",
     "sub_category": "instant coffee",
     "offers": "0",
-    "stock_in_geitawi_branch": "491.0",
+    "stock_in_geitawi_branch": "579.0",
     "consumption_in_geitawi_branch": "360.0",
-    "stock_in_medawar_branch": "475.0",
+    "stock_in_medawar_branch": "431.0",
     "consumption_in_medawar_branch": "336.0",
-    "total_stock": "966.0",
+    "total_stock": "1010.0",
     "total_consumption": "696.0",
     "VAT": "YES",
     "price_lbp": 30000.0,
@@ -3707,12 +3707,16 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "491.0",
+        "stock": "579.0",
         "consumption": "360.0"
       },
       "Medawar": {
-        "stock": "475.0",
+        "stock": "431.0",
         "consumption": "336.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "barcode2": "",
@@ -3729,7 +3733,25 @@
     "subcategory": "instant coffee",
     "vat": 1,
     "totalStock": "966",
-    "stock_in_nouna_branch": 0
+    "stock_in_nouna_branch": 0,
+    "stock": "1010",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "579",
+        "consumption": "360"
+      },
+      "Medawar": {
+        "stock": "431",
+        "consumption": "336"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "509",
@@ -4145,11 +4167,11 @@
     "category": "FOOD",
     "sub_category": "instant coffee",
     "offers": "-",
-    "stock_in_geitawi_branch": "4.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "22.0",
-    "stock_in_medawar_branch": "-2.0",
+    "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "15.0",
-    "total_stock": "2.0",
+    "total_stock": "0.0",
     "total_consumption": "37.0",
     "VAT": "NO",
     "price_lbp": 540000.0,
@@ -4162,11 +4184,11 @@
     "pcs_in_box": "22",
     "branches": {
       "Geitawi": {
-        "stock": "4.0",
+        "stock": "0.0",
         "consumption": "22.0"
       },
       "Medawar": {
-        "stock": "-2.0",
+        "stock": "0.0",
         "consumption": "15.0"
       },
       "The Daily Market": {
@@ -4192,11 +4214,27 @@
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
     "totalStock": "2",
-    "base_id": "502",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 502,
     "bulk_qty": 22,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "22"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "15"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "base_id": "502",
     "productDescription": "CAFE 21 SACHET x 22 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -5735,9 +5773,9 @@
     "offers": "0",
     "stock_in_geitawi_branch": "55.0",
     "consumption_in_geitawi_branch": "160.0",
-    "stock_in_medawar_branch": "57.0",
+    "stock_in_medawar_branch": "56.0",
     "consumption_in_medawar_branch": "155.0",
-    "total_stock": "112.0",
+    "total_stock": "111.0",
     "total_consumption": "315.0",
     "VAT": "YES",
     "price_lbp": 80000.0,
@@ -5753,7 +5791,7 @@
         "consumption": "160.0"
       },
       "Medawar": {
-        "stock": "57.0",
+        "stock": "56.0",
         "consumption": "155.0"
       }
     },
@@ -54773,11 +54811,11 @@
     "category": "BEVERAGES",
     "sub_category": "MINERAL WATER",
     "offers": "0",
-    "stock_in_geitawi_branch": "-50.0",
+    "stock_in_geitawi_branch": "-146.0",
     "consumption_in_geitawi_branch": "76.0",
-    "stock_in_medawar_branch": "78.0",
+    "stock_in_medawar_branch": "30.0",
     "consumption_in_medawar_branch": "111.0",
-    "total_stock": "28.0",
+    "total_stock": "-116.0",
     "total_consumption": "187.0",
     "VAT": "YES",
     "price_lbp": 25000.0,
@@ -54789,12 +54827,16 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "-50.0",
+        "stock": "-146.0",
         "consumption": "76.0"
       },
       "Medawar": {
-        "stock": "78.0",
+        "stock": "30.0",
         "consumption": "111.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "name": "AQUAFINA WATER 0.5 L",
@@ -54803,7 +54845,25 @@
     "vat": 1,
     "barcode2": "",
     "barcodes": "",
-    "totalStock": "35"
+    "totalStock": "35",
+    "stock": "-116",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "-146",
+        "consumption": "76"
+      },
+      "Medawar": {
+        "stock": "30",
+        "consumption": "111"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "13832",
@@ -89316,6 +89376,10 @@
       "Medawar": {
         "stock": "130.0",
         "consumption": "56.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "sub": "sweets",
@@ -89328,7 +89392,25 @@
     "vat": 1,
     "barcode2": "",
     "barcodes": "",
-    "totalStock": "133"
+    "totalStock": "133",
+    "stock": "130",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "21"
+      },
+      "Medawar": {
+        "stock": "130",
+        "consumption": "56"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "16583",
@@ -97662,11 +97744,11 @@
     "category": "BEVERAGES",
     "sub_category": "MINERAL WATER",
     "offers": "0",
-    "stock_in_geitawi_branch": "-3.0",
+    "stock_in_geitawi_branch": "-9.0",
     "consumption_in_geitawi_branch": "19.0",
     "stock_in_medawar_branch": "7.0",
     "consumption_in_medawar_branch": "28.0",
-    "total_stock": "4.0",
+    "total_stock": "-2.0",
     "total_consumption": "47.0",
     "VAT": "YES",
     "price_lbp": 50000.0,
@@ -97678,12 +97760,16 @@
     "delivery_rules": "0.005",
     "branches": {
       "Geitawi": {
-        "stock": "-3.0",
+        "stock": "-9.0",
         "consumption": "19.0"
       },
       "Medawar": {
         "stock": "7.0",
         "consumption": "28.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "sub": "MINERAL WATER",
@@ -97696,7 +97782,25 @@
     "vat": 1,
     "barcode2": "",
     "barcodes": "",
-    "totalStock": "6"
+    "totalStock": "6",
+    "stock": "-2",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "-9",
+        "consumption": "19"
+      },
+      "Medawar": {
+        "stock": "7",
+        "consumption": "28"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "17180",
@@ -97707,11 +97811,11 @@
     "category": "BEVERAGES",
     "sub_category": "MINERAL WATER",
     "offers": "-",
-    "stock_in_geitawi_branch": "-1.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "1.0",
     "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "-1.0",
+    "total_stock": "0.0",
     "total_consumption": "1.0",
     "VAT": "YES",
     "price_lbp": 210000.0,
@@ -97724,7 +97828,7 @@
     "pcs_in_box": "6",
     "branches": {
       "Geitawi": {
-        "stock": "-1.0",
+        "stock": "0.0",
         "consumption": "1.0"
       },
       "Medawar": {
@@ -97746,14 +97850,30 @@
     "vat": 1,
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
-    "barcode2": "",
-    "barcodes": "",
-    "totalStock": "-1",
-    "base_id": "17179",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 17179,
     "bulk_qty": 6,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "1"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "barcode2": "",
+    "barcodes": "",
+    "totalStock": "-1",
+    "base_id": "17179",
     "productDescription": "AQUAFINA WATER 2 L x 6 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -101066,11 +101186,11 @@
     "category": "BEVERAGES",
     "sub_category": "MINERAL WATER",
     "offers": "-",
-    "stock_in_geitawi_branch": "-8.0",
+    "stock_in_geitawi_branch": "0.0",
     "consumption_in_geitawi_branch": "10.0",
-    "stock_in_medawar_branch": "-4.0",
+    "stock_in_medawar_branch": "0.0",
     "consumption_in_medawar_branch": "5.0",
-    "total_stock": "-12.0",
+    "total_stock": "0.0",
     "total_consumption": "15.0",
     "VAT": "YES",
     "price_lbp": 210000.0,
@@ -101083,11 +101203,11 @@
     "pcs_in_box": "12",
     "branches": {
       "Geitawi": {
-        "stock": "-8.0",
+        "stock": "0.0",
         "consumption": "10.0"
       },
       "Medawar": {
-        "stock": "-4.0",
+        "stock": "0.0",
         "consumption": "5.0"
       },
       "The Daily Market": {
@@ -101106,11 +101226,27 @@
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
     "totalStock": "-12",
-    "base_id": "13829",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 13829,
     "bulk_qty": 12,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "10"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "5"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "base_id": "13829",
     "productDescription": "AQUAFINA WATER 0.5 L x 12 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -104237,6 +104373,10 @@
       "Medawar": {
         "stock": "42.0",
         "consumption": "70.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "sub": "sweets",
@@ -104249,7 +104389,25 @@
     "vat": 1,
     "barcode2": "",
     "barcodes": "",
-    "totalStock": "48"
+    "totalStock": "48",
+    "stock": "45",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "3",
+        "consumption": "22"
+      },
+      "Medawar": {
+        "stock": "42",
+        "consumption": "70"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "17554",
@@ -109765,6 +109923,10 @@
       "Medawar": {
         "stock": "1.0",
         "consumption": "69.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "sub": "sweets",
@@ -109777,7 +109939,25 @@
     "vat": 1,
     "barcode2": "",
     "barcodes": "",
-    "totalStock": "22"
+    "totalStock": "22",
+    "stock": "41",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "40",
+        "consumption": "15"
+      },
+      "Medawar": {
+        "stock": "1",
+        "consumption": "69"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "17948",
@@ -145117,11 +145297,27 @@
     "barcodes": "",
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
-    "base_id": "17947",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 17947,
     "bulk_qty": 24,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "base_id": "17947",
     "productDescription": "ELEGANCE CHOCO BISCOTTO ORIGINAL 26 G x 24 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -145177,11 +145373,27 @@
     "barcodes": "",
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
-    "base_id": "19744",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 19744,
     "bulk_qty": 24,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "base_id": "19744",
     "productDescription": "ELEGANCE CHOCO BISCOTTO TRIPLE CHOCOLATE x 24 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -145218,6 +145430,10 @@
       "Medawar": {
         "stock": "1.0",
         "consumption": "47.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "sub": "sweets",
@@ -145230,7 +145446,25 @@
     "vat": 0,
     "barcode2": "",
     "barcodes": "",
-    "totalStock": "2"
+    "totalStock": "2",
+    "stock": "2",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "1",
+        "consumption": "23"
+      },
+      "Medawar": {
+        "stock": "1",
+        "consumption": "47"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "19745",
@@ -145327,11 +145561,27 @@
     "barcodes": "",
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
-    "base_id": "17553",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 17553,
     "bulk_qty": 12,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "base_id": "17553",
     "productDescription": "ELEGANCE BISCOTTO VANILLA 34 G x 12 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -145385,11 +145635,27 @@
     "vat": 1,
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
-    "base_id": "16582",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 16582,
     "bulk_qty": 12,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "base_id": "16582",
     "productDescription": "ELEGANCE BISCOTTO DOUBLE CHOCOLATE 34G x 12 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -158061,6 +158327,10 @@
       "Medawar": {
         "stock": "0.0",
         "consumption": "24.0"
+      },
+      "The Daily Market": {
+        "stock": "0.0",
+        "consumption": "0.0"
       }
     },
     "sub": "sweets",
@@ -158073,7 +158343,25 @@
     "vat": 0,
     "barcode2": "",
     "barcodes": "",
-    "totalStock": "0"
+    "totalStock": "0",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "12"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "24"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock_in_the_daily_market_branch": "0.0",
+    "consumption_in_the_daily_market_branch": "0.0"
   },
   {
     "id": "20158",
@@ -176054,11 +176342,27 @@
     "barcodes": "",
     "stock_in_the_daily_market_branch": "0.0",
     "consumption_in_the_daily_market_branch": "0.0",
-    "base_id": "20157",
     "is_bulk": true,
     "ignore_stock": true,
     "bulk_parent_id": 20157,
     "bulk_qty": 12,
+    "updated_at_utc": "2026-05-31T17:54:29.153236Z",
+    "stock": "0",
+    "branch_stock": {
+      "Geitawi": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "Medawar": {
+        "stock": "0",
+        "consumption": "0"
+      },
+      "The Daily Market": {
+        "stock": "0",
+        "consumption": "0"
+      }
+    },
+    "base_id": "20157",
     "productDescription": "ELEGANCE BISCOTTO BLACK & WHITE *2 x 12 pcs",
     "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
     "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
@@ -259421,9 +259725,9 @@
     "expiry_days": "0",
     "stock_in_geitawi_branch": "3.0",
     "consumption_in_geitawi_branch": "0.0",
-    "stock_in_medawar_branch": "2.0",
+    "stock_in_medawar_branch": "1.0",
     "consumption_in_medawar_branch": "0.0",
-    "total_stock": "5.0",
+    "total_stock": "4.0",
     "total_consumption": "0.0",
     "VAT": "NO",
     "price_lbp": 150000.0,
@@ -259445,7 +259749,7 @@
         "consumption": "0.0"
       },
       "Medawar": {
-        "stock": "2.0",
+        "stock": "1.0",
         "consumption": "0.0"
       }
     },
