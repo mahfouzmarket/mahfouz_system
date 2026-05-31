@@ -228,21 +228,37 @@ async function send(topic, title, body, data) {
     console.log('DRY_SEND', JSON.stringify({ topic, title, body, data }));
     return;
   }
+  const collapseId = notificationCollapseId(data);
   const msg = {
     topic,
     notification: { title, body },
     data: Object.fromEntries(
       Object.entries(data || {}).map(([k, v]) => [k, String(v ?? '')]),
     ),
-    android: { priority: 'high', notification: { sound: 'default' } },
+    android: {
+      ...(collapseId ? { collapseKey: collapseId } : {}),
+      priority: 'high',
+      notification: { sound: 'default' },
+    },
     apns: {
-      headers: { 'apns-priority': '10', 'apns-push-type': 'alert' },
-      payload: { aps: { sound: 'default' } },
+      headers: {
+        'apns-priority': '10',
+        'apns-push-type': 'alert',
+        ...(collapseId ? { 'apns-collapse-id': collapseId } : {}),
+      },
+      payload: { aps: { sound: 'default', ...(collapseId ? { 'thread-id': collapseId } : {}) } },
     },
   };
   const client = await ensureMessaging();
   const sent = await client.send(msg);
   console.log('SENT', topic, sent, data && data.orderId ? `order=${data.orderId}` : '');
+}
+
+function notificationCollapseId(data) {
+  const order = safeTopic(data && data.orderId);
+  const event = safeTopic(data && (data.kind || data.type));
+  if (!order || !event) return '';
+  return `${BRAND_ID}_${order}_${event}`.slice(0, 64);
 }
 
 function baseData(o, id, bk) {
@@ -321,43 +337,48 @@ async function handlePushTransitions(parsed) {
       sentGroups++;
     }
     if (assignedNow) {
+      await send(orderTopic(id), 'Driver assigned', `The driver ${drv} has been assigned to your order.`, {
+        ...data,
+        type: 'ORDER_ASSIGNED',
+        kind: 'delivery_assigned',
+      });
       await send(
         ownerTopic(bk),
         `${prettyBranch(bk)} • Delivery assigned`,
         `${name} order assigned to ${drv}${moneyPart}`,
         { ...data, type: 'ORDER_ASSIGNED', kind: 'delivery_assigned' },
       );
-      await send(orderTopic(id), 'Driver assigned', `The driver ${drv} has been assigned to your order.`, {
-        ...data,
-        type: 'ORDER_ASSIGNED',
-      });
       await send(driverTopic(o), 'New order assigned', `${name} order assigned to you${moneyPart}`, {
         ...data,
         type: 'ORDER_ASSIGNED',
+        kind: 'delivery_assigned',
       });
       sentGroups++;
     }
     if (readyPickupNow) {
+      await send(orderTopic(id), 'Order ready to pick up', `Your order is ready to pick up${moneyPart}`, {
+        ...data,
+        type: 'ORDER_READY_TO_PICKUP',
+        kind: 'ready_to_pickup',
+      });
       await send(
         ownerTopic(bk),
         `${prettyBranch(bk)} • Ready to pick up`,
         `Order ready to pick up${moneyPart} • ${name}`,
-        { ...data, type: 'ORDER_READY_TO_PICKUP' },
+        { ...data, type: 'ORDER_READY_TO_PICKUP', kind: 'ready_to_pickup' },
       );
-      await send(orderTopic(id), 'Order ready to pick up', `Your order is ready to pick up${moneyPart}`, {
-        ...data,
-        type: 'ORDER_READY_TO_PICKUP',
-      });
       sentGroups++;
     }
     if (pickedUpNow) {
       await send(orderTopic(id), 'Picked up', 'Your order has been picked up.', {
         ...data,
         type: 'ORDER_PICKED_UP',
+        kind: 'picked_up',
       });
       await send(ownerTopic(bk), `Picked up • ${prettyBranch(bk)}`, `Picked up by ${drv} • ${name}`, {
         ...data,
         type: 'ORDER_PICKED_UP',
+        kind: 'picked_up',
       });
       sentGroups++;
     }
@@ -368,14 +389,17 @@ async function handlePushTransitions(parsed) {
       await send(orderTopic(id), 'Delivered', 'Your order has been delivered.', {
         ...data,
         type: 'ORDER_DELIVERED',
+        kind: 'delivered',
       });
       await send(ownerTopic(bk), `Delivered • ${prettyBranch(bk)}`, body, {
         ...data,
         type: 'ORDER_DELIVERED',
+        kind: 'delivered',
       });
       await send(driverTopic(o), `Delivered • ${prettyBranch(bk)}`, body, {
         ...data,
         type: 'ORDER_DELIVERED',
+        kind: 'delivered',
       });
       sentGroups++;
     }
@@ -383,10 +407,12 @@ async function handlePushTransitions(parsed) {
       await send(orderTopic(id), 'Order cancelled', 'Your order has been cancelled.', {
         ...data,
         type: 'ORDER_CANCELLED',
+        kind: 'cancelled',
       });
       await send(ownerTopic(bk), `Cancelled • ${prettyBranch(bk)}`, `${name}${moneyPart}`, {
         ...data,
         type: 'ORDER_CANCELLED',
+        kind: 'cancelled',
       });
       sentGroups++;
     }
