@@ -941,11 +941,11 @@
       "category": "FOOD",
       "sub_category": "KETCHUP, MAYO & MUSTARD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "13.0",
       "consumption_in_medawar_branch": "25.0",
-      "total_stock": "13.0",
+      "total_stock": "12.0",
       "total_consumption": "33.0",
       "VAT": "YES",
       "price_lbp": 120000.0,
@@ -957,7 +957,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -971,7 +971,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19"
+      "totalStock": "12"
     },
     {
       "id": "15099",
@@ -1957,9 +1957,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-44.0",
       "consumption_in_geitawi_branch": "31.0",
-      "stock_in_medawar_branch": "-7.0",
+      "stock_in_medawar_branch": "-44.0",
       "consumption_in_medawar_branch": "26.0",
-      "total_stock": "-51.0",
+      "total_stock": "-88.0",
       "total_consumption": "57.0",
       "VAT": "YES",
       "price_lbp": 115000.0,
@@ -1975,7 +1975,7 @@
           "consumption": "31.0"
         },
         "Medawar": {
-          "stock": "-7.0",
+          "stock": "-44.0",
           "consumption": "26.0"
         }
       },
@@ -1985,7 +1985,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-49",
+      "totalStock": "-88",
       "stock_in_nouna_branch": 0
     },
     {
@@ -5550,6 +5550,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-31T11:15:53.640595Z",
+  "updatedAt": "2026-05-31T11:16:54.059143Z",
   "source": "sql"
 }
