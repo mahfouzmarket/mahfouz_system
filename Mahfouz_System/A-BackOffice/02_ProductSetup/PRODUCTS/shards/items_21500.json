@@ -21766,7 +21766,7 @@
       "cost": 4.9074,
       "branches": {
         "Geitawi": {
-          "stock": "-2.0",
+          "stock": "0.0",
           "consumption": "7.0"
         },
         "Medawar": {
@@ -21775,8 +21775,8 @@
         }
       },
       "stock_in_medawar_branch": "0.0",
-      "total_stock": "-2.0",
-      "stock_in_geitawi_branch": "-2.0",
+      "total_stock": "0.0",
+      "stock_in_geitawi_branch": "0.0",
       "Product Description": "ALFA 4.50 $",
       "SUPPLIERS": "whish",
       "subcategory": "alfa",
@@ -21790,7 +21790,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "-3"
+      "totalStock": "0",
+      "non_stockable": true,
+      "nonStockable": true
     },
     {
       "id": "21951",
@@ -22922,6 +22924,6 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z"
     }
   ],
-  "updatedAt": "2026-05-31T19:56:24.194844Z",
+  "updatedAt": "2026-05-31T19:57:19.551909Z",
   "source": "sql"
 }

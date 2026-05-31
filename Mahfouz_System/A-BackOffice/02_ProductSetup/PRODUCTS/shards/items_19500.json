@@ -5939,11 +5939,11 @@
       "category": "recharge card",
       "sub_category": "alfa",
       "offers": "0",
-      "stock_in_geitawi_branch": "-4.0",
+      "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "12.0",
-      "stock_in_medawar_branch": "-1.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "3.0",
-      "total_stock": "-5.0",
+      "total_stock": "0.0",
       "total_consumption": "15.0",
       "VAT": "NO",
       "price_lbp": 1180000.0,
@@ -5955,11 +5955,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-4.0",
+          "stock": "0.0",
           "consumption": "12.0"
         },
         "Medawar": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "3.0"
         }
       },
@@ -5980,7 +5980,9 @@
       "name": "ALFA 10 $",
       "subcategory": "alfa",
       "vat": 0,
-      "totalStock": "-6"
+      "totalStock": "0",
+      "non_stockable": true,
+      "nonStockable": true
     },
     {
       "id": "19751",
@@ -6022,7 +6024,10 @@
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "supplier": "",
-      "delivery_rules": "0.005"
+      "delivery_rules": "0.005",
+      "non_stockable": true,
+      "nonStockable": true,
+      "totalStock": "0"
     },
     {
       "id": "19753",
@@ -12415,6 +12420,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-31T19:56:23.542015Z",
+  "updatedAt": "2026-05-31T19:57:18.842542Z",
   "source": "sql"
 }
