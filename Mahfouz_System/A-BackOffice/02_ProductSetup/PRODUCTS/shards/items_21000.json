@@ -3209,9 +3209,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "-1.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "-1.0",
+      "total_stock": "0.0",
       "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
@@ -3227,7 +3227,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "1.0"
         }
       },
@@ -3238,7 +3238,8 @@
       "supplier": "DELIZZIO",
       "name": "DELIZZIO RAS AL ABED",
       "subcategory": "sweets",
-      "vat": 1
+      "vat": 1,
+      "totalStock": "0"
     },
     {
       "id": "21063",
@@ -4260,9 +4261,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "28.0",
       "consumption_in_geitawi_branch": "54.0",
-      "stock_in_medawar_branch": "-1.0",
+      "stock_in_medawar_branch": "28.0",
       "consumption_in_medawar_branch": "76.0",
-      "total_stock": "27.0",
+      "total_stock": "56.0",
       "total_consumption": "130.0",
       "VAT": "YES",
       "price_lbp": 40000.0,
@@ -4278,7 +4279,7 @@
           "consumption": "54.0"
         },
         "Medawar": {
-          "stock": "-1.0",
+          "stock": "28.0",
           "consumption": "76.0"
         }
       },
@@ -4288,7 +4289,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "27"
+      "totalStock": "56"
     },
     {
       "id": "21083",
@@ -21054,9 +21055,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "-1.0",
+      "stock_in_medawar_branch": "2.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "1.0",
+      "total_stock": "4.0",
       "total_consumption": "2.0",
       "VAT": "NO",
       "price_lbp": 335000.0,
@@ -21076,13 +21077,13 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "-1.0",
+          "stock": "2.0",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "4"
     },
     {
       "id": "21411",
@@ -25273,6 +25274,6 @@
       "barcodes": ""
     }
   ],
-  "updatedAt": "2026-05-31T11:16:55.939859Z",
+  "updatedAt": "2026-05-31T11:17:25.602987Z",
   "source": "sql"
 }
