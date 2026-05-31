@@ -2722,9 +2722,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-9.0",
       "consumption_in_geitawi_branch": "19.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "28.0",
-      "total_stock": "-2.0",
+      "total_stock": "-9.0",
       "total_consumption": "47.0",
       "VAT": "YES",
       "price_lbp": 50000.0,
@@ -2740,7 +2740,7 @@
           "consumption": "19.0"
         },
         "Medawar": {
-          "stock": "7.0",
+          "stock": "0.0",
           "consumption": "28.0"
         },
         "The Daily Market": {
@@ -2758,7 +2758,7 @@
       "vat": 1,
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "-9",
       "stock": "-2",
       "branch_stock": {
         "Geitawi": {
@@ -2847,7 +2847,15 @@
         }
       },
       "barcode2": "",
-      "barcodes": ""
+      "barcodes": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "cost_ht": "1.56",
+      "totalStock": "-0.333"
     },
     {
       "id": "17188",
@@ -8701,6 +8709,6 @@
       "totalStock": "15"
     }
   ],
-  "updatedAt": "2026-05-31T18:08:34.784871Z",
+  "updatedAt": "2026-05-31T18:09:04.111596Z",
   "source": "sql"
 }
