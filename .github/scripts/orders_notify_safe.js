@@ -423,7 +423,6 @@ async function handleTimerAlerts(parsed) {
 
     if (!o.notifs || typeof o.notifs !== 'object') {
       o.notifs = {};
-      changed = true;
     }
 
     if (
