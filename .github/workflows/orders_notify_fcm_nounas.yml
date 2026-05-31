@@ -1,24 +1,35 @@
-name: Orders Notify (FCM) — Nouna
+name: Orders Notify Safe (Nouna)
 
 on:
   push:
     branches: ["main"]
     paths:
       - "nouna's_food/orders.json"
-  workflow_dispatch: {}
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Do not send notifications or write markers"
+        required: true
+        default: "true"
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: nouna-order-notify-safe
+  cancel-in-progress: false
 
 jobs:
   notify:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout (full history)
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 2
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -28,290 +39,23 @@ jobs:
       - name: Install deps
         run: npm i firebase-admin@12
 
-      - name: Send notifications
+      - name: Send guarded notifications
+        id: notify
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           ORDERS_PATH: "nouna's_food/orders.json"
           BRAND_ID: "nounas_food"
+          OWNER_TOPIC: "orders_nounas_food"
+          RECENT_WINDOW_HOURS: "12"
+          TIMER_LOOKBACK_HOURS: "24"
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+        run: node .github/scripts/orders_notify_safe.js
+
+      - name: Commit timer notification markers
+        if: steps.notify.outputs.orders_changed == 'true'
         run: |
-          node - <<'NODE'
-          const fs = require('fs');
-          const { execFileSync } = require('child_process');
-          const admin = require('firebase-admin');
-
-          const ORDERS_PATH = process.env.ORDERS_PATH;
-          const BRAND_ID = process.env.BRAND_ID; // nounas_food
-          const svc = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON || '{}');
-
-          if (!svc.project_id) throw new Error('Missing FIREBASE_SERVICE_ACCOUNT_JSON');
-
-          if (svc.private_key && typeof svc.private_key === 'string') {
-            svc.private_key = svc.private_key.replace(/\\n/g, '\n');
-          }
-
-          admin.initializeApp({ credential: admin.credential.cert(svc) });
-
-          function safeTopic(s) { return String(s || '').replace(/[^A-Za-z0-9_]/g, '_'); }
-          function orderTopic(orderId) { return 'ord_' + safeTopic(orderId); }
-
-          function branchKeyFrom(o) {
-            const bk = String(o.branchKey || '').trim().toLowerCase();
-            return bk || 'nounas_food';
-          }
-          function prettyBranch(_) { return "Nouna's Food"; }
-
-          // owner/manager topic for nouna
-          function ownerTopic() { return `orders_${BRAND_ID}`; }
-
-          function driverTopic(o) {
-            const driverId = String(o.driverId || '').trim();
-            if (!driverId) return '';
-            const bk = branchKeyFrom(o);
-            return `drv_${BRAND_ID}_${bk}_${driverId}`;
-          }
-
-          function statusOf(o) {
-            const s = String(o.status || '').trim().toUpperCase();
-            return s || 'NEW';
-          }
-
-          function isPickup(o) {
-            if (o && o.pickup === true) return true;
-            const v = o && (o.isPickup ?? o.fulfillment ?? o.mode ?? o.serviceType);
-            if (!v) return false;
-            const s = String(v).trim().toUpperCase();
-            return s === 'PICKUP' || s === 'TRUE' || s === '1';
-          }
-
-          function effectiveStatus(o) {
-            const pickup = isPickup(o);
-            let st = statusOf(o);
-            if (pickup && st === 'PICKED_UP') st = 'READY_TO_PICKUP';
-            return st;
-          }
-
-          function orderIdOf(o) { return String(o.orderId || o.id || '').trim(); }
-
-          function loadOrdersFromText(text) {
-            if (!text || !String(text).trim()) return [];
-            const decoded = JSON.parse(text);
-            if (Array.isArray(decoded)) return decoded;
-            if (decoded && typeof decoded === 'object' && Array.isArray(decoded.orders)) return decoded.orders;
-            return [];
-          }
-
-          function readPrevFileFromGit(path) {
-            try { return execFileSync('git', ['show', `HEAD^:${path}`], { encoding: 'utf8' }); }
-            catch (_) { return ''; }
-          }
-
-          async function sendTopic(topic, title, body, data) {
-            if (!topic) return;
-            const msg = {
-              topic,
-              notification: { title, body },
-              data: Object.fromEntries(Object.entries(data || {}).map(([k, v]) => [k, String(v ?? '')])),
-              android: { priority: 'high' },
-              apns: {   headers: {     'apns-priority': '10',     'apns-push-type': 'alert',   },   payload: {     aps: {       sound: 'default',     },   }, },
-            };
-            await admin.messaging().send(msg);
-            console.log('✅ sent', topic, title);
-          }
-
-          function moneyLine(o) {
-            const usd = Number(o.totalUsd ?? o.total_usd ?? 0);
-            const lbp = Number(o.totalLbp ?? o.total_lbp ?? 0);
-            const parts = [];
-            if (usd && !Number.isNaN(usd)) parts.push(`$${usd.toFixed(2)}`);
-            if (lbp && !Number.isNaN(lbp)) parts.push(`${Math.round(lbp)} LBP`);
-            return parts.join(' | ');
-          }
-
-          function durationStr(fromIso, toIso) {
-            const a = Date.parse(fromIso || '');
-            const b = Date.parse(toIso || '');
-            if (!Number.isFinite(a) || !Number.isFinite(b) || b <= a) return '';
-            let mins = Math.round((b - a) / 60000);
-            const days = Math.floor(mins / (60 * 24));
-            mins -= days * 60 * 24;
-            const hrs = Math.floor(mins / 60);
-            mins -= hrs * 60;
-            const parts = [];
-            if (days > 0) parts.push(`${days}d`);
-            if (hrs > 0) parts.push(`${hrs}h`);
-            parts.push(`${mins}m`);
-            return parts.join(' ');
-          }
-
-          function pickCustomerName(o) {
-            const c = (o && o.customer) || {};
-            const name =
-              String(o.customer_name || '').trim() ||
-              String(c.name || '').trim() ||
-              String(c.fullName || '').trim() ||
-              String(o.customerName || '').trim() ||
-              String(o.name || '').trim();
-            return name || 'Customer';
-          }
-
-          function pickDriverName(o) {
-            const n =
-              String(o.delivery_man_name || '').trim() ||
-              String(o.driverName || '').trim();
-            return n || 'Driver';
-          }
-
-          async function main() {
-            const curText = fs.readFileSync(ORDERS_PATH, 'utf8');
-            const prevText = readPrevFileFromGit(ORDERS_PATH);
-
-            const curOrders = loadOrdersFromText(curText).filter(x => x && typeof x === 'object');
-            const prevOrders = loadOrdersFromText(prevText).filter(x => x && typeof x === 'object');
-
-            const prevMap = new Map();
-            for (const o of prevOrders) {
-              const id = orderIdOf(o);
-              if (id) prevMap.set(id, o);
-            }
-
-            let count = 0;
-
-            for (const o of curOrders) {
-              const id = orderIdOf(o);
-              if (!id) continue;
-
-              const prev = prevMap.get(id) || null;
-
-              const curSt = effectiveStatus(o);
-              const prevSt = prev ? effectiveStatus(prev) : '';
-
-              let statusChanged = (!prev || prevSt !== curSt);
-
-              const curDriverId = String(o.driverId || '').trim();
-              const prevDriverId = prev ? String(prev.driverId || '').trim() : '';
-              const reassigned = (curSt === 'ASSIGNED_DRIVER' && curDriverId && curDriverId !== prevDriverId);
-
-              if (!statusChanged && !reassigned) continue;
-
-              const pickup = isPickup(o);
-              const bk = branchKeyFrom(o);
-              const tOwner = ownerTopic();
-              const tDriver = driverTopic(o);
-              const tClient = orderTopic(id);
-
-              const customerName = pickCustomerName(o);
-              const driverName = pickDriverName(o);
-
-              const amount = moneyLine(o);
-              const amountPart = amount ? ` — Amount: ${amount}` : '';
-
-              const data = {
-                type: '',
-                orderId: id,
-                brandId: BRAND_ID,
-                branchKey: bk,
-                pickup: String(pickup),
-                driverId: curDriverId,
-                customer_name: customerName,
-                delivery_man_name: driverName,
-                totalUsd: String(o.totalUsd ?? ''),
-                totalLbp: String(o.totalLbp ?? ''),
-              };
-
-              if (curSt === 'ASSIGNED_DRIVER') {
-                data.type = 'ORDER_ASSIGNED';
-
-                const title = `${prettyBranch(bk)} • Delivery assigned`;
-                const body = `${customerName} order has been assigned to ${driverName}${amountPart}`;
-
-                await sendTopic(tOwner, title, body, data);
-
-                await sendTopic(
-                  tClient,
-                  'Driver assigned',
-                  `The driver ${driverName} has been assigned to your order.`,
-                  data
-                );
-
-                if (tDriver) {
-                  await sendTopic(
-                    tDriver,
-                    'New order assigned',
-                    `${customerName} order has been assigned to you${amountPart}`,
-                    data
-                  );
-                }
-
-                count++;
-              }
-
-              if (curSt === 'READY_TO_PICKUP') {
-                data.type = 'ORDER_READY_TO_PICKUP';
-
-                const title = `${prettyBranch(bk)} • Ready to pick up`;
-                const body = `Order ready to pick up${amountPart}${customerName ? ` • ${customerName}` : ''}`;
-
-                await sendTopic(tOwner, title, body, data);
-
-                await sendTopic(
-                  tClient,
-                  'Order ready to pick up',
-                  `Your order is ready to pick up${amountPart}`,
-                  data
-                );
-
-                count++;
-              }
-
-              if (curSt === 'PICKED_UP' && !pickup) {
-                data.type = 'ORDER_PICKED_UP';
-
-                await sendTopic(
-                  tClient,
-                  'Picked up',
-                  'Your order has been picked up.',
-                  data
-                );
-
-                await sendTopic(
-                  tOwner,
-                  `Picked up • ${prettyBranch(bk)}`,
-                  `Picked up by ${driverName}${customerName ? ` • ${customerName}` : ''}`,
-                  data
-                );
-
-                count++;
-              }
-
-              if (curSt === 'DELIVERED') {
-                data.type = 'ORDER_DELIVERED';
-
-                const takenBy = String(o.takenBy || '').trim();
-                const startIso = String(o.ts || o.createdAt || '').trim();
-                const endIso = String(o.deliveredAt || o.statusUpdatedAt || '').trim();
-                const dur = durationStr(startIso, endIso);
-
-                const bodyParts = [];
-                if (amount) bodyParts.push(`Amount: ${amount}`);
-                bodyParts.push(`Driver: ${driverName}`);
-                if (takenBy) bodyParts.push(`Taken by: ${takenBy}`);
-                if (dur) bodyParts.push(`Time: ${dur}`);
-
-                const title = `${prettyBranch(bk)} • DELIVERED ✅`;
-                const body = `${customerName || 'Customer'} • ${bodyParts.join(' • ')}`;
-
-                await sendTopic(tOwner, title, body, data);
-
-                if (tDriver) {
-                  await sendTopic(tDriver, title, body, data);
-                }
-
-                count++;
-              }
-            }
-
-            console.log('🔔 notifications:', count);
-          }
-
-          main().catch(e => { console.error(e); process.exit(1); });
-          NODE
+          git config user.name "nouna-notify-bot"
+          git config user.email "nouna-notify-bot@users.noreply.github.com"
+          git add "nouna's_food/orders.json"
+          git commit -m "Mark Nouna order timer alerts"
+          git push
