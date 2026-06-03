@@ -911,12 +911,15 @@
     {
       "id": "3846",
       "barcode": "5287001083101",
+      "barcode2": "5287001083002",
+      "barcodes": "5287001083002",
       "Product Description": "KAAK  EL HAWA",
       "SUPPLIERS": "SAM BAKERY",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
+      "expiry_days": "0",
       "stock_in_geitawi_branch": "-2.0",
       "consumption_in_geitawi_branch": "3.0",
       "stock_in_medawar_branch": "0.0",
@@ -927,10 +930,20 @@
       "price_lbp": 320000.0,
       "price_usd": "3.56",
       "cost": 2.69,
+      "cost_ht": "2.69",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3846.jpg",
+      "arabic_name": "",
+      "name_ar": "",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
+      "non_stockable": false,
+      "nonStockable": false,
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
           "stock": "-2.0",
@@ -941,13 +954,12 @@
           "consumption": "0.0"
         }
       },
+      "product_setup_save_token": "PS-SAVE-3846-1780521276266014",
+      "product_setup_saved_at_utc": "2026-06-03T21:14:36.266014Z",
       "name": "KAAK  EL HAWA",
       "supplier": "SAM BAKERY",
       "subcategory": "BAKERY",
-      "vat": 1,
-      "barcode2": "5287001083002",
-      "barcodes": "5287001083002",
-      "totalStock": "-2"
+      "vat": 1
     },
     {
       "id": "3866",
@@ -1358,6 +1370,6 @@
       "barcodes": "54088191"
     }
   ],
-  "updatedAt": "2026-06-03T21:13:53.939631Z",
+  "updatedAt": "2026-06-03T21:15:41.482880Z",
   "source": "sql"
 }
