@@ -466,7 +466,8 @@
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "priceLbp": 180000.0,
       "price_usd": "2.00",
-      "priceUsd": 2.0
+      "priceUsd": 2.0,
+      "totalStock": "11"
     },
     {
       "id": "22036",
@@ -565,17 +566,17 @@
       "vat": 1,
       "price_lbp": 140000.0,
       "cost": 1.216,
-      "total_stock": "-1.0",
+      "total_stock": "0.0",
       "total_consumption": "10.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "-1.0",
+      "stock_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
           "stock": "0.0",
           "consumption": "5.0"
         },
         "Medawar": {
-          "stock": "-1.0",
+          "stock": "0.0",
           "consumption": "5.0"
         },
         "The Daily Market": {
@@ -624,6 +625,6 @@
       "priceUsd": 1.5555555555555556
     }
   ],
-  "updatedAt": "2026-06-08T03:54:22.825589Z",
-  "source": "sql"
+  "updatedAt": "2026-06-08T07:42:27.113300Z",
+  "source": "server-sql-mahfouz-market-products"
 }

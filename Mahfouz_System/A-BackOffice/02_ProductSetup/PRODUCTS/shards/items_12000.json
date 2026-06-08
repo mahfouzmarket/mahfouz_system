@@ -95,11 +95,11 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "5.0",
+      "stock_in_geitawi_branch": "4.0",
       "consumption_in_geitawi_branch": "1.0",
       "stock_in_medawar_branch": "4.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "9.0",
+      "total_stock": "8.0",
       "total_consumption": "2.0",
       "VAT": "YES",
       "price_lbp": 90000.0,
@@ -111,7 +111,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "4.0",
           "consumption": "1.0"
         },
         "Medawar": {
@@ -126,7 +126,8 @@
       "subcategory": "CLEANING",
       "vat": 1,
       "priceLbp": 90000.0,
-      "priceUsd": 1.0
+      "priceUsd": 1.0,
+      "totalStock": "8"
     },
     {
       "id": "12099",
@@ -227,10 +228,10 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_geitawi_branch": "9.0",
-      "stock_in_medawar_branch": "7.0",
-      "consumption_in_medawar_branch": "19.0",
-      "total_stock": "13.0",
-      "total_consumption": "28.0",
+      "stock_in_medawar_branch": "4.0",
+      "consumption_in_medawar_branch": "22.0",
+      "total_stock": "10.0",
+      "total_consumption": "31.0",
       "VAT": "YES",
       "price_lbp": 150000.0,
       "price_usd": "1.67",
@@ -251,8 +252,8 @@
           "consumption": "9.0"
         },
         "Medawar": {
-          "stock": "7.0",
-          "consumption": "19.0"
+          "stock": "4.0",
+          "consumption": "22.0"
         }
       },
       "product_setup_save_token": "PS-SAVE-12155-1779961270432170",
@@ -305,7 +306,8 @@
       "subcategory": "CLEANING",
       "vat": 1,
       "priceLbp": 100000.0,
-      "priceUsd": 1.1111111111111112
+      "priceUsd": 1.1111111111111112,
+      "totalStock": "-2"
     },
     {
       "id": "12232",
@@ -431,10 +433,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "9.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "14.0",
-      "total_consumption": "2.0",
+      "stock_in_medawar_branch": "8.0",
+      "consumption_in_medawar_branch": "2.0",
+      "total_stock": "13.0",
+      "total_consumption": "3.0",
       "VAT": "YES",
       "price_lbp": 100000.0,
       "price_usd": "1.11",
@@ -455,8 +457,8 @@
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "9.0",
-          "consumption": "1.0"
+          "stock": "8.0",
+          "consumption": "2.0"
         }
       },
       "totalStock": "14",
@@ -558,9 +560,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "7.0",
+      "stock_in_medawar_branch": "8.0",
       "consumption_in_medawar_branch": "5.0",
-      "total_stock": "7.0",
+      "total_stock": "8.0",
       "total_consumption": "5.0",
       "VAT": "YES",
       "price_lbp": 170000.0,
@@ -576,7 +578,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "7.0",
+          "stock": "8.0",
           "consumption": "5.0"
         }
       },
@@ -672,7 +674,8 @@
       "subcategory": "TOOTH CARE",
       "vat": 1,
       "priceLbp": 140000.0,
-      "priceUsd": 1.5555555555555556
+      "priceUsd": 1.5555555555555556,
+      "productDescription": "CREST HERBAL 125 ML"
     },
     {
       "id": "12294",
@@ -800,7 +803,8 @@
       "subcategory": "shaving",
       "vat": 1,
       "priceLbp": 230000.0,
-      "priceUsd": 2.5555555555555554
+      "priceUsd": 2.5555555555555554,
+      "productDescription": "CHAMSA 250 G"
     },
     {
       "id": "12325",
@@ -959,7 +963,8 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12398.jpg",
       "priceLbp": 135000.0,
       "price_usd": "1.50",
-      "priceUsd": 1.5
+      "priceUsd": 1.5,
+      "totalStock": "1"
     },
     {
       "id": "12413",
@@ -1001,7 +1006,8 @@
       "subcategory": "TOOTH CARE",
       "vat": 1,
       "priceLbp": 315000.0,
-      "priceUsd": 3.5
+      "priceUsd": 3.5,
+      "productDescription": "CREST 3D WHITE 125 G"
     },
     {
       "id": "12450",
@@ -1046,6 +1052,6 @@
       "priceUsd": 1.6666666666666667
     }
   ],
-  "updatedAt": "2026-06-08T03:54:18.458350Z",
-  "source": "sql"
+  "updatedAt": "2026-06-08T07:42:27.113300Z",
+  "source": "server-sql-mahfouz-market-products"
 }

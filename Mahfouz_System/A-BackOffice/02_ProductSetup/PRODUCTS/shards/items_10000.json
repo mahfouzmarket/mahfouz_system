@@ -463,7 +463,8 @@
       "barcode2": "",
       "barcodes": "",
       "priceLbp": 105000.0,
-      "priceUsd": 1.1666666666666667
+      "priceUsd": 1.1666666666666667,
+      "totalStock": "6"
     },
     {
       "id": "10219",
@@ -643,12 +644,12 @@
       "category": "CIGARETTES",
       "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "41.0",
+      "stock_in_geitawi_branch": "37.0",
       "consumption_in_geitawi_branch": "65.0",
-      "stock_in_medawar_branch": "94.0",
-      "consumption_in_medawar_branch": "24.0",
-      "total_stock": "135.0",
-      "total_consumption": "89.0",
+      "stock_in_medawar_branch": "92.0",
+      "consumption_in_medawar_branch": "26.0",
+      "total_stock": "129.0",
+      "total_consumption": "91.0",
       "VAT": "YES",
       "price_lbp": 25000.0,
       "price_usd": "0.28",
@@ -659,12 +660,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "41.0",
+          "stock": "37.0",
           "consumption": "65.0"
         },
         "Medawar": {
-          "stock": "94.0",
-          "consumption": "24.0"
+          "stock": "92.0",
+          "consumption": "26.0"
         }
       },
       "name": "SHAM PAPER",
@@ -1295,11 +1296,11 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "3.0",
+      "stock_in_geitawi_branch": "2.0",
       "consumption_in_geitawi_branch": "8.0",
       "stock_in_medawar_branch": "-6.0",
       "consumption_in_medawar_branch": "7.0",
-      "total_stock": "-3.0",
+      "total_stock": "-4.0",
       "total_consumption": "15.0",
       "VAT": "YES",
       "price_lbp": 320000.0,
@@ -1311,7 +1312,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3.0",
+          "stock": "2.0",
           "consumption": "8.0"
         },
         "Medawar": {
@@ -1340,10 +1341,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5.0",
       "consumption_in_geitawi_branch": "2.0",
-      "stock_in_medawar_branch": "20.0",
-      "consumption_in_medawar_branch": "4.0",
-      "total_stock": "25.0",
-      "total_consumption": "6.0",
+      "stock_in_medawar_branch": "19.0",
+      "consumption_in_medawar_branch": "5.0",
+      "total_stock": "24.0",
+      "total_consumption": "7.0",
       "VAT": "YES",
       "price_lbp": 115000.0,
       "price_usd": "1.28",
@@ -1358,8 +1359,8 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "20.0",
-          "consumption": "4.0"
+          "stock": "19.0",
+          "consumption": "5.0"
         }
       },
       "name": "CLEANING TOOL",
@@ -2483,6 +2484,6 @@
       "priceUsd": 0.8888888888888888
     }
   ],
-  "updatedAt": "2026-06-08T03:54:17.650683Z",
-  "source": "sql"
+  "updatedAt": "2026-06-08T07:42:27.113300Z",
+  "source": "server-sql-mahfouz-market-products"
 }
