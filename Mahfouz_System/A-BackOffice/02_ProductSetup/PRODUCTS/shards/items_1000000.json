@@ -2,11 +2,11 @@
   "items": [
     {
       "id": "1000001",
-      "stock_in_medawar_branch": "5.0",
+      "stock_in_medawar_branch": "6.0",
       "stock_in_geitawi_branch": "1.0",
       "consumption_in_medawar_branch": "2.0",
       "consumption_in_geitawi_branch": "2.0",
-      "total_stock": "6.0",
+      "total_stock": "7.0",
       "total_consumption": "4.0",
       "branches": {
         "Geitawi": {
@@ -14,7 +14,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "5.0",
+          "stock": "6.0",
           "consumption": "2.0"
         }
       },
@@ -52,11 +52,11 @@
     },
     {
       "id": "1000002",
-      "stock_in_medawar_branch": "42.0",
+      "stock_in_medawar_branch": "41.0",
       "stock_in_geitawi_branch": "6.0",
       "consumption_in_medawar_branch": "5.0",
       "consumption_in_geitawi_branch": "2.0",
-      "total_stock": "48.0",
+      "total_stock": "47.0",
       "total_consumption": "7.0",
       "branches": {
         "Geitawi": {
@@ -64,7 +64,7 @@
           "consumption": "2.0"
         },
         "Medawar": {
-          "stock": "42.0",
+          "stock": "41.0",
           "consumption": "5.0"
         }
       },
@@ -96,7 +96,7 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "cans & jams",
       "vat": 0,
-      "totalStock": "48",
+      "totalStock": "47",
       "priceLbp": 115000.0,
       "priceUsd": 1.2777777777777777
     },
@@ -144,6 +144,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-1000003-1777493627813280",
       "product_setup_saved_at_utc": "2026-04-29T20:13:47.813280Z",
+      "totalStock": "-1",
       "name": "MOUSTACHE STEAM COCKED WITH REAL CHICKEN (COPY)",
       "supplier": "MTANIOS TRADING SARL",
       "subcategory": "PETS FOOD",
@@ -238,8 +239,63 @@
       "priceLbp": 320000.0,
       "price_usd": "3.56",
       "priceUsd": 3.5555555555555554
+    },
+    {
+      "id": "1000006",
+      "barcode": "",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "TOUCH 3.79 $",
+      "SUPPLIERS": "whish",
+      "unit": "-",
+      "category": "recharge card",
+      "sub_category": "touch",
+      "offers": "0",
+      "expiry_days": "0",
+      "stock_in_geitawi_branch": "0.0",
+      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_medawar_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "0.0",
+      "total_consumption": "0.0",
+      "VAT": "NO",
+      "price_lbp": 450000.0,
+      "price_usd": "5.00",
+      "cost": 16.03,
+      "cost_ht": "16.03",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000006.jpg",
+      "arabic_name": "",
+      "name_ar": "",
+      "new_items": "x",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "non_stockable": true,
+      "nonStockable": true,
+      "linked_profile_enabled": false,
+      "linked_profile_repo_root": "",
+      "linked_profile_item_id": "",
+      "linked_profile_category": "",
+      "linked_profile_sub_category": "",
+      "branches": {
+        "Geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        }
+      },
+      "product_setup_save_token": "PS-SAVE-1000006-1780950756562666",
+      "product_setup_saved_at_utc": "2026-06-08T20:32:36.562666Z",
+      "name": "TOUCH 3.79 $",
+      "supplier": "whish",
+      "subcategory": "touch",
+      "vat": 0,
+      "priceLbp": 450000.0,
+      "priceUsd": 5.0
     }
   ],
-  "updatedAt": "2026-06-08T20:33:56.628537Z",
+  "updatedAt": "2026-06-08T20:36:31.386760Z",
   "source": "sql"
 }
