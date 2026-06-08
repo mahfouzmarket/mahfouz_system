@@ -9,11 +9,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "1.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "2.0",
+      "stock_in_medawar_branch": "1.0",
       "consumption_in_geitawi_branch": "6.0",
       "consumption_in_medawar_branch": "1.0",
-      "total_stock": "1.0",
+      "total_stock": "3.0",
       "total_consumption": "7.0",
       "vat": 0,
       "price_lbp": 750000.0,
@@ -30,15 +30,15 @@
       "linked_profile_item_id": "8000007",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "2.0",
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "1.0"
         }
       },
-      "totalStock": "1",
+      "totalStock": "2",
       "name": "HALLOUM QUINOA SALAD",
       "barcode2": "",
       "supplier": "NOUNA'S FOOD",
@@ -107,17 +107,17 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "5.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_geitawi_branch": "4.0",
+      "stock_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "3.0",
-      "consumption_in_medawar_branch": "0",
-      "total_stock": "5.0",
+      "consumption_in_medawar_branch": "0.0",
+      "total_stock": "4.0",
       "total_consumption": "3.0",
       "vat": 0,
-      "price_lbp": 0.0,
-      "price_usd": "0.00",
+      "price_lbp": 450000.0,
+      "price_usd": "5.00",
       "cost": 0.0,
-      "imageURL": "",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID8000023.jpg",
       "new_items": "x",
       "manual": "",
       "delivery_rules": "",
@@ -128,17 +128,29 @@
       "linked_profile_item_id": "8000023",
       "branches": {
         "Geitawi": {
-          "stock": "5.0",
+          "stock": "4.0",
           "consumption": "3.0"
+        },
+        "Medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
         }
       },
-      "totalStock": "5",
-      "name": "NF FILLED DATE 6 PCS",
+      "totalStock": "4",
       "barcode2": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "VAT": "NO",
+      "non_stockable": false,
+      "nonStockable": false,
+      "cost_ht": "0.00",
+      "name": "NF FILLED DATE 6 PCS",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
-      "priceLbp": 0.0,
-      "priceUsd": 0.0
+      "priceLbp": 450000.0,
+      "priceUsd": 5.0
     },
     {
       "id": "8000030",
@@ -183,6 +195,6 @@
       "priceUsd": 6.666666666666667
     }
   ],
-  "updatedAt": "2026-06-08T07:42:27.113300Z",
-  "source": "server-sql-mahfouz-market-products"
+  "updatedAt": "2026-06-08T14:00:01.013169Z",
+  "source": "sql"
 }
