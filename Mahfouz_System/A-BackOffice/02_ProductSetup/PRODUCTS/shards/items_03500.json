@@ -178,9 +178,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "104",
-      "stock_in_medawar_branch": "21",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "122",
-      "total_stock": "39",
+      "total_stock": "38",
       "total_consumption": "226",
       "VAT": "NO",
       "price_lbp": "50,000",
@@ -202,7 +202,7 @@
           "consumption": "104"
         },
         "Medawar": {
-          "stock": "21",
+          "stock": "20",
           "consumption": "122"
         }
       },
@@ -210,7 +210,7 @@
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
       "vat": "no",
-      "totalStock": "39"
+      "totalStock": "38"
     },
     {
       "id": "3571",
@@ -649,11 +649,11 @@
       "category": "CHIPS",
       "sub_category": "PRINGLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "13",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "8",
-      "total_stock": "5",
+      "total_stock": "2",
       "total_consumption": "21",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -665,7 +665,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "-1",
           "consumption": "13"
         },
         "Medawar": {
@@ -679,7 +679,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "2"
     },
     {
       "id": "3752",
@@ -1383,6 +1383,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-09T19:50:58.301964Z",
+  "updatedAt": "2026-06-09T19:59:28.849738Z",
   "source": "sql-relay-web"
 }
