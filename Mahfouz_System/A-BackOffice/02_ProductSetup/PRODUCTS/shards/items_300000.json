@@ -1611,9 +1611,9 @@
       "sub_category": "chocolate bar",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "13",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "2",
       "total_stock": "13",
       "total_consumption": "7",
@@ -1633,11 +1633,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "13",
+          "stock": "8",
           "consumption": "2"
         }
       },
@@ -10848,12 +10848,16 @@
       "new_items": "x",
       "total_stock": "10",
       "totalStock": "10",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "5",
       "branches": {
         "Medawar": {
-          "stock": "10"
+          "stock": "5"
+        },
+        "Geitawi": {
+          "stock": "5"
         }
       },
+      "stock_in_geitawi_branch": "5",
       "vat": "yes"
     },
     {
@@ -10883,12 +10887,16 @@
       "new_items": "x",
       "total_stock": "10",
       "totalStock": "10",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "5",
       "branches": {
         "Medawar": {
-          "stock": "10"
+          "stock": "5"
+        },
+        "Geitawi": {
+          "stock": "5"
         }
       },
+      "stock_in_geitawi_branch": "5",
       "vat": "yes"
     },
     {
@@ -10931,6 +10939,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-09T16:56:31.897494Z",
+  "updatedAt": "2026-06-09T17:06:00.150391Z",
   "source": "sql-relay-web"
 }
