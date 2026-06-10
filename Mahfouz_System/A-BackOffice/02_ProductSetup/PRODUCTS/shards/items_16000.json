@@ -600,11 +600,11 @@
       "sub_category": "CIGARETTES",
       "offers": "0",
       "stock_in_geitawi_branch": "9",
-      "consumption_in_geitawi_branch": "276",
-      "stock_in_medawar_branch": "13",
-      "consumption_in_medawar_branch": "254",
-      "total_stock": "22",
-      "total_consumption": "530",
+      "consumption_in_geitawi_branch": "276.0",
+      "stock_in_medawar_branch": "61",
+      "consumption_in_medawar_branch": "254.0",
+      "total_stock": "70",
+      "total_consumption": "530.0",
       "VAT": "NO",
       "price_lbp": "80,000",
       "price_usd": "0.89",
@@ -616,11 +616,11 @@
       "branches": {
         "Geitawi": {
           "stock": "9",
-          "consumption": "276"
+          "consumption": "276.0"
         },
         "Medawar": {
-          "stock": "13",
-          "consumption": "254"
+          "stock": "61",
+          "consumption": "254.0"
         }
       },
       "name": "CEDARS FINE",
@@ -638,7 +638,9 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-16071-1778925107826550",
       "product_setup_saved_at_utc": "2026-05-16T09:51:47.826550Z",
-      "totalStock": "22"
+      "totalStock": "70",
+      "priceLbp": 80000.0,
+      "priceUsd": 0.8888888888888888
     },
     {
       "id": "16080",
@@ -5607,6 +5609,6 @@
       "totalStock": "16"
     }
   ],
-  "updatedAt": "2026-06-10T09:47:05.469933Z",
+  "updatedAt": "2026-06-10T09:51:19.837068Z",
   "source": "sql-relay-web"
 }
