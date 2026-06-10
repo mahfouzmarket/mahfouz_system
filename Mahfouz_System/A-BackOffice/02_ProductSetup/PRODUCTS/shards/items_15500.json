@@ -3594,15 +3594,15 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "",
-      "stock_in_geitawi_branch": "0.79",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "58.8",
-      "stock_in_medawar_branch": "15.575",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "156.1",
-      "total_stock": "16.365",
+      "total_stock": "0",
       "total_consumption": "214.9",
       "VAT": "NO",
-      "price_lbp": "100,000",
-      "price_usd": "1.11",
+      "price_lbp": "110,000",
+      "price_usd": "1.22",
       "cost": "0.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15745.jpg",
       "new_items": "",
@@ -3610,11 +3610,11 @@
       "delivery_rules": "",
       "branches": {
         "Geitawi": {
-          "stock": "0.79",
+          "stock": "0",
           "consumption": "58.8"
         },
         "Medawar": {
-          "stock": "15.575",
+          "stock": "0",
           "consumption": "156.1"
         }
       },
@@ -3637,18 +3637,18 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15745-1779009533478756",
       "product_setup_saved_at_utc": "2026-05-17T09:18:53.478756Z",
-      "totalStock": "16.365",
+      "totalStock": "0",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
       "non_stockable": false,
       "nonStockable": false,
-      "scale_item_enabled": false,
-      "scaleItemEnabled": false,
-      "scale_code": "",
-      "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0
+      "scale_item_enabled": true,
+      "scaleItemEnabled": true,
+      "scale_code": "7100001",
+      "scaleCode": "7100001",
+      "scale_plu": 1,
+      "scalePlu": 1
     },
     {
       "id": "15746",
@@ -3661,9 +3661,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17.08",
       "consumption_in_geitawi_branch": "62.4",
-      "stock_in_medawar_branch": "49.358",
+      "stock_in_medawar_branch": "48.762",
       "consumption_in_medawar_branch": "154.5",
-      "total_stock": "66.438",
+      "total_stock": "65.842",
       "total_consumption": "216.9",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -3679,7 +3679,7 @@
           "consumption": "62.4"
         },
         "Medawar": {
-          "stock": "49.358",
+          "stock": "48.762",
           "consumption": "154.5"
         }
       },
@@ -3702,7 +3702,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15746-1779005840823698",
       "product_setup_saved_at_utc": "2026-05-17T08:17:20.823698Z",
-      "totalStock": "66.438",
+      "totalStock": "65.842",
       "arabic_name": "خيار",
       "name_ar": "خيار",
       "description_ar": "خيار",
@@ -8102,6 +8102,6 @@
       "totalStock": "6"
     }
   ],
-  "updatedAt": "2026-06-10T11:48:39.820712Z",
+  "updatedAt": "2026-06-10T11:51:25.295878Z",
   "source": "sql-relay-web"
 }
