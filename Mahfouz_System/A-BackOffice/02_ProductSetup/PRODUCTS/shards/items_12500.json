@@ -468,9 +468,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "72",
       "consumption_in_geitawi_branch": "194",
-      "stock_in_medawar_branch": "52",
+      "stock_in_medawar_branch": "51",
       "consumption_in_medawar_branch": "365",
-      "total_stock": "124",
+      "total_stock": "123",
       "total_consumption": "559",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -492,7 +492,7 @@
           "consumption": "194"
         },
         "Medawar": {
-          "stock": "52",
+          "stock": "51",
           "consumption": "365"
         }
       },
@@ -502,7 +502,7 @@
       "supplier": "CIGARETTES",
       "subcategory": "CIGARETTES",
       "vat": "no",
-      "totalStock": "124"
+      "totalStock": "123"
     },
     {
       "id": "12602",
@@ -567,9 +567,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-29",
       "consumption_in_geitawi_branch": "458",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "389",
-      "total_stock": "-15",
+      "total_stock": "-14",
       "total_consumption": "847",
       "VAT": "NO",
       "price_lbp": "175,000",
@@ -585,7 +585,7 @@
           "consumption": "458"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "15",
           "consumption": "389"
         }
       },
@@ -595,7 +595,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-15",
+      "totalStock": "-14",
       "expiry_days": "0",
       "cost_ht": "1.75",
       "linked_profile_enabled": false,
@@ -604,7 +604,9 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12603-1779886538480207",
-      "product_setup_saved_at_utc": "2026-05-27T12:55:38.480207Z"
+      "product_setup_saved_at_utc": "2026-05-27T12:55:38.480207Z",
+      "priceLbp": 175000.0,
+      "priceUsd": 1.9444444444444444
     },
     {
       "id": "12606",
@@ -1139,9 +1141,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "226",
-      "stock_in_medawar_branch": "47",
+      "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "137",
-      "total_stock": "71",
+      "total_stock": "54",
       "total_consumption": "363",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -1163,13 +1165,13 @@
           "consumption": "226"
         },
         "Medawar": {
-          "stock": "47",
+          "stock": "30",
           "consumption": "137"
         }
       },
       "product_setup_save_token": "PS-SAVE-12712-1779887282130595",
       "product_setup_saved_at_utc": "2026-05-27T13:08:02.130595Z",
-      "totalStock": "71",
+      "totalStock": "54",
       "name": "MARLBORO CRAFTED RED",
       "supplier": "CIGARETTES",
       "subcategory": "CIGARETTES",
@@ -4291,6 +4293,6 @@
       "totalStock": "32"
     }
   ],
-  "updatedAt": "2026-06-10T10:40:06.691923Z",
+  "updatedAt": "2026-06-10T10:43:45.086470Z",
   "source": "sql-relay-web"
 }
