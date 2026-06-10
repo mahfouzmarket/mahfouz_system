@@ -460,7 +460,7 @@
       "id": "12601",
       "barcode": "02882929",
       "barcode2": "288292",
-      "barcodes": "288292",
+      "barcodes": "",
       "Product Description": "MARLBORO SOFT PACK RED",
       "SUPPLIERS": "CIGARETTES",
       "unit": "-",
@@ -468,11 +468,11 @@
       "sub_category": "CIGARETTES",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "72",
+      "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "194",
       "stock_in_medawar_branch": "49",
       "consumption_in_medawar_branch": "365",
-      "total_stock": "121",
+      "total_stock": "82",
       "total_consumption": "559",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -490,7 +490,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "72",
+          "stock": "33",
           "consumption": "194"
         },
         "Medawar": {
@@ -504,9 +504,20 @@
       "supplier": "CIGARETTES",
       "subcategory": "CIGARETTES",
       "vat": "no",
-      "totalStock": "121",
+      "totalStock": "82",
       "priceLbp": 200000.0,
-      "priceUsd": 2.2222222222222223
+      "priceUsd": 2.2222222222222223,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "12602",
@@ -788,9 +799,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "14",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "23",
       "consumption_in_medawar_branch": "33",
-      "total_stock": "42",
+      "total_stock": "41",
       "total_consumption": "47",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -806,7 +817,7 @@
           "consumption": "14"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "23",
           "consumption": "33"
         }
       },
@@ -825,7 +836,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12613-1778933349394103",
       "product_setup_saved_at_utc": "2026-05-16T12:09:09.394103Z",
-      "totalStock": "42",
+      "totalStock": "41",
       "priceLbp": 200000.0,
       "priceUsd": 2.2222222222222223
     },
@@ -2671,9 +2682,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "38",
-      "stock_in_medawar_branch": "308",
+      "stock_in_medawar_branch": "307",
       "consumption_in_medawar_branch": "178",
-      "total_stock": "333",
+      "total_stock": "332",
       "total_consumption": "216",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -2689,7 +2700,7 @@
           "consumption": "38"
         },
         "Medawar": {
-          "stock": "308",
+          "stock": "307",
           "consumption": "178"
         }
       },
@@ -2699,7 +2710,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "333"
+      "totalStock": "332"
     },
     {
       "id": "12868",
@@ -4344,6 +4355,6 @@
       "totalStock": "32"
     }
   ],
-  "updatedAt": "2026-06-10T11:45:56.769568Z",
+  "updatedAt": "2026-06-10T11:48:39.820712Z",
   "source": "sql-relay-web"
 }
