@@ -3861,9 +3861,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "48",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "91",
-      "total_stock": "37",
+      "total_stock": "34",
       "total_consumption": "139",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -3879,11 +3879,8 @@
           "consumption": "48"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "16",
           "consumption": "91"
-        },
-        "Nouna": {
-          "stock": 0
         }
       },
       "name": "DAVIDOFF EVOLVE SILVER",
@@ -3901,8 +3898,10 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13840-1778929266127484",
       "product_setup_saved_at_utc": "2026-05-16T11:01:06.127484Z",
-      "totalStock": "37",
-      "stock_in_nouna_branch": 0
+      "totalStock": "34",
+      "stock_in_nouna_branch": 0,
+      "priceLbp": 150000.0,
+      "priceUsd": 1.6666666666666667
     },
     {
       "id": "13841",
@@ -3915,9 +3914,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "18",
-      "stock_in_medawar_branch": "17",
+      "stock_in_medawar_branch": "27",
       "consumption_in_medawar_branch": "33",
-      "total_stock": "50",
+      "total_stock": "60",
       "total_consumption": "51",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -3933,7 +3932,7 @@
           "consumption": "18"
         },
         "Medawar": {
-          "stock": "17",
+          "stock": "27",
           "consumption": "33"
         }
       },
@@ -3943,14 +3942,16 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "50",
+      "totalStock": "60",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": "1.54"
+      "cost_ht": "1.54",
+      "priceLbp": 150000.0,
+      "priceUsd": 1.6666666666666667
     },
     {
       "id": "13842",
@@ -4023,9 +4024,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "68",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "125",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "193",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -4051,14 +4052,19 @@
           "consumption": "68"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "125"
         }
       },
       "product_setup_save_token": "PS-SAVE-13843-1780560626152532",
       "product_setup_saved_at_utc": "2026-06-04T08:10:26.152532Z",
-      "totalStock": "4",
-      "vat": "no"
+      "totalStock": "3",
+      "name": "GAULOISES RED",
+      "supplier": "CIGARETTES",
+      "subcategory": "CIGARETTES",
+      "vat": "no",
+      "priceLbp": 150000.0,
+      "priceUsd": 1.6666666666666667
     },
     {
       "id": "13844",
@@ -6489,6 +6495,6 @@
       "totalStock": "19"
     }
   ],
-  "updatedAt": "2026-06-10T10:14:31.872708Z",
+  "updatedAt": "2026-06-10T10:17:21.519188Z",
   "source": "sql-relay-web"
 }
