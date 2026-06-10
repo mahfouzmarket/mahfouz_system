@@ -3,14 +3,14 @@
     {
       "id": "1000001",
       "stock_in_medawar_branch": "5",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "2",
       "consumption_in_geitawi_branch": "2",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "4",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "2"
         },
         "Medawar": {
@@ -46,7 +46,7 @@
       "supplier": "JACK DIB",
       "subcategory": "TOOTH CARE",
       "vat": "yes",
-      "totalStock": "6"
+      "totalStock": "5"
     },
     {
       "id": "1000002",
@@ -273,6 +273,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-10T06:32:10.259829Z",
+  "updatedAt": "2026-06-10T06:34:36.140401Z",
   "source": "sql-relay-web"
 }
