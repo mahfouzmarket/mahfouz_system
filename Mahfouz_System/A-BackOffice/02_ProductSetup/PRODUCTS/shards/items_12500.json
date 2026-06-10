@@ -52,9 +52,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "8",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -74,13 +74,13 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "-2",
           "consumption": "4"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "12578",
@@ -893,11 +893,11 @@
       "category": "CIGARETTES",
       "sub_category": "TANBAK",
       "offers": "0",
-      "stock_in_geitawi_branch": "19",
+      "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "148",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "192",
-      "total_stock": "22",
+      "total_stock": "20",
       "total_consumption": "340",
       "VAT": "NO",
       "price_lbp": "220,000",
@@ -909,11 +909,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "19",
+          "stock": "18",
           "consumption": "148"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "192"
         }
       },
@@ -932,7 +932,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12625-1778921820509273",
       "product_setup_saved_at_utc": "2026-05-16T08:57:00.509273Z",
-      "totalStock": "22",
+      "totalStock": "20",
       "priceLbp": 205000.0,
       "priceUsd": 2.2777777777777777,
       "arabic_name": "",
@@ -4422,6 +4422,6 @@
       "totalStock": "32"
     }
   ],
-  "updatedAt": "2026-06-10T17:29:19.868038Z",
+  "updatedAt": "2026-06-10T17:37:21.627086Z",
   "source": "sql-relay-web"
 }
