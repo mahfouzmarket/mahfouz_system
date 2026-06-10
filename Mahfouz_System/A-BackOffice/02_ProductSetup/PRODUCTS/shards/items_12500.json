@@ -470,9 +470,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "72",
       "consumption_in_geitawi_branch": "194",
-      "stock_in_medawar_branch": "51",
+      "stock_in_medawar_branch": "49",
       "consumption_in_medawar_branch": "365",
-      "total_stock": "123",
+      "total_stock": "121",
       "total_consumption": "559",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -494,7 +494,7 @@
           "consumption": "194"
         },
         "Medawar": {
-          "stock": "51",
+          "stock": "49",
           "consumption": "365"
         }
       },
@@ -504,7 +504,9 @@
       "supplier": "CIGARETTES",
       "subcategory": "CIGARETTES",
       "vat": "no",
-      "totalStock": "123"
+      "totalStock": "121",
+      "priceLbp": 200000.0,
+      "priceUsd": 2.2222222222222223
     },
     {
       "id": "12602",
@@ -1246,11 +1248,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "26",
+      "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "55",
       "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "44",
-      "total_stock": "46",
+      "total_stock": "45",
       "total_consumption": "99",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -1262,7 +1264,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "26",
+          "stock": "25",
           "consumption": "55"
         },
         "Medawar": {
@@ -1285,14 +1287,20 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12722-1778906702769758",
       "product_setup_saved_at_utc": "2026-05-16T04:45:02.769758Z",
-      "totalStock": "46",
+      "totalStock": "45",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
       "non_stockable": false,
       "nonStockable": false,
       "priceLbp": 150000.0,
-      "priceUsd": 1.6666666666666667
+      "priceUsd": 1.6666666666666667,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "12728",
@@ -1457,9 +1465,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "32",
       "consumption_in_geitawi_branch": "8",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "25",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "56",
+      "total_stock": "57",
       "total_consumption": "25",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -1481,13 +1489,13 @@
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "25",
           "consumption": "17"
         }
       },
       "product_setup_save_token": "PS-SAVE-12735-1779884384678174",
       "product_setup_saved_at_utc": "2026-05-27T12:19:44.678174Z",
-      "totalStock": "56",
+      "totalStock": "57",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1499,7 +1507,12 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "vat": "no"
+      "name": "WINCHESTER LIGHTS LONG",
+      "supplier": "CIGARETTES",
+      "subcategory": "CIGARETTES",
+      "vat": "no",
+      "priceLbp": 120000.0,
+      "priceUsd": 1.3333333333333333
     },
     {
       "id": "12740",
@@ -1512,9 +1525,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "28",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "20",
+      "stock_in_medawar_branch": "22",
       "consumption_in_medawar_branch": "44",
-      "total_stock": "48",
+      "total_stock": "50",
       "total_consumption": "47",
       "VAT": "NO",
       "price_lbp": "185,000",
@@ -1530,7 +1543,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "20",
+          "stock": "22",
           "consumption": "44"
         }
       },
@@ -1549,12 +1562,14 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12740-1778931983165543",
       "product_setup_saved_at_utc": "2026-05-16T11:46:23.165543Z",
-      "totalStock": "48",
+      "totalStock": "50",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
       "non_stockable": false,
-      "nonStockable": false
+      "nonStockable": false,
+      "priceLbp": 185000.0,
+      "priceUsd": 2.0555555555555554
     },
     {
       "id": "12742",
@@ -4303,6 +4318,6 @@
       "totalStock": "32"
     }
   ],
-  "updatedAt": "2026-06-10T11:02:39.880593Z",
+  "updatedAt": "2026-06-10T11:05:29.320098Z",
   "source": "sql-relay-web"
 }
