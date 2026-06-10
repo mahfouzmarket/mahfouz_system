@@ -3341,11 +3341,11 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "7",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "9",
+      "total_stock": "8",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -3357,7 +3357,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7",
+          "stock": "6",
           "consumption": "8"
         },
         "Medawar": {
@@ -3371,7 +3371,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9"
+      "totalStock": "8"
     },
     {
       "id": "18678",
@@ -8174,9 +8174,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "50",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "50",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -8192,7 +8192,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "50"
         }
       },
@@ -8211,7 +8211,7 @@
       "supplier": "F AND B TRADING bonjus S.A.L",
       "subcategory": "BONJUS",
       "vat": "no",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "18904",
@@ -8655,11 +8655,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "81",
       "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "44",
-      "total_stock": "15",
+      "total_stock": "14",
       "total_consumption": "125",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -8671,7 +8671,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "16",
           "consumption": "81"
         },
         "Medawar": {
@@ -8687,7 +8687,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "15"
+      "totalStock": "14"
     },
     {
       "id": "18946",
@@ -9532,6 +9532,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-10T19:24:07.241949Z",
+  "updatedAt": "2026-06-10T19:30:28.017392Z",
   "source": "sql-relay-web"
 }
