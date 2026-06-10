@@ -3072,9 +3072,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "102",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "102",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -3096,7 +3096,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "102"
         }
       },
@@ -3106,7 +3106,7 @@
       "supplier": "ETS MICHEL NAJJAR",
       "subcategory": "Croissant",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "13808",
@@ -3460,9 +3460,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "121",
       "consumption_in_geitawi_branch": "119",
-      "stock_in_medawar_branch": "284",
+      "stock_in_medawar_branch": "283",
       "consumption_in_medawar_branch": "218",
-      "total_stock": "405",
+      "total_stock": "404",
       "total_consumption": "337",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -3478,7 +3478,7 @@
           "consumption": "119"
         },
         "Medawar": {
-          "stock": "284",
+          "stock": "283",
           "consumption": "218"
         },
         "The Daily Market": {
@@ -3492,7 +3492,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "405",
+      "totalStock": "404",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -6480,6 +6480,6 @@
       "totalStock": "19"
     }
   ],
-  "updatedAt": "2026-06-10T04:22:37.764408Z",
+  "updatedAt": "2026-06-10T04:24:29.652143Z",
   "source": "sql-relay-web"
 }
