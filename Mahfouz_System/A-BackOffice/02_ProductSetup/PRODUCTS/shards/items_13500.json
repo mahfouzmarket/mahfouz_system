@@ -1327,11 +1327,11 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "158",
       "stock_in_medawar_branch": "29",
       "consumption_in_medawar_branch": "173",
-      "total_stock": "33",
+      "total_stock": "31",
       "total_consumption": "331",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -1343,7 +1343,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "2",
           "consumption": "158"
         },
         "Medawar": {
@@ -1357,7 +1357,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "33"
+      "totalStock": "31"
     },
     {
       "id": "13610",
@@ -4034,11 +4034,11 @@
       "sub_category": "CIGARETTES",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "75",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "125",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "200",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -4060,7 +4060,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "75"
         },
         "Medawar": {
@@ -4070,7 +4070,7 @@
       },
       "product_setup_save_token": "PS-SAVE-13843-1780560626152532",
       "product_setup_saved_at_utc": "2026-06-04T08:10:26.152532Z",
-      "totalStock": "0",
+      "totalStock": "-1",
       "name": "GAULOISES RED",
       "supplier": "CIGARETTES",
       "subcategory": "CIGARETTES",
@@ -6518,6 +6518,6 @@
       "totalStock": "19"
     }
   ],
-  "updatedAt": "2026-06-11T20:55:42.806985Z",
+  "updatedAt": "2026-06-11T21:03:04.070300Z",
   "source": "sql-relay-web"
 }
