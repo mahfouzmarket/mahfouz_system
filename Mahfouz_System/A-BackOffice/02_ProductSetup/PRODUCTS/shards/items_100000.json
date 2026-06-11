@@ -3678,15 +3678,15 @@
       "lastCostHtUsd": 0.5,
       "price_lbp": "60,000",
       "stock_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
-      "total_stock": "2",
+      "stock_in_medawar_branch": "0",
+      "total_stock": "1",
       "branches": {
         "Geitawi": {
           "stock": "1",
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "16"
         }
       },
@@ -3709,7 +3709,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "2"
+      "totalStock": "1"
     },
     {
       "id": "100095",
@@ -6480,6 +6480,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-11T13:49:17.646148Z",
+  "updatedAt": "2026-06-11T13:58:53.874674Z",
   "source": "sql-relay-web"
 }
