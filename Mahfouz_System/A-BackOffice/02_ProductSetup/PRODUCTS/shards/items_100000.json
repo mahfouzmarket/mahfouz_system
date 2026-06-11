@@ -925,11 +925,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "9",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "6",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "10",
+      "total_stock": "9",
       "total_consumption": "6",
       "branches": {
         "Geitawi": {
@@ -937,7 +937,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "9",
           "consumption": "6"
         }
       },
@@ -951,7 +951,7 @@
       "delivery_rules": "0.005",
       "subcategory": "alcohol cold drink",
       "vat": "yes",
-      "totalStock": "10"
+      "totalStock": "9"
     },
     {
       "id": "100020",
@@ -1647,11 +1647,11 @@
     },
     {
       "id": "100040",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "-2",
       "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "8",
       "consumption_in_geitawi_branch": "8",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "16",
       "branches": {
         "Geitawi": {
@@ -1659,7 +1659,7 @@
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "-2",
           "consumption": "8"
         }
       },
@@ -1693,7 +1693,7 @@
       "supplier": "EBA",
       "subcategory": "SPARKLING WATER",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "100042",
@@ -1856,11 +1856,11 @@
     },
     {
       "id": "100048",
-      "stock_in_medawar_branch": "30.61",
+      "stock_in_medawar_branch": "26.31",
       "stock_in_geitawi_branch": "-35.665",
       "consumption_in_medawar_branch": "54.7",
       "consumption_in_geitawi_branch": "32.2",
-      "total_stock": "-5.055",
+      "total_stock": "-9.355",
       "total_consumption": "86.9",
       "branches": {
         "Geitawi": {
@@ -1868,7 +1868,7 @@
           "consumption": "32.2"
         },
         "Medawar": {
-          "stock": "30.61",
+          "stock": "26.31",
           "consumption": "54.7"
         }
       },
@@ -1902,7 +1902,7 @@
       "supplier": "VEGETABLES AND FRUITS",
       "subcategory": "fruits",
       "vat": "no",
-      "totalStock": "-5.055",
+      "totalStock": "-9.355",
       "arabic_name": "بطيخ",
       "name_ar": "بطيخ",
       "description_ar": "بطيخ",
@@ -6480,6 +6480,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-11T18:50:26.986584Z",
+  "updatedAt": "2026-06-11T19:37:41.688353Z",
   "source": "sql-relay-web"
 }
