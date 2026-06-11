@@ -597,11 +597,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "22",
+      "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "74",
       "stock_in_medawar_branch": "121",
       "consumption_in_medawar_branch": "43",
-      "total_stock": "143",
+      "total_stock": "137",
       "total_consumption": "117",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -613,7 +613,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22",
+          "stock": "16",
           "consumption": "74"
         },
         "Medawar": {
@@ -631,7 +631,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "143"
+      "totalStock": "137"
     },
     {
       "id": "19030",
@@ -1771,11 +1771,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "8",
       "VAT": "YES",
       "price_lbp": "235,000",
@@ -1787,7 +1787,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "8"
         },
         "Medawar": {
@@ -1803,7 +1803,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "19099",
@@ -10486,6 +10486,6 @@
       "totalStock": "5"
     }
   ],
-  "updatedAt": "2026-06-11T19:58:29.062094Z",
+  "updatedAt": "2026-06-11T20:08:11.271014Z",
   "source": "sql-relay-web"
 }
