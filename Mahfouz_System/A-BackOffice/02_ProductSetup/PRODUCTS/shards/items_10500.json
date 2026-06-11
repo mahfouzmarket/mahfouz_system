@@ -1724,10 +1724,10 @@
       "vat": "no",
       "price_lbp": "420,000",
       "cost": "3.89",
-      "total_stock": "1",
-      "total_consumption": "8",
+      "total_stock": "0",
+      "total_consumption": "16",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -1742,7 +1742,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "6"
         },
         "Geitawi": {
@@ -1780,7 +1780,7 @@
       "cost_ht_usd": 3.89,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "10799",
@@ -2816,11 +2816,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "139",
       "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "58",
-      "total_stock": "36",
+      "total_stock": "35",
       "total_consumption": "197",
       "VAT": "YES",
       "price_lbp": "175,000",
@@ -2832,7 +2832,7 @@
       "delivery_rules": "0.45",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "16",
           "consumption": "139"
         },
         "Medawar": {
@@ -2846,7 +2846,7 @@
       "vat": "yes",
       "barcode2": "5281023000399",
       "barcodes": "5281023000399",
-      "totalStock": "36"
+      "totalStock": "35"
     },
     {
       "id": "10890",
@@ -3305,6 +3305,6 @@
       "totalStock": "12"
     }
   ],
-  "updatedAt": "2026-06-11T19:51:32.766668Z",
+  "updatedAt": "2026-06-11T19:58:29.062094Z",
   "source": "sql-relay-web"
 }
