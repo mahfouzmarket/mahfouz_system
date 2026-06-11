@@ -3465,11 +3465,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "93",
+      "stock_in_geitawi_branch": "92",
       "consumption_in_geitawi_branch": "138",
       "stock_in_medawar_branch": "221",
       "consumption_in_medawar_branch": "277",
-      "total_stock": "314",
+      "total_stock": "313",
       "total_consumption": "415",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -3481,7 +3481,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "93",
+          "stock": "92",
           "consumption": "138"
         },
         "Medawar": {
@@ -3499,7 +3499,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "314",
+      "totalStock": "313",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -3968,11 +3968,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "-47",
+      "stock_in_geitawi_branch": "23",
       "consumption_in_geitawi_branch": "46",
       "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "67",
-      "total_stock": "-36",
+      "total_stock": "34",
       "total_consumption": "113",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -3984,7 +3984,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-47",
+          "stock": "23",
           "consumption": "46"
         },
         "Medawar": {
@@ -4007,14 +4007,20 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13842-1778929170252179",
       "product_setup_saved_at_utc": "2026-05-16T10:59:30.252179Z",
-      "totalStock": "-36",
+      "totalStock": "34",
       "priceLbp": 80000.0,
       "priceUsd": 0.8888888888888888,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
       "non_stockable": false,
-      "nonStockable": false
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "13843",
@@ -4083,9 +4089,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "40",
       "consumption_in_geitawi_branch": "111",
-      "stock_in_medawar_branch": "-7",
+      "stock_in_medawar_branch": "40",
       "consumption_in_medawar_branch": "189",
-      "total_stock": "33",
+      "total_stock": "80",
       "total_consumption": "300",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -4101,7 +4107,7 @@
           "consumption": "111"
         },
         "Medawar": {
-          "stock": "-7",
+          "stock": "40",
           "consumption": "189"
         }
       },
@@ -4120,7 +4126,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13844-1778925472214120",
       "product_setup_saved_at_utc": "2026-05-16T09:57:52.214120Z",
-      "totalStock": "33",
+      "totalStock": "80",
       "priceLbp": 150000.0,
       "priceUsd": 1.6666666666666667,
       "arabic_name": "",
@@ -6512,6 +6518,6 @@
       "totalStock": "19"
     }
   ],
-  "updatedAt": "2026-06-11T06:00:03.977772Z",
+  "updatedAt": "2026-06-11T06:03:26.166241Z",
   "source": "sql-relay-web"
 }
