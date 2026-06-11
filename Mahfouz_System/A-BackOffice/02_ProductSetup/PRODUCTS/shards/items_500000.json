@@ -1682,11 +1682,11 @@
       "offers": "0",
       "expiry_days": "0",
       "stock_in_geitawi_branch": "1",
-      "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "2",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3",
-      "total_consumption": "0.0",
+      "consumption_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "1",
+      "consumption_in_medawar_branch": "0",
+      "total_stock": "2",
+      "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "195,000",
       "price_usd": "2.17",
@@ -1704,11 +1704,11 @@
       "branches": {
         "Geitawi": {
           "stock": "1",
-          "consumption": "0.0"
+          "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
-          "consumption": "0.0"
+          "stock": "1",
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-500040-1778915466864392",
@@ -1718,7 +1718,7 @@
       "productDescription": "ELSADA SHOWER GEL 750 ML",
       "description": "ELSADA SHOWER GEL 750 ML",
       "vat": "yes",
-      "totalStock": "3"
+      "totalStock": "2"
     },
     {
       "id": "500041",
@@ -3240,6 +3240,6 @@
       "totalStock": "8"
     }
   ],
-  "updatedAt": "2026-06-11T09:11:33.530162Z",
+  "updatedAt": "2026-06-11T09:14:03.461673Z",
   "source": "sql-relay-web"
 }
