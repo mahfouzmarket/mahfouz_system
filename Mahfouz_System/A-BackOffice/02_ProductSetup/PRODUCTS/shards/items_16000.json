@@ -517,11 +517,11 @@
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-3",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "-3",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -533,7 +533,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-3",
           "consumption": "4"
         },
         "Medawar": {
@@ -547,7 +547,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "-3"
     },
     {
       "id": "16060",
@@ -3446,9 +3446,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "44",
-      "total_stock": "11",
+      "total_stock": "10",
       "total_consumption": "44",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -3464,7 +3464,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "10",
           "consumption": "44"
         }
       },
@@ -3478,7 +3478,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11"
+      "totalStock": "10"
     },
     {
       "id": "16299",
@@ -5611,6 +5611,6 @@
       "totalStock": "22"
     }
   ],
-  "updatedAt": "2026-06-11T14:20:45.487612Z",
+  "updatedAt": "2026-06-11T14:28:20.336411Z",
   "source": "sql-relay-web"
 }
