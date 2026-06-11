@@ -546,10 +546,10 @@
       "vat": "no",
       "price_lbp": "415,000",
       "cost": "3.84",
-      "total_stock": "2",
-      "total_consumption": "1",
+      "total_stock": "1",
+      "total_consumption": "2",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "1",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -564,7 +564,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "1"
         },
         "Geitawi": {
@@ -602,7 +602,7 @@
       "cost_ht_usd": 3.84,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "2"
+      "totalStock": "1"
     },
     {
       "id": "14547",
@@ -2150,11 +2150,11 @@
       "category": "HOME USAGE",
       "sub_category": "WIPES",
       "offers": "0",
-      "stock_in_geitawi_branch": "-8",
+      "stock_in_geitawi_branch": "-9",
       "consumption_in_geitawi_branch": "21",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "-1",
+      "total_stock": "-2",
       "total_consumption": "24",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -2166,7 +2166,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-8",
+          "stock": "-9",
           "consumption": "21"
         },
         "Medawar": {
@@ -2180,7 +2180,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1"
+      "totalStock": "-2"
     },
     {
       "id": "14703",
@@ -5778,6 +5778,6 @@
       "totalStock": "18"
     }
   ],
-  "updatedAt": "2026-06-11T14:28:20.336411Z",
+  "updatedAt": "2026-06-11T14:35:30.930710Z",
   "source": "sql-relay-web"
 }
