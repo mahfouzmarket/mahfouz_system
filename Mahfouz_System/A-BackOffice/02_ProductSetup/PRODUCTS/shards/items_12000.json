@@ -307,29 +307,29 @@
       "vat": "no",
       "price_lbp": "335,000",
       "cost": "3.10",
-      "total_stock": "1",
-      "total_consumption": "0.0",
+      "total_stock": "0",
+      "total_consumption": "0",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
           "stock": "0",
-          "consumption": "0.0"
+          "consumption": "0"
         },
         "medawar": {
           "stock": "0",
-          "consumption": "0.0"
+          "consumption": "0"
         },
         "the_daily_market": {
           "stock": "0",
-          "consumption": "0.0"
+          "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
-          "consumption": "0.0"
+          "stock": "0",
+          "consumption": "0"
         },
         "Geitawi": {
-          "consumption": "0.0",
+          "consumption": "0",
           "stock": "0"
         }
       },
@@ -346,10 +346,10 @@
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "PAPEC 60GSM 200SHEETS",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "0",
       "stock_in_the_daily_market_branch": "0",
-      "consumption_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0",
       "sub": "STATIONARY",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -363,7 +363,7 @@
       "cost_ht_usd": 3.1,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "12268",
@@ -994,6 +994,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-11T07:52:07.897784Z",
+  "updatedAt": "2026-06-11T07:54:39.943809Z",
   "source": "sql-relay-web"
 }
