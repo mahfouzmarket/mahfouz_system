@@ -517,11 +517,11 @@
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -533,7 +533,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
@@ -547,7 +547,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "16060",
@@ -2208,9 +2208,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "45",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "26",
-      "total_stock": "8",
+      "total_stock": "32",
       "total_consumption": "71",
       "VAT": "YES",
       "price_lbp": "110,000",
@@ -2226,7 +2226,7 @@
           "consumption": "45"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "26",
           "consumption": "26"
         }
       },
@@ -2240,7 +2240,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8"
+      "totalStock": "32"
     },
     {
       "id": "16213",
@@ -2253,9 +2253,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-24",
       "consumption_in_geitawi_branch": "51",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "15",
-      "total_stock": "-24",
+      "total_stock": "0",
       "total_consumption": "66",
       "VAT": "YES",
       "price_lbp": "110,000",
@@ -2271,7 +2271,7 @@
           "consumption": "51"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "24",
           "consumption": "15"
         }
       },
@@ -2285,7 +2285,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-24"
+      "totalStock": "0"
     },
     {
       "id": "16222",
@@ -5611,6 +5611,6 @@
       "totalStock": "22"
     }
   ],
-  "updatedAt": "2026-06-11T14:10:58.320812Z",
+  "updatedAt": "2026-06-11T14:20:45.487612Z",
   "source": "sql-relay-web"
 }
