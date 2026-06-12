@@ -7359,10 +7359,10 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
-      "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
-      "total_consumption": "1",
+      "stock_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "1",
+      "total_stock": "0",
+      "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "180,000",
       "price_usd": "2.00",
@@ -7381,13 +7381,13 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
-          "consumption": "0"
+          "stock": "0",
+          "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "20185",
@@ -13410,9 +13410,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "28",
       "consumption_in_geitawi_branch": "14",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "38",
+      "total_stock": "48",
       "total_consumption": "17",
       "VAT": "NO",
       "price_lbp": "125,000",
@@ -13428,7 +13428,7 @@
           "consumption": "14"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "20",
           "consumption": "3"
         },
         "Nouna": {
@@ -13441,7 +13441,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "38",
+      "totalStock": "48",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -21196,6 +21196,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-06-12T06:31:34.663834Z",
+  "updatedAt": "2026-06-12T06:41:20.478816Z",
   "source": "sql-relay-web"
 }
