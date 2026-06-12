@@ -107,14 +107,14 @@
     {
       "id": "7000003",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "-2",
       "consumption_in_medawar_branch": "6",
       "consumption_in_geitawi_branch": "33",
-      "total_stock": "4",
+      "total_stock": "-2",
       "total_consumption": "39",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "-2",
           "consumption": "33"
         },
         "Medawar": {
@@ -154,7 +154,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "4"
+      "totalStock": "-2"
     },
     {
       "id": "7000004",
@@ -168,12 +168,12 @@
       "sub_category": "nail & skin care",
       "offers": "",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "4",
-      "consumption_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "3",
+      "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "4",
-      "total_consumption": "0.0",
+      "consumption_in_medawar_branch": "0",
+      "total_stock": "3",
+      "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "115,000",
       "price_usd": "1.28",
@@ -190,12 +190,12 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "4",
-          "consumption": "0.0"
+          "stock": "3",
+          "consumption": "1"
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "0.0"
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-7000004-1778654870620819",
@@ -212,7 +212,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "4"
+      "totalStock": "3"
     },
     {
       "id": "7000006",
@@ -428,10 +428,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
-      "total_consumption": "2",
+      "total_consumption": "3",
       "vat": "no",
       "price_lbp": "600,000",
       "price_usd": "6.67",
@@ -448,7 +448,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "2"
+          "consumption": "3"
         },
         "Medawar": {
           "stock": "0",
@@ -585,12 +585,12 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "10",
+      "stock_in_geitawi_branch": "5",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "0",
+      "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "10",
-      "total_consumption": "0",
+      "total_stock": "5",
+      "total_consumption": "3",
       "vat": "no",
       "price_lbp": "100,000",
       "price_usd": "1.11",
@@ -606,15 +606,15 @@
       "linked_profile_item_id": "7000053",
       "branches": {
         "Geitawi": {
-          "stock": "10",
-          "consumption": "0"
+          "stock": "5",
+          "consumption": "3"
         },
         "Medawar": {
           "stock": "0",
           "consumption": "0"
         }
       },
-      "totalStock": "10",
+      "totalStock": "5",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -673,9 +673,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-06-12T21:30:52Z",
-  "source": "manual-restore-6009-20260613-repeat-overwrite",
-  "republishedAtUtc": "2026-06-12T12:33:36Z",
-  "restoredAtUtc": "2026-06-12T21:30:52Z",
-  "restoredFromCommit": "ec64c14c5f2e0fc5993d291088e5c52fcbd9ba5b"
+  "updatedAt": "2026-06-12T23:21:47.459177Z",
+  "source": "sql-relay-web"
 }
