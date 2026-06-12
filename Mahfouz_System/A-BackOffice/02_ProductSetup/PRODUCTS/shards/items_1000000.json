@@ -51,15 +51,15 @@
     {
       "id": "1000002",
       "stock_in_medawar_branch": "42",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "6",
-      "consumption_in_geitawi_branch": "5",
-      "total_stock": "44",
-      "total_consumption": "11",
+      "consumption_in_geitawi_branch": "6",
+      "total_stock": "43",
+      "total_consumption": "12",
       "branches": {
         "Geitawi": {
-          "stock": "2",
-          "consumption": "5"
+          "stock": "1",
+          "consumption": "6"
         },
         "Medawar": {
           "stock": "42",
@@ -94,7 +94,7 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "cans & jams",
       "vat": "no",
-      "totalStock": "44"
+      "totalStock": "43"
     },
     {
       "id": "1000003",
@@ -312,11 +312,49 @@
         }
       },
       "vat": "yes"
+    },
+    {
+      "id": "1000008",
+      "barcode": "5281034101238",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "MINI JUMBO SPECULOOS",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "SUPPLIERS": "LIBAN JUS SAL GLACES",
+      "unit": "-",
+      "category": "ICE CREAM",
+      "sub_category": "ICEBERG",
+      "offers": "0",
+      "delivery_rules": "",
+      "expiry_days": "0",
+      "VAT": "YES",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "price_lbp": "200,000",
+      "price_usd": "2.22",
+      "cost": "1.21",
+      "cost_ht": "1.21",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000008.jpg",
+      "new_items": "x",
+      "total_stock": "12",
+      "totalStock": "12",
+      "stock_in_geitawi_branch": "12",
+      "branches": {
+        "Geitawi": {
+          "stock": "12"
+        }
+      },
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-12T21:30:52Z",
-  "source": "manual-restore-6009-20260613-repeat-overwrite",
-  "republishedAtUtc": "2026-06-12T12:33:36Z",
-  "restoredAtUtc": "2026-06-12T21:30:52Z",
-  "restoredFromCommit": "ec64c14c5f2e0fc5993d291088e5c52fcbd9ba5b"
+  "updatedAt": "2026-06-12T23:21:47.459177Z",
+  "source": "sql-relay-web"
 }
