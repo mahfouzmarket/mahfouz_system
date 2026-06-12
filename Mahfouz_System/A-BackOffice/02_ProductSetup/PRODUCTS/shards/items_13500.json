@@ -3072,9 +3072,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "110",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "110",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -3106,14 +3106,14 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "110"
         }
       },
       "product_setup_save_token": "PS-SAVE-13807-1781084194143092",
       "product_setup_saved_at_utc": "2026-06-10T09:36:34.143092Z",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "13808",
@@ -6152,9 +6152,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17",
       "consumption_in_geitawi_branch": "61",
-      "stock_in_medawar_branch": "35",
+      "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "95",
-      "total_stock": "52",
+      "total_stock": "51",
       "total_consumption": "156",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -6170,7 +6170,7 @@
           "consumption": "61"
         },
         "Medawar": {
-          "stock": "35",
+          "stock": "34",
           "consumption": "95"
         }
       },
@@ -6180,7 +6180,7 @@
       "vat": "no",
       "barcode2": "5285003350726",
       "barcodes": "5285003350726",
-      "totalStock": "52"
+      "totalStock": "51"
     },
     {
       "id": "13971",
@@ -6518,6 +6518,6 @@
       "totalStock": "19"
     }
   ],
-  "updatedAt": "2026-06-12T04:03:01.219693Z",
+  "updatedAt": "2026-06-12T04:08:36.286056Z",
   "source": "sql-relay-web"
 }
