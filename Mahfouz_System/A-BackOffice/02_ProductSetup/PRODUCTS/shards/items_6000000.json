@@ -215,11 +215,11 @@
       "offers": "",
       "expiry_days": "5",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
       "total_stock": "0",
-      "total_consumption": "2",
+      "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "400,000",
       "price_usd": "4.44",
@@ -237,7 +237,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "0",
@@ -311,9 +311,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-12T21:30:52Z",
-  "source": "manual-restore-6009-20260613-repeat-overwrite",
-  "republishedAtUtc": "2026-06-12T12:33:36Z",
-  "restoredAtUtc": "2026-06-12T21:30:52Z",
-  "restoredFromCommit": "ec64c14c5f2e0fc5993d291088e5c52fcbd9ba5b"
+  "updatedAt": "2026-06-12T23:21:47.459177Z",
+  "source": "sql-relay-web"
 }
