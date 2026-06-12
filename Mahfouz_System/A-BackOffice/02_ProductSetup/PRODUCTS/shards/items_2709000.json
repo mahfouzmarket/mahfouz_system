@@ -651,9 +651,9 @@
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "2",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "3",
-      "total_consumption": "2",
+      "total_consumption": "1",
       "vat": "no",
       "price_lbp": "999,900",
       "price_usd": "11.11",
@@ -674,7 +674,7 @@
         },
         "Medawar": {
           "stock": "3",
-          "consumption": "2"
+          "consumption": "1"
         }
       },
       "name": "BOX AVOCAT 1KG",
@@ -900,11 +900,11 @@
       "offers": "",
       "expiry_days": "60",
       "stock_in_geitawi_branch": "39",
-      "consumption_in_geitawi_branch": "10",
+      "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "0",
       "total_stock": "53",
-      "total_consumption": "10",
+      "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -922,7 +922,7 @@
       "branches": {
         "Geitawi": {
           "stock": "39",
-          "consumption": "10"
+          "consumption": "4"
         },
         "Medawar": {
           "stock": "14",
@@ -1207,12 +1207,12 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-2",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
-      "total_consumption": "2",
+      "total_stock": "-2",
+      "total_consumption": "3",
       "vat": "no",
       "price_lbp": "399,600",
       "price_usd": "4.44",
@@ -1228,8 +1228,8 @@
       "linked_profile_item_id": "2709457",
       "branches": {
         "Geitawi": {
-          "stock": "0",
-          "consumption": "1"
+          "stock": "-2",
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "0",
@@ -1244,7 +1244,7 @@
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "VAT": "NO",
-      "totalStock": "0",
+      "totalStock": "-2",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -1433,9 +1433,6 @@
       "totalStock": "5"
     }
   ],
-  "updatedAt": "2026-06-12T21:30:52Z",
-  "source": "manual-restore-6009-20260613-repeat-overwrite",
-  "republishedAtUtc": "2026-06-12T12:33:36Z",
-  "restoredAtUtc": "2026-06-12T21:30:52Z",
-  "restoredFromCommit": "ec64c14c5f2e0fc5993d291088e5c52fcbd9ba5b"
+  "updatedAt": "2026-06-12T23:21:47.459177Z",
+  "source": "sql-relay-web"
 }
