@@ -3561,9 +3561,9 @@
       "sub_category": "CLEANING",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "10",
-      "stock_in_medawar_branch": "25",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "11",
       "total_stock": "29",
       "total_consumption": "21",
@@ -3583,11 +3583,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "10",
           "consumption": "10"
         },
         "Medawar": {
-          "stock": "25",
+          "stock": "19",
           "consumption": "11"
         }
       },
@@ -11284,12 +11284,16 @@
       "new_items": "x",
       "total_stock": "6",
       "totalStock": "6",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "3",
       "branches": {
         "Medawar": {
-          "stock": "6"
+          "stock": "3"
+        },
+        "Geitawi": {
+          "stock": "3"
         }
       },
+      "stock_in_geitawi_branch": "3",
       "vat": "no"
     },
     {
@@ -11366,12 +11370,16 @@
       "new_items": "x",
       "total_stock": "24",
       "totalStock": "24",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "16",
       "branches": {
         "Medawar": {
-          "stock": "24"
+          "stock": "16"
+        },
+        "Geitawi": {
+          "stock": "8"
         }
       },
+      "stock_in_geitawi_branch": "8",
       "vat": "no"
     },
     {
@@ -11407,12 +11415,16 @@
       "new_items": "x",
       "total_stock": "12",
       "totalStock": "12",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "7",
       "branches": {
         "Medawar": {
-          "stock": "12"
+          "stock": "7"
+        },
+        "Geitawi": {
+          "stock": "5"
         }
       },
+      "stock_in_geitawi_branch": "5",
       "vat": "yes"
     },
     {
@@ -11448,15 +11460,19 @@
       "new_items": "x",
       "total_stock": "12",
       "totalStock": "12",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "7",
       "branches": {
         "Medawar": {
-          "stock": "12"
+          "stock": "7"
+        },
+        "Geitawi": {
+          "stock": "5"
         }
       },
+      "stock_in_geitawi_branch": "5",
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-12T04:25:26.697207Z",
+  "updatedAt": "2026-06-12T04:31:11.650597Z",
   "source": "sql-relay-web"
 }
