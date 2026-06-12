@@ -58,11 +58,11 @@
       "offers": "0",
       "expiry_days": "0",
       "stock_in_geitawi_branch": "-36",
-      "consumption_in_geitawi_branch": "47",
-      "stock_in_medawar_branch": "12",
-      "consumption_in_medawar_branch": "13",
-      "total_stock": "-24",
-      "total_consumption": "60",
+      "consumption_in_geitawi_branch": "46",
+      "stock_in_medawar_branch": "10",
+      "consumption_in_medawar_branch": "15",
+      "total_stock": "-26",
+      "total_consumption": "61",
       "VAT": "YES",
       "price_lbp": "165,000",
       "price_usd": "1.83",
@@ -80,18 +80,18 @@
       "branches": {
         "Geitawi": {
           "stock": "-36",
-          "consumption": "47"
+          "consumption": "46"
         },
         "Medawar": {
-          "stock": "12",
-          "consumption": "13"
+          "stock": "10",
+          "consumption": "15"
         }
       },
       "name": "TANGO RED FRUITS",
       "supplier": "LIBAN JUS SAL GLACES",
       "subcategory": "ICEBERG",
       "vat": "yes",
-      "totalStock": "-24"
+      "totalStock": "-26"
     },
     {
       "id": "4000003",
@@ -352,12 +352,12 @@
       "sub_category": "CANDLES",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-1",
-      "consumption_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "-2",
+      "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "2",
-      "total_consumption": "2",
+      "total_stock": "1",
+      "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -374,8 +374,8 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
-          "consumption": "1"
+          "stock": "-2",
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "3",
@@ -388,7 +388,7 @@
       "supplier": "JACK DIB",
       "subcategory": "CANDLES",
       "vat": "yes",
-      "totalStock": "2"
+      "totalStock": "1"
     },
     {
       "id": "4000009",
@@ -545,10 +545,10 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "5",
-      "consumption_in_medawar_branch": "18",
-      "total_stock": "5",
-      "total_consumption": "18",
+      "stock_in_medawar_branch": "3",
+      "consumption_in_medawar_branch": "21",
+      "total_stock": "3",
+      "total_consumption": "21",
       "VAT": "NO",
       "price_lbp": "25,000",
       "price_usd": "0.28",
@@ -571,13 +571,13 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "5",
-          "consumption": "18"
+          "stock": "3",
+          "consumption": "21"
         }
       },
       "product_setup_save_token": "PS-SAVE-4000012-1780315778553672",
       "product_setup_saved_at_utc": "2026-06-01T12:09:38.553672Z",
-      "totalStock": "5",
+      "totalStock": "3",
       "vat": "no"
     },
     {
@@ -657,9 +657,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-12T21:30:52Z",
-  "source": "manual-restore-6009-20260613-repeat-overwrite",
-  "republishedAtUtc": "2026-06-12T12:33:36Z",
-  "restoredAtUtc": "2026-06-12T21:30:52Z",
-  "restoredFromCommit": "ec64c14c5f2e0fc5993d291088e5c52fcbd9ba5b"
+  "updatedAt": "2026-06-12T23:21:47.459177Z",
+  "source": "sql-relay-web"
 }
