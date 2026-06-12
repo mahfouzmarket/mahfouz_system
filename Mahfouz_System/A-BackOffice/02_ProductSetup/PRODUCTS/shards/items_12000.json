@@ -213,10 +213,10 @@
       "offers": "0",
       "expiry_days": "0",
       "stock_in_geitawi_branch": "-4",
-      "consumption_in_geitawi_branch": "14",
-      "stock_in_medawar_branch": "33",
-      "consumption_in_medawar_branch": "27",
-      "total_stock": "29",
+      "consumption_in_geitawi_branch": "13",
+      "stock_in_medawar_branch": "31",
+      "consumption_in_medawar_branch": "28",
+      "total_stock": "27",
       "total_consumption": "41",
       "VAT": "YES",
       "price_lbp": "150,000",
@@ -235,16 +235,16 @@
       "branches": {
         "Geitawi": {
           "stock": "-4",
-          "consumption": "14"
+          "consumption": "13"
         },
         "Medawar": {
-          "stock": "33",
-          "consumption": "27"
+          "stock": "31",
+          "consumption": "28"
         }
       },
       "product_setup_save_token": "PS-SAVE-12155-1779961270432170",
       "product_setup_saved_at_utc": "2026-05-28T09:41:10.432170Z",
-      "totalStock": "29",
+      "totalStock": "27",
       "vat": "yes"
     },
     {
@@ -613,9 +613,9 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "-1",
-      "consumption_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "-1",
-      "total_consumption": "0",
+      "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "140,000",
       "price_usd": "1.56",
@@ -627,7 +627,7 @@
       "branches": {
         "Medawar": {
           "stock": "-1",
-          "consumption": "0"
+          "consumption": "1"
         },
         "Geitawi": {
           "stock": "0",
@@ -765,11 +765,11 @@
       "sub_category": "TOOTH CARE",
       "offers": "0",
       "stock_in_geitawi_branch": "2",
-      "consumption_in_geitawi_branch": "4",
+      "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "2",
       "total_stock": "5",
-      "total_consumption": "6",
+      "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "205,000",
       "price_usd": "2.28",
@@ -781,7 +781,7 @@
       "branches": {
         "Geitawi": {
           "stock": "2",
-          "consumption": "4"
+          "consumption": "3"
         },
         "Medawar": {
           "stock": "3",
@@ -994,9 +994,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-12T21:30:52Z",
-  "source": "manual-restore-6009-20260613-repeat-overwrite",
-  "republishedAtUtc": "2026-06-12T12:33:36Z",
-  "restoredAtUtc": "2026-06-12T21:30:52Z",
-  "restoredFromCommit": "ec64c14c5f2e0fc5993d291088e5c52fcbd9ba5b"
+  "updatedAt": "2026-06-12T23:21:47.459177Z",
+  "source": "sql-relay-web"
 }
