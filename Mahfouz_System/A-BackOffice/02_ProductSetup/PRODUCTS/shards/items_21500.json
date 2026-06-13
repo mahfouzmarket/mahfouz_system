@@ -20592,14 +20592,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_medawar_branch": "13",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "13",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         },
         "Medawar": {
@@ -20621,7 +20621,7 @@
       "new_items": "x",
       "subcategory": "instant coffee",
       "vat": "no",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "21909",
@@ -22090,11 +22090,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "13",
       "stock_in_geitawi_branch": "-16",
       "consumption_in_medawar_branch": "53",
       "consumption_in_geitawi_branch": "93",
-      "total_stock": "-2",
+      "total_stock": "-3",
       "total_consumption": "146",
       "branches": {
         "Geitawi": {
@@ -22102,7 +22102,7 @@
           "consumption": "93"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "13",
           "consumption": "53"
         }
       },
@@ -22119,7 +22119,7 @@
       "new_items": "x",
       "subcategory": "ice tea",
       "vat": "yes",
-      "totalStock": "-2"
+      "totalStock": "-3"
     },
     {
       "id": "21952",
@@ -23253,6 +23253,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-13T19:21:28.878417Z",
+  "updatedAt": "2026-06-13T19:30:20.063432Z",
   "source": "sql-relay-web"
 }
