@@ -12,16 +12,16 @@
       "sub_category": "ENERGY DRINK",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "10",
-      "consumption_in_geitawi_branch": "16",
-      "stock_in_medawar_branch": "14",
-      "consumption_in_medawar_branch": "18",
-      "total_stock": "24",
-      "total_consumption": "34",
+      "stock_in_geitawi_branch": "10.0",
+      "consumption_in_geitawi_branch": "16.0",
+      "stock_in_medawar_branch": "14.0",
+      "consumption_in_medawar_branch": "18.0",
+      "total_stock": "24.0",
+      "total_consumption": "34.0",
       "VAT": "YES",
-      "price_lbp": "170,000",
+      "price_lbp": 170000.0,
       "price_usd": "1.89",
-      "cost": "1.39",
+      "cost": 1.3855787709497207,
       "cost_ht": "1.54",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3000001.jpg",
       "new_items": "x",
@@ -34,19 +34,21 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "10",
-          "consumption": "16"
+          "stock": "10.0",
+          "consumption": "16.0"
         },
         "Medawar": {
-          "stock": "14",
-          "consumption": "18"
+          "stock": "14.0",
+          "consumption": "18.0"
         }
       },
       "name": "GATORADE  RED ORANGE FLAVOR 500ML (COPY)",
       "supplier": "PEPSI LBP",
       "subcategory": "ENERGY DRINK",
-      "vat": "yes",
-      "totalStock": "24"
+      "vat": 1,
+      "totalStock": "24",
+      "priceLbp": 170000.0,
+      "priceUsd": 1.8888888888888888
     },
     {
       "id": "3000002",
@@ -60,16 +62,16 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
-      "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "-4",
-      "consumption_in_medawar_branch": "4",
-      "total_stock": "-4",
-      "total_consumption": "5",
+      "stock_in_geitawi_branch": "0.0",
+      "consumption_in_geitawi_branch": "1.0",
+      "stock_in_medawar_branch": "-4.0",
+      "consumption_in_medawar_branch": "4.0",
+      "total_stock": "-4.0",
+      "total_consumption": "5.0",
       "VAT": "NO",
-      "price_lbp": "200,000",
+      "price_lbp": 200000.0,
       "price_usd": "2.22",
-      "cost": "2.00",
+      "cost": 2.0,
       "cost_ht": "2.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3000002.jpg",
       "arabic_name": "",
@@ -84,20 +86,25 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
-          "consumption": "1"
+          "stock": "0.0",
+          "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "-4",
-          "consumption": "4"
+          "stock": "-4.0",
+          "consumption": "4.0"
         }
       },
       "product_setup_save_token": "PS-SAVE-3000002-1780321474873616",
       "product_setup_saved_at_utc": "2026-06-01T13:44:34.873616Z",
       "totalStock": "-4",
-      "vat": "no"
+      "name": "NF DATES ALMOND 6P",
+      "supplier": "NOUNA'S FOOD",
+      "subcategory": "NOUNA'S FOOD",
+      "vat": 0,
+      "priceLbp": 200000.0,
+      "priceUsd": 2.2222222222222223
     }
   ],
-  "updatedAt": "2026-06-12T23:37:41.601897Z",
-  "source": "sql-relay-web"
+  "updatedAt": "2026-06-13T04:16:16.942303Z",
+  "source": "sql"
 }
