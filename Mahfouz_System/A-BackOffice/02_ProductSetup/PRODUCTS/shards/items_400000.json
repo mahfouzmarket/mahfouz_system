@@ -1310,20 +1310,20 @@
     },
     {
       "id": "400043",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "0.0",
-      "consumption_in_geitawi_branch": "0.0",
-      "total_stock": "1",
-      "total_consumption": "0.0",
+      "consumption_in_medawar_branch": "0",
+      "consumption_in_geitawi_branch": "0",
+      "total_stock": "0",
+      "total_consumption": "0",
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "0.0"
+          "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
-          "consumption": "0.0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "barcode": "5283009709661",
@@ -1360,7 +1360,7 @@
       "name": "DER GENERAL RED 1.5 L",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "400046",
@@ -2245,6 +2245,6 @@
       "totalStock": "11"
     }
   ],
-  "updatedAt": "2026-06-13T13:07:05.181345Z",
+  "updatedAt": "2026-06-13T13:09:45.601090Z",
   "source": "sql-relay-web"
 }
