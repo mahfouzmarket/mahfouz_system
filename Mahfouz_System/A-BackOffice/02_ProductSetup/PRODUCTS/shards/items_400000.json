@@ -475,14 +475,14 @@
     {
       "id": "400013",
       "stock_in_medawar_branch": "6",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "-2",
       "consumption_in_medawar_branch": "4",
       "consumption_in_geitawi_branch": "4",
-      "total_stock": "9",
+      "total_stock": "4",
       "total_consumption": "8",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "-2",
           "consumption": "4"
         },
         "Medawar": {
@@ -520,7 +520,7 @@
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "Biscuits",
       "vat": "yes",
-      "totalStock": "9"
+      "totalStock": "4"
     },
     {
       "id": "400015",
@@ -2245,6 +2245,6 @@
       "totalStock": "8"
     }
   ],
-  "updatedAt": "2026-06-13T19:50:06.899939Z",
+  "updatedAt": "2026-06-13T20:08:54.965627Z",
   "source": "sql-relay-web"
 }
