@@ -1426,9 +1426,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "65,000",
@@ -1444,7 +1444,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "3"
         }
       },
@@ -1454,7 +1454,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4"
+      "totalStock": "3"
     },
     {
       "id": "18074",
@@ -1508,9 +1508,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "16",
+      "total_stock": "15",
       "total_consumption": "13",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -1526,7 +1526,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "13"
         }
       },
@@ -1536,7 +1536,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16"
+      "totalStock": "15"
     },
     {
       "id": "18076",
@@ -5437,11 +5437,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "86",
+      "stock_in_geitawi_branch": "84",
       "consumption_in_geitawi_branch": "46",
       "stock_in_medawar_branch": "94",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "180",
+      "total_stock": "178",
       "total_consumption": "48",
       "VAT": "YES",
       "price_lbp": "45,000",
@@ -5453,7 +5453,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "86",
+          "stock": "84",
           "consumption": "46"
         },
         "Medawar": {
@@ -5482,7 +5482,7 @@
       "name": "AILA LE PETIT ECOLIER BISCUIT WITH MILK CHOCO",
       "subcategory": "sweets",
       "vat": "yes",
-      "totalStock": "180"
+      "totalStock": "178"
     },
     {
       "id": "18280",
@@ -9071,6 +9071,6 @@
       "totalStock": "-1"
     }
   ],
-  "updatedAt": "2026-06-14T15:39:04.421009Z",
+  "updatedAt": "2026-06-14T15:42:24.603815Z",
   "source": "sql-relay-web"
 }
