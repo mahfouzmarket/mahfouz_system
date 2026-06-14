@@ -480,9 +480,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "0",
+      "total_stock": "-3",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -498,7 +498,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "-2",
           "consumption": "3"
         }
       },
@@ -508,7 +508,7 @@
       "supplier": "JACK DIB",
       "subcategory": "hand & body wash",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-3"
     },
     {
       "id": "11316",
@@ -674,6 +674,6 @@
       "totalStock": "5"
     }
   ],
-  "updatedAt": "2026-06-14T06:46:58.989888Z",
+  "updatedAt": "2026-06-14T06:52:36.590564Z",
   "source": "sql-relay-web"
 }
