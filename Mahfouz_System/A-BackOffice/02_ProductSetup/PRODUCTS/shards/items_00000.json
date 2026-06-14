@@ -591,11 +591,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "gin",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "5",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "3",
+      "total_stock": "1",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "420,000",
@@ -611,7 +611,7 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "5"
         },
         "Medawar": {
@@ -621,7 +621,7 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "1"
     },
     {
       "id": "84",
@@ -2794,11 +2794,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "43",
+      "stock_in_geitawi_branch": "40",
       "consumption_in_geitawi_branch": "52",
       "stock_in_medawar_branch": "91",
       "consumption_in_medawar_branch": "117",
-      "total_stock": "134",
+      "total_stock": "131",
       "total_consumption": "169",
       "VAT": "YES",
       "price_lbp": "150,000",
@@ -2810,7 +2810,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "43",
+          "stock": "40",
           "consumption": "52"
         },
         "Medawar": {
@@ -2824,7 +2824,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "134"
+      "totalStock": "131"
     },
     {
       "id": "403",
@@ -3582,9 +3582,9 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "-310",
+      "stock_in_geitawi_branch": "-220",
       "consumption_in_geitawi_branch": "1683",
-      "stock_in_medawar_branch": "1170",
+      "stock_in_medawar_branch": "1080",
       "consumption_in_medawar_branch": "1647",
       "total_stock": "860",
       "total_consumption": "3330",
@@ -3598,11 +3598,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-310",
+          "stock": "-220",
           "consumption": "1683"
         },
         "Medawar": {
-          "stock": "1170",
+          "stock": "1080",
           "consumption": "1647"
         }
       },
@@ -3612,7 +3612,9 @@
       "vat": "no",
       "barcode2": "9556001297877",
       "barcodes": "9556001297877",
-      "totalStock": "860"
+      "totalStock": "860",
+      "priceLbp": 25000.0,
+      "priceUsd": 0.2777777777777778
     },
     {
       "id": "494",
@@ -3715,6 +3717,6 @@
       "totalStock": "45"
     }
   ],
-  "updatedAt": "2026-06-14T18:10:10.218452Z",
+  "updatedAt": "2026-06-14T18:14:40.169722Z",
   "source": "sql-relay-web"
 }
