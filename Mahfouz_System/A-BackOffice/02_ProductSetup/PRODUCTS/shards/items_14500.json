@@ -1309,9 +1309,9 @@
       "sub_category": "instant coffee",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "6",
       "total_stock": "4",
       "total_consumption": "11",
@@ -1341,18 +1341,18 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "4",
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "6"
         }
       },
       "product_setup_save_token": "PS-SAVE-14620-1781242076948800",
       "product_setup_saved_at_utc": "2026-06-12T05:27:56.948800Z",
-      "vat": "yes",
-      "totalStock": "4"
+      "totalStock": "4",
+      "vat": "yes"
     },
     {
       "id": "14621",
@@ -1366,9 +1366,9 @@
       "sub_category": "instant coffee",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "11",
       "total_stock": "7",
       "total_consumption": "17",
@@ -1398,18 +1398,18 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "4",
           "consumption": "11"
         }
       },
       "product_setup_save_token": "PS-SAVE-14621-1781256836514172",
       "product_setup_saved_at_utc": "2026-06-12T09:33:56.514172Z",
-      "vat": "yes",
-      "totalStock": "7"
+      "totalStock": "7",
+      "vat": "yes"
     },
     {
       "id": "14622",
@@ -5815,6 +5815,6 @@
       "totalStock": "18"
     }
   ],
-  "updatedAt": "2026-06-15T12:42:07.032632Z",
+  "updatedAt": "2026-06-15T12:45:45.357382Z",
   "source": "sql-relay-web"
 }
