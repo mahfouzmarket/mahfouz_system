@@ -957,11 +957,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "-3",
       "consumption_in_geitawi_branch": "43",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "43",
-      "total_stock": "0",
+      "total_stock": "-2",
       "total_consumption": "86",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -973,7 +973,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "-3",
           "consumption": "43"
         },
         "Medawar": {
@@ -987,7 +987,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "-2"
     },
     {
       "id": "1318",
@@ -1388,9 +1388,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2061",
       "consumption_in_geitawi_branch": "1113",
-      "stock_in_medawar_branch": "-48",
+      "stock_in_medawar_branch": "-50",
       "consumption_in_medawar_branch": "1603",
-      "total_stock": "2013",
+      "total_stock": "2011",
       "total_consumption": "2716",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -1406,7 +1406,7 @@
           "consumption": "1113"
         },
         "Medawar": {
-          "stock": "-48",
+          "stock": "-50",
           "consumption": "1603"
         }
       },
@@ -1416,7 +1416,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2013"
+      "totalStock": "2011"
     },
     {
       "id": "1435",
@@ -1660,6 +1660,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-15T11:22:37.096254Z",
+  "updatedAt": "2026-06-15T11:25:30.978525Z",
   "source": "sql-relay-web"
 }
