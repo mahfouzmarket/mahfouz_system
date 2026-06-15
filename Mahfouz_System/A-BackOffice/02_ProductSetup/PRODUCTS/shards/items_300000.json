@@ -12063,16 +12063,21 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "price_lbp": "35,000",
-      "price_usd": "0.39",
+      "price_lbp": "60,000",
+      "price_usd": "0.67",
       "cost": "0.24",
       "cost_ht": "0.24",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300263.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "yes",
-      "branches": {}
+      "total_stock": "6",
+      "totalStock": "6",
+      "stock_in_medawar_branch": "6",
+      "branches": {
+        "Medawar": {
+          "stock": "6"
+        }
+      },
+      "vat": "yes"
     },
     {
       "id": "300264",
@@ -12105,12 +12110,17 @@
       "cost_ht": "2.01",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300264.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "no",
-      "branches": {}
+      "total_stock": "15",
+      "totalStock": "15",
+      "stock_in_medawar_branch": "15",
+      "branches": {
+        "Medawar": {
+          "stock": "15"
+        }
+      },
+      "vat": "no"
     }
   ],
-  "updatedAt": "2026-06-15T06:38:36.707379Z",
+  "updatedAt": "2026-06-15T06:41:10.130002Z",
   "source": "sql-relay-web"
 }
