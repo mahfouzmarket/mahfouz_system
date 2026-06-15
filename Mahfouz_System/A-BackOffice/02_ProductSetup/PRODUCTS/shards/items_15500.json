@@ -4373,7 +4373,7 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "expiry_days": "0",
+      "expiry_days": "3",
       "stock_in_geitawi_branch": "-3",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "25.8",
@@ -4415,7 +4415,13 @@
       "name_ar": "كيس ثوم",
       "description_ar": "كيس ثوم",
       "non_stockable": false,
-      "nonStockable": false
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "15759",
@@ -8127,6 +8133,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-06-15T07:34:34.122242Z",
+  "updatedAt": "2026-06-15T07:37:12.404718Z",
   "source": "sql-relay-web"
 }
