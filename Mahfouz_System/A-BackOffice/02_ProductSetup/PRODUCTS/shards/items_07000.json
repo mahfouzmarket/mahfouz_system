@@ -263,11 +263,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "108",
       "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "94",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "202",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -279,7 +279,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "108"
         },
         "Medawar": {
@@ -293,7 +293,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "7304",
@@ -604,9 +604,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "9",
+      "total_stock": "8",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -622,7 +622,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "6",
           "consumption": "1"
         }
       },
@@ -632,7 +632,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9"
+      "totalStock": "8"
     },
     {
       "id": "7319",
@@ -1170,6 +1170,6 @@
       "totalStock": "92"
     }
   ],
-  "updatedAt": "2026-06-15T06:08:24.266792Z",
+  "updatedAt": "2026-06-15T06:10:54.211827Z",
   "source": "sql-relay-web"
 }
