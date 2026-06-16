@@ -862,11 +862,11 @@
       "sub_category": "BONJUS",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "30",
+      "stock_in_geitawi_branch": "29",
       "consumption_in_geitawi_branch": "12",
       "stock_in_medawar_branch": "46",
       "consumption_in_medawar_branch": "44",
-      "total_stock": "76",
+      "total_stock": "75",
       "total_consumption": "56",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -884,7 +884,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "30",
+          "stock": "29",
           "consumption": "12"
         },
         "Medawar": {
@@ -898,7 +898,7 @@
       "supplier": "F AND B TRADING bonjus S.A.L",
       "subcategory": "BONJUS",
       "vat": "yes",
-      "totalStock": "76",
+      "totalStock": "75",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -12590,7 +12590,7 @@
     },
     {
       "id": "300275",
-      "barcode": "",
+      "barcode": "8033609904631",
       "barcode2": "",
       "barcodes": "",
       "Product Description": "SIR KRISTAL 100 ML",
@@ -12621,12 +12621,16 @@
       "new_items": "x",
       "total_stock": "6",
       "totalStock": "6",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "3",
       "branches": {
         "Medawar": {
-          "stock": "6"
+          "stock": "3"
+        },
+        "Geitawi": {
+          "stock": "3"
         }
       },
+      "stock_in_geitawi_branch": "3",
       "vat": "no"
     },
     {
@@ -14229,6 +14233,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-06-16T10:48:22.356862Z",
+  "updatedAt": "2026-06-16T10:51:26.410924Z",
   "source": "sql-relay-web"
 }
