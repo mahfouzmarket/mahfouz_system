@@ -3524,9 +3524,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "28",
       "consumption_in_geitawi_branch": "32",
-      "stock_in_medawar_branch": "35",
+      "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "37",
-      "total_stock": "63",
+      "total_stock": "62",
       "total_consumption": "69",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -3548,7 +3548,7 @@
           "consumption": "32"
         },
         "Medawar": {
-          "stock": "35",
+          "stock": "34",
           "consumption": "37"
         }
       },
@@ -3558,7 +3558,7 @@
       "supplier": "AL RAED TRADING",
       "subcategory": "sweets",
       "vat": "no",
-      "totalStock": "63"
+      "totalStock": "62"
     },
     {
       "id": "300077",
@@ -12971,18 +12971,23 @@
       "cost_ht": "1.76",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300283.jpg",
       "new_items": "x",
-      "total_stock": "12",
-      "totalStock": "12",
-      "stock_in_medawar_branch": "7",
+      "total_stock": "11",
+      "totalStock": "11",
+      "stock_in_medawar_branch": "6",
       "branches": {
         "Medawar": {
-          "stock": "7"
+          "stock": "6",
+          "consumption": "0"
         },
         "Geitawi": {
-          "stock": "5"
+          "stock": "5",
+          "consumption": "0"
         }
       },
       "stock_in_geitawi_branch": "5",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "0",
+      "total_consumption": "0",
       "vat": "no"
     },
     {
@@ -14243,6 +14248,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-06-16T18:42:12.407303Z",
+  "updatedAt": "2026-06-16T18:51:01.209819Z",
   "source": "sql-relay-web"
 }
