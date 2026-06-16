@@ -51,19 +51,19 @@
     {
       "id": "1000002",
       "stock_in_medawar_branch": "42",
-      "stock_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "5",
-      "consumption_in_geitawi_branch": "7",
-      "total_stock": "42",
+      "stock_in_geitawi_branch": "-1",
+      "consumption_in_medawar_branch": "4",
+      "consumption_in_geitawi_branch": "8",
+      "total_stock": "41",
       "total_consumption": "12",
       "branches": {
         "Geitawi": {
-          "stock": "0",
-          "consumption": "7"
+          "stock": "-1",
+          "consumption": "8"
         },
         "Medawar": {
           "stock": "42",
-          "consumption": "5"
+          "consumption": "4"
         }
       },
       "barcode": "707828083016",
@@ -94,7 +94,7 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "cans & jams",
       "vat": "no",
-      "totalStock": "42"
+      "totalStock": "41"
     },
     {
       "id": "1000003",
@@ -207,11 +207,11 @@
       "price_lbp": "320,000",
       "cost": "0.00",
       "total_stock": "-5",
-      "total_consumption": "1",
+      "total_consumption": "2",
       "branches": {
         "Geitawi": {
           "stock": "-5",
-          "consumption": "1"
+          "consumption": "2"
         }
       },
       "pos_sql_auto_created": true,
@@ -219,7 +219,7 @@
       "pos_sql_auto_created_from_sale_id": "00015834-10-G-win_po-1780521744347141",
       "stock_in_geitawi_branch": "-5",
       "totalStock": "-5",
-      "consumption_in_geitawi_branch": "1"
+      "consumption_in_geitawi_branch": "2"
     },
     {
       "id": "1000006",
@@ -350,14 +350,14 @@
       "branches": {
         "Geitawi": {
           "stock": "-2",
-          "consumption": "11"
+          "consumption": "13"
         }
       },
-      "consumption_in_geitawi_branch": "11",
-      "total_consumption": "11",
+      "consumption_in_geitawi_branch": "13",
+      "total_consumption": "13",
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-15T19:10:10.873012Z",
+  "updatedAt": "2026-06-15T23:48:10.934028Z",
   "source": "sql-relay-web"
 }
