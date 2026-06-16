@@ -106,11 +106,11 @@
     },
     {
       "id": "7000003",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "stock_in_geitawi_branch": "-2",
       "consumption_in_medawar_branch": "6",
       "consumption_in_geitawi_branch": "30",
-      "total_stock": "-2",
+      "total_stock": "0",
       "total_consumption": "36",
       "branches": {
         "Geitawi": {
@@ -118,7 +118,7 @@
           "consumption": "30"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "6"
         }
       },
@@ -154,7 +154,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "-2"
+      "totalStock": "0"
     },
     {
       "id": "7000004",
@@ -577,6 +577,47 @@
       "product_setup_saved_at_utc": "2026-06-04T06:27:17.650292Z"
     },
     {
+      "id": "7000046",
+      "barcode": "2709499",
+      "barcodes": "",
+      "Product Description": "NF FATHER'S DAY COOKIE 1PC",
+      "product_description": "NF FATHER'S DAY COOKIE 1PC",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "NOUNA'S FOOD",
+      "offers": "",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "2",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "0",
+      "total_stock": "2",
+      "total_consumption": "0",
+      "vat": "no",
+      "price_lbp": "0",
+      "price_usd": "0.00",
+      "cost": "0.00",
+      "imageURL": "",
+      "new_items": "x",
+      "manual": "",
+      "delivery_rules": "",
+      "SUPPLIERS": "NOUNA'S FOOD",
+      "unit": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "7000046",
+      "branches": {
+        "Geitawi": {
+          "stock": "0",
+          "consumption": "0"
+        },
+        "Medawar": {
+          "stock": "2",
+          "consumption": "0"
+        }
+      },
+      "totalStock": "2",
+      "VAT": "NO"
+    },
+    {
       "id": "7000053",
       "barcode": "2709528",
       "barcodes": "",
@@ -673,6 +714,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-06-16T06:00:57.927998Z",
+  "updatedAt": "2026-06-16T09:34:26.492933Z",
   "source": "sql-relay-web"
 }
