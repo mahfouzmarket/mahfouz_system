@@ -327,20 +327,20 @@
     },
     {
       "id": "500009",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "0.0",
-      "consumption_in_geitawi_branch": "0.0",
-      "total_stock": "0",
-      "total_consumption": "0.0",
+      "consumption_in_medawar_branch": "0",
+      "consumption_in_geitawi_branch": "0",
+      "total_stock": "-1",
+      "total_consumption": "0",
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "0.0"
+          "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
-          "consumption": "0.0"
+          "stock": "-1",
+          "consumption": "0"
         }
       },
       "barcode": "2709420",
@@ -377,7 +377,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "500010",
@@ -3210,11 +3210,11 @@
       "VAT": "YES",
       "price_lbp": "20,000",
       "cost": "0.00",
-      "total_stock": "-17",
+      "total_stock": "-18",
       "total_consumption": "23",
       "branches": {
         "Geitawi": {
-          "stock": "-8",
+          "stock": "-9",
           "consumption": "14"
         },
         "Medawar": {
@@ -3225,7 +3225,7 @@
       "pos_sql_auto_created": true,
       "pos_sql_auto_created_at_utc": "2026-06-07T09:42:10.234619Z",
       "pos_sql_auto_created_from_sale_id": "00017791-5-G-win_po-1780823653924322",
-      "stock_in_geitawi_branch": "-8",
+      "stock_in_geitawi_branch": "-9",
       "consumption_in_geitawi_branch": "14",
       "barcode2": "",
       "barcodes": "",
@@ -3241,7 +3241,7 @@
       "cost_ht": "0.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500081.jpg",
       "new_items": "",
-      "totalStock": "-17",
+      "totalStock": "-18",
       "stock_in_medawar_branch": "-9",
       "consumption_in_medawar_branch": "9"
     },
@@ -3660,6 +3660,6 @@
       "branches": {}
     }
   ],
-  "updatedAt": "2026-06-16T19:31:52.182786Z",
+  "updatedAt": "2026-06-16T19:42:45.913743Z",
   "source": "sql-relay-web"
 }
