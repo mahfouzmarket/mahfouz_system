@@ -122,9 +122,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "5",
+      "total_stock": "4",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "1,240,000",
@@ -140,7 +140,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "1"
         }
       },
@@ -157,7 +157,7 @@
       "supplier": "ETS WASSEF CHEIBANE",
       "subcategory": "arak",
       "vat": "yes",
-      "totalStock": "5"
+      "totalStock": "4"
     },
     {
       "id": "16",
@@ -1552,11 +1552,11 @@
       "category": "BEVERAGES",
       "sub_category": "ENERGY DRINK",
       "offers": "0",
-      "stock_in_geitawi_branch": "-10",
+      "stock_in_geitawi_branch": "-14",
       "consumption_in_geitawi_branch": "102",
       "stock_in_medawar_branch": "109",
       "consumption_in_medawar_branch": "152",
-      "total_stock": "99",
+      "total_stock": "95",
       "total_consumption": "254",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -1568,7 +1568,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-10",
+          "stock": "-14",
           "consumption": "102"
         },
         "Medawar": {
@@ -1586,7 +1586,7 @@
       "vat": "yes",
       "barcode2": "5287001490350",
       "barcodes": "5287001490350",
-      "totalStock": "99"
+      "totalStock": "95"
     },
     {
       "id": "234",
@@ -3717,6 +3717,6 @@
       "totalStock": "29"
     }
   ],
-  "updatedAt": "2026-06-16T18:14:03.457122Z",
+  "updatedAt": "2026-06-16T18:24:45.363433Z",
   "source": "sql-relay-web"
 }
