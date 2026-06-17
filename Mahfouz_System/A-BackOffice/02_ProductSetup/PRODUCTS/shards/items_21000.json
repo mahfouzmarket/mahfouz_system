@@ -4770,9 +4770,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "330,000",
@@ -4788,7 +4788,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         }
       },
@@ -4802,7 +4802,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "21093",
@@ -14332,11 +14332,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "-7",
+      "stock_in_geitawi_branch": "-8",
       "consumption_in_geitawi_branch": "50",
       "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "60",
-      "total_stock": "19",
+      "total_stock": "18",
       "total_consumption": "110",
       "VAT": "YES",
       "price_lbp": "40,000",
@@ -14348,7 +14348,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-7",
+          "stock": "-8",
           "consumption": "50"
         },
         "Medawar": {
@@ -14362,7 +14362,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19"
+      "totalStock": "18"
     },
     {
       "id": "21271",
@@ -25450,6 +25450,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-17T20:06:59.159241Z",
+  "updatedAt": "2026-06-17T20:17:03.407422Z",
   "source": "sql-relay-web"
 }
