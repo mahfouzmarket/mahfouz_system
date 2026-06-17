@@ -3298,9 +3298,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "9",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "18",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -3316,7 +3316,7 @@
           "consumption": "9"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "9"
         }
       },
@@ -3330,7 +3330,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "1"
     },
     {
       "id": "18672",
@@ -3848,11 +3848,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Crackers",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-2",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "12",
+      "total_stock": "10",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -3864,7 +3864,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-2",
           "consumption": "8"
         },
         "Medawar": {
@@ -3882,7 +3882,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12"
+      "totalStock": "10"
     },
     {
       "id": "18695",
@@ -8106,10 +8106,10 @@
       "vat": "no",
       "price_lbp": "160,000",
       "cost": "1.39",
-      "total_stock": "5",
+      "total_stock": "4",
       "total_consumption": "56",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "4",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -8128,7 +8128,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "56"
         }
       },
@@ -8162,7 +8162,7 @@
       "cost_ht_usd": 1.39,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "5",
+      "totalStock": "4",
       "price_usd": "1.78"
     },
     {
@@ -9534,6 +9534,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-17T18:02:58.539139Z",
+  "updatedAt": "2026-06-17T18:10:04.468591Z",
   "source": "sql-relay-web"
 }
