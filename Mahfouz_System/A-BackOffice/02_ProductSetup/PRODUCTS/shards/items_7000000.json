@@ -107,14 +107,14 @@
     {
       "id": "7000003",
       "stock_in_medawar_branch": "2",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "-4",
       "consumption_in_medawar_branch": "6",
       "consumption_in_geitawi_branch": "27",
-      "total_stock": "0",
+      "total_stock": "-2",
       "total_consumption": "33",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "-4",
           "consumption": "27"
         },
         "Medawar": {
@@ -154,7 +154,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "0"
+      "totalStock": "-2"
     },
     {
       "id": "7000004",
@@ -714,6 +714,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-06-17T17:38:09.542063Z",
+  "updatedAt": "2026-06-17T17:46:50.753826Z",
   "source": "sql-relay-web"
 }
