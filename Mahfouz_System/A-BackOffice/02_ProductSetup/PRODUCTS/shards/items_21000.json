@@ -2816,9 +2816,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "9",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "8",
+      "total_stock": "7",
       "total_consumption": "26",
       "VAT": "YES",
       "price_lbp": "140,000",
@@ -2834,7 +2834,7 @@
           "consumption": "9"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "17"
         }
       },
@@ -2848,7 +2848,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8"
+      "totalStock": "7"
     },
     {
       "id": "21055",
@@ -14332,11 +14332,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "-3",
+      "stock_in_geitawi_branch": "-5",
       "consumption_in_geitawi_branch": "50",
       "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "60",
-      "total_stock": "23",
+      "total_stock": "21",
       "total_consumption": "110",
       "VAT": "YES",
       "price_lbp": "40,000",
@@ -14348,7 +14348,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-3",
+          "stock": "-5",
           "consumption": "50"
         },
         "Medawar": {
@@ -14362,7 +14362,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "23"
+      "totalStock": "21"
     },
     {
       "id": "21271",
@@ -21772,11 +21772,11 @@
       "category": "CIGARETTES",
       "sub_category": "LIGHTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "-1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -21788,7 +21788,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "-1",
           "consumption": "0"
         },
         "Medawar": {
@@ -21806,7 +21806,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "-1"
     },
     {
       "id": "21424",
@@ -25450,6 +25450,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-17T18:10:04.468591Z",
+  "updatedAt": "2026-06-17T18:21:11.729172Z",
   "source": "sql-relay-web"
 }
