@@ -2579,9 +2579,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "33",
-      "total_stock": "1",
+      "total_stock": "-1",
       "total_consumption": "33",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -2597,7 +2597,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "-1",
           "consumption": "33"
         }
       },
@@ -2607,7 +2607,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "-1"
     },
     {
       "id": "13743",
@@ -4568,11 +4568,11 @@
       "category": "CHIPS",
       "sub_category": "DOLSI",
       "offers": "0",
-      "stock_in_geitawi_branch": "-218",
+      "stock_in_geitawi_branch": "-219",
       "consumption_in_geitawi_branch": "180",
       "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "53",
-      "total_stock": "-209",
+      "total_stock": "-210",
       "total_consumption": "233",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -4584,7 +4584,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-218",
+          "stock": "-219",
           "consumption": "180"
         },
         "Medawar": {
@@ -4610,7 +4610,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13865-1778951492426471",
       "product_setup_saved_at_utc": "2026-05-16T17:11:32.426471Z",
-      "totalStock": "-209",
+      "totalStock": "-210",
       "stock_in_nouna_branch": 0
     },
     {
@@ -6605,6 +6605,6 @@
       "totalStock": "11"
     }
   ],
-  "updatedAt": "2026-06-18T20:49:36.509185Z",
+  "updatedAt": "2026-06-18T20:51:21.426603Z",
   "source": "sql-relay-web"
 }
