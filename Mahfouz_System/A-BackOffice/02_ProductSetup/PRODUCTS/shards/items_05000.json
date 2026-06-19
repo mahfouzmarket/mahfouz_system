@@ -551,11 +551,11 @@
       "category": "ICE CREAM",
       "sub_category": "ICEBERG",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "73",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "85",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -567,7 +567,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "73"
         },
         "Medawar": {
@@ -581,7 +581,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "5081",
@@ -642,11 +642,11 @@
       "category": "ICE CREAM",
       "sub_category": "ICEBERG",
       "offers": "0",
-      "stock_in_geitawi_branch": "-88",
+      "stock_in_geitawi_branch": "-90",
       "consumption_in_geitawi_branch": "117",
       "stock_in_medawar_branch": "-4",
       "consumption_in_medawar_branch": "85",
-      "total_stock": "-92",
+      "total_stock": "-94",
       "total_consumption": "202",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -658,7 +658,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-88",
+          "stock": "-90",
           "consumption": "117"
         },
         "Medawar": {
@@ -672,7 +672,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-92"
+      "totalStock": "-94"
     },
     {
       "id": "5094",
@@ -1540,6 +1540,6 @@
       "stock_in_nouna_branch": 0
     }
   ],
-  "updatedAt": "2026-06-19T19:07:36.979973Z",
+  "updatedAt": "2026-06-19T19:13:30.149670Z",
   "source": "sql-relay-web"
 }
