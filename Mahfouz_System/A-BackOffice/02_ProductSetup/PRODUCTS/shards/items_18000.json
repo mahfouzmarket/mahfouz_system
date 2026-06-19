@@ -3100,9 +3100,9 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "47",
-      "consumption_in_medawar_branch": "1",
+      "consumption_in_medawar_branch": "0",
       "total_stock": "47",
-      "total_consumption": "2",
+      "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "90,000",
       "price_usd": "1.00",
@@ -3118,7 +3118,7 @@
         },
         "Medawar": {
           "stock": "47",
-          "consumption": "1"
+          "consumption": "0"
         }
       },
       "sub": "MASTER",
@@ -6213,11 +6213,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-40",
+      "stock_in_geitawi_branch": "-16",
       "consumption_in_geitawi_branch": "58",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "76",
-      "total_stock": "-37",
+      "total_stock": "-13",
       "total_consumption": "134",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -6229,7 +6229,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-40",
+          "stock": "-16",
           "consumption": "58"
         },
         "Medawar": {
@@ -6243,7 +6243,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-37"
+      "totalStock": "-13"
     },
     {
       "id": "18345",
@@ -6254,11 +6254,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-4",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "19",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "54",
-      "total_stock": "-2",
+      "total_stock": "4",
       "total_consumption": "73",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -6270,7 +6270,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-4",
+          "stock": "2",
           "consumption": "19"
         },
         "Medawar": {
@@ -6284,7 +6284,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-2"
+      "totalStock": "4"
     },
     {
       "id": "18347",
@@ -6295,11 +6295,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-3",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "42",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "49",
       "VAT": "NO",
       "price_lbp": "170,000",
@@ -6311,7 +6311,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-3",
+          "stock": "3",
           "consumption": "7"
         },
         "Medawar": {
@@ -6325,7 +6325,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "6"
     },
     {
       "id": "18354",
@@ -9071,6 +9071,6 @@
       "totalStock": "-3"
     }
   ],
-  "updatedAt": "2026-06-19T11:50:26.861053Z",
+  "updatedAt": "2026-06-19T11:56:14.291866Z",
   "source": "sql-relay-web"
 }
