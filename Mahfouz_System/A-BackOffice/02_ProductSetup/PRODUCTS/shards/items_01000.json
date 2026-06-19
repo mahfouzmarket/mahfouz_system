@@ -528,11 +528,11 @@
       "category": "BEVERAGES",
       "sub_category": "ice tea",
       "offers": "0",
-      "stock_in_geitawi_branch": "-3",
+      "stock_in_geitawi_branch": "-4",
       "consumption_in_geitawi_branch": "119",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "97",
-      "total_stock": "1",
+      "total_stock": "-1",
       "total_consumption": "216",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -544,11 +544,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-3",
+          "stock": "-4",
           "consumption": "119"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "97"
         }
       },
@@ -558,7 +558,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "-1"
     },
     {
       "id": "1229",
@@ -1219,11 +1219,11 @@
       "category": "FOOD",
       "sub_category": "TEA",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "28",
       "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "11",
+      "total_stock": "10",
       "total_consumption": "52",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -1235,7 +1235,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "28"
         },
         "Medawar": {
@@ -1249,7 +1249,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11"
+      "totalStock": "10"
     },
     {
       "id": "1380",
@@ -1391,9 +1391,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1523",
       "consumption_in_geitawi_branch": "1197",
-      "stock_in_medawar_branch": "-1487",
+      "stock_in_medawar_branch": "-1491",
       "consumption_in_medawar_branch": "1747",
-      "total_stock": "36",
+      "total_stock": "32",
       "total_consumption": "2944",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -1409,7 +1409,7 @@
           "consumption": "1197"
         },
         "Medawar": {
-          "stock": "-1487",
+          "stock": "-1491",
           "consumption": "1747"
         }
       },
@@ -1419,7 +1419,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "36"
+      "totalStock": "32"
     },
     {
       "id": "1435",
@@ -1430,11 +1430,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "1674",
+      "stock_in_geitawi_branch": "1650",
       "consumption_in_geitawi_branch": "799",
       "stock_in_medawar_branch": "-934",
       "consumption_in_medawar_branch": "761",
-      "total_stock": "740",
+      "total_stock": "716",
       "total_consumption": "1560",
       "VAT": "YES",
       "price_lbp": "45,000",
@@ -1446,7 +1446,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1674",
+          "stock": "1650",
           "consumption": "799"
         },
         "Medawar": {
@@ -1469,7 +1469,7 @@
       "supplier": "TANNOURINE",
       "subcategory": "MINERAL WATER",
       "vat": "yes",
-      "totalStock": "740"
+      "totalStock": "716"
     },
     {
       "id": "1437",
@@ -1663,6 +1663,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-19T18:18:06.988545Z",
+  "updatedAt": "2026-06-19T18:26:28.143650Z",
   "source": "sql-relay-web"
 }
