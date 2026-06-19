@@ -12755,11 +12755,11 @@
       "sub_category": "dried food",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
-      "total_consumption": "0.0",
+      "consumption_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "-1",
+      "consumption_in_medawar_branch": "1",
+      "total_stock": "-1",
+      "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "250,000",
       "price_usd": "2.79",
@@ -12771,11 +12771,11 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "0.0"
+          "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
-          "consumption": "0.0"
+          "stock": "-1",
+          "consumption": "1"
         }
       },
       "sub": "dried food",
@@ -12786,7 +12786,7 @@
       "name": "FREEZE DRIED COOKIES CAKE 30 G",
       "subcategory": "dried food",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "20303",
@@ -21265,6 +21265,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-06-19T10:46:42.493743Z",
+  "updatedAt": "2026-06-19T10:50:00.798560Z",
   "source": "sql-relay-web"
 }
