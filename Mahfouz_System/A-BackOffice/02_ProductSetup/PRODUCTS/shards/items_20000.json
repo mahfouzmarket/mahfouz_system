@@ -18046,8 +18046,8 @@
       "cost": "0.83",
       "total_stock": "24",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "24",
+      "stock_in_geitawi_branch": "10",
+      "stock_in_medawar_branch": "14",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -18062,11 +18062,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "14",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "10"
         }
       },
       "created_by_user_code": "1",
@@ -18113,9 +18114,9 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "0",
       "total_stock": "24",
       "total_consumption": "0",
@@ -18133,11 +18134,11 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "14",
           "consumption": "0"
         }
       },
@@ -18677,9 +18678,9 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "24",
       "total_consumption": "0.0",
@@ -18697,11 +18698,11 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "14",
           "consumption": "0.0"
         }
       },
@@ -19329,9 +19330,9 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "26",
       "consumption_in_geitawi_branch": "13",
-      "stock_in_medawar_branch": "71",
+      "stock_in_medawar_branch": "47",
       "consumption_in_medawar_branch": "16",
       "total_stock": "73",
       "total_consumption": "29",
@@ -19349,11 +19350,11 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "26",
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "71",
+          "stock": "47",
           "consumption": "16"
         }
       },
@@ -21264,6 +21265,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-06-19T09:56:10.069872Z",
+  "updatedAt": "2026-06-19T09:59:29.237920Z",
   "source": "sql-relay-web"
 }
