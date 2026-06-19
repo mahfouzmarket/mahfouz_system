@@ -2970,9 +2970,9 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "9",
-      "consumption_in_medawar_branch": "8",
+      "consumption_in_medawar_branch": "7",
       "total_stock": "9",
-      "total_consumption": "8",
+      "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "160,000",
       "price_usd": "1.67",
@@ -2994,7 +2994,7 @@
         },
         "Medawar": {
           "stock": "9",
-          "consumption": "8"
+          "consumption": "7"
         }
       },
       "product_setup_save_token": "PS-SAVE-300065-1779101088274031",
@@ -8517,11 +8517,11 @@
       "branches": {
         "Medawar": {
           "stock": "-7",
-          "consumption": "23"
+          "consumption": "22"
         }
       },
-      "consumption_in_medawar_branch": "23",
-      "total_consumption": "23",
+      "consumption_in_medawar_branch": "22",
+      "total_consumption": "22",
       "vat": "yes"
     },
     {
@@ -15398,14 +15398,14 @@
       "branches": {
         "Medawar": {
           "stock": "23",
-          "consumption": "1"
+          "consumption": "0"
         }
       },
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300332.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300332.jpg",
       "image_updated_at_utc": "2026-06-18T10:28:18.500105Z",
-      "consumption_in_medawar_branch": "1",
-      "total_consumption": "1",
+      "consumption_in_medawar_branch": "0",
+      "total_consumption": "0",
       "vat": "yes"
     },
     {
@@ -16559,12 +16559,20 @@
       "cost_ht": "0.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300357.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "no",
-      "branches": {}
+      "total_stock": "-1",
+      "totalStock": "-1",
+      "stock_in_medawar_branch": "-1",
+      "consumption_in_medawar_branch": "0",
+      "branches": {
+        "Medawar": {
+          "stock": "-1",
+          "consumption": "0"
+        }
+      },
+      "total_consumption": "0",
+      "vat": "no"
     }
   ],
-  "updatedAt": "2026-06-19T11:56:14.291866Z",
+  "updatedAt": "2026-06-19T11:58:34.312487Z",
   "source": "sql-relay-web"
 }
