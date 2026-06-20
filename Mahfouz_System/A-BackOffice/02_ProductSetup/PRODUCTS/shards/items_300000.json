@@ -16229,18 +16229,23 @@
       "cost_ht": "0.35",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300349.jpg",
       "new_items": "x",
-      "total_stock": "60",
-      "totalStock": "60",
-      "stock_in_medawar_branch": "40",
+      "total_stock": "58",
+      "totalStock": "58",
+      "stock_in_medawar_branch": "38",
       "branches": {
         "Medawar": {
-          "stock": "40"
+          "stock": "38",
+          "consumption": "2"
         },
         "Geitawi": {
-          "stock": "20"
+          "stock": "20",
+          "consumption": "0"
         }
       },
       "stock_in_geitawi_branch": "20",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "2",
+      "total_consumption": "2",
       "vat": "yes"
     },
     {
@@ -16613,6 +16618,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-06-20T10:01:17.762370Z",
+  "updatedAt": "2026-06-20T10:04:10.944069Z",
   "source": "sql-relay-web"
 }
