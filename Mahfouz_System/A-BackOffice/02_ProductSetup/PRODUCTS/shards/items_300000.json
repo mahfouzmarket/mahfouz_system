@@ -3472,9 +3472,9 @@
       "sub_category": "SPARKLING WATER",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "87",
-      "stock_in_medawar_branch": "98",
+      "stock_in_medawar_branch": "80",
       "consumption_in_medawar_branch": "42",
       "total_stock": "101",
       "total_consumption": "129",
@@ -3494,11 +3494,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "21",
           "consumption": "87"
         },
         "Medawar": {
-          "stock": "98",
+          "stock": "80",
           "consumption": "42"
         }
       },
@@ -9964,20 +9964,20 @@
       "new_items": "x",
       "total_stock": "7",
       "totalStock": "7",
-      "stock_in_medawar_branch": "15",
+      "stock_in_medawar_branch": "11",
       "branches": {
         "Medawar": {
-          "stock": "15",
+          "stock": "11",
           "consumption": "5"
         },
         "Geitawi": {
-          "stock": "-8",
+          "stock": "-4",
           "consumption": "4"
         }
       },
       "consumption_in_medawar_branch": "5",
       "total_consumption": "9",
-      "stock_in_geitawi_branch": "-8",
+      "stock_in_geitawi_branch": "-4",
       "consumption_in_geitawi_branch": "4",
       "vat": "yes"
     },
@@ -10907,18 +10907,18 @@
       "new_items": "x",
       "total_stock": "58",
       "totalStock": "58",
-      "stock_in_medawar_branch": "58",
+      "stock_in_medawar_branch": "52",
       "branches": {
         "Medawar": {
-          "stock": "58",
+          "stock": "52",
           "consumption": "13"
         },
         "Geitawi": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "11"
         }
       },
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "11",
       "consumption_in_medawar_branch": "13",
       "total_consumption": "24",
@@ -10951,18 +10951,18 @@
       "new_items": "x",
       "total_stock": "10",
       "totalStock": "10",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "1",
       "branches": {
         "Medawar": {
-          "stock": "7",
+          "stock": "1",
           "consumption": "5"
         },
         "Geitawi": {
-          "stock": "3",
+          "stock": "9",
           "consumption": "7"
         }
       },
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "7",
       "consumption_in_medawar_branch": "5",
       "total_consumption": "12",
@@ -12029,11 +12029,11 @@
       "branches": {
         "Medawar": {
           "stock": "-3",
-          "consumption": "21"
+          "consumption": "22"
         }
       },
-      "consumption_in_medawar_branch": "21",
-      "total_consumption": "21",
+      "consumption_in_medawar_branch": "22",
+      "total_consumption": "22",
       "vat": "no"
     },
     {
@@ -15084,15 +15084,19 @@
       "new_items": "x",
       "total_stock": "47",
       "totalStock": "47",
-      "stock_in_medawar_branch": "47",
+      "stock_in_medawar_branch": "23",
       "branches": {
         "Medawar": {
-          "stock": "47",
+          "stock": "23",
           "consumption": "1"
+        },
+        "Geitawi": {
+          "stock": "24"
         }
       },
       "consumption_in_medawar_branch": "1",
       "total_consumption": "1",
+      "stock_in_geitawi_branch": "24",
       "vat": "yes"
     },
     {
@@ -16606,6 +16610,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-06-20T06:07:16.246829Z",
+  "updatedAt": "2026-06-20T06:09:49.446460Z",
   "source": "sql-relay-web"
 }
