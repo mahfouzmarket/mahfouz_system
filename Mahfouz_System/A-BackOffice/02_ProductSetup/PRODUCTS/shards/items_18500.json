@@ -2858,11 +2858,11 @@
       "category": "FOOD",
       "sub_category": "PROCESSED CHEESE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-2",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "0",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "460,000",
@@ -2874,7 +2874,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-2",
           "consumption": "0"
         },
         "Medawar": {
@@ -2892,7 +2892,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "0"
     },
     {
       "id": "18653",
@@ -8405,11 +8405,11 @@
       "category": "ICE CREAM",
       "sub_category": "ICEBERG",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "30",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "18",
-      "total_stock": "7",
+      "total_stock": "3",
       "total_consumption": "48",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -8421,7 +8421,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "2",
           "consumption": "30"
         },
         "Medawar": {
@@ -8439,7 +8439,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7"
+      "totalStock": "3"
     },
     {
       "id": "18924",
@@ -9534,6 +9534,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-20T19:11:02.594354Z",
+  "updatedAt": "2026-06-20T19:13:45.693315Z",
   "source": "sql-relay-web"
 }
