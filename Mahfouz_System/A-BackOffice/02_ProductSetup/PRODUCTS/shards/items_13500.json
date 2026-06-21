@@ -134,9 +134,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "20",
-      "stock_in_medawar_branch": "25",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "29",
+      "total_stock": "28",
       "total_consumption": "33",
       "VAT": "YES",
       "price_lbp": "160,000",
@@ -152,7 +152,7 @@
           "consumption": "20"
         },
         "Medawar": {
-          "stock": "25",
+          "stock": "24",
           "consumption": "13"
         }
       },
@@ -162,7 +162,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "29"
+      "totalStock": "28"
     },
     {
       "id": "13508",
@@ -4303,12 +4303,12 @@
       "category": "FOOD",
       "sub_category": "ICE",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
-      "consumption_in_geitawi_branch": "89",
+      "stock_in_geitawi_branch": "-1",
+      "consumption_in_geitawi_branch": "91",
       "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "101",
-      "total_stock": "13",
-      "total_consumption": "190",
+      "total_stock": "11",
+      "total_consumption": "192",
       "VAT": "NO",
       "price_lbp": "100,000",
       "price_usd": "1.11",
@@ -4319,8 +4319,8 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
-          "consumption": "89"
+          "stock": "-1",
+          "consumption": "91"
         },
         "Medawar": {
           "stock": "12",
@@ -4333,7 +4333,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
+      "totalStock": "11",
       "priceLbp": 100000.0,
       "priceUsd": 1.1111111111111112
     },
@@ -6605,6 +6605,6 @@
       "totalStock": "9"
     }
   ],
-  "updatedAt": "2026-06-21T11:33:57.840753Z",
+  "updatedAt": "2026-06-21T11:38:18.661695Z",
   "source": "sql-relay-web"
 }
