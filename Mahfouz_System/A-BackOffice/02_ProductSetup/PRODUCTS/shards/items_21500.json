@@ -16730,8 +16730,8 @@
       "cost": "2.75",
       "branches": {
         "Geitawi": {
-          "stock": "1",
-          "consumption": "1"
+          "stock": "-1",
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "2",
@@ -16739,22 +16739,22 @@
         }
       },
       "stock_in_medawar_branch": "2",
-      "total_stock": "3",
+      "total_stock": "1",
       "Product Description": "ELVIVE DREAM LONG SHAMPOO",
       "SUPPLIERS": "JACK DIB",
       "subcategory": "shampoo & cond",
       "vat": "no",
-      "stock_in_geitawi_branch": "1",
-      "consumption_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "-1",
+      "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "2",
-      "total_consumption": "3",
+      "total_consumption": "4",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "3"
+      "totalStock": "1"
     },
     {
       "id": "21822",
@@ -23355,6 +23355,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-06-21T12:47:59.731294Z",
+  "updatedAt": "2026-06-21T12:50:17.447098Z",
   "source": "sql-relay-web"
 }
