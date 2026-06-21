@@ -518,11 +518,11 @@
       "sub_category": "PRINGLES",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "13",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "26",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -540,7 +540,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "13"
         },
         "Medawar": {
@@ -554,7 +554,7 @@
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "PRINGLES",
       "vat": "yes",
-      "totalStock": "4"
+      "totalStock": "3"
     },
     {
       "id": "2000012",
@@ -675,9 +675,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "-57",
       "consumption_in_geitawi_branch": "207",
-      "stock_in_medawar_branch": "-344",
+      "stock_in_medawar_branch": "-345",
       "consumption_in_medawar_branch": "410",
-      "total_stock": "-401",
+      "total_stock": "-402",
       "total_consumption": "617",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -699,7 +699,7 @@
           "consumption": "207"
         },
         "Medawar": {
-          "stock": "-344",
+          "stock": "-345",
           "consumption": "410"
         }
       },
@@ -709,7 +709,7 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "ENERGY DRINK",
       "vat": "yes",
-      "totalStock": "-401"
+      "totalStock": "-402"
     },
     {
       "id": "2000015",
@@ -867,6 +867,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-06-21T18:07:34.210657Z",
+  "updatedAt": "2026-06-21T18:10:25.867357Z",
   "source": "sql-relay-web"
 }
