@@ -106,19 +106,19 @@
     },
     {
       "id": "7000003",
-      "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "-7",
+      "stock_in_medawar_branch": "2",
+      "stock_in_geitawi_branch": "-4",
       "consumption_in_medawar_branch": "8",
-      "consumption_in_geitawi_branch": "28",
-      "total_stock": "-7",
-      "total_consumption": "36",
+      "consumption_in_geitawi_branch": "26",
+      "total_stock": "-2",
+      "total_consumption": "34",
       "branches": {
         "Geitawi": {
-          "stock": "-7",
-          "consumption": "28"
+          "stock": "-4",
+          "consumption": "26"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "8"
         }
       },
@@ -154,7 +154,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "-7"
+      "totalStock": "-2"
     },
     {
       "id": "7000004",
@@ -226,12 +226,12 @@
       "sub_category": "nail & skin care",
       "offers": "",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "3",
-      "consumption_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "3",
-      "total_consumption": "1",
+      "total_stock": "1",
+      "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "115,000",
       "price_usd": "1.28",
@@ -248,8 +248,8 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "3",
-          "consumption": "1"
+          "stock": "1",
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "0",
@@ -265,7 +265,7 @@
       "name": "NAIL POLISH REMOVER LILAC MIST ALMA 125 ML",
       "subcategory": "nail & skin care",
       "vat": "yes",
-      "totalStock": "3"
+      "totalStock": "1"
     },
     {
       "id": "7000008",
@@ -530,11 +530,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "0",
       "total_consumption": "4",
       "vat": "no",
       "price_lbp": "550,000",
@@ -551,7 +551,7 @@
       "linked_profile_item_id": "7000035",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
@@ -559,7 +559,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "-1",
+      "totalStock": "0",
       "name": "TURKEY & EMMENTAL BAGEL",
       "barcode2": "",
       "supplier": "NOUNA'S FOOD",
@@ -585,12 +585,12 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
-      "consumption_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "3",
-      "total_consumption": "3",
+      "total_stock": "1",
+      "total_consumption": "4",
       "vat": "no",
       "price_lbp": "250,000",
       "price_usd": "2.78",
@@ -606,15 +606,15 @@
       "linked_profile_item_id": "7000046",
       "branches": {
         "Geitawi": {
-          "stock": "2",
-          "consumption": "2"
+          "stock": "0",
+          "consumption": "3"
         },
         "Medawar": {
           "stock": "1",
           "consumption": "1"
         }
       },
-      "totalStock": "3",
+      "totalStock": "1",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -641,11 +641,11 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "stock_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "-2",
+      "stock_in_medawar_branch": "4",
       "consumption_in_geitawi_branch": "16",
-      "consumption_in_medawar_branch": "1",
-      "total_stock": "2",
-      "total_consumption": "17",
+      "consumption_in_medawar_branch": "4",
+      "total_stock": "8",
+      "total_consumption": "20",
       "vat": "no",
       "price_lbp": "100,000",
       "price_usd": "1.11",
@@ -665,11 +665,11 @@
           "consumption": "16"
         },
         "Medawar": {
-          "stock": "-2",
-          "consumption": "1"
+          "stock": "4",
+          "consumption": "4"
         }
       },
-      "totalStock": "2",
+      "totalStock": "8",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -728,6 +728,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-06-21T19:25:48.999581Z",
+  "updatedAt": "2026-06-23T10:45:57.877549Z",
   "source": "sql-relay-web"
 }
