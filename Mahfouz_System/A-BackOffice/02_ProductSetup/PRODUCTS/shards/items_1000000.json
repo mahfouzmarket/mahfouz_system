@@ -3,14 +3,14 @@
     {
       "id": "1000001",
       "stock_in_medawar_branch": "1",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "4",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "3",
+      "total_stock": "1",
       "total_consumption": "5",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "1"
         },
         "Medawar": {
@@ -20,7 +20,7 @@
       },
       "barcode": "8718951286733",
       "barcode2": "",
-      "barcodes": "",
+      "barcodes": [],
       "Product Description": "COLGATE OPTIC WHITE 75ML (COPY)",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
@@ -30,7 +30,7 @@
       "expiry_days": "0",
       "VAT": "YES",
       "price_lbp": "345,000",
-      "price_usd": "3.83",
+      "price_usd": "3.833333",
       "cost": "2.23",
       "cost_ht": "2.23",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000001.jpg",
@@ -46,19 +46,27 @@
       "supplier": "JACK DIB",
       "subcategory": "TOOTH CARE",
       "vat": "yes",
-      "totalStock": "3"
+      "totalStock": "1",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "COLGATE OPTIC WHITE 75ML (COPY)",
+      "priceLbp": 345000.0,
+      "newItems": "x",
+      "deliveryRules": "0.005"
     },
     {
       "id": "1000002",
       "stock_in_medawar_branch": "32",
-      "stock_in_geitawi_branch": "-14",
+      "stock_in_geitawi_branch": "-16",
       "consumption_in_medawar_branch": "10",
       "consumption_in_geitawi_branch": "15",
-      "total_stock": "18",
+      "total_stock": "16",
       "total_consumption": "25",
       "branches": {
         "Geitawi": {
-          "stock": "-14",
+          "stock": "-16",
           "consumption": "15"
         },
         "Medawar": {
@@ -68,7 +76,7 @@
       },
       "barcode": "707828083016",
       "barcode2": "",
-      "barcodes": "",
+      "barcodes": [],
       "Product Description": "WHITE BELL SWEET CORN 340G",
       "SUPPLIERS": "AL HAMAWI TRADING",
       "unit": "-",
@@ -78,9 +86,9 @@
       "expiry_days": "0",
       "VAT": "NO",
       "price_lbp": "115,000",
-      "price_usd": "1.28",
-      "cost": "70000.00",
-      "cost_ht": "70000.00",
+      "price_usd": "1.277778",
+      "cost": "70000",
+      "cost_ht": "70000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000002.jpg",
       "new_items": "x",
       "manual": "",
@@ -94,7 +102,15 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "cans & jams",
       "vat": "no",
-      "totalStock": "18"
+      "totalStock": "16",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "WHITE BELL SWEET CORN 340G",
+      "priceLbp": 115000.0,
+      "newItems": "x",
+      "deliveryRules": "0.005"
     },
     {
       "id": "1000003",
@@ -116,7 +132,7 @@
       },
       "barcode": "8009470009249",
       "barcode2": "",
-      "barcodes": "",
+      "barcodes": [],
       "Product Description": "MOUSTACHE STEAM COCKED WITH REAL CHICKEN (COPY)",
       "SUPPLIERS": "MTANIOS TRADING SARL",
       "unit": "-",
@@ -126,7 +142,7 @@
       "expiry_days": "0",
       "VAT": "NO",
       "price_lbp": "75,000",
-      "price_usd": "0.83",
+      "price_usd": "0.833333",
       "cost": "0.61",
       "cost_ht": "0.61",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000003.jpg",
@@ -141,13 +157,23 @@
       "product_setup_save_token": "PS-SAVE-1000003-1777493627813280",
       "product_setup_saved_at_utc": "2026-04-29T20:13:47.813280Z",
       "totalStock": "-2",
-      "vat": "no"
+      "vat": "no",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "MOUSTACHE STEAM COCKED WITH REAL CHICKEN (COPY)",
+      "supplier": "MTANIOS TRADING SARL",
+      "subcategory": "PETS FOOD",
+      "priceLbp": 75000.0,
+      "newItems": "x",
+      "deliveryRules": "0.005"
     },
     {
       "id": "1000004",
       "barcode": "5281030162325",
       "barcode2": "",
-      "barcodes": "",
+      "barcodes": [],
       "Product Description": "TENDREX 300SHEETS (COPY)",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -163,7 +189,7 @@
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "185,000",
-      "price_usd": "2.06",
+      "price_usd": "2.055556",
       "cost": "1.16",
       "cost_ht": "1.16",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000004.jpg",
@@ -188,7 +214,17 @@
       "product_setup_save_token": "PS-SAVE-1000004-1778808370782417",
       "product_setup_saved_at_utc": "2026-05-15T01:26:10.782417Z",
       "totalStock": "8",
-      "vat": "yes"
+      "vat": "yes",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "TENDREX 300SHEETS (COPY)",
+      "supplier": "KTE KFOURY TRADING EST",
+      "subcategory": "TISSUES & TOILET PAPER",
+      "priceLbp": 185000.0,
+      "newItems": "x",
+      "deliveryRules": "0.005"
     },
     {
       "id": "1000005",
@@ -205,13 +241,17 @@
       "vat": "yes",
       "VAT": "YES",
       "price_lbp": "320,000",
-      "cost": "0.00",
+      "cost": "0",
       "total_stock": "-5",
       "total_consumption": "2",
       "branches": {
         "Geitawi": {
           "stock": "-5",
           "consumption": "2"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "pos_sql_auto_created": true,
@@ -219,13 +259,32 @@
       "pos_sql_auto_created_from_sale_id": "00015834-10-G-win_po-1780521744347141",
       "stock_in_geitawi_branch": "-5",
       "totalStock": "-5",
-      "consumption_in_geitawi_branch": "2"
+      "consumption_in_geitawi_branch": "2",
+      "barcode2": "",
+      "barcodes": [],
+      "offers": "",
+      "delivery_rules": "",
+      "expiry_days": "0",
+      "price_usd": "3.555556",
+      "cost_ht": "0",
+      "imageURL": "",
+      "new_items": "",
+      "stock_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "0",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "KAAK  EL HAWA HABBIT EL BARAKE",
+      "priceLbp": 320000.0,
+      "newItems": "",
+      "deliveryRules": ""
     },
     {
       "id": "1000006",
       "barcode": "",
       "barcode2": "",
-      "barcodes": "",
+      "barcodes": [],
       "Product Description": "TOUCH 3.79 $",
       "SUPPLIERS": "whish",
       "unit": "-",
@@ -235,13 +294,13 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "0",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "450,000",
-      "price_usd": "5.00",
+      "price_usd": "5",
       "cost": "16.03",
       "cost_ht": "16.03",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000006.jpg",
@@ -263,20 +322,30 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
         }
       },
       "product_setup_save_token": "PS-SAVE-1000006-1780950756562666",
       "product_setup_saved_at_utc": "2026-06-08T20:32:36.562666Z",
       "vat": "no",
-      "totalStock": "0"
+      "totalStock": "0",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "TOUCH 3.79 $",
+      "supplier": "whish",
+      "subcategory": "touch",
+      "priceLbp": 450000.0,
+      "newItems": "x",
+      "deliveryRules": "0.005"
     },
     {
       "id": "1000007",
       "barcode": "5287000457125",
       "barcode2": "",
-      "barcodes": "",
+      "barcodes": [],
       "Product Description": "ENGLISH CAKE STRAWBERRY 625 GR",
       "arabic_name": "",
       "name_ar": "",
@@ -298,9 +367,9 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_lbp": "500,000",
-      "price_usd": "5.56",
-      "cost": "5.00",
-      "cost_ht": "5.00",
+      "price_usd": "5.555556",
+      "cost": "5",
+      "cost_ht": "5",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000007.jpg",
       "new_items": "x",
       "total_stock": "1",
@@ -308,19 +377,37 @@
       "stock_in_geitawi_branch": "1",
       "branches": {
         "Geitawi": {
-          "stock": "1"
+          "stock": "1",
+          "consumption": "0"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000007.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000007.jpg",
       "image_updated_at_utc": "2026-06-24T06:43:59.913792Z",
-      "vat": "yes"
+      "vat": "yes",
+      "consumption_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "0",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "ENGLISH CAKE STRAWBERRY 625 GR",
+      "supplier": "ENGLISH CAKE SAL",
+      "subcategory": "cake",
+      "priceLbp": 500000.0,
+      "newItems": "x",
+      "deliveryRules": ""
     },
     {
       "id": "1000008",
       "barcode": "5281034101238",
       "barcode2": "",
-      "barcodes": "",
+      "barcodes": [],
       "Product Description": "MINI JUMBO SPECULOOS",
       "arabic_name": "",
       "name_ar": "",
@@ -342,25 +429,41 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_lbp": "120,000",
-      "price_usd": "1.33",
+      "price_usd": "1.333333",
       "cost": "1.21",
       "cost_ht": "1.21",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000008.jpg",
       "new_items": "x",
-      "total_stock": "-18",
-      "totalStock": "-18",
-      "stock_in_geitawi_branch": "-18",
+      "total_stock": "19",
+      "totalStock": "19",
+      "stock_in_geitawi_branch": "7",
       "branches": {
         "Geitawi": {
-          "stock": "-18",
+          "stock": "7",
           "consumption": "36"
+        },
+        "Medawar": {
+          "stock": "12",
+          "consumption": "0"
         }
       },
       "consumption_in_geitawi_branch": "36",
       "total_consumption": "36",
-      "vat": "yes"
+      "vat": "yes",
+      "stock_in_medawar_branch": "12",
+      "consumption_in_medawar_branch": "0",
+      "is_bulk": false,
+      "ignore_stock": false,
+      "bulk_parent_id": "",
+      "bulk_qty": "",
+      "description": "MINI JUMBO SPECULOOS",
+      "supplier": "LIBAN JUS SAL GLACES",
+      "subcategory": "ICEBERG",
+      "priceLbp": 120000.0,
+      "newItems": "x",
+      "deliveryRules": ""
     }
   ],
-  "updatedAt": "2026-06-24T06:51:23.381578Z",
-  "source": "sql-relay-web"
+  "updatedAt": "2026-06-25T06:58:17.805769Z",
+  "source": "manual-live-relay-repair-20260625"
 }
