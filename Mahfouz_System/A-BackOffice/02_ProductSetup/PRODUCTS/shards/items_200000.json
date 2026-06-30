@@ -9,8 +9,8 @@
       "supplier": "NOUNA'S FOOD",
       "unit": "-",
       "barcode": "2709387",
-      "barcode2": "2709387010005",
-      "barcodes": "2709387010005",
+      "barcode2": "",
+      "barcodes": "",
       "price_usd": "0.78",
       "price_lbp": "70,000",
       "VAT": "NO",
@@ -19,8 +19,8 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200001",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_category": "EASTER",
+      "linked_profile_sub_category": "EASTER",
       "branches": {
         "Geitawi": {
           "stock": "8",
@@ -29,6 +29,10 @@
         "Medawar": {
           "stock": "0",
           "consumption": "3"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "stock_in_geitawi_branch": "8",
@@ -40,7 +44,7 @@
       "total_consumption": "6",
       "cost_ht": "0.64",
       "delivery_rules": "0.005",
-      "expiry_days": "60",
+      "expiry_days": "0",
       "new_items": "x",
       "manual": "",
       "Product Description": "NF MA3MOUL RAHA 1PC",
@@ -50,7 +54,13 @@
       "totalStock": "8",
       "user2_unify_old_id": "21766",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "secondBarcode": "",
+      "product_description": "NF MA3MOUL RAHA 1PC",
+      "description": "NF MA3MOUL RAHA 1PC",
+      "expiryDays": 0,
+      "subCategory": "ma3moul",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200007",
@@ -70,13 +80,14 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "2"
+          "stock": "2",
+          "consumption": "0"
         }
       },
       "barcode": "2709395",
       "barcode2": "",
       "barcodes": "",
-      "Product Description": "NF MALBAN NT 300 G",
+      "Product Description": "NF MALBAN NT 300G",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "NOUNA'S FOOD",
@@ -95,11 +106,11 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200007",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_category": "CHOCOLATE AND DRAGEE",
+      "linked_profile_sub_category": "CHOCOLATE AND DRAG├ëE",
       "product_setup_save_token": "PS-SAVE-500007-1777469187937780",
       "product_setup_saved_at_utc": "2026-04-29T13:26:27.937780Z",
-      "name": "NF MALBAN NT 300 G",
+      "name": "NF MALBAN NT 300G",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
@@ -111,11 +122,16 @@
       "user2_unify_old_id": "500007",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "stock_in_nouna_branch": "2"
+      "stock_in_nouna_branch": "2",
+      "secondBarcode": "",
+      "product_description": "NF MALBAN NT 300G",
+      "description": "NF MALBAN NT 300G",
+      "expiryDays": 365,
+      "subCategory": "NOUNA'S FOOD"
     },
     {
       "id": "200008",
-      "name": "MARSHMALLOW CUP 70G",
+      "name": "MARSHMALLOW CUP 70g",
       "category": "NOUNA'S FOOD",
       "sub": "SWEET & CANDIES",
       "sub_category": "SWEET & CANDIES",
@@ -132,8 +148,8 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200008",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_category": "CANDIES",
+      "linked_profile_sub_category": "CANDIES",
       "branches": {
         "Geitawi": {
           "stock": "6",
@@ -142,13 +158,17 @@
         "Medawar": {
           "stock": "0",
           "consumption": "8"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "stock_in_geitawi_branch": "6",
       "total_stock": "6",
       "cost": "2.22",
       "stock_in_medawar_branch": "0",
-      "Product Description": "MARSHMALLOW CUP 70G",
+      "Product Description": "MARSHMALLOW CUP 70g",
       "SUPPLIERS": "NOUNA'S FOOD",
       "subcategory": "SWEET & CANDIES",
       "vat": "no",
@@ -161,24 +181,30 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "expiry_days": "30",
+      "expiry_days": "365",
       "cost_ht": "2.22",
       "product_setup_save_token": "PS-SAVE-21789-1778604702194134",
       "product_setup_saved_at_utc": "2026-05-12T16:51:42.194134Z",
       "totalStock": "6",
       "user2_unify_old_id": "21789",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "secondBarcode": "",
+      "product_description": "MARSHMALLOW CUP 70g",
+      "description": "MARSHMALLOW CUP 70g",
+      "expiryDays": 365,
+      "subCategory": "SWEET & CANDIES",
+      "stock_in_nouna_branch": "0"
     },
     {
-      "id": "200012",
-      "barcode": "2709397",
+      "id": "200011",
+      "barcode": "2709482",
       "barcodes": "",
-      "Product Description": "NF DATE BOX NT 215 G",
-      "product_description": "NF DATE BOX NT 215G",
-      "description": "NF DATE BOX NT 215G",
+      "Product Description": "NF DATE 10 PCS",
+      "product_description": "NF DATE 10 PCS",
+      "description": "NF DATE 10 PCS",
       "brand": "",
-      "supplier": "",
+      "supplier": "NOUNA'S FOOD",
       "SUPPLIERS": "NOUNA'S FOOD",
       "category": "NOUNA'S FOOD",
       "sub_category": "date",
@@ -187,12 +213,12 @@
       "unit": "EACH",
       "VAT": "NO",
       "vat": "no",
-      "price_lbp": "600,000",
-      "cost": "5.56",
+      "price_lbp": "500,000",
+      "cost": "4.63",
       "total_stock": "1",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -207,14 +233,16 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "0"
         },
         "Nouna": {
-          "stock": "1"
+          "stock": "1",
+          "consumption": "0"
         }
       },
       "created_by_user_code": "1",
@@ -229,7 +257,113 @@
       "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "NF DATE BOX NT 215G",
+      "name": "NF DATE 10 PCS",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "date",
+      "secondary_category": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "cost_ht": "4.63",
+      "costUsd": 4.63,
+      "cost_ht_usd": 4.63,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "200011",
+      "user2_unify_old_id": "21801",
+      "user2_unify_user_code": "2",
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "365",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "price_usd": "5.56",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID200011.jpg",
+      "totalStock": "1",
+      "secondBarcode": "",
+      "expiryDays": 365,
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
+      "stock_in_nouna_branch": "1"
+    },
+    {
+      "id": "200012",
+      "barcode": "2709480",
+      "barcodes": "",
+      "Product Description": "NF DATE BOX NT 215g",
+      "product_description": "NF DATE BOX NT 215g",
+      "description": "NF DATE BOX NT 215g",
+      "brand": "",
+      "supplier": "NOUNA'S FOOD",
+      "SUPPLIERS": "NOUNA'S FOOD",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "date",
+      "subcategory": "date",
+      "subCategory": "date",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": "no",
+      "price_lbp": "600,000",
+      "cost": "5.56",
+      "total_stock": "1",
+      "total_consumption": "0.0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0",
+      "branches": {
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "Medawar": {
+          "stock": "0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "consumption": "0.0",
+          "stock": "0"
+        },
+        "Nouna": {
+          "stock": "1",
+          "consumption": "0"
+        }
+      },
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
+      "barcode2": "",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "NF DATE BOX NT 215g",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
@@ -256,7 +390,7 @@
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
-      "expiry_days": "0",
+      "expiry_days": "365",
       "non_stockable": false,
       "nonStockable": false,
       "scale_item_enabled": false,
@@ -268,12 +402,16 @@
       "price_usd": "6.67",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID200012.jpg",
       "totalStock": "1",
-      "stock_in_nouna_branch": "1"
+      "stock_in_nouna_branch": "1",
+      "secondBarcode": "",
+      "expiryDays": 365,
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES"
     },
     {
       "id": "200013",
-      "barcode": "2709428",
-      "barcodes": "27094",
+      "barcode": "2709409",
+      "barcodes": "",
       "Product Description": "NF DRIED APRICOT NT 100G",
       "product_description": "NF DRIED APRICOT NT 100G",
       "category": "NOUNA'S FOOD",
@@ -308,7 +446,8 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "6"
+          "stock": "6",
+          "consumption": "0"
         }
       },
       "name": "NF DRIED APRICOT NT 100G",
@@ -319,18 +458,22 @@
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "VAT": "NO",
-      "barcode2": "27094",
-      "expiry_days": "0",
+      "barcode2": "",
+      "expiry_days": "365",
       "cost_ht": "2.22",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
       "product_setup_save_token": "PS-SAVE-2709409-1778496208583725",
       "product_setup_saved_at_utc": "2026-05-11T10:43:28.583725Z",
       "totalStock": "32",
       "user2_unify_old_id": "2709409",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "stock_in_nouna_branch": "6"
+      "stock_in_nouna_branch": "6",
+      "secondBarcode": "",
+      "description": "NF DRIED APRICOT NT 100G",
+      "expiryDays": 365,
+      "subCategory": "NOUNA'S FOOD"
     },
     {
       "id": "200016",
@@ -394,7 +537,7 @@
     },
     {
       "id": "200017",
-      "barcode": "",
+      "barcode": "2709408",
       "barcodes": "",
       "Product Description": "NF CARROTS CUP",
       "product_description": "NF CARROTS CUP",
@@ -428,6 +571,10 @@
         "Medawar": {
           "stock": "13",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "name": "NF CARROTS CUP",
@@ -441,7 +588,16 @@
       "totalStock": "51",
       "user2_unify_old_id": "2709417",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "barcode2": "",
+      "secondBarcode": "",
+      "description": "NF CARROTS CUP",
+      "expiry_days": "10",
+      "expiryDays": 10,
+      "subCategory": "NOUNA'S FOOD",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200019",
@@ -496,7 +652,7 @@
     },
     {
       "id": "200020",
-      "barcode": "",
+      "barcode": "2709484",
       "barcodes": "",
       "Product Description": "NUTELLA COOKIE CUP",
       "product_description": "NUTELLA COOKIE CUP",
@@ -530,6 +686,10 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "updatedAt": "2026-05-09T00:33:34",
@@ -545,7 +705,16 @@
       "totalStock": "2",
       "user2_unify_old_id": "2709421",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "barcode2": "",
+      "secondBarcode": "",
+      "description": "NUTELLA COOKIE CUP",
+      "expiry_days": "15",
+      "expiryDays": 15,
+      "subCategory": "NOUNA'S FOOD",
+      "linked_profile_category": "AMERICAN COOKIES",
+      "linked_profile_sub_category": "COOKIES",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200022",
@@ -683,8 +852,8 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200025",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_category": "ICE CREAM BISOUS",
+      "linked_profile_sub_category": "ICE CREAM BISOUS",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -695,20 +864,27 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "2"
+          "stock": "2",
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-300055-1778944750845141",
       "product_setup_saved_at_utc": "2026-05-16T15:19:10.845141Z",
-      "Product Description": "BOX MULBERRY 1 KG",
-      "name": "BOX MULBERRY 1 KG",
+      "Product Description": "BOX MULBERRY 1KG",
+      "name": "BOX MULBERRY 1KG",
       "productDescription": "BOX MULBERRY 1 KG",
-      "description": "BOX MULBERRY 1 KG",
+      "description": "BOX MULBERRY 1KG",
       "user2_unify_old_id": "300055",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
       "stock_in_nouna_branch": "2",
       "totalStock": "6",
+      "secondBarcode": "",
+      "product_description": "BOX MULBERRY 1KG",
+      "expiryDays": 0,
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
       "vat": "no"
     },
     {
@@ -740,8 +916,8 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200026",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_category": "ICE CREAM BISOUS",
+      "linked_profile_sub_category": "ICE CREAM BISOUS",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -750,80 +926,140 @@
         "Medawar": {
           "stock": "3",
           "consumption": "1"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-300057-1778944912814935",
       "product_setup_saved_at_utc": "2026-05-16T15:21:52.814935Z",
-      "Product Description": "BOX CHOCODOUX 1 KG",
-      "name": "BOX CHOCODOUX 1 KG",
+      "Product Description": "BOX CHOCODOUX 1KG",
+      "name": "BOX CHOCODOUX 1KG",
       "productDescription": "BOX CHOCODOUX 1 KG",
-      "description": "BOX CHOCODOUX 1 KG",
+      "description": "BOX CHOCODOUX 1KG",
       "totalStock": "3",
       "user2_unify_old_id": "300057",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "secondBarcode": "",
+      "product_description": "BOX CHOCODOUX 1KG",
+      "expiryDays": 0,
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
+      "stock_in_nouna_branch": "0",
       "vat": "no"
     },
     {
-      "id": "200029",
-      "stock_in_medawar_branch": "-1",
+      "id": "200027",
+      "barcode": "2709240",
+      "barcodes": "",
+      "Product Description": "NF MLABBAS CHOCO NT 100G",
+      "product_description": "NF MLABBAS CHOCO NT 100G",
+      "description": "NF MLABBAS CHOCO NT 100G",
+      "brand": "",
+      "supplier": "NOUNA'S FOOD",
+      "SUPPLIERS": "NOUNA'S FOOD",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "SWEET & CANDIES",
+      "subcategory": "SWEET & CANDIES",
+      "subCategory": "SWEET & CANDIES",
+      "unit": "EACH",
+      "VAT": "NO",
+      "vat": "no",
+      "price_lbp": "350,000",
+      "cost": "3.24",
+      "total_stock": "4",
+      "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "1",
-      "consumption_in_geitawi_branch": "0",
-      "total_stock": "-1",
-      "total_consumption": "1",
+      "stock_in_medawar_branch": "0",
       "branches": {
-        "Geitawi": {
-          "stock": "0",
-          "consumption": "0"
+        "geitawi": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0",
+          "consumption": "0.0"
+        },
+        "the_daily_market": {
+          "stock": "0.0",
+          "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "-1",
-          "consumption": "1"
+          "stock": "0",
+          "consumption": "0.0"
+        },
+        "Geitawi": {
+          "consumption": "0.0",
+          "stock": "0"
+        },
+        "Nouna": {
+          "stock": "4",
+          "consumption": "0"
         }
       },
-      "barcode": "2709420",
+      "created_by_user_code": "1",
+      "createdByUserCode": "1",
+      "import_source": "active products listing.pdf",
+      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
+      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
       "barcode2": "",
-      "barcodes": "",
-      "Product Description": "NF WAFER CHOCO NT 55 G",
-      "SUPPLIERS": "NOUNA'S FOOD",
-      "unit": "-",
-      "category": "NOUNA'S FOOD",
-      "sub_category": "NOUNA'S FOOD",
-      "offers": "",
-      "expiry_days": "180",
-      "VAT": "NO",
-      "price_lbp": "200,000",
-      "price_usd": "2.22",
-      "cost": "1.87",
-      "cost_ht": "170000.00",
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500009.jpg",
-      "new_items": "x",
-      "manual": "",
-      "delivery_rules": "0.005",
-      "linked_profile_enabled": true,
-      "linked_profile_repo_root": "Nounas_Food",
-      "linked_profile_item_id": "200029",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
-      "product_setup_save_token": "PS-SAVE-500009-1777542606080223",
-      "product_setup_saved_at_utc": "2026-04-30T09:50:06.080223Z",
-      "name": "NF WAFER CHOCO NT 55 G",
-      "supplier": "NOUNA'S FOOD",
-      "subcategory": "NOUNA'S FOOD",
-      "vat": "no",
-      "sub": "NOUNA'S FOOD",
+      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
+      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
+      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
+      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
+      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
+      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
+      "name": "NF MLABBAS CHOCO NT 100G",
+      "consumption_in_geitawi_branch": "0.0",
+      "consumption_in_medawar_branch": "0.0",
+      "stock_in_the_daily_market_branch": "0.0",
+      "consumption_in_the_daily_market_branch": "0.0",
+      "sub": "SWEET & CANDIES",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "user2_unify_old_id": "500009",
+      "offers": "",
+      "new_items": "",
+      "manual": "",
+      "delivery_rules": "0.005",
+      "cost_ht": "3.24",
+      "costUsd": 3.24,
+      "cost_ht_usd": 3.24,
+      "cost_formula": "sale_price_usd_div_1.2",
+      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "200027",
+      "user2_unify_old_id": "21053",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "totalStock": "-1"
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "365",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "price_usd": "3.89",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID200027.jpg",
+      "totalStock": "4",
+      "secondBarcode": "",
+      "expiryDays": 365,
+      "linked_profile_category": "CHOCOLATE AND DRAGEE",
+      "linked_profile_sub_category": "CHOCOLATE AND DRAG├ëE",
+      "stock_in_nouna_branch": "4"
     },
     {
       "id": "200032",
-      "barcode": "",
+      "barcode": "2709422",
       "barcodes": "",
       "Product Description": "NF HONEY GRANOLA NT 150G (130 Cal)",
       "product_description": "NF HONEY GRANOLA NT 150G (130 Cal)",
@@ -857,6 +1093,10 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "name": "NF HONEY GRANOLA NT 150G (130 Cal)",
@@ -870,11 +1110,20 @@
       "totalStock": "1",
       "user2_unify_old_id": "2709440",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "barcode2": "",
+      "secondBarcode": "",
+      "description": "NF HONEY GRANOLA NT 150G (130 Cal)",
+      "expiry_days": "365",
+      "expiryDays": 365,
+      "subCategory": "NOUNA'S FOOD",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200033",
-      "barcode": "",
+      "barcode": "2709425",
       "barcodes": "",
       "Product Description": "NF OAT FLAKES NT 200G",
       "product_description": "NF OAT FLAKES NT 200G",
@@ -908,6 +1157,10 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "name": "NF OAT FLAKES NT 200G",
@@ -921,11 +1174,20 @@
       "totalStock": "1",
       "user2_unify_old_id": "2709441",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "barcode2": "",
+      "secondBarcode": "",
+      "description": "NF OAT FLAKES NT 200G",
+      "expiry_days": "365",
+      "expiryDays": 365,
+      "subCategory": "NOUNA'S FOOD",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200034",
-      "barcode": "2709442",
+      "barcode": "2709426",
       "barcode2": "",
       "barcodes": "",
       "Product Description": "NF ENERGY COOKIE NT 70G",
@@ -934,7 +1196,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "expiry_days": "60",
+      "expiry_days": "180",
       "stock_in_geitawi_branch": "53",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "10",
@@ -953,8 +1215,8 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200034",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
       "branches": {
         "Geitawi": {
           "stock": "53",
@@ -963,6 +1225,10 @@
         "Medawar": {
           "stock": "10",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-2709442-1778303332262468",
@@ -978,7 +1244,13 @@
       "totalStock": "63",
       "user2_unify_old_id": "2709442",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "secondBarcode": "",
+      "product_description": "NF ENERGY COOKIE NT 70G",
+      "description": "NF ENERGY COOKIE NT 70G",
+      "expiryDays": 180,
+      "subCategory": "NOUNA'S FOOD",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200036",
@@ -1043,7 +1315,7 @@
     },
     {
       "id": "200037",
-      "barcode": "",
+      "barcode": "2709445",
       "barcodes": "",
       "Product Description": "NF DATES ALMOND 6 PCS",
       "product_description": "NF DATES ALMOND 6 PCS",
@@ -1079,7 +1351,8 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "8"
+          "stock": "8",
+          "consumption": "0"
         }
       },
       "totalStock": "31",
@@ -1087,6 +1360,17 @@
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
       "stock_in_nouna_branch": "8",
+      "barcode2": "",
+      "secondBarcode": "",
+      "description": "NF DATES ALMOND 6 PCS",
+      "name": "NF DATES ALMOND 6 PCS",
+      "expiry_days": "365",
+      "expiryDays": 365,
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
       "VAT": "NO"
     },
     {
@@ -1168,7 +1452,7 @@
       "vat": "no",
       "price_lbp": "450,000",
       "price_usd": "5.00",
-      "cost": "0.00",
+      "cost": "4.25",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2709454.jpg",
       "new_items": "x",
       "manual": "",
@@ -1186,14 +1470,18 @@
         "Medawar": {
           "stock": "-1",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "totalStock": "1",
-      "barcode2": "",
+      "barcode2": "2709460",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
-      "expiry_days": "0",
+      "expiry_days": "180",
       "VAT": "NO",
       "non_stockable": false,
       "nonStockable": false,
@@ -1206,7 +1494,17 @@
       "cost_ht": "0.00",
       "user2_unify_old_id": "2709454",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "secondBarcode": "2709460",
+      "description": "NF OATS & DATES BALLS",
+      "name": "NF OATS & DATES BALLS",
+      "expiryDays": 180,
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200042",
@@ -1244,6 +1542,10 @@
         "Medawar": {
           "stock": "2",
           "consumption": "1"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "name": "CLUB SANDWICH TURKEY &CHEESE BROWN",
@@ -1259,7 +1561,7 @@
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
-      "expiry_days": "0",
+      "expiry_days": "5",
       "non_stockable": false,
       "nonStockable": false,
       "scale_item_enabled": false,
@@ -1271,7 +1573,14 @@
       "cost_ht": "3.89",
       "user2_unify_old_id": "2709456",
       "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z"
+      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "secondBarcode": "",
+      "description": "CLUB SANDWICH TURKEY &CHEESE BROWN",
+      "expiryDays": 5,
+      "subCategory": "NOUNA'S FOOD",
+      "linked_profile_category": "SANDWICHES",
+      "linked_profile_sub_category": "CLUB SANDWICHES",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "200044",
@@ -1330,7 +1639,7 @@
       "expiry_days": "365",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "1",
       "total_consumption": "1",
@@ -1346,31 +1655,42 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200046",
-      "linked_profile_category": "FOOD",
-      "linked_profile_sub_category": "SEEDS",
+      "linked_profile_category": "HEALTHY CHOICES",
+      "linked_profile_sub_category": "HEALTHY CHOICES",
       "branches": {
         "Geitawi": {
           "stock": "1",
           "consumption": "1.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
-      "Product Description": "NF SWEET & SPICY ROASTED NUTS NT 80 G",
-      "name": "NF SWEET & SPICY ROASTED NUTS NT 80 G",
+      "Product Description": "NF SWEET & SPICY ROASTED NUTS NT 80G",
+      "name": "NF SWEET & SPICY ROASTED NUTS NT 80G",
       "productDescription": "NF SWEET & SPICY ROASTED NUTS NT 80 G",
-      "description": "NF SWEET & SPICY ROASTED NUTS NT 80 G",
+      "description": "NF SWEET & SPICY ROASTED NUTS NT 80G",
       "totalStock": "1",
       "user2_unify_old_id": "7000008",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
+      "secondBarcode": "",
+      "product_description": "NF SWEET & SPICY ROASTED NUTS NT 80G",
+      "expiryDays": 365,
+      "subcategory": "SEEDS",
+      "subCategory": "SEEDS",
+      "supplier": "NOUNA'S FOOD",
+      "stock_in_nouna_branch": "0",
       "vat": "no"
     },
     {
       "id": "200047",
-      "barcode": "",
+      "barcode": "2709407",
       "barcodes": "",
       "Product Description": "NF BISCUIT RAHA 1PC",
       "product_description": "NF BISCUIT RAHA 1PC",
@@ -1406,7 +1726,8 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "-5"
+          "stock": "-5",
+          "consumption": "0"
         }
       },
       "name": "NF BISCUIT RAHA 1PC",
@@ -1421,14 +1742,22 @@
       "user2_unify_old_id": "2709469",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "stock_in_nouna_branch": "-5"
+      "stock_in_nouna_branch": "-5",
+      "barcode2": "",
+      "secondBarcode": "",
+      "description": "NF BISCUIT RAHA 1PC",
+      "expiry_days": "0",
+      "expiryDays": 0,
+      "subCategory": "NOUNA'S FOOD",
+      "linked_profile_category": "SABLE AND PETIT FOUR",
+      "linked_profile_sub_category": "SABLE AND PETIT FOUR"
     },
     {
       "id": "200048",
       "barcode": "2709472",
       "barcodes": "",
-      "Product Description": "NF DRAGEE CHOCO NT 150g",
-      "product_description": "NF DRAGEE CHOCO NT 150g",
+      "Product Description": "NF DRAGEE CHOCO NT 150G",
+      "product_description": "NF DRAGEE CHOCO NT 150G",
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
@@ -1447,7 +1776,7 @@
       "manual": "",
       "delivery_rules": "",
       "SUPPLIERS": "NOUNA'S FOOD",
-      "unit": "",
+      "unit": "EACH",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200048",
@@ -1459,15 +1788,31 @@
         "Medawar": {
           "stock": "5",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "user2_unify_old_id": "2709465",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "VAT": "NO",
-      "totalStock": "5"
+      "barcode2": "",
+      "secondBarcode": "",
+      "description": "NF DRAGEE CHOCO NT 150G",
+      "name": "NF DRAGEE CHOCO NT 150G",
+      "expiry_days": "365",
+      "expiryDays": 365,
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "SWEET & CANDIES",
+      "stock_in_nouna_branch": "0",
+      "totalStock": "5",
+      "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-06-30T12:34:19.003457Z",
+  "updatedAt": "2026-06-30T12:38:08.304847Z",
   "source": "sql-relay-web"
 }
