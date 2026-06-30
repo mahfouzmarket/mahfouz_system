@@ -5228,7 +5228,7 @@
       "consumption_in_geitawi_branch": "46",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "6",
       "total_consumption": "46",
       "VAT": "NO",
       "price_lbp": "220,000",
@@ -5246,6 +5246,9 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "2"
         }
       },
       "barcodes": "",
@@ -5265,7 +5268,8 @@
       "name": "COCKTAIL BANANA AND STRAWBERRY 270 ML",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "4"
+      "totalStock": "6",
+      "stock_in_nouna_branch": "2"
     },
     {
       "id": "17298",
@@ -8786,7 +8790,7 @@
       "consumption_in_geitawi_branch": "42",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "13",
+      "total_stock": "15",
       "total_consumption": "42",
       "VAT": "NO",
       "price_lbp": "280,000",
@@ -8804,6 +8808,9 @@
         "Medawar": {
           "stock": "2",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "2"
         }
       },
       "barcode2": "",
@@ -8819,7 +8826,8 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "13"
+      "totalStock": "15",
+      "stock_in_nouna_branch": "2"
     },
     {
       "id": "17493",
@@ -9037,6 +9045,6 @@
       "totalStock": "8"
     }
   ],
-  "updatedAt": "2026-06-30T12:01:11.431127Z",
+  "updatedAt": "2026-06-30T12:03:07.322007Z",
   "source": "sql-relay-web"
 }
