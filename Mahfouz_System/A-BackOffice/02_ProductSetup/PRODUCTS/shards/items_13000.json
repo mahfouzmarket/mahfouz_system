@@ -4057,11 +4057,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "23",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "31",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -4073,7 +4073,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "8"
         },
         "Medawar": {
@@ -4096,7 +4096,7 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "13326",
@@ -4448,9 +4448,9 @@
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "2",
       "total_stock": "12",
       "total_consumption": "2",
@@ -4464,11 +4464,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "8",
           "consumption": "2"
         }
       },
@@ -6439,6 +6439,6 @@
       "totalStock": "93"
     }
   ],
-  "updatedAt": "2026-06-30T09:02:33.816581Z",
+  "updatedAt": "2026-06-30T09:05:05.812570Z",
   "source": "sql-relay-web"
 }
