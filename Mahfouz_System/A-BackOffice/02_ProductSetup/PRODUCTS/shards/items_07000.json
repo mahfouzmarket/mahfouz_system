@@ -222,11 +222,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "10",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "103",
       "stock_in_medawar_branch": "-14",
       "consumption_in_medawar_branch": "106",
-      "total_stock": "-4",
+      "total_stock": "-5",
       "total_consumption": "209",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -238,7 +238,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10",
+          "stock": "9",
           "consumption": "103"
         },
         "Medawar": {
@@ -252,7 +252,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-4"
+      "totalStock": "-5"
     },
     {
       "id": "7248",
@@ -804,7 +804,7 @@
       "id": "7362",
       "barcode": "10764",
       "Product Description": "RIMAS",
-      "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
+      "SUPPLIERS": "AL HATAB",
       "unit": "-",
       "category": "CHI TAYIB",
       "sub_category": "sweets",
@@ -842,7 +842,7 @@
       "subcategory": "sweets",
       "vat": "no",
       "barcode2": "5287001307177",
-      "barcodes": "5287001307177",
+      "barcodes": "",
       "expiry_days": "0",
       "cost_ht": "0.11",
       "linked_profile_enabled": false,
@@ -852,7 +852,18 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-7362-1778929096568110",
       "product_setup_saved_at_utc": "2026-05-16T10:58:16.568110Z",
-      "totalStock": "67"
+      "totalStock": "67",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "7444",
@@ -1170,6 +1181,6 @@
       "totalStock": "156"
     }
   ],
-  "updatedAt": "2026-06-30T14:35:41.618415Z",
+  "updatedAt": "2026-06-30T14:38:27.687226Z",
   "source": "sql-relay-web"
 }
