@@ -2100,9 +2100,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "125,000",
@@ -2118,7 +2118,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -2127,8 +2127,21 @@
       "subcategory": "shaving",
       "vat": "no",
       "barcode2": "6210260053799",
-      "barcodes": "6210260053799",
-      "totalStock": "0"
+      "barcodes": "",
+      "totalStock": "-1",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "cost_ht": "0.75"
     },
     {
       "id": "10849",
@@ -3321,6 +3334,6 @@
       "totalStock": "10"
     }
   ],
-  "updatedAt": "2026-06-30T07:31:18.228852Z",
+  "updatedAt": "2026-06-30T07:33:29.181774Z",
   "source": "sql-relay-web"
 }
