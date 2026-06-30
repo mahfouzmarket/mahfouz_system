@@ -93,9 +93,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "5",
+      "total_stock": "4",
       "total_consumption": "8",
       "VAT": "NO",
       "price_lbp": "845,000",
@@ -111,7 +111,7 @@
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "2"
         }
       },
@@ -121,7 +121,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "4"
     },
     {
       "id": "3079",
@@ -787,7 +787,7 @@
     {
       "id": "3284",
       "barcode": "528502700057",
-      "barcode2": "",
+      "barcode2": "5285027000577",
       "barcodes": "",
       "Product Description": "YUMMY GUMMY 70 GR",
       "SUPPLIERS": "NOUNA'S FOOD",
@@ -795,7 +795,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "SWEET & CANDIES",
       "offers": "0",
-      "expiry_days": "0",
+      "expiry_days": "180",
       "stock_in_geitawi_branch": "44",
       "consumption_in_geitawi_branch": "20",
       "stock_in_medawar_branch": "19",
@@ -811,11 +811,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "3284",
+      "linked_profile_category": "CANDIES",
+      "linked_profile_sub_category": "CANDIES",
       "branches": {
         "Geitawi": {
           "stock": "44",
@@ -826,7 +826,8 @@
           "consumption": "10"
         },
         "Nouna": {
-          "stock": "92"
+          "stock": "92",
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-3284-1778365094092752",
@@ -836,7 +837,12 @@
       "subcategory": "SWEET & CANDIES",
       "vat": "no",
       "totalStock": "155",
-      "stock_in_nouna_branch": "92"
+      "stock_in_nouna_branch": "92",
+      "secondBarcode": "5285027000577",
+      "product_description": "YUMMY GUMMY 70 GR",
+      "description": "YUMMY GUMMY 70 GR",
+      "expiryDays": 180,
+      "subCategory": "SWEET & CANDIES"
     },
     {
       "id": "3309",
@@ -1274,6 +1280,6 @@
       "totalStock": "284"
     }
   ],
-  "updatedAt": "2026-06-30T12:34:19.003457Z",
+  "updatedAt": "2026-06-30T12:38:08.304847Z",
   "source": "sql-relay-web"
 }
