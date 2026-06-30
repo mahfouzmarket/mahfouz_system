@@ -175,9 +175,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "54",
       "consumption_in_geitawi_branch": "38",
-      "stock_in_medawar_branch": "106",
+      "stock_in_medawar_branch": "105",
       "consumption_in_medawar_branch": "32",
-      "total_stock": "160",
+      "total_stock": "159",
       "total_consumption": "70",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -193,7 +193,7 @@
           "consumption": "38"
         },
         "Medawar": {
-          "stock": "106",
+          "stock": "105",
           "consumption": "32"
         }
       },
@@ -203,7 +203,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "160"
+      "totalStock": "159"
     },
     {
       "id": "14058",
@@ -1321,18 +1321,19 @@
           "consumption": "40"
         },
         "Nouna": {
-          "stock": "21"
+          "stock": "21",
+          "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "expiry_days": "15",
+      "expiry_days": "30",
       "cost_ht": "0.74",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "14113",
+      "linked_profile_category": "BROWNIES",
+      "linked_profile_sub_category": "BROWNIES",
       "sub": "NOUNA'S FOOD",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -1342,7 +1343,12 @@
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
       "totalStock": "36",
-      "stock_in_nouna_branch": "21"
+      "stock_in_nouna_branch": "21",
+      "secondBarcode": "",
+      "product_description": "NF BROWNI CHOCOLATE",
+      "description": "NF BROWNI CHOCOLATE",
+      "expiryDays": 30,
+      "subCategory": "NOUNA'S FOOD"
     },
     {
       "id": "14115",
@@ -1840,7 +1846,7 @@
     {
       "id": "14152",
       "barcode": "2700302",
-      "Product Description": "NOUNA'S FOOD LAZY CAKE",
+      "Product Description": "LAZY CAKE",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "NOUNA'S FOOD",
@@ -1870,7 +1876,8 @@
           "consumption": "12"
         },
         "Nouna": {
-          "stock": "7"
+          "stock": "7",
+          "consumption": "0"
         }
       },
       "sub": "NOUNA'S FOOD",
@@ -1882,18 +1889,23 @@
       "barcodes": "",
       "expiry_days": "15",
       "cost_ht": "1.26",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "14152",
+      "linked_profile_category": "CAKES BY PIECE",
+      "linked_profile_sub_category": "cakes by piece",
       "product_setup_save_token": "PS-SAVE-14152-1778337762353672",
       "product_setup_saved_at_utc": "2026-05-09T14:42:42.353672Z",
-      "name": "NOUNA'S FOOD LAZY CAKE",
+      "name": "LAZY CAKE",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
       "totalStock": "18",
-      "stock_in_nouna_branch": "7"
+      "stock_in_nouna_branch": "7",
+      "secondBarcode": "",
+      "product_description": "LAZY CAKE",
+      "description": "LAZY CAKE",
+      "expiryDays": 15,
+      "subCategory": "NOUNA'S FOOD"
     },
     {
       "id": "14153",
@@ -1967,16 +1979,20 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
-      "linked_profile_enabled": false,
+      "linked_profile_enabled": true,
       "barcode2": "",
-      "linked_profile_item_id": "",
-      "linked_profile_sub_category": "",
+      "linked_profile_item_id": "14154",
+      "linked_profile_sub_category": "SWEET & CANDIES",
       "barcodes": "",
-      "linked_profile_category": "",
-      "linked_profile_repo_root": "",
-      "expiry_days": "0",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_repo_root": "Nounas_Food",
+      "expiry_days": "10",
       "cost_ht": "1.42",
       "sub": "NOUNA'S FOOD",
       "secondary_category": "",
@@ -1986,7 +2002,13 @@
       "name": "NOUNA'S FOOD CAKE POPS",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "1"
+      "totalStock": "1",
+      "secondBarcode": "",
+      "product_description": "NOUNA'S FOOD CAKE POPS",
+      "description": "NOUNA'S FOOD CAKE POPS",
+      "expiryDays": 10,
+      "subCategory": "NOUNA'S FOOD",
+      "stock_in_nouna_branch": "0"
     },
     {
       "id": "14155",
@@ -4424,9 +4446,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "20",
       "consumption_in_geitawi_branch": "187",
-      "stock_in_medawar_branch": "23",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "199",
-      "total_stock": "43",
+      "total_stock": "39",
       "total_consumption": "386",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -4442,7 +4464,7 @@
           "consumption": "187"
         },
         "Medawar": {
-          "stock": "23",
+          "stock": "19",
           "consumption": "199"
         }
       },
@@ -4461,7 +4483,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-14364-1778924724892851",
       "product_setup_saved_at_utc": "2026-05-16T09:45:24.892851Z",
-      "totalStock": "43",
+      "totalStock": "39",
       "priceLbp": 120000.0,
       "priceUsd": 1.3333333333333333,
       "arabic_name": "",
@@ -6190,6 +6212,6 @@
       "totalStock": "-1"
     }
   ],
-  "updatedAt": "2026-06-30T12:34:19.003457Z",
+  "updatedAt": "2026-06-30T12:38:08.304847Z",
   "source": "sql-relay-web"
 }
