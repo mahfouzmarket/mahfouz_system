@@ -1160,11 +1160,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "217",
+      "stock_in_geitawi_branch": "216",
       "consumption_in_geitawi_branch": "1584",
       "stock_in_medawar_branch": "226",
       "consumption_in_medawar_branch": "1764",
-      "total_stock": "443",
+      "total_stock": "442",
       "total_consumption": "3348",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -1176,7 +1176,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "217",
+          "stock": "216",
           "consumption": "1584"
         },
         "Medawar": {
@@ -1199,7 +1199,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-12701-1778933772132179",
       "product_setup_saved_at_utc": "2026-05-16T12:16:12.132179Z",
-      "totalStock": "443",
+      "totalStock": "442",
       "priceLbp": 80000.0,
       "priceUsd": 0.8888888888888888,
       "arabic_name": "",
@@ -1286,11 +1286,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "34",
+      "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "286",
       "stock_in_medawar_branch": "43",
       "consumption_in_medawar_branch": "481",
-      "total_stock": "77",
+      "total_stock": "76",
       "total_consumption": "767",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -1302,7 +1302,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "34",
+          "stock": "33",
           "consumption": "286"
         },
         "Medawar": {
@@ -1325,7 +1325,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12707-1778933947538790",
       "product_setup_saved_at_utc": "2026-05-16T12:19:07.538790Z",
-      "totalStock": "77",
+      "totalStock": "76",
       "priceLbp": 80000.0,
       "priceUsd": 0.8888888888888888,
       "arabic_name": "",
@@ -3036,11 +3036,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Croissant",
       "offers": "0",
-      "stock_in_geitawi_branch": "-53",
+      "stock_in_geitawi_branch": "-54",
       "consumption_in_geitawi_branch": "238",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "345",
-      "total_stock": "-53",
+      "total_stock": "-54",
       "total_consumption": "583",
       "VAT": "NO",
       "price_lbp": "65,000",
@@ -3052,7 +3052,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-53",
+          "stock": "-54",
           "consumption": "238"
         },
         "Medawar": {
@@ -3077,7 +3077,7 @@
       "name": "CROISSANT CRISPY CHOCOLATE",
       "subcategory": "Croissant",
       "vat": "no",
-      "totalStock": "-53",
+      "totalStock": "-54",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -4452,19 +4452,26 @@
       "productDescription": "TANNOURINE WATER 0.5 x 12 pcs",
       "description": "TANNOURINE WATER 0.5 x 12 pcs",
       "product_description": "TANNOURINE WATER 0.5 x 12 pcs",
-      "is_bulk": true,
-      "ignore_stock": true,
-      "bulk_parent_id": 1433,
+      "is_bulk": 1,
+      "ignore_stock": 1,
+      "bulk_parent_id": 90151,
       "bulk_qty": 12,
       "supplier": "TANNOURINE",
       "subcategory": "MINERAL WATER",
       "vat": "yes",
-      "base_id": "1433",
+      "base_id": 90151,
       "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "-8"
+      "totalStock": "-8",
+      "isBulk": 1,
+      "ignoreStock": 1,
+      "bulkParentId": 90151,
+      "baseId": 90151,
+      "bulkQty": 12,
+      "pcsInBox": 12,
+      "updated_at_utc": "2026-06-30T13:28:03.283Z"
     },
     {
       "id": "12972",
@@ -4748,6 +4755,6 @@
       "totalStock": "21"
     }
   ],
-  "updatedAt": "2026-06-30T13:27:38.564833Z",
+  "updatedAt": "2026-06-30T13:30:07.193386Z",
   "source": "sql-relay-web"
 }
