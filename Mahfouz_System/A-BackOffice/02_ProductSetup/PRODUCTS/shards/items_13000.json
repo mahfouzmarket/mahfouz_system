@@ -4151,11 +4151,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "23",
-      "total_stock": "0",
+      "total_stock": "-2",
       "total_consumption": "31",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -4167,7 +4167,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "-1",
           "consumption": "8"
         },
         "Medawar": {
@@ -4190,7 +4190,7 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-2"
     },
     {
       "id": "13326",
@@ -6546,6 +6546,6 @@
       "totalStock": "91"
     }
   ],
-  "updatedAt": "2026-07-01T03:32:19.583607Z",
+  "updatedAt": "2026-07-01T03:33:42.975037Z",
   "source": "sql-relay-web"
 }
