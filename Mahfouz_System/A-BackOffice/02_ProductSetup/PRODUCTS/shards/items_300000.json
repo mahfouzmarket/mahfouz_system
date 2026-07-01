@@ -3134,9 +3134,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "41",
-      "stock_in_medawar_branch": "38",
+      "stock_in_medawar_branch": "37",
       "consumption_in_medawar_branch": "23",
-      "total_stock": "41",
+      "total_stock": "40",
       "total_consumption": "64",
       "VAT": "YES",
       "price_lbp": "110,000",
@@ -3158,7 +3158,7 @@
           "consumption": "41"
         },
         "Medawar": {
-          "stock": "38",
+          "stock": "37",
           "consumption": "23"
         }
       },
@@ -3168,7 +3168,7 @@
       "supplier": "TRANSMED F&B SAL LBP",
       "subcategory": "sweets",
       "vat": "yes",
-      "totalStock": "41"
+      "totalStock": "40"
     },
     {
       "id": "300070",
@@ -9858,14 +9858,17 @@
       "cost_ht": "0.57",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300210.jpg",
       "new_items": "x",
-      "total_stock": "2",
-      "totalStock": "2",
-      "stock_in_medawar_branch": "2",
+      "total_stock": "1",
+      "totalStock": "1",
+      "stock_in_medawar_branch": "1",
       "branches": {
         "Medawar": {
-          "stock": "2"
+          "stock": "1",
+          "consumption": "0"
         }
       },
+      "consumption_in_medawar_branch": "0",
+      "total_consumption": "0",
       "vat": "yes"
     },
     {
@@ -19349,6 +19352,6 @@
       "branches": {}
     }
   ],
-  "updatedAt": "2026-07-01T08:54:33.756235Z",
+  "updatedAt": "2026-07-01T08:57:31.332563Z",
   "source": "sql-relay-web"
 }
