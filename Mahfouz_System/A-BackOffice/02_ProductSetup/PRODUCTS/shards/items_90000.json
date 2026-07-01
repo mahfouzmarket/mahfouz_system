@@ -16,7 +16,7 @@
       "consumption_in_geitawi_branch": "18",
       "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "14",
+      "total_stock": "16",
       "total_consumption": "23",
       "VAT": "NO",
       "price_lbp": "220,000",
@@ -42,7 +42,7 @@
           "consumption": "5"
         },
         "Nouna": {
-          "stock": "8",
+          "stock": "10",
           "consumption": "0"
         }
       },
@@ -56,8 +56,8 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "14",
-      "stock_in_nouna_branch": "8",
+      "totalStock": "16",
+      "stock_in_nouna_branch": "10",
       "secondBarcode": "",
       "product_description": "NF BROOKIE",
       "description": "NF BROOKIE",
@@ -849,7 +849,7 @@
       "consumption_in_geitawi_branch": "30",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "15",
+      "total_stock": "20",
       "total_consumption": "43",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -869,7 +869,7 @@
           "consumption": "13"
         },
         "Nouna": {
-          "stock": "6",
+          "stock": "11",
           "consumption": "0"
         }
       },
@@ -886,13 +886,13 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "15",
+      "totalStock": "20",
       "secondBarcode": "",
       "product_description": "CUSTARD MIX",
       "description": "CUSTARD MIX",
       "expiryDays": 10,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "6"
+      "stock_in_nouna_branch": "11"
     },
     {
       "id": "90083",
@@ -1042,6 +1042,8 @@
       "totalStock": "3",
       "stock_in_nouna_branch": "2",
       "priceLbp": 400000,
+      "expiry_days": "5",
+      "expiryDays": 5,
       "VAT": "NO"
     },
     {
@@ -1504,17 +1506,17 @@
     {
       "id": "90151",
       "barcode": "5283007434053",
-      "Product Description": "TANNOURINE WATER 0.5",
+      "Product Description": "WATER",
       "SUPPLIERS": "TANNOURINE",
       "unit": "-",
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "4182",
+      "stock_in_geitawi_branch": "4183",
       "consumption_in_geitawi_branch": "1322",
-      "stock_in_medawar_branch": "13294",
+      "stock_in_medawar_branch": "13292",
       "consumption_in_medawar_branch": "1883",
-      "total_stock": "17485",
+      "total_stock": "34992",
       "total_consumption": "3205",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -1526,28 +1528,28 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4182",
+          "stock": "4183",
           "consumption": "1322"
         },
         "Medawar": {
-          "stock": "13294",
+          "stock": "13292",
           "consumption": "1883"
         },
         "Nouna": {
-          "stock": "9",
+          "stock": "17517",
           "consumption": "0"
         }
       },
-      "name": "TANNOURINE WATER 0.5",
+      "name": "WATER",
       "supplier": "TANNOURINE",
       "subcategory": "MINERAL WATER",
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17485",
+      "totalStock": "34992",
       "secondBarcode": "",
-      "product_description": "TANNOURINE WATER 0.5",
-      "description": "TANNOURINE WATER 0.5",
+      "product_description": "WATER",
+      "description": "WATER",
       "expiry_days": "0",
       "expiryDays": 0,
       "subCategory": "MINERAL WATER",
@@ -1556,7 +1558,7 @@
       "linked_profile_item_id": "90151",
       "linked_profile_category": "COLD DRINKS",
       "linked_profile_sub_category": "COLD DRINKS",
-      "stock_in_nouna_branch": "9",
+      "stock_in_nouna_branch": "17517",
       "updated_at_utc": "2026-06-30T13:30:05.344Z"
     },
     {
@@ -1572,7 +1574,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "106",
+      "total_stock": "157",
       "total_consumption": "0",
       "vat": "no",
       "price_lbp": "220,000",
@@ -1597,7 +1599,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "53",
+          "stock": "104",
           "consumption": "0"
         }
       },
@@ -1616,8 +1618,8 @@
       "linked_profile_sub_category": "COLD DRINKS",
       "product_setup_save_token": "PS-SAVE-90153-1778490719920000",
       "product_setup_saved_at_utc": "2026-05-11T09:11:59.920Z",
-      "totalStock": "106",
-      "stock_in_nouna_branch": "53",
+      "totalStock": "157",
+      "stock_in_nouna_branch": "104",
       "secondBarcode": "",
       "description": "COCKTAIL AVOCAT",
       "expiryDays": 5,
@@ -4120,6 +4122,6 @@
       "priceLbp": 80000
     }
   ],
-  "updatedAt": "2026-07-01T05:49:47.601881Z",
+  "updatedAt": "2026-07-01T05:52:44.818123Z",
   "source": "sql-relay-web"
 }
