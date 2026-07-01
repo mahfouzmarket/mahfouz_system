@@ -963,10 +963,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "1",
-      "consumption_in_geitawi_branch": "6",
-      "consumption_in_medawar_branch": "5",
+      "consumption_in_geitawi_branch": "1",
+      "consumption_in_medawar_branch": "0",
       "total_stock": "19",
-      "total_consumption": "11",
+      "total_consumption": "1",
       "vat": "no",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -983,11 +983,11 @@
       "branches": {
         "Geitawi": {
           "stock": "11",
-          "consumption": "6"
+          "consumption": "1"
         },
         "Medawar": {
           "stock": "1",
-          "consumption": "5"
+          "consumption": "0"
         },
         "Nouna": {
           "stock": "7",
@@ -1019,7 +1019,8 @@
       "subCategory": "NOUNA'S FOOD",
       "supplier": "NOUNA'S FOOD",
       "linked_profile_category": "WORLD CUP 2026",
-      "linked_profile_sub_category": "WORLD CUP 2026"
+      "linked_profile_sub_category": "WORLD CUP 2026",
+      "consumption_in_nouna_branch": "0"
     },
     {
       "id": "8000087",
@@ -1612,6 +1613,6 @@
       "linked_profile_sub_category": "SABLE AND PETIT FOUR"
     }
   ],
-  "updatedAt": "2026-07-01T07:47:18.776754Z",
+  "updatedAt": "2026-07-01T07:50:21.252719Z",
   "source": "sql-relay-web"
 }
