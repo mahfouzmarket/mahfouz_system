@@ -3213,10 +3213,15 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
+      "stock_in_nouna_branch": "0",
       "totalStock": "0"
     },
     {
@@ -3869,7 +3874,7 @@
       "consumption_in_geitawi_branch": "54",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "14",
-      "total_stock": "-4",
+      "total_stock": "-11",
       "total_consumption": "68",
       "VAT": "YES",
       "price_lbp": "235,000",
@@ -3889,7 +3894,7 @@
           "consumption": "14"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "-7",
           "consumption": "0"
         }
       },
@@ -3910,13 +3915,13 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "-4",
+      "totalStock": "-11",
       "secondBarcode": "",
       "product_description": "LA PIARA MORTADELLE OLIVE 200 GR",
       "description": "LA PIARA MORTADELLE OLIVE 200 GR",
       "expiryDays": 30,
       "subCategory": "CHARCUTERIE",
-      "stock_in_nouna_branch": "0"
+      "stock_in_nouna_branch": "-7"
     },
     {
       "id": "18193",
@@ -9286,6 +9291,6 @@
       "totalStock": "-3"
     }
   ],
-  "updatedAt": "2026-07-01T05:16:53.886916Z",
+  "updatedAt": "2026-07-01T05:29:30.687322Z",
   "source": "sql-relay-web"
 }
