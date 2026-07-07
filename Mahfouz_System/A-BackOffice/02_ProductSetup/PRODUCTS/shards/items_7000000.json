@@ -31,8 +31,8 @@
       "VAT": "NO",
       "price_lbp": "450,000",
       "price_usd": "5.00",
-      "cost": "4.25",
-      "cost_ht": "382500.00",
+      "cost": "382500.00",
+      "cost_ht": 382500.0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000001.jpg",
       "new_items": "x",
       "manual": "",
@@ -50,6 +50,11 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
+      "cost_ttc": 382500.0,
+      "cost_currency": "LBP",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "P1777142869634",
+      "latest_purchase_cost_date": "2026-04-25",
       "totalStock": "3"
     },
     {
@@ -83,8 +88,8 @@
       "VAT": "NO",
       "price_lbp": "70,000",
       "price_usd": "0.78",
-      "cost": "59500.00",
-      "cost_ht": "59500.00",
+      "cost": "0.67",
+      "cost_ht": 0.666666666666667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000002.jpg",
       "new_items": "x",
       "manual": "",
@@ -102,6 +107,14 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
+      "cost_ttc": 0.666666666666667,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-04-GEITAWI-9178",
+      "latest_purchase_cost_date": "2026-05-04",
+      "costHtUsd": 0.666666666666667,
+      "cost_ht_usd": 0.666666666666667,
+      "costTtcUsd": 0.666666666666667,
       "totalStock": "0"
     },
     {
@@ -126,7 +139,7 @@
       "price_lbp": "115,000",
       "price_usd": "1.28",
       "cost": "0.78",
-      "cost_ht": "0.93",
+      "cost_ht": 0.78,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000004.jpg",
       "new_items": "x",
       "manual": "",
@@ -153,7 +166,7 @@
       "subcategory": "nail & skin care",
       "vat": "yes",
       "costUsd": 0.93,
-      "cost_ht_usd": 0.93,
+      "cost_ht_usd": 0.78,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "sub": "nail & skin care",
@@ -163,7 +176,14 @@
       "totalStock": "3",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000004.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000004.jpg",
-      "image_updated_at_utc": "2026-06-29T14:16:58.479294Z"
+      "image_updated_at_utc": "2026-06-29T14:16:58.479294Z",
+      "cost_ttc": 0.8658,
+      "cost_currency": "USD",
+      "cost_vat_included": 1,
+      "latest_purchase_cost_doc_id": "P1778662902266",
+      "latest_purchase_cost_date": "2026-05-13",
+      "costHtUsd": 0.78,
+      "costTtcUsd": 0.8658
     },
     {
       "id": "7000006",
@@ -187,7 +207,7 @@
       "price_lbp": "115,000",
       "price_usd": "1.28",
       "cost": "0.78",
-      "cost_ht": "0.78",
+      "cost_ht": 0.78,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000006.jpg",
       "new_items": "x",
       "manual": "",
@@ -210,7 +230,7 @@
       "product_setup_save_token": "PS-SAVE-7000006-1778656871947971",
       "product_setup_saved_at_utc": "2026-05-13T07:21:11.947971Z",
       "costUsd": 0.93,
-      "cost_ht_usd": 0.93,
+      "cost_ht_usd": 0.78,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "name": "NAIL POLISH REMOVER LILAC MIST ALMA 125 ML",
@@ -227,7 +247,14 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "cost_ttc": 0.8658,
+      "cost_currency": "USD",
+      "cost_vat_included": 1,
+      "latest_purchase_cost_doc_id": "P1778662902266",
+      "latest_purchase_cost_date": "2026-05-13",
+      "costHtUsd": 0.78,
+      "costTtcUsd": 0.8658
     },
     {
       "id": "7000012",
@@ -240,14 +267,14 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "0",
       "total_stock": "0",
-      "total_consumption": "1",
+      "total_consumption": "0",
       "vat": "no",
       "price_lbp": "360,000",
       "price_usd": "4.00",
-      "cost": "0.00",
+      "cost": "3.40",
       "imageURL": "",
       "new_items": "x",
       "manual": "",
@@ -260,14 +287,15 @@
       "branches": {
         "Medawar": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "0"
         },
         "Geitawi": {
           "stock": "0",
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "totalStock": "0",
@@ -281,7 +309,16 @@
       "expiry_days": 365,
       "expiryDays": 365,
       "stock_in_nouna_branch": "0",
-      "consumption_in_nouna_branch": "0.0",
+      "consumption_in_nouna_branch": "0",
+      "cost_ttc": 3.4,
+      "cost_ht": 3.4,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_MEDAWAR_00000073-70-N-win_de-1779353363910035",
+      "latest_purchase_cost_date": "2026-05-21",
+      "costHtUsd": 3.4,
+      "cost_ht_usd": 3.4,
+      "costTtcUsd": 3.4,
       "VAT": "NO"
     },
     {
@@ -293,16 +330,16 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "6.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
-      "total_consumption": "6",
+      "consumption_in_geitawi_branch": "4",
+      "consumption_in_medawar_branch": "0",
+      "total_stock": "2",
+      "total_consumption": "10",
       "vat": "no",
       "price_lbp": "600,000",
       "price_usd": "6.67",
-      "cost": "0.00",
+      "cost": "5.67",
       "imageURL": "",
       "new_items": "x",
       "manual": "",
@@ -314,25 +351,26 @@
       "linked_profile_item_id": "7000028",
       "branches": {
         "Geitawi": {
-          "stock": "0",
-          "consumption": "6"
+          "stock": "1",
+          "consumption": "4"
         },
         "Medawar": {
           "stock": "0",
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0"
+          "stock": "1",
+          "consumption": "6"
         }
       },
-      "totalStock": "0",
+      "totalStock": "2",
       "name": "CREAM CHEESE & AVOCADO BAGEL",
       "barcode2": "",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "expiry_days": 4,
       "VAT": "NO",
-      "cost_ht": "0.00",
+      "cost_ht": 5.666667,
       "arabic_name": "",
       "name_ar": "",
       "non_stockable": false,
@@ -343,8 +381,16 @@
       "product_setup_saved_at_utc": "2026-06-04T06:28:13.225528Z",
       "description": "CREAM CHEESE & AVOCADO BAGEL",
       "expiryDays": 4,
-      "stock_in_nouna_branch": "0",
-      "consumption_in_nouna_branch": "6.0"
+      "stock_in_nouna_branch": "1",
+      "consumption_in_nouna_branch": "6",
+      "cost_ttc": 5.666667,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001313-80-N-win_no-1783337389046305",
+      "latest_purchase_cost_date": "2026-07-06",
+      "costHtUsd": 5.666667,
+      "cost_ht_usd": 5.666667,
+      "costTtcUsd": 5.666667
     },
     {
       "id": "7000031",
@@ -355,12 +401,12 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "1",
-      "consumption_in_geitawi_branch": "4",
+      "consumption_in_geitawi_branch": "5",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
-      "total_consumption": "4",
+      "total_stock": "4",
+      "total_consumption": "5",
       "vat": "no",
       "price_lbp": "600,000",
       "price_usd": "6.67",
@@ -376,19 +422,19 @@
       "linked_profile_item_id": "7000031",
       "branches": {
         "Geitawi": {
-          "stock": "0",
-          "consumption": "4.0"
+          "stock": "1",
+          "consumption": "5"
         },
         "Medawar": {
           "stock": "1",
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         }
       },
-      "totalStock": "1",
+      "totalStock": "4",
       "name": "HALLOUM PESTO BAGEL",
       "barcode2": "",
       "supplier": "NOUNA'S FOOD",
@@ -397,7 +443,7 @@
       "priceUsd": 30.10548888888889,
       "expiry_days": "4",
       "VAT": "NO",
-      "cost_ht": "0.00",
+      "cost_ht": 5.666667,
       "arabic_name": "",
       "name_ar": "",
       "non_stockable": false,
@@ -410,10 +456,18 @@
       "description": "HALLOUM PESTO BAGEL",
       "expiryDays": 4,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "2",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000031.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000031.jpg",
-      "image_updated_at_utc": "2026-07-01T07:25:28.443407Z"
+      "image_updated_at_utc": "2026-07-01T07:25:28.443407Z",
+      "cost_ttc": 5.666667,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001312-80-N-win_no-1783333486063399",
+      "latest_purchase_cost_date": "2026-07-06",
+      "costHtUsd": 5.666667,
+      "cost_ht_usd": 5.666667,
+      "costTtcUsd": 5.666667
     },
     {
       "id": "7000033",
@@ -424,16 +478,16 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "4.0",
-      "consumption_in_medawar_branch": "1.0",
-      "total_stock": "0",
-      "total_consumption": "5",
+      "consumption_in_geitawi_branch": "2",
+      "consumption_in_medawar_branch": "1",
+      "total_stock": "2",
+      "total_consumption": "9",
       "vat": "no",
       "price_lbp": "550,000",
       "price_usd": "6.11",
-      "cost": "0.00",
+      "cost": "5.19",
       "imageURL": "",
       "new_items": "x",
       "manual": "",
@@ -445,18 +499,19 @@
       "linked_profile_item_id": "7000033",
       "branches": {
         "Geitawi": {
-          "stock": "0",
-          "consumption": "4"
+          "stock": "1",
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "0",
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "0"
+          "stock": "1",
+          "consumption": "6"
         }
       },
-      "totalStock": "0",
+      "totalStock": "2",
       "name": "TURKEY & CHEDDAR BAGEL",
       "barcode2": "",
       "supplier": "NOUNA'S FOOD",
@@ -466,8 +521,17 @@
       "description": "TURKEY & CHEDDAR BAGEL",
       "expiry_days": 4,
       "expiryDays": 4,
-      "stock_in_nouna_branch": "0",
-      "consumption_in_nouna_branch": "6.0",
+      "stock_in_nouna_branch": "1",
+      "consumption_in_nouna_branch": "6",
+      "cost_ttc": 5.194444,
+      "cost_ht": 5.194444,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001312-80-N-win_no-1783333486063399",
+      "latest_purchase_cost_date": "2026-07-06",
+      "costHtUsd": 5.194444,
+      "cost_ht_usd": 5.194444,
+      "costTtcUsd": 5.194444,
       "VAT": "NO"
     },
     {
@@ -480,10 +544,10 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "6",
       "vat": "no",
       "price_lbp": "550,000",
@@ -504,22 +568,22 @@
           "consumption": "6.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         }
       },
-      "totalStock": "0",
+      "totalStock": "2",
       "name": "TURKEY & EMMENTAL BAGEL",
       "barcode2": "",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "expiry_days": "4",
       "VAT": "NO",
-      "cost_ht": "0.00",
+      "cost_ht": 5.194444,
       "arabic_name": "",
       "name_ar": "",
       "non_stockable": false,
@@ -532,10 +596,18 @@
       "description": "TURKEY & EMMENTAL BAGEL",
       "expiryDays": 4,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "1",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000035.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000035.jpg",
-      "image_updated_at_utc": "2026-07-01T07:26:22.700282Z"
+      "image_updated_at_utc": "2026-07-01T07:26:22.700282Z",
+      "cost_ttc": 5.194444,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001312-80-N-win_no-1783333486063399",
+      "latest_purchase_cost_date": "2026-07-06",
+      "costHtUsd": 5.194444,
+      "cost_ht_usd": 5.194444,
+      "costTtcUsd": 5.194444
     },
     {
       "id": "7000043",
@@ -548,10 +620,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "0",
       "total_stock": "-1",
-      "total_consumption": "1",
+      "total_consumption": "2",
       "vat": "no",
       "price_lbp": "650,000",
       "price_usd": "0.00",
@@ -568,7 +640,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "0",
@@ -593,6 +665,15 @@
       "linked_profile_category": "SALAD",
       "linked_profile_sub_category": "READY TO EAT",
       "consumption_in_nouna_branch": "0",
+      "cost_ttc": 6.138889,
+      "cost_ht": 6.138889,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001234-80-N-win_no-1783011863878797",
+      "latest_purchase_cost_date": "2026-07-02",
+      "costHtUsd": 6.138889,
+      "cost_ht_usd": 6.138889,
+      "costTtcUsd": 6.138889,
       "VAT": "NO"
     },
     {
@@ -613,7 +694,7 @@
       "vat": "no",
       "price_lbp": "250,000",
       "price_usd": "2.78",
-      "cost": "212500.00",
+      "cost": "2.36",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000046.jpg",
       "new_items": "x",
       "manual": "",
@@ -652,7 +733,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "0.00",
+      "cost_ht": 2.361111,
       "secondBarcode": "",
       "description": "NF FATHER'S DAY COOKIE 1PC",
       "name": "NF FATHER'S DAY COOKIE 1PC",
@@ -662,7 +743,15 @@
       "supplier": "NOUNA'S FOOD",
       "linked_profile_category": "FATHER'S DAY",
       "linked_profile_sub_category": "FATHER'S DAY",
-      "stock_in_nouna_branch": "0"
+      "stock_in_nouna_branch": "0",
+      "cost_ttc": 2.361111,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00000879-60-N-win_de-1781974995957022",
+      "latest_purchase_cost_date": "2026-06-20",
+      "costHtUsd": 2.361111,
+      "cost_ht_usd": 2.361111,
+      "costTtcUsd": 2.361111
     },
     {
       "id": "7000053",
@@ -673,12 +762,12 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "13",
-      "stock_in_medawar_branch": "-2",
-      "consumption_in_geitawi_branch": "22",
-      "consumption_in_medawar_branch": "12",
-      "total_stock": "41",
-      "total_consumption": "34",
+      "stock_in_geitawi_branch": "12",
+      "stock_in_medawar_branch": "6",
+      "consumption_in_geitawi_branch": "24",
+      "consumption_in_medawar_branch": "13",
+      "total_stock": "48",
+      "total_consumption": "37",
       "vat": "no",
       "price_lbp": "100,000",
       "price_usd": "1.11",
@@ -694,19 +783,19 @@
       "linked_profile_item_id": "7000053",
       "branches": {
         "Geitawi": {
-          "stock": "13",
-          "consumption": "22"
+          "stock": "12",
+          "consumption": "24"
         },
         "Medawar": {
-          "stock": "-2",
-          "consumption": "12"
+          "stock": "6",
+          "consumption": "13"
         },
         "Nouna": {
           "stock": "30",
           "consumption": "0"
         }
       },
-      "totalStock": "41",
+      "totalStock": "48",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -721,7 +810,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "0.94",
+      "cost_ht": 0.944444,
       "stock_in_nouna_branch": "30",
       "secondBarcode": "",
       "description": "MARSHMALLOW MINI BAG NT 50G",
@@ -733,7 +822,15 @@
       "linked_profile_category": "CANDIES",
       "linked_profile_sub_category": "CANDIES",
       "consumption_in_nouna_branch": "0",
-      "priceLbp": 100000
+      "priceLbp": 100000,
+      "cost_ttc": 0.944444,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_MEDAWAR_00001337-70-N-win_no-1783409951696571",
+      "latest_purchase_cost_date": "2026-07-07",
+      "costHtUsd": 0.944444,
+      "cost_ht_usd": 0.944444,
+      "costTtcUsd": 0.944444
     },
     {
       "id": "7000055",
@@ -744,11 +841,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "12",
+      "total_stock": "13",
       "total_consumption": "2",
       "vat": "no",
       "price_lbp": "400,000",
@@ -765,7 +862,7 @@
       "linked_profile_item_id": "7000055",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "3",
           "consumption": "2"
         },
         "Medawar": {
@@ -777,7 +874,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "12",
+      "totalStock": "13",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -792,7 +889,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "0.00",
+      "cost_ht": 3.777778,
       "stock_in_nouna_branch": "10",
       "secondBarcode": "",
       "description": "MARSHMALLOW BAG NT 200G",
@@ -802,7 +899,15 @@
       "subCategory": "NOUNA'S FOOD",
       "supplier": "NOUNA'S FOOD",
       "linked_profile_category": "CANDIES",
-      "linked_profile_sub_category": "CANDIES"
+      "linked_profile_sub_category": "CANDIES",
+      "cost_ttc": 3.777778,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001269-80-N-win_no-1783164204192436",
+      "latest_purchase_cost_date": "2026-07-04",
+      "costHtUsd": 3.777778,
+      "cost_ht_usd": 3.777778,
+      "costTtcUsd": 3.777778
     },
     {
       "id": "7000066",
@@ -861,7 +966,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "0.00",
+      "cost_ht": 1.416667,
       "stock_in_nouna_branch": "4",
       "secondBarcode": "",
       "description": "NF SABLE 50G",
@@ -872,9 +977,17 @@
       "supplier": "NOUNA'S FOOD",
       "linked_profile_category": "SABLE AND PETIT FOUR",
       "linked_profile_sub_category": "SABLE AND PETIT FOUR",
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "cost_ttc": 1.416667,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001083-70-N-win_no-1782546781129868",
+      "latest_purchase_cost_date": "2026-06-27",
+      "costHtUsd": 1.416667,
+      "cost_ht_usd": 1.416667,
+      "costTtcUsd": 1.416667
     }
   ],
-  "updatedAt": "2026-07-04T01:21:09.958927Z",
+  "updatedAt": "2026-07-07T08:41:15.853062Z",
   "source": "sql-relay-web"
 }
