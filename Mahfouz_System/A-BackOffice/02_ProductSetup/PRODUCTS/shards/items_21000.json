@@ -15501,11 +15501,11 @@
       "category": "NUTS",
       "sub_category": "AL KAZZI",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "1",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -15517,7 +15517,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "2"
         },
         "Medawar": {
@@ -15531,7 +15531,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1"
+      "totalStock": "1"
     },
     {
       "id": "21289",
@@ -16789,7 +16789,7 @@
       "SUPPLIERS": "AL KAZZI TRADING SAL",
       "unit": "-",
       "category": "NUTS",
-      "sub_category": "AL KAZZI",
+      "sub_category": "ARCHI",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
@@ -16799,7 +16799,7 @@
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "90,000",
-      "price_usd": "1.01",
+      "price_usd": "1.00",
       "cost": "0.76",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21315.jpg",
       "new_items": "",
@@ -16819,15 +16819,29 @@
           "consumption": "0"
         }
       },
-      "cost_ttc": 0.762,
-      "cost_ht": 0.762,
+      "cost_ttc": "0.7620",
+      "cost_ht": "0.7620",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13957-2026-03-16",
       "latest_purchase_cost_date": "2026-03-16",
       "costHtUsd": 0.762,
       "cost_ht_usd": 0.762,
       "costTtcUsd": 0.762,
+      "barcode2": "",
+      "barcodes": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
       "totalStock": "0"
     },
     {
@@ -26435,6 +26449,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-07T09:00:13.780797Z",
+  "updatedAt": "2026-07-07T09:12:13.005026Z",
   "source": "sql-relay-web"
 }
