@@ -55,16 +55,16 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "0",
+      "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
-      "total_consumption": "0",
+      "total_stock": "6",
+      "total_consumption": "3",
       "vat": "no",
       "price_lbp": "500,000",
       "price_usd": "5.56",
-      "cost": "0.00",
+      "cost": "4.72",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID5000008.jpg",
       "new_items": "x",
       "manual": "",
@@ -76,15 +76,18 @@
       "linked_profile_item_id": "5000008",
       "branches": {
         "Geitawi": {
-          "stock": "0",
-          "consumption": "0"
+          "stock": "2",
+          "consumption": "3"
         },
         "Medawar": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "4"
         }
       },
-      "totalStock": "0",
+      "totalStock": "6",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -99,7 +102,16 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "0.00"
+      "cost_ht": 4.722222,
+      "stock_in_nouna_branch": "4",
+      "cost_ttc": 4.722222,
+      "cost_currency": "USD",
+      "cost_vat_included": 0,
+      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001317-80-N-win_no-1783344796680742",
+      "latest_purchase_cost_date": "2026-07-06",
+      "costHtUsd": 4.722222,
+      "cost_ht_usd": 4.722222,
+      "costTtcUsd": 4.722222
     },
     {
       "id": "5000009",
@@ -192,6 +204,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-04T01:21:09.958927Z",
+  "updatedAt": "2026-07-07T08:41:15.853062Z",
   "source": "sql-relay-web"
 }
