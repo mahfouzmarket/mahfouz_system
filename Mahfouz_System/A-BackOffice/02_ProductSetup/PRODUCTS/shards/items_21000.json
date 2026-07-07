@@ -8485,11 +8485,11 @@
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
-      "stock_in_geitawi_branch": "7",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "12",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "19",
-      "total_stock": "10",
+      "total_stock": "3",
       "total_consumption": "31",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -8501,7 +8501,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7",
+          "stock": "0",
           "consumption": "12"
         },
         "Medawar": {
@@ -8515,7 +8515,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "10",
+      "totalStock": "3",
       "expiry_days": "365",
       "expiryDays": 365,
       "cost_ttc": 1.2,
@@ -10359,11 +10359,11 @@
       "category": "FOOD",
       "sub_category": "BAKING & COOKING",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "3",
       "VAT": "NO",
       "price_lbp": "600,000",
@@ -10375,7 +10375,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "2"
         },
         "Medawar": {
@@ -10400,7 +10400,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "BAKING & COOKING",
       "vat": "no",
-      "totalStock": "4",
+      "totalStock": "3",
       "stock_in_nouna_branch": "1",
       "secondBarcode": "",
       "product_description": "NF CHICKEN SALAD",
@@ -14452,8 +14452,8 @@
       "brand": "",
       "supplier": "",
       "SUPPLIERS": "NOUNA'S FOOD",
-      "category": "NUTS",
-      "sub_category": "KLATCHI",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "NOUNA'S FOOD",
       "subcategory": "KLATCHI",
       "subCategory": "KLATCHI",
       "unit": "EACH",
@@ -14511,7 +14511,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "16.67",
+      "cost_ht": "16.6700",
       "costUsd": 16.67,
       "cost_ht_usd": 16.67,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -14530,7 +14530,12 @@
       "scalePlu": 0,
       "price_usd": "20.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21265.jpg",
-      "totalStock": "0"
+      "totalStock": "0",
+      "cost_ttc": "16.6700",
+      "costTtcUsd": 16.67,
+      "costHtUsd": 16.67,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "21267",
@@ -26469,6 +26474,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-07T09:24:50.805099Z",
+  "updatedAt": "2026-07-07T09:27:10.791672Z",
   "source": "sql-relay-web"
 }
