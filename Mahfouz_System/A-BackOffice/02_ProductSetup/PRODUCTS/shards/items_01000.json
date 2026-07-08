@@ -1367,11 +1367,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "21",
+      "stock_in_geitawi_branch": "20",
       "consumption_in_geitawi_branch": "34",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "19",
-      "total_stock": "28",
+      "total_stock": "27",
       "total_consumption": "53",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1383,7 +1383,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "21",
+          "stock": "20",
           "consumption": "34"
         },
         "Medawar": {
@@ -1397,7 +1397,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "28",
+      "totalStock": "27",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1428,9 +1428,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17",
       "consumption_in_geitawi_branch": "19",
-      "stock_in_medawar_branch": "-20",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "26",
-      "total_stock": "-3",
+      "total_stock": "17",
       "total_consumption": "45",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -1446,7 +1446,7 @@
           "consumption": "19"
         },
         "Medawar": {
-          "stock": "-20",
+          "stock": "0",
           "consumption": "26"
         }
       },
@@ -1456,11 +1456,11 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-3",
+      "totalStock": "17",
       "cost_ttc": 1.3,
       "cost_ht": 1.3,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781684683323",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 1.3,
@@ -1922,6 +1922,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-08T05:14:31.048010Z",
+  "updatedAt": "2026-07-08T05:25:30.023623Z",
   "source": "sql-relay-web"
 }
