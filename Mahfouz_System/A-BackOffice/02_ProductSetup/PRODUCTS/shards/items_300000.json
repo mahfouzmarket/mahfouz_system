@@ -1054,15 +1054,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "8",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "1,055,000",
       "price_usd": "11.72",
-      "cost": "9.23",
-      "cost_ht": 9.235,
+      "cost": "9.78",
+      "cost_ht": 9.775,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300020.jpg",
       "new_items": "x",
       "manual": "",
@@ -1078,7 +1078,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "8",
           "consumption": "1"
         }
       },
@@ -1088,15 +1088,15 @@
       "supplier": "TRANSMED SAL",
       "subcategory": "CLOTH CLEANING",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 10.25085,
+      "totalStock": "8",
+      "cost_ttc": 10.85025,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1778510841170",
       "latest_purchase_cost_date": "2026-05-11",
-      "costHtUsd": 9.235,
-      "cost_ht_usd": 9.235,
-      "costTtcUsd": 10.25085
+      "costHtUsd": 9.775,
+      "cost_ht_usd": 9.775,
+      "costTtcUsd": 10.85025
     },
     {
       "id": "300021",
@@ -3579,9 +3579,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "32",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "2",
+      "total_stock": "34",
       "total_consumption": "12",
       "VAT": "NO",
       "price_lbp": "320,000",
@@ -3603,7 +3603,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "32",
           "consumption": "12"
         }
       },
@@ -3613,10 +3613,10 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "PROCESSED CHEESE",
       "vat": "no",
-      "totalStock": "2",
+      "totalStock": "34",
       "cost_ttc": 2.82,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779172884910",
       "latest_purchase_cost_date": "2026-05-19",
       "costHtUsd": 2.82,
@@ -24768,6 +24768,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-08T05:19:42.805569Z",
+  "updatedAt": "2026-07-08T05:24:52.114768Z",
   "source": "sql-relay-web"
 }
