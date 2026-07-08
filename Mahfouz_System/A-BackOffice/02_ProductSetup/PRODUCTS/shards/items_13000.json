@@ -507,9 +507,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "40",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "25",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "1",
+      "total_stock": "25",
       "total_consumption": "46",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -525,7 +525,7 @@
           "consumption": "40"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "25",
           "consumption": "6"
         }
       },
@@ -535,16 +535,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": 1.3875,
+      "totalStock": "25",
+      "cost_ttc": 1.25,
       "cost_ht": 1.25,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781684683323",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 1.25,
       "cost_ht_usd": 1.25,
-      "costTtcUsd": 1.3875
+      "costTtcUsd": 1.25
     },
     {
       "id": "13031",
@@ -1628,9 +1628,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "331",
-      "stock_in_medawar_branch": "133",
+      "stock_in_medawar_branch": "131",
       "consumption_in_medawar_branch": "262",
-      "total_stock": "136",
+      "total_stock": "134",
       "total_consumption": "593",
       "VAT": "NO",
       "price_lbp": "35,000",
@@ -1652,7 +1652,7 @@
           "consumption": "331"
         },
         "Medawar": {
-          "stock": "133",
+          "stock": "131",
           "consumption": "262"
         }
       },
@@ -1662,7 +1662,7 @@
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "PASTA & INDOMI",
       "vat": "no",
-      "totalStock": "136",
+      "totalStock": "134",
       "cost_ttc": 0.275,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -7497,6 +7497,6 @@
       "costTtcUsd": 0.098859375
     }
   ],
-  "updatedAt": "2026-07-08T08:14:50.001133Z",
+  "updatedAt": "2026-07-08T08:22:00.186681Z",
   "source": "sql-relay-web"
 }
