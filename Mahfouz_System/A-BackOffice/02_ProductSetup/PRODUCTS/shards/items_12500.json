@@ -61,9 +61,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "-2",
+      "stock_in_medawar_branch": "-3",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -83,13 +83,13 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "-2",
+          "stock": "-3",
           "consumption": "2"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 0.8325,
       "cost_ht": 0.75,
       "cost_currency": "USD",
@@ -324,9 +324,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "20",
       "consumption_in_geitawi_branch": "9",
-      "stock_in_medawar_branch": "30",
+      "stock_in_medawar_branch": "29",
       "consumption_in_medawar_branch": "81",
-      "total_stock": "50",
+      "total_stock": "49",
       "total_consumption": "90",
       "VAT": "NO",
       "price_lbp": "270,000",
@@ -342,7 +342,7 @@
           "consumption": "9"
         },
         "Medawar": {
-          "stock": "30",
+          "stock": "29",
           "consumption": "81"
         }
       },
@@ -361,7 +361,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12594-1778930135932880",
       "product_setup_saved_at_utc": "2026-05-16T11:15:35.932880Z",
-      "totalStock": "50",
+      "totalStock": "49",
       "priceLbp": 270000.0,
       "priceUsd": 3.0,
       "arabic_name": "",
@@ -1387,9 +1387,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "56",
       "consumption_in_geitawi_branch": "153",
-      "stock_in_medawar_branch": "32",
+      "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "152",
-      "total_stock": "88",
+      "total_stock": "86",
       "total_consumption": "305",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -1405,7 +1405,7 @@
           "consumption": "153"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "30",
           "consumption": "152"
         }
       },
@@ -1424,7 +1424,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12702-1778924493307164",
       "product_setup_saved_at_utc": "2026-05-16T09:41:33.307164Z",
-      "totalStock": "88",
+      "totalStock": "86",
       "priceLbp": 80000.0,
       "priceUsd": 0.8888888888888888,
       "arabic_name": "",
@@ -2670,11 +2670,11 @@
       "category": "CIGARETTES",
       "sub_category": "ROLLING CIGARETTE PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-7",
+      "stock_in_geitawi_branch": "-8",
       "consumption_in_geitawi_branch": "28",
       "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "10",
-      "total_stock": "-1",
+      "total_stock": "-2",
       "total_consumption": "38",
       "VAT": "YES",
       "price_lbp": "120,000",
@@ -2686,7 +2686,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-7",
+          "stock": "-8",
           "consumption": "28"
         },
         "Medawar": {
@@ -2704,7 +2704,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1",
+      "totalStock": "-2",
       "cost_ttc": 0.851,
       "cost_ht": 0.766666666666667,
       "cost_currency": "USD",
@@ -5314,6 +5314,6 @@
       "costTtcUsd": 0.23125
     }
   ],
-  "updatedAt": "2026-07-09T13:11:16.964768Z",
+  "updatedAt": "2026-07-09T13:20:25.905920Z",
   "source": "sql-relay-web"
 }
