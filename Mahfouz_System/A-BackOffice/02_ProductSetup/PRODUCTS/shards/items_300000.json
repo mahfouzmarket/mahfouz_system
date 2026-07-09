@@ -25653,24 +25653,29 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "price_lbp": "80,000",
-      "price_usd": "0.89",
-      "cost": "0.73",
-      "cost_ttc": "0.8103",
-      "cost_ht": "0.7300",
-      "costTtcUsd": 0.8103,
-      "costHtUsd": 0.73,
-      "cost_ht_usd": 0.73,
+      "price_lbp": "85,000",
+      "price_usd": "0.94",
+      "cost": "0.75",
+      "cost_ttc": 0.75,
+      "cost_ht": 0.75,
+      "costTtcUsd": 0.75,
+      "costHtUsd": 0.75,
+      "cost_ht_usd": 0.75,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300473.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "yes",
-      "branches": {}
+      "total_stock": "50",
+      "totalStock": "50",
+      "stock_in_medawar_branch": "50",
+      "branches": {
+        "Medawar": {
+          "stock": "50"
+        }
+      },
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-09T09:04:36.404592Z",
+  "updatedAt": "2026-07-09T09:05:10.177008Z",
   "source": "sql-relay-web"
 }
