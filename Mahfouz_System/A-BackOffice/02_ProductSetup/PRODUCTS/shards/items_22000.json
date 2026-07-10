@@ -232,7 +232,7 @@
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "150,000",
-      "cost": "127500.00",
+      "cost": "1.35",
       "total_stock": "0",
       "total_consumption": "1",
       "stock_in_geitawi_branch": "0",
@@ -286,7 +286,7 @@
       "delivery_rules": "0.005",
       "expiry_days": "365",
       "price_usd": "1.67",
-      "cost_ht": "127500.00",
+      "cost_ht": "1.3500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID22008.jpg",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
@@ -306,7 +306,13 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "cost_ttc": "1.3500",
+      "costTtcUsd": 1.35,
+      "costHtUsd": 1.35,
+      "cost_ht_usd": 1.35,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "22009",
@@ -806,6 +812,6 @@
       "costTtcUsd": 1.34976
     }
   ],
-  "updatedAt": "2026-07-09T07:18:00.410306Z",
+  "updatedAt": "2026-07-10T08:37:00.225555Z",
   "source": "sql-relay-web"
 }
