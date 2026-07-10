@@ -3,14 +3,14 @@
     {
       "id": "7000001",
       "stock_in_medawar_branch": "1",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "total_stock": "3",
+      "total_stock": "5",
       "total_consumption": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "4",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -31,8 +31,8 @@
       "VAT": "NO",
       "price_lbp": "450,000",
       "price_usd": "5.00",
-      "cost": "4.13",
-      "cost_ht": "4.1250",
+      "cost": "4.25",
+      "cost_ht": 4.25,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000001.jpg",
       "new_items": "x",
       "manual": "",
@@ -50,7 +50,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "cost_ttc": "4.1250",
+      "cost_ttc": 4.25,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1777142869634",
@@ -66,22 +66,22 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "costTtcUsd": 4.125,
-      "costHtUsd": 4.125,
-      "cost_ht_usd": 4.125,
-      "totalStock": "3"
+      "costTtcUsd": 4.25,
+      "costHtUsd": 4.25,
+      "cost_ht_usd": 4.25,
+      "totalStock": "5"
     },
     {
       "id": "7000002",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "0",
+      "total_stock": "5",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         },
         "Medawar": {
@@ -102,8 +102,8 @@
       "VAT": "NO",
       "price_lbp": "70,000",
       "price_usd": "0.78",
-      "cost": "0.67",
-      "cost_ht": 0.666666666666667,
+      "cost": "0.66",
+      "cost_ht": 0.6611111111111111,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000002.jpg",
       "new_items": "x",
       "manual": "",
@@ -121,15 +121,15 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "cost_ttc": 0.666666666666667,
+      "cost_ttc": 0.6611111111111111,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-04-GEITAWI-9178",
       "latest_purchase_cost_date": "2026-05-04",
-      "costHtUsd": 0.666666666666667,
-      "cost_ht_usd": 0.666666666666667,
-      "costTtcUsd": 0.666666666666667,
-      "totalStock": "0"
+      "costHtUsd": 0.6611111111111111,
+      "cost_ht_usd": 0.6611111111111111,
+      "costTtcUsd": 0.6611111111111111,
+      "totalStock": "5"
     },
     {
       "id": "7000004",
@@ -1002,6 +1002,6 @@
       "costTtcUsd": 1.416667
     }
   ],
-  "updatedAt": "2026-07-10T08:37:09.819302Z",
+  "updatedAt": "2026-07-10T12:26:09.993123Z",
   "source": "sql-relay-web"
 }
