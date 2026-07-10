@@ -23,7 +23,7 @@
       "linked_profile_sub_category": "EASTER",
       "branches": {
         "Geitawi": {
-          "stock": "8",
+          "stock": "16",
           "consumption": "3"
         },
         "Medawar": {
@@ -35,8 +35,8 @@
           "consumption": "0"
         }
       },
-      "stock_in_geitawi_branch": "8",
-      "total_stock": "8",
+      "stock_in_geitawi_branch": "16",
+      "total_stock": "16",
       "stock_in_medawar_branch": "0",
       "cost": "0.64",
       "consumption_in_medawar_branch": "2",
@@ -51,7 +51,7 @@
       "SUPPLIERS": "NOUNA'S FOOD",
       "subcategory": "ma3moul",
       "vat": "no",
-      "totalStock": "8",
+      "totalStock": "16",
       "user2_unify_old_id": "21766",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
@@ -63,7 +63,7 @@
       "stock_in_nouna_branch": "0",
       "cost_ttc": 0.64,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1777352760276",
       "latest_purchase_cost_date": "2026-04-28",
       "costHtUsd": 0.64,
@@ -542,7 +542,7 @@
       "linked_profile_sub_category": "CANDIES",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "7",
           "consumption": "6"
         },
         "Medawar": {
@@ -554,9 +554,9 @@
           "consumption": "0"
         }
       },
-      "stock_in_geitawi_branch": "5",
-      "total_stock": "5",
-      "cost": "1.89",
+      "stock_in_geitawi_branch": "7",
+      "total_stock": "7",
+      "cost": "2.22",
       "stock_in_medawar_branch": "0",
       "Product Description": "MARSHMALLOW CUP 70g",
       "SUPPLIERS": "NOUNA'S FOOD",
@@ -572,10 +572,10 @@
       "manual": "",
       "delivery_rules": "0.005",
       "expiry_days": "365",
-      "cost_ht": 1.888889,
+      "cost_ht": 2.22,
       "product_setup_save_token": "PS-SAVE-21789-1778604702194134",
       "product_setup_saved_at_utc": "2026-05-12T16:51:42.194134Z",
-      "totalStock": "5",
+      "totalStock": "7",
       "user2_unify_old_id": "21789",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
@@ -585,14 +585,14 @@
       "expiryDays": 365,
       "subCategory": "SWEET & CANDIES",
       "stock_in_nouna_branch": "0",
-      "cost_ttc": 1.888889,
+      "cost_ttc": 2.22,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001048-80-N-win_no-1782462957735182",
       "latest_purchase_cost_date": "2026-06-26",
-      "costHtUsd": 1.888889,
-      "cost_ht_usd": 1.888889,
-      "costTtcUsd": 1.888889
+      "costHtUsd": 2.22,
+      "cost_ht_usd": 2.22,
+      "costTtcUsd": 2.22
     },
     {
       "id": "200009",
@@ -1233,14 +1233,14 @@
     {
       "id": "200016",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "total_stock": "2",
+      "total_stock": "3",
       "total_consumption": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -1264,8 +1264,8 @@
       "VAT": "NO",
       "price_lbp": "350,000",
       "price_usd": "3.89",
-      "cost": "1.42",
-      "cost_ht": 1.41666666666667,
+      "cost": "3.31",
+      "cost_ht": 3.3055555555555554,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500003.jpg",
       "new_items": "x",
       "manual": "",
@@ -1288,15 +1288,15 @@
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
       "stock_in_nouna_branch": "2",
-      "totalStock": "2",
-      "cost_ttc": 1.41666666666667,
+      "totalStock": "3",
+      "cost_ttc": 3.3055555555555554,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-06-GEITAWI-9207",
       "latest_purchase_cost_date": "2026-05-06",
-      "costHtUsd": 1.41666666666667,
-      "cost_ht_usd": 1.41666666666667,
-      "costTtcUsd": 1.41666666666667
+      "costHtUsd": 3.3055555555555554,
+      "cost_ht_usd": 3.3055555555555554,
+      "costTtcUsd": 3.3055555555555554
     },
     {
       "id": "200017",
@@ -3545,6 +3545,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-07-09T20:07:46.722646Z",
+  "updatedAt": "2026-07-10T12:26:11.744401Z",
   "source": "sql-relay-web"
 }
