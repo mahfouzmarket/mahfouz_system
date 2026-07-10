@@ -2951,11 +2951,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "67",
+      "stock_in_geitawi_branch": "66",
       "consumption_in_geitawi_branch": "187",
       "stock_in_medawar_branch": "466",
       "consumption_in_medawar_branch": "299",
-      "total_stock": "533",
+      "total_stock": "532",
       "total_consumption": "486",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -2967,7 +2967,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "67",
+          "stock": "66",
           "consumption": "187"
         },
         "Medawar": {
@@ -2981,7 +2981,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "533",
+      "totalStock": "532",
       "cost_ttc": 0.843173076923077,
       "cost_ht": 0.759615384615385,
       "cost_currency": "USD",
@@ -4240,11 +4240,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "42",
       "consumption_in_medawar_branch": "14",
-      "total_stock": "0",
+      "total_stock": "53",
       "total_consumption": "16",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -4257,11 +4257,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "11",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "42",
           "consumption": "14"
         },
         "The Daily Market": {
@@ -4288,7 +4288,8 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "0"
+      "totalStock": "53",
+      "linked_bulk_stock_source": "parent:666/22"
     },
     {
       "id": "499",
@@ -4341,6 +4342,6 @@
       "costTtcUsd": 3.0300225000000003
     }
   ],
-  "updatedAt": "2026-07-10T23:27:09.646018Z",
+  "updatedAt": "2026-07-10T23:33:36.720880Z",
   "source": "sql-relay-web"
 }
