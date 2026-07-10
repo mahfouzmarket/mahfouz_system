@@ -221,11 +221,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "85",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "94",
-      "total_stock": "1",
+      "total_stock": "4",
       "total_consumption": "179",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -237,7 +237,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "4",
           "consumption": "85"
         },
         "Medawar": {
@@ -251,7 +251,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "4",
       "cost_ttc": 1.5,
       "cost_ht": 1.5,
       "cost_currency": "LBP",
@@ -4624,11 +4624,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "-2",
+      "total_stock": "0",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "295,000",
@@ -4640,7 +4640,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "6"
         },
         "Medawar": {
@@ -4654,11 +4654,11 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-2",
+      "totalStock": "0",
       "cost_ttc": 3.33,
       "cost_ht": 3.0,
       "cost_currency": "LBP",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782533845920",
       "latest_purchase_cost_date": "2026-06-27"
     },
@@ -6539,6 +6539,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-09T23:11:51.505756Z",
+  "updatedAt": "2026-07-10T01:30:42.417432Z",
   "source": "sql-relay-web"
 }
