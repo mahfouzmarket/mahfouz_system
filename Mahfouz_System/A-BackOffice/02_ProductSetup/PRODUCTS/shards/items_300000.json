@@ -20548,15 +20548,15 @@
       "price_lbp": "40,000",
       "price_usd": "0.44",
       "cost": "0.21",
-      "cost_ht": 0.208333333333333,
+      "cost_ht": 0.20833333333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300377.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "stock_in_medawar_branch": "0",
+      "total_stock": "24",
+      "totalStock": "24",
+      "stock_in_medawar_branch": "24",
       "branches": {
         "Medawar": {
-          "stock": "0",
+          "stock": "24",
           "consumption": "22"
         }
       },
@@ -20565,9 +20565,9 @@
       "image_updated_at_utc": "2026-06-25T12:05:30.111165Z",
       "consumption_in_medawar_branch": "22",
       "total_consumption": "22",
-      "cost_ttc": 0.23125,
+      "cost_ttc": 0.23125000000000004,
       "cost_currency": "LBP",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782361624976",
       "latest_purchase_cost_date": "2026-06-25",
       "vat": "yes"
@@ -25817,21 +25817,23 @@
       "price_lbp": "25,000",
       "price_usd": "0.28",
       "cost": "0.21",
-      "cost_ttc": "0.2083",
-      "cost_ht": "0.2083",
-      "costTtcUsd": 0.20833333333333334,
-      "costHtUsd": 0.20833333333333334,
-      "cost_ht_usd": 0.20833333333333334,
-      "cost_currency": "USD",
+      "cost_ttc": 0.20833333333333334,
+      "cost_ht": 0.20833333333333334,
+      "cost_currency": "LBP",
       "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300476.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "no",
-      "branches": {}
+      "total_stock": "24",
+      "totalStock": "24",
+      "stock_in_medawar_branch": "24",
+      "branches": {
+        "Medawar": {
+          "stock": "24"
+        }
+      },
+      "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-11T05:13:54.771980Z",
+  "updatedAt": "2026-07-11T05:17:15.509901Z",
   "source": "sql-relay-web"
 }
