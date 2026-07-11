@@ -3874,9 +3874,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "96",
-      "stock_in_medawar_branch": "13",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "54",
-      "total_stock": "34",
+      "total_stock": "33",
       "total_consumption": "150",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -3898,7 +3898,7 @@
           "consumption": "96"
         },
         "Medawar": {
-          "stock": "13",
+          "stock": "12",
           "consumption": "54"
         }
       },
@@ -3908,7 +3908,7 @@
       "supplier": "TANNOURINE",
       "subcategory": "SPARKLING WATER",
       "vat": "yes",
-      "totalStock": "34",
+      "totalStock": "33",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300075.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300075.jpg",
       "image_updated_at_utc": "2026-06-19T06:19:20.821489Z",
@@ -20390,18 +20390,18 @@
       "new_items": "x",
       "total_stock": "168",
       "totalStock": "168",
-      "stock_in_medawar_branch": "147",
+      "stock_in_medawar_branch": "123",
       "branches": {
         "Medawar": {
-          "stock": "147",
+          "stock": "123",
           "consumption": "9"
         },
         "Geitawi": {
-          "stock": "21",
+          "stock": "45",
           "consumption": "11"
         }
       },
-      "stock_in_geitawi_branch": "21",
+      "stock_in_geitawi_branch": "45",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300372.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300372.jpg",
       "image_updated_at_utc": "2026-06-23T13:21:53.197221Z",
@@ -25832,8 +25832,55 @@
         }
       },
       "vat": "no"
+    },
+    {
+      "id": "300477",
+      "barcode": "5287002796017",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "KAF MILLION CLASSIC 180 G",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "SUPPLIERS": "ETS MICHEL NAJJAR",
+      "unit": "-",
+      "category": "FOOD",
+      "sub_category": "instant coffee",
+      "offers": "0",
+      "delivery_rules": "",
+      "expiry_days": "0",
+      "VAT": "YES",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "price_lbp": "245,000",
+      "price_usd": "2.72",
+      "cost": "2.00",
+      "cost_ttc": 2.0,
+      "cost_ht": 2.0,
+      "costTtcUsd": 2.0,
+      "costHtUsd": 2.0,
+      "cost_ht_usd": 2.0,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300477.jpg",
+      "new_items": "x",
+      "total_stock": "21",
+      "totalStock": "21",
+      "stock_in_medawar_branch": "21",
+      "branches": {
+        "Medawar": {
+          "stock": "21"
+        }
+      },
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-11T06:44:30.181601Z",
+  "updatedAt": "2026-07-11T07:25:59.095535Z",
   "source": "sql-relay-web"
 }
