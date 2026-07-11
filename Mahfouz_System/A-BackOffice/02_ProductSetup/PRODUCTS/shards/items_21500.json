@@ -12459,7 +12459,7 @@
       "cost": "2.06",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "13"
         },
         "Medawar": {
@@ -12467,9 +12467,9 @@
           "consumption": "17"
         }
       },
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "2",
-      "total_stock": "1",
+      "total_stock": "3",
       "Product Description": "ALFORNO BURGER SESAME",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "updatedAt": "2026-05-09T00:33:34",
@@ -12485,16 +12485,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
-      "cost_ttc": 2.2866,
+      "totalStock": "3",
+      "cost_ttc": 2.2866000000000004,
       "cost_ht": 2.06,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783399568836",
       "latest_purchase_cost_date": "2026-07-07",
       "costHtUsd": 2.06,
       "cost_ht_usd": 2.06,
-      "costTtcUsd": 2.2866
+      "costTtcUsd": 2.2866000000000004
     },
     {
       "id": "21736",
@@ -15778,14 +15778,14 @@
           "consumption": "34"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "17",
           "consumption": "12"
         }
       },
       "stock_in_geitawi_branch": "4",
-      "total_stock": "23",
+      "total_stock": "21",
       "cost": "0.67",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "17",
       "Product Description": "LES SORBETS MANGO DIET",
       "SUPPLIERS": "LIBAN JUS SAL GLACES",
       "subcategory": "ICEBERG",
@@ -15799,7 +15799,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "23",
+      "totalStock": "21",
       "cost_ttc": 0.74,
       "cost_ht": 0.6666666666666666,
       "cost_currency": "USD",
@@ -24516,6 +24516,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-11T07:53:59.002987Z",
+  "updatedAt": "2026-07-11T07:57:13.181883Z",
   "source": "sql-relay-web"
 }
