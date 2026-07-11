@@ -799,12 +799,17 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4000016.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "yes",
-      "branches": {}
+      "total_stock": "-1",
+      "totalStock": "-1",
+      "stock_in_medawar_branch": "-1",
+      "branches": {
+        "Medawar": {
+          "stock": "-1"
+        }
+      },
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-11T20:38:54.944107Z",
+  "updatedAt": "2026-07-11T20:43:49.309346Z",
   "source": "sql-relay-web"
 }
