@@ -4653,11 +4653,11 @@
       "sub_category": "TANBAK",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "580,000",
@@ -4675,7 +4675,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "7"
         },
         "Medawar": {
@@ -4689,7 +4689,7 @@
       "supplier": "CIGARETTES",
       "subcategory": "TANBAK",
       "vat": "no",
-      "totalStock": "4",
+      "totalStock": "3",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -25921,10 +25921,15 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300478.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "yes",
-      "branches": {}
+      "total_stock": "-1",
+      "totalStock": "-1",
+      "stock_in_geitawi_branch": "-1",
+      "branches": {
+        "Geitawi": {
+          "stock": "-1"
+        }
+      },
+      "vat": "yes"
     },
     {
       "id": "300479",
@@ -25969,6 +25974,6 @@
       "branches": {}
     }
   ],
-  "updatedAt": "2026-07-11T15:59:18.286397Z",
+  "updatedAt": "2026-07-11T16:01:41.126444Z",
   "source": "sql-relay-web"
 }
