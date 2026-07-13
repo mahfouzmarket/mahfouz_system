@@ -913,9 +913,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "4",
+      "total_stock": "10",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "335,000",
@@ -931,7 +931,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "10",
           "consumption": "1"
         }
       },
@@ -941,11 +941,11 @@
       "vat": "no",
       "barcode2": "4005900495532",
       "barcodes": "4005900495532",
-      "totalStock": "4",
+      "totalStock": "10",
       "cost_ttc": 2.75,
       "cost_ht": 2.75,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779782974396",
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 2.75,
@@ -22745,9 +22745,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "9",
+      "stock_in_medawar_branch": "33",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "12",
+      "total_stock": "36",
       "total_consumption": "9",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -22763,7 +22763,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "9",
+          "stock": "33",
           "consumption": "4"
         }
       },
@@ -22773,11 +22773,11 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
+      "totalStock": "36",
       "cost_ttc": 0.5,
       "cost_ht": 0.5,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779783927340",
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 0.5,
@@ -26488,6 +26488,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-13T11:55:08.780830Z",
+  "updatedAt": "2026-07-13T12:12:59.764905Z",
   "source": "sql-relay-web"
 }
