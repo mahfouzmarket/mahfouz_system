@@ -5678,11 +5678,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "1.06",
       "consumption_in_geitawi_branch": "4.4",
       "stock_in_medawar_branch": "-0.265",
       "consumption_in_medawar_branch": "1.7",
-      "total_stock": "0.735",
+      "total_stock": "0.795",
       "total_consumption": "6.1",
       "VAT": "NO",
       "price_lbp": "1,560,000",
@@ -5694,7 +5694,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "1.06",
           "consumption": "4.4"
         },
         "Medawar": {
@@ -5705,7 +5705,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 13.0,
+      "cost_ht": "13.0000",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -5715,15 +5715,26 @@
       "supplier": "DAIRY KHOURY USD",
       "subcategory": "DAIRY PRODUCTS",
       "vat": "no",
-      "totalStock": "0.735",
-      "cost_ttc": 13.0,
+      "totalStock": "0.795",
+      "cost_ttc": "13.0000",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781843950950",
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 13.0,
       "cost_ht_usd": 13.0,
-      "costTtcUsd": 13.0
+      "costTtcUsd": 13.0,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "15446",
@@ -6539,6 +6550,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-13T08:05:41.711219Z",
+  "updatedAt": "2026-07-13T08:16:38.077577Z",
   "source": "sql-relay-web"
 }
