@@ -7423,9 +7423,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "330,000",
@@ -7441,7 +7441,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
@@ -7449,11 +7449,11 @@
       "supplier": "JACK DIB",
       "subcategory": "deodorant & roll on",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "6",
       "cost_ttc": 2.5,
       "cost_ht": 2.5,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14298-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 2.5,
@@ -8541,9 +8541,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "7",
+      "total_stock": "13",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "230,000",
@@ -8559,7 +8559,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "10",
           "consumption": "2"
         }
       },
@@ -8569,16 +8569,16 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
-      "cost_ttc": 1.66666666666667,
-      "cost_ht": 1.66666666666667,
+      "totalStock": "13",
+      "cost_ttc": 1.666666666666666,
+      "cost_ht": 1.666666666666666,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781599434829",
       "latest_purchase_cost_date": "2026-06-16",
-      "costHtUsd": 1.66666666666667,
-      "cost_ht_usd": 1.66666666666667,
-      "costTtcUsd": 1.66666666666667
+      "costHtUsd": 1.666666666666666,
+      "cost_ht_usd": 1.666666666666666,
+      "costTtcUsd": 1.666666666666666
     },
     {
       "id": "19344",
@@ -12133,6 +12133,6 @@
       "costTtcUsd": 1.1174
     }
   ],
-  "updatedAt": "2026-07-13T12:30:58.741742Z",
+  "updatedAt": "2026-07-13T12:47:47.234826Z",
   "source": "sql-relay-web"
 }
