@@ -1679,11 +1679,11 @@
       "sub_category": "Crackers",
       "offers": "",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "11",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "15",
+      "total_stock": "14",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "280,000",
@@ -1701,7 +1701,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "11",
+          "stock": "10",
           "consumption": "6"
         },
         "Medawar": {
@@ -1715,7 +1715,7 @@
       "supplier": "MAHMOUD CHOCOLATE USD",
       "subcategory": "Crackers",
       "vat": "yes",
-      "totalStock": "15",
+      "totalStock": "14",
       "cost_ttc": 2.499942,
       "cost_currency": "USD",
       "cost_vat_included": 1,
@@ -26227,12 +26227,16 @@
       "new_items": "x",
       "total_stock": "72",
       "totalStock": "72",
-      "stock_in_medawar_branch": "72",
+      "stock_in_medawar_branch": "48",
       "branches": {
         "Medawar": {
-          "stock": "72"
+          "stock": "48"
+        },
+        "Geitawi": {
+          "stock": "24"
         }
       },
+      "stock_in_geitawi_branch": "24",
       "vat": "yes"
     },
     {
@@ -26274,15 +26278,19 @@
       "new_items": "x",
       "total_stock": "48",
       "totalStock": "48",
-      "stock_in_medawar_branch": "48",
+      "stock_in_medawar_branch": "24",
       "branches": {
         "Medawar": {
-          "stock": "48"
+          "stock": "24"
+        },
+        "Geitawi": {
+          "stock": "24"
         }
       },
+      "stock_in_geitawi_branch": "24",
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-13T08:11:20.997334Z",
+  "updatedAt": "2026-07-13T08:19:26.983021Z",
   "source": "sql-relay-web"
 }
