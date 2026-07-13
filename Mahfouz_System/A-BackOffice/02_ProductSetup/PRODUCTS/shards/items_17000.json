@@ -1673,14 +1673,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "60",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "10",
+      "total_stock": "60",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "70,000",
       "price_usd": "0.78",
-      "cost": "0.45",
+      "cost": "0.50",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17088.jpg",
       "new_items": "",
       "manual": "",
@@ -1691,7 +1691,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "60",
           "consumption": "0"
         }
       },
@@ -1701,7 +1701,14 @@
       "vat": "no",
       "barcode2": "5285008920986",
       "barcodes": "5285008920986",
-      "totalStock": "10"
+      "totalStock": "60",
+      "cost_ttc": 0.5,
+      "cost_ht": 0.5,
+      "costTtcUsd": 0.5,
+      "costHtUsd": 0.5,
+      "cost_ht_usd": 0.5,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "17091",
@@ -1996,14 +2003,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "5",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "330,000",
       "price_usd": "3.67",
-      "cost": "2.25",
+      "cost": "2.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17113.jpg",
       "new_items": "",
       "manual": "",
@@ -2014,7 +2021,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         }
       },
@@ -2024,16 +2031,16 @@
       "vat": "no",
       "barcode2": "5285009960172",
       "barcodes": "5285009960172",
-      "totalStock": "0",
-      "cost_ttc": 2.25,
-      "cost_ht": 2.25,
+      "totalStock": "5",
+      "cost_ttc": 2.0,
+      "cost_ht": 2.0,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13602-2026-02-17",
       "latest_purchase_cost_date": "2026-02-17",
-      "costHtUsd": 2.25,
-      "cost_ht_usd": 2.25,
-      "costTtcUsd": 2.25
+      "costHtUsd": 2.0,
+      "cost_ht_usd": 2.0,
+      "costTtcUsd": 2.0
     },
     {
       "id": "17114",
@@ -2126,9 +2133,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-2",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "8",
+      "total_stock": "14",
       "total_consumption": "6",
       "VAT": "NO",
       "price_lbp": "245,000",
@@ -2144,7 +2151,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "16",
           "consumption": "2"
         }
       },
@@ -2152,16 +2159,16 @@
       "supplier": "JACK DIB",
       "subcategory": "deodorant & roll on",
       "vat": "no",
-      "totalStock": "8",
-      "cost_ttc": 1.66666666666667,
-      "cost_ht": 1.66666666666667,
+      "totalStock": "14",
+      "cost_ttc": 1.6666666666666,
+      "cost_ht": 1.6666666666666,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781599434829",
       "latest_purchase_cost_date": "2026-06-16",
-      "costHtUsd": 1.66666666666667,
-      "cost_ht_usd": 1.66666666666667,
-      "costTtcUsd": 1.66666666666667
+      "costHtUsd": 1.6666666666666,
+      "cost_ht_usd": 1.6666666666666,
+      "costTtcUsd": 1.6666666666666
     },
     {
       "id": "17118",
@@ -10274,6 +10281,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-13T12:31:41.943681Z",
+  "updatedAt": "2026-07-13T12:47:47.234826Z",
   "source": "sql-relay-web"
 }
