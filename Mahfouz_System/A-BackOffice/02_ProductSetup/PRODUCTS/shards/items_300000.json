@@ -14961,11 +14961,14 @@
       "new_items": "x",
       "total_stock": "11",
       "totalStock": "11",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "8",
       "branches": {
         "Medawar": {
-          "stock": "11",
+          "stock": "8",
           "consumption": "1"
+        },
+        "Geitawi": {
+          "stock": "3"
         }
       },
       "consumption_in_medawar_branch": "1",
@@ -14978,6 +14981,7 @@
       "costHtUsd": 1.66666,
       "cost_ht_usd": 1.66666,
       "costTtcUsd": 1.66666,
+      "stock_in_geitawi_branch": "3",
       "vat": "no"
     },
     {
@@ -26781,6 +26785,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-13T13:05:18.591560Z",
+  "updatedAt": "2026-07-13T13:07:58.705851Z",
   "source": "sql-relay-web"
 }
