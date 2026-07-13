@@ -221,11 +221,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "83",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "87",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "170",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -237,7 +237,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "83"
         },
         "Medawar": {
@@ -251,7 +251,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc": 1.5,
       "cost_ht": 1.5,
       "cost_currency": "LBP",
@@ -5680,9 +5680,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1.06",
       "consumption_in_geitawi_branch": "4.4",
-      "stock_in_medawar_branch": "-0.265",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1.7",
-      "total_stock": "0.795",
+      "total_stock": "2.06",
       "total_consumption": "6.1",
       "VAT": "NO",
       "price_lbp": "1,560,000",
@@ -5698,7 +5698,7 @@
           "consumption": "4.4"
         },
         "Medawar": {
-          "stock": "-0.265",
+          "stock": "1",
           "consumption": "1.7"
         }
       },
@@ -5715,7 +5715,7 @@
       "supplier": "DAIRY KHOURY USD",
       "subcategory": "DAIRY PRODUCTS",
       "vat": "no",
-      "totalStock": "0.795",
+      "totalStock": "2.06",
       "cost_ttc": "13.0000",
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -6550,6 +6550,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-13T13:12:35.796420Z",
+  "updatedAt": "2026-07-13T13:59:04.153861Z",
   "source": "sql-relay-web"
 }
