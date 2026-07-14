@@ -581,17 +581,17 @@
       "sub_category": "FRUITS",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-1.58",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1.58",
+      "total_stock": "0",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "350,000",
       "price_usd": "3.89",
       "cost": "2.22",
-      "cost_ht": 2.22222222222222,
+      "cost_ht": "2.2222",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100011.jpg",
       "arabic_name": "أكدنيا",
       "name_ar": "أكدنيا",
@@ -605,7 +605,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-1.58",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -615,12 +615,24 @@
       },
       "product_setup_save_token": "PS-SAVE-100011-1780288417333011",
       "product_setup_saved_at_utc": "2026-06-01T04:33:37.333011Z",
-      "totalStock": "-1.58",
-      "cost_ttc": 2.22222222222222,
-      "cost_currency": "LBP",
-      "cost_vat_included": 0,
+      "totalStock": "0",
+      "cost_ttc": "2.2222",
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779687847325",
       "latest_purchase_cost_date": "2026-05-25",
+      "description_ar": "أكدنيا",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 2.2222222222222223,
+      "costHtUsd": 2.2222222222222223,
+      "cost_ht_usd": 2.2222222222222223,
       "vat": "no"
     },
     {
@@ -8028,6 +8040,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-14T17:02:57.969838Z",
+  "updatedAt": "2026-07-14T17:07:32.135669Z",
   "source": "sql-relay-web"
 }
