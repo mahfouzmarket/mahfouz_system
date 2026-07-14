@@ -23460,14 +23460,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "0.8",
-      "stock_in_geitawi_branch": "1.255",
+      "stock_in_geitawi_branch": "1.3",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "2.055",
+      "total_stock": "0",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
-          "stock": "1.255",
+          "stock": "1.3",
           "consumption": "0"
         },
         "Medawar": {
@@ -23479,23 +23479,32 @@
       "SUPPLIERS": "VEGETABLES AND FRUITS",
       "expiry_days": "0",
       "cost": "0.67",
-      "cost_ht": 0.666666666666667,
+      "cost_ht": "0.6667",
       "new_items": "x",
       "manual": "",
       "delivery_rules": "0.005",
       "subcategory": "VEGETABLES",
       "vat": "no",
-      "totalStock": "2.055",
+      "totalStock": "0",
       "arabic_name": "فول أخضر",
       "name_ar": "فول أخضر",
       "description_ar": "فول أخضر",
-      "non_stockable": false,
-      "nonStockable": false,
-      "cost_ttc": 0.666666666666667,
-      "cost_currency": "LBP",
-      "cost_vat_included": 0,
+      "non_stockable": true,
+      "nonStockable": true,
+      "cost_ttc": "0.6667",
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1778649675532",
-      "latest_purchase_cost_date": "2026-05-13"
+      "latest_purchase_cost_date": "2026-05-13",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 0.6666666666666666,
+      "costHtUsd": 0.6666666666666666,
+      "cost_ht_usd": 0.6666666666666666
     },
     {
       "id": "21961",
@@ -24517,6 +24526,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-14T06:36:13.998917Z",
+  "updatedAt": "2026-07-14T06:49:41.799710Z",
   "source": "sql-relay-web"
 }
