@@ -5031,15 +5031,15 @@
       "expiry_days": "3",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "8.6",
-      "stock_in_medawar_branch": "9.72",
+      "stock_in_medawar_branch": "1.6",
       "consumption_in_medawar_branch": "11.3",
-      "total_stock": "10.72",
+      "total_stock": "2.6",
       "total_consumption": "19.9",
       "VAT": "NO",
       "price_lbp": "200,000",
       "price_usd": "2.22",
       "cost": "1.50",
-      "cost_ht": 1.5,
+      "cost_ht": "1.5000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15758.jpg",
       "new_items": "",
       "manual": "",
@@ -5055,7 +5055,7 @@
           "consumption": "8.6"
         },
         "Medawar": {
-          "stock": "9.72",
+          "stock": "1.6",
           "consumption": "11.3"
         }
       },
@@ -5065,23 +5065,26 @@
       "supplier": "VEGETABLES AND FRUITS",
       "subcategory": "VEGETABLES",
       "vat": "no",
-      "totalStock": "10.72",
+      "totalStock": "2.6",
       "arabic_name": "كيس ثوم",
       "name_ar": "كيس ثوم",
       "description_ar": "كيس ثوم",
       "non_stockable": false,
       "nonStockable": false,
-      "scale_item_enabled": true,
-      "scaleItemEnabled": true,
-      "scale_code": "7100013",
-      "scaleCode": "7100013",
-      "scale_plu": 72,
-      "scalePlu": 72,
-      "cost_ttc": 1.5,
-      "cost_currency": "LBP",
-      "cost_vat_included": 0,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "cost_ttc": "1.5000",
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "costTtcUsd": 1.5,
+      "costHtUsd": 1.5,
+      "cost_ht_usd": 1.5
     },
     {
       "id": "15759",
@@ -9371,6 +9374,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-14T15:00:48.311339Z",
+  "updatedAt": "2026-07-14T15:02:02.368855Z",
   "source": "sql-relay-web"
 }
