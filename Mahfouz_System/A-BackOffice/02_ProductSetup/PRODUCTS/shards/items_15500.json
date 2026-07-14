@@ -4509,11 +4509,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "10.12",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "19.8",
       "stock_in_medawar_branch": "28.185",
       "consumption_in_medawar_branch": "106.8",
-      "total_stock": "38.305",
+      "total_stock": "32.185",
       "total_consumption": "126.6",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -4525,7 +4525,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10.12",
+          "stock": "4",
           "consumption": "19.8"
         },
         "Medawar": {
@@ -4541,7 +4541,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 0.4407407407407407,
+      "cost_ht": "0.4407",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -4552,7 +4552,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15751-1779000844488600",
       "product_setup_saved_at_utc": "2026-05-17T06:54:04.488600Z",
-      "totalStock": "38.305",
+      "totalStock": "32.185",
       "arabic_name": "بصل يابس",
       "name_ar": "بصل يابس",
       "description_ar": "بصل يابس",
@@ -4560,11 +4560,20 @@
       "nonStockable": false,
       "priceLbp": 90000.0,
       "priceUsd": 1.0,
-      "cost_ttc": 0.4407407407407407,
-      "cost_currency": "LBP",
+      "cost_ttc": "0.4407",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 0.4407407407407407,
+      "costHtUsd": 0.4407407407407407,
+      "cost_ht_usd": 0.4407407407407407
     },
     {
       "id": "15752",
@@ -5166,11 +5175,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "FRUITS",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.44",
+      "stock_in_geitawi_branch": "1.45",
       "consumption_in_geitawi_branch": "28.4",
       "stock_in_medawar_branch": "25.58",
       "consumption_in_medawar_branch": "84.8",
-      "total_stock": "27.02",
+      "total_stock": "27.03",
       "total_consumption": "113.2",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -5182,7 +5191,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.44",
+          "stock": "1.45",
           "consumption": "28.4"
         },
         "Medawar": {
@@ -5198,7 +5207,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 1.7777777777777777,
+      "cost_ht": "1.7778",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -5209,7 +5218,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15762-1778999133527496",
       "product_setup_saved_at_utc": "2026-05-17T06:25:33.527496Z",
-      "totalStock": "27.02",
+      "totalStock": "27.03",
       "arabic_name": "موز بلدي",
       "name_ar": "موز بلدي",
       "description_ar": "موز بلدي",
@@ -5217,11 +5226,20 @@
       "nonStockable": false,
       "priceLbp": 250000.0,
       "priceUsd": 2.7777777777777777,
-      "cost_ttc": 1.7777777777777777,
-      "cost_currency": "LBP",
+      "cost_ttc": "1.7778",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 1.7777777777777777,
+      "costHtUsd": 1.7777777777777777,
+      "cost_ht_usd": 1.7777777777777777
     },
     {
       "id": "15763",
@@ -9257,6 +9275,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-14T08:46:46.905900Z",
+  "updatedAt": "2026-07-14T08:50:20.123264Z",
   "source": "sql-relay-web"
 }
