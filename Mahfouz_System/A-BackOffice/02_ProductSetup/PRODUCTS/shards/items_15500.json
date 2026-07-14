@@ -4584,11 +4584,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "6.415",
       "consumption_in_geitawi_branch": "53.3",
       "stock_in_medawar_branch": "23.43",
       "consumption_in_medawar_branch": "143.4",
-      "total_stock": "27.43",
+      "total_stock": "29.845",
       "total_consumption": "196.7",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -4600,7 +4600,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "6.415",
           "consumption": "53.3"
         },
         "Medawar": {
@@ -4616,7 +4616,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 1.3333333333333333,
+      "cost_ht": "1.3333",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -4627,7 +4627,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15752-1778999925035505",
       "product_setup_saved_at_utc": "2026-05-17T06:38:45.035505Z",
-      "totalStock": "27.43",
+      "totalStock": "29.845",
       "arabic_name": "حامض",
       "name_ar": "حامض",
       "description_ar": "حامض",
@@ -4635,11 +4635,20 @@
       "nonStockable": false,
       "priceLbp": 200000.0,
       "priceUsd": 2.2222222222222223,
-      "cost_ttc": 1.3333333333333333,
-      "cost_currency": "LBP",
+      "cost_ttc": "1.3333",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 1.3333333333333333,
+      "costHtUsd": 1.3333333333333333,
+      "cost_ht_usd": 1.3333333333333333
     },
     {
       "id": "15753",
@@ -9308,6 +9317,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-14T10:18:48.234303Z",
+  "updatedAt": "2026-07-14T10:21:36.309269Z",
   "source": "sql-relay-web"
 }
