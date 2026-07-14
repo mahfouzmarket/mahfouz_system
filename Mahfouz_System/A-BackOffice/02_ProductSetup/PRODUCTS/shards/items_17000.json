@@ -3209,9 +3209,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "102",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "36",
       "consumption_in_medawar_branch": "165",
-      "total_stock": "0",
+      "total_stock": "36",
       "total_consumption": "267",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -3227,7 +3227,7 @@
           "consumption": "102"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "36",
           "consumption": "165"
         },
         "The Daily Market": {
@@ -3245,7 +3245,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "36",
       "stock": "-2",
       "branch_stock": {
         "Geitawi": {
@@ -3268,10 +3268,10 @@
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": 0.29294972067039105,
+      "cost_ht": 0.2913219135802469,
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "cost_ttc": 0.3251741899441341,
+      "cost_ttc": 0.3233673240740741,
       "cost_currency": "LBP",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783407096061",
@@ -3288,9 +3288,9 @@
       "offers": "-",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "210,000",
@@ -3307,7 +3307,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "2"
         },
         "The Daily Market": {
@@ -3354,7 +3354,8 @@
       "non_stockable": false,
       "nonStockable": false,
       "cost_ht": "1.56",
-      "totalStock": "0"
+      "totalStock": "6",
+      "linked_bulk_stock_source": "parent:17179/6"
     },
     {
       "id": "17188",
@@ -10281,6 +10282,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-14T06:04:12.256979Z",
+  "updatedAt": "2026-07-14T06:17:17.442339Z",
   "source": "sql-relay-web"
 }
