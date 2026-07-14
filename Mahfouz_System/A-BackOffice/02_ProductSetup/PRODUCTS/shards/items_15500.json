@@ -5715,11 +5715,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "FRUITS",
       "offers": "0",
-      "stock_in_geitawi_branch": "2.725",
+      "stock_in_geitawi_branch": "1.33",
       "consumption_in_geitawi_branch": "8.2",
       "stock_in_medawar_branch": "9.53",
       "consumption_in_medawar_branch": "4.2",
-      "total_stock": "12.255",
+      "total_stock": "10.86",
       "total_consumption": "12.4",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -5731,7 +5731,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2.725",
+          "stock": "1.33",
           "consumption": "8.2"
         },
         "Medawar": {
@@ -5749,14 +5749,14 @@
       "linked_profile_sub_category": "",
       "linked_profile_category": "",
       "barcode2": "",
-      "cost_ht": 3.33333333333333,
+      "cost_ht": "3.3333",
       "linked_profile_enabled": false,
       "barcodes": "",
       "expiry_days": "0",
       "name": "KIWI",
       "subcategory": "fruits",
       "vat": "no",
-      "totalStock": "12.255",
+      "totalStock": "10.86",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -5770,11 +5770,14 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc": 3.33333333333333,
-      "cost_currency": "LBP",
-      "cost_vat_included": 0,
+      "cost_ttc": "3.3333",
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "costTtcUsd": 3.3333333333333335,
+      "costHtUsd": 3.3333333333333335,
+      "cost_ht_usd": 3.3333333333333335
     },
     {
       "id": "15772",
@@ -9275,6 +9278,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-14T10:04:18.912604Z",
+  "updatedAt": "2026-07-14T10:08:41.437576Z",
   "source": "sql-relay-web"
 }
