@@ -3352,11 +3352,11 @@
       "category": "HOME USAGE",
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "7",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "22",
       "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "5",
+      "total_stock": "4",
       "total_consumption": "39",
       "VAT": "NO",
       "price_lbp": "65,000",
@@ -3368,7 +3368,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7",
+          "stock": "6",
           "consumption": "22"
         },
         "Medawar": {
@@ -3382,7 +3382,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "4",
       "cost_ttc": 0.525,
       "cost_ht": 0.525,
       "cost_currency": "USD",
@@ -5973,9 +5973,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "33",
-      "total_stock": "14",
+      "total_stock": "9",
       "total_consumption": "33",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -5991,7 +5991,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "6",
           "consumption": "33"
         }
       },
@@ -6003,7 +6003,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 0.4629629629629629,
+      "cost_ht": "0.4630",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -6012,17 +6012,26 @@
       "name": "KHASS",
       "subcategory": "VEGETABLES",
       "vat": "no",
-      "totalStock": "14",
+      "totalStock": "9",
       "arabic_name": "خس",
       "name_ar": "خس",
       "description_ar": "خس",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ttc": 0.4629629629629629,
-      "cost_currency": "LBP",
+      "cost_ttc": "0.4630",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783054212973",
-      "latest_purchase_cost_date": "2026-07-03"
+      "latest_purchase_cost_date": "2026-07-03",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 0.4629629629629629,
+      "costHtUsd": 0.4629629629629629,
+      "cost_ht_usd": 0.4629629629629629
     },
     {
       "id": "15776",
@@ -6035,9 +6044,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "9",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "44",
-      "total_stock": "5",
+      "total_stock": "9",
       "total_consumption": "53",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -6053,7 +6062,7 @@
           "consumption": "9"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "9",
           "consumption": "44"
         }
       },
@@ -6065,7 +6074,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 0.5555555555555556,
+      "cost_ht": "0.5556",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -6076,7 +6085,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15776-1779008573071833",
       "product_setup_saved_at_utc": "2026-05-17T09:02:53.071833Z",
-      "totalStock": "5",
+      "totalStock": "9",
       "arabic_name": "خس آيسبرغ",
       "name_ar": "خس آيسبرغ",
       "description_ar": "خس آيسبرغ",
@@ -6084,11 +6093,20 @@
       "nonStockable": false,
       "priceLbp": 100000.0,
       "priceUsd": 1.1111111111111112,
-      "cost_ttc": 0.5555555555555556,
-      "cost_currency": "LBP",
+      "cost_ttc": "0.5556",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782879462994",
-      "latest_purchase_cost_date": "2026-07-01"
+      "latest_purchase_cost_date": "2026-07-01",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 0.5555555555555556,
+      "costHtUsd": 0.5555555555555556,
+      "cost_ht_usd": 0.5555555555555556
     },
     {
       "id": "15777",
@@ -9335,6 +9353,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-14T14:46:26.170780Z",
+  "updatedAt": "2026-07-14T14:48:42.624174Z",
   "source": "sql-relay-web"
 }
