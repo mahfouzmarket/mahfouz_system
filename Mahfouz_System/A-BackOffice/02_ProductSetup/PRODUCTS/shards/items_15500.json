@@ -4114,11 +4114,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "84.6",
       "stock_in_medawar_branch": "31.537",
       "consumption_in_medawar_branch": "184.4",
-      "total_stock": "31.537",
+      "total_stock": "34.537",
       "total_consumption": "269",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -4130,7 +4130,7 @@
       "delivery_rules": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "84.6"
         },
         "Medawar": {
@@ -4146,7 +4146,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 0.9236111111111112,
+      "cost_ht": "0.9236",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -4157,7 +4157,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15745-1779009533478756",
       "product_setup_saved_at_utc": "2026-05-17T09:18:53.478756Z",
-      "totalStock": "31.537",
+      "totalStock": "34.537",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -4171,11 +4171,14 @@
       "scalePlu": 0,
       "priceLbp": 110000.0,
       "priceUsd": 1.2222222222222223,
-      "cost_ttc": 0.9236111111111112,
-      "cost_currency": "LBP",
+      "cost_ttc": "0.9236",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "costTtcUsd": 0.9236111111111112,
+      "costHtUsd": 0.9236111111111112,
+      "cost_ht_usd": 0.9236111111111112
     },
     {
       "id": "15746",
@@ -9317,6 +9320,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-14T10:21:36.309269Z",
+  "updatedAt": "2026-07-14T10:23:14.150562Z",
   "source": "sql-relay-web"
 }
