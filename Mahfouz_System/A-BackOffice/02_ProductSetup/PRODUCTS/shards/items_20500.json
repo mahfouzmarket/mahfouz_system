@@ -8787,17 +8787,17 @@
       "vat": "no",
       "price_lbp": "400,000",
       "cost": "2.38",
-      "total_stock": "8.181",
+      "total_stock": "7.236",
       "total_consumption": "27.6",
       "stock_in_geitawi_branch": "4.036",
-      "stock_in_medawar_branch": "4.145",
+      "stock_in_medawar_branch": "3.2",
       "branches": {
         "Geitawi": {
           "stock": "4.036",
           "consumption": "3.6"
         },
         "Medawar": {
-          "stock": "4.145",
+          "stock": "3.2",
           "consumption": "24"
         },
         "The Daily Market": {
@@ -8838,7 +8838,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 2.38095238095238,
+      "cost_ht": "2.3810",
       "costUsd": 2.31,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
@@ -8853,7 +8853,7 @@
       "product_setup_save_token": "PS-SAVE-20673-1779011334639139",
       "product_setup_saved_at_utc": "2026-05-17T09:48:54.639139Z",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20673.jpg",
-      "totalStock": "8.181",
+      "totalStock": "7.236",
       "arabic_name": "مشمش",
       "name_ar": "مشمش",
       "description_ar": "مشمش",
@@ -8865,11 +8865,14 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc": 2.38095238095238,
-      "cost_currency": "LBP",
-      "cost_vat_included": 0,
+      "cost_ttc": "2.3810",
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "costTtcUsd": 2.380952380952381,
+      "costHtUsd": 2.380952380952381,
+      "cost_ht_usd": 2.380952380952381
     },
     {
       "id": "20674",
@@ -25466,6 +25469,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-14T13:57:24.845645Z",
+  "updatedAt": "2026-07-14T14:27:01.642139Z",
   "source": "sql-relay-web"
 }
