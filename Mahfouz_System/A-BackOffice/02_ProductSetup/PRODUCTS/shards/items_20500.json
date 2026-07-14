@@ -7354,11 +7354,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.6",
+      "stock_in_geitawi_branch": "1.8",
       "consumption_in_geitawi_branch": "2.1",
       "stock_in_medawar_branch": "7.37",
       "consumption_in_medawar_branch": "16.2",
-      "total_stock": "8.97",
+      "total_stock": "9.17",
       "total_consumption": "18.3",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -7370,7 +7370,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1.6",
+          "stock": "1.8",
           "consumption": "2.1"
         },
         "Medawar": {
@@ -7384,19 +7384,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8.97",
+      "totalStock": "9.17",
       "arabic_name": "بندورة جبلية",
       "name_ar": "بندورة جبلية",
       "description_ar": "بندورة جبلية",
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": 1.1111111111111112,
-      "cost_ttc": 1.1111111111111112,
-      "cost_currency": "LBP",
+      "cost_ht": "1.1111",
+      "cost_ttc": "1.1111",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782707128765",
-      "latest_purchase_cost_date": "2026-06-29"
+      "latest_purchase_cost_date": "2026-06-29",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 1.1111111111111112,
+      "costHtUsd": 1.1111111111111112,
+      "cost_ht_usd": 1.1111111111111112
     },
     {
       "id": "20655",
@@ -25457,6 +25466,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-14T10:21:28.326221Z",
+  "updatedAt": "2026-07-14T10:25:46.378101Z",
   "source": "sql-relay-web"
 }
