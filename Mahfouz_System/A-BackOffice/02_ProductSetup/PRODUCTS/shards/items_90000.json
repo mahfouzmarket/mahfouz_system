@@ -3095,113 +3095,6 @@
       "consumption_in_nouna_branch": "0"
     },
     {
-      "id": "90107",
-      "barcode": "2709240",
-      "barcodes": "",
-      "Product Description": "MLABAS CHOCO",
-      "product_description": "NF MLABBAS CHOCO NT 100G",
-      "description": "MLABAS CHOCO",
-      "brand": "",
-      "supplier": "NOUNA'S FOOD",
-      "SUPPLIERS": "NOUNA'S FOOD",
-      "category": "NOUNA'S FOOD",
-      "sub_category": "SWEET & CANDIES",
-      "subcategory": "SWEET & CANDIES",
-      "subCategory": "SWEET & CANDIES",
-      "unit": "EACH",
-      "VAT": "NO",
-      "vat": "no",
-      "price_lbp": "350,000",
-      "cost": "3.24",
-      "total_stock": "0",
-      "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
-      "branches": {
-        "geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "the_daily_market": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "0",
-          "consumption": "0.0"
-        },
-        "Geitawi": {
-          "consumption": "0.0",
-          "stock": "0"
-        },
-        "Nouna": {
-          "stock": "4",
-          "consumption": "0"
-        }
-      },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.pdf",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "",
-      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "NF MLABBAS CHOCO NT 100G",
-      "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "0",
-      "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "SWEET & CANDIES",
-      "secondary_category": "",
-      "secondary_subcategory": "",
-      "secondary_sub_category": "",
-      "offers": "",
-      "new_items": "",
-      "manual": "",
-      "delivery_rules": "0.005",
-      "cost_ht": "3.24",
-      "costUsd": 3.24,
-      "cost_ht_usd": 3.24,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "linked_profile_enabled": true,
-      "linked_profile_repo_root": "Nounas_Food",
-      "linked_profile_item_id": "90107",
-      "user2_unify_old_id": "21053",
-      "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "arabic_name": "",
-      "name_ar": "",
-      "description_ar": "",
-      "expiry_days": 0,
-      "non_stockable": false,
-      "nonStockable": false,
-      "scale_item_enabled": false,
-      "scaleItemEnabled": false,
-      "scale_code": "",
-      "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "price_usd": "3.89",
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID200027.jpg",
-      "totalStock": "0",
-      "secondBarcode": "",
-      "expiryDays": 0,
-      "linked_profile_category": "CHOCOLATE AND DRAGEE",
-      "linked_profile_sub_category": "CHOCOLATE AND DRAG├ëE",
-      "stock_in_nouna_branch": "0",
-      "consumption_in_nouna_branch": "0"
-    },
-    {
       "id": "90109",
       "barcode": "2709269",
       "Product Description": "MALBAN 500g",
@@ -8202,6 +8095,15 @@
         },
         "Nouna": {
           "stock": "0"
+        },
+        "geitawi": {
+          "stock": "0.0"
+        },
+        "medawar": {
+          "stock": "0.0"
+        },
+        "nouna": {
+          "stock": "0.0"
         }
       },
       "name": "NF EID MA3MOUL RAHA NT 500g",
@@ -8226,7 +8128,9 @@
       "costHtUsd": 9.35,
       "cost_ht_usd": 9.35,
       "costTtcUsd": 9.35,
-      "totalStock": "0"
+      "totalStock": "0",
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "90352",
@@ -8424,6 +8328,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-15T15:06:06.474232Z",
+  "updatedAt": "2026-07-15T15:07:17.993941Z",
   "source": "sql-relay-web"
 }
