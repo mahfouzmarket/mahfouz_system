@@ -2400,7 +2400,7 @@
       "stock_in_medawar_branch": "51",
       "consumption_in_medawar_branch": "23",
       "total_stock": "73",
-      "total_consumption": "37",
+      "total_consumption": "65.0",
       "VAT": "YES",
       "price_lbp": "130,000",
       "price_usd": "1.44",
@@ -2419,7 +2419,16 @@
           "consumption": "23"
         },
         "Nouna": {
-          "stock": 0
+          "stock": "0"
+        },
+        "geitawi": {
+          "stock": "22.0"
+        },
+        "medawar": {
+          "stock": "51.0"
+        },
+        "nouna": {
+          "stock": "0"
         }
       },
       "name": "WHITE BELL SWEET CORN 340 G",
@@ -2429,7 +2438,7 @@
       "barcode2": "",
       "barcodes": "",
       "totalStock": "73",
-      "stock_in_nouna_branch": 0,
+      "stock_in_nouna_branch": "0",
       "cost_ttc": 1.1497750000000002,
       "cost_ht": 1.0358333333333334,
       "cost_currency": "USD",
@@ -2438,7 +2447,9 @@
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 1.0358333333333334,
       "cost_ht_usd": 1.0358333333333334,
-      "costTtcUsd": 1.1497750000000002
+      "costTtcUsd": 1.1497750000000002,
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "15152",
@@ -6609,6 +6620,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-15T14:56:29.500391Z",
+  "updatedAt": "2026-07-15T15:07:17.993941Z",
   "source": "sql-relay-web"
 }
