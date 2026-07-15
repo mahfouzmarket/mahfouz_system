@@ -5532,27 +5532,39 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "9",
           "consumption": "1"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "geitawi": {
+          "stock": "3.0"
+        },
+        "medawar": {
+          "stock": "9.0"
+        },
+        "nouna": {
+          "stock": "0"
         }
       },
       "stock_in_geitawi_branch": "3",
-      "total_stock": "13",
+      "total_stock": "12",
       "Product Description": "MAGIC CLEAN MEKNASE SOFT",
       "SUPPLIERS": "waybe group",
       "subcategory": "CLEANING",
       "vat": "no",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "1",
-      "total_consumption": "2",
+      "total_consumption": "2.0",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "13",
+      "totalStock": "12",
       "cost_ttc": 3.15,
       "cost_ht": 3.15,
       "cost_currency": "USD",
@@ -5561,7 +5573,10 @@
       "latest_purchase_cost_date": "2026-05-20",
       "costHtUsd": 3.15,
       "cost_ht_usd": 3.15,
-      "costTtcUsd": 3.15
+      "costTtcUsd": 3.15,
+      "stock_in_nouna_branch": "0",
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "21591",
@@ -11673,96 +11688,6 @@
       "totalStock": "0"
     },
     {
-      "id": "21723",
-      "barcode": "2709370",
-      "barcodes": "",
-      "Product Description": "NF EID MA3MOUL RAHA NT 1 KG",
-      "product_description": "NF EID MA3MOUL RAHA NT 1KG",
-      "description": "NF EID MA3MOUL RAHA NT 1KG",
-      "brand": "",
-      "supplier": "",
-      "SUPPLIERS": "NOUNA'S FOOD",
-      "category": "NOUNA'S FOOD",
-      "sub_category": "NOUNA'S FOOD",
-      "subcategory": "NOUNA'S FOOD",
-      "subCategory": "NOUNA'S FOOD",
-      "unit": "EACH",
-      "VAT": "NO",
-      "vat": "no",
-      "price_lbp": "1,980,000",
-      "cost": "18.33",
-      "total_stock": "0",
-      "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
-      "branches": {
-        "geitawi": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "the_daily_market": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "0.0",
-          "consumption": "0.0"
-        },
-        "Geitawi": {
-          "consumption": "0.0"
-        }
-      },
-      "created_by_user_code": "1",
-      "createdByUserCode": "1",
-      "import_source": "active products listing.pdf",
-      "imported_at_utc": "2026-05-09T20:36:23.478018Z",
-      "updated_at_utc": "2026-05-09T22:54:32.479137Z",
-      "barcode2": "",
-      "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
-      "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
-      "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
-      "active_listing_import_rollback_reason": "CSV has PRODNUM but no real barcode; imported rows made Product Setup heavy.",
-      "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
-      "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
-      "name": "NF EID MA3MOUL RAHA NT 1KG",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "stock_in_the_daily_market_branch": "0.0",
-      "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "NOUNA'S FOOD",
-      "secondary_category": "",
-      "secondary_subcategory": "",
-      "secondary_sub_category": "",
-      "offers": "",
-      "new_items": "",
-      "manual": "",
-      "delivery_rules": "0.005",
-      "cost_ht": "18.33",
-      "costUsd": 18.33,
-      "cost_ht_usd": 18.33,
-      "cost_formula": "sale_price_usd_div_1.2",
-      "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "arabic_name": "",
-      "name_ar": "",
-      "description_ar": "",
-      "expiry_days": "0",
-      "non_stockable": false,
-      "nonStockable": false,
-      "scale_item_enabled": false,
-      "scaleItemEnabled": false,
-      "scale_code": "",
-      "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "price_usd": "22.00",
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21723.jpg",
-      "totalStock": "0"
-    },
-    {
       "id": "21724",
       "name": "NF EID MA3MOUL RAHA NT 500G",
       "category": "NOUNA'S FOOD",
@@ -15900,17 +15825,17 @@
       "vat": "no",
       "price_lbp": "320,000",
       "cost": "2.96",
-      "total_stock": "0",
-      "total_consumption": "0",
+      "total_stock": "4",
+      "total_consumption": "1.0",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "4",
       "branches": {
         "geitawi": {
-          "stock": "0",
+          "stock": "0.0",
           "consumption": "0"
         },
         "medawar": {
-          "stock": "0",
+          "stock": "4.0",
           "consumption": "0"
         },
         "the_daily_market": {
@@ -15922,8 +15847,14 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "nouna": {
+          "stock": "0"
         }
       },
       "created_by_user_code": "1",
@@ -15961,7 +15892,10 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21806.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21806.jpg",
       "image_updated_at_utc": "2026-06-26T13:22:14.229306Z",
-      "totalStock": "0"
+      "totalStock": "4",
+      "stock_in_nouna_branch": "0",
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "21807",
@@ -20904,63 +20838,6 @@
       "costTtcUsd": 0.7992
     },
     {
-      "id": "21889",
-      "name": "MAGIG CLEAN MEKNASEH",
-      "category": "HOME USAGE",
-      "sub": "CLEANING",
-      "sub_category": "CLEANING",
-      "supplier": "JACK DIB",
-      "unit": "-",
-      "barcode": "5285010680366",
-      "barcode2": "",
-      "barcodes": "",
-      "price_usd": "5.00",
-      "price_lbp": "450,000",
-      "VAT": "YES",
-      "offers": "0",
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21889.jpg",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "-1",
-      "stock_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "0",
-      "total_stock": "-1",
-      "total_consumption": "0",
-      "branches": {
-        "Geitawi": {
-          "stock": "0",
-          "consumption": "0"
-        },
-        "Medawar": {
-          "stock": "-1",
-          "consumption": "0"
-        }
-      },
-      "Product Description": "MAGIG CLEAN MEKNASEH",
-      "SUPPLIERS": "JACK DIB",
-      "expiry_days": "0",
-      "cost": "3.15",
-      "cost_ht": 3.15,
-      "new_items": "x",
-      "manual": "",
-      "delivery_rules": "0.005",
-      "subcategory": "CLEANING",
-      "vat": "yes",
-      "totalStock": "-1",
-      "cost_ttc": 3.4965,
-      "cost_currency": "USD",
-      "cost_vat_included": 1,
-      "latest_purchase_cost_doc_id": "P1776408615264",
-      "latest_purchase_cost_date": "2026-04-17",
-      "costHtUsd": 3.15,
-      "cost_ht_usd": 3.15,
-      "costTtcUsd": 3.4965
-    },
-    {
       "id": "21893",
       "name": "MAGIC CLEAN MULTI PURPOSE 3 IN 1",
       "category": "HOME USAGE",
@@ -24439,13 +24316,13 @@
       "vat": "no",
       "price_lbp": "450,000",
       "cost": "4.17",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "1",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
-          "stock": "0.0",
+          "stock": "1.0",
           "consumption": "0.0"
         },
         "medawar": {
@@ -24457,11 +24334,18 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "1"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "nouna": {
+          "stock": "0.0"
         }
       },
       "created_by_user_code": "1",
@@ -24508,7 +24392,10 @@
       "scalePlu": 0,
       "price_usd": "5.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21988.jpg",
-      "totalStock": "0"
+      "totalStock": "1",
+      "stock_in_nouna_branch": "0",
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "21999",
@@ -24609,6 +24496,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-15T14:51:39.156135Z",
+  "updatedAt": "2026-07-15T15:07:17.993941Z",
   "source": "sql-relay-web"
 }
