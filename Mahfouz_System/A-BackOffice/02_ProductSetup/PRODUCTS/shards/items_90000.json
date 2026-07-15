@@ -4842,18 +4842,18 @@
     },
     {
       "id": "90151",
-      "barcode": "5283007434053",
+      "barcode": "",
       "Product Description": "WATER",
       "SUPPLIERS": "TANNOURINE",
       "unit": "-",
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "33",
-      "stock_in_medawar_branch": "12123",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "26",
-      "total_stock": "29638",
+      "total_stock": "17517",
       "total_consumption": "59",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -4865,11 +4865,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "33"
         },
         "Medawar": {
-          "stock": "12123",
+          "stock": "0",
           "consumption": "26"
         },
         "Nouna": {
@@ -4883,7 +4883,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "29638",
+      "totalStock": "17517",
       "secondBarcode": "",
       "product_description": "WATER",
       "description": "WATER",
@@ -4898,15 +4898,26 @@
       "stock_in_nouna_branch": "17517",
       "updated_at_utc": "2026-06-30T13:30:05.344Z",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": 0.14874,
-      "cost_ht": 0.134,
+      "cost_ttc": "0.1487",
+      "cost_ht": "0.1340",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782881620822",
       "latest_purchase_cost_date": "2026-07-01",
       "costHtUsd": 0.134,
       "cost_ht_usd": 0.134,
-      "costTtcUsd": 0.14874
+      "costTtcUsd": 0.14874,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "90153",
@@ -8400,6 +8411,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-15T09:20:27.535636Z",
+  "updatedAt": "2026-07-15T09:29:37.952617Z",
   "source": "sql-relay-web"
 }
