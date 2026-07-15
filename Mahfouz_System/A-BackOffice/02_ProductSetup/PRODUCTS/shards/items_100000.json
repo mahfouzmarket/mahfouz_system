@@ -299,11 +299,11 @@
       "barcode": "5711953202483",
       "barcode2": "",
       "barcodes": "",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "2",
+      "total_stock": "0",
       "total_consumption": "1",
       "branches": {
         "Geitawi": {
@@ -311,7 +311,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "1"
         }
       },
@@ -322,7 +322,7 @@
       "VAT": "YES",
       "price_lbp": "845,000",
       "cost": "5.74",
-      "cost_ht": 5.74,
+      "cost_ht": "5.7400",
       "new_items": "x",
       "manual": "",
       "delivery_rules": "0.005",
@@ -333,15 +333,26 @@
       "linked_profile_sub_category": "",
       "subcategory": "FROZEN FOOD",
       "vat": "yes",
-      "cost_ttc": 6.3714,
+      "cost_ttc": "6.3714",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1776836921468",
       "latest_purchase_cost_date": "2026-04-22",
       "costHtUsd": 5.74,
       "cost_ht_usd": 5.74,
       "costTtcUsd": 6.3714,
-      "totalStock": "2"
+      "totalStock": "0",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "100007",
@@ -8040,6 +8051,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-15T07:21:03.667554Z",
+  "updatedAt": "2026-07-15T07:57:42.896276Z",
   "source": "sql-relay-web"
 }
