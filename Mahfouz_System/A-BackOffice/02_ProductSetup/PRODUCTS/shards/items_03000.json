@@ -361,9 +361,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "14",
-      "total_stock": "1",
+      "total_stock": "9",
       "total_consumption": "15",
       "VAT": "NO",
       "price_lbp": "385,000",
@@ -379,7 +379,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "9",
           "consumption": "14"
         }
       },
@@ -396,10 +396,10 @@
       "supplier": "toters",
       "subcategory": "FROZEN FOOD",
       "vat": "no",
-      "totalStock": "1",
+      "totalStock": "9",
       "cost_ttc": 3.44,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781068153163",
       "latest_purchase_cost_date": "2026-06-10",
       "costHtUsd": 3.44,
@@ -1518,6 +1518,6 @@
       "costTtcUsd": 0.183342708333333
     }
   ],
-  "updatedAt": "2026-07-14T19:47:48.939960Z",
+  "updatedAt": "2026-07-15T04:13:28.522165Z",
   "source": "sql-relay-web"
 }
