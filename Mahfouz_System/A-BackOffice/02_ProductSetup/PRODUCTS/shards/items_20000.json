@@ -194,7 +194,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "1",
-      "total_consumption": "0",
+      "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -211,6 +211,18 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "geitawi": {
+          "stock": "1.0"
+        },
+        "medawar": {
+          "stock": "0.0"
+        },
+        "nouna": {
+          "stock": "0"
         }
       },
       "sub": "STATIONARY",
@@ -223,7 +235,10 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "stock_in_nouna_branch": "0",
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "20014",
@@ -20090,12 +20105,12 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "24",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "4",
-      "total_consumption": "25",
+      "total_stock": "2",
+      "total_consumption": "25.0",
       "VAT": "NO",
       "price_lbp": "80,000",
       "price_usd": "0.89",
@@ -20106,12 +20121,24 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "1",
           "consumption": "24"
         },
         "Medawar": {
           "stock": "1",
           "consumption": "1"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "geitawi": {
+          "stock": "1.0"
+        },
+        "medawar": {
+          "stock": "1.0"
+        },
+        "nouna": {
+          "stock": "0"
         }
       },
       "name": "SIMBA CAT WITH REAL LAMP 100 G",
@@ -20120,7 +20147,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
+      "totalStock": "2",
       "cost_ttc": 0.609,
       "cost_ht": 0.609,
       "cost_currency": "USD",
@@ -20129,7 +20156,10 @@
       "latest_purchase_cost_date": "2026-02-24",
       "costHtUsd": 0.609,
       "cost_ht_usd": 0.609,
-      "costTtcUsd": 0.609
+      "costTtcUsd": 0.609,
+      "stock_in_nouna_branch": "0",
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "20435",
@@ -23260,6 +23290,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-15T13:55:42.595170Z",
+  "updatedAt": "2026-07-15T15:07:17.993941Z",
   "source": "sql-relay-web"
 }
