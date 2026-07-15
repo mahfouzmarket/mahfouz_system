@@ -501,9 +501,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "12",
+      "total_stock": "24",
       "total_consumption": "10",
       "VAT": "YES",
       "price_lbp": "260,000",
@@ -519,7 +519,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "18",
           "consumption": "5"
         }
       },
@@ -529,16 +529,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
-      "cost_ttc": 2.06275,
-      "cost_ht": 1.85833333333333,
+      "totalStock": "24",
+      "cost_ttc": 2.0701500000000004,
+      "cost_ht": 1.865,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
-      "costHtUsd": 1.85833333333333,
-      "cost_ht_usd": 1.85833333333333,
-      "costTtcUsd": 2.06275
+      "costHtUsd": 1.865,
+      "cost_ht_usd": 1.865,
+      "costTtcUsd": 2.0701500000000004
     },
     {
       "id": "15548",
@@ -9350,6 +9350,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-15T05:00:38.539164Z",
+  "updatedAt": "2026-07-15T05:08:27.200Z",
   "source": "sql-relay-web"
 }
