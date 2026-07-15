@@ -2572,15 +2572,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "105,000",
       "price_usd": "1.17",
       "cost": "0.79",
-      "cost_ht": 0.791666666666667,
+      "cost_ht": "0.7917",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400069.jpg",
       "new_items": "x",
       "manual": "",
@@ -2596,7 +2596,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "5"
         }
       },
@@ -2606,18 +2606,29 @@
       "supplier": "LIBAN JUS SAL GLACES",
       "subcategory": "ICEBERG",
       "vat": "yes",
-      "totalStock": "1",
+      "totalStock": "0",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400069.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400069.jpg",
       "image_updated_at_utc": "2026-06-25T09:32:03.957216Z",
-      "cost_ttc": 0.87875,
+      "cost_ttc": "0.8788",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781277652672",
       "latest_purchase_cost_date": "2026-06-12",
-      "costHtUsd": 0.791666666666667,
-      "cost_ht_usd": 0.791666666666667,
-      "costTtcUsd": 0.87875
+      "costHtUsd": 0.7916666666666666,
+      "cost_ht_usd": 0.7916666666666666,
+      "costTtcUsd": 0.87875,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "400070",
@@ -2761,6 +2772,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-15T08:54:20.174636Z",
+  "updatedAt": "2026-07-15T10:14:34.676815Z",
   "source": "sql-relay-web"
 }
