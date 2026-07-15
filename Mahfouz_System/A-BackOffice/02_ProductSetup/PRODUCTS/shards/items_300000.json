@@ -4167,7 +4167,7 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "9",
       "total_consumption": "0",
@@ -4193,6 +4193,9 @@
         "Medawar": {
           "stock": "-1",
           "consumption": "0"
+        },
+        "medawar": {
+          "stock": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-300080-1779259415140370",
@@ -27234,6 +27237,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-15T00:06:18.958264Z",
+  "updatedAt": "2026-07-15T00:16:37.247916Z",
   "source": "sql-relay-web"
 }
