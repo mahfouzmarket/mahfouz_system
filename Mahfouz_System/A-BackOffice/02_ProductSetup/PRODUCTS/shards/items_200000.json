@@ -1373,74 +1373,6 @@
       "costTtcUsd": 1.888889
     },
     {
-      "id": "200018",
-      "barcode": "2709433",
-      "barcodes": "",
-      "Product Description": "MARBLE CAKE 16CM",
-      "product_description": "MARBLE CAKE 16CM",
-      "category": "NOUNA'S FOOD",
-      "sub_category": "NOUNA'S FOOD",
-      "offers": "",
-      "stock_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "0.0",
-      "total_stock": "1",
-      "total_consumption": "0.0",
-      "vat": "no",
-      "price_lbp": "450,000",
-      "price_usd": "5.00",
-      "cost": "4.25",
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2709419.jpg",
-      "new_items": "x",
-      "manual": "",
-      "delivery_rules": "0.005",
-      "SUPPLIERS": "NOUNA'S FOOD",
-      "unit": "-",
-      "linked_profile_enabled": true,
-      "linked_profile_repo_root": "Nounas_Food",
-      "linked_profile_item_id": "200018",
-      "branches": {
-        "Geitawi": {
-          "stock": "1",
-          "consumption": "0.0"
-        },
-        "Medawar": {
-          "stock": "0",
-          "consumption": "0.0"
-        },
-        "Nouna": {
-          "stock": "0"
-        }
-      },
-      "name": "MARBLE CAKE 16CM",
-      "supplier": "NOUNA'S FOOD",
-      "subcategory": "NOUNA'S FOOD",
-      "sub": "NOUNA'S FOOD",
-      "secondary_category": "",
-      "secondary_subcategory": "",
-      "secondary_sub_category": "",
-      "VAT": "NO",
-      "user2_unify_old_id": "2709419",
-      "user2_unify_user_code": "2",
-      "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "description": "MARBLE CAKE 16CM",
-      "expiry_days": 0,
-      "expiryDays": 0,
-      "stock_in_nouna_branch": "0",
-      "consumption_in_nouna_branch": "0.0",
-      "cost_ttc": 4.25,
-      "cost_ht": 4.25,
-      "cost_currency": "USD",
-      "cost_vat_included": 0,
-      "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_pos-1776869609230",
-      "latest_purchase_cost_date": "2026-04-22",
-      "costHtUsd": 4.25,
-      "cost_ht_usd": 4.25,
-      "costTtcUsd": 4.25,
-      "totalStock": "1"
-    },
-    {
       "id": "200019",
       "barcode": "",
       "barcodes": "",
@@ -2007,11 +1939,11 @@
       "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
         },
         "medawar": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
         },
         "the_daily_market": {
@@ -2029,6 +1961,9 @@
         "Nouna": {
           "stock": "4",
           "consumption": "0"
+        },
+        "nouna": {
+          "stock": "4.0"
         }
       },
       "created_by_user_code": "1",
@@ -2087,7 +2022,9 @@
       "linked_profile_category": "CHOCOLATE AND DRAGEE",
       "linked_profile_sub_category": "CHOCOLATE AND DRAG├ëE",
       "stock_in_nouna_branch": "4",
-      "consumption_in_nouna_branch": "0.0"
+      "consumption_in_nouna_branch": "0.0",
+      "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
     },
     {
       "id": "200028",
@@ -3549,6 +3486,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-07-15T13:01:26.600188Z",
+  "updatedAt": "2026-07-15T15:07:17.993941Z",
   "source": "sql-relay-web"
 }
