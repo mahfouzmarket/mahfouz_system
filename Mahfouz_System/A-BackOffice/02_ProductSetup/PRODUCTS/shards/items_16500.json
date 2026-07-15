@@ -7018,9 +7018,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "31",
-      "stock_in_medawar_branch": "49",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "36",
-      "total_stock": "49",
+      "total_stock": "0",
       "total_consumption": "67",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -7036,7 +7036,7 @@
           "consumption": "31"
         },
         "Medawar": {
-          "stock": "49",
+          "stock": "0",
           "consumption": "36"
         }
       },
@@ -7046,16 +7046,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "49",
-      "cost_ttc": 0.959928,
-      "cost_ht": 0.8648,
+      "totalStock": "0",
+      "cost_ttc": "0.9599",
+      "cost_ht": "0.8648",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 0.8648,
       "cost_ht_usd": 0.8648,
-      "costTtcUsd": 0.959928
+      "costTtcUsd": 0.9599280000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "16963",
@@ -7712,6 +7724,6 @@
       "consumption_in_nouna_branch": "0"
     }
   ],
-  "updatedAt": "2026-07-15T14:58:58.700927Z",
+  "updatedAt": "2026-07-15T15:01:59.728495Z",
   "source": "sql-relay-web"
 }
