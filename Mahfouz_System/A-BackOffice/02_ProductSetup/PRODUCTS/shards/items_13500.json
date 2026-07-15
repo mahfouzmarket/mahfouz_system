@@ -2695,11 +2695,11 @@
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "3",
+      "total_stock": "4",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "120,000",
@@ -2711,7 +2711,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "2"
         },
         "Medawar": {
@@ -2725,7 +2725,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3",
+      "totalStock": "4",
       "cost_ttc": 0.92463,
       "cost_ht": 0.833,
       "cost_currency": "USD",
@@ -3974,11 +3974,11 @@
       "sub_category": "MINERAL WATER",
       "offers": "-",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "27",
+      "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "10",
       "stock_in_medawar_branch": "47",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "74",
+      "total_stock": "72",
       "total_consumption": "12",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -3996,7 +3996,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "27",
+          "stock": "25",
           "consumption": "10"
         },
         "Medawar": {
@@ -4025,7 +4025,7 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "74",
+      "totalStock": "72",
       "vat": "yes",
       "linked_bulk_stock_source": "parent:1438/6"
     },
@@ -7852,6 +7852,6 @@
       "costTtcUsd": 3.219
     }
   ],
-  "updatedAt": "2026-07-15T09:39:57.522953Z",
+  "updatedAt": "2026-07-15T09:42:06.108096Z",
   "source": "sql-relay-web"
 }
