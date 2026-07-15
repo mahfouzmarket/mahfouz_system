@@ -5061,7 +5061,7 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
       "total_stock": "0",
       "total_consumption": "5",
@@ -5085,6 +5085,9 @@
         "Medawar": {
           "stock": "-1",
           "consumption": "2"
+        },
+        "medawar": {
+          "stock": "0"
         }
       },
       "barcode2": "",
@@ -8003,6 +8006,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-07-15T00:06:18.958264Z",
+  "updatedAt": "2026-07-15T00:16:37.247916Z",
   "source": "sql-relay-web"
 }
