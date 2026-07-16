@@ -97,7 +97,7 @@
       "branches": {
         "Medawar": {
           "stock": "12",
-          "consumption": "2"
+          "consumption": "9"
         },
         "Geitawi": {
           "stock": "21",
@@ -109,8 +109,8 @@
       "image_updated_at_utc": "2026-07-15T06:17:56.765143Z",
       "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "2",
-      "total_consumption": "2",
+      "consumption_in_medawar_branch": "9",
+      "total_consumption": "9",
       "vat": "yes"
     },
     {
@@ -155,16 +155,21 @@
       "stock_in_medawar_branch": "24",
       "branches": {
         "Medawar": {
-          "stock": "24"
+          "stock": "24",
+          "consumption": "0"
         },
         "Geitawi": {
-          "stock": "18"
+          "stock": "18",
+          "consumption": "6"
         }
       },
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300502.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300502.jpg",
       "image_updated_at_utc": "2026-07-15T06:16:55.920794Z",
       "stock_in_geitawi_branch": "18",
+      "consumption_in_geitawi_branch": "6",
+      "consumption_in_medawar_branch": "0",
+      "total_consumption": "6",
       "vat": "yes"
     },
     {
@@ -268,12 +273,15 @@
       "stock_in_medawar_branch": "4",
       "branches": {
         "Medawar": {
-          "stock": "4"
+          "stock": "4",
+          "consumption": "1"
         }
       },
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300504.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300504.jpg",
       "image_updated_at_utc": "2026-07-15T14:17:13.765879Z",
+      "consumption_in_medawar_branch": "1",
+      "total_consumption": "1",
       "vat": "no"
     },
     {
@@ -368,6 +376,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-16T22:20:50.848518Z",
+  "updatedAt": "2026-07-16T22:39:58.751180Z",
   "source": "sql-relay-web"
 }
