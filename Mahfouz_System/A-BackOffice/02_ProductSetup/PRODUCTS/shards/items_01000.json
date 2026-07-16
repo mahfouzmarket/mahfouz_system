@@ -627,11 +627,11 @@
       "category": "BEVERAGES",
       "sub_category": "ice tea",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "27",
       "consumption_in_geitawi_branch": "149",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "111",
-      "total_stock": "6",
+      "total_stock": "30",
       "total_consumption": "260",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -643,7 +643,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "27",
           "consumption": "149"
         },
         "Medawar": {
@@ -657,13 +657,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "30",
       "cost_ttc": 0.60101875,
       "cost_ht": 0.5414583333333334,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783407096061",
-      "latest_purchase_cost_date": "2026-07-07"
+      "latest_purchase_cost_date": "2026-07-07",
+      "costTtcUsd": 0.60101875,
+      "costHtUsd": 0.5414583333333334,
+      "cost_ht_usd": 0.5414583333333334
     },
     {
       "id": "1229",
@@ -1869,6 +1872,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-16T21:42:20.818446Z",
+  "updatedAt": "2026-07-16T21:55:48.341916Z",
   "source": "sql-relay-web"
 }
