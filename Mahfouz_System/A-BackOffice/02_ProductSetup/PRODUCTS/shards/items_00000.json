@@ -853,9 +853,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "162",
-      "stock_in_medawar_branch": "29",
+      "stock_in_medawar_branch": "28",
       "consumption_in_medawar_branch": "123",
-      "total_stock": "62",
+      "total_stock": "61",
       "total_consumption": "285",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -871,7 +871,7 @@
           "consumption": "162"
         },
         "Medawar": {
-          "stock": "29",
+          "stock": "28",
           "consumption": "123"
         }
       },
@@ -881,7 +881,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "62",
+      "totalStock": "61",
       "cost_ttc": 0.8365979381443299,
       "cost_ht": 0.8365979381443299,
       "cost_currency": "USD",
@@ -4240,11 +4240,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "33",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "0",
+      "total_stock": "45",
       "total_consumption": "16",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -4257,11 +4257,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "33",
           "consumption": "16"
         },
         "The Daily Market": {
@@ -4288,7 +4288,8 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "0"
+      "totalStock": "45",
+      "linked_bulk_stock_source": "parent:666/22"
     },
     {
       "id": "499",
@@ -4341,6 +4342,6 @@
       "costTtcUsd": 3.0297450000000006
     }
   ],
-  "updatedAt": "2026-07-16T19:50:00.274419Z",
+  "updatedAt": "2026-07-16T19:53:47.839259Z",
   "source": "sql-relay-web"
 }
