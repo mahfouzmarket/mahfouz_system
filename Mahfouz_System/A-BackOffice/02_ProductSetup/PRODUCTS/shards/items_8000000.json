@@ -264,10 +264,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "0.0",
-      "consumption_in_medawar_branch": "1.0",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "0",
       "total_stock": "0",
-      "total_consumption": "1",
+      "total_consumption": "0",
       "vat": "no",
       "price_lbp": "360,000",
       "price_usd": "4.00",
@@ -288,10 +288,11 @@
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "0"
         },
         "Nouna": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "totalStock": "0",
@@ -310,7 +311,7 @@
       "description": "NF DATES KAJO 12 PCS",
       "expiryDays": 365,
       "stock_in_nouna_branch": "0",
-      "consumption_in_nouna_branch": "0.0",
+      "consumption_in_nouna_branch": "0",
       "cost_ttc": 3.4,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -546,10 +547,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "-1",
-      "consumption_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "1",
       "total_stock": "6",
-      "total_consumption": "2",
+      "total_consumption": "3",
       "vat": "no",
       "price_lbp": "450,000",
       "price_usd": "0.00",
@@ -566,7 +567,7 @@
       "branches": {
         "Geitawi": {
           "stock": "2",
-          "consumption": "1"
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "-1",
@@ -1119,7 +1120,7 @@
       "branches": {
         "Medawar": {
           "stock": "14",
-          "consumption": "37"
+          "consumption": "47"
         },
         "Nouna": {
           "stock": "43",
@@ -1130,8 +1131,8 @@
           "consumption": "0"
         }
       },
-      "consumption_in_medawar_branch": "37",
-      "total_consumption": "37",
+      "consumption_in_medawar_branch": "47",
+      "total_consumption": "47",
       "secondBarcode": "",
       "product_description": "POPSICLES MANGO LIGHT",
       "description": "POPSICLES MANGO LIGHT",
@@ -1197,7 +1198,7 @@
       "branches": {
         "Medawar": {
           "stock": "21",
-          "consumption": "37"
+          "consumption": "47"
         },
         "Nouna": {
           "stock": "68",
@@ -1208,8 +1209,8 @@
           "consumption": "0"
         }
       },
-      "consumption_in_medawar_branch": "37",
-      "total_consumption": "37",
+      "consumption_in_medawar_branch": "47",
+      "total_consumption": "47",
       "secondBarcode": "",
       "product_description": "POPSICLE ANANAS LIGHT",
       "description": "POPSICLE ANANAS LIGHT",
@@ -2190,6 +2191,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-07-16T10:00:37.457247Z",
+  "updatedAt": "2026-07-16T10:42:40.092340Z",
   "source": "sql-relay-web"
 }
