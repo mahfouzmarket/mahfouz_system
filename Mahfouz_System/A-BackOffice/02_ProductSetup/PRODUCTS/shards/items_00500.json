@@ -565,11 +565,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "102",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "119",
+      "total_stock": "0",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "540,000",
@@ -582,11 +582,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "102",
+          "stock": "0",
           "consumption": "7"
         },
         "The Daily Market": {
@@ -611,7 +611,7 @@
       "vat": "no",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "119",
+      "totalStock": "0",
       "is_bulk": true,
       "ignore_stock": true,
       "bulk_parent_id": 502,
@@ -631,8 +631,7 @@
           "stock": "0",
           "consumption": "0"
         }
-      },
-      "linked_bulk_stock_source": "parent:502/22"
+      }
     },
     {
       "id": "664",
@@ -1990,9 +1989,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "47",
-      "stock_in_medawar_branch": "45",
+      "stock_in_medawar_branch": "44",
       "consumption_in_medawar_branch": "80",
-      "total_stock": "45",
+      "total_stock": "44",
       "total_consumption": "127",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -2008,7 +2007,7 @@
           "consumption": "47"
         },
         "Medawar": {
-          "stock": "45",
+          "stock": "44",
           "consumption": "80"
         }
       },
@@ -2025,7 +2024,7 @@
       "supplier": "LIBAN JUS SAL",
       "subcategory": "juice",
       "vat": "yes",
-      "totalStock": "45",
+      "totalStock": "44",
       "cost_ttc": 0.5434375,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -2927,6 +2926,6 @@
       "costTtcUsd": 1.55
     }
   ],
-  "updatedAt": "2026-07-16T18:12:56.855182Z",
+  "updatedAt": "2026-07-16T18:16:51.308288Z",
   "source": "sql-relay-web"
 }
