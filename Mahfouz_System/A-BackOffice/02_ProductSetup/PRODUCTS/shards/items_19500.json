@@ -6429,11 +6429,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "-",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "9",
+      "total_stock": "0",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "430,000",
@@ -6446,11 +6446,11 @@
       "pcs_in_box": "24",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "0",
           "consumption": "0"
         },
         "The Daily Market": {
@@ -6490,8 +6490,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "9",
-      "linked_bulk_stock_source": "parent:17947/24"
+      "totalStock": "0"
     },
     {
       "id": "19743",
@@ -6502,11 +6501,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "-",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "7",
+      "total_stock": "0",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "430,000",
@@ -6519,11 +6518,11 @@
       "pcs_in_box": "24",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "0",
           "consumption": "0"
         },
         "The Daily Market": {
@@ -6563,8 +6562,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "7",
-      "linked_bulk_stock_source": "parent:19744/24"
+      "totalStock": "0"
     },
     {
       "id": "19744",
@@ -13684,9 +13682,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "13",
+      "total_stock": "25",
       "total_consumption": "5",
       "VAT": "NO",
       "price_lbp": "315,000",
@@ -13702,7 +13700,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "19",
           "consumption": "1"
         }
       },
@@ -13716,16 +13714,16 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
-      "cost_ttc": 2.42,
-      "cost_ht": 2.42,
+      "totalStock": "25",
+      "cost_ttc": 2.418333,
+      "cost_ht": 2.418333,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14409",
       "latest_purchase_cost_date": "2026-05-07",
-      "costHtUsd": 2.42,
-      "cost_ht_usd": 2.42,
-      "costTtcUsd": 2.42
+      "costHtUsd": 2.418333,
+      "cost_ht_usd": 2.418333,
+      "costTtcUsd": 2.418333
     },
     {
       "id": "19986",
@@ -13738,14 +13736,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "-1",
+      "total_stock": "5",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "665,000",
       "price_usd": "7.39",
-      "cost": "4.49",
+      "cost": "4.70",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19986.jpg",
       "new_items": "",
       "manual": "",
@@ -13764,13 +13762,20 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "5",
           "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1"
+      "totalStock": "5",
+      "cost_ttc": 4.703333,
+      "cost_ht": 4.703333,
+      "costTtcUsd": 4.703333,
+      "costHtUsd": 4.703333,
+      "cost_ht_usd": 4.703333,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "19987",
@@ -14232,6 +14237,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-17T08:10:03.183602Z",
+  "updatedAt": "2026-07-17T08:14:51.775096Z",
   "source": "sql-relay-web"
 }
