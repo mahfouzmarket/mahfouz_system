@@ -388,9 +388,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "8",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "195,000",
@@ -406,7 +406,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "8",
           "consumption": "0"
         }
       },
@@ -414,16 +414,16 @@
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "ALUMINUM FOIL",
       "vat": "yes",
-      "totalStock": "2",
-      "cost_ttc": 1.62985,
-      "cost_ht": 1.46833333333333,
+      "totalStock": "8",
+      "cost_ttc": 1.6298500000000002,
+      "cost_ht": 1.4683333333333335,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1777011664313",
       "latest_purchase_cost_date": "2026-04-24",
-      "costHtUsd": 1.46833333333333,
-      "cost_ht_usd": 1.46833333333333,
-      "costTtcUsd": 1.62985
+      "costHtUsd": 1.4683333333333335,
+      "cost_ht_usd": 1.4683333333333335,
+      "costTtcUsd": 1.6298500000000002
     },
     {
       "id": "8135",
@@ -1081,14 +1081,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "305,000",
       "price_usd": "3.39",
-      "cost": "2.37",
+      "cost": "2.29",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID8166.jpg",
       "new_items": "",
       "manual": "",
@@ -1103,13 +1103,20 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "7",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "7",
+      "cost_ttc": 2.54375,
+      "cost_ht": 2.2916666666666665,
+      "costTtcUsd": 2.54375,
+      "costHtUsd": 2.2916666666666665,
+      "cost_ht_usd": 2.2916666666666665,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "8168",
@@ -2766,6 +2773,6 @@
       "totalStock": "7"
     }
   ],
-  "updatedAt": "2026-07-17T08:14:51.775096Z",
+  "updatedAt": "2026-07-17T08:28:14.747818Z",
   "source": "sql-relay-web"
 }
