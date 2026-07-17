@@ -4188,11 +4188,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "386",
+      "stock_in_geitawi_branch": "384",
       "consumption_in_geitawi_branch": "1615",
       "stock_in_medawar_branch": "2516",
       "consumption_in_medawar_branch": "1233",
-      "total_stock": "2902",
+      "total_stock": "2900",
       "total_consumption": "2848",
       "VAT": "NO",
       "price_lbp": "25,000",
@@ -4204,7 +4204,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "386",
+          "stock": "384",
           "consumption": "1615"
         },
         "Medawar": {
@@ -4218,7 +4218,7 @@
       "vat": "no",
       "barcode2": "9556001297877",
       "barcodes": "9556001297877",
-      "totalStock": "2902",
+      "totalStock": "2900",
       "priceLbp": 25000.0,
       "priceUsd": 0.2777777777777778,
       "cost_ttc": 0.15333333333333332,
@@ -4240,11 +4240,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "32",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "0",
+      "total_stock": "44",
       "total_consumption": "16",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -4257,11 +4257,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "32",
           "consumption": "16"
         },
         "The Daily Market": {
@@ -4288,7 +4288,8 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "0"
+      "totalStock": "44",
+      "linked_bulk_stock_source": "parent:666/22"
     },
     {
       "id": "499",
@@ -4341,6 +4342,6 @@
       "costTtcUsd": 3.0297450000000006
     }
   ],
-  "updatedAt": "2026-07-17T06:22:22.151844Z",
+  "updatedAt": "2026-07-17T07:11:43.429733Z",
   "source": "sql-relay-web"
 }
