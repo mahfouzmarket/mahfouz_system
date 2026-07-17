@@ -1883,9 +1883,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "40",
-      "stock_in_medawar_branch": "17",
+      "stock_in_medawar_branch": "101",
       "consumption_in_medawar_branch": "53",
-      "total_stock": "22",
+      "total_stock": "106",
       "total_consumption": "93",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -1901,7 +1901,7 @@
           "consumption": "40"
         },
         "Medawar": {
-          "stock": "17",
+          "stock": "101",
           "consumption": "53"
         }
       },
@@ -1915,16 +1915,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "22",
-      "cost_ttc": 0.83805,
+      "totalStock": "106",
+      "cost_ttc": 0.8380500000000001,
       "cost_ht": 0.755,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781856812988",
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.755,
       "cost_ht_usd": 0.755,
-      "costTtcUsd": 0.83805
+      "costTtcUsd": 0.8380500000000001
     },
     {
       "id": "17637",
@@ -1937,14 +1937,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "39",
-      "stock_in_medawar_branch": "57",
+      "stock_in_medawar_branch": "153",
       "consumption_in_medawar_branch": "48",
-      "total_stock": "66",
+      "total_stock": "162",
       "total_consumption": "87",
       "VAT": "YES",
       "price_lbp": "75,000",
       "price_usd": "0.83",
-      "cost": "0.60",
+      "cost": "0.76",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17637.jpg",
       "new_items": "",
       "manual": "",
@@ -1955,7 +1955,7 @@
           "consumption": "39"
         },
         "Medawar": {
-          "stock": "57",
+          "stock": "153",
           "consumption": "48"
         }
       },
@@ -1969,16 +1969,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "66",
-      "cost_ttc": 0.67044,
-      "cost_ht": 0.604,
+      "totalStock": "162",
+      "cost_ttc": 0.8380500000000001,
+      "cost_ht": 0.755,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783069024407",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.604,
-      "cost_ht_usd": 0.604,
-      "costTtcUsd": 0.67044
+      "costHtUsd": 0.755,
+      "cost_ht_usd": 0.755,
+      "costTtcUsd": 0.8380500000000001
     },
     {
       "id": "17640",
@@ -4366,11 +4366,11 @@
       "sub_category": "LIGHTER",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "41",
       "stock_in_medawar_branch": "-57",
       "consumption_in_medawar_branch": "48",
-      "total_stock": "-56",
+      "total_stock": "-58",
       "total_consumption": "89",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -4388,7 +4388,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "-1",
           "consumption": "41"
         },
         "Medawar": {
@@ -4402,7 +4402,7 @@
       "supplier": "JACK DIB",
       "subcategory": "LIGHTER",
       "vat": "yes",
-      "totalStock": "-56",
+      "totalStock": "-58",
       "cost_ttc": 0.5994,
       "cost_currency": "USD",
       "cost_vat_included": 1,
@@ -8010,6 +8010,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-07-17T07:21:51.218010Z",
+  "updatedAt": "2026-07-17T08:10:12.857676Z",
   "source": "sql-relay-web"
 }
