@@ -1271,8 +1271,8 @@
       "price_lbp": "180,000",
       "price_usd": "2.00",
       "cost": "1.25",
-      "cost_ttc": "1.2500",
-      "cost_ht": "1.2500",
+      "cost_ttc": 1.25,
+      "cost_ht": 1.25,
       "costTtcUsd": 1.25,
       "costHtUsd": 1.25,
       "cost_ht_usd": 1.25,
@@ -1280,12 +1280,64 @@
       "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300525.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "no",
-      "branches": {}
+      "total_stock": "24",
+      "totalStock": "24",
+      "stock_in_medawar_branch": "24",
+      "branches": {
+        "Medawar": {
+          "stock": "24"
+        }
+      },
+      "vat": "no"
+    },
+    {
+      "id": "300526",
+      "barcode": "5281117000069",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "AL WADI GREEN OKRA SMALL SIZE 400G",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
+      "unit": "-",
+      "category": "FOOD",
+      "sub_category": "FROZEN FOOD",
+      "offers": "0",
+      "delivery_rules": "",
+      "expiry_days": "0",
+      "VAT": "NO",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "price_lbp": "250,000",
+      "price_usd": "2.78",
+      "cost": "2.43",
+      "cost_ttc": 2.43,
+      "cost_ht": 2.43,
+      "costTtcUsd": 2.43,
+      "costHtUsd": 2.43,
+      "cost_ht_usd": 2.43,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300526.jpg",
+      "new_items": "x",
+      "total_stock": "20",
+      "totalStock": "20",
+      "stock_in_medawar_branch": "20",
+      "branches": {
+        "Medawar": {
+          "stock": "20"
+        }
+      },
+      "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-17T15:34:28.672136Z",
+  "updatedAt": "2026-07-17T15:37:17.920777Z",
   "source": "sql-relay-web"
 }
