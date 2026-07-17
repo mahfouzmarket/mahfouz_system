@@ -565,11 +565,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "101",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "118",
+      "total_stock": "0",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "540,000",
@@ -582,11 +582,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "101",
+          "stock": "0",
           "consumption": "7"
         },
         "The Daily Market": {
@@ -611,7 +611,7 @@
       "vat": "no",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "118",
+      "totalStock": "0",
       "is_bulk": true,
       "ignore_stock": true,
       "bulk_parent_id": 502,
@@ -631,8 +631,7 @@
           "stock": "0",
           "consumption": "0"
         }
-      },
-      "linked_bulk_stock_source": "parent:502/22"
+      }
     },
     {
       "id": "664",
@@ -1390,11 +1389,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "25",
+      "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "66",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "91",
-      "total_stock": "28",
+      "total_stock": "27",
       "total_consumption": "157",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -1406,7 +1405,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "25",
+          "stock": "24",
           "consumption": "66"
         },
         "Medawar": {
@@ -1420,7 +1419,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "28",
+      "totalStock": "27",
       "cost_ttc": 0.26362500000000005,
       "cost_ht": 0.23750000000000002,
       "cost_currency": "USD",
@@ -2927,6 +2926,6 @@
       "costTtcUsd": 1.55
     }
   ],
-  "updatedAt": "2026-07-17T08:04:25.914577Z",
+  "updatedAt": "2026-07-17T08:11:35.850393Z",
   "source": "sql-relay-web"
 }
