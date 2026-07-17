@@ -3362,9 +3362,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "147",
-      "stock_in_medawar_branch": "-72",
+      "stock_in_medawar_branch": "48",
       "consumption_in_medawar_branch": "90",
-      "total_stock": "-66",
+      "total_stock": "54",
       "total_consumption": "237",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -3380,7 +3380,7 @@
           "consumption": "147"
         },
         "Medawar": {
-          "stock": "-72",
+          "stock": "48",
           "consumption": "90"
         }
       },
@@ -3390,22 +3390,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-66",
+      "totalStock": "54",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": 0.854166666666667,
-      "cost_ttc": 0.948125,
+      "cost_ht": "0.8542",
+      "cost_ttc": "0.9481",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782450483030",
       "latest_purchase_cost_date": "2026-06-26",
-      "costHtUsd": 0.854166666666667,
-      "cost_ht_usd": 0.854166666666667,
-      "costTtcUsd": 0.948125
+      "costHtUsd": 0.8541666666666666,
+      "cost_ht_usd": 0.8541666666666666,
+      "costTtcUsd": 0.948125,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "413",
@@ -4240,11 +4246,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "12",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "32",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "44",
+      "total_stock": "0",
       "total_consumption": "16",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -4257,11 +4263,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "12",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "0",
           "consumption": "16"
         },
         "The Daily Market": {
@@ -4288,8 +4294,7 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "44",
-      "linked_bulk_stock_source": "parent:666/22"
+      "totalStock": "0"
     },
     {
       "id": "499",
@@ -4342,6 +4347,6 @@
       "costTtcUsd": 3.0297450000000006
     }
   ],
-  "updatedAt": "2026-07-17T10:58:38.605111Z",
+  "updatedAt": "2026-07-17T11:05:14.215084Z",
   "source": "sql-relay-web"
 }
