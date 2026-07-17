@@ -3795,11 +3795,11 @@
       "category": "FOOD",
       "sub_category": "EGGS",
       "offers": "-",
-      "stock_in_geitawi_branch": "107",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "34",
-      "stock_in_medawar_branch": "55",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "31",
-      "total_stock": "162",
+      "total_stock": "-2",
       "total_consumption": "65",
       "VAT": "NO",
       "price_lbp": "460,000",
@@ -3812,11 +3812,11 @@
       "pcs_in_box": "30",
       "branches": {
         "Geitawi": {
-          "stock": "107",
+          "stock": "0",
           "consumption": "34"
         },
         "Medawar": {
-          "stock": "55",
+          "stock": "-2",
           "consumption": "31"
         },
         "The Daily Market": {
@@ -3844,15 +3844,14 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "162",
+      "totalStock": "-2",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 3.333333,
       "cost_ht": 3.333333,
       "cost_currency": "LBP",
       "cost_vat_included": 0,
       "latest_purchase_cost_doc_id": "P1776673231658",
-      "latest_purchase_cost_date": "2026-04-20",
-      "linked_bulk_stock_source": "parent:5449/30"
+      "latest_purchase_cost_date": "2026-04-20"
     },
     {
       "id": "13819",
@@ -3974,11 +3973,11 @@
       "sub_category": "MINERAL WATER",
       "offers": "-",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "18",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "23",
-      "stock_in_medawar_branch": "32",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "50",
+      "total_stock": "0",
       "total_consumption": "28",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -3996,11 +3995,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "18",
+          "stock": "0",
           "consumption": "23"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "0",
           "consumption": "5"
         },
         "The Daily Market": {
@@ -4025,9 +4024,8 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "50",
-      "vat": "yes",
-      "linked_bulk_stock_source": "parent:1438/6"
+      "totalStock": "0",
+      "vat": "yes"
     },
     {
       "id": "13825",
@@ -4129,11 +4127,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "109",
+      "stock_in_geitawi_branch": "108",
       "consumption_in_geitawi_branch": "388",
       "stock_in_medawar_branch": "33",
       "consumption_in_medawar_branch": "582",
-      "total_stock": "142",
+      "total_stock": "141",
       "total_consumption": "970",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -4145,7 +4143,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "109",
+          "stock": "108",
           "consumption": "388"
         },
         "Medawar": {
@@ -4163,7 +4161,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "142",
+      "totalStock": "141",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -6545,11 +6543,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "9",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "9",
+      "total_stock": "8",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "290,000",
@@ -6561,7 +6559,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "9",
+          "stock": "8",
           "consumption": "4"
         },
         "Medawar": {
@@ -6575,7 +6573,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9",
+      "totalStock": "8",
       "cost_ttc": 2.75,
       "cost_ht": 2.75,
       "cost_currency": "USD",
@@ -7852,6 +7850,6 @@
       "costTtcUsd": 3.219
     }
   ],
-  "updatedAt": "2026-07-17T11:51:49.377008Z",
+  "updatedAt": "2026-07-17T12:02:02.598674Z",
   "source": "sql-relay-web"
 }
