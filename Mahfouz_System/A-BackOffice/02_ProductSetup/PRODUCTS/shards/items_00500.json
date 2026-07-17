@@ -140,9 +140,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17",
       "consumption_in_geitawi_branch": "39",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "31",
-      "total_stock": "33",
+      "total_stock": "32",
       "total_consumption": "70",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -158,7 +158,7 @@
           "consumption": "39"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "15",
           "consumption": "31"
         }
       },
@@ -168,7 +168,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "33",
+      "totalStock": "32",
       "cost_ttc": 2.5998975,
       "cost_ht": 2.34225,
       "cost_currency": "USD",
@@ -565,11 +565,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "101",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "118",
+      "total_stock": "0",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "540,000",
@@ -582,11 +582,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "101",
+          "stock": "0",
           "consumption": "7"
         },
         "The Daily Market": {
@@ -611,7 +611,7 @@
       "vat": "no",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "118",
+      "totalStock": "0",
       "is_bulk": true,
       "ignore_stock": true,
       "bulk_parent_id": 502,
@@ -631,8 +631,7 @@
           "stock": "0",
           "consumption": "0"
         }
-      },
-      "linked_bulk_stock_source": "parent:502/22"
+      }
     },
     {
       "id": "664",
@@ -2927,6 +2926,6 @@
       "costTtcUsd": 1.55
     }
   ],
-  "updatedAt": "2026-07-17T06:55:44.784176Z",
+  "updatedAt": "2026-07-17T06:57:34.487707Z",
   "source": "sql-relay-web"
 }
