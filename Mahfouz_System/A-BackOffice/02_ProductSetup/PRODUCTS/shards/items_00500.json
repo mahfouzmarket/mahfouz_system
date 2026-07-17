@@ -565,11 +565,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "101",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "118",
+      "total_stock": "0",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "540,000",
@@ -582,11 +582,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "101",
+          "stock": "0",
           "consumption": "7"
         },
         "The Daily Market": {
@@ -611,7 +611,7 @@
       "vat": "no",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "118",
+      "totalStock": "0",
       "is_bulk": true,
       "ignore_stock": true,
       "bulk_parent_id": 502,
@@ -631,8 +631,7 @@
           "stock": "0",
           "consumption": "0"
         }
-      },
-      "linked_bulk_stock_source": "parent:502/22"
+      }
     },
     {
       "id": "664",
@@ -745,9 +744,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "280",
       "consumption_in_geitawi_branch": "285",
-      "stock_in_medawar_branch": "722",
+      "stock_in_medawar_branch": "721",
       "consumption_in_medawar_branch": "251",
-      "total_stock": "1002",
+      "total_stock": "1001",
       "total_consumption": "536",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -763,7 +762,7 @@
           "consumption": "285"
         },
         "Medawar": {
-          "stock": "722",
+          "stock": "721",
           "consumption": "251"
         }
       },
@@ -773,7 +772,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1002",
+      "totalStock": "1001",
       "cost_ttc": 0.12273068181818182,
       "cost_ht": 0.11056818181818182,
       "cost_currency": "USD",
@@ -2927,6 +2926,6 @@
       "costTtcUsd": 1.55
     }
   ],
-  "updatedAt": "2026-07-17T12:36:41.696599Z",
+  "updatedAt": "2026-07-17T12:46:16.103662Z",
   "source": "sql-relay-web"
 }
