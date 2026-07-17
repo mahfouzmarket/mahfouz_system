@@ -515,11 +515,11 @@
       "category": "COFFEE SHOP",
       "sub_category": "espresso 1.7",
       "offers": "0",
-      "stock_in_geitawi_branch": "233",
+      "stock_in_geitawi_branch": "232",
       "consumption_in_geitawi_branch": "124",
       "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "251",
+      "total_stock": "250",
       "total_consumption": "126",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -531,7 +531,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "233",
+          "stock": "232",
           "consumption": "124"
         },
         "Medawar": {
@@ -554,7 +554,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-644-1779260700637408",
       "product_setup_saved_at_utc": "2026-05-20T07:05:00.637408Z",
-      "totalStock": "251"
+      "totalStock": "250"
     },
     {
       "id": "659",
@@ -565,11 +565,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "101",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "118",
+      "total_stock": "0",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "540,000",
@@ -582,11 +582,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "101",
+          "stock": "0",
           "consumption": "7"
         },
         "The Daily Market": {
@@ -611,7 +611,7 @@
       "vat": "no",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "118",
+      "totalStock": "0",
       "is_bulk": true,
       "ignore_stock": true,
       "bulk_parent_id": 502,
@@ -631,8 +631,7 @@
           "stock": "0",
           "consumption": "0"
         }
-      },
-      "linked_bulk_stock_source": "parent:502/22"
+      }
     },
     {
       "id": "664",
@@ -2927,6 +2926,6 @@
       "costTtcUsd": 1.55
     }
   ],
-  "updatedAt": "2026-07-17T04:55:11.828011Z",
+  "updatedAt": "2026-07-17T05:01:54.814106Z",
   "source": "sql-relay-web"
 }
