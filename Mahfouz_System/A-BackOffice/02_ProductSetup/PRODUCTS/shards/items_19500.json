@@ -6429,11 +6429,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "-",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "9",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "430,000",
@@ -6446,11 +6446,11 @@
       "pcs_in_box": "24",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "8",
           "consumption": "0"
         },
         "The Daily Market": {
@@ -6490,7 +6490,8 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "9",
+      "linked_bulk_stock_source": "parent:17947/24"
     },
     {
       "id": "19743",
@@ -6501,11 +6502,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "-",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "7",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "430,000",
@@ -6518,11 +6519,11 @@
       "pcs_in_box": "24",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         },
         "The Daily Market": {
@@ -6562,7 +6563,8 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "7",
+      "linked_bulk_stock_source": "parent:19744/24"
     },
     {
       "id": "19744",
@@ -9830,11 +9832,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Croissant",
       "offers": "0",
-      "stock_in_geitawi_branch": "9",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "107",
       "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "101",
-      "total_stock": "19",
+      "total_stock": "18",
       "total_consumption": "208",
       "VAT": "NO",
       "price_lbp": "65,000",
@@ -9846,7 +9848,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "9",
+          "stock": "8",
           "consumption": "107"
         },
         "Medawar": {
@@ -9864,7 +9866,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19",
+      "totalStock": "18",
       "cost_ttc": 0.4777777777777778,
       "cost_ht": 0.4777777777777778,
       "cost_currency": "LBP",
@@ -14237,6 +14239,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-17T08:52:55.861646Z",
+  "updatedAt": "2026-07-17T08:54:00.255018Z",
   "source": "sql-relay-web"
 }
