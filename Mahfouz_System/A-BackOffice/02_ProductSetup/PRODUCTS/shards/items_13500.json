@@ -1791,9 +1791,9 @@
       "offers": "",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "24",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "68",
       "consumption_in_medawar_branch": "67",
-      "total_stock": "12",
+      "total_stock": "72",
       "total_consumption": "91",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -1809,7 +1809,7 @@
           "consumption": "24"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "68",
           "consumption": "67"
         },
         "Nouna": {
@@ -1822,7 +1822,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
+      "totalStock": "72",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -1830,14 +1830,14 @@
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": 0.503333333333333,
+      "cost_ht": 0.5033333333333333,
       "cost_ttc": 0.5587,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783069024407",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.503333333333333,
-      "cost_ht_usd": 0.503333333333333,
+      "costHtUsd": 0.5033333333333333,
+      "cost_ht_usd": 0.5033333333333333,
       "costTtcUsd": 0.5587
     },
     {
@@ -3798,11 +3798,11 @@
       "category": "FOOD",
       "sub_category": "EGGS",
       "offers": "-",
-      "stock_in_geitawi_branch": "107",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "34",
-      "stock_in_medawar_branch": "55",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "31",
-      "total_stock": "162",
+      "total_stock": "-2",
       "total_consumption": "65",
       "VAT": "NO",
       "price_lbp": "460,000",
@@ -3815,11 +3815,11 @@
       "pcs_in_box": "30",
       "branches": {
         "Geitawi": {
-          "stock": "107",
+          "stock": "0",
           "consumption": "34"
         },
         "Medawar": {
-          "stock": "55",
+          "stock": "-2",
           "consumption": "31"
         },
         "The Daily Market": {
@@ -3847,15 +3847,14 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "162",
+      "totalStock": "-2",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 3.333333,
       "cost_ht": 3.333333,
       "cost_currency": "LBP",
       "cost_vat_included": 0,
       "latest_purchase_cost_doc_id": "P1776673231658",
-      "latest_purchase_cost_date": "2026-04-20",
-      "linked_bulk_stock_source": "parent:5449/30"
+      "latest_purchase_cost_date": "2026-04-20"
     },
     {
       "id": "13819",
@@ -3977,11 +3976,11 @@
       "sub_category": "MINERAL WATER",
       "offers": "-",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "19",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "23",
-      "stock_in_medawar_branch": "34",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "53",
+      "total_stock": "0",
       "total_consumption": "28",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -3999,11 +3998,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "19",
+          "stock": "0",
           "consumption": "23"
         },
         "Medawar": {
-          "stock": "34",
+          "stock": "0",
           "consumption": "5"
         },
         "The Daily Market": {
@@ -4028,9 +4027,8 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "53",
-      "vat": "yes",
-      "linked_bulk_stock_source": "parent:1438/6"
+      "totalStock": "0",
+      "vat": "yes"
     },
     {
       "id": "13825",
@@ -7855,6 +7853,6 @@
       "costTtcUsd": 3.219
     }
   ],
-  "updatedAt": "2026-07-17T08:06:57.684768Z",
+  "updatedAt": "2026-07-17T08:10:03.183602Z",
   "source": "sql-relay-web"
 }
