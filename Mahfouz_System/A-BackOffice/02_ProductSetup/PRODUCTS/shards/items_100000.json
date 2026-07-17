@@ -51,11 +51,11 @@
     },
     {
       "id": "100002",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "13",
       "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "2",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "2",
+      "total_stock": "14",
       "total_consumption": "3",
       "branches": {
         "Geitawi": {
@@ -63,7 +63,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "13",
           "consumption": "2"
         }
       },
@@ -99,10 +99,10 @@
       "name": "DER GENERAL 750 ML",
       "subcategory": "CLEANING",
       "vat": "no",
-      "totalStock": "2",
+      "totalStock": "14",
       "cost_ttc": 0.94,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779805483536",
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 0.94,
@@ -130,11 +130,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "25",
+      "stock_in_medawar_branch": "24",
       "stock_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "11",
       "consumption_in_geitawi_branch": "13",
-      "total_stock": "31",
+      "total_stock": "30",
       "total_consumption": "24",
       "branches": {
         "Geitawi": {
@@ -142,7 +142,7 @@
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "25",
+          "stock": "24",
           "consumption": "11"
         }
       },
@@ -156,7 +156,7 @@
       "delivery_rules": "0.005",
       "subcategory": "PROCESSED CHEESE",
       "vat": "no",
-      "totalStock": "31",
+      "totalStock": "30",
       "cost_ttc": 0.7253333333333334,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -7995,6 +7995,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-17T08:10:39.555978Z",
+  "updatedAt": "2026-07-17T08:15:40.141386Z",
   "source": "sql-relay-web"
 }
