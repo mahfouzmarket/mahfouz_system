@@ -1316,9 +1316,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "222",
       "consumption_in_geitawi_branch": "1470",
-      "stock_in_medawar_branch": "320",
+      "stock_in_medawar_branch": "319",
       "consumption_in_medawar_branch": "1846",
-      "total_stock": "542",
+      "total_stock": "541",
       "total_consumption": "3316",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -1334,7 +1334,7 @@
           "consumption": "1470"
         },
         "Medawar": {
-          "stock": "320",
+          "stock": "319",
           "consumption": "1846"
         }
       },
@@ -1353,7 +1353,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-12701-1778933772132179",
       "product_setup_saved_at_utc": "2026-05-16T12:16:12.132179Z",
-      "totalStock": "542",
+      "totalStock": "541",
       "priceLbp": 80000.0,
       "priceUsd": 0.8888888888888888,
       "arabic_name": "",
@@ -3408,9 +3408,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "40",
       "consumption_in_geitawi_branch": "57",
-      "stock_in_medawar_branch": "160",
+      "stock_in_medawar_branch": "159",
       "consumption_in_medawar_branch": "266",
-      "total_stock": "200",
+      "total_stock": "199",
       "total_consumption": "323",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -3426,7 +3426,7 @@
           "consumption": "57"
         },
         "Medawar": {
-          "stock": "160",
+          "stock": "159",
           "consumption": "266"
         }
       },
@@ -3436,7 +3436,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "200",
+      "totalStock": "199",
       "cost_ttc": 0.4625000000000001,
       "cost_ht": 0.4166666666666667,
       "cost_currency": "USD",
@@ -4874,11 +4874,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "-",
-      "stock_in_geitawi_branch": "31",
+      "stock_in_geitawi_branch": "-272",
       "consumption_in_geitawi_branch": "410",
-      "stock_in_medawar_branch": "35",
+      "stock_in_medawar_branch": "-7",
       "consumption_in_medawar_branch": "196",
-      "total_stock": "66",
+      "total_stock": "-279",
       "total_consumption": "606",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -4891,11 +4891,11 @@
       "pcs_in_box": "6",
       "branches": {
         "Geitawi": {
-          "stock": "31",
+          "stock": "-272",
           "consumption": "410"
         },
         "Medawar": {
-          "stock": "35",
+          "stock": "-7",
           "consumption": "196"
         },
         "The Daily Market": {
@@ -4932,8 +4932,7 @@
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "66",
-      "linked_bulk_stock_source": "parent:1435/6"
+      "totalStock": "-279"
     },
     {
       "id": "12963",
@@ -4944,11 +4943,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "-",
-      "stock_in_geitawi_branch": "153",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "284",
-      "stock_in_medawar_branch": "654",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "205",
-      "total_stock": "807",
+      "total_stock": "0",
       "total_consumption": "489",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -4961,11 +4960,11 @@
       "pcs_in_box": "12",
       "branches": {
         "Geitawi": {
-          "stock": "153",
+          "stock": "0",
           "consumption": "284"
         },
         "Medawar": {
-          "stock": "654",
+          "stock": "0",
           "consumption": "205"
         },
         "The Daily Market": {
@@ -5003,15 +5002,14 @@
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "807",
+      "totalStock": "0",
       "isBulk": 1,
       "ignoreStock": 1,
       "bulkParentId": 90151,
       "baseId": 90151,
       "bulkQty": 12,
       "pcsInBox": 12,
-      "updated_at_utc": "2026-06-30T13:28:03.283Z",
-      "linked_bulk_stock_source": "parent:90151/12"
+      "updated_at_utc": "2026-06-30T13:28:03.283Z"
     },
     {
       "id": "12972",
@@ -5354,6 +5352,6 @@
       "costTtcUsd": 0.20833333333333334
     }
   ],
-  "updatedAt": "2026-07-17T10:00:19.497553Z",
+  "updatedAt": "2026-07-17T10:01:36.522132Z",
   "source": "sql-relay-web"
 }
