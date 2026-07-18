@@ -483,9 +483,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "103",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "116",
-      "total_stock": "24",
+      "total_stock": "22",
       "total_consumption": "219",
       "VAT": "NO",
       "price_lbp": "155,000",
@@ -507,7 +507,7 @@
           "consumption": "103"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "16",
           "consumption": "116"
         }
       },
@@ -517,7 +517,7 @@
       "supplier": "TETA\"S KITCHEN",
       "subcategory": "FROZEN FOOD",
       "vat": "no",
-      "totalStock": "24",
+      "totalStock": "22",
       "cost_ttc": "1.3000",
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -748,9 +748,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "50",
       "consumption_in_geitawi_branch": "209",
-      "stock_in_medawar_branch": "160",
+      "stock_in_medawar_branch": "156",
       "consumption_in_medawar_branch": "395",
-      "total_stock": "210",
+      "total_stock": "206",
       "total_consumption": "604",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -772,7 +772,7 @@
           "consumption": "209"
         },
         "Medawar": {
-          "stock": "160",
+          "stock": "156",
           "consumption": "395"
         }
       },
@@ -782,7 +782,7 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "ENERGY DRINK",
       "vat": "yes",
-      "totalStock": "210",
+      "totalStock": "206",
       "cost_ttc": 0.4895833333333333,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -1029,15 +1029,20 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000018.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
+      "total_stock": "-1",
+      "totalStock": "-1",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000018.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000018.jpg",
       "image_updated_at_utc": "2026-07-18T13:01:30.572809Z",
-      "vat": "yes",
-      "branches": {}
+      "stock_in_geitawi_branch": "-1",
+      "branches": {
+        "Geitawi": {
+          "stock": "-1"
+        }
+      },
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-18T19:38:56.537709Z",
+  "updatedAt": "2026-07-18T19:41:43.171472Z",
   "source": "sql-relay-web"
 }
