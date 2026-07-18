@@ -1163,9 +1163,9 @@
       "category": "FOOD",
       "sub_category": "KETCHUP, MAYO & MUSTARD",
       "offers": "0",
-      "stock_in_geitawi_branch": "7",
+      "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "31",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "20",
       "total_stock": "13",
       "total_consumption": "51",
@@ -1179,11 +1179,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7",
+          "stock": "12",
           "consumption": "31"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "1",
           "consumption": "20"
         }
       },
@@ -2439,8 +2439,8 @@
       "barcodes": "",
       "totalStock": "67",
       "stock_in_nouna_branch": "0",
-      "cost_ttc": 1.1497750000000002,
-      "cost_ht": 1.0358333333333334,
+      "cost_ttc": "1.1498",
+      "cost_ht": "1.0358",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
@@ -2449,7 +2449,19 @@
       "cost_ht_usd": 1.0358333333333334,
       "costTtcUsd": 1.1497750000000002,
       "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
-      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "15152",
@@ -6620,6 +6632,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-18T11:27:57.505952Z",
+  "updatedAt": "2026-07-18T12:21:22.875710Z",
   "source": "sql-relay-web"
 }
