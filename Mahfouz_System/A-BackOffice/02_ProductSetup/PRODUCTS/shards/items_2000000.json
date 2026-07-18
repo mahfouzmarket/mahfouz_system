@@ -304,7 +304,7 @@
       "id": "2000007",
       "barcode": "5283024600080",
       "barcode2": "5283024600066",
-      "barcodes": "5283024600066",
+      "barcodes": "",
       "Product Description": "TROPICANA pineaple SLICE 1 LITRe",
       "SUPPLIERS": "PEPSI LBP",
       "unit": "-",
@@ -322,7 +322,7 @@
       "price_lbp": "95,000",
       "price_usd": "1.06",
       "cost": "0.83",
-      "cost_ht": 0.829125060610929,
+      "cost_ht": "0.8291",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000007.jpg",
       "new_items": "x",
       "manual": "",
@@ -349,11 +349,25 @@
       "subcategory": "juice",
       "vat": "yes",
       "totalStock": "1",
-      "cost_ttc": 0.920328817278131,
-      "cost_currency": "LBP",
-      "cost_vat_included": 1,
+      "cost_ttc": "0.9203",
+      "cost_currency": "USD",
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783180437219",
-      "latest_purchase_cost_date": "2026-07-04"
+      "latest_purchase_cost_date": "2026-07-04",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 0.9203288172781309,
+      "costHtUsd": 0.8291250606109286,
+      "cost_ht_usd": 0.8291250606109286
     },
     {
       "id": "2000008",
@@ -1024,6 +1038,6 @@
       "branches": {}
     }
   ],
-  "updatedAt": "2026-07-18T13:01:30.572809Z",
+  "updatedAt": "2026-07-18T13:47:42.931022Z",
   "source": "sql-relay-web"
 }
