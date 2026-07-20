@@ -1126,11 +1126,11 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-16",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "55",
       "stock_in_medawar_branch": "268",
       "consumption_in_medawar_branch": "55",
-      "total_stock": "252",
+      "total_stock": "272",
       "total_consumption": "110",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -1142,7 +1142,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-16",
+          "stock": "4",
           "consumption": "55"
         },
         "Medawar": {
@@ -1156,16 +1156,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "252",
-      "cost_ttc": 0.3145,
-      "cost_ht": 0.283333333333333,
+      "totalStock": "272",
+      "cost_ttc": "0.3145",
+      "cost_ht": "0.2833",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781776201018",
       "latest_purchase_cost_date": "2026-06-18",
-      "costHtUsd": 0.283333333333333,
-      "cost_ht_usd": 0.283333333333333,
-      "costTtcUsd": 0.3145
+      "costHtUsd": 0.2833333333333333,
+      "cost_ht_usd": 0.2833333333333333,
+      "costTtcUsd": 0.3145,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "9757",
@@ -1870,6 +1882,6 @@
       "totalStock": "18"
     }
   ],
-  "updatedAt": "2026-07-20T10:49:24.903756Z",
+  "updatedAt": "2026-07-20T11:04:26.164623Z",
   "source": "sql-relay-web"
 }
