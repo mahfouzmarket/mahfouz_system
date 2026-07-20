@@ -3215,11 +3215,11 @@
       "category": "HOME USAGE",
       "sub_category": "LAMP",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "10",
-      "total_stock": "17",
+      "total_stock": "18",
       "total_consumption": "19",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -3231,7 +3231,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "9"
         },
         "Medawar": {
@@ -3245,16 +3245,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17",
-      "cost_ttc": 1.11,
-      "cost_ht": 1.0,
+      "totalStock": "18",
+      "cost_ttc": "1.0000",
+      "cost_ht": "1.0000",
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781770324783",
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.11
+      "costTtcUsd": 1.0,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "18152",
@@ -10427,6 +10439,6 @@
       "totalStock": "-3"
     }
   ],
-  "updatedAt": "2026-07-20T11:43:50.530246Z",
+  "updatedAt": "2026-07-20T11:48:18.629864Z",
   "source": "sql-relay-web"
 }
