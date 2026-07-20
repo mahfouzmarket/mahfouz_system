@@ -328,11 +328,11 @@
       "category": "HOME USAGE",
       "sub_category": "TOOTH CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "-6",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -348,7 +348,7 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "-6",
+          "stock": "0",
           "consumption": "7"
         },
         "Medawar": {
@@ -358,16 +358,28 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 1.2765,
-      "cost_ht": 1.15,
+      "totalStock": "6",
+      "cost_ttc": "1.2765",
+      "cost_ht": "1.1500",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781599434829",
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 1.15,
       "cost_ht_usd": 1.15,
-      "costTtcUsd": 1.2765
+      "costTtcUsd": 1.2765,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "14536",
@@ -6844,6 +6856,6 @@
       "costTtcUsd": 8.64875
     }
   ],
-  "updatedAt": "2026-07-20T06:50:28.796178Z",
+  "updatedAt": "2026-07-20T07:02:30.165452Z",
   "source": "sql-relay-web"
 }
