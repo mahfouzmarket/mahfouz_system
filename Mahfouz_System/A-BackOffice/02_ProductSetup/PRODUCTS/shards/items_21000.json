@@ -22730,11 +22730,11 @@
       "category": "HOME USAGE",
       "sub_category": "COTTONS",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "-3",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "-5",
+      "total_stock": "-3",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -22746,7 +22746,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "1"
         },
         "Medawar": {
@@ -22760,16 +22760,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-5",
-      "cost_ttc": 0.5,
-      "cost_ht": 0.5,
+      "totalStock": "-3",
+      "cost_ttc": "0.5000",
+      "cost_ht": "0.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14085-2026-03-26",
       "latest_purchase_cost_date": "2026-03-26",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.5
+      "costTtcUsd": 0.5,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21434",
@@ -26525,6 +26537,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T07:06:20.295915Z",
+  "updatedAt": "2026-07-20T07:10:38.101157Z",
   "source": "sql-relay-web"
 }
