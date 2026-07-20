@@ -18869,7 +18869,7 @@
       "cost": "3.10",
       "branches": {
         "Geitawi": {
-          "stock": "-21",
+          "stock": "3",
           "consumption": "30"
         },
         "Medawar": {
@@ -18878,10 +18878,10 @@
         }
       },
       "stock_in_medawar_branch": "4",
-      "total_stock": "-17",
+      "total_stock": "7",
       "Product Description": "TRMY FAHEM 1 KG",
       "SUPPLIERS": "YEHYA",
-      "stock_in_geitawi_branch": "-21",
+      "stock_in_geitawi_branch": "3",
       "subcategory": "SHISHA STUFF",
       "vat": "no",
       "consumption_in_geitawi_branch": "30",
@@ -18893,16 +18893,28 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "-17",
-      "cost_ttc": 3.1,
-      "cost_ht": 3.1,
+      "totalStock": "7",
+      "cost_ttc": "3.1000",
+      "cost_ht": "3.1000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782896386130",
       "latest_purchase_cost_date": "2026-07-01",
       "costHtUsd": 3.1,
       "cost_ht_usd": 3.1,
-      "costTtcUsd": 3.1
+      "costTtcUsd": 3.1,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21856",
@@ -24614,6 +24626,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T11:05:53.511194Z",
+  "updatedAt": "2026-07-20T11:13:51.834437Z",
   "source": "sql-relay-web"
 }
