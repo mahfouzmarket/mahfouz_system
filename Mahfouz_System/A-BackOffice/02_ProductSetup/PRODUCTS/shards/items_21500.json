@@ -16798,7 +16798,7 @@
       "barcode": "6222017096881",
       "barcode2": "",
       "barcodes": "",
-      "price_usd": "4.36",
+      "price_usd": "4.33",
       "price_lbp": "390,000",
       "VAT": "NO",
       "offers": "0",
@@ -16811,7 +16811,7 @@
       "cost": "3.25",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "2"
         },
         "Medawar": {
@@ -16820,12 +16820,12 @@
         }
       },
       "stock_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "2",
       "Product Description": "ELVIVE DREAM LONG SHAMPOO",
       "SUPPLIERS": "JACK DIB",
       "subcategory": "shampoo & cond",
       "vat": "no",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "3",
       "total_consumption": "5",
@@ -16835,16 +16835,28 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
-      "cost_ttc": 3.25,
-      "cost_ht": 3.25,
+      "totalStock": "2",
+      "cost_ttc": "3.2500",
+      "cost_ht": "3.2500",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781603570173",
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 3.25,
       "cost_ht_usd": 3.25,
-      "costTtcUsd": 3.25
+      "costTtcUsd": 3.25,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21822",
@@ -23006,13 +23018,13 @@
           "consumption": "30"
         },
         "Medawar": {
-          "stock": "48",
+          "stock": "47",
           "consumption": "49"
         }
       },
       "stock_in_geitawi_branch": "55",
-      "total_stock": "103",
-      "stock_in_medawar_branch": "48",
+      "total_stock": "102",
+      "stock_in_medawar_branch": "47",
       "cost": "0.49",
       "Product Description": "MARS 40G",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
@@ -23031,7 +23043,7 @@
       "cost_ht": 0.4879166666666667,
       "product_setup_save_token": "PS-SAVE-21946-1779097186404766",
       "product_setup_saved_at_utc": "2026-05-18T09:39:46.404766Z",
-      "totalStock": "103",
+      "totalStock": "102",
       "cost_ttc": 0.5415875000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -24567,6 +24579,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T07:49:17.978191Z",
+  "updatedAt": "2026-07-20T08:11:53.118308Z",
   "source": "sql-relay-web"
 }
