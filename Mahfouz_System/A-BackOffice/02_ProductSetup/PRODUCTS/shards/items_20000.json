@@ -4079,11 +4079,11 @@
       "category": "HOME USAGE",
       "sub_category": "hand & body wash",
       "offers": "0",
-      "stock_in_geitawi_branch": "-3",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "17",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "14",
+      "total_stock": "27",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "105,000",
@@ -4095,7 +4095,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-3",
+          "stock": "10",
           "consumption": "3"
         },
         "Medawar": {
@@ -4109,16 +4109,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "14",
-      "cost_ttc": 0.925,
-      "cost_ht": 0.833333333333333,
+      "totalStock": "27",
+      "cost_ttc": "0.9250",
+      "cost_ht": "0.8333",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781252433112",
       "latest_purchase_cost_date": "2026-06-12",
-      "costHtUsd": 0.833333333333333,
-      "cost_ht_usd": 0.833333333333333,
-      "costTtcUsd": 0.925
+      "costHtUsd": 0.8333333333333334,
+      "cost_ht_usd": 0.8333333333333334,
+      "costTtcUsd": 0.9250000000000002,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "20097",
@@ -5595,11 +5607,11 @@
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "-2",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "235,000",
@@ -5615,7 +5627,7 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -5625,7 +5637,7 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-2",
+      "totalStock": "-1",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -23323,6 +23335,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T10:14:29.242156Z",
+  "updatedAt": "2026-07-20T10:16:24.820499Z",
   "source": "sql-relay-web"
 }
