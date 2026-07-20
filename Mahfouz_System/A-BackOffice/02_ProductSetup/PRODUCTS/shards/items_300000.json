@@ -4430,17 +4430,17 @@
       "sub_category": "BARBECUE & CHARCOAL",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-5",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-4",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "80,000",
       "price_usd": "0.89",
       "cost": "0.30",
-      "cost_ht": 0.3,
+      "cost_ht": "0.3000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300085.jpg",
       "new_items": "x",
       "manual": "",
@@ -4452,7 +4452,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-5",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -4466,15 +4466,26 @@
       "supplier": "JACK DIB",
       "subcategory": "BARBECUE & CHARCOAL",
       "vat": "no",
-      "totalStock": "-4",
-      "cost_ttc": 0.3,
+      "totalStock": "1",
+      "cost_ttc": "0.3000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779347891479",
       "latest_purchase_cost_date": "2026-05-21",
       "costHtUsd": 0.3,
       "cost_ht_usd": 0.3,
-      "costTtcUsd": 0.3
+      "costTtcUsd": 0.3,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "300086",
@@ -27294,6 +27305,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-20T08:12:58.154175Z",
+  "updatedAt": "2026-07-20T08:31:29.278875Z",
   "source": "sql-relay-web"
 }
