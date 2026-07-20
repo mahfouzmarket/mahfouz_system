@@ -3169,9 +3169,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "9",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "10",
+      "total_stock": "8",
       "total_consumption": "7",
       "VAT": "NO",
       "price_lbp": "525,000",
@@ -3187,7 +3187,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "9",
+          "stock": "7",
           "consumption": "4"
         }
       },
@@ -3195,7 +3195,7 @@
       "supplier": "JACK DIB",
       "subcategory": "LAMP",
       "vat": "no",
-      "totalStock": "10",
+      "totalStock": "8",
       "cost_ttc": 3.8850000000000002,
       "cost_ht": 3.5,
       "cost_currency": "USD",
@@ -8659,11 +8659,11 @@
       "category": "HOME USAGE",
       "sub_category": "hand & body wash",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "2",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -8679,7 +8679,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
@@ -8688,17 +8688,29 @@
         }
       },
       "barcode2": "6221155135957",
-      "barcodes": "6221155135957",
-      "totalStock": "-1",
-      "cost_ttc": 0.65,
-      "cost_ht": 0.65,
+      "barcodes": "",
+      "totalStock": "2",
+      "cost_ttc": "0.6500",
+      "cost_ht": "0.6500",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13543-2026-02-12",
       "latest_purchase_cost_date": "2026-02-12",
       "costHtUsd": 0.65,
       "cost_ht_usd": 0.65,
-      "costTtcUsd": 0.65
+      "costTtcUsd": 0.65,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "18405",
@@ -10415,6 +10427,6 @@
       "totalStock": "-3"
     }
   ],
-  "updatedAt": "2026-07-20T10:23:34.723241Z",
+  "updatedAt": "2026-07-20T10:30:43.029140Z",
   "source": "sql-relay-web"
 }
