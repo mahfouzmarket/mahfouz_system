@@ -7748,11 +7748,11 @@
       "category": "HOME USAGE",
       "sub_category": "SHOES CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "6",
+      "total_stock": "16",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "135,000",
@@ -7764,7 +7764,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "9",
           "consumption": "0"
         },
         "Medawar": {
@@ -7778,16 +7778,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
-      "cost_ttc": 0.75,
-      "cost_ht": 0.75,
+      "totalStock": "16",
+      "cost_ttc": "0.7500",
+      "cost_ht": "0.7500",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14299-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 0.75,
       "cost_ht_usd": 0.75,
-      "costTtcUsd": 0.75
+      "costTtcUsd": 0.75,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "15900",
@@ -9403,6 +9415,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-20T11:49:16.956669Z",
+  "updatedAt": "2026-07-20T11:50:30.668621Z",
   "source": "sql-relay-web"
 }
