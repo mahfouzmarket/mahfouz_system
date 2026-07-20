@@ -17556,7 +17556,7 @@
       "cost": "1.50",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "1"
         },
         "Medawar": {
@@ -17564,8 +17564,8 @@
           "consumption": "0"
         }
       },
-      "stock_in_geitawi_branch": "-1",
-      "total_stock": "1",
+      "stock_in_geitawi_branch": "1",
+      "total_stock": "3",
       "Product Description": "BLUE ROSE HAIR BELT",
       "SUPPLIERS": "JACK DIB",
       "stock_in_medawar_branch": "2",
@@ -17580,16 +17580,28 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
-      "cost_ttc": 1.5,
-      "cost_ht": 1.5,
+      "totalStock": "3",
+      "cost_ttc": "1.5000",
+      "cost_ht": "1.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14300-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.5
+      "costTtcUsd": 1.5,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21835",
@@ -24531,6 +24543,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T06:23:32.418548Z",
+  "updatedAt": "2026-07-20T06:35:19.609016Z",
   "source": "sql-relay-web"
 }
