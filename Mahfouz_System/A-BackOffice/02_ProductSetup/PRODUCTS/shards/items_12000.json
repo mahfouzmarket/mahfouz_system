@@ -258,17 +258,17 @@
       "sub_category": "DISH WASHING",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-5",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "14",
-      "total_stock": "21",
+      "total_stock": "31",
       "total_consumption": "22",
       "VAT": "YES",
       "price_lbp": "150,000",
       "price_usd": "1.67",
       "cost": "0.95",
-      "cost_ht": 0.95,
+      "cost_ht": "0.9500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12155.jpg",
       "new_items": "",
       "manual": "",
@@ -280,7 +280,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-5",
+          "stock": "5",
           "consumption": "8"
         },
         "Medawar": {
@@ -290,15 +290,26 @@
       },
       "product_setup_save_token": "PS-SAVE-12155-1779961270432170",
       "product_setup_saved_at_utc": "2026-05-28T09:41:10.432170Z",
-      "totalStock": "21",
-      "cost_ttc": 1.0545,
+      "totalStock": "31",
+      "cost_ttc": "1.0545",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782808212177",
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 0.95,
       "cost_ht_usd": 0.95,
       "costTtcUsd": 1.0545,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
       "vat": "yes"
     },
     {
@@ -1147,6 +1158,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T10:30:30.135727Z",
+  "updatedAt": "2026-07-20T10:55:25.380378Z",
   "source": "sql-relay-web"
 }
