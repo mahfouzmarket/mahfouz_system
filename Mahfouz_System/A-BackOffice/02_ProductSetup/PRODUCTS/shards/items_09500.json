@@ -914,11 +914,11 @@
       "category": "HOME USAGE",
       "sub_category": "hand & body wash",
       "offers": "0",
-      "stock_in_geitawi_branch": "-5",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "29",
+      "total_stock": "34",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -930,7 +930,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-5",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
@@ -944,16 +944,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "29",
-      "cost_ttc": 0.6917026605,
-      "cost_ht": 0.62315555,
+      "totalStock": "34",
+      "cost_ttc": "0.6917",
+      "cost_ht": "0.6232",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782207283787",
       "latest_purchase_cost_date": "2026-06-23",
       "costHtUsd": 0.62315555,
       "cost_ht_usd": 0.62315555,
-      "costTtcUsd": 0.6917026605
+      "costTtcUsd": 0.6917026605000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "9727",
@@ -1846,6 +1858,6 @@
       "totalStock": "18"
     }
   ],
-  "updatedAt": "2026-07-20T07:28:35.894952Z",
+  "updatedAt": "2026-07-20T08:09:44.601822Z",
   "source": "sql-relay-web"
 }
