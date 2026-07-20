@@ -5731,7 +5731,7 @@
       "barcode": "5285010685187",
       "barcode2": "",
       "barcodes": "",
-      "price_usd": "2.01",
+      "price_usd": "2.00",
       "price_lbp": "180,000",
       "VAT": "NO",
       "offers": "0",
@@ -5746,13 +5746,13 @@
       "SUPPLIERS": "waybe group",
       "subcategory": "SHISHA STUFF",
       "vat": "no",
-      "stock_in_geitawi_branch": "-5",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "1",
       "branches": {
         "Geitawi": {
-          "stock": "-5",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -5760,7 +5760,7 @@
           "consumption": "1"
         }
       },
-      "total_stock": "8",
+      "total_stock": "13",
       "total_consumption": "1",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -5768,16 +5768,28 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "8",
-      "cost_ttc": 0.3,
-      "cost_ht": 0.3,
+      "totalStock": "13",
+      "cost_ttc": "0.3000",
+      "cost_ht": "0.3000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13933-2026-03-13",
       "latest_purchase_cost_date": "2026-03-13",
       "costHtUsd": 0.3,
       "cost_ht_usd": 0.3,
-      "costTtcUsd": 0.3
+      "costTtcUsd": 0.3,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21594",
@@ -19882,11 +19894,11 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "cost": "0.13",
-      "stock_in_geitawi_branch": "-3",
-      "total_stock": "-4",
+      "stock_in_geitawi_branch": "-4",
+      "total_stock": "-5",
       "branches": {
         "Geitawi": {
-          "stock": "-3",
+          "stock": "-4",
           "consumption": "14"
         },
         "Medawar": {
@@ -19908,7 +19920,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "-4",
+      "totalStock": "-5",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21871.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21871.jpg",
       "image_updated_at_utc": "2026-06-24T14:50:29.754807Z",
@@ -24626,6 +24638,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T11:43:24.433128Z",
+  "updatedAt": "2026-07-20T11:44:43.099679Z",
   "source": "sql-relay-web"
 }
