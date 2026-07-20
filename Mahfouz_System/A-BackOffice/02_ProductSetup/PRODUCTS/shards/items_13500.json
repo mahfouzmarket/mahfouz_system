@@ -721,11 +721,11 @@
       "category": "HOME USAGE",
       "sub_category": "CANDLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "-15",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-14",
+      "total_stock": "1",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "170,000",
@@ -737,7 +737,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-15",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
@@ -754,17 +754,29 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-14",
+      "totalStock": "1",
       "stock_in_nouna_branch": 0,
-      "cost_ttc": 1.11,
-      "cost_ht": 1.0,
+      "cost_ttc": "1.1100",
+      "cost_ht": "1.0000",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-05-MEDAWAR-14383",
       "latest_purchase_cost_date": "2026-05-05",
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.11
+      "costTtcUsd": 1.11,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "13587",
@@ -7852,6 +7864,6 @@
       "costTtcUsd": 3.219
     }
   ],
-  "updatedAt": "2026-07-20T06:14:33.576311Z",
+  "updatedAt": "2026-07-20T06:29:09.677499Z",
   "source": "sql-relay-web"
 }
