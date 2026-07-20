@@ -15451,11 +15451,11 @@
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "620,000",
-      "cost": "5.74",
-      "total_stock": "0",
+      "cost": "5.89",
+      "total_stock": "8",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "8",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -15470,7 +15470,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "8",
           "consumption": "0.0"
         },
         "Geitawi": {
@@ -15502,9 +15502,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "5.74",
+      "cost_ht": 5.893,
       "costUsd": 5.74,
-      "cost_ht_usd": 5.74,
+      "cost_ht_usd": 5.893,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21286.jpg",
@@ -15522,7 +15522,12 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "6.89",
-      "totalStock": "0"
+      "totalStock": "8",
+      "cost_ttc": 5.893,
+      "costTtcUsd": 5.893,
+      "costHtUsd": 5.893,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "21287",
@@ -26537,6 +26542,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T09:49:17.753361Z",
+  "updatedAt": "2026-07-20T09:55:01.012771Z",
   "source": "sql-relay-web"
 }
