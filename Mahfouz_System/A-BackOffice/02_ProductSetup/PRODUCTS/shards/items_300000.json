@@ -4008,17 +4008,17 @@
       "sub_category": "CLEANING",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-6",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "8",
+      "total_stock": "18",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "120,000",
-      "price_usd": "1.67",
+      "price_usd": "1.33",
       "cost": "0.80",
-      "cost_ht": 0.8,
+      "cost_ht": "0.8000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300078.jpg",
       "new_items": "x",
       "manual": "",
@@ -4030,7 +4030,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-6",
+          "stock": "4",
           "consumption": "4"
         },
         "Medawar": {
@@ -4044,15 +4044,26 @@
       "supplier": "waybe group",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "8",
-      "cost_ttc": 0.888,
+      "totalStock": "18",
+      "cost_ttc": "0.8880",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779259636459",
       "latest_purchase_cost_date": "2026-05-20",
       "costHtUsd": 0.8,
       "cost_ht_usd": 0.8,
-      "costTtcUsd": 0.888
+      "costTtcUsd": 0.8880000000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "300079",
@@ -6870,9 +6881,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "20",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "16",
+      "total_stock": "15",
       "total_consumption": "37",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -6894,13 +6905,13 @@
           "consumption": "20"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "15",
           "consumption": "17"
         }
       },
       "product_setup_save_token": "PS-SAVE-300126-1779703228359340",
       "product_setup_saved_at_utc": "2026-05-25T10:00:28.359340Z",
-      "totalStock": "16",
+      "totalStock": "15",
       "cost_ttc": 0.37,
       "cost_currency": "USD",
       "cost_vat_included": 1,
@@ -27316,6 +27327,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-20T10:39:50.779670Z",
+  "updatedAt": "2026-07-20T10:42:57.606584Z",
   "source": "sql-relay-web"
 }
