@@ -1253,15 +1253,15 @@
       "category": "HOME USAGE",
       "sub_category": "hand & body wash",
       "offers": "0",
-      "stock_in_geitawi_branch": "-4",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "4",
       "total_consumption": "3",
       "VAT": "NO",
       "price_lbp": "300,000",
-      "price_usd": "3.35",
+      "price_usd": "3.33",
       "cost": "2.25",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17066.jpg",
       "new_items": "",
@@ -1273,7 +1273,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "-4",
+          "stock": "0",
           "consumption": "3"
         },
         "Medawar": {
@@ -1281,16 +1281,30 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0",
-      "cost_ttc": 2.25,
-      "cost_ht": 2.25,
+      "totalStock": "4",
+      "cost_ttc": "2.2500",
+      "cost_ht": "2.2500",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1780563221257",
       "latest_purchase_cost_date": "2026-06-04",
       "costHtUsd": 2.25,
       "cost_ht_usd": 2.25,
-      "costTtcUsd": 2.25
+      "costTtcUsd": 2.25,
+      "barcode2": "",
+      "barcodes": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "17067",
@@ -1446,9 +1460,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "41",
       "consumption_in_geitawi_branch": "115",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "93",
-      "total_stock": "49",
+      "total_stock": "48",
       "total_consumption": "208",
       "VAT": "NO",
       "price_lbp": "115,000",
@@ -1464,7 +1478,7 @@
           "consumption": "115"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "7",
           "consumption": "93"
         }
       },
@@ -1483,7 +1497,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-17075-1778924657264876",
       "product_setup_saved_at_utc": "2026-05-16T09:44:17.264876Z",
-      "totalStock": "49",
+      "totalStock": "48",
       "priceLbp": 115000.0,
       "priceUsd": 1.2777777777777777,
       "arabic_name": "",
@@ -10288,6 +10302,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-20T05:49:55.067004Z",
+  "updatedAt": "2026-07-20T06:07:22.633609Z",
   "source": "sql-relay-web"
 }
