@@ -552,9 +552,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-2",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-3",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -570,7 +570,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-2",
+          "stock": "2",
           "consumption": "0"
         }
       },
@@ -580,16 +580,28 @@
       "supplier": "JACK DIB",
       "subcategory": "hand & body wash",
       "vat": "yes",
-      "totalStock": "-3",
-      "cost_ttc": 0.4995,
-      "cost_ht": 0.45,
+      "totalStock": "1",
+      "cost_ttc": "0.4995",
+      "cost_ht": "0.4500",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13271-2026-01-22",
       "latest_purchase_cost_date": "2026-01-22",
       "costHtUsd": 0.45,
       "cost_ht_usd": 0.45,
-      "costTtcUsd": 0.4995
+      "costTtcUsd": 0.49950000000000006,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "11316",
@@ -791,6 +803,6 @@
       "costTtcUsd": 2.775
     }
   ],
-  "updatedAt": "2026-07-20T05:49:57.925863Z",
+  "updatedAt": "2026-07-20T10:17:10.758421Z",
   "source": "sql-relay-web"
 }
