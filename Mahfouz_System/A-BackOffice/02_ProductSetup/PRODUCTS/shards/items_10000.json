@@ -1703,11 +1703,11 @@
       "category": "HOME USAGE",
       "sub_category": "SHISHA STUFF",
       "offers": "0",
-      "stock_in_geitawi_branch": "-23",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "31",
       "stock_in_medawar_branch": "43",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "20",
+      "total_stock": "43",
       "total_consumption": "55",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -1719,7 +1719,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-23",
+          "stock": "0",
           "consumption": "31"
         },
         "Medawar": {
@@ -1733,16 +1733,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "20",
-      "cost_ttc": 1.1666666666666667,
-      "cost_ht": 1.1666666666666667,
+      "totalStock": "43",
+      "cost_ttc": "1.2950",
+      "cost_ht": "1.1667",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782896386130",
       "latest_purchase_cost_date": "2026-07-01",
       "costHtUsd": 1.1666666666666667,
       "cost_ht_usd": 1.1666666666666667,
-      "costTtcUsd": 1.1666666666666667
+      "costTtcUsd": 1.2950000000000002,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "10408",
@@ -2684,6 +2696,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-07-20T10:28:57.096042Z",
+  "updatedAt": "2026-07-20T11:51:06.115110Z",
   "source": "sql-relay-web"
 }
