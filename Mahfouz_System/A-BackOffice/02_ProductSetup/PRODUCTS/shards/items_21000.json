@@ -10600,9 +10600,9 @@
       "vat": "no",
       "price_lbp": "150,000",
       "cost": "1.10",
-      "total_stock": "7",
+      "total_stock": "10",
       "total_consumption": "4",
-      "stock_in_geitawi_branch": "-3",
+      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "10",
       "branches": {
         "geitawi": {
@@ -10623,7 +10623,7 @@
         },
         "Geitawi": {
           "consumption": "2",
-          "stock": "-3"
+          "stock": "0"
         }
       },
       "created_by_user_code": "1",
@@ -10651,14 +10651,14 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 1.1,
+      "cost_ht": "1.1000",
       "costUsd": 1.39,
       "cost_ht_usd": 1.1,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21190.jpg",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21190.jpg",
-      "totalStock": "7",
+      "totalStock": "10",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -10672,9 +10672,9 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "1.67",
-      "cost_ttc": 1.1,
+      "cost_ttc": "1.1000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781184290401",
       "latest_purchase_cost_date": "2026-06-11",
       "costHtUsd": 1.1,
@@ -26542,6 +26542,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T10:40:23.217994Z",
+  "updatedAt": "2026-07-20T10:47:13.665818Z",
   "source": "sql-relay-web"
 }
