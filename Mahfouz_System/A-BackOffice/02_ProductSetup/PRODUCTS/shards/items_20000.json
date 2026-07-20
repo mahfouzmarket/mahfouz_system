@@ -4842,11 +4842,11 @@
       "category": "HOME USAGE",
       "sub_category": "hair care",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "130,000",
@@ -4862,7 +4862,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -4872,16 +4872,28 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 0.925,
-      "cost_ht": 0.925,
+      "totalStock": "1",
+      "cost_ttc": "0.9250",
+      "cost_ht": "0.9250",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14257-2026-04-09",
       "latest_purchase_cost_date": "2026-04-09",
       "costHtUsd": 0.925,
       "cost_ht_usd": 0.925,
-      "costTtcUsd": 0.925
+      "costTtcUsd": 0.925,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "20113",
@@ -23311,6 +23323,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T07:20:01.944841Z",
+  "updatedAt": "2026-07-20T08:07:34.332136Z",
   "source": "sql-relay-web"
 }
