@@ -16747,14 +16747,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "1",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "1",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "1"
         },
         "Medawar": {
@@ -16766,7 +16766,7 @@
       "SUPPLIERS": "JACK DIB",
       "expiry_days": "0",
       "cost": "2.00",
-      "cost_ht": 2.0,
+      "cost_ht": "2.0000",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
@@ -16777,15 +16777,26 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "0",
-      "cost_ttc": 2.0,
+      "totalStock": "2",
+      "cost_ttc": "2.0000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14299-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.0
+      "costTtcUsd": 2.0,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21821",
@@ -24579,6 +24590,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-20T10:00:25.267187Z",
+  "updatedAt": "2026-07-20T10:05:38.714941Z",
   "source": "sql-relay-web"
 }
