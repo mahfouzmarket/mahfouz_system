@@ -195,15 +195,15 @@
       "cost": "1.29",
       "total_stock": "24",
       "total_consumption": "2",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "24",
+      "stock_in_geitawi_branch": "12",
+      "stock_in_medawar_branch": "12",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "12",
           "consumption": "0"
         },
         "geitawi": {
@@ -283,9 +283,9 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "8",
-      "stock_in_medawar_branch": "22",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "3",
       "total_stock": "24",
       "total_consumption": "11",
@@ -303,11 +303,11 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "8",
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "22",
+          "stock": "16",
           "consumption": "3"
         }
       },
@@ -896,9 +896,9 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "20",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "40",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "0",
       "total_stock": "40",
       "total_consumption": "1",
@@ -916,11 +916,11 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "20",
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "40",
+          "stock": "20",
           "consumption": "0"
         }
       },
@@ -2539,9 +2539,9 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "11",
+      "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "0",
       "total_stock": "35",
       "total_consumption": "0",
@@ -2559,11 +2559,11 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "11",
+          "stock": "19",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "16",
           "consumption": "0"
         }
       },
@@ -7605,6 +7605,6 @@
       "costTtcUsd": 0.10614375000000001
     }
   ],
-  "updatedAt": "2026-07-20T11:06:08.850753Z",
+  "updatedAt": "2026-07-20T11:18:05.048621Z",
   "source": "sql-relay-web"
 }
