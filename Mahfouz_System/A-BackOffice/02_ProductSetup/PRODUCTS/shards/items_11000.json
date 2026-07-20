@@ -141,11 +141,11 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "19",
-      "total_stock": "13",
+      "total_stock": "14",
       "total_consumption": "26",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -157,7 +157,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "7"
         },
         "Medawar": {
@@ -171,16 +171,28 @@
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
       "vat": "yes",
-      "totalStock": "13",
-      "cost_ttc": 2.331,
-      "cost_ht": 2.1,
+      "totalStock": "14",
+      "cost_ttc": "2.3310",
+      "cost_ht": "2.1000",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782362121927",
       "latest_purchase_cost_date": "2026-06-25",
       "costHtUsd": 2.1,
       "cost_ht_usd": 2.1,
-      "costTtcUsd": 2.331
+      "costTtcUsd": 2.3310000000000004,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "11075",
@@ -803,6 +815,6 @@
       "costTtcUsd": 2.775
     }
   ],
-  "updatedAt": "2026-07-20T10:17:26.823146Z",
+  "updatedAt": "2026-07-20T10:54:18.078915Z",
   "source": "sql-relay-web"
 }
