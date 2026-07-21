@@ -5289,9 +5289,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "42",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "17",
       "consumption_in_medawar_branch": "36",
-      "total_stock": "32",
+      "total_stock": "31",
       "total_consumption": "78",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -5307,7 +5307,7 @@
           "consumption": "42"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "17",
           "consumption": "36"
         },
         "Nouna": {
@@ -5321,7 +5321,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "32",
+      "totalStock": "31",
       "secondBarcode": "",
       "product_description": "Maccaw Orange",
       "description": "Maccaw Orange",
@@ -6052,7 +6052,7 @@
       "barcode": "5287001932133",
       "barcode2": "",
       "barcodes": "",
-      "price_usd": "1.84",
+      "price_usd": "1.83",
       "price_lbp": "165,000",
       "VAT": "YES",
       "offers": "0",
@@ -6069,7 +6069,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "17",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "1",
       "branches": {
         "Geitawi": {
@@ -6077,7 +6077,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "17",
+          "stock": "12",
           "consumption": "1"
         },
         "Nouna": {
@@ -6085,7 +6085,7 @@
           "consumption": "0"
         }
       },
-      "total_stock": "29",
+      "total_stock": "24",
       "total_consumption": "1",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -6093,7 +6093,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "29",
+      "totalStock": "24",
       "secondBarcode": "",
       "product_description": "BOULES GLACEES VANILLE",
       "description": "BOULES GLACEES VANILLE",
@@ -6102,13 +6102,24 @@
       "subCategory": "bisous",
       "stock_in_nouna_branch": "12",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": 1.3764,
-      "cost_ht": 1.24,
+      "cost_ttc": "1.3764",
+      "cost_ht": "1.2400",
       "costTtcUsd": 1.3764,
       "costHtUsd": 1.24,
       "cost_ht_usd": 1.24,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "90263",
@@ -6997,7 +7008,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "38",
+          "stock": "37",
           "consumption": "10"
         },
         "Nouna": {
@@ -7005,8 +7016,8 @@
           "consumption": "0"
         }
       },
-      "stock_in_medawar_branch": "38",
-      "total_stock": "69",
+      "stock_in_medawar_branch": "37",
+      "total_stock": "68",
       "Product Description": "POPSICLES CHOCODOUX",
       "SUPPLIERS": "bisous douceur",
       "stock_in_geitawi_branch": "0",
@@ -7021,7 +7032,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "69",
+      "totalStock": "68",
       "secondBarcode": "",
       "product_description": "POPSICLES CHOCODOUX",
       "description": "POPSICLES CHOCODOUX",
@@ -8362,6 +8373,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-21T13:45:04.008376Z",
+  "updatedAt": "2026-07-21T13:48:08.980172Z",
   "source": "sql-relay-web"
 }
