@@ -8153,11 +8153,11 @@
       "category": "HOME USAGE",
       "sub_category": "CLOTH CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "-3",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-3",
+      "total_stock": "0",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -8173,7 +8173,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "-3",
+          "stock": "0",
           "consumption": "2"
         },
         "Medawar": {
@@ -8183,16 +8183,28 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-3",
-      "cost_ttc": 1.4,
-      "cost_ht": 1.4,
+      "totalStock": "0",
+      "cost_ttc": "1.4000",
+      "cost_ht": "1.4000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14412",
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 1.4,
       "cost_ht_usd": 1.4,
-      "costTtcUsd": 1.4
+      "costTtcUsd": 1.4,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "20185",
@@ -23361,6 +23373,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-21T11:07:22.751194Z",
+  "updatedAt": "2026-07-21T11:19:10.329765Z",
   "source": "sql-relay-web"
 }
