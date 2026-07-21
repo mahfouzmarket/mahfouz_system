@@ -4592,9 +4592,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "28",
       "consumption_in_geitawi_branch": "17",
-      "stock_in_medawar_branch": "13",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "88",
-      "total_stock": "41",
+      "total_stock": "40",
       "total_consumption": "105",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -4610,7 +4610,7 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "13",
+          "stock": "12",
           "consumption": "88"
         }
       },
@@ -4620,7 +4620,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "41",
+      "totalStock": "40",
       "cost_ttc": 0.5217,
       "cost_ht": 0.47000000000000003,
       "cost_currency": "USD",
@@ -5125,7 +5125,7 @@
     {
       "id": "17256",
       "barcode": "5281128104893",
-      "Product Description": "SNIPS SALT & VINEAGER 165GR",
+      "Product Description": "SNIPS SALT & VINEAGER 165 G",
       "SUPPLIERS": "FALCO SALES & DISTRIBUTION SAL",
       "unit": "-",
       "category": "CHIPS",
@@ -5133,9 +5133,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "19",
-      "stock_in_medawar_branch": "21",
+      "stock_in_medawar_branch": "22",
       "consumption_in_medawar_branch": "21",
-      "total_stock": "21",
+      "total_stock": "22",
       "total_consumption": "40",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -5151,7 +5151,7 @@
           "consumption": "19"
         },
         "Medawar": {
-          "stock": "21",
+          "stock": "22",
           "consumption": "21"
         }
       },
@@ -5163,16 +5163,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "21",
-      "cost_ttc": 0.5587,
-      "cost_ht": 0.503333333333333,
+      "totalStock": "22",
+      "cost_ttc": "0.5587",
+      "cost_ht": "0.5033",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782974504068",
       "latest_purchase_cost_date": "2026-07-02",
-      "costHtUsd": 0.503333333333333,
-      "cost_ht_usd": 0.503333333333333,
-      "costTtcUsd": 0.5587
+      "costHtUsd": 0.5033333333333333,
+      "cost_ht_usd": 0.5033333333333333,
+      "costTtcUsd": 0.5587,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "17257",
@@ -6641,9 +6653,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "9",
-      "stock_in_medawar_branch": "9",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "15",
+      "total_stock": "14",
       "total_consumption": "14",
       "VAT": "YES",
       "price_lbp": "240,000",
@@ -6659,7 +6671,7 @@
           "consumption": "9"
         },
         "Medawar": {
-          "stock": "9",
+          "stock": "8",
           "consumption": "5"
         }
       },
@@ -6673,7 +6685,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "15",
+      "totalStock": "14",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -10377,6 +10389,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-21T12:44:27.873719Z",
+  "updatedAt": "2026-07-21T12:47:39.224907Z",
   "source": "sql-relay-web"
 }
