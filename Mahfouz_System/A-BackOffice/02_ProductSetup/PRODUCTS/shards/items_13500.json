@@ -3933,11 +3933,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "9",
+      "total_stock": "10",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -3949,7 +3949,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "5",
           "consumption": "8"
         },
         "Medawar": {
@@ -3963,16 +3963,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9",
-      "cost_ttc": 1.9868999999999999,
-      "cost_ht": 1.7899999999999998,
+      "totalStock": "10",
+      "cost_ttc": "1.9869",
+      "cost_ht": "1.7900",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783313535470",
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 1.7899999999999998,
       "cost_ht_usd": 1.7899999999999998,
-      "costTtcUsd": 1.9868999999999999
+      "costTtcUsd": 1.9868999999999999,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "13821",
@@ -4143,9 +4155,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "210",
       "consumption_in_geitawi_branch": "388",
-      "stock_in_medawar_branch": "205",
+      "stock_in_medawar_branch": "200",
       "consumption_in_medawar_branch": "582",
-      "total_stock": "415",
+      "total_stock": "410",
       "total_consumption": "970",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -4161,7 +4173,7 @@
           "consumption": "388"
         },
         "Medawar": {
-          "stock": "205",
+          "stock": "200",
           "consumption": "582"
         },
         "The Daily Market": {
@@ -4175,7 +4187,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "415",
+      "totalStock": "410",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -6175,11 +6187,11 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "22",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "42",
-      "total_stock": "48",
+      "total_stock": "47",
       "total_consumption": "53",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -6191,7 +6203,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22",
+          "stock": "21",
           "consumption": "11"
         },
         "Medawar": {
@@ -6205,7 +6217,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "48",
+      "totalStock": "47",
       "cost_ttc": 0.774687500037,
       "cost_ht": 0.6979166667,
       "cost_currency": "USD",
@@ -7895,6 +7907,6 @@
       "scalePlu": 0
     }
   ],
-  "updatedAt": "2026-07-21T09:51:58.969582Z",
+  "updatedAt": "2026-07-21T09:57:58.687552Z",
   "source": "sql-relay-web"
 }
