@@ -4524,11 +4524,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-7",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "37",
       "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "39",
-      "total_stock": "2",
+      "total_stock": "9",
       "total_consumption": "76",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -4540,7 +4540,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-7",
+          "stock": "0",
           "consumption": "37"
         },
         "Medawar": {
@@ -4556,16 +4556,30 @@
       "name": "RIM SPARKLING WATER CAN 250 ML",
       "subcategory": "SPARKLING WATER",
       "vat": "yes",
-      "totalStock": "2",
-      "cost_ttc": 0.4333625,
-      "cost_ht": 0.390416666666667,
+      "totalStock": "9",
+      "cost_ttc": "0.4334",
+      "cost_ht": "0.3904",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
-      "costHtUsd": 0.390416666666667,
-      "cost_ht_usd": 0.390416666666667,
-      "costTtcUsd": 0.4333625
+      "costHtUsd": 0.39041666666666663,
+      "cost_ht_usd": 0.39041666666666663,
+      "costTtcUsd": 0.4333625,
+      "barcode2": "",
+      "barcodes": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "17233",
@@ -10327,6 +10341,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-21T09:27:02.856008Z",
+  "updatedAt": "2026-07-21T09:34:03.332141Z",
   "source": "sql-relay-web"
 }
