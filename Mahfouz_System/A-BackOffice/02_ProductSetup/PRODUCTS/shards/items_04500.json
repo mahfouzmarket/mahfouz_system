@@ -865,11 +865,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Biscuits",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "10",
-      "total_stock": "18",
+      "total_stock": "19",
       "total_consumption": "18",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -881,7 +881,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "8"
         },
         "Medawar": {
@@ -895,16 +895,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "18",
-      "cost_ttc": 2.0979,
-      "cost_ht": 1.89,
+      "totalStock": "19",
+      "cost_ttc": "2.0979",
+      "cost_ht": "1.8900",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783069024407",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 1.89,
       "cost_ht_usd": 1.89,
-      "costTtcUsd": 2.0979
+      "costTtcUsd": 2.0979,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "4799",
@@ -1806,6 +1818,6 @@
       "costTtcUsd": 0.6253
     }
   ],
-  "updatedAt": "2026-07-21T10:37:55.083192Z",
+  "updatedAt": "2026-07-21T10:49:11.505921Z",
   "source": "sql-relay-web"
 }
