@@ -504,11 +504,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Cookies",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "24",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "28",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "52",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -520,7 +520,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "24"
         },
         "Medawar": {
@@ -533,17 +533,29 @@
       "subcategory": "Cookies",
       "vat": "yes",
       "barcode2": "8690504118046",
-      "barcodes": "8690504118046",
-      "totalStock": "0",
-      "cost_ttc": 0.413783333333333,
-      "cost_ht": 0.372777777777778,
+      "barcodes": "",
+      "totalStock": "1",
+      "cost_ttc": "0.4138",
+      "cost_ht": "0.3728",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782122214554",
       "latest_purchase_cost_date": "2026-06-22",
-      "costHtUsd": 0.372777777777778,
-      "cost_ht_usd": 0.372777777777778,
-      "costTtcUsd": 0.413783333333333
+      "costHtUsd": 0.37277777777777776,
+      "cost_ht_usd": 0.37277777777777776,
+      "costTtcUsd": 0.41378333333333334,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "4088",
@@ -1820,6 +1832,6 @@
       "costTtcUsd": 0.78463125
     }
   ],
-  "updatedAt": "2026-07-21T10:26:10.764424Z",
+  "updatedAt": "2026-07-21T10:43:25.396642Z",
   "source": "sql-relay-web"
 }
