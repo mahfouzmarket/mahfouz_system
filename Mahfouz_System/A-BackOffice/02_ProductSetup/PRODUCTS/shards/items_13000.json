@@ -1446,11 +1446,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "21",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "9",
+      "total_stock": "11",
       "total_consumption": "45",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -1462,7 +1462,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "4",
           "consumption": "21"
         },
         "Medawar": {
@@ -1477,17 +1477,29 @@
       "subcategory": "BAKERY",
       "vat": "yes",
       "barcode2": "5280320005649",
-      "barcodes": "5280320005649",
-      "totalStock": "9",
-      "cost_ttc": 1.0878,
-      "cost_ht": 0.9800000000000001,
+      "barcodes": "",
+      "totalStock": "11",
+      "cost_ttc": "1.0878",
+      "cost_ht": "0.9800",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783060935374",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 0.9800000000000001,
       "cost_ht_usd": 0.9800000000000001,
-      "costTtcUsd": 1.0878
+      "costTtcUsd": 1.0878,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "13087",
@@ -7628,6 +7640,6 @@
       "costTtcUsd": 0.10614375000000001
     }
   ],
-  "updatedAt": "2026-07-21T09:55:04.060092Z",
+  "updatedAt": "2026-07-21T09:56:05.447445Z",
   "source": "sql-relay-web"
 }
