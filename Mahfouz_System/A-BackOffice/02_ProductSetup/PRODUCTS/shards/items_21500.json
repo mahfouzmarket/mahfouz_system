@@ -17167,13 +17167,13 @@
       "SUPPLIERS": "JACK DIB",
       "subcategory": "hand & body wash",
       "vat": "no",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "4",
           "consumption": "4"
         },
         "Medawar": {
@@ -17181,7 +17181,7 @@
           "consumption": "0"
         }
       },
-      "total_stock": "4",
+      "total_stock": "10",
       "total_consumption": "4",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -17189,16 +17189,28 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "4",
-      "cost_ttc": 0.5,
-      "cost_ht": 0.5,
+      "totalStock": "10",
+      "cost_ttc": "0.5000",
+      "cost_ht": "0.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14299-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.5
+      "costTtcUsd": 0.5,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21827",
@@ -24638,6 +24650,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-21T11:20:02.204502Z",
+  "updatedAt": "2026-07-21T11:23:20.904253Z",
   "source": "sql-relay-web"
 }
