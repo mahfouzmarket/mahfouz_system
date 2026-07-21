@@ -7466,11 +7466,11 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "0",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "410,000",
@@ -7482,7 +7482,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -7498,7 +7498,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 3.0,
+      "cost_ht": "3.0000",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -7507,15 +7507,26 @@
       "name": "HEAD & SHOULDER ANTI DANDRUFF SHAMPOO 400",
       "subcategory": "shampoo & cond",
       "vat": "no",
-      "totalStock": "-1",
-      "cost_ttc": 3.0,
+      "totalStock": "0",
+      "cost_ttc": "3.0000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14299-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
-      "costTtcUsd": 3.0
+      "costTtcUsd": 3.0,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "17958",
@@ -8089,6 +8100,6 @@
       "totalStock": "4"
     }
   ],
-  "updatedAt": "2026-07-21T10:50:32.590805Z",
+  "updatedAt": "2026-07-21T11:05:38.039390Z",
   "source": "sql-relay-web"
 }
