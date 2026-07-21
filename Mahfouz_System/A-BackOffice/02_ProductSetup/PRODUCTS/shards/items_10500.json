@@ -3195,11 +3195,11 @@
       "category": "HOME USAGE",
       "sub_category": "femi care",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "3",
+      "total_stock": "7",
       "total_consumption": "5",
       "VAT": "NO",
       "price_lbp": "275,000",
@@ -3211,7 +3211,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "3",
           "consumption": "4"
         },
         "Medawar": {
@@ -3224,17 +3224,29 @@
       "subcategory": "femi care",
       "vat": "no",
       "barcode2": "5281001319352",
-      "barcodes": "5281001319352",
-      "totalStock": "3",
-      "cost_ttc": 2.41166666666667,
-      "cost_ht": 2.41166666666667,
+      "barcodes": "",
+      "totalStock": "7",
+      "cost_ttc": "2.4117",
+      "cost_ht": "2.4117",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781860711004",
       "latest_purchase_cost_date": "2026-06-19",
-      "costHtUsd": 2.41166666666667,
-      "cost_ht_usd": 2.41166666666667,
-      "costTtcUsd": 2.41166666666667
+      "costHtUsd": 2.4116666666666666,
+      "cost_ht_usd": 2.4116666666666666,
+      "costTtcUsd": 2.4116666666666666,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "10875",
@@ -3882,6 +3894,6 @@
       "costTtcUsd": 1.665
     }
   ],
-  "updatedAt": "2026-07-21T10:42:05.411283Z",
+  "updatedAt": "2026-07-21T11:35:25.937883Z",
   "source": "sql-relay-web"
 }
