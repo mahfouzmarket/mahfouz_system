@@ -326,7 +326,7 @@
       "id": "500016",
       "barcode": "5281001111703",
       "barcode2": "5281001111871",
-      "barcodes": "5281001111871",
+      "barcodes": "",
       "Product Description": "ROSANA 270SHEETS 15% (COPY)",
       "SUPPLIERS": "KTE KFOURY TRADING EST",
       "unit": "-",
@@ -334,17 +334,17 @@
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-17",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "13",
+      "total_stock": "34",
       "total_consumption": "21",
       "VAT": "YES",
       "price_lbp": "130,000",
       "price_usd": "1.44",
       "cost": "0.61",
-      "cost_ht": 0.607916666666667,
+      "cost_ht": "0.6079",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500016.jpg",
       "new_items": "x",
       "manual": "",
@@ -356,7 +356,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-17",
+          "stock": "4",
           "consumption": "9"
         },
         "Medawar": {
@@ -370,15 +370,26 @@
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
       "vat": "yes",
-      "totalStock": "13",
-      "cost_ttc": 0.6747875,
+      "totalStock": "34",
+      "cost_ttc": "0.6748",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781860711004",
       "latest_purchase_cost_date": "2026-06-19",
-      "costHtUsd": 0.607916666666667,
-      "cost_ht_usd": 0.607916666666667,
-      "costTtcUsd": 0.6747875
+      "costHtUsd": 0.6079166666666667,
+      "cost_ht_usd": 0.6079166666666667,
+      "costTtcUsd": 0.6747875000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "500017",
@@ -5038,6 +5049,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-21T11:19:59.617966Z",
+  "updatedAt": "2026-07-21T11:36:38.705217Z",
   "source": "sql-relay-web"
 }
