@@ -11790,11 +11790,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Croissant",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-2",
+      "total_stock": "0",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -11806,7 +11806,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "2"
         },
         "Medawar": {
@@ -11824,13 +11824,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-2",
-      "cost_ttc": 0.555,
-      "cost_ht": 0.5,
-      "cost_currency": "LBP",
-      "cost_vat_included": 1,
+      "totalStock": "0",
+      "cost_ttc": "0.5550",
+      "cost_ht": "0.5000",
+      "cost_currency": "USD",
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779704745738",
-      "latest_purchase_cost_date": "2026-05-25"
+      "latest_purchase_cost_date": "2026-05-25",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "costTtcUsd": 0.555,
+      "costHtUsd": 0.5,
+      "cost_ht_usd": 0.5
     },
     {
       "id": "19918",
@@ -14293,6 +14308,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-21T10:19:00.883214Z",
+  "updatedAt": "2026-07-21T10:34:37.233729Z",
   "source": "sql-relay-web"
 }
