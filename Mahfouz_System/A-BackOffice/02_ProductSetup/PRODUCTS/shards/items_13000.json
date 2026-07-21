@@ -1287,8 +1287,8 @@
       "total_stock": "17",
       "total_consumption": "39",
       "VAT": "NO",
-      "price_lbp": "115,000",
-      "price_usd": "1.28",
+      "price_lbp": "95,000",
+      "price_usd": "1.06",
       "cost": "1.09",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13079.jpg",
       "new_items": "",
@@ -1319,15 +1319,23 @@
       "name_ar": "",
       "description_ar": "",
       "expiry_days": "0",
-      "cost_ht": 1.09,
-      "cost_ttc": 1.09,
+      "cost_ht": "1.0900",
+      "cost_ttc": "1.0900",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782106532076",
       "latest_purchase_cost_date": "2026-06-22",
       "costHtUsd": 1.09,
       "cost_ht_usd": 1.09,
-      "costTtcUsd": 1.09
+      "costTtcUsd": 1.09,
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "13081",
@@ -7620,6 +7628,6 @@
       "costTtcUsd": 0.10614375000000001
     }
   ],
-  "updatedAt": "2026-07-21T08:51:26.021543Z",
+  "updatedAt": "2026-07-21T08:55:44.956073Z",
   "source": "sql-relay-web"
 }
