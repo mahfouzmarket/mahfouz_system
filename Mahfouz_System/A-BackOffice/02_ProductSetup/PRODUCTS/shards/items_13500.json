@@ -7595,11 +7595,11 @@
       "category": "CHI TAYIB",
       "sub_category": "corn flakes",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "-3",
+      "total_stock": "8",
       "total_consumption": "15",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -7611,7 +7611,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "9",
           "consumption": "11"
         },
         "Medawar": {
@@ -7625,16 +7625,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-3",
-      "cost_ttc": 0.26,
-      "cost_ht": 0.234234234234234,
+      "totalStock": "8",
+      "cost_ttc": "0.2600",
+      "cost_ht": "0.2342",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781587159196",
       "latest_purchase_cost_date": "2026-06-16",
-      "costHtUsd": 0.234234234234234,
-      "cost_ht_usd": 0.234234234234234,
-      "costTtcUsd": 0.26
+      "costHtUsd": 0.23423423423423423,
+      "cost_ht_usd": 0.23423423423423423,
+      "costTtcUsd": 0.26,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "13991",
@@ -7907,6 +7919,6 @@
       "scalePlu": 0
     }
   ],
-  "updatedAt": "2026-07-21T10:52:32.081904Z",
+  "updatedAt": "2026-07-21T10:53:58.720542Z",
   "source": "sql-relay-web"
 }
