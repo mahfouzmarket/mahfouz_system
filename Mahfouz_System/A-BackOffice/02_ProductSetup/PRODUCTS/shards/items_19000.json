@@ -11991,11 +11991,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Crackers",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "8",
+      "total_stock": "9",
       "total_consumption": "18",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -12007,7 +12007,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "11"
         },
         "Medawar": {
@@ -12025,16 +12025,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
-      "cost_ttc": 1.1174,
-      "cost_ht": 1.00666666666667,
+      "totalStock": "9",
+      "cost_ttc": "1.1174",
+      "cost_ht": "1.0067",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782974504068",
       "latest_purchase_cost_date": "2026-07-02",
-      "costHtUsd": 1.00666666666667,
-      "cost_ht_usd": 1.00666666666667,
-      "costTtcUsd": 1.1174
+      "costHtUsd": 1.0066666666666666,
+      "cost_ht_usd": 1.0066666666666666,
+      "costTtcUsd": 1.1174,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "19497",
@@ -12145,6 +12157,6 @@
       "costTtcUsd": 1.1174
     }
   ],
-  "updatedAt": "2026-07-21T10:26:10.764424Z",
+  "updatedAt": "2026-07-21T10:57:36.138201Z",
   "source": "sql-relay-web"
 }
