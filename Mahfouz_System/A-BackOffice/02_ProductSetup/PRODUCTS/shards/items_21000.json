@@ -2401,11 +2401,11 @@
       "category": "CHI TAYIB",
       "sub_category": "candies",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "13",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "21",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -2417,7 +2417,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "19",
           "consumption": "13"
         },
         "Medawar": {
@@ -2438,17 +2438,29 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "21",
       "stock_in_nouna_branch": 0,
-      "cost_ttc": 0.18759,
-      "cost_ht": 0.169,
+      "cost_ttc": "0.1876",
+      "cost_ht": "0.1690",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13241-2026-01-20",
       "latest_purchase_cost_date": "2026-01-20",
       "costHtUsd": 0.169,
       "cost_ht_usd": 0.169,
-      "costTtcUsd": 0.18759
+      "costTtcUsd": 0.18759000000000003,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21043",
@@ -26590,6 +26602,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-21T09:54:14.590954Z",
+  "updatedAt": "2026-07-21T10:35:29.310325Z",
   "source": "sql-relay-web"
 }
