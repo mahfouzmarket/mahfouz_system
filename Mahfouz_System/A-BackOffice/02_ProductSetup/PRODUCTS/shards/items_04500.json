@@ -59,11 +59,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "31",
       "stock_in_medawar_branch": "17",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "15",
+      "total_stock": "17",
       "total_consumption": "40",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -75,7 +75,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "31"
         },
         "Medawar": {
@@ -89,16 +89,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "15",
-      "cost_ttc": 0.7609666667160001,
-      "cost_ht": 0.6855555556,
+      "totalStock": "17",
+      "cost_ttc": "0.7610",
+      "cost_ht": "0.6856",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780476969290",
       "latest_purchase_cost_date": "2026-06-03",
       "costHtUsd": 0.6855555556,
       "cost_ht_usd": 0.6855555556,
-      "costTtcUsd": 0.7609666667160001
+      "costTtcUsd": 0.7609666667160001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "4548",
@@ -1794,6 +1806,6 @@
       "costTtcUsd": 0.6253
     }
   ],
-  "updatedAt": "2026-07-21T09:49:14.975864Z",
+  "updatedAt": "2026-07-21T10:37:55.083192Z",
   "source": "sql-relay-web"
 }
