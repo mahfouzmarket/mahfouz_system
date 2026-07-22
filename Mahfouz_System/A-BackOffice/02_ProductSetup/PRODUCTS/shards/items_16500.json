@@ -2059,11 +2059,11 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "0",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -2075,7 +2075,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "1"
         },
         "Medawar": {
@@ -2089,16 +2089,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1",
-      "cost_ttc": 1.4,
-      "cost_ht": 1.4,
+      "totalStock": "0",
+      "cost_ttc": "1.4000",
+      "cost_ht": "1.4000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14412",
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 1.4,
       "cost_ht_usd": 1.4,
-      "costTtcUsd": 1.4
+      "costTtcUsd": 1.4,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "16709",
@@ -7747,6 +7759,6 @@
       "consumption_in_nouna_branch": "0"
     }
   ],
-  "updatedAt": "2026-07-22T07:16:45.315262Z",
+  "updatedAt": "2026-07-22T07:24:12.099471Z",
   "source": "sql-relay-web"
 }
