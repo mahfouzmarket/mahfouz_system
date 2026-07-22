@@ -1034,11 +1034,11 @@
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
-      "stock_in_geitawi_branch": "-10",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "-19",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "-29",
+      "total_stock": "-19",
       "total_consumption": "21",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -1050,7 +1050,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-10",
+          "stock": "0",
           "consumption": "8"
         },
         "Medawar": {
@@ -1068,7 +1068,26 @@
       "subcategory": "shaving",
       "vat": "yes",
       "barcode2": "",
-      "totalStock": "-29"
+      "totalStock": "-19",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0,
+      "cost_ttc": "0.4662",
+      "cost_ht": "0.4200",
+      "costTtcUsd": 0.4662,
+      "costHtUsd": 0.42,
+      "cost_ht_usd": 0.42,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "10267",
@@ -2708,6 +2727,6 @@
       "totalStock": "1"
     }
   ],
-  "updatedAt": "2026-07-22T06:46:40.326671Z",
+  "updatedAt": "2026-07-22T07:17:15.236923Z",
   "source": "sql-relay-web"
 }
