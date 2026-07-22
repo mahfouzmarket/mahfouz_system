@@ -5147,11 +5147,11 @@
       "sub_category": "SAUCE",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "14",
+      "total_stock": "13",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "330,000",
@@ -5169,7 +5169,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "2"
         },
         "Medawar": {
@@ -5183,7 +5183,7 @@
       "supplier": "TAJ BEST FOOD SARL",
       "subcategory": "SAUCE",
       "vat": "yes",
-      "totalStock": "14",
+      "totalStock": "13",
       "cost_ttc": 2.9156,
       "cost_currency": "USD",
       "cost_vat_included": 1,
@@ -12314,12 +12314,12 @@
       "cost_ht": 4.21,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300227.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "stock_in_medawar_branch": "0",
+      "total_stock": "1",
+      "totalStock": "1",
+      "stock_in_medawar_branch": "1",
       "branches": {
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         }
       },
@@ -12334,14 +12334,14 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc": 4.6731,
+      "cost_ttc": 4.673100000000001,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781522584143",
       "latest_purchase_cost_date": "2026-06-15",
       "costHtUsd": 4.21,
       "cost_ht_usd": 4.21,
-      "costTtcUsd": 4.6731,
+      "costTtcUsd": 4.673100000000001,
       "vat": "yes"
     },
     {
@@ -12490,14 +12490,14 @@
       },
       "consumption_in_medawar_branch": "45",
       "total_consumption": "45",
-      "cost_ttc": 0.31666666666666665,
+      "cost_ttc": 0.35150000000000003,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783077178686",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 0.31666666666666665,
       "cost_ht_usd": 0.31666666666666665,
-      "costTtcUsd": 0.31666666666666665,
+      "costTtcUsd": 0.35150000000000003,
       "vat": "no"
     },
     {
@@ -14405,25 +14405,25 @@
       "cost_ht": 4.21,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300266.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "stock_in_medawar_branch": "0",
+      "total_stock": "2",
+      "totalStock": "2",
+      "stock_in_medawar_branch": "2",
       "branches": {
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         }
       },
       "consumption_in_medawar_branch": "0",
       "total_consumption": "0",
-      "cost_ttc": 4.6731,
+      "cost_ttc": 4.673100000000001,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781522584143",
       "latest_purchase_cost_date": "2026-06-15",
       "costHtUsd": 4.21,
       "cost_ht_usd": 4.21,
-      "costTtcUsd": 4.6731,
+      "costTtcUsd": 4.673100000000001,
       "vat": "yes"
     },
     {
@@ -19418,8 +19418,8 @@
       "cost_ht": 0.525,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300353.jpg",
       "new_items": "x",
-      "total_stock": "30",
-      "totalStock": "30",
+      "total_stock": "29",
+      "totalStock": "29",
       "stock_in_medawar_branch": "9",
       "branches": {
         "Medawar": {
@@ -19427,7 +19427,7 @@
           "consumption": "46"
         },
         "Geitawi": {
-          "stock": "21",
+          "stock": "20",
           "consumption": "3"
         }
       },
@@ -19444,7 +19444,7 @@
       "costHtUsd": 0.525,
       "cost_ht_usd": 0.525,
       "costTtcUsd": 0.58275,
-      "stock_in_geitawi_branch": "21",
+      "stock_in_geitawi_branch": "20",
       "consumption_in_geitawi_branch": "3",
       "vat": "yes"
     },
@@ -27376,6 +27376,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-22T08:14:38.798578Z",
+  "updatedAt": "2026-07-22T08:16:55.286332Z",
   "source": "sql-relay-web"
 }
