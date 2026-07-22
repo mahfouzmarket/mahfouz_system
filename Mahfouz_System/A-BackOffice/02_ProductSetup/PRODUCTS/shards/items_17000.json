@@ -3944,9 +3944,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-5",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "52",
-      "total_stock": "-5",
+      "total_stock": "19",
       "total_consumption": "52",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -3966,13 +3966,13 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-5",
+          "stock": "19",
           "consumption": "52"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-5",
+      "totalStock": "19",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -3985,14 +3985,14 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": 0.8425,
+      "cost_ht": 0.8424999999999999,
       "cost_ttc": 0.935175,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782108690972",
       "latest_purchase_cost_date": "2026-06-22",
-      "costHtUsd": 0.8425,
-      "cost_ht_usd": 0.8425,
+      "costHtUsd": 0.8424999999999999,
+      "cost_ht_usd": 0.8424999999999999,
       "costTtcUsd": 0.935175
     },
     {
@@ -4253,10 +4253,10 @@
       "vat": "no",
       "price_lbp": "150,000",
       "cost": "1.26",
-      "total_stock": "16",
+      "total_stock": "32",
       "total_consumption": "27",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "32",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -4271,7 +4271,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "32",
           "consumption": "27"
         },
         "Geitawi": {
@@ -4313,7 +4313,7 @@
       "cost_ht_usd": 1.26375,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "16",
+      "totalStock": "32",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -4328,13 +4328,13 @@
       "scalePlu": 0,
       "price_usd": "1.67",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17222.jpg",
-      "cost_ttc": 1.26375,
+      "cost_ttc": 1.4027625000000001,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783077178686",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 1.26375,
-      "costTtcUsd": 1.26375
+      "costTtcUsd": 1.4027625000000001
     },
     {
       "id": "17223",
@@ -4464,9 +4464,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "31",
       "consumption_in_medawar_branch": "92",
-      "total_stock": "1",
+      "total_stock": "31",
       "total_consumption": "92",
       "VAT": "NO",
       "price_lbp": "40,000",
@@ -4486,11 +4486,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "31",
           "consumption": "92"
         }
       },
-      "totalStock": "1",
+      "totalStock": "31",
       "barcode2": "",
       "barcodes": "",
       "arabic_name": "",
@@ -4505,15 +4505,15 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": 0.316666666666667,
-      "cost_ttc": 0.316666666666667,
+      "cost_ht": 0.31666666666666665,
+      "cost_ttc": 0.31666666666666665,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783077178686",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.316666666666667,
-      "cost_ht_usd": 0.316666666666667,
-      "costTtcUsd": 0.316666666666667
+      "costHtUsd": 0.31666666666666665,
+      "cost_ht_usd": 0.31666666666666665,
+      "costTtcUsd": 0.31666666666666665
     },
     {
       "id": "17231",
@@ -10410,6 +10410,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-22T07:56:53.558249Z",
+  "updatedAt": "2026-07-22T08:00:35.093661Z",
   "source": "sql-relay-web"
 }
