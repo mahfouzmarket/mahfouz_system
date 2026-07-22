@@ -9344,10 +9344,10 @@
       "vat": "no",
       "price_lbp": "160,000",
       "cost": "1.26",
-      "total_stock": "-10",
+      "total_stock": "8",
       "total_consumption": "32",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-10",
+      "stock_in_medawar_branch": "8",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -9366,7 +9366,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-10",
+          "stock": "8",
           "consumption": "32"
         },
         "The Daily Market": {
@@ -9399,12 +9399,12 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 1.26388888888889,
+      "cost_ht": 1.2638888888888888,
       "costUsd": 1.39,
-      "cost_ht_usd": 1.26388888888889,
+      "cost_ht_usd": 1.2638888888888888,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "-10",
+      "totalStock": "8",
       "price_usd": "1.78",
       "arabic_name": "",
       "name_ar": "",
@@ -9419,13 +9419,13 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18898.jpg",
-      "cost_ttc": 1.26388888888889,
+      "cost_ttc": 1.4029166666666668,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782108690972",
       "latest_purchase_cost_date": "2026-06-22",
-      "costHtUsd": 1.26388888888889,
-      "costTtcUsd": 1.26388888888889
+      "costHtUsd": 1.2638888888888888,
+      "costTtcUsd": 1.4029166666666668
     },
     {
       "id": "18900",
@@ -9446,10 +9446,10 @@
       "vat": "no",
       "price_lbp": "160,000",
       "cost": "1.26",
-      "total_stock": "3",
+      "total_stock": "21",
       "total_consumption": "47",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "21",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -9468,7 +9468,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "21",
           "consumption": "47"
         },
         "The Daily Market": {
@@ -9501,12 +9501,12 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 1.26388888888889,
+      "cost_ht": 1.2638888888888888,
       "costUsd": 1.39,
-      "cost_ht_usd": 1.26388888888889,
+      "cost_ht_usd": 1.2638888888888888,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "3",
+      "totalStock": "21",
       "price_usd": "1.78",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18900.jpg",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18900.jpg",
@@ -9524,13 +9524,13 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc": 1.26388888888889,
+      "cost_ttc": 1.2638888888888888,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783077178686",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 1.26388888888889,
-      "costTtcUsd": 1.26388888888889
+      "costHtUsd": 1.2638888888888888,
+      "costTtcUsd": 1.2638888888888888
     },
     {
       "id": "18901",
@@ -9543,9 +9543,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "20",
-      "total_stock": "0",
+      "total_stock": "30",
       "total_consumption": "20",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -9561,7 +9561,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "30",
           "consumption": "20"
         }
       },
@@ -9580,10 +9580,10 @@
       "supplier": "F AND B TRADING bonjus S.A.L",
       "subcategory": "BONJUS",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "30",
       "cost_ttc": 0.6,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783077178686",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 0.6,
@@ -11101,6 +11101,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-07-22T07:00:23.242676Z",
+  "updatedAt": "2026-07-22T08:00:35.093661Z",
   "source": "sql-relay-web"
 }
