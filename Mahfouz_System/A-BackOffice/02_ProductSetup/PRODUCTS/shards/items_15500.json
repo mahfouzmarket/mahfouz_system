@@ -3016,9 +3016,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "13",
       "VAT": "NO",
       "price_lbp": "165,000",
@@ -3034,14 +3034,14 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "9"
         }
       },
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 1.34,
+      "cost_ht": 1.3399999999999999,
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -3051,15 +3051,15 @@
       "supplier": "ARLA KALLASSI FOODS LB SAL",
       "subcategory": "BAKING & COOKING",
       "vat": "no",
-      "totalStock": "0",
-      "cost_ttc": 1.34,
+      "totalStock": "12",
+      "cost_ttc": 1.3399999999999999,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781068153163",
       "latest_purchase_cost_date": "2026-06-10",
-      "costHtUsd": 1.34,
-      "cost_ht_usd": 1.34,
-      "costTtcUsd": 1.34
+      "costHtUsd": 1.3399999999999999,
+      "cost_ht_usd": 1.3399999999999999,
+      "costTtcUsd": 1.3399999999999999
     },
     {
       "id": "15693",
@@ -4166,9 +4166,9 @@
       "offers": "",
       "stock_in_geitawi_branch": "0.925",
       "consumption_in_geitawi_branch": "84.6",
-      "stock_in_medawar_branch": "46.735",
+      "stock_in_medawar_branch": "45.605",
       "consumption_in_medawar_branch": "189.3",
-      "total_stock": "47.66",
+      "total_stock": "46.53",
       "total_consumption": "273.9",
       "VAT": "NO",
       "price_lbp": "130,000",
@@ -4184,7 +4184,7 @@
           "consumption": "84.6"
         },
         "Medawar": {
-          "stock": "46.735",
+          "stock": "45.605",
           "consumption": "189.3"
         }
       },
@@ -4207,7 +4207,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15745-1779009533478756",
       "product_setup_saved_at_utc": "2026-05-17T09:18:53.478756Z",
-      "totalStock": "47.66",
+      "totalStock": "46.53",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -4238,9 +4238,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.11",
       "consumption_in_geitawi_branch": "68.7",
-      "stock_in_medawar_branch": "34.553",
+      "stock_in_medawar_branch": "33.723",
       "consumption_in_medawar_branch": "170.3",
-      "total_stock": "34.663",
+      "total_stock": "33.833",
       "total_consumption": "239",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -4256,7 +4256,7 @@
           "consumption": "68.7"
         },
         "Medawar": {
-          "stock": "34.553",
+          "stock": "33.723",
           "consumption": "170.3"
         }
       },
@@ -4279,7 +4279,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15746-1779005840823698",
       "product_setup_saved_at_utc": "2026-05-17T08:17:20.823698Z",
-      "totalStock": "34.663",
+      "totalStock": "33.833",
       "arabic_name": "خيار",
       "name_ar": "خيار",
       "description_ar": "خيار",
@@ -9427,6 +9427,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-22T07:59:44.411814Z",
+  "updatedAt": "2026-07-22T08:19:09.521802Z",
   "source": "sql-relay-web"
 }
