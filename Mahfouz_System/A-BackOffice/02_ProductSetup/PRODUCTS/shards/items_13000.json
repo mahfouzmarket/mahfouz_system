@@ -508,9 +508,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "41",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "25",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "2",
+      "total_stock": "26",
       "total_consumption": "47",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -526,7 +526,7 @@
           "consumption": "41"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "25",
           "consumption": "6"
         }
       },
@@ -536,16 +536,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": 1.25,
+      "totalStock": "26",
+      "cost_ttc": 1.3875000000000002,
       "cost_ht": 1.25,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781684683323",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 1.25,
       "cost_ht_usd": 1.25,
-      "costTtcUsd": 1.25
+      "costTtcUsd": 1.3875000000000002
     },
     {
       "id": "13031",
@@ -7557,11 +7557,11 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "23",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "24",
+      "total_stock": "23",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -7573,7 +7573,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "3"
         },
         "Medawar": {
@@ -7587,7 +7587,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "24",
+      "totalStock": "23",
       "cost_ttc": 0.7866666666666666,
       "cost_ht": 0.7866666666666666,
       "cost_currency": "USD",
@@ -7649,6 +7649,6 @@
       "costTtcUsd": 0.10614375000000001
     }
   ],
-  "updatedAt": "2026-07-22T08:32:22.491712Z",
+  "updatedAt": "2026-07-22T08:39:46.176007Z",
   "source": "sql-relay-web"
 }
