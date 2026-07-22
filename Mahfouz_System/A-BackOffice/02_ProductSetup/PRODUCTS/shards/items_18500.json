@@ -10155,11 +10155,11 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "1",
+      "total_stock": "5",
       "total_consumption": "3",
       "VAT": "NO",
       "price_lbp": "425,000",
@@ -10171,7 +10171,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "3",
           "consumption": "1"
         },
         "Medawar": {
@@ -10189,16 +10189,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": 3.08,
-      "cost_ht": 3.08,
+      "totalStock": "5",
+      "cost_ttc": "3.0800",
+      "cost_ht": "3.0800",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14175-2026-04-02",
       "latest_purchase_cost_date": "2026-04-02",
       "costHtUsd": 3.08,
       "cost_ht_usd": 3.08,
-      "costTtcUsd": 3.08
+      "costTtcUsd": 3.08,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "18953",
@@ -11089,6 +11101,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-07-22T06:41:23.643750Z",
+  "updatedAt": "2026-07-22T07:00:23.242676Z",
   "source": "sql-relay-web"
 }
