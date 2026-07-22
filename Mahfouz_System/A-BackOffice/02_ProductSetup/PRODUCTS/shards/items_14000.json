@@ -5697,11 +5697,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "7",
+      "total_stock": "9",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "350,000",
@@ -5713,7 +5713,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "9"
         },
         "Medawar": {
@@ -5727,16 +5727,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
-      "cost_ttc": 3.3966,
-      "cost_ht": 3.06,
+      "totalStock": "9",
+      "cost_ttc": "3.3966",
+      "cost_ht": "3.0600",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782745872329",
       "latest_purchase_cost_date": "2026-06-29",
       "costHtUsd": 3.06,
       "cost_ht_usd": 3.06,
-      "costTtcUsd": 3.3966
+      "costTtcUsd": 3.3966000000000003,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "14391",
@@ -7249,6 +7261,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-07-22T06:22:41.008443Z",
+  "updatedAt": "2026-07-22T06:44:56.623386Z",
   "source": "sql-relay-web"
 }
