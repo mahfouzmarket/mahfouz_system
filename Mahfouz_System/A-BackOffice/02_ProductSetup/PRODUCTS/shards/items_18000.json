@@ -4578,9 +4578,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "46",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "53",
+      "total_stock": "58",
       "total_consumption": "63",
       "VAT": "NO",
       "price_lbp": "360,000",
@@ -4596,7 +4596,7 @@
           "consumption": "46"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "17"
         },
         "Nouna": {
@@ -4612,7 +4612,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "30",
-      "cost_ht": 3.4,
+      "cost_ht": "3.4000",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "18195",
@@ -4623,22 +4623,33 @@
       "name": "KHASHKAVAL MONI 200GR",
       "subcategory": "CHARCUTERIE",
       "vat": "no",
-      "totalStock": "53",
+      "totalStock": "58",
       "secondBarcode": "",
       "product_description": "KHASHKAVAL MONI 200GR",
       "description": "KHASHKAVAL MONI 200GR",
       "expiryDays": 30,
       "subCategory": "CHARCUTERIE",
       "stock_in_nouna_branch": "37",
-      "cost_ttc": 3.4,
+      "cost_ttc": "3.4000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001327-80-N-win_no-1783355599773329",
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 3.4,
       "cost_ht_usd": 3.4,
       "costTtcUsd": 3.4,
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "18196",
@@ -5065,9 +5076,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "26",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "8",
-      "total_stock": "25",
+      "total_stock": "29",
       "total_consumption": "34",
       "VAT": "NO",
       "price_lbp": "310,000",
@@ -5083,7 +5094,7 @@
           "consumption": "26"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "6",
           "consumption": "8"
         },
         "Nouna": {
@@ -5106,7 +5117,7 @@
       "linked_profile_sub_category": "CHARCUTERIE",
       "product_setup_save_token": "PS-SAVE-18205-1778943564997013",
       "product_setup_saved_at_utc": "2026-05-16T14:59:24.997013Z",
-      "totalStock": "25",
+      "totalStock": "29",
       "secondBarcode": "",
       "product_description": "MOZARELLA MONI 200gr",
       "description": "MOZARELLA MONI 200gr",
@@ -10515,6 +10526,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-07-22T11:42:39.085282Z",
+  "updatedAt": "2026-07-22T11:53:01.291973Z",
   "source": "sql-relay-web"
 }
