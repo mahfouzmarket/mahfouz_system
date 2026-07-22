@@ -14,9 +14,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "650,000",
@@ -38,7 +38,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         }
       },
@@ -48,10 +48,10 @@
       "supplier": "F AND B TRADING bonjus S.A.L",
       "subcategory": "BONJUS",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "1",
       "cost_ttc": 5.6166,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780916006610",
       "latest_purchase_cost_date": "2026-06-08",
       "costHtUsd": 5.06,
@@ -210,15 +210,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "650,000",
       "price_usd": "0.28",
-      "cost": "5.07",
-      "cost_ht": 5.0666,
+      "cost": "5.06",
+      "cost_ht": 5.06,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID600004.jpg",
       "new_items": "x",
       "manual": "",
@@ -234,7 +234,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -244,15 +244,15 @@
       "supplier": "F AND B TRADING bonjus S.A.L",
       "subcategory": "BONJUS",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 5.623926,
+      "totalStock": "1",
+      "cost_ttc": 5.6166,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779789874943",
       "latest_purchase_cost_date": "2026-05-26",
-      "costHtUsd": 5.0666,
-      "cost_ht_usd": 5.0666,
-      "costTtcUsd": 5.623926
+      "costHtUsd": 5.06,
+      "cost_ht_usd": 5.06,
+      "costTtcUsd": 5.6166
     },
     {
       "id": "600005",
@@ -382,6 +382,6 @@
       "costTtcUsd": 0.625
     }
   ],
-  "updatedAt": "2026-07-22T08:00:35.093661Z",
+  "updatedAt": "2026-07-22T08:16:24.774945Z",
   "source": "sql-relay-web"
 }
