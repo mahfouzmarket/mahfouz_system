@@ -1643,8 +1643,8 @@
       "price_lbp": "150,000",
       "price_usd": "1.67",
       "cost": "1.26",
-      "cost_ttc": "1.2637",
-      "cost_ht": "1.2637",
+      "cost_ttc": 1.26375,
+      "cost_ht": 1.26375,
       "costTtcUsd": 1.26375,
       "costHtUsd": 1.26375,
       "cost_ht_usd": 1.26375,
@@ -1652,12 +1652,17 @@
       "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300532.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "no",
-      "branches": {}
+      "total_stock": "16",
+      "totalStock": "16",
+      "stock_in_medawar_branch": "16",
+      "branches": {
+        "Medawar": {
+          "stock": "16"
+        }
+      },
+      "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-22T07:55:38.207050Z",
+  "updatedAt": "2026-07-22T08:00:35.093661Z",
   "source": "sql-relay-web"
 }
