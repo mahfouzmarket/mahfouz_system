@@ -6,7 +6,7 @@
       "stock_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "2",
+      "total_stock": "7",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -16,6 +16,9 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "5"
         }
       },
       "barcode": "2709419",
@@ -69,7 +72,8 @@
       "costTtcUsd": 4.25,
       "costHtUsd": 4.25,
       "cost_ht_usd": 4.25,
-      "totalStock": "2"
+      "totalStock": "7",
+      "stock_in_nouna_branch": "5"
     },
     {
       "id": "6000002",
@@ -403,6 +407,6 @@
       "costTtcUsd": 2.805
     }
   ],
-  "updatedAt": "2026-07-22T07:03:02.527523Z",
+  "updatedAt": "2026-07-22T15:28:03.040411Z",
   "source": "sql-relay-web"
 }
