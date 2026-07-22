@@ -5063,11 +5063,11 @@
       "category": "FOOD",
       "sub_category": "CHARCUTERIE",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "26",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "8",
-      "total_stock": "23",
+      "total_stock": "25",
       "total_consumption": "34",
       "VAT": "NO",
       "price_lbp": "310,000",
@@ -5079,7 +5079,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "26"
         },
         "Medawar": {
@@ -5098,7 +5098,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "30",
-      "cost_ht": 2.927778,
+      "cost_ht": "2.9278",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "18205",
@@ -5106,22 +5106,33 @@
       "linked_profile_sub_category": "CHARCUTERIE",
       "product_setup_save_token": "PS-SAVE-18205-1778943564997013",
       "product_setup_saved_at_utc": "2026-05-16T14:59:24.997013Z",
-      "totalStock": "23",
+      "totalStock": "25",
       "secondBarcode": "",
       "product_description": "MOZARELLA MONI 200gr",
       "description": "MOZARELLA MONI 200gr",
       "expiryDays": 30,
       "subCategory": "CHARCUTERIE",
       "stock_in_nouna_branch": "22",
-      "cost_ttc": 2.927778,
+      "cost_ttc": "2.9278",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001256-80-N-win_no-1783094104047235",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 2.927778,
       "cost_ht_usd": 2.927778,
       "costTtcUsd": 2.927778,
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "18223",
@@ -10504,6 +10515,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-07-22T06:15:09.730995Z",
+  "updatedAt": "2026-07-22T06:25:58.232604Z",
   "source": "sql-relay-web"
 }
