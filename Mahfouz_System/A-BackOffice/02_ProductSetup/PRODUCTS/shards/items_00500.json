@@ -565,11 +565,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "120",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "0",
+      "total_stock": "141",
       "total_consumption": "10",
       "VAT": "NO",
       "price_lbp": "540,000",
@@ -582,11 +582,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "21",
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "120",
           "consumption": "7"
         },
         "The Daily Market": {
@@ -611,7 +611,7 @@
       "vat": "no",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "0",
+      "totalStock": "141",
       "is_bulk": true,
       "ignore_stock": true,
       "bulk_parent_id": 502,
@@ -631,7 +631,8 @@
           "stock": "0",
           "consumption": "0"
         }
-      }
+      },
+      "linked_bulk_stock_source": "parent:502/22"
     },
     {
       "id": "664",
@@ -2923,6 +2924,6 @@
       "costTtcUsd": 1.55
     }
   ],
-  "updatedAt": "2026-07-23T05:51:32.253623Z",
+  "updatedAt": "2026-07-23T05:49:13.678860Z",
   "source": "sql-relay-web"
 }
