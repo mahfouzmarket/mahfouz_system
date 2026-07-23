@@ -273,9 +273,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "395,000",
@@ -291,7 +291,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "3"
         }
       },
@@ -308,15 +308,15 @@
       "supplier": "TRANSMED SAL",
       "subcategory": "shaving",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 2.775,
+      "totalStock": "12",
+      "cost_ttc": 2.7750000000000004,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-05-MEDAWAR-14380",
       "latest_purchase_cost_date": "2026-05-05",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.775
+      "costTtcUsd": 2.7750000000000004
     },
     {
       "id": "7614",
@@ -1329,6 +1329,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-23T05:49:13.678860Z",
+  "updatedAt": "2026-07-23T06:11:15.002102Z",
   "source": "sql-relay-web"
 }
