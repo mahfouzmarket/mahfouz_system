@@ -3502,17 +3502,17 @@
     {
       "id": "13218",
       "barcode": "5283000915184",
-      "Product Description": "FAMILY FLOUR 900GR",
+      "Product Description": "FAMILY FLOUR 900 G",
       "SUPPLIERS": "AOUN FOOD CO",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "BAKING & COOKING",
       "offers": "0",
-      "stock_in_geitawi_branch": "105285002199567",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "15",
       "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "20",
-      "total_stock": "105285002199572",
+      "total_stock": "15",
       "total_consumption": "35",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -3524,7 +3524,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "105285002199567",
+          "stock": "10",
           "consumption": "15"
         },
         "Medawar": {
@@ -3538,16 +3538,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "105285002199572",
-      "cost_ttc": 0.7176,
-      "cost_ht": 0.7176,
+      "totalStock": "15",
+      "cost_ttc": "0.7176",
+      "cost_ht": "0.7176",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783324656491",
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 0.7176,
       "cost_ht_usd": 0.7176,
-      "costTtcUsd": 0.7176
+      "costTtcUsd": 0.7176,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "13222",
@@ -7649,6 +7661,6 @@
       "costTtcUsd": 0.10614375000000001
     }
   ],
-  "updatedAt": "2026-07-23T08:29:54.114302Z",
+  "updatedAt": "2026-07-23T08:47:12.133168Z",
   "source": "sql-relay-web"
 }
