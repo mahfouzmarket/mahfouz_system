@@ -603,11 +603,11 @@
     },
     {
       "id": "400015",
-      "stock_in_medawar_branch": "-10",
+      "stock_in_medawar_branch": "-14",
       "stock_in_geitawi_branch": "11",
       "consumption_in_medawar_branch": "3",
       "consumption_in_geitawi_branch": "7",
-      "total_stock": "1",
+      "total_stock": "-3",
       "total_consumption": "10",
       "branches": {
         "Geitawi": {
@@ -615,7 +615,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "-10",
+          "stock": "-14",
           "consumption": "3"
         }
       },
@@ -649,7 +649,7 @@
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "Biscuits",
       "vat": "yes",
-      "totalStock": "1",
+      "totalStock": "-3",
       "cost_ttc": 0.8325,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -2884,6 +2884,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-23T05:49:13.678860Z",
+  "updatedAt": "2026-07-23T11:45:03.292214Z",
   "source": "sql-relay-web"
 }
