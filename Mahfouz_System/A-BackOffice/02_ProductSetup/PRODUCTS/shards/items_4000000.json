@@ -13,11 +13,11 @@
       "offers": "0",
       "expiry_days": "0",
       "stock_in_geitawi_branch": "37",
-      "consumption_in_geitawi_branch": "23",
+      "consumption_in_geitawi_branch": "35",
       "stock_in_medawar_branch": "-27",
-      "consumption_in_medawar_branch": "25",
+      "consumption_in_medawar_branch": "27",
       "total_stock": "10",
-      "total_consumption": "48",
+      "total_consumption": "62",
       "VAT": "YES",
       "price_lbp": "50,000",
       "price_usd": "0.56",
@@ -35,11 +35,11 @@
       "branches": {
         "Geitawi": {
           "stock": "37",
-          "consumption": "23"
+          "consumption": "35"
         },
         "Medawar": {
           "stock": "-27",
-          "consumption": "25"
+          "consumption": "27"
         }
       },
       "totalStock": "10",
@@ -68,9 +68,9 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "59",
       "stock_in_medawar_branch": "12",
-      "consumption_in_medawar_branch": "23",
+      "consumption_in_medawar_branch": "24",
       "total_stock": "12",
-      "total_consumption": "82",
+      "total_consumption": "83",
       "VAT": "YES",
       "price_lbp": "165,000",
       "price_usd": "1.83",
@@ -92,7 +92,7 @@
         },
         "Medawar": {
           "stock": "12",
-          "consumption": "23"
+          "consumption": "24"
         }
       },
       "name": "TANGO RED FRUITS",
@@ -607,9 +607,9 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "19",
-      "consumption_in_medawar_branch": "45",
+      "consumption_in_medawar_branch": "54",
       "total_stock": "19",
-      "total_consumption": "45",
+      "total_consumption": "54",
       "VAT": "NO",
       "price_lbp": "35,000",
       "price_usd": "0.39",
@@ -633,7 +633,7 @@
         },
         "Medawar": {
           "stock": "19",
-          "consumption": "45"
+          "consumption": "54"
         }
       },
       "product_setup_save_token": "PS-SAVE-4000012-1780315778553672",
@@ -734,11 +734,11 @@
       "branches": {
         "Medawar": {
           "stock": "-30",
-          "consumption": "94"
+          "consumption": "44"
         }
       },
-      "consumption_in_medawar_branch": "94",
-      "total_consumption": "94",
+      "consumption_in_medawar_branch": "44",
+      "total_consumption": "44",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4000014.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4000014.jpg",
       "image_updated_at_utc": "2026-06-25T13:31:16.694410Z",
@@ -840,11 +840,11 @@
       "branches": {
         "Medawar": {
           "stock": "-5",
-          "consumption": "4"
+          "consumption": "5"
         }
       },
-      "consumption_in_medawar_branch": "4",
-      "total_consumption": "4",
+      "consumption_in_medawar_branch": "5",
+      "total_consumption": "5",
       "vat": "yes"
     },
     {
@@ -887,7 +887,7 @@
       "branches": {
         "Medawar": {
           "stock": "0",
-          "consumption": "2"
+          "consumption": "3"
         }
       },
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4000017.jpg",
@@ -896,8 +896,8 @@
       "costTtcUsd": 1.6666666666666667,
       "costHtUsd": 1.6666666666666667,
       "cost_ht_usd": 1.6666666666666667,
-      "consumption_in_medawar_branch": "2",
-      "total_consumption": "2",
+      "consumption_in_medawar_branch": "3",
+      "total_consumption": "3",
       "vat": "no"
     },
     {
@@ -942,13 +942,18 @@
       "stock_in_medawar_branch": "183",
       "branches": {
         "Medawar": {
-          "stock": "183"
+          "stock": "183",
+          "consumption": "2"
         },
         "Geitawi": {
-          "stock": "13"
+          "stock": "13",
+          "consumption": "2"
         }
       },
       "stock_in_geitawi_branch": "13",
+      "consumption_in_geitawi_branch": "2",
+      "consumption_in_medawar_branch": "2",
+      "total_consumption": "4",
       "vat": "no"
     },
     {
@@ -1040,16 +1045,21 @@
       "stock_in_medawar_branch": "15",
       "branches": {
         "Medawar": {
-          "stock": "15"
+          "stock": "15",
+          "consumption": "0"
         },
         "Geitawi": {
-          "stock": "2"
+          "stock": "2",
+          "consumption": "3"
         }
       },
       "stock_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "3",
+      "consumption_in_medawar_branch": "0",
+      "total_consumption": "3",
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-23T05:47:06.579121Z",
+  "updatedAt": "2026-07-23T05:49:13.678860Z",
   "source": "sql-relay-web"
 }
