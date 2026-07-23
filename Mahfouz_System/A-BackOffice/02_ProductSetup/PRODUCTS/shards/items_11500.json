@@ -693,9 +693,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "-9",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "-9",
+      "total_stock": "3",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "305,000",
@@ -711,7 +711,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "-9",
+          "stock": "3",
           "consumption": "2"
         }
       },
@@ -721,16 +721,16 @@
       "supplier": "JACK DIB",
       "subcategory": "shaving",
       "vat": "yes",
-      "totalStock": "-9",
-      "cost_ttc": 1.9425,
+      "totalStock": "3",
+      "cost_ttc": 1.9425000000000001,
       "cost_ht": 1.75,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-05-MEDAWAR-14380",
       "latest_purchase_cost_date": "2026-05-05",
       "costHtUsd": 1.75,
       "cost_ht_usd": 1.75,
-      "costTtcUsd": 1.9425
+      "costTtcUsd": 1.9425000000000001
     },
     {
       "id": "11765",
@@ -1218,6 +1218,6 @@
       "totalStock": "3"
     }
   ],
-  "updatedAt": "2026-07-23T05:49:13.678860Z",
+  "updatedAt": "2026-07-23T06:11:15.002102Z",
   "source": "sql-relay-web"
 }
