@@ -8828,17 +8828,17 @@
       "vat": "no",
       "price_lbp": "400,000",
       "cost": "2.22",
-      "total_stock": "11.126",
+      "total_stock": "5.5",
       "total_consumption": "19.5",
-      "stock_in_geitawi_branch": "516.736",
-      "stock_in_medawar_branch": "-505.61",
+      "stock_in_geitawi_branch": "2",
+      "stock_in_medawar_branch": "3.5",
       "branches": {
         "Geitawi": {
-          "stock": "516.736",
+          "stock": "2",
           "consumption": "4.2"
         },
         "Medawar": {
-          "stock": "-505.61",
+          "stock": "3.5",
           "consumption": "15.3"
         },
         "The Daily Market": {
@@ -8879,7 +8879,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 2.2222222222222223,
+      "cost_ht": "2.2222",
       "costUsd": 2.31,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
@@ -8894,7 +8894,7 @@
       "product_setup_save_token": "PS-SAVE-20673-1779011334639139",
       "product_setup_saved_at_utc": "2026-05-17T09:48:54.639139Z",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20673.jpg",
-      "totalStock": "11.126",
+      "totalStock": "5.5",
       "arabic_name": "مشمش",
       "name_ar": "مشمش",
       "description_ar": "مشمش",
@@ -8906,11 +8906,14 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc": 2.2222222222222223,
-      "cost_currency": "LBP",
+      "cost_ttc": "2.2222",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "costTtcUsd": 2.2222222222222223,
+      "costHtUsd": 2.2222222222222223,
+      "cost_ht_usd": 2.2222222222222223
     },
     {
       "id": "20674",
@@ -19544,11 +19547,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "10",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "77",
       "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "25",
+      "total_stock": "24",
       "total_consumption": "89",
       "VAT": "NO",
       "price_lbp": "55,000",
@@ -19560,7 +19563,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10",
+          "stock": "9",
           "consumption": "77"
         },
         "Medawar": {
@@ -19574,7 +19577,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "25",
+      "totalStock": "24",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -25624,6 +25627,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-23T09:45:27.872933Z",
+  "updatedAt": "2026-07-23T10:03:43.489785Z",
   "source": "sql-relay-web"
 }
