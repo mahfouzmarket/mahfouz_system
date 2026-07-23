@@ -808,9 +808,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "14",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "-6",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "8",
+      "total_stock": "20",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -826,7 +826,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "-6",
+          "stock": "6",
           "consumption": "2"
         }
       },
@@ -836,11 +836,11 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
+      "totalStock": "20",
       "cost_ttc": 1.25,
       "cost_ht": 1.25,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-05-MEDAWAR-14381",
       "latest_purchase_cost_date": "2026-05-05",
       "costHtUsd": 1.25,
@@ -1190,6 +1190,6 @@
       "costTtcUsd": 0.6438
     }
   ],
-  "updatedAt": "2026-07-23T05:49:13.678860Z",
+  "updatedAt": "2026-07-23T06:11:15.002102Z",
   "source": "sql-relay-web"
 }
