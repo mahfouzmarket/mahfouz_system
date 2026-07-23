@@ -3509,12 +3509,12 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "15",
           "consumption": "1"
         }
       },
-      "stock_in_medawar_branch": "3",
-      "total_stock": "3",
+      "stock_in_medawar_branch": "15",
+      "total_stock": "15",
       "stock_in_geitawi_branch": "0",
       "Product Description": "PARTY BALLOONS",
       "SUPPLIERS": "JACK DIB",
@@ -3529,11 +3529,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "3",
+      "totalStock": "15",
       "cost_ttc": 0.5,
       "cost_ht": 0.5,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13864-2026-03-09",
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 0.5,
@@ -3679,14 +3679,14 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "cost": "1.75",
+      "cost": "1.50",
       "Product Description": "COLTELLI SEGHETTATI DA TAVOLA",
       "SUPPLIERS": "JACK DIB",
       "subcategory": "TOOLS",
       "vat": "no",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
@@ -3694,11 +3694,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "0.0"
         }
       },
-      "total_stock": "1",
+      "total_stock": "11",
       "total_consumption": "0.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -3706,16 +3706,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ttc": 1.75,
-      "cost_ht": 1.75,
+      "cost_ttc": 1.5,
+      "cost_ht": 1.5,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13864-2026-03-09",
       "latest_purchase_cost_date": "2026-03-09",
-      "costHtUsd": 1.75,
-      "cost_ht_usd": 1.75,
-      "costTtcUsd": 1.75,
-      "totalStock": "1"
+      "costHtUsd": 1.5,
+      "cost_ht_usd": 1.5,
+      "costTtcUsd": 1.5,
+      "totalStock": "11"
     },
     {
       "id": "21559",
@@ -18976,11 +18976,11 @@
       "sub_category": "SHISHA STUFF",
       "offers": "",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "62",
       "stock_in_medawar_branch": "74",
       "consumption_in_medawar_branch": "28",
-      "total_stock": "77",
+      "total_stock": "76",
       "total_consumption": "90",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -18998,7 +18998,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "62"
         },
         "Medawar": {
@@ -19014,7 +19014,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "77",
+      "totalStock": "76",
       "cost_ttc": 1.1666666666666667,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -24676,6 +24676,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-23T06:28:03.707325Z",
+  "updatedAt": "2026-07-23T06:40:55.412144Z",
   "source": "sql-relay-web"
 }
