@@ -93,9 +93,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "71",
       "consumption_in_geitawi_branch": "38",
-      "stock_in_medawar_branch": "-13",
+      "stock_in_medawar_branch": "50",
       "consumption_in_medawar_branch": "79",
-      "total_stock": "58",
+      "total_stock": "121",
       "total_consumption": "117",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -111,7 +111,7 @@
           "consumption": "38"
         },
         "Medawar": {
-          "stock": "-13",
+          "stock": "50",
           "consumption": "79"
         }
       },
@@ -120,17 +120,29 @@
       "subcategory": "ENERGY DRINK",
       "vat": "yes",
       "barcode2": "90162848",
-      "barcodes": "90162848",
-      "totalStock": "58",
-      "cost_ttc": 1.4430000000000003,
-      "cost_ht": 1.3,
+      "barcodes": "",
+      "totalStock": "121",
+      "cost_ttc": "1.4430",
+      "cost_ht": "1.3000",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783073400372",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 1.3,
       "cost_ht_usd": 1.3,
-      "costTtcUsd": 1.4430000000000003
+      "costTtcUsd": 1.4430000000000003,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "14024",
@@ -7273,6 +7285,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-07-23T08:44:37.550636Z",
+  "updatedAt": "2026-07-23T08:55:32.445363Z",
   "source": "sql-relay-web"
 }
