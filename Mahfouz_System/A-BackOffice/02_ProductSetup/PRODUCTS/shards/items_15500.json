@@ -4646,11 +4646,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "248.19",
+      "stock_in_geitawi_branch": "6.19",
       "consumption_in_geitawi_branch": "49",
       "stock_in_medawar_branch": "110.915",
       "consumption_in_medawar_branch": "149.3",
-      "total_stock": "359.105",
+      "total_stock": "117.105",
       "total_consumption": "198.3",
       "VAT": "NO",
       "price_lbp": "225,000",
@@ -4662,7 +4662,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "248.19",
+          "stock": "6.19",
           "consumption": "49"
         },
         "Medawar": {
@@ -4678,7 +4678,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 1.5888888888888888,
+      "cost_ht": "1.5889",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -4689,7 +4689,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15752-1778999925035505",
       "product_setup_saved_at_utc": "2026-05-17T06:38:45.035505Z",
-      "totalStock": "359.105",
+      "totalStock": "117.105",
       "arabic_name": "حامض",
       "name_ar": "حامض",
       "description_ar": "حامض",
@@ -4697,8 +4697,8 @@
       "nonStockable": false,
       "priceLbp": 200000.0,
       "priceUsd": 2.2222222222222223,
-      "cost_ttc": 1.5888888888888888,
-      "cost_currency": "LBP",
+      "cost_ttc": "1.5889",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
       "latest_purchase_cost_date": "2026-07-06",
@@ -4707,7 +4707,10 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "costTtcUsd": 1.5888888888888888,
+      "costHtUsd": 1.5888888888888888,
+      "cost_ht_usd": 1.5888888888888888
     },
     {
       "id": "15753",
@@ -9430,6 +9433,6 @@
       "costTtcUsd": 0.825
     }
   ],
-  "updatedAt": "2026-07-23T09:52:41.301930Z",
+  "updatedAt": "2026-07-23T10:12:21.042628Z",
   "source": "sql-relay-web"
 }
