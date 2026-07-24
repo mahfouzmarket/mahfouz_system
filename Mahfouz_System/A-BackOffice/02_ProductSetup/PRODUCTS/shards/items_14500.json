@@ -2584,9 +2584,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "8",
+      "total_stock": "20",
       "total_consumption": "17",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -2602,7 +2602,7 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "19",
           "consumption": "5"
         }
       },
@@ -2612,16 +2612,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
-      "cost_ttc": 1.85,
-      "cost_ht": 1.66666666666667,
+      "totalStock": "20",
+      "cost_ttc": 1.8500000000000003,
+      "cost_ht": 1.6666666666666667,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781852992002",
       "latest_purchase_cost_date": "2026-06-19",
-      "costHtUsd": 1.66666666666667,
-      "cost_ht_usd": 1.66666666666667,
-      "costTtcUsd": 1.85
+      "costHtUsd": 1.6666666666666667,
+      "cost_ht_usd": 1.6666666666666667,
+      "costTtcUsd": 1.8500000000000003
     },
     {
       "id": "14703",
@@ -5412,9 +5412,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "79",
-      "stock_in_medawar_branch": "27",
+      "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "75",
-      "total_stock": "32",
+      "total_stock": "31",
       "total_consumption": "154",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -5430,7 +5430,7 @@
           "consumption": "79"
         },
         "Medawar": {
-          "stock": "27",
+          "stock": "26",
           "consumption": "75"
         }
       },
@@ -5440,7 +5440,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "32",
+      "totalStock": "31",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -6961,6 +6961,6 @@
       "costTtcUsd": 8.64875
     }
   ],
-  "updatedAt": "2026-07-24T08:53:00.963493Z",
+  "updatedAt": "2026-07-24T09:03:39.644696Z",
   "source": "sql-relay-web"
 }
