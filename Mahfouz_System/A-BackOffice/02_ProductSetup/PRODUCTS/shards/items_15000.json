@@ -245,11 +245,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "82",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "94",
-      "total_stock": "5",
+      "total_stock": "3",
       "total_consumption": "176",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -261,11 +261,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "82"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "94"
         }
       },
@@ -275,7 +275,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "3",
       "cost_ttc": 1.5,
       "cost_ht": 1.5,
       "cost_currency": "LBP",
@@ -706,11 +706,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Low calorie delight",
       "offers": "0",
-      "stock_in_geitawi_branch": "33",
+      "stock_in_geitawi_branch": "45",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "47",
+      "total_stock": "71",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -722,11 +722,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "33",
+          "stock": "45",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "26",
           "consumption": "2"
         }
       },
@@ -740,16 +740,16 @@
       "vat": "yes",
       "barcode2": "2700002",
       "barcodes": "2700002",
-      "totalStock": "47",
-      "cost_ttc": 1.61875,
-      "cost_ht": 1.45833333333333,
+      "totalStock": "71",
+      "cost_ttc": 1.6187500000000001,
+      "cost_ht": 1.4583333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781170509516",
       "latest_purchase_cost_date": "2026-06-11",
-      "costHtUsd": 1.45833333333333,
-      "cost_ht_usd": 1.45833333333333,
-      "costTtcUsd": 1.61875
+      "costHtUsd": 1.4583333333333333,
+      "cost_ht_usd": 1.4583333333333333,
+      "costTtcUsd": 1.6187500000000001
     },
     {
       "id": "15073",
@@ -2164,9 +2164,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "51",
       "consumption_in_geitawi_branch": "159",
-      "stock_in_medawar_branch": "50",
+      "stock_in_medawar_branch": "49",
       "consumption_in_medawar_branch": "69",
-      "total_stock": "101",
+      "total_stock": "100",
       "total_consumption": "228",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -2182,7 +2182,7 @@
           "consumption": "159"
         },
         "Medawar": {
-          "stock": "50",
+          "stock": "49",
           "consumption": "69"
         }
       },
@@ -2201,7 +2201,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-15138-1779031085574053",
       "product_setup_saved_at_utc": "2026-05-17T15:18:05.574053Z",
-      "totalStock": "101",
+      "totalStock": "100",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -6740,6 +6740,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-24T09:47:12.989137Z",
+  "updatedAt": "2026-07-24T10:06:25.116960Z",
   "source": "sql-relay-web"
 }
