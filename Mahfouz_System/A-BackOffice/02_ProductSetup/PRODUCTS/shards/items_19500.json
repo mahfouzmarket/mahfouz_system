@@ -11589,11 +11589,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "8",
-      "stock_in_medawar_branch": "27",
+      "stock_in_medawar_branch": "21",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "26",
+      "total_stock": "24",
       "total_consumption": "12",
       "VAT": "YES",
       "price_lbp": "125,000",
@@ -11605,11 +11605,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "3",
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "27",
+          "stock": "21",
           "consumption": "4"
         }
       },
@@ -11619,16 +11619,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "26",
-      "cost_ttc": 0.69375,
-      "cost_ht": 0.625,
+      "totalStock": "24",
+      "cost_ttc": "0.6938",
+      "cost_ht": "0.6250",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780993607828",
       "latest_purchase_cost_date": "2026-06-09",
       "costHtUsd": 0.625,
       "cost_ht_usd": 0.625,
-      "costTtcUsd": 0.69375
+      "costTtcUsd": 0.6937500000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "19904",
@@ -14352,6 +14364,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-24T07:19:52.801899Z",
+  "updatedAt": "2026-07-24T07:41:10.559972Z",
   "source": "sql-relay-web"
 }
