@@ -1353,11 +1353,11 @@
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "140,000",
-      "cost": "1.30",
-      "total_stock": "0",
+      "cost": "1.35",
+      "total_stock": "10",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "10",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -1372,7 +1372,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "10",
           "consumption": "0.0"
         },
         "Geitawi": {
@@ -1404,9 +1404,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.30",
+      "cost_ht": 1.35,
       "costUsd": 1.3,
-      "cost_ht_usd": 1.3,
+      "cost_ht_usd": 1.35,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "arabic_name": "",
@@ -1423,7 +1423,12 @@
       "scalePlu": 0,
       "price_usd": "1.56",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21521.jpg",
-      "totalStock": "0"
+      "totalStock": "10",
+      "cost_ttc": 1.35,
+      "costTtcUsd": 1.35,
+      "costHtUsd": 1.35,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "21522",
@@ -20119,8 +20124,8 @@
       "barcode": "6221134030914",
       "barcode2": "",
       "barcodes": "",
-      "price_usd": "0.83",
-      "price_lbp": "75,000",
+      "price_usd": "0.89",
+      "price_lbp": "80,000",
       "VAT": "NO",
       "offers": "0",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21874.jpg",
@@ -20131,18 +20136,18 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "23",
+          "stock": "47",
           "consumption": "59"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "43",
           "consumption": "53"
         }
       },
-      "stock_in_geitawi_branch": "23",
-      "total_stock": "42",
-      "stock_in_medawar_branch": "19",
-      "cost": "0.54",
+      "stock_in_geitawi_branch": "47",
+      "total_stock": "90",
+      "stock_in_medawar_branch": "43",
+      "cost": "0.69",
       "Product Description": "TWIX TWIN (46 G)",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
       "subcategory": "sweets",
@@ -20156,16 +20161,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "42",
-      "cost_ttc": 0.5938500000000001,
-      "cost_ht": 0.535,
+      "totalStock": "90",
+      "cost_ttc": 0.6875,
+      "cost_ht": 0.6875,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783067029925",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.535,
-      "cost_ht_usd": 0.535,
-      "costTtcUsd": 0.5938500000000001
+      "costHtUsd": 0.6875,
+      "cost_ht_usd": 0.6875,
+      "costTtcUsd": 0.6875
     },
     {
       "id": "21875",
@@ -20306,14 +20311,14 @@
           "consumption": "163"
         },
         "Medawar": {
-          "stock": "-88",
+          "stock": "-48",
           "consumption": "123"
         }
       },
       "stock_in_geitawi_branch": "9",
-      "total_stock": "-79",
-      "cost": "0.28",
-      "stock_in_medawar_branch": "-88",
+      "total_stock": "-39",
+      "cost": "0.41",
+      "stock_in_medawar_branch": "-48",
       "Product Description": "CHOCO PRINCE 25 G ()",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
@@ -20327,16 +20332,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "-79",
-      "cost_ttc": 0.312465,
-      "cost_ht": 0.2815,
+      "totalStock": "-39",
+      "cost_ttc": 0.4125,
+      "cost_ht": 0.4125,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783067029925",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.2815,
-      "cost_ht_usd": 0.2815,
-      "costTtcUsd": 0.312465
+      "costHtUsd": 0.4125,
+      "cost_ht_usd": 0.4125,
+      "costTtcUsd": 0.4125
     },
     {
       "id": "21878",
@@ -24679,6 +24684,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-24T07:16:01.744630Z",
+  "updatedAt": "2026-07-24T08:00:31.498971Z",
   "source": "sql-relay-web"
 }
