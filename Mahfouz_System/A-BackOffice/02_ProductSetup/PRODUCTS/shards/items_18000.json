@@ -653,9 +653,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "1",
+      "total_stock": "2",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -671,7 +671,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "1"
         }
       },
@@ -685,7 +685,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "2",
       "cost_ttc": 1.02675,
       "cost_ht": 0.925,
       "cost_currency": "USD",
@@ -2206,9 +2206,9 @@
       "category": "CHI TAYIB",
       "sub_category": "chocolate bar",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "4",
       "total_stock": "11",
       "total_consumption": "7",
@@ -2226,11 +2226,11 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "5",
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "6",
           "consumption": "4"
         }
       },
@@ -5806,9 +5806,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "17",
-      "stock_in_medawar_branch": "34",
+      "stock_in_medawar_branch": "33",
       "consumption_in_medawar_branch": "18",
-      "total_stock": "41",
+      "total_stock": "40",
       "total_consumption": "35",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -5824,7 +5824,7 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "34",
+          "stock": "33",
           "consumption": "18"
         }
       },
@@ -5838,7 +5838,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "41",
+      "totalStock": "40",
       "cost_ttc": 1.665,
       "cost_ht": 1.5,
       "cost_currency": "USD",
@@ -10541,6 +10541,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-07-24T08:00:31.498971Z",
+  "updatedAt": "2026-07-24T08:06:10.032295Z",
   "source": "sql-relay-web"
 }
