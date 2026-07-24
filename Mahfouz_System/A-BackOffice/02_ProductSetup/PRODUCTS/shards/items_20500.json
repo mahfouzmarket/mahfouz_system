@@ -18667,14 +18667,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "96",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "96",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "50,000",
       "price_usd": "0.56",
-      "cost": "0.42",
+      "cost": "0.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20858.jpg",
       "new_items": "",
       "manual": "",
@@ -18685,7 +18685,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "96",
           "consumption": "0.0"
         }
       },
@@ -18699,7 +18699,14 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "96",
+      "cost_ttc": 0.0000011562500000000002,
+      "cost_ht": 0.0000010416666666666667,
+      "costTtcUsd": 0.0000011562500000000002,
+      "costHtUsd": 0.0000010416666666666667,
+      "cost_ht_usd": 0.0000010416666666666667,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "20859",
@@ -18710,11 +18717,11 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS SUPPLIES",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "5",
+      "total_stock": "9",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "390,000",
@@ -18730,26 +18737,26 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "8",
           "consumption": "2"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
-      "cost_ttc": 3.43989,
-      "cost_ht": 3.099,
+      "totalStock": "9",
+      "cost_ttc": 3.4410000000000003,
+      "cost_ht": 3.1,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1778573483548",
       "latest_purchase_cost_date": "2026-05-12",
-      "costHtUsd": 3.099,
-      "cost_ht_usd": 3.099,
-      "costTtcUsd": 3.43989
+      "costHtUsd": 3.1,
+      "cost_ht_usd": 3.1,
+      "costTtcUsd": 3.4410000000000003
     },
     {
       "id": "20860",
@@ -21746,9 +21753,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "3",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "1,800,000",
@@ -21768,13 +21775,13 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "3"
     },
     {
       "id": "20919",
@@ -25627,6 +25634,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-24T08:46:25.293445Z",
+  "updatedAt": "2026-07-24T09:03:39.644696Z",
   "source": "sql-relay-web"
 }
