@@ -4824,9 +4824,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "22",
-      "total_stock": "3",
+      "total_stock": "1",
       "total_consumption": "29",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -4842,7 +4842,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "-1",
           "consumption": "22"
         }
       },
@@ -4861,7 +4861,7 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
       "vat": "yes",
-      "totalStock": "3",
+      "totalStock": "1",
       "cost_ttc": 1.0878,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -5720,11 +5720,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "26",
+      "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "27",
       "stock_in_medawar_branch": "47",
       "consumption_in_medawar_branch": "35",
-      "total_stock": "73",
+      "total_stock": "71",
       "total_consumption": "62",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -5736,7 +5736,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "26",
+          "stock": "24",
           "consumption": "27"
         },
         "Medawar": {
@@ -5750,7 +5750,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "73",
+      "totalStock": "71",
       "cost_ttc": 0.26362500000000005,
       "cost_ht": 0.23750000000000002,
       "cost_currency": "USD",
@@ -7661,6 +7661,6 @@
       "costTtcUsd": 0.10614375000000001
     }
   ],
-  "updatedAt": "2026-07-24T08:24:49.355243Z",
+  "updatedAt": "2026-07-24T08:53:18.117597Z",
   "source": "sql-relay-web"
 }
