@@ -2231,9 +2231,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "2",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -2249,7 +2249,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -2263,16 +2263,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": 0.8325,
-      "cost_ht": 0.75,
+      "totalStock": "2",
+      "cost_ttc": "0.8325",
+      "cost_ht": "0.7500",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13289-2026-01-23",
       "latest_purchase_cost_date": "2026-01-23",
       "costHtUsd": 0.75,
       "cost_ht_usd": 0.75,
-      "costTtcUsd": 0.8325
+      "costTtcUsd": 0.8325,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "19574",
@@ -9373,11 +9385,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Croissant",
       "offers": "0",
-      "stock_in_geitawi_branch": "20",
+      "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "126",
       "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "95",
-      "total_stock": "35",
+      "total_stock": "34",
       "total_consumption": "221",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -9389,7 +9401,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "20",
+          "stock": "19",
           "consumption": "126"
         },
         "Medawar": {
@@ -9407,7 +9419,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "35",
+      "totalStock": "34",
       "updatedAt": "2026-05-28T09:41:00",
       "cost_ttc": 0.7881,
       "cost_ht": 0.71,
@@ -11036,9 +11048,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "50",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "40",
-      "total_stock": "14",
+      "total_stock": "13",
       "total_consumption": "90",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -11054,7 +11066,7 @@
           "consumption": "50"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "40"
         }
       },
@@ -11064,7 +11076,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "14",
+      "totalStock": "13",
       "cost_ttc": 0.99,
       "cost_ht": 0.99,
       "cost_currency": "USD",
@@ -14364,6 +14376,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-24T09:03:39.644696Z",
+  "updatedAt": "2026-07-24T09:15:00.381819Z",
   "source": "sql-relay-web"
 }
