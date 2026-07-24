@@ -1356,8 +1356,8 @@
       "cost": "1.35",
       "total_stock": "10",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "10",
+      "stock_in_geitawi_branch": "4",
+      "stock_in_medawar_branch": "6",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -1372,11 +1372,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "6",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "4"
         }
       },
       "created_by_user_code": "1",
@@ -19646,7 +19647,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "25",
+          "stock": "21",
           "consumption": "155"
         },
         "Medawar": {
@@ -19654,8 +19655,8 @@
           "consumption": "194"
         }
       },
-      "stock_in_geitawi_branch": "25",
-      "total_stock": "94",
+      "stock_in_geitawi_branch": "21",
+      "total_stock": "90",
       "stock_in_medawar_branch": "69",
       "cost": "0.13",
       "Product Description": "TROPICANA ICE CREAM MELON",
@@ -19671,7 +19672,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "94",
+      "totalStock": "90",
       "cost_ttc": 0.1410625,
       "cost_ht": 0.12708333333333333,
       "cost_currency": "USD",
@@ -20307,18 +20308,18 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "9",
+          "stock": "49",
           "consumption": "163"
         },
         "Medawar": {
-          "stock": "-48",
+          "stock": "-88",
           "consumption": "123"
         }
       },
-      "stock_in_geitawi_branch": "9",
+      "stock_in_geitawi_branch": "49",
       "total_stock": "-39",
       "cost": "0.41",
-      "stock_in_medawar_branch": "-48",
+      "stock_in_medawar_branch": "-88",
       "Product Description": "CHOCO PRINCE 25 G ()",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
@@ -24684,6 +24685,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-24T08:00:31.498971Z",
+  "updatedAt": "2026-07-24T08:06:10.032295Z",
   "source": "sql-relay-web"
 }
