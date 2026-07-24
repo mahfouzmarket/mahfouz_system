@@ -3239,9 +3239,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "83",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "183",
-      "total_stock": "7",
+      "total_stock": "5",
       "total_consumption": "266",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -3257,7 +3257,7 @@
           "consumption": "83"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "4",
           "consumption": "183"
         },
         "The Daily Market": {
@@ -3275,7 +3275,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
+      "totalStock": "5",
       "stock": "-2",
       "branch_stock": {
         "Geitawi": {
@@ -3318,9 +3318,9 @@
       "offers": "-",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "10",
       "VAT": "YES",
       "price_lbp": "210,000",
@@ -3337,7 +3337,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "3"
         },
         "The Daily Market": {
@@ -3384,8 +3384,7 @@
       "non_stockable": false,
       "nonStockable": false,
       "cost_ht": "1.56",
-      "totalStock": "1",
-      "linked_bulk_stock_source": "parent:17179/6"
+      "totalStock": "0"
     },
     {
       "id": "17188",
@@ -5465,11 +5464,11 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "30",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "1",
+      "total_stock": "2",
       "total_consumption": "47",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -5481,7 +5480,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "30"
         },
         "Medawar": {
@@ -5499,7 +5498,7 @@
       "barcode2": "",
       "barcodes": "",
       "stock_in_nouna_branch": 0,
-      "totalStock": "1",
+      "totalStock": "2",
       "cost_ttc": "0.9999",
       "cost_ht": "0.9008",
       "cost_currency": "USD",
@@ -7588,15 +7587,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "13",
       "consumption_in_geitawi_branch": "42",
-      "stock_in_medawar_branch": "29",
+      "stock_in_medawar_branch": "77",
       "consumption_in_medawar_branch": "19",
-      "total_stock": "42",
+      "total_stock": "90",
       "total_consumption": "61",
       "VAT": "YES",
       "price_lbp": "80,000",
       "price_usd": "0.89",
-      "cost": "0.54",
-      "cost_ht": 0.535,
+      "cost": "0.69",
+      "cost_ht": 0.6875,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17353.jpg",
       "new_items": "",
       "manual": "",
@@ -7612,21 +7611,21 @@
           "consumption": "42"
         },
         "Medawar": {
-          "stock": "29",
+          "stock": "77",
           "consumption": "19"
         }
       },
       "product_setup_save_token": "PS-SAVE-17353-1779258695282094",
       "product_setup_saved_at_utc": "2026-05-20T06:31:35.282094Z",
-      "totalStock": "42",
-      "cost_ttc": 0.59385,
+      "totalStock": "90",
+      "cost_ttc": 0.6875,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783067029925",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.535,
-      "cost_ht_usd": 0.535,
-      "costTtcUsd": 0.59385,
+      "costHtUsd": 0.6875,
+      "cost_ht_usd": 0.6875,
+      "costTtcUsd": 0.6875,
       "vat": "yes"
     },
     {
@@ -10422,6 +10421,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-24T07:34:33.779171Z",
+  "updatedAt": "2026-07-24T07:55:08.226817Z",
   "source": "sql-relay-web"
 }
