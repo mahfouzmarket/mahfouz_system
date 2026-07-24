@@ -6039,11 +6039,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "34",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "17",
+      "total_stock": "19",
       "total_consumption": "34",
       "VAT": "NO",
       "price_lbp": "220,000",
@@ -6055,7 +6055,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "34"
         },
         "Medawar": {
@@ -6084,7 +6084,7 @@
       "name": "COCKTAIL BANANA AND STRAWBERRY 270ML",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "17",
+      "totalStock": "19",
       "stock_in_nouna_branch": "17",
       "secondBarcode": "",
       "product_description": "COCKTAIL BANANA AND STRAWBERRY 270ML",
@@ -9751,11 +9751,11 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "18",
       "stock_in_medawar_branch": "31",
       "consumption_in_medawar_branch": "18",
-      "total_stock": "48",
+      "total_stock": "46",
       "total_consumption": "36",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -9767,7 +9767,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "15",
           "consumption": "18"
         },
         "Medawar": {
@@ -9781,7 +9781,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "48",
+      "totalStock": "46",
       "cost_ttc": 0.5587,
       "cost_ht": 0.5033333333333333,
       "cost_currency": "USD",
@@ -10288,9 +10288,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "84",
       "consumption_in_geitawi_branch": "18",
-      "stock_in_medawar_branch": "246",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "35",
-      "total_stock": "330",
+      "total_stock": "100",
       "total_consumption": "53",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -10306,7 +10306,7 @@
           "consumption": "18"
         },
         "Medawar": {
-          "stock": "246",
+          "stock": "16",
           "consumption": "35"
         }
       },
@@ -10320,16 +10320,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "330",
-      "cost_ttc": 0.6042099963,
-      "cost_ht": 0.54433333,
+      "totalStock": "100",
+      "cost_ttc": "0.6042",
+      "cost_ht": "0.5443",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "R1779178965206",
       "latest_purchase_cost_date": "2026-05-19",
       "costHtUsd": 0.54433333,
       "cost_ht_usd": 0.54433333,
-      "costTtcUsd": 0.6042099963
+      "costTtcUsd": 0.6042099962999999,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "17497",
@@ -10421,6 +10433,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-07-24T08:43:10.675614Z",
+  "updatedAt": "2026-07-24T08:56:23.630360Z",
   "source": "sql-relay-web"
 }
