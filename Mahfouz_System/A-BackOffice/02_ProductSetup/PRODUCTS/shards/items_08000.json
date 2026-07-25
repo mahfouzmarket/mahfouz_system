@@ -941,11 +941,11 @@
       "category": "HOME USAGE",
       "sub_category": "ALUMINUM FOIL",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "7",
+      "total_stock": "6",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "375,000",
@@ -961,7 +961,7 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         },
         "Medawar": {
@@ -971,7 +971,7 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
+      "totalStock": "6",
       "cost_ttc": 3.0895,
       "cost_ht": 2.78333333333333,
       "cost_currency": "USD",
@@ -1903,11 +1903,11 @@
       "category": "HOME USAGE",
       "sub_category": "BATTERIES",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "14",
-      "total_stock": "3",
+      "total_stock": "2",
       "total_consumption": "14",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -1919,7 +1919,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
@@ -1937,7 +1937,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "2"
     },
     {
       "id": "8363",
@@ -2042,9 +2042,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "0",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -2060,7 +2060,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -2074,7 +2074,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1",
+      "totalStock": "0",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -2151,9 +2151,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "35",
+      "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "47",
+      "total_stock": "46",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "170,000",
@@ -2169,7 +2169,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "35",
+          "stock": "34",
           "consumption": "9"
         }
       },
@@ -2183,7 +2183,7 @@
       "vat": "yes",
       "barcode2": "8888021301755",
       "barcodes": "8888021301755",
-      "totalStock": "47",
+      "totalStock": "46",
       "cost_ttc": 1.1655,
       "cost_ht": 1.05,
       "cost_currency": "USD",
@@ -2554,9 +2554,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "8",
-      "stock_in_medawar_branch": "99",
+      "stock_in_medawar_branch": "98",
       "consumption_in_medawar_branch": "20",
-      "total_stock": "99",
+      "total_stock": "98",
       "total_consumption": "28",
       "VAT": "YES",
       "price_lbp": "140,000",
@@ -2572,7 +2572,7 @@
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "99",
+          "stock": "98",
           "consumption": "20"
         }
       },
@@ -2586,7 +2586,7 @@
       "vat": "yes",
       "barcode2": "8888021205077",
       "barcodes": "",
-      "totalStock": "99",
+      "totalStock": "98",
       "cost_ttc": "0.8695",
       "cost_ht": "0.7833",
       "cost_currency": "USD",
@@ -2847,6 +2847,6 @@
       "totalStock": "7"
     }
   ],
-  "updatedAt": "2026-07-24T16:59:04.682078Z",
+  "updatedAt": "2026-07-25T13:57:12.697760Z",
   "source": "sql-relay-web"
 }
