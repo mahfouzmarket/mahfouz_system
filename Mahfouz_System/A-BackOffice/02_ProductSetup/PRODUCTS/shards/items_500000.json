@@ -2824,11 +2824,11 @@
       "sub_category": "SEEDS",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "270,000",
@@ -2848,7 +2848,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -2862,10 +2862,10 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "SEEDS",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "1",
       "cost_ttc": 2.5419,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782723977609",
       "latest_purchase_cost_date": "2026-06-29",
       "costHtUsd": 2.29,
@@ -5238,6 +5238,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-07-27T10:04:55.349214Z",
+  "updatedAt": "2026-07-27T10:28:15.765412Z",
   "source": "sql-relay-web"
 }
