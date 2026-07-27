@@ -25664,11 +25664,11 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "21",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "25",
-      "total_stock": "0",
+      "total_stock": "15",
       "total_consumption": "46",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -25680,7 +25680,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "15",
           "consumption": "21"
         },
         "Medawar": {
@@ -25694,16 +25694,28 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 0.2857325,
-      "cost_ht": 0.257416666666667,
+      "totalStock": "15",
+      "cost_ttc": "0.2857",
+      "cost_ht": "0.2574",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1776415873439",
       "latest_purchase_cost_date": "2026-04-17",
-      "costHtUsd": 0.257416666666667,
-      "cost_ht_usd": 0.257416666666667,
-      "costTtcUsd": 0.2857325
+      "costHtUsd": 0.2574166666666667,
+      "cost_ht_usd": 0.2574166666666667,
+      "costTtcUsd": 0.28573250000000006,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "scale_plu": 0,
+      "scalePlu": 0
     },
     {
       "id": "21485",
@@ -25714,11 +25726,11 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "0",
+      "total_stock": "15",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -25730,7 +25742,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "15",
           "consumption": "0"
         },
         "Medawar": {
@@ -25744,7 +25756,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "15",
       "cost_ttc": 0.28536249999963,
       "cost_ht": 0.257083333333,
       "cost_currency": "USD",
@@ -26715,6 +26727,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-27T10:27:06.322643Z",
+  "updatedAt": "2026-07-27T10:51:00.930386Z",
   "source": "sql-relay-web"
 }
