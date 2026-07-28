@@ -525,11 +525,11 @@
     },
     {
       "id": "300011",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "2",
       "consumption_in_geitawi_branch": "2",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "4",
       "branches": {
         "Geitawi": {
@@ -537,7 +537,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "2"
         }
       },
@@ -554,8 +554,8 @@
       "VAT": "YES",
       "price_lbp": "580,000",
       "price_usd": "6.44",
-      "cost": "4.59",
-      "cost_ht": 4.59,
+      "cost": "4.37",
+      "cost_ht": 4.365833333333334,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300011.jpg",
       "new_items": "x",
       "manual": "",
@@ -569,15 +569,15 @@
       "supplier": "PRODIGY SAL USD",
       "subcategory": "MILK",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 5.0949,
+      "totalStock": "12",
+      "cost_ttc": 4.846075000000001,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780492345375",
       "latest_purchase_cost_date": "2026-06-03",
-      "costHtUsd": 4.59,
-      "cost_ht_usd": 4.59,
-      "costTtcUsd": 5.0949
+      "costHtUsd": 4.365833333333334,
+      "cost_ht_usd": 4.365833333333334,
+      "costTtcUsd": 4.846075000000001
     },
     {
       "id": "300012",
@@ -7450,9 +7450,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "14",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "8",
-      "total_stock": "20",
+      "total_stock": "18",
       "total_consumption": "8",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -7474,7 +7474,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "4",
           "consumption": "8"
         }
       },
@@ -7484,7 +7484,7 @@
       "supplier": "JACK DIB",
       "subcategory": "charcoal",
       "vat": "no",
-      "totalStock": "20",
+      "totalStock": "18",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300135.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300135.jpg",
       "image_updated_at_utc": "2026-06-23T08:48:13.057938Z",
@@ -20906,12 +20906,12 @@
       "cost_ht": 0.4777777777777778,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300380.jpg",
       "new_items": "x",
-      "total_stock": "10",
-      "totalStock": "10",
-      "stock_in_medawar_branch": "3",
+      "total_stock": "9",
+      "totalStock": "9",
+      "stock_in_medawar_branch": "2",
       "branches": {
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "48"
         },
         "Geitawi": {
@@ -27510,6 +27510,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-28T06:35:50.949790Z",
+  "updatedAt": "2026-07-28T06:44:36.306432Z",
   "source": "sql-relay-web"
 }
