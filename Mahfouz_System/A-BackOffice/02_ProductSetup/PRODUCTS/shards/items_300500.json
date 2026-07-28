@@ -3578,22 +3578,27 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "price_lbp": "315,000",
-      "price_usd": "3.50",
+      "price_lbp": "380,000",
+      "price_usd": "4.22",
       "cost": "3.63",
-      "cost_ttc": "3.6300",
-      "cost_ht": "3.6300",
-      "costTtcUsd": 3.63,
+      "cost_ttc": 4.0293,
+      "cost_ht": 3.63,
+      "costTtcUsd": 4.0293,
       "costHtUsd": 3.63,
       "cost_ht_usd": 3.63,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300569.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "no",
-      "branches": {}
+      "total_stock": "2",
+      "totalStock": "2",
+      "stock_in_medawar_branch": "2",
+      "branches": {
+        "Medawar": {
+          "stock": "2"
+        }
+      },
+      "vat": "no"
     },
     {
       "id": "300570",
@@ -3620,22 +3625,72 @@
       "scaleCode": "",
       "price_lbp": "230,000",
       "price_usd": "2.56",
-      "cost": "1.98",
-      "cost_ttc": "2.1978",
-      "cost_ht": "1.9800",
-      "costTtcUsd": 2.1978,
-      "costHtUsd": 1.98,
-      "cost_ht_usd": 1.98,
+      "cost": "1.78",
+      "cost_ttc": 1.9780200000000001,
+      "cost_ht": 1.782,
+      "costTtcUsd": 1.9780200000000001,
+      "costHtUsd": 1.782,
+      "cost_ht_usd": 1.782,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300570.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "yes",
-      "branches": {}
+      "total_stock": "10",
+      "totalStock": "10",
+      "stock_in_medawar_branch": "10",
+      "branches": {
+        "Medawar": {
+          "stock": "10"
+        }
+      },
+      "vat": "yes"
+    },
+    {
+      "id": "300571",
+      "barcode": "5285002560096",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "KAZOUZA STRAWBERRY 275 ML",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "SUPPLIERS": "MANY FOOD SARL",
+      "unit": "-",
+      "category": "BEVERAGES",
+      "sub_category": "COLD DRINKS",
+      "offers": "0",
+      "delivery_rules": "",
+      "expiry_days": "0",
+      "VAT": "YES",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "price_lbp": "70,000",
+      "price_usd": "0.78",
+      "cost": "0.56",
+      "cost_ttc": 0.61975,
+      "cost_ht": 0.5583333333333333,
+      "costTtcUsd": 0.61975,
+      "costHtUsd": 0.5583333333333333,
+      "cost_ht_usd": 0.5583333333333333,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300571.jpg",
+      "new_items": "x",
+      "total_stock": "24",
+      "totalStock": "24",
+      "stock_in_medawar_branch": "24",
+      "branches": {
+        "Medawar": {
+          "stock": "24"
+        }
+      },
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-07-28T10:12:51.809028Z",
+  "updatedAt": "2026-07-28T10:20:50.864088Z",
   "source": "sql-relay-web"
 }
