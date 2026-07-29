@@ -2500,9 +2500,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "128",
       "consumption_in_geitawi_branch": "623",
-      "stock_in_medawar_branch": "58",
+      "stock_in_medawar_branch": "167",
       "consumption_in_medawar_branch": "708",
-      "total_stock": "186",
+      "total_stock": "295",
       "total_consumption": "1331",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -2518,7 +2518,7 @@
           "consumption": "623"
         },
         "Medawar": {
-          "stock": "58",
+          "stock": "167",
           "consumption": "708"
         }
       },
@@ -2541,7 +2541,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-16734-1778917777422454",
       "product_setup_saved_at_utc": "2026-05-16T07:49:37.422454Z",
-      "totalStock": "186",
+      "totalStock": "295",
       "cost_ttc": 0.5,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -4680,9 +4680,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -4698,7 +4698,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -4708,16 +4708,26 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 0.5,
-      "cost_ht": 0.5,
+      "totalStock": "1",
+      "cost_ttc": "0.5000",
+      "cost_ht": "0.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13271-2026-01-22",
       "latest_purchase_cost_date": "2026-01-22",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.5
+      "costTtcUsd": 0.5,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": ""
     },
     {
       "id": "16865",
@@ -7783,6 +7793,6 @@
       "consumption_in_nouna_branch": "0"
     }
   ],
-  "updatedAt": "2026-07-29T10:32:47.203633Z",
+  "updatedAt": "2026-07-29T10:38:57.166585Z",
   "source": "sql-relay-web"
 }
