@@ -265,15 +265,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1.28",
       "consumption_in_medawar_branch": "0.4",
-      "total_stock": "0",
+      "total_stock": "1.28",
       "total_consumption": "0.4",
       "VAT": "NO",
       "price_lbp": "820,000",
       "price_usd": "9.11",
       "cost": "6.49",
-      "cost_ht": 6.49230769230769,
+      "cost_ht": 6.4921875,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16027.jpg",
       "new_items": "",
       "manual": "",
@@ -289,14 +289,14 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1.28",
           "consumption": "0.4"
         }
       },
       "name": "PUCK FUSIONS WITH NATURAL OLIVES",
       "subcategory": "PROCESSED CHEESE",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "1.28",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -308,14 +308,14 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc": 6.49230769230769,
+      "cost_ttc": 6.4921875,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781068153163",
       "latest_purchase_cost_date": "2026-06-10",
-      "costHtUsd": 6.49230769230769,
-      "cost_ht_usd": 6.49230769230769,
-      "costTtcUsd": 6.49230769230769
+      "costHtUsd": 6.4921875,
+      "cost_ht_usd": 6.4921875,
+      "costTtcUsd": 6.4921875
     },
     {
       "id": "16031",
@@ -731,9 +731,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "49",
       "consumption_in_geitawi_branch": "279",
-      "stock_in_medawar_branch": "35",
+      "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "283",
-      "total_stock": "84",
+      "total_stock": "83",
       "total_consumption": "562",
       "VAT": "NO",
       "price_lbp": "85,000",
@@ -749,7 +749,7 @@
           "consumption": "279"
         },
         "Medawar": {
-          "stock": "35",
+          "stock": "34",
           "consumption": "283"
         }
       },
@@ -768,7 +768,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-16071-1778925107826550",
       "product_setup_saved_at_utc": "2026-05-16T09:51:47.826550Z",
-      "totalStock": "84",
+      "totalStock": "83",
       "priceLbp": 80000.0,
       "priceUsd": 0.8888888888888888,
       "arabic_name": "",
@@ -6581,6 +6581,6 @@
       "costTtcUsd": 1.6798000000000002
     }
   ],
-  "updatedAt": "2026-07-29T04:26:20.897785Z",
+  "updatedAt": "2026-07-29T04:38:07.308452Z",
   "source": "sql-relay-web"
 }
