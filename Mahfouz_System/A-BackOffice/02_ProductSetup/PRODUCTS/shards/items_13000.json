@@ -2756,9 +2756,9 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "22",
+      "stock_in_geitawi_branch": "52",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "80",
+      "stock_in_medawar_branch": "50",
       "consumption_in_medawar_branch": "10",
       "total_stock": "102",
       "total_consumption": "16",
@@ -2772,11 +2772,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22",
+          "stock": "52",
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "80",
+          "stock": "50",
           "consumption": "10"
         }
       },
@@ -2856,9 +2856,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "185",
-      "stock_in_medawar_branch": "212",
+      "stock_in_medawar_branch": "202",
       "consumption_in_medawar_branch": "243",
-      "total_stock": "237",
+      "total_stock": "227",
       "total_consumption": "428",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -2874,7 +2874,7 @@
           "consumption": "185"
         },
         "Medawar": {
-          "stock": "212",
+          "stock": "202",
           "consumption": "243"
         }
       },
@@ -2884,7 +2884,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "237",
+      "totalStock": "227",
       "cost_ttc": 0.415,
       "cost_ht": 0.415,
       "cost_currency": "USD",
@@ -7033,15 +7033,15 @@
       "expiry_days": "365",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "32",
-      "stock_in_medawar_branch": "15",
+      "stock_in_medawar_branch": "38",
       "consumption_in_medawar_branch": "87",
-      "total_stock": "15",
+      "total_stock": "38",
       "total_consumption": "119",
       "VAT": "YES",
       "price_lbp": "140,000",
       "price_usd": "1.56",
       "cost": "0.80",
-      "cost_ht": 0.8,
+      "cost_ht": "0.8000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13476.jpg",
       "new_items": "",
       "manual": "",
@@ -7057,7 +7057,7 @@
           "consumption": "32"
         },
         "Medawar": {
-          "stock": "15",
+          "stock": "38",
           "consumption": "87"
         }
       },
@@ -7070,15 +7070,24 @@
       "supplier": "WES3 EL MADA",
       "subcategory": "KLATCHI",
       "vat": "yes",
-      "totalStock": "15",
-      "cost_ttc": 0.8,
+      "totalStock": "38",
+      "cost_ttc": "0.8880",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782377686442",
       "latest_purchase_cost_date": "2026-06-25",
       "costHtUsd": 0.8,
       "cost_ht_usd": 0.8,
-      "costTtcUsd": 0.8
+      "costTtcUsd": 0.8880000000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": ""
     },
     {
       "id": "13477",
@@ -7680,6 +7689,6 @@
       "costTtcUsd": 0.09885937500000001
     }
   ],
-  "updatedAt": "2026-07-29T09:58:39.640888Z",
+  "updatedAt": "2026-07-29T10:06:41.563696Z",
   "source": "sql-relay-web"
 }
