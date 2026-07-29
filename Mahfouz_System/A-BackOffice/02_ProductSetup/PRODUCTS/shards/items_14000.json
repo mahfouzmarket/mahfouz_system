@@ -3531,11 +3531,11 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "14",
       "consumption_in_geitawi_branch": "5",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "19",
+      "total_stock": "16",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -3547,7 +3547,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "14",
           "consumption": "5"
         },
         "Medawar": {
@@ -3561,7 +3561,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19",
+      "totalStock": "16",
       "cost_ttc": 0.59755,
       "cost_ht": 0.5383333333333333,
       "cost_currency": "USD",
@@ -4454,9 +4454,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "21",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "50",
       "consumption_in_medawar_branch": "20",
-      "total_stock": "5",
+      "total_stock": "53",
       "total_consumption": "41",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -4472,7 +4472,7 @@
           "consumption": "21"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "50",
           "consumption": "20"
         }
       },
@@ -4482,16 +4482,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
-      "cost_ttc": 0.4999625,
-      "cost_ht": 0.450416666666667,
+      "totalStock": "53",
+      "cost_ttc": 0.4999625000000001,
+      "cost_ht": 0.4504166666666667,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783067029925",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.450416666666667,
-      "cost_ht_usd": 0.450416666666667,
-      "costTtcUsd": 0.4999625
+      "costHtUsd": 0.4504166666666667,
+      "cost_ht_usd": 0.4504166666666667,
+      "costTtcUsd": 0.4999625000000001
     },
     {
       "id": "14324",
@@ -7285,6 +7285,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-07-29T09:28:04.998199Z",
+  "updatedAt": "2026-07-29T09:35:42.048143Z",
   "source": "sql-relay-web"
 }
