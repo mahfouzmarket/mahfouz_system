@@ -4445,9 +4445,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "2",
+      "total_stock": "3",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "350,000",
@@ -4463,7 +4463,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "4"
         }
       },
@@ -4473,7 +4473,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
+      "totalStock": "3",
       "cost_ttc": 3.4444444444444446,
       "cost_ht": 3.4444444444444446,
       "cost_currency": "LBP",
@@ -5505,7 +5505,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "0",
-      "cost_ht": 6.492957746478874,
+      "cost_ht": "6.4900",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -5520,20 +5520,18 @@
       "description_ar": "",
       "non_stockable": false,
       "nonStockable": false,
-      "scale_item_enabled": false,
-      "scaleItemEnabled": false,
-      "scale_code": "",
-      "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "cost_ttc": 6.492957746478874,
+      "scale_item_enabled": true,
+      "scaleItemEnabled": true,
+      "scale_code": "2700048",
+      "scaleCode": "2700048",
+      "cost_ttc": "6.4900",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781068153163",
       "latest_purchase_cost_date": "2026-06-10",
-      "costHtUsd": 6.492957746478874,
-      "cost_ht_usd": 6.492957746478874,
-      "costTtcUsd": 6.492957746478874
+      "costHtUsd": 6.49,
+      "cost_ht_usd": 6.49,
+      "costTtcUsd": 6.49
     },
     {
       "id": "15434",
@@ -6761,6 +6759,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-29T13:22:54.517645Z",
+  "updatedAt": "2026-07-29T13:53:54.724250Z",
   "source": "sql-relay-web"
 }
