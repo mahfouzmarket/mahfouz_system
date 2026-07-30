@@ -1230,11 +1230,11 @@
       "category": "FOOD",
       "sub_category": "OIL & FAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "175,000",
@@ -1246,7 +1246,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         },
         "Medawar": {
@@ -1260,7 +1260,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 1.6,
       "cost_ht": 1.6,
       "cost_currency": "USD",
@@ -4437,11 +4437,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "26",
+      "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "476",
       "stock_in_medawar_branch": "36",
       "consumption_in_medawar_branch": "654",
-      "total_stock": "62",
+      "total_stock": "60",
       "total_consumption": "1130",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -4453,7 +4453,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "26",
+          "stock": "24",
           "consumption": "476"
         },
         "Medawar": {
@@ -4467,7 +4467,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "62",
+      "totalStock": "60",
       "cost_ttc": 0.9222222222222223,
       "cost_ht": 0.9222222222222223,
       "cost_currency": "LBP",
@@ -6992,9 +6992,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "47",
-      "stock_in_medawar_branch": "49",
+      "stock_in_medawar_branch": "47",
       "consumption_in_medawar_branch": "101",
-      "total_stock": "53",
+      "total_stock": "51",
       "total_consumption": "148",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -7010,7 +7010,7 @@
           "consumption": "47"
         },
         "Medawar": {
-          "stock": "49",
+          "stock": "47",
           "consumption": "101"
         }
       },
@@ -7029,7 +7029,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13475-1778843018292184",
       "product_setup_saved_at_utc": "2026-05-15T11:03:38.292184Z",
-      "totalStock": "53",
+      "totalStock": "51",
       "cost_ttc": 0.32,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -7708,6 +7708,6 @@
       "costTtcUsd": 0.09885937500000001
     }
   ],
-  "updatedAt": "2026-07-30T15:12:07.544866Z",
+  "updatedAt": "2026-07-30T15:30:19.282397Z",
   "source": "sql-relay-web"
 }
