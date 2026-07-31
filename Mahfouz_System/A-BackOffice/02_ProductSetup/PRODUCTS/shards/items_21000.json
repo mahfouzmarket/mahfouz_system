@@ -25736,9 +25736,9 @@
       "category": "FOOD",
       "sub_category": "PASTA & INDOMI",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "5",
       "total_stock": "0",
       "total_consumption": "5",
@@ -25752,11 +25752,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "5"
         }
       },
@@ -26747,6 +26747,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-07-31T06:45:08.944388Z",
+  "updatedAt": "2026-07-31T07:57:44.155027Z",
   "source": "sql-relay-web"
 }
