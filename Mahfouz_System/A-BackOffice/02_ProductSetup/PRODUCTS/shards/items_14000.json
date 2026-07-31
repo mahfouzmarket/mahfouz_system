@@ -3799,11 +3799,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "10",
+      "total_stock": "9",
       "total_consumption": "12",
       "VAT": "YES",
       "price_lbp": "260,000",
@@ -3815,7 +3815,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "3"
         },
         "Medawar": {
@@ -3831,7 +3831,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "10",
+      "totalStock": "9",
       "cost_ttc": 2.886,
       "cost_ht": 2.6,
       "cost_currency": "USD",
@@ -5676,11 +5676,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "350,000",
@@ -5692,7 +5692,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -5706,7 +5706,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
+      "totalStock": "3",
       "cost_ttc": 3.3966000000000003,
       "cost_ht": 3.06,
       "cost_currency": "USD",
@@ -7290,6 +7290,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-07-31T12:50:40.848156Z",
+  "updatedAt": "2026-07-31T13:03:10.302496Z",
   "source": "sql-relay-web"
 }
