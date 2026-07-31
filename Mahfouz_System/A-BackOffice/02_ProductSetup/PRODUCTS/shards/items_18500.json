@@ -1260,9 +1260,9 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "9",
       "total_stock": "19",
       "total_consumption": "16",
@@ -1276,11 +1276,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "15",
           "consumption": "9"
         }
       },
@@ -1625,9 +1625,9 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "50",
+      "stock_in_geitawi_branch": "56",
       "consumption_in_geitawi_branch": "28",
-      "stock_in_medawar_branch": "52",
+      "stock_in_medawar_branch": "46",
       "consumption_in_medawar_branch": "31",
       "total_stock": "102",
       "total_consumption": "59",
@@ -1641,11 +1641,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "50",
+          "stock": "56",
           "consumption": "28"
         },
         "Medawar": {
-          "stock": "52",
+          "stock": "46",
           "consumption": "31"
         }
       },
@@ -4469,9 +4469,9 @@
       "category": "CHI TAYIB",
       "sub_category": "Crackers",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "47",
+      "stock_in_medawar_branch": "43",
       "consumption_in_medawar_branch": "1",
       "total_stock": "47",
       "total_consumption": "1",
@@ -4485,11 +4485,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "47",
+          "stock": "43",
           "consumption": "1"
         }
       },
@@ -9385,10 +9385,10 @@
       "vat": "no",
       "price_lbp": "160,000",
       "cost": "1.26",
-      "total_stock": "3",
+      "total_stock": "-2",
       "total_consumption": "24",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "-2",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -9407,7 +9407,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "-2",
           "consumption": "24"
         },
         "The Daily Market": {
@@ -9445,7 +9445,7 @@
       "cost_ht_usd": 1.2638888888888888,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "3",
+      "totalStock": "-2",
       "price_usd": "1.78",
       "arabic_name": "",
       "name_ar": "",
@@ -11142,6 +11142,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-07-31T10:17:28.482029Z",
+  "updatedAt": "2026-07-31T10:32:57.449849Z",
   "source": "sql-relay-web"
 }
