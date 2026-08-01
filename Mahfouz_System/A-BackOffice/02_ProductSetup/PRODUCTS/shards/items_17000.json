@@ -3237,11 +3237,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "-8",
+      "stock_in_geitawi_branch": "28",
       "consumption_in_geitawi_branch": "83",
       "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "163",
-      "total_stock": "-9",
+      "total_stock": "27",
       "total_consumption": "246",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -3253,7 +3253,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-8",
+          "stock": "28",
           "consumption": "83"
         },
         "Medawar": {
@@ -3275,7 +3275,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-9",
+      "totalStock": "27",
       "stock": "-2",
       "branch_stock": {
         "Geitawi": {
@@ -3316,11 +3316,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "-",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "4",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "210,000",
@@ -3333,7 +3333,7 @@
       "pcs_in_box": "6",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "7"
         },
         "Medawar": {
@@ -3384,7 +3384,8 @@
       "non_stockable": false,
       "nonStockable": false,
       "cost_ht": "1.56",
-      "totalStock": "0"
+      "totalStock": "4",
+      "linked_bulk_stock_source": "parent:17179/6"
     },
     {
       "id": "17188",
@@ -4252,10 +4253,10 @@
       "vat": "no",
       "price_lbp": "150,000",
       "cost": "1.26",
-      "total_stock": "28",
+      "total_stock": "26",
       "total_consumption": "24",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "28",
+      "stock_in_medawar_branch": "26",
       "branches": {
         "geitawi": {
           "stock": "0",
@@ -4270,7 +4271,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "28",
+          "stock": "26",
           "consumption": "24"
         },
         "Geitawi": {
@@ -4312,7 +4313,7 @@
       "cost_ht_usd": 1.26375,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "28",
+      "totalStock": "26",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -9643,11 +9644,11 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "8",
+      "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "27",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "8",
+      "total_stock": "7",
       "total_consumption": "40",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -9659,7 +9660,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "8",
+          "stock": "7",
           "consumption": "27"
         },
         "Medawar": {
@@ -9673,7 +9674,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
+      "totalStock": "7",
       "cost_ttc": 0.999925,
       "cost_ht": 0.900833333333333,
       "cost_currency": "USD",
@@ -10429,6 +10430,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-08-01T15:37:51.290266Z",
+  "updatedAt": "2026-08-01T15:49:34.528333Z",
   "source": "sql-relay-web"
 }
