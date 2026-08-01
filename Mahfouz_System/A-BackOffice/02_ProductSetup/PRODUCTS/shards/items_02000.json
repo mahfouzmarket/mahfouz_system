@@ -1180,11 +1180,11 @@
       "category": "FOOD",
       "sub_category": "BAKING & COOKING",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "230,000",
@@ -1196,11 +1196,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "0"
         }
       },
@@ -1210,16 +1210,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": 1.8093,
+      "totalStock": "7",
+      "cost_ttc": 1.8093000000000001,
       "cost_ht": 1.63,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783316929700",
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 1.63,
       "cost_ht_usd": 1.63,
-      "costTtcUsd": 1.8093
+      "costTtcUsd": 1.8093000000000001
     },
     {
       "id": "2453",
@@ -1230,27 +1230,27 @@
       "category": "FOOD",
       "sub_category": "BAKING & COOKING",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "8",
+      "total_stock": "14",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "320,000",
       "price_usd": "3.56",
-      "cost": "2.84",
+      "cost": "2.52",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2453.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "5",
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "9",
           "consumption": "0"
         }
       },
@@ -1260,16 +1260,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
-      "cost_ttc": 3.1573333333333338,
-      "cost_ht": 2.8444444444444446,
+      "totalStock": "14",
+      "cost_ttc": 2.7972,
+      "cost_ht": 2.52,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779443060923",
       "latest_purchase_cost_date": "2026-05-22",
-      "costHtUsd": 2.8444444444444446,
-      "cost_ht_usd": 2.8444444444444446,
-      "costTtcUsd": 3.1573333333333338
+      "costHtUsd": 2.52,
+      "cost_ht_usd": 2.52,
+      "costTtcUsd": 2.7972
     },
     {
       "id": "2455",
@@ -2042,6 +2042,6 @@
       "costTtcUsd": 2.6085000000000003
     }
   ],
-  "updatedAt": "2026-08-01T06:34:56.259887Z",
+  "updatedAt": "2026-08-01T07:46:34.417175Z",
   "source": "sql-relay-web"
 }
