@@ -13,16 +13,16 @@
       "offers": "0",
       "expiry_days": "0",
       "stock_in_geitawi_branch": "-1",
-      "consumption_in_geitawi_branch": "30",
-      "stock_in_medawar_branch": "0",
-      "consumption_in_medawar_branch": "27",
-      "total_stock": "-1",
-      "total_consumption": "57",
+      "consumption_in_geitawi_branch": "32",
+      "stock_in_medawar_branch": "-4",
+      "consumption_in_medawar_branch": "36",
+      "total_stock": "-5",
+      "total_consumption": "68",
       "VAT": "YES",
       "price_lbp": "175,000",
       "price_usd": "1.94",
       "cost": "1.39",
-      "cost_ht": "1.3856",
+      "cost_ht": 1.3855782122905027,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3000001.jpg",
       "new_items": "x",
       "manual": "",
@@ -35,23 +35,23 @@
       "branches": {
         "Geitawi": {
           "stock": "-1",
-          "consumption": "30"
+          "consumption": "32"
         },
         "Medawar": {
-          "stock": "0",
-          "consumption": "27"
+          "stock": "-4",
+          "consumption": "36"
         }
       },
       "name": "GATORADE  RED ORANGE FLAVOR 500ML (COPY)",
       "supplier": "PEPSI LBP",
       "subcategory": "ENERGY DRINK",
       "vat": "yes",
-      "totalStock": "-1",
+      "totalStock": "-5",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3000001.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3000001.jpg",
       "image_updated_at_utc": "2026-06-19T06:25:36.956469Z",
-      "cost_ttc": "1.5380",
-      "cost_currency": "USD",
+      "cost_ttc": 1.5379918156424581,
+      "cost_currency": "LBP",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783407096061",
       "latest_purchase_cost_date": "2026-07-07",
@@ -65,17 +65,14 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0,
-      "costTtcUsd": 1.5379925046554936,
-      "costHtUsd": 1.385578833022967,
-      "cost_ht_usd": 1.385578833022967
+      "scalePlu": 0
     },
     {
       "id": "3000002",
       "barcode": "",
       "barcode2": "",
       "barcodes": "",
-      "Product Description": "NF DATES ALMOND 6P",
+      "Product Description": "DATES ALMOND 6P",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "NOUNA'S FOOD",
@@ -83,11 +80,11 @@
       "offers": "",
       "expiry_days": "0",
       "stock_in_geitawi_branch": "-4",
-      "consumption_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "-6",
-      "consumption_in_medawar_branch": "1",
+      "consumption_in_medawar_branch": "0",
       "total_stock": "-10",
-      "total_consumption": "3",
+      "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -107,19 +104,21 @@
       "branches": {
         "Geitawi": {
           "stock": "-4",
-          "consumption": "2"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "-6",
-          "consumption": "1"
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-3000002-1780321474873616",
       "product_setup_saved_at_utc": "2026-06-01T13:44:34.873616Z",
       "totalStock": "-10",
+      "product_description": "DATES ALMOND 6P",
+      "description": "DATES ALMOND 6P",
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-08-02T21:55:36.677295Z",
+  "updatedAt": "2026-08-12T13:01:44.283303Z",
   "source": "sql-relay-web"
 }
