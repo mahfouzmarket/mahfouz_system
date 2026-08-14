@@ -2854,11 +2854,11 @@
       "category": "HOME USAGE",
       "sub_category": "TISSUES & TOILET PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "35",
+      "stock_in_geitawi_branch": "34",
       "consumption_in_geitawi_branch": "163",
       "stock_in_medawar_branch": "255",
       "consumption_in_medawar_branch": "232",
-      "total_stock": "290",
+      "total_stock": "289",
       "total_consumption": "395",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -2870,7 +2870,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "35",
+          "stock": "34",
           "consumption": "163"
         },
         "Medawar": {
@@ -2884,7 +2884,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "290",
+      "totalStock": "289",
       "cost_ttc": 0.415,
       "cost_ht": 0.415,
       "cost_currency": "USD",
@@ -6649,9 +6649,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "29",
+      "total_stock": "27",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -6667,7 +6667,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "10",
           "consumption": "3"
         }
       },
@@ -6677,16 +6677,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "29",
-      "cost_ttc": 0.65379,
-      "cost_ht": 0.589,
+      "totalStock": "27",
+      "cost_ttc": "0.6538",
+      "cost_ht": "0.5890",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13550-2026-02-12",
       "latest_purchase_cost_date": "2026-02-12",
       "costHtUsd": 0.589,
       "cost_ht_usd": 0.589,
-      "costTtcUsd": 0.65379
+      "costTtcUsd": 0.65379,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.65379
     },
     {
       "id": "13469",
@@ -7725,6 +7736,6 @@
       "costTtcUsd": 0.09885937500000001
     }
   ],
-  "updatedAt": "2026-08-14T05:25:25.149805Z",
+  "updatedAt": "2026-08-14T06:04:22.086989Z",
   "source": "sql-relay-web"
 }
