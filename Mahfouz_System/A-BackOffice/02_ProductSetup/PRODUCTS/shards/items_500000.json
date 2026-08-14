@@ -3725,16 +3725,14 @@
       "VAT": "NO",
       "non_stockable": false,
       "nonStockable": false,
-      "scale_item_enabled": false,
-      "scaleItemEnabled": false,
-      "scale_code": "",
-      "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
+      "scale_item_enabled": true,
+      "scaleItemEnabled": true,
+      "scale_code": "2750001",
+      "scaleCode": "2750001",
       "price_lbp": "1,290,000",
       "price_usd": "14.33",
       "cost": "13.00",
-      "cost_ht": 13.0,
+      "cost_ht": "13.0000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500092.jpg",
       "new_items": "x",
       "total_stock": "0",
@@ -3748,14 +3746,15 @@
       },
       "consumption_in_geitawi_branch": "0",
       "total_consumption": "0",
-      "cost_ttc": 13.0,
+      "cost_ttc": "13.0000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781703185285",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 13.0,
       "cost_ht_usd": 13.0,
       "costTtcUsd": 13.0,
+      "cost_ttc_usd": 13.0,
       "vat": "no"
     },
     {
@@ -5426,6 +5425,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-08-14T08:15:48.870768Z",
+  "updatedAt": "2026-08-14T09:03:37.684674Z",
   "source": "sql-relay-web"
 }
