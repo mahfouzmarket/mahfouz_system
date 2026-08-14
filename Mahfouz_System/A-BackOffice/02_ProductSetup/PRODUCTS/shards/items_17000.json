@@ -3203,9 +3203,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "23",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "17",
       "consumption_in_medawar_branch": "19",
-      "total_stock": "27",
+      "total_stock": "26",
       "total_consumption": "42",
       "VAT": "YES",
       "price_lbp": "120,000",
@@ -3221,7 +3221,7 @@
           "consumption": "23"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "17",
           "consumption": "19"
         }
       },
@@ -3235,7 +3235,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "27",
+      "totalStock": "26",
       "cost_ttc": 0.9999250000000002,
       "cost_ht": 0.9008333333333334,
       "cost_currency": "USD",
@@ -4608,9 +4608,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "44",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "33",
       "consumption_in_medawar_branch": "112",
-      "total_stock": "38",
+      "total_stock": "52",
       "total_consumption": "156",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -4626,7 +4626,7 @@
           "consumption": "44"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "33",
           "consumption": "112"
         }
       },
@@ -4636,16 +4636,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "38",
-      "cost_ttc": 0.5217,
-      "cost_ht": 0.47,
+      "totalStock": "52",
+      "cost_ttc": "0.5217",
+      "cost_ht": "0.4700",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783141060327",
       "latest_purchase_cost_date": "2026-07-04",
       "costHtUsd": 0.47,
       "cost_ht_usd": 0.47,
-      "costTtcUsd": 0.5217
+      "costTtcUsd": 0.5217,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.5217
     },
     {
       "id": "17238",
@@ -10468,6 +10479,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-08-14T06:15:42.284302Z",
+  "updatedAt": "2026-08-14T06:40:21.818121Z",
   "source": "sql-relay-web"
 }
