@@ -4818,14 +4818,14 @@
           "consumption": "21"
         },
         "Medawar": {
-          "stock": "33",
+          "stock": "31",
           "consumption": "23"
         }
       },
       "stock_in_geitawi_branch": "0",
-      "total_stock": "33",
+      "total_stock": "31",
       "cost": "0.83",
-      "stock_in_medawar_branch": "33",
+      "stock_in_medawar_branch": "31",
       "consumption_in_medawar_branch": "23",
       "consumption_in_geitawi_branch": "21",
       "total_consumption": "44",
@@ -4839,7 +4839,7 @@
       "Product Description": "ICE COFFE O.D.GOURMET MOCHACCINO 240",
       "subcategory": "cold coffee",
       "vat": "yes",
-      "totalStock": "33",
+      "totalStock": "31",
       "cost_ttc": 0.9250000000000002,
       "cost_ht": 0.8333333333333334,
       "cost_currency": "USD",
@@ -10432,7 +10432,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "41",
       "branches": {
         "Geitawi": {
@@ -10440,11 +10440,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "7",
           "consumption": "41"
         }
       },
-      "total_stock": "19",
+      "total_stock": "7",
       "total_consumption": "41",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -10452,9 +10452,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "19",
-      "cost_ttc": 2.2755000000000005,
-      "cost_ht": 2.0500000000000003,
+      "totalStock": "7",
+      "cost_ttc": "2.2755",
+      "cost_ht": "2.0500",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782485034104",
@@ -10472,8 +10472,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0
+      "cost_ttc_usd": 2.2755000000000005
     },
     {
       "id": "21705",
@@ -14088,7 +14087,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "21",
       "branches": {
         "Geitawi": {
@@ -14096,11 +14095,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "14",
           "consumption": "21"
         }
       },
-      "total_stock": "16",
+      "total_stock": "14",
       "total_consumption": "21",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -14108,16 +14107,27 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "16",
-      "cost_ttc": 2.5197000000000003,
-      "cost_ht": 2.27,
+      "totalStock": "14",
+      "cost_ttc": "2.5197",
+      "cost_ht": "2.2700",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781670476989",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 2.27,
       "cost_ht_usd": 2.27,
-      "costTtcUsd": 2.5197000000000003
+      "costTtcUsd": 2.5197000000000003,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 2.5197000000000003
     },
     {
       "id": "21762",
@@ -24790,6 +24800,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-08-14T06:27:07.892595Z",
+  "updatedAt": "2026-08-14T06:42:20.669598Z",
   "source": "sql-relay-web"
 }
