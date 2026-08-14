@@ -156,17 +156,17 @@
       "sub_category": "sweets",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "243",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "-193",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "50",
       "total_consumption": "0",
       "VAT": "YES",
-      "price_lbp": "115,000",
-      "price_usd": "1.28",
-      "cost": "1.26",
-      "cost_ht": "1.26",
+      "price_lbp": "125,000",
+      "price_usd": "1.39",
+      "cost": "1.08",
+      "cost_ht": 1.0833333333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000004.jpg",
       "new_items": "x",
       "manual": "",
@@ -178,11 +178,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "243",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "-193",
           "consumption": "0"
         }
       },
@@ -192,10 +192,16 @@
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
       "vat": "yes",
-      "totalStock": "2",
+      "totalStock": "50",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000004.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000004.jpg",
-      "image_updated_at_utc": "2026-06-22T07:27:44.537066Z"
+      "image_updated_at_utc": "2026-06-22T07:27:44.537066Z",
+      "cost_ttc": 1.0833333333333333,
+      "costTtcUsd": 1.0833333333333333,
+      "costHtUsd": 1.0833333333333333,
+      "cost_ht_usd": 1.0833333333333333,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "2000005",
@@ -959,17 +965,17 @@
       "sub_category": "sweets",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "9",
+      "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "22",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "9",
+      "total_stock": "57",
       "total_consumption": "22",
       "VAT": "YES",
-      "price_lbp": "115,000",
-      "price_usd": "1.28",
-      "cost": "1.06",
-      "cost_ht": 1.0625,
+      "price_lbp": "125,000",
+      "price_usd": "1.39",
+      "cost": "1.08",
+      "cost_ht": 1.0833333333333333,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000017.jpg",
       "new_items": "x",
       "manual": "",
@@ -981,25 +987,25 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "9",
+          "stock": "33",
           "consumption": "22"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "24",
           "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-2000017-1778368012032282",
       "product_setup_saved_at_utc": "2026-05-09T23:06:52.032282Z",
-      "totalStock": "9",
-      "cost_ttc": 1.179375,
+      "totalStock": "57",
+      "cost_ttc": 1.0833333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781865191248",
       "latest_purchase_cost_date": "2026-06-19",
-      "costHtUsd": 1.0625,
-      "cost_ht_usd": 1.0625,
-      "costTtcUsd": 1.179375,
+      "costHtUsd": 1.0833333333333333,
+      "cost_ht_usd": 1.0833333333333333,
+      "costTtcUsd": 1.0833333333333333,
       "vat": "yes"
     },
     {
@@ -1053,6 +1059,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-14T08:27:25.595285Z",
+  "updatedAt": "2026-08-14T08:36:47.844652Z",
   "source": "sql-relay-web"
 }
