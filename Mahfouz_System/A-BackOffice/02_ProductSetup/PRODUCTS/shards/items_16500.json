@@ -892,9 +892,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "144",
       "consumption_in_medawar_branch": "31",
-      "total_stock": "0",
+      "total_stock": "144",
       "total_consumption": "31",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -910,7 +910,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "144",
           "consumption": "31"
         },
         "The Daily Market": {
@@ -928,7 +928,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "144",
       "stock": "130",
       "branch_stock": {
         "Geitawi": {
@@ -947,15 +947,15 @@
       "updated_at_utc": "2026-05-31T17:54:29.153236Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "cost_ttc": 0.1665,
-      "cost_ht": 0.15,
+      "cost_ttc": 0.167425,
+      "cost_ht": 0.15083333333333332,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-05-MEDAWAR-14371",
       "latest_purchase_cost_date": "2026-05-05",
-      "costHtUsd": 0.15,
-      "cost_ht_usd": 0.15,
-      "costTtcUsd": 0.1665
+      "costHtUsd": 0.15083333333333332,
+      "cost_ht_usd": 0.15083333333333332,
+      "costTtcUsd": 0.167425
     },
     {
       "id": "16583",
@@ -968,14 +968,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "145",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "146",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "25,000",
       "price_usd": "0.28",
-      "cost": "0.18",
+      "cost": "0.15",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16583.jpg",
       "new_items": "",
       "manual": "",
@@ -986,7 +986,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "145",
           "consumption": "0"
         }
       },
@@ -1000,16 +1000,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": 0.1998,
-      "cost_ht": 0.18,
+      "totalStock": "146",
+      "cost_ttc": 0.167425,
+      "cost_ht": 0.15083333333333332,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-05-MEDAWAR-14384",
       "latest_purchase_cost_date": "2026-05-05",
-      "costHtUsd": 0.18,
-      "cost_ht_usd": 0.18,
-      "costTtcUsd": 0.1998
+      "costHtUsd": 0.15083333333333332,
+      "cost_ht_usd": 0.15083333333333332,
+      "costTtcUsd": 0.167425
     },
     {
       "id": "16598",
@@ -7841,6 +7841,6 @@
       "consumption_in_nouna_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-14T06:56:06.875169Z",
+  "updatedAt": "2026-08-14T07:02:03.128043Z",
   "source": "sql-relay-web"
 }
