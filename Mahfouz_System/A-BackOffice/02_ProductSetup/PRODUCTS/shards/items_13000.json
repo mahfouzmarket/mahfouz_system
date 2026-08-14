@@ -1783,9 +1783,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "21",
-      "stock_in_medawar_branch": "29",
+      "stock_in_medawar_branch": "28",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "30",
+      "total_stock": "29",
       "total_consumption": "21",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -1801,7 +1801,7 @@
           "consumption": "21"
         },
         "Medawar": {
-          "stock": "29",
+          "stock": "28",
           "consumption": "0"
         }
       },
@@ -1811,16 +1811,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "30",
-      "cost_ttc": 0.9361,
-      "cost_ht": 0.8433333333333333,
+      "totalStock": "29",
+      "cost_ttc": "0.9361",
+      "cost_ht": "0.8433",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780989191416",
       "latest_purchase_cost_date": "2026-06-09",
       "costHtUsd": 0.8433333333333333,
       "cost_ht_usd": 0.8433333333333333,
-      "costTtcUsd": 0.9361
+      "costTtcUsd": 0.9361,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.9361
     },
     {
       "id": "13121",
@@ -2166,9 +2177,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "80",
-      "stock_in_medawar_branch": "147",
+      "stock_in_medawar_branch": "143",
       "consumption_in_medawar_branch": "50",
-      "total_stock": "148",
+      "total_stock": "144",
       "total_consumption": "130",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -2184,7 +2195,7 @@
           "consumption": "80"
         },
         "Medawar": {
-          "stock": "147",
+          "stock": "143",
           "consumption": "50"
         }
       },
@@ -2194,7 +2205,7 @@
       "vat": "yes",
       "barcode2": "6294017120781",
       "barcodes": "6294017120781",
-      "totalStock": "148",
+      "totalStock": "144",
       "cost_ttc": 0.164835,
       "cost_ht": 0.1485,
       "cost_currency": "USD",
@@ -7080,9 +7091,9 @@
       "expiry_days": "365",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "28",
-      "stock_in_medawar_branch": "43",
+      "stock_in_medawar_branch": "41",
       "consumption_in_medawar_branch": "72",
-      "total_stock": "43",
+      "total_stock": "41",
       "total_consumption": "100",
       "VAT": "YES",
       "price_lbp": "140,000",
@@ -7104,7 +7115,7 @@
           "consumption": "28"
         },
         "Medawar": {
-          "stock": "43",
+          "stock": "41",
           "consumption": "72"
         }
       },
@@ -7117,7 +7128,7 @@
       "supplier": "WES3 EL MADA",
       "subcategory": "KLATCHI",
       "vat": "yes",
-      "totalStock": "43",
+      "totalStock": "41",
       "cost_ttc": 0.8880000000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -7147,9 +7158,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "18",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "23",
       "consumption_in_medawar_branch": "46",
-      "total_stock": "31",
+      "total_stock": "30",
       "total_consumption": "64",
       "VAT": "NO",
       "price_lbp": "130,000",
@@ -7165,7 +7176,7 @@
           "consumption": "18"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "23",
           "consumption": "46"
         }
       },
@@ -7184,7 +7195,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13477-1779520248711904",
       "product_setup_saved_at_utc": "2026-05-23T07:10:48.711904Z",
-      "totalStock": "31",
+      "totalStock": "30",
       "cost_ttc": 0.86,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -7736,6 +7747,6 @@
       "costTtcUsd": 0.09885937500000001
     }
   ],
-  "updatedAt": "2026-08-14T06:04:22.086989Z",
+  "updatedAt": "2026-08-14T06:12:26.511777Z",
   "source": "sql-relay-web"
 }
