@@ -5596,7 +5596,7 @@
       "id": "15438",
       "barcode": "2700052",
       "barcodes": "",
-      "Product Description": "TAANAYE LES FERMESL HALLOUM CHEESE LIGHT",
+      "Product Description": "TAANAYE LES FERMESL HALLOUM CHEESE light",
       "product_description": "TAANAYE LES FERMESL HALLOUM CHEESE LIGHT",
       "description": "TAANAYE LES FERMESL HALLOUM CHEESE LIGHT",
       "brand": "",
@@ -5662,7 +5662,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 13.0,
+      "cost_ht": "13.0000",
       "costUsd": 11.81,
       "cost_ht_usd": 13.0,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -5683,18 +5683,17 @@
       "description_ar": "",
       "non_stockable": false,
       "nonStockable": false,
-      "scale_item_enabled": false,
-      "scaleItemEnabled": false,
-      "scale_code": "",
-      "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
+      "scale_item_enabled": true,
+      "scaleItemEnabled": true,
+      "scale_code": "2700052",
+      "scaleCode": "2700052",
       "totalStock": "2.45",
-      "cost_ttc": 13.0,
+      "cost_ttc": "13.0000",
       "costTtcUsd": 13.0,
       "costHtUsd": 13.0,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "cost_ttc_usd": 13.0
     },
     {
       "id": "15442",
@@ -5765,9 +5764,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "8.942",
       "consumption_in_geitawi_branch": "5.1",
-      "stock_in_medawar_branch": "1.395",
+      "stock_in_medawar_branch": "0.975",
       "consumption_in_medawar_branch": "3.8",
-      "total_stock": "10.337",
+      "total_stock": "9.917",
       "total_consumption": "8.9",
       "VAT": "NO",
       "price_lbp": "1,590,000",
@@ -5783,7 +5782,7 @@
           "consumption": "5.1"
         },
         "Medawar": {
-          "stock": "1.395",
+          "stock": "0.975",
           "consumption": "3.8"
         }
       },
@@ -5802,7 +5801,7 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-15443-1778922334416031",
       "product_setup_saved_at_utc": "2026-05-16T09:05:34.416031Z",
-      "totalStock": "10.337",
+      "totalStock": "9.917",
       "cost_ttc": 12.0,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -6784,6 +6783,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-14T08:47:32.616634Z",
+  "updatedAt": "2026-08-14T09:04:55.004217Z",
   "source": "sql-relay-web"
 }
