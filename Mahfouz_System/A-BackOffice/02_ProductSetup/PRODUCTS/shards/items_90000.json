@@ -1281,7 +1281,7 @@
       "barcodes": "",
       "Product Description": "Pistachio Eclair",
       "product_description": "Pistachio Eclair",
-      "category": "ECLAIR",
+      "category": "NOUNA'S FOOD",
       "sub_category": "ECLAIR",
       "offers": "",
       "stock_in_geitawi_branch": "3",
@@ -1320,14 +1320,14 @@
       "totalStock": "11",
       "stock_in_nouna_branch": "8",
       "cost_ttc": "2.3611",
-      "cost_ht": "2.36",
+      "cost_ht": "2.3611",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001322-80-N-win_no-1783346987071362",
       "latest_purchase_cost_date": "2026-07-06",
-      "costHtUsd": 2.361111,
-      "cost_ht_usd": 2.361111,
-      "costTtcUsd": 2.361111,
+      "costHtUsd": 2.361111111111111,
+      "cost_ht_usd": 2.361111111111111,
+      "costTtcUsd": 2.361111111111111,
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -1340,8 +1340,6 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
       "linked_profile_category": "ECLAIR",
       "linked_profile_sub_category": "ECLAIR",
       "consumption_in_nouna_branch": "0",
@@ -1350,7 +1348,8 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "ECLAIR",
       "priceLbp": 250000,
-      "expiryDays": 4
+      "expiryDays": 4,
+      "cost_ttc_usd": 2.361111111111111
     },
     {
       "id": "90072",
@@ -5167,7 +5166,7 @@
       "Product Description": "TANNOURINE WATER 0.5",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
-      "category": "COLD DRINKS",
+      "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
       "stock_in_geitawi_branch": "1699",
@@ -5219,8 +5218,8 @@
       "stock_in_nouna_branch": "17513",
       "updated_at_utc": "2026-06-30T13:30:05.344Z",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": 0.14874,
-      "cost_ht": 0.134,
+      "cost_ttc": "0.1487",
+      "cost_ht": "0.1340",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782881620822",
@@ -5237,10 +5236,9 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
       "linked_profile_local_description_only": true,
-      "priceLbp": 25000
+      "priceLbp": 25000,
+      "cost_ttc_usd": 0.14874
     },
     {
       "id": "90153",
@@ -8820,6 +8818,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-15T17:28:20.372609Z",
+  "updatedAt": "2026-08-15T17:38:12.760646Z",
   "source": "sql-relay-web"
 }
