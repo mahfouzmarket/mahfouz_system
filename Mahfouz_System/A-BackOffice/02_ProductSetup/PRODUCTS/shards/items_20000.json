@@ -6487,9 +6487,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "125,000",
@@ -6505,7 +6505,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         }
       },
@@ -6519,7 +6519,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 14.685300000000002,
       "cost_ht": 13.23,
       "cost_currency": "USD",
@@ -14936,11 +14936,11 @@
       "category": "CIGARETTES",
       "sub_category": "TANBAK",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "10",
       "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "13",
+      "total_stock": "11",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -14952,7 +14952,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "3",
           "consumption": "10"
         },
         "Medawar": {
@@ -14969,7 +14969,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
+      "totalStock": "11",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -23494,6 +23494,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-15T17:47:07.839501Z",
+  "updatedAt": "2026-08-15T18:00:50.558329Z",
   "source": "sql-relay-web"
 }
