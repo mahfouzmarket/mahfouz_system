@@ -3001,17 +3001,17 @@
       "sub_category": "VEGETABLES",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2",
+      "total_stock": "0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "80,000",
       "price_usd": "0.89",
       "cost": "0.44",
-      "cost_ht": 0.444444444444444,
+      "cost_ht": "0.4444",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300061.jpg",
       "new_items": "x",
       "manual": "",
@@ -3023,7 +3023,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -3042,12 +3042,20 @@
       "description_ar": "كيل",
       "non_stockable": false,
       "nonStockable": false,
-      "totalStock": "2",
-      "cost_ttc": 0.444444444444444,
-      "cost_currency": "LBP",
-      "cost_vat_included": 0,
+      "totalStock": "0",
+      "cost_ttc": "0.4444",
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779082488298",
-      "latest_purchase_cost_date": "2026-05-18"
+      "latest_purchase_cost_date": "2026-05-18",
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "costTtcUsd": 0.4444444444444444,
+      "costHtUsd": 0.4444444444444444,
+      "cost_ht_usd": 0.4444444444444444,
+      "cost_ttc_usd": 0.4444444444444444
     },
     {
       "id": "300062",
@@ -27670,6 +27678,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-15T21:17:45.364934Z",
+  "updatedAt": "2026-08-15T21:34:56.945886Z",
   "source": "sql-relay-web"
 }
