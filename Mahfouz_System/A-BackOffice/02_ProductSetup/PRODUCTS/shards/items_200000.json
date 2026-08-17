@@ -2444,7 +2444,7 @@
       "consumption_in_geitawi_branch": "18",
       "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "133",
+      "total_stock": "131",
       "total_consumption": "20",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -2472,6 +2472,9 @@
         "Nouna": {
           "stock": "69",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "-2"
         }
       },
       "product_setup_save_token": "PS-SAVE-2709442-1778303332262468",
@@ -2484,7 +2487,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "133",
+      "totalStock": "131",
       "user2_unify_old_id": "2709442",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
@@ -2503,7 +2506,8 @@
       "cost_ht_usd": 1.89,
       "costTtcUsd": 1.888889,
       "consumption_in_nouna_branch": "0",
-      "priceLbp": 200000
+      "priceLbp": 200000,
+      "stock_in_firas_branch": "-2"
     },
     {
       "id": "200035",
@@ -3505,6 +3509,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-08-17T18:51:09.896324Z",
+  "updatedAt": "2026-08-17T19:50:18.074672Z",
   "source": "sql-relay-web"
 }
