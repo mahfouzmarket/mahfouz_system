@@ -3426,7 +3426,7 @@
       "consumption_in_geitawi_branch": "10",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "16",
+      "total_stock": "-12",
       "total_consumption": "14",
       "VAT": "NO",
       "price_lbp": "350,000",
@@ -3446,8 +3446,11 @@
           "consumption": "4"
         },
         "Nouna": {
-          "stock": "10",
+          "stock": "-18",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "sub": "READY TO EAT",
@@ -3467,7 +3470,7 @@
       "name": "CLUB SANDWICH TUNA",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "16",
+      "totalStock": "-12",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17705.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17705.jpg",
       "image_updated_at_utc": "2026-06-29T15:17:41.189484Z",
@@ -3476,7 +3479,7 @@
       "description": "CLUB SANDWICH TUNA",
       "expiryDays": 3,
       "subCategory": "READY TO EAT",
-      "stock_in_nouna_branch": "10",
+      "stock_in_nouna_branch": "-18",
       "cost_ttc": 2.63,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -3485,7 +3488,8 @@
       "costHtUsd": 2.63,
       "cost_ht_usd": 2.63,
       "costTtcUsd": 2.63,
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "17706",
@@ -3533,9 +3537,9 @@
       "barcodes": "",
       "expiry_days": "4",
       "cost_ht": 3.69,
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "17706",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "name": "CLUB SANDWICH SUBMARINE",
@@ -3580,9 +3584,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "linked_profile_enabled": false,
-      "linked_profile_repo_root": "",
-      "linked_profile_item_id": "",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "17707",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "branches": {
@@ -4731,7 +4735,7 @@
       "consumption_in_geitawi_branch": "22",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "45",
+      "total_stock": "-49",
       "total_consumption": "22",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -4751,8 +4755,11 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "30",
+          "stock": "-64",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "linked_profile_category": "CAKES BY PIECE",
@@ -4768,8 +4775,8 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "SWEET & CANDIES",
       "vat": "no",
-      "totalStock": "45",
-      "stock_in_nouna_branch": "30",
+      "totalStock": "-49",
+      "stock_in_nouna_branch": "-64",
       "secondBarcode": "",
       "product_description": "ORANGE CAKE",
       "description": "ORANGE CAKE",
@@ -4783,7 +4790,8 @@
       "latest_purchase_cost_date": "2026-07-02",
       "costHtUsd": 0.57,
       "cost_ht_usd": 0.57,
-      "costTtcUsd": 0.57
+      "costTtcUsd": 0.57,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "17761",
@@ -8169,6 +8177,6 @@
       "totalStock": "2"
     }
   ],
-  "updatedAt": "2026-08-18T06:14:49.151912Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
