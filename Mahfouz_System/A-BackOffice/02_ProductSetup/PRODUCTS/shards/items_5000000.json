@@ -35,9 +35,14 @@
       "linked_profile_item_id": "5000002",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHOCOLATE AND DRAGEE",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "2",
       "branches": {
+        "Nouna": {
+          "stock": "2"
+        },
+        "Firas": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -45,8 +50,11 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "2",
+      "totalStock": "2",
+      "stock_in_firas_branch": "0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "5000004",
@@ -100,16 +108,24 @@
       "cost_vat_included": false,
       "total_stock": "0",
       "totalStock": "0",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "0",
       "branches": {
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
         "Medawar": {
           "stock": "0"
         }
-      }
+      },
+      "stock_in_firas_branch": "0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "5000008",
@@ -124,7 +140,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "7",
+      "total_stock": "-70",
       "total_consumption": "1",
       "vat": "no",
       "price_lbp": "500,000",
@@ -149,11 +165,14 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "4",
+          "stock": "-73",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
-      "totalStock": "7",
+      "totalStock": "-70",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -169,7 +188,7 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "cost_ht": 4.722222,
-      "stock_in_nouna_branch": "4",
+      "stock_in_nouna_branch": "-73",
       "cost_ttc": 4.722222,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -179,7 +198,8 @@
       "cost_ht_usd": 4.722222,
       "costTtcUsd": 4.722222,
       "consumption_in_nouna_branch": "0",
-      "description": "BROWNIE TIRAMISU"
+      "description": "BROWNIE TIRAMISU",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "5000009",
@@ -213,9 +233,14 @@
       "linked_profile_item_id": "5000009",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "NOUNA'S FOOD",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "0",
       "branches": {
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -224,7 +249,10 @@
         }
       },
       "total_stock": "0",
-      "totalStock": "0"
+      "totalStock": "0",
+      "stock_in_firas_branch": "0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "5000010",
@@ -280,6 +308,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-18T06:19:46.107439Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
