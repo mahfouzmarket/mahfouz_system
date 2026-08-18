@@ -20390,18 +20390,18 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "62",
+          "stock": "102",
           "consumption": "187"
         },
         "Medawar": {
-          "stock": "148",
+          "stock": "108",
           "consumption": "96"
         }
       },
-      "stock_in_geitawi_branch": "62",
+      "stock_in_geitawi_branch": "102",
       "total_stock": "210",
       "cost": "0.32",
-      "stock_in_medawar_branch": "148",
+      "stock_in_medawar_branch": "108",
       "Product Description": "CHOCO PRINCE 25 G ()",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
@@ -20535,6 +20535,9 @@
         "Nouna": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "stock_in_geitawi_branch": "1",
@@ -20570,7 +20573,8 @@
       "latest_purchase_cost_date": "2026-05-31",
       "costHtUsd": 3.7037,
       "cost_ht_usd": 3.7037,
-      "costTtcUsd": 3.7037
+      "costTtcUsd": 3.7037,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21880",
@@ -20606,6 +20610,9 @@
         "Nouna": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "stock_in_geitawi_branch": "2",
@@ -20643,7 +20650,8 @@
       "latest_purchase_cost_date": "2026-05-31",
       "costHtUsd": 3.7777777777777777,
       "cost_ht_usd": 3.7777777777777777,
-      "costTtcUsd": 3.7777777777777777
+      "costTtcUsd": 3.7777777777777777,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21881",
@@ -20924,6 +20932,9 @@
         "Nouna": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "stock_in_geitawi_branch": "1",
@@ -20959,7 +20970,8 @@
       "latest_purchase_cost_date": "2026-05-31",
       "costHtUsd": 3.7037,
       "cost_ht_usd": 3.7037,
-      "costTtcUsd": 3.7037
+      "costTtcUsd": 3.7037,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21887",
@@ -20995,6 +21007,9 @@
         "Nouna": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "stock_in_geitawi_branch": "2",
@@ -21032,7 +21047,8 @@
       "latest_purchase_cost_date": "2026-05-31",
       "costHtUsd": 3.4,
       "cost_ht_usd": 3.4,
-      "costTtcUsd": 3.4
+      "costTtcUsd": 3.4,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21888",
@@ -21435,6 +21451,12 @@
         "Medawar": {
           "stock": "5",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "subCategory": "NOUNA'S FOOD",
@@ -21472,7 +21494,9 @@
       "cost_ht_usd": 0.9444444444444444,
       "totalStock": "5",
       "product_description": "SMARTIES BAG NT 35 G",
-      "description": "SMARTIES BAG NT 35 G"
+      "description": "SMARTIES BAG NT 35 G",
+      "stock_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21903",
@@ -21562,7 +21586,7 @@
       "stock_in_geitawi_branch": "-11",
       "consumption_in_medawar_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "-8",
+      "total_stock": "-19",
       "total_consumption": "2",
       "branches": {
         "Geitawi": {
@@ -21574,8 +21598,11 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "2",
+          "stock": "-9",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "subCategory": "NOUNA'S FOOD",
@@ -21592,7 +21619,7 @@
       "new_items": "",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "-8",
+      "totalStock": "-19",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -21604,7 +21631,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "-9",
       "secondBarcode": "",
       "product_description": "CANDIES BAG NT 30G",
       "description": "CANDIES BAG NT 30G",
@@ -21617,7 +21644,8 @@
       "costHtUsd": 0.4722222222222222,
       "cost_ht_usd": 0.4722222222222222,
       "costTtcUsd": 0.4722222222222222,
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21905",
@@ -24699,7 +24727,10 @@
       "stock_in_nouna_branch": "0",
       "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
       "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override",
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "200018"
     },
     {
       "id": "21999",
@@ -24800,6 +24831,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-08-18T06:14:49.151912Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
