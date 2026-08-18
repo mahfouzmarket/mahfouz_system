@@ -40,6 +40,12 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "name": "NF PISTACHIO CUP",
@@ -71,7 +77,9 @@
       "cost_ht_usd": 4.722222222222222,
       "totalStock": "1",
       "product_description": "PISTACHIO CUP",
-      "description": "PISTACHIO CUP"
+      "description": "PISTACHIO CUP",
+      "stock_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "2000003",
@@ -89,7 +97,7 @@
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "6",
       "VAT": "NO",
       "price_lbp": "140,000",
@@ -113,6 +121,12 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Nouna": {
+          "stock": "-1"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "name": "JELO LIGHT",
@@ -142,7 +156,9 @@
       "costTtcUsd": 1.3222222222222222,
       "costHtUsd": 1.3222222222222222,
       "cost_ht_usd": 1.3222222222222222,
-      "totalStock": "2"
+      "totalStock": "1",
+      "stock_in_nouna_branch": "-1",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "2000004",
@@ -569,9 +585,9 @@
       "sub_category": "PRINGLES",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "-3",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "23",
-      "stock_in_medawar_branch": "21",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "18",
       "total_stock": "18",
       "total_consumption": "41",
@@ -591,11 +607,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "-3",
+          "stock": "3",
           "consumption": "23"
         },
         "Medawar": {
-          "stock": "21",
+          "stock": "15",
           "consumption": "18"
         }
       },
@@ -1059,6 +1075,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-18T06:14:49.151912Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
