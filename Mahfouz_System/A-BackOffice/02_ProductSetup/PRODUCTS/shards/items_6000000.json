@@ -6,7 +6,7 @@
       "stock_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "7",
+      "total_stock": "6",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -18,7 +18,10 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "5"
+          "stock": "4"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "barcode": "2709419",
@@ -72,10 +75,11 @@
       "costTtcUsd": 4.25,
       "costHtUsd": 4.25,
       "cost_ht_usd": 4.25,
-      "totalStock": "7",
-      "stock_in_nouna_branch": "5",
+      "totalStock": "6",
+      "stock_in_nouna_branch": "4",
       "product_description": "MARBLE CAKE",
-      "description": "MARBLE CAKE"
+      "description": "MARBLE CAKE",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "6000002",
@@ -351,7 +355,7 @@
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "8",
+      "total_stock": "6",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "297,000",
@@ -377,8 +381,11 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "6",
+          "stock": "4",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-6000007-1778678125006713",
@@ -391,13 +398,13 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "8",
+      "totalStock": "6",
       "secondBarcode": "",
       "product_description": "CLUB SANDWICH TURKEY&CHEESE BROWN",
       "description": "CLUB SANDWICH TURKEY&CHEESE BROWN",
       "expiryDays": 4,
       "subCategory": "READY TO EAT",
-      "stock_in_nouna_branch": "6",
+      "stock_in_nouna_branch": "4",
       "priceLbp": 297000,
       "cost_ttc": 2.805,
       "cost_currency": "USD",
@@ -406,7 +413,8 @@
       "latest_purchase_cost_date": "2026-06-08",
       "costHtUsd": 2.805,
       "cost_ht_usd": 2.805,
-      "costTtcUsd": 2.805
+      "costTtcUsd": 2.805,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "6000011",
@@ -443,9 +451,14 @@
       "linked_profile_item_id": "6000011",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "FATHER'S DAY",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "0",
       "branches": {
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -454,9 +467,12 @@
         }
       },
       "total_stock": "0",
-      "totalStock": "0"
+      "totalStock": "0",
+      "stock_in_firas_branch": "0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-18T06:19:46.648395Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
