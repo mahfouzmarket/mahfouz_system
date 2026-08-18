@@ -3489,9 +3489,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "111",
+      "total_stock": "104",
       "total_consumption": "5",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -3507,7 +3507,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "3",
           "consumption": "1"
         },
         "Nouna": {
@@ -3525,7 +3525,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "111",
+      "totalStock": "104",
       "stock_in_nouna_branch": "87",
       "secondBarcode": "",
       "product_description": "SABLE 1 PC",
@@ -3539,18 +3539,28 @@
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "NOUNA'S FOOD",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": 1.888889,
-      "cost_ht": "1.78",
+      "cost_ttc": "1.7778",
+      "cost_ht": "1.7778",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_MEDAWAR_00001303-70-N-win_no-1783328328449579",
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 1.777777777777778,
       "cost_ht_usd": 1.777777777777778,
-      "costTtcUsd": 1.888889,
+      "costTtcUsd": 1.777777777777778,
       "stock_in_firas_branch": "10",
       "consumption_in_firas_branch": "0",
-      "priceLbp": 200000
+      "priceLbp": 200000,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.777777777777778
     },
     {
       "id": "18662",
@@ -11277,6 +11287,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-08-18T15:07:22.793781Z",
+  "updatedAt": "2026-08-18T15:10:16.761412Z",
   "source": "sql-relay-web"
 }
