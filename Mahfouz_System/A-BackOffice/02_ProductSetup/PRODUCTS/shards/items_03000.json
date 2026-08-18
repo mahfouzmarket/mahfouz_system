@@ -961,8 +961,8 @@
       "Product Description": "YUMMY GUMMY 70 GR",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
-      "category": "NOUNA'S FOOD",
-      "sub_category": "SWEET & CANDIES",
+      "category": "CANDIES",
+      "sub_category": "CANDIES",
       "offers": "0",
       "expiry_days": "180",
       "stock_in_geitawi_branch": "15",
@@ -975,7 +975,7 @@
       "price_lbp": "120,000",
       "price_usd": "1.33",
       "cost": "0.95",
-      "cost_ht": "0.9500",
+      "cost_ht": "0.95",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3284.jpg",
       "new_items": "",
       "manual": "",
@@ -1006,7 +1006,7 @@
       "product_setup_saved_at_utc": "2026-05-09T22:18:14.092752Z",
       "name": "YUMMY GUMMY 70 GR",
       "supplier": "NOUNA'S FOOD",
-      "subcategory": "SWEET & CANDIES",
+      "subcategory": "CANDIES",
       "vat": "no",
       "totalStock": "387",
       "stock_in_nouna_branch": "360",
@@ -1034,7 +1034,20 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 0.95
+      "cost_ttc_usd": 0.95,
+      "priceLbp": 120000,
+      "toters": {
+        "enabled": true,
+        "order": 45,
+        "priceMultiplier": 0.9975,
+        "priceUsd": 1.33,
+        "originalPriceLbpAtUpdate": 120000,
+        "fxAtUpdate": 90000.0,
+        "category": "Candies",
+        "addOns": "None",
+        "sourceTemplateName": "Yummy Gummy 70 g",
+        "updatedAtUtc": "2026-08-18T21:48:54.556764Z"
+      }
     },
     {
       "id": "3309",
@@ -1549,6 +1562,6 @@
       "costTtcUsd": 0.183342708333333
     }
   ],
-  "updatedAt": "2026-08-18T21:39:22.649483Z",
+  "updatedAt": "2026-08-18T21:49:02.924063Z",
   "source": "sql-relay-web"
 }
