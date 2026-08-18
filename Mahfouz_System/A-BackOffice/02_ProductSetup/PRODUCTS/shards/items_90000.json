@@ -1002,7 +1002,7 @@
       "stock_in_medawar_branch": "2",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "8",
+      "total_stock": "12",
       "total_consumption": "0.0",
       "vat": "no",
       "price_lbp": "350,000",
@@ -1027,13 +1027,16 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "6",
+          "stock": "10",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
-      "totalStock": "8",
+      "totalStock": "12",
       "priceLbp": 350000,
-      "stock_in_nouna_branch": "6",
+      "stock_in_nouna_branch": "10",
       "cost_ttc": 3.3065,
       "cost_ht": 3.3065,
       "cost_currency": "USD",
@@ -1043,6 +1046,7 @@
       "costHtUsd": 3.3065,
       "cost_ht_usd": 3.3065,
       "costTtcUsd": 3.3065,
+      "stock_in_firas_branch": "0",
       "VAT": "NO"
     },
     {
@@ -2783,7 +2787,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "5",
       "total_consumption": "6",
       "vat": "no",
       "price_lbp": "400,000",
@@ -2808,12 +2812,15 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "6",
+          "stock": "11",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
-      "totalStock": "0",
-      "stock_in_nouna_branch": "6",
+      "totalStock": "5",
+      "stock_in_nouna_branch": "11",
       "priceLbp": 400000,
       "expiry_days": "5",
       "expiryDays": 5,
@@ -2830,6 +2837,7 @@
       "cost_ht_usd": 3.777778,
       "costTtcUsd": 3.777778,
       "consumption_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0",
       "VAT": "NO"
     },
     {
@@ -6746,6 +6754,9 @@
         "Nouna": {
           "stock": "0",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "name": "NF NUTS MIX",
@@ -6768,7 +6779,8 @@
       "costHtUsd": 6.137,
       "cost_ht_usd": 6.137,
       "costTtcUsd": 6.137,
-      "description": "NUTS MIX"
+      "description": "NUTS MIX",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "90227",
@@ -9782,6 +9794,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-18T07:50:54.073575Z",
+  "updatedAt": "2026-08-18T07:53:54.038310Z",
   "source": "sql-relay-web"
 }
