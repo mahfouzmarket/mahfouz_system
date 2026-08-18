@@ -967,15 +967,15 @@
       "expiry_days": "180",
       "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "20",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "11",
-      "total_stock": "394",
+      "total_stock": "388",
       "total_consumption": "31",
       "VAT": "NO",
       "price_lbp": "120,000",
       "price_usd": "1.33",
       "cost": "0.95",
-      "cost_ht": 0.95,
+      "cost_ht": "0.9500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID3284.jpg",
       "new_items": "",
       "manual": "",
@@ -991,7 +991,7 @@
           "consumption": "20"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "12",
           "consumption": "11"
         },
         "Nouna": {
@@ -1008,7 +1008,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "SWEET & CANDIES",
       "vat": "no",
-      "totalStock": "394",
+      "totalStock": "388",
       "stock_in_nouna_branch": "360",
       "secondBarcode": "5285027000577",
       "product_description": "YUMMY GUMMY 70 GR",
@@ -1016,7 +1016,7 @@
       "expiryDays": 180,
       "subCategory": "SWEET & CANDIES",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": 0.95,
+      "cost_ttc": "0.9500",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_MEDAWAR_00001337-70-N-win_no-1783409951696571",
@@ -1024,7 +1024,17 @@
       "costHtUsd": 0.95,
       "cost_ht_usd": 0.95,
       "costTtcUsd": 0.95,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.95
     },
     {
       "id": "3309",
@@ -1539,6 +1549,6 @@
       "costTtcUsd": 0.183342708333333
     }
   ],
-  "updatedAt": "2026-08-18T14:51:02.690543Z",
+  "updatedAt": "2026-08-18T15:13:11.663860Z",
   "source": "sql-relay-web"
 }
