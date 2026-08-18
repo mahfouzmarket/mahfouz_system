@@ -322,7 +322,7 @@
       "unit": "",
       "cost": "2.37",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-2",
+      "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "shortcut_category": "",
@@ -342,15 +342,15 @@
       "vat": "no",
       "priceLbp": 250000.0,
       "priceUsd": 2.7777777777777777,
-      "stock_in_nouna_branch": "-12",
+      "stock_in_nouna_branch": "-14",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
         "Nouna": {
-          "stock": "-12",
+          "stock": "-14",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "0"
         },
         "Geitawi": {
@@ -458,7 +458,7 @@
     },
     {
       "id": "2709428",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "3",
       "consumption_in_geitawi_branch": "11",
@@ -470,11 +470,11 @@
           "consumption": "11"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "0",
           "consumption": "3"
         },
         "Nouna": {
-          "stock": "-124",
+          "stock": "-121",
           "consumption": "0"
         },
         "Firas": {
@@ -519,7 +519,7 @@
       "description": "CHOCOLATE MOUSSE CUP",
       "expiryDays": 5,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "-124",
+      "stock_in_nouna_branch": "-121",
       "cost_ttc": 2.361111111111111,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -546,7 +546,7 @@
       "expiry_days": "5",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "37",
       "total_consumption": "0",
@@ -570,11 +570,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "36",
+          "stock": "37",
           "consumption": "0"
         },
         "Firas": {
@@ -595,7 +595,7 @@
       "description": "STRAWBERRY MOUSE CUP",
       "expiryDays": 5,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "36",
+      "stock_in_nouna_branch": "37",
       "cost_ttc": 2.361111111111111,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -609,7 +609,7 @@
     },
     {
       "id": "2709437",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "1",
       "consumption_in_geitawi_branch": "0",
@@ -621,11 +621,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         },
         "Firas": {
@@ -674,7 +674,7 @@
       "description": "LEMON FOUL CUP",
       "expiryDays": 0,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "-1",
       "totalStock": "-1",
       "stock_in_firas_branch": "0"
     },
@@ -925,6 +925,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-18T12:48:36.165783Z",
+  "updatedAt": "2026-08-18T15:48:00.038524Z",
   "source": "sql-relay-web"
 }
