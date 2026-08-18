@@ -16,6 +16,12 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "barcode": "2709411",
@@ -71,7 +77,9 @@
       "cost_ht_usd": 5.666666666666667,
       "totalStock": "1",
       "product_description": "NUTELLA PISTACHIO COOKIE NT 200 G",
-      "description": "NUTELLA PISTACHIO COOKIE NT 200 G"
+      "description": "NUTELLA PISTACHIO COOKIE NT 200 G",
+      "stock_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "500002",
@@ -2031,7 +2039,7 @@
       "delivery_rules": "0.005",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
-      "linked_profile_item_id": "",
+      "linked_profile_item_id": "500056",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "READY TO EAT",
       "branches": {
@@ -5548,6 +5556,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-18T06:10:39.696745Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
