@@ -34,9 +34,14 @@
       "linked_profile_item_id": "90174",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "BROWNIES",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "0",
       "branches": {
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -45,9 +50,12 @@
         }
       },
       "total_stock": "0",
-      "totalStock": "0"
+      "totalStock": "0",
+      "stock_in_firas_branch": "0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-14T09:01:29.846722Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
