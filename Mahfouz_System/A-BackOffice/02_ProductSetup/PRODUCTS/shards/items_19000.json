@@ -5779,7 +5779,7 @@
       "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "8",
+      "total_stock": "15",
       "total_consumption": "3",
       "VAT": "NO",
       "price_lbp": "550,000",
@@ -5799,8 +5799,11 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "5",
+          "stock": "12",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "sub": "READY TO EAT",
@@ -5820,7 +5823,7 @@
       "name": "FAHITA SANDWICH WHITE",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "8",
+      "totalStock": "15",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -5832,7 +5835,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "stock_in_nouna_branch": "5",
+      "stock_in_nouna_branch": "12",
       "cost_ttc": 5.194444,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -5841,7 +5844,8 @@
       "costHtUsd": 5.194444,
       "cost_ht_usd": 5.194444,
       "costTtcUsd": 5.194444,
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "19223",
@@ -7143,18 +7147,18 @@
         "Firas": {
           "stock": "0"
         },
-        "Geitawi": {
+        "Medawar": {
           "stock": "0"
         },
-        "Medawar": {
+        "Geitawi": {
           "stock": "0"
         }
       },
       "total_stock": "0",
       "totalStock": "0",
       "stock_in_firas_branch": "0",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0"
+      "stock_in_medawar_branch": "0",
+      "stock_in_geitawi_branch": "0"
     },
     {
       "id": "19282",
@@ -10389,6 +10393,12 @@
         "Medawar": {
           "stock": "0",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "linked_profile_item_id": "19428",
@@ -10429,7 +10439,9 @@
       "cost_ht_usd": 4.72222222222222,
       "costTtcUsd": 4.72222222222222,
       "product_description": "TIRAMISU",
-      "description": "TIRAMISU"
+      "description": "TIRAMISU",
+      "stock_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "19436",
@@ -12372,6 +12384,6 @@
       "costTtcUsd": 1.1174
     }
   ],
-  "updatedAt": "2026-08-18T06:27:44.527755Z",
+  "updatedAt": "2026-08-18T06:30:38.696793Z",
   "source": "sql-relay-web"
 }
