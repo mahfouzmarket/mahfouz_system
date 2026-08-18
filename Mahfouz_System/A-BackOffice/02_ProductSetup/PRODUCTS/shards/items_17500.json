@@ -3504,7 +3504,7 @@
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "13",
+      "total_stock": "10",
       "total_consumption": "8",
       "VAT": "NO",
       "price_lbp": "350,000",
@@ -3524,8 +3524,11 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "12",
+          "stock": "9",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "sub": "READY TO EAT",
@@ -3545,8 +3548,8 @@
       "name": "CLUB SANDWICH SUBMARINE",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "13",
-      "stock_in_nouna_branch": "12",
+      "totalStock": "10",
+      "stock_in_nouna_branch": "9",
       "cost_ttc": 3.69,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -3555,7 +3558,8 @@
       "costHtUsd": 3.69,
       "cost_ht_usd": 3.69,
       "costTtcUsd": 3.69,
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "17707",
@@ -3573,7 +3577,7 @@
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "12",
+      "total_stock": "3",
       "total_consumption": "10",
       "VAT": "NO",
       "price_lbp": "300,000",
@@ -3599,14 +3603,17 @@
           "consumption": "2"
         },
         "Nouna": {
-          "stock": "10",
+          "stock": "1",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-17707-1778492507581033",
       "product_setup_saved_at_utc": "2026-05-11T09:41:47.581033Z",
-      "totalStock": "12",
-      "stock_in_nouna_branch": "10",
+      "totalStock": "3",
+      "stock_in_nouna_branch": "1",
       "cost_ttc": 3.16,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -3616,6 +3623,7 @@
       "cost_ht_usd": 3.16,
       "costTtcUsd": 3.16,
       "consumption_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0",
       "vat": "no"
     },
     {
@@ -3627,9 +3635,9 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "2",
       "total_stock": "16",
       "total_consumption": "3",
@@ -3643,11 +3651,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "5",
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "11",
           "consumption": "2"
         }
       },
@@ -8177,6 +8185,6 @@
       "totalStock": "2"
     }
   ],
-  "updatedAt": "2026-08-18T06:27:44.527755Z",
+  "updatedAt": "2026-08-18T06:30:38.696793Z",
   "source": "sql-relay-web"
 }
