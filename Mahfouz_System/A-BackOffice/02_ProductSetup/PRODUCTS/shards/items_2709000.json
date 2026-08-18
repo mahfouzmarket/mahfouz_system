@@ -321,7 +321,7 @@
       "SUPPLIERS": "",
       "unit": "",
       "cost": "2.37",
-      "stock_in_geitawi_branch": "-2",
+      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "-2",
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -342,11 +342,11 @@
       "vat": "no",
       "priceLbp": 250000.0,
       "priceUsd": 2.7777777777777777,
-      "stock_in_nouna_branch": "-10",
+      "stock_in_nouna_branch": "-12",
       "consumption_in_nouna_branch": "0.0",
       "branches": {
         "Nouna": {
-          "stock": "-10",
+          "stock": "-12",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -354,7 +354,7 @@
           "consumption": "0"
         },
         "Geitawi": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -925,6 +925,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-18T11:26:50.580695Z",
+  "updatedAt": "2026-08-18T11:34:44.210285Z",
   "source": "sql-relay-web"
 }
