@@ -1518,7 +1518,7 @@
       "consumption_in_geitawi_branch": "99",
       "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "26",
-      "total_stock": "220",
+      "total_stock": "-530",
       "total_consumption": "125",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -1538,11 +1538,11 @@
           "consumption": "26"
         },
         "Nouna": {
-          "stock": "212",
+          "stock": "-585",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "-37",
+          "stock": "10",
           "consumption": "0"
         }
       },
@@ -1563,8 +1563,8 @@
       "name": "NF BROWNI CHOCOLATE",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "220",
-      "stock_in_nouna_branch": "212",
+      "totalStock": "-530",
+      "stock_in_nouna_branch": "-585",
       "secondBarcode": "",
       "product_description": "BROWNI CHOCOLATE",
       "description": "BROWNI CHOCOLATE",
@@ -1580,7 +1580,7 @@
       "cost_ht_usd": 0.6222222222222222,
       "costTtcUsd": 0.8214,
       "priceLbp": 70000,
-      "stock_in_firas_branch": "-37",
+      "stock_in_firas_branch": "10",
       "consumption_in_firas_branch": "0"
     },
     {
@@ -2160,7 +2160,7 @@
       "consumption_in_geitawi_branch": "27",
       "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "30",
-      "total_stock": "44",
+      "total_stock": "16",
       "total_consumption": "57",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -2180,8 +2180,11 @@
           "consumption": "30"
         },
         "Nouna": {
-          "stock": "30",
+          "stock": "2",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "sub": "NOUNA'S FOOD",
@@ -2203,8 +2206,8 @@
       "name": "LAZY CAKE",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "44",
-      "stock_in_nouna_branch": "30",
+      "totalStock": "16",
+      "stock_in_nouna_branch": "2",
       "secondBarcode": "",
       "product_description": "LAZY CAKE",
       "description": "LAZY CAKE",
@@ -2218,7 +2221,8 @@
       "latest_purchase_cost_date": "2026-06-29",
       "costHtUsd": 1.133333,
       "cost_ht_usd": 1.133333,
-      "costTtcUsd": 1.133333
+      "costTtcUsd": 1.133333,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "14153",
@@ -2283,7 +2287,7 @@
       "consumption_in_geitawi_branch": "8",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "12",
+      "total_stock": "-8",
       "total_consumption": "8",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -2303,8 +2307,11 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "13",
+          "stock": "-7",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "linked_profile_enabled": true,
@@ -2324,13 +2331,13 @@
       "name": "NOUNA'S FOOD CAKE POPS",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "12",
+      "totalStock": "-8",
       "secondBarcode": "",
       "product_description": "NOUNA'S FOOD CAKE POPS",
       "description": "NOUNA'S FOOD CAKE POPS",
       "expiryDays": 10,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "13",
+      "stock_in_nouna_branch": "-7",
       "cost_ttc": 1.416667,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -2339,7 +2346,8 @@
       "costHtUsd": 1.416667,
       "cost_ht_usd": 1.416667,
       "costTtcUsd": 1.416667,
-      "consumption_in_nouna_branch": "0"
+      "consumption_in_nouna_branch": "0",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "14155",
@@ -7014,9 +7022,9 @@
       "category": "CHIPS",
       "sub_category": "PRINGLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "1",
       "total_stock": "19",
       "total_consumption": "3",
@@ -7034,11 +7042,11 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "13",
           "consumption": "1"
         }
       },
@@ -7316,6 +7324,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-08-18T06:14:49.151912Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
