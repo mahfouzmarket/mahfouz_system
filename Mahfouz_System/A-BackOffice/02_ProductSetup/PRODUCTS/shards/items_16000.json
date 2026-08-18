@@ -5350,7 +5350,7 @@
       "consumption_in_geitawi_branch": "69",
       "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "28",
-      "total_stock": "92",
+      "total_stock": "31",
       "total_consumption": "97",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -5370,8 +5370,11 @@
           "consumption": "28"
         },
         "Nouna": {
-          "stock": "33",
+          "stock": "-28",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "barcode2": "",
@@ -5387,8 +5390,8 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "92",
-      "stock_in_nouna_branch": "33",
+      "totalStock": "31",
+      "stock_in_nouna_branch": "-28",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 1.51,
       "cost_currency": "USD",
@@ -5397,7 +5400,8 @@
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 1.51,
       "cost_ht_usd": 1.51,
-      "costTtcUsd": 1.51
+      "costTtcUsd": 1.51,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "16377",
@@ -6582,6 +6586,6 @@
       "costTtcUsd": 1.6798000000000002
     }
   ],
-  "updatedAt": "2026-08-18T06:27:44.527755Z",
+  "updatedAt": "2026-08-18T06:30:38.696793Z",
   "source": "sql-relay-web"
 }
