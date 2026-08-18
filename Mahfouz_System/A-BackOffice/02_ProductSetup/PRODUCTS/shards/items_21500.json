@@ -24646,7 +24646,7 @@
       "vat": "no",
       "price_lbp": "450,000",
       "cost": "4.17",
-      "total_stock": "-1",
+      "total_stock": "-2",
       "total_consumption": "2",
       "stock_in_geitawi_branch": "-1",
       "stock_in_medawar_branch": "0",
@@ -24672,11 +24672,14 @@
           "stock": "-1"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         },
         "nouna": {
           "stock": "0.0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "created_by_user_code": "1",
@@ -24723,14 +24726,15 @@
       "scalePlu": 0,
       "price_usd": "5.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21988.jpg",
-      "totalStock": "-1",
-      "stock_in_nouna_branch": "0",
+      "totalStock": "-2",
+      "stock_in_nouna_branch": "-1",
       "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
       "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override",
       "consumption_in_nouna_branch": "0",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
-      "linked_profile_item_id": "200018"
+      "linked_profile_item_id": "200018",
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21999",
@@ -24831,6 +24835,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-08-18T06:27:44.527755Z",
+  "updatedAt": "2026-08-18T06:30:38.696793Z",
   "source": "sql-relay-web"
 }
