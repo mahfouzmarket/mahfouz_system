@@ -10506,7 +10506,7 @@
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "-25",
       "total_consumption": "6",
       "VAT": "NO",
       "price_lbp": "600,000",
@@ -10526,8 +10526,11 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "-1",
+          "stock": "-28",
           "consumption": "0"
+        },
+        "Firas": {
+          "stock": "0"
         }
       },
       "barcode2": "",
@@ -10543,8 +10546,8 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "BAKING & COOKING",
       "vat": "no",
-      "totalStock": "2",
-      "stock_in_nouna_branch": "-1",
+      "totalStock": "-25",
+      "stock_in_nouna_branch": "-28",
       "secondBarcode": "",
       "product_description": "CHICKEN SALAD",
       "description": "CHICKEN SALAD",
@@ -10558,7 +10561,8 @@
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 5.67,
       "cost_ht_usd": 5.67,
-      "costTtcUsd": 5.67
+      "costTtcUsd": 5.67,
+      "stock_in_firas_branch": "0"
     },
     {
       "id": "21183",
@@ -26846,6 +26850,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-18T06:09:57.358048Z",
+  "updatedAt": "2026-08-18T06:27:44.527755Z",
   "source": "sql-relay-web"
 }
