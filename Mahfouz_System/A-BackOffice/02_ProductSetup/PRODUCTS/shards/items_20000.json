@@ -6887,9 +6887,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "100",
+      "stock_in_medawar_branch": "99",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "133",
+      "total_stock": "132",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "25,000",
@@ -6905,7 +6905,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "100",
+          "stock": "99",
           "consumption": "0"
         },
         "The Daily Market": {
@@ -6923,7 +6923,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "133",
+      "totalStock": "132",
       "stock": "0",
       "branch_stock": {
         "Geitawi": {
@@ -20916,11 +20916,11 @@
       "category": "HOME USAGE",
       "sub_category": "TOOLS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "750,000",
@@ -20936,17 +20936,24 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "2",
+      "cost_ttc": 4.4622,
+      "cost_ht": 4.02,
+      "costTtcUsd": 4.4622,
+      "costHtUsd": 4.02,
+      "cost_ht_usd": 4.02,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "20445",
@@ -23545,6 +23552,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-18T08:46:45.636373Z",
+  "updatedAt": "2026-08-18T09:41:25.033235Z",
   "source": "sql-relay-web"
 }
