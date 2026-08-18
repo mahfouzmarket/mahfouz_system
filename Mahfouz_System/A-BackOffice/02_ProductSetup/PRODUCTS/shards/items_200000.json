@@ -1075,10 +1075,10 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "stock_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "4",
       "consumption_in_geitawi_branch": "8",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "59",
+      "total_stock": "53",
       "total_consumption": "12",
       "vat": "no",
       "price_lbp": "200,000",
@@ -1099,7 +1099,7 @@
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "4",
           "consumption": "4"
         },
         "Nouna": {
@@ -1120,12 +1120,12 @@
       "VAT": "NO",
       "barcode2": "",
       "expiry_days": "365",
-      "cost_ht": 1.888889,
+      "cost_ht": "1.8889",
       "linked_profile_category": "HEALTHY CHOICES",
       "linked_profile_sub_category": "HEALTHY CHOICES",
       "product_setup_save_token": "PS-SAVE-2709409-1778496208583725",
       "product_setup_saved_at_utc": "2026-05-11T10:43:28.583725Z",
-      "totalStock": "59",
+      "totalStock": "53",
       "user2_unify_old_id": "2709409",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
@@ -1135,15 +1135,25 @@
       "expiryDays": 365,
       "subCategory": "NOUNA'S FOOD",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": 1.888889,
+      "cost_ttc": "1.8889",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00000838-80-N-win_de-1781870465402329",
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 1.888889,
       "cost_ht_usd": 1.888889,
       "costTtcUsd": 1.888889,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.888889
     },
     {
       "id": "200014",
@@ -1456,10 +1466,10 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "10",
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "-2",
+      "total_stock": "-10",
       "total_consumption": "2",
       "vat": "no",
       "price_lbp": "225,000",
@@ -1480,7 +1490,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "10",
           "consumption": "2"
         },
         "Nouna": {
@@ -1503,18 +1513,32 @@
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
       "stock_in_nouna_branch": "-20",
-      "totalStock": "-2",
-      "cost_ttc": 2.125,
-      "cost_ht": 2.125,
+      "totalStock": "-10",
+      "cost_ttc": "2.1250",
+      "cost_ht": "2.1250",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_pos-1776858909666",
       "latest_purchase_cost_date": "2026-04-22",
       "costHtUsd": 2.125,
       "cost_ht_usd": 2.125,
       "costTtcUsd": 2.125,
       "description": "CRANBERRY NT 100G",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "barcode2": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 2.125,
+      "linked_profile_category": "",
+      "linked_profile_sub_category": ""
     },
     {
       "id": "200020",
@@ -3800,6 +3824,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-08-18T15:19:36.900869Z",
+  "updatedAt": "2026-08-18T15:24:34.893805Z",
   "source": "sql-relay-web"
 }
