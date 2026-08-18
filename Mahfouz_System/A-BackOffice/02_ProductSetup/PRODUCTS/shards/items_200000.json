@@ -1297,14 +1297,14 @@
     {
       "id": "200016",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "total_stock": "3",
       "total_consumption": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -1312,7 +1312,7 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "2"
+          "stock": "3"
         },
         "Firas": {
           "stock": "0"
@@ -1354,7 +1354,7 @@
       "user2_unify_old_id": "2709413",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "3",
       "totalStock": "3",
       "cost_ttc": 3.3055555555555554,
       "cost_currency": "USD",
@@ -1525,7 +1525,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -1546,7 +1546,7 @@
       "linked_profile_item_id": "200020",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -1554,7 +1554,7 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         },
         "Firas": {
@@ -1583,7 +1583,7 @@
       "subCategory": "NOUNA'S FOOD",
       "linked_profile_category": "AMERICAN COOKIES",
       "linked_profile_sub_category": "COOKIES",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "2",
       "priceLbp": 350000,
       "cost_ttc": 3.89,
       "cost_ht": 3.89,
@@ -3090,7 +3090,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "-1",
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -3111,7 +3111,7 @@
       "linked_profile_item_id": "200040",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -3119,7 +3119,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         },
         "Firas": {
@@ -3154,7 +3154,7 @@
       "supplier": "NOUNA'S FOOD",
       "linked_profile_category": "HEALTHY CHOICES",
       "linked_profile_sub_category": "HEALTHY CHOICES",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "2",
       "cost_ttc": 4.25,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -3554,7 +3554,7 @@
       "sub_category": "SEEDS",
       "offers": "0",
       "expiry_days": "365",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0.0",
@@ -3576,7 +3576,7 @@
       "linked_profile_sub_category": "HEALTHY CHOICES",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "1"
         },
         "Medawar": {
@@ -3584,7 +3584,7 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         },
         "Firas": {
@@ -3605,7 +3605,7 @@
       "subcategory": "SEEDS",
       "subCategory": "SEEDS",
       "supplier": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "-1",
       "cost_ttc": 3.026,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -3770,6 +3770,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-08-18T12:19:40.371952Z",
+  "updatedAt": "2026-08-18T12:48:36.165783Z",
   "source": "sql-relay-web"
 }
