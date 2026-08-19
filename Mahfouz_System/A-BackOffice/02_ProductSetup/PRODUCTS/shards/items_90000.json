@@ -138,10 +138,10 @@
       "linked_profile_item_id": "90019",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CROISSANT",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "-1",
       "branches": {
         "Nouna": {
-          "stock": "0"
+          "stock": "-1"
         },
         "Geitawi": {
           "stock": "0"
@@ -153,8 +153,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0",
+      "total_stock": "-1",
+      "totalStock": "-1",
       "stock_in_geitawi_branch": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0"
@@ -193,10 +193,10 @@
       "linked_profile_item_id": "90020",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CROISSANT",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "branches": {
         "Nouna": {
-          "stock": "1"
+          "stock": "0"
         },
         "Geitawi": {
           "stock": "0"
@@ -208,8 +208,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "1",
-      "totalStock": "1",
+      "total_stock": "0",
+      "totalStock": "0",
       "stock_in_geitawi_branch": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0"
@@ -310,7 +310,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -321,9 +321,9 @@
           "stock": "0"
         }
       },
-      "total_stock": "1",
-      "totalStock": "1",
-      "stock_in_nouna_branch": "1",
+      "total_stock": "0",
+      "totalStock": "0",
+      "stock_in_nouna_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -372,7 +372,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -383,9 +383,9 @@
           "stock": "0"
         }
       },
-      "total_stock": "3",
-      "totalStock": "3",
-      "stock_in_nouna_branch": "1",
+      "total_stock": "2",
+      "totalStock": "2",
+      "stock_in_nouna_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -5858,7 +5858,7 @@
       "consumption_in_geitawi_branch": "1560",
       "stock_in_medawar_branch": "10656",
       "consumption_in_medawar_branch": "2661",
-      "total_stock": "11842",
+      "total_stock": "11841",
       "total_consumption": "4221",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -5878,7 +5878,7 @@
           "consumption": "2661"
         },
         "Nouna": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "0"
         },
         "Firas": {
@@ -5891,7 +5891,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11842",
+      "totalStock": "11841",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -5903,7 +5903,7 @@
       "linked_profile_item_id": "90151",
       "linked_profile_category": "COLD DRINKS",
       "linked_profile_sub_category": "COLD DRINKS",
-      "stock_in_nouna_branch": "5",
+      "stock_in_nouna_branch": "4",
       "updated_at_utc": "2026-06-30T13:30:05.344Z",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 0.14874,
@@ -7762,7 +7762,7 @@
           "consumption": "18"
         },
         "Nouna": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0"
         },
         "Firas": {
@@ -7770,7 +7770,7 @@
         }
       },
       "stock_in_medawar_branch": "3",
-      "total_stock": "5",
+      "total_stock": "4",
       "Product Description": "CUP CHOCO BROWNIES",
       "SUPPLIERS": "bisous douceur",
       "subcategory": "bisous",
@@ -7785,14 +7785,14 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "5",
+      "totalStock": "4",
       "secondBarcode": "",
       "product_description": "CUP CHOCO BROWNIES",
       "description": "CUP CHOCO BROWNIES",
       "expiry_days": "0",
       "expiryDays": 0,
       "subCategory": "bisous",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "1",
       "priceLbp": 220000,
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 1.8000500000000004,
@@ -9868,6 +9868,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-19T19:39:05.861953Z",
+  "updatedAt": "2026-08-19T19:52:02.082569Z",
   "source": "sql-relay-web"
 }
