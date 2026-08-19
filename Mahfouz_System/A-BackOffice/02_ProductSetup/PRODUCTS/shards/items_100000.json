@@ -3818,15 +3818,15 @@
       "lastCostHtUsd": 1.26,
       "price_lbp": "160,000",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "28",
-      "total_stock": "28",
+      "stock_in_medawar_branch": "26",
+      "total_stock": "26",
       "branches": {
         "Geitawi": {
           "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "28",
+          "stock": "26",
           "consumption": "7"
         }
       },
@@ -3850,7 +3850,7 @@
       "manual": "",
       "delivery_rules": "0.005",
       "price_usd": "1.78",
-      "totalStock": "28",
+      "totalStock": "26",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100084.jpg",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100084.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100084.jpg",
@@ -8224,9 +8224,14 @@
       "linked_profile_item_id": "100001",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "SABLE AND PETIT FOUR",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_firas_branch": "0",
       "branches": {
+        "Firas": {
+          "stock": "0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -8235,9 +8240,12 @@
         }
       },
       "total_stock": "0",
-      "totalStock": "0"
+      "totalStock": "0",
+      "stock_in_nouna_branch": "0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-19T10:57:05.817543Z",
+  "updatedAt": "2026-08-19T11:45:05.014815Z",
   "source": "sql-relay-web"
 }
