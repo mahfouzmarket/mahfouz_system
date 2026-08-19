@@ -4390,9 +4390,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "425,000",
@@ -4408,7 +4408,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "2"
         }
       },
@@ -4422,7 +4422,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "5",
       "cost_ttc": 3.0525,
       "cost_ht": 2.75,
       "cost_currency": "USD",
@@ -6648,12 +6648,12 @@
       "consumption_in_geitawi_branch": "53",
       "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "45",
-      "total_stock": "133",
+      "total_stock": "52",
       "total_consumption": "98",
       "VAT": "NO",
       "price_lbp": "180,000",
       "price_usd": "2.00",
-      "cost": "1.42",
+      "cost": "1.70",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18781.jpg",
       "new_items": "",
       "manual": "",
@@ -6668,7 +6668,7 @@
           "consumption": "45"
         },
         "Nouna": {
-          "stock": "86",
+          "stock": "5",
           "consumption": "0"
         },
         "Firas": {
@@ -6678,18 +6678,18 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "365",
-      "cost_ht": 1.42,
+      "cost_ht": "1.70",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "18781",
-      "linked_profile_category": "HEALTHY CHOICES",
-      "linked_profile_sub_category": "HEALTHY CHOICES",
+      "linked_profile_category": "FOOD",
+      "linked_profile_sub_category": "SEEDS",
       "name": "NF ENERGY MIX NT100GR",
       "supplier": "NOUNA'S FOOD",
       "subcategory": "SEEDS",
       "vat": "no",
-      "totalStock": "133",
-      "stock_in_nouna_branch": "86",
+      "totalStock": "52",
+      "stock_in_nouna_branch": "5",
       "secondBarcode": "",
       "product_description": "ENERGY MIX NT100GR",
       "description": "ENERGY MIX NT100GR",
@@ -6701,10 +6701,23 @@
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001265-80-N-win_no-1783149238766404",
       "latest_purchase_cost_date": "2026-07-04",
-      "costHtUsd": 1.42,
-      "cost_ht_usd": 1.42,
+      "costHtUsd": 1.7,
+      "cost_ht_usd": 1.7,
       "costTtcUsd": 1.42,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "priceLbp": 180000,
+      "toters": {
+        "enabled": true,
+        "order": 30,
+        "priceMultiplier": 1.0,
+        "priceUsd": 2.0,
+        "originalPriceLbpAtUpdate": 180000,
+        "fxAtUpdate": 90000.0,
+        "category": "Healthy Snacks",
+        "addOns": "None",
+        "sourceTemplateName": "Mixed Nuts",
+        "updatedAtUtc": "2026-08-19T09:38:25.719290Z"
+      }
     },
     {
       "id": "18785",
@@ -11287,6 +11300,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-08-19T09:37:51.196907Z",
+  "updatedAt": "2026-08-19T09:40:37.008598Z",
   "source": "sql-relay-web"
 }
