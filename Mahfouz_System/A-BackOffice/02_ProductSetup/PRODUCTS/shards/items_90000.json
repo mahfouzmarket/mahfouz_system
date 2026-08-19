@@ -1002,7 +1002,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "0.0",
       "vat": "no",
       "price_lbp": "350,000",
@@ -1027,16 +1027,16 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Firas": {
           "stock": "0"
         }
       },
-      "totalStock": "0",
+      "totalStock": "1",
       "priceLbp": 350000,
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "1",
       "cost_ttc": 3.3065,
       "cost_ht": 3.3065,
       "cost_currency": "USD",
@@ -2814,7 +2814,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "6",
       "vat": "no",
       "price_lbp": "400,000",
@@ -2839,15 +2839,15 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Firas": {
           "stock": "0"
         }
       },
-      "totalStock": "0",
-      "stock_in_nouna_branch": "0",
+      "totalStock": "1",
+      "stock_in_nouna_branch": "1",
       "priceLbp": 400000,
       "expiry_days": "5",
       "expiryDays": 5,
@@ -5856,9 +5856,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1308",
       "consumption_in_geitawi_branch": "1560",
-      "stock_in_medawar_branch": "8305",
+      "stock_in_medawar_branch": "10705",
       "consumption_in_medawar_branch": "2661",
-      "total_stock": "9619",
+      "total_stock": "12019",
       "total_consumption": "4221",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -5874,7 +5874,7 @@
           "consumption": "1560"
         },
         "Medawar": {
-          "stock": "8305",
+          "stock": "10705",
           "consumption": "2661"
         },
         "Nouna": {
@@ -5891,7 +5891,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9619",
+      "totalStock": "12019",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -5906,8 +5906,8 @@
       "stock_in_nouna_branch": "6",
       "updated_at_utc": "2026-06-30T13:30:05.344Z",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": "0.1487",
-      "cost_ht": "0.1340",
+      "cost_ttc": 0.14874,
+      "cost_ht": 0.134,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782881620822",
@@ -9868,6 +9868,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-19T10:35:54.781916Z",
+  "updatedAt": "2026-08-19T10:46:41.284717Z",
   "source": "sql-relay-web"
 }
