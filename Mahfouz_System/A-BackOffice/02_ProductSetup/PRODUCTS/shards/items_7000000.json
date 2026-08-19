@@ -6,7 +6,7 @@
       "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "total_stock": "5",
+      "total_stock": "2",
       "total_consumption": "0.0",
       "branches": {
         "Geitawi": {
@@ -18,7 +18,7 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "3"
+          "stock": "0"
         },
         "Firas": {
           "stock": "0"
@@ -75,10 +75,10 @@
       "costTtcUsd": 4.25,
       "costHtUsd": 4.25,
       "cost_ht_usd": 4.25,
-      "totalStock": "5",
+      "totalStock": "2",
       "product_description": "CROQUANT MIX SESAME,PEANUTS NT 250 G",
       "description": "CROQUANT MIX SESAME,PEANUTS NT 250 G",
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "0",
       "stock_in_firas_branch": "0"
     },
     {
@@ -573,10 +573,10 @@
       "linked_profile_item_id": "7000021",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "HEALTHY CHOICES",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "branches": {
         "Nouna": {
-          "stock": "1"
+          "stock": "0"
         },
         "Firas": {
           "stock": "0"
@@ -588,8 +588,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "1",
-      "totalStock": "1",
+      "total_stock": "0",
+      "totalStock": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0"
@@ -1482,7 +1482,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-2",
+      "total_stock": "0",
       "total_consumption": "2",
       "vat": "no",
       "price_lbp": "280,000",
@@ -1509,13 +1509,13 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "-2"
+          "stock": "0"
         },
         "Firas": {
           "stock": "0"
         }
       },
-      "totalStock": "-2",
+      "totalStock": "0",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -1537,7 +1537,7 @@
       "cost_ht_usd": 2.6444444444444444,
       "cost_currency": "USD",
       "cost_vat_included": false,
-      "stock_in_nouna_branch": "-2",
+      "stock_in_nouna_branch": "0",
       "description": "BLUEBERRY PUDDING",
       "stock_in_firas_branch": "0"
     },
@@ -1773,6 +1773,9 @@
         "Nouna": {
           "stock": "4"
         },
+        "Firas": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -1782,6 +1785,7 @@
       },
       "total_stock": "4",
       "totalStock": "4",
+      "stock_in_firas_branch": "0",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0"
     },
@@ -1819,9 +1823,14 @@
       "linked_profile_item_id": "7000081",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "ARRANGEMENT",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_firas_branch": "0",
       "branches": {
+        "Firas": {
+          "stock": "0"
+        },
+        "Nouna": {
+          "stock": "0"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -1830,9 +1839,12 @@
         }
       },
       "total_stock": "0",
-      "totalStock": "0"
+      "totalStock": "0",
+      "stock_in_nouna_branch": "0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-19T10:41:55.306642Z",
+  "updatedAt": "2026-08-19T11:44:54.124067Z",
   "source": "sql-relay-web"
 }
