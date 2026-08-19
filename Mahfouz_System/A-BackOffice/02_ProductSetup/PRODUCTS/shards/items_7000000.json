@@ -1768,9 +1768,11 @@
       "linked_profile_item_id": "7000080",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "DESSERT CUPS",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "4",
       "branches": {
+        "Nouna": {
+          "stock": "4"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -1778,8 +1780,10 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "4",
+      "totalStock": "4",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000081",
@@ -1829,6 +1833,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-19T10:21:24.160769Z",
+  "updatedAt": "2026-08-19T10:41:55.306642Z",
   "source": "sql-relay-web"
 }
