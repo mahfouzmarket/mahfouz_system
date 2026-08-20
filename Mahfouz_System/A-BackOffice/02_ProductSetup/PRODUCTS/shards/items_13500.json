@@ -1416,11 +1416,11 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "67",
       "stock_in_medawar_branch": "36",
       "consumption_in_medawar_branch": "72",
-      "total_stock": "36",
+      "total_stock": "35",
       "total_consumption": "139",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -1432,7 +1432,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "67"
         },
         "Medawar": {
@@ -1446,7 +1446,7 @@
       "vat": "yes",
       "barcode2": "5283024602350",
       "barcodes": "",
-      "totalStock": "36",
+      "totalStock": "35",
       "cost_ttc": 1.150010283,
       "cost_ht": 1.0360453,
       "cost_currency": "LBP",
@@ -1630,9 +1630,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "45",
       "consumption_in_geitawi_branch": "185",
-      "stock_in_medawar_branch": "41",
+      "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "225",
-      "total_stock": "86",
+      "total_stock": "63",
       "total_consumption": "410",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -1648,7 +1648,7 @@
           "consumption": "185"
         },
         "Medawar": {
-          "stock": "41",
+          "stock": "18",
           "consumption": "225"
         }
       },
@@ -1658,7 +1658,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "86",
+      "totalStock": "63",
       "cost_ttc": 0.5826636666666667,
       "cost_ht": 0.5249222222222222,
       "cost_currency": "LBP",
@@ -4253,9 +4253,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "544",
       "consumption_in_geitawi_branch": "495",
-      "stock_in_medawar_branch": "234",
+      "stock_in_medawar_branch": "233",
       "consumption_in_medawar_branch": "943",
-      "total_stock": "778",
+      "total_stock": "777",
       "total_consumption": "1438",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -4271,7 +4271,7 @@
           "consumption": "495"
         },
         "Medawar": {
-          "stock": "234",
+          "stock": "233",
           "consumption": "943"
         },
         "The Daily Market": {
@@ -4285,7 +4285,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "778",
+      "totalStock": "777",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -5183,9 +5183,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "76",
       "consumption_in_geitawi_branch": "315",
-      "stock_in_medawar_branch": "41",
+      "stock_in_medawar_branch": "38",
       "consumption_in_medawar_branch": "664",
-      "total_stock": "117",
+      "total_stock": "114",
       "total_consumption": "979",
       "VAT": "NO",
       "price_lbp": "50,000",
@@ -5201,7 +5201,7 @@
           "consumption": "315"
         },
         "Medawar": {
-          "stock": "41",
+          "stock": "38",
           "consumption": "664"
         }
       },
@@ -5211,7 +5211,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "117",
+      "totalStock": "114",
       "cost_ttc": "0.3888",
       "cost_ht": "0.3888",
       "cost_currency": "USD",
@@ -5760,9 +5760,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17",
       "consumption_in_geitawi_branch": "80",
-      "stock_in_medawar_branch": "27",
+      "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "20",
-      "total_stock": "44",
+      "total_stock": "43",
       "total_consumption": "100",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -5778,7 +5778,7 @@
           "consumption": "80"
         },
         "Medawar": {
-          "stock": "27",
+          "stock": "26",
           "consumption": "20"
         },
         "Nouna": {
@@ -5800,7 +5800,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13868-1778951550579139",
       "product_setup_saved_at_utc": "2026-05-16T17:12:30.579139Z",
-      "totalStock": "44",
+      "totalStock": "43",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.7881,
       "cost_currency": "USD",
@@ -8070,6 +8070,6 @@
       "scalePlu": 0
     }
   ],
-  "updatedAt": "2026-08-20T09:17:20.826841Z",
+  "updatedAt": "2026-08-20T09:23:08.880200Z",
   "source": "sql-relay-web"
 }
