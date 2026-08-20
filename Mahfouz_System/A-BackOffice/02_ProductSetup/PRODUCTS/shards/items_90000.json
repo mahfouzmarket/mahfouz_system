@@ -138,10 +138,10 @@
       "linked_profile_item_id": "90019",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CROISSANT",
-      "stock_in_nouna_branch": "-1",
+      "stock_in_nouna_branch": "0",
       "branches": {
         "Nouna": {
-          "stock": "-1"
+          "stock": "0"
         },
         "Geitawi": {
           "stock": "0"
@@ -153,8 +153,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "-1",
-      "totalStock": "-1",
+      "total_stock": "0",
+      "totalStock": "0",
       "stock_in_geitawi_branch": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0"
@@ -310,7 +310,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
@@ -321,9 +321,9 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0",
-      "stock_in_nouna_branch": "0",
+      "total_stock": "1",
+      "totalStock": "1",
+      "stock_in_nouna_branch": "1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -372,7 +372,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
@@ -383,9 +383,9 @@
           "stock": "0"
         }
       },
-      "total_stock": "2",
-      "totalStock": "2",
-      "stock_in_nouna_branch": "0",
+      "total_stock": "3",
+      "totalStock": "3",
+      "stock_in_nouna_branch": "1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -5856,9 +5856,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1150",
       "consumption_in_geitawi_branch": "1560",
-      "stock_in_medawar_branch": "10648",
+      "stock_in_medawar_branch": "10647",
       "consumption_in_medawar_branch": "2661",
-      "total_stock": "11802",
+      "total_stock": "11801",
       "total_consumption": "4221",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -5874,7 +5874,7 @@
           "consumption": "1560"
         },
         "Medawar": {
-          "stock": "10648",
+          "stock": "10647",
           "consumption": "2661"
         },
         "Nouna": {
@@ -5891,7 +5891,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11802",
+      "totalStock": "11801",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -9868,6 +9868,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-20T04:35:12.075936Z",
+  "updatedAt": "2026-08-20T05:49:58.688807Z",
   "source": "sql-relay-web"
 }
