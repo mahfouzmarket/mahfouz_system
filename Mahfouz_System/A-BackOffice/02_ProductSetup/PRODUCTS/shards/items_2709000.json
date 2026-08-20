@@ -525,12 +525,24 @@
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_MEDAWAR_00001303-70-N-win_no-1783328328449579",
       "latest_purchase_cost_date": "2026-07-06",
-      "costHtUsd": 2.361111111111111,
-      "cost_ht_usd": 2.361111111111111,
+      "costHtUsd": 2.2222,
+      "cost_ht_usd": 2.2222,
       "costTtcUsd": 2.361111111111111,
       "consumption_in_nouna_branch": "0",
       "priceLbp": 250000,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "toters": {
+        "enabled": false,
+        "order": 37,
+        "priceMultiplier": 1.0044,
+        "priceUsd": 2.79,
+        "originalPriceLbpAtUpdate": 250000,
+        "fxAtUpdate": 90000,
+        "category": "Dessert Cups",
+        "addOns": "None",
+        "sourceTemplateName": "Chocolate Mousse Cup",
+        "updatedAtUtc": "2026-08-20T09:56:15.790589Z"
+      }
     },
     {
       "id": "2709433",
@@ -925,6 +937,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-20T09:21:28.896446Z",
+  "updatedAt": "2026-08-20T09:56:23.890562Z",
   "source": "sql-relay-web"
 }
