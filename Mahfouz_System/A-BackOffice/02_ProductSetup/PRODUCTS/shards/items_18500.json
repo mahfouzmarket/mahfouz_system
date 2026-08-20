@@ -2328,14 +2328,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "535,000",
       "price_usd": "5.31",
-      "cost": "3.29",
+      "cost": "3.46",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18620.jpg",
       "new_items": "",
       "manual": "",
@@ -2354,11 +2354,18 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "12",
+      "cost_ttc": 3.465,
+      "cost_ht": 3.465,
+      "costTtcUsd": 3.465,
+      "costHtUsd": 3.465,
+      "cost_ht_usd": 3.465,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "18621",
@@ -2371,9 +2378,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "255,000",
@@ -2397,22 +2404,22 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": "1.9400",
-      "cost_ht": "1.9400",
+      "totalStock": "12",
+      "cost_ttc": 1.9433333333333334,
+      "cost_ht": 1.9433333333333334,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14409",
       "latest_purchase_cost_date": "2026-05-07",
-      "costHtUsd": 1.94,
-      "cost_ht_usd": 1.94,
-      "costTtcUsd": 1.94,
+      "costHtUsd": 1.9433333333333334,
+      "cost_ht_usd": 1.9433333333333334,
+      "costTtcUsd": 1.9433333333333334,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -11321,6 +11328,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-08-20T07:36:36.327188Z",
+  "updatedAt": "2026-08-20T07:44:50.673081Z",
   "source": "sql-relay-web"
 }
