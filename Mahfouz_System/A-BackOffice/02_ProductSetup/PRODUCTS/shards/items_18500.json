@@ -5142,11 +5142,11 @@
       "category": "NUTS",
       "sub_category": "NATURAL NUTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "44",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "18",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "8",
-      "total_stock": "91",
+      "total_stock": "68",
       "total_consumption": "26",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -5158,7 +5158,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "44",
+          "stock": "21",
           "consumption": "18"
         },
         "Medawar": {
@@ -5176,7 +5176,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "360",
-      "cost_ht": "1.60",
+      "cost_ht": "1.6000",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "18715",
@@ -5186,24 +5186,34 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NATURAL NUTS",
       "vat": "no",
-      "totalStock": "91",
+      "totalStock": "68",
       "secondBarcode": "",
       "product_description": "LOZ AOUN 100G",
       "description": "LOZ AOUN 100G",
       "expiryDays": 360,
       "subCategory": "NATURAL NUTS",
       "stock_in_nouna_branch": "47",
-      "cost_ttc": 1.46,
+      "cost_ttc": "1.6000",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00000840-80-N-win_de-1781875031134220",
       "latest_purchase_cost_date": "2026-06-19",
-      "costHtUsd": 1.46,
-      "cost_ht_usd": 1.46,
-      "costTtcUsd": 1.46,
+      "costHtUsd": 1.6,
+      "cost_ht_usd": 1.6,
+      "costTtcUsd": 1.6,
       "priceLbp": 180000,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.6
     },
     {
       "id": "18722",
@@ -6890,11 +6900,11 @@
       "category": "NUTS",
       "sub_category": "NATURAL NUTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "14",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "31",
+      "total_stock": "43",
       "total_consumption": "30",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -6906,7 +6916,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "18",
           "consumption": "14"
         },
         "Medawar": {
@@ -6924,7 +6934,7 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "365",
-      "cost_ht": 1.52,
+      "cost_ht": "1.5200",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "18787",
@@ -6934,8 +6944,8 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NATURAL NUTS",
       "vat": "no",
-      "totalStock": "31",
-      "cost_ttc": 1.52,
+      "totalStock": "43",
+      "cost_ttc": "1.5200",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00000840-80-N-win_de-1781875031134220",
@@ -6945,7 +6955,17 @@
       "costTtcUsd": 1.52,
       "stock_in_nouna_branch": "24",
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.52
     },
     {
       "id": "18788",
@@ -11301,6 +11321,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-08-20T06:47:52.457928Z",
+  "updatedAt": "2026-08-20T06:56:02.267860Z",
   "source": "sql-relay-web"
 }
