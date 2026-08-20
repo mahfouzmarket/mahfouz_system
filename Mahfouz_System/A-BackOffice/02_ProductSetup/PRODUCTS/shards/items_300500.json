@@ -11893,25 +11893,31 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "price_lbp": "70,000",
-      "price_usd": "0.78",
-      "cost": "0.69",
-      "cost_ttc": "0.7681",
-      "cost_ht": "0.6920",
-      "costTtcUsd": 0.76812,
-      "costHtUsd": 0.692,
-      "cost_ht_usd": 0.692,
+      "price_lbp": "65,000",
+      "price_usd": "0.72",
+      "cost": "0.50",
+      "cost_ttc": 0.5512036766666668,
+      "cost_ht": 0.49657988888888893,
       "cost_ttc_usd": 0.76812,
-      "cost_currency": "USD",
+      "cost_currency": "LBP",
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300725.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
-      "vat": "yes",
-      "branches": {}
+      "total_stock": "120",
+      "totalStock": "120",
+      "stock_in_medawar_branch": "90",
+      "branches": {
+        "Medawar": {
+          "stock": "90"
+        },
+        "Geitawi": {
+          "stock": "30"
+        }
+      },
+      "stock_in_geitawi_branch": "30",
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-20T09:00:27.591373Z",
+  "updatedAt": "2026-08-20T09:11:38.562270Z",
   "source": "sql-relay-web"
 }
