@@ -3540,11 +3540,23 @@
       "cost_vat_included": 0,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001078-70-N-win_no-1782536993240599",
       "latest_purchase_cost_date": "2026-06-27",
-      "costHtUsd": 5.666666666666667,
-      "cost_ht_usd": 5.666666666666667,
+      "costHtUsd": 5.6667,
+      "cost_ht_usd": 5.6667,
       "costTtcUsd": 5.666667,
       "priceLbp": 600000,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "toters": {
+        "enabled": false,
+        "order": 19,
+        "priceMultiplier": 1.005,
+        "priceUsd": 6.7,
+        "originalPriceLbpAtUpdate": 600000,
+        "fxAtUpdate": 90000.0,
+        "category": "Sablé",
+        "addOns": "None",
+        "sourceTemplateName": "Sablé Bag 300 g",
+        "updatedAtUtc": "2026-08-20T09:56:45.223756Z"
+      }
     },
     {
       "id": "8000157",
@@ -4574,6 +4586,6 @@
       "stock_in_firas_branch": "9"
     }
   ],
-  "updatedAt": "2026-08-20T09:48:56.092912Z",
+  "updatedAt": "2026-08-20T09:56:53.309441Z",
   "source": "sql-relay-web"
 }
