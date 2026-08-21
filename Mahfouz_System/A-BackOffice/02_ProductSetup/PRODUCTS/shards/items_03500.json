@@ -1190,11 +1190,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "11",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "320,000",
@@ -1206,7 +1206,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "11",
           "consumption": "1"
         },
         "Medawar": {
@@ -1220,16 +1220,16 @@
       "vat": "yes",
       "barcode2": "5287001083002",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": "2.8860",
-      "cost_ht": "2.6000",
+      "totalStock": "11",
+      "cost_ttc": 2.6,
+      "cost_ht": 2.6,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-GEITAWI-9219",
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 2.6,
       "cost_ht_usd": 2.6,
-      "costTtcUsd": 2.8860000000000006,
+      "costTtcUsd": 2.6,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1660,11 +1660,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "20",
+      "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "66",
       "stock_in_medawar_branch": "28",
       "consumption_in_medawar_branch": "39",
-      "total_stock": "48",
+      "total_stock": "47",
       "total_consumption": "105",
       "VAT": "NO",
       "price_lbp": "115,000",
@@ -1676,7 +1676,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "20",
+          "stock": "19",
           "consumption": "66"
         },
         "Medawar": {
@@ -1690,7 +1690,7 @@
       "vat": "no",
       "barcode2": "8000500033784",
       "barcodes": "8000500033784",
-      "totalStock": "48",
+      "totalStock": "47",
       "cost_ttc": 0.8999325,
       "cost_ht": 0.81075,
       "cost_currency": "USD",
@@ -1752,6 +1752,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-21T09:47:59.421526Z",
+  "updatedAt": "2026-08-21T10:18:05.616113Z",
   "source": "sql-relay-web"
 }
