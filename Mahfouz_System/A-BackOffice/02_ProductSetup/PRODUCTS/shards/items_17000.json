@@ -2442,11 +2442,11 @@
       "category": "NUTS",
       "sub_category": "KLATCHI",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "13",
       "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "46",
-      "total_stock": "30",
+      "total_stock": "29",
       "total_consumption": "59",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -2458,7 +2458,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "5",
           "consumption": "13"
         },
         "Medawar": {
@@ -2481,7 +2481,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-17130-1778843651577911",
       "product_setup_saved_at_utc": "2026-05-15T11:14:11.577911Z",
-      "totalStock": "30",
+      "totalStock": "29",
       "cost_ttc": 0.9,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -3457,9 +3457,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "2",
+      "total_stock": "3",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "145,000",
@@ -3475,7 +3475,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         }
       },
@@ -3485,16 +3485,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": 1.1892725,
-      "cost_ht": 1.07141666666667,
+      "totalStock": "3",
+      "cost_ttc": "1.1893",
+      "cost_ht": "1.0714",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780918105449",
       "latest_purchase_cost_date": "2026-06-08",
-      "costHtUsd": 1.07141666666667,
-      "cost_ht_usd": 1.07141666666667,
-      "costTtcUsd": 1.1892725
+      "costHtUsd": 1.0714166666666667,
+      "cost_ht_usd": 1.0714166666666667,
+      "costTtcUsd": 1.1892725000000002,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.1892725000000002
     },
     {
       "id": "17190",
@@ -4669,9 +4680,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "23",
       "consumption_in_geitawi_branch": "35",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "39",
-      "total_stock": "31",
+      "total_stock": "30",
       "total_consumption": "74",
       "VAT": "NO",
       "price_lbp": "280,000",
@@ -4687,7 +4698,7 @@
           "consumption": "35"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "7",
           "consumption": "39"
         }
       },
@@ -4697,7 +4708,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "31",
+      "totalStock": "30",
       "cost_ttc": 2.8,
       "cost_ht": 2.8,
       "cost_currency": "USD",
@@ -10515,6 +10526,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-08-21T13:37:37.934923Z",
+  "updatedAt": "2026-08-21T13:46:01.833973Z",
   "source": "sql-relay-web"
 }
