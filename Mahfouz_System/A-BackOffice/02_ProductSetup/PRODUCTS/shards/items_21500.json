@@ -10432,7 +10432,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "45",
       "branches": {
         "Geitawi": {
@@ -10440,11 +10440,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "45"
         }
       },
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "45",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -10452,9 +10452,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
-      "cost_ttc": "2.2755",
-      "cost_ht": "2.0500",
+      "totalStock": "6",
+      "cost_ttc": 2.2755000000000005,
+      "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782485034104",
@@ -12218,7 +12218,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "38",
       "branches": {
         "Geitawi": {
@@ -12226,11 +12226,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "7",
           "consumption": "38"
         }
       },
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "38",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -12238,16 +12238,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
-      "cost_ttc": 2.2755,
-      "cost_ht": 2.05,
+      "totalStock": "7",
+      "cost_ttc": 2.2755000000000005,
+      "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782485034104",
       "latest_purchase_cost_date": "2026-06-26",
-      "costHtUsd": 2.05,
-      "cost_ht_usd": 2.05,
-      "costTtcUsd": 2.2755
+      "costHtUsd": 2.0500000000000003,
+      "cost_ht_usd": 2.0500000000000003,
+      "costTtcUsd": 2.2755000000000005
     },
     {
       "id": "21731",
@@ -23873,11 +23873,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "NOUNA'S FOOD",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "1",
       "stock_in_geitawi_branch": "-22",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "-23",
+      "total_stock": "-21",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -23885,7 +23885,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -23902,7 +23902,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "-23",
+      "totalStock": "-21",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -24835,6 +24835,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-08-21T05:07:28.978698Z",
+  "updatedAt": "2026-08-21T05:55:45.241644Z",
   "source": "sql-relay-web"
 }
