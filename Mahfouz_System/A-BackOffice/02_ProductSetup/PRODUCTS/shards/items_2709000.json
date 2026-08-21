@@ -233,9 +233,9 @@
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "88",
       "stock_in_medawar_branch": "46",
-      "consumption_in_medawar_branch": "60",
+      "consumption_in_medawar_branch": "75",
       "total_stock": "48",
-      "total_consumption": "148",
+      "total_consumption": "163",
       "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
@@ -251,14 +251,15 @@
         },
         "Medawar": {
           "stock": "46",
-          "consumption": "60"
+          "consumption": "75"
         },
         "Nouna": {
           "stock": "1",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "name": "Maccaw Pineapple",
@@ -301,7 +302,8 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "2709416",
@@ -461,13 +463,13 @@
       "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "3",
-      "consumption_in_geitawi_branch": "11",
+      "consumption_in_geitawi_branch": "8",
       "total_stock": "0",
-      "total_consumption": "14",
+      "total_consumption": "11",
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "11"
+          "consumption": "8"
         },
         "Medawar": {
           "stock": "0",
@@ -478,7 +480,8 @@
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "barcode": "2709416",
@@ -542,7 +545,8 @@
         "addOns": "None",
         "sourceTemplateName": "Chocolate Mousse Cup",
         "updatedAtUtc": "2026-08-20T09:56:15.790589Z"
-      }
+      },
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "2709433",
@@ -937,6 +941,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-20T09:56:23.890562Z",
+  "updatedAt": "2026-08-21T08:26:41.703692Z",
   "source": "sql-relay-web"
 }
