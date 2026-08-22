@@ -3645,9 +3645,9 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Vodka",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-12",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "22",
       "total_stock": "0",
       "total_consumption": "28",
@@ -3661,11 +3661,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-12",
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "22"
         }
       },
@@ -10687,6 +10687,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-08-21T23:52:31.907511Z",
+  "updatedAt": "2026-08-22T03:26:58.019774Z",
   "source": "sql-relay-web"
 }
