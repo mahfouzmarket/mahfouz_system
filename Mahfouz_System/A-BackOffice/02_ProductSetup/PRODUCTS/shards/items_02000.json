@@ -651,11 +651,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "18",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "25",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -667,7 +667,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "18"
         },
         "Medawar": {
@@ -683,7 +683,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc": 2.1867,
       "cost_ht": 1.97,
       "cost_currency": "USD",
@@ -2040,6 +2040,6 @@
       "costTtcUsd": 2.3865000000000003
     }
   ],
-  "updatedAt": "2026-08-22T05:15:08.566152Z",
+  "updatedAt": "2026-08-22T06:29:42.660652Z",
   "source": "sql-relay-web"
 }
