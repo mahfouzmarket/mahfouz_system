@@ -145,7 +145,7 @@
           "consumption": "0"
         },
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         },
         "Firas": {
@@ -157,9 +157,9 @@
           "consumption": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0",
-      "stock_in_geitawi_branch": "0",
+      "total_stock": "-1",
+      "totalStock": "-1",
+      "stock_in_geitawi_branch": "-1",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_firas_branch": "0",
@@ -425,11 +425,11 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "expiry_days": "15",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "40",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "31",
+      "total_stock": "30",
       "total_consumption": "40",
       "VAT": "NO",
       "price_lbp": "220,000",
@@ -447,7 +447,7 @@
       "linked_profile_sub_category": "BROWNIES",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "40"
         },
         "Medawar": {
@@ -473,7 +473,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "31",
+      "totalStock": "30",
       "stock_in_nouna_branch": "4",
       "secondBarcode": "",
       "product_description": "BROOKIE",
@@ -813,11 +813,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "12",
+      "total_stock": "11",
       "total_consumption": "6",
       "vat": "no",
       "price_lbp": "200,000",
@@ -834,7 +834,7 @@
       "linked_profile_item_id": "90032",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "6"
         },
         "Medawar": {
@@ -858,7 +858,7 @@
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "VAT": "NO",
-      "totalStock": "12",
+      "totalStock": "11",
       "stock_in_nouna_branch": "2",
       "barcode2": "",
       "secondBarcode": "",
@@ -2853,7 +2853,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "7",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "7",
       "vat": "no",
       "price_lbp": "400,000",
@@ -2878,7 +2878,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -2886,8 +2886,8 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0",
-      "stock_in_nouna_branch": "1",
+      "totalStock": "-1",
+      "stock_in_nouna_branch": "0",
       "priceLbp": 400000,
       "expiry_days": "5",
       "expiryDays": 5,
@@ -5899,11 +5899,11 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "829",
+      "stock_in_geitawi_branch": "826",
       "consumption_in_geitawi_branch": "1712",
       "stock_in_medawar_branch": "9625",
       "consumption_in_medawar_branch": "2694",
-      "total_stock": "10455",
+      "total_stock": "10452",
       "total_consumption": "4406",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -5915,7 +5915,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "829",
+          "stock": "826",
           "consumption": "1712"
         },
         "Medawar": {
@@ -5937,7 +5937,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "10455",
+      "totalStock": "10452",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -9974,6 +9974,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-22T23:53:43.731106Z",
+  "updatedAt": "2026-08-23T00:13:13.593621Z",
   "source": "sql-relay-web"
 }
