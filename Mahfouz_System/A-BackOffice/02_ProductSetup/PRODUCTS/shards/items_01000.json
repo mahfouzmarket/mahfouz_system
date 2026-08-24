@@ -1192,9 +1192,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "305,000",
@@ -1210,7 +1210,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
@@ -1220,16 +1220,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": 2.6862,
-      "cost_ht": 2.42,
+      "totalStock": "7",
+      "cost_ttc": 2.68583,
+      "cost_ht": 2.4196666666666666,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13829-2026-03-06",
       "latest_purchase_cost_date": "2026-03-06",
-      "costHtUsd": 2.42,
-      "cost_ht_usd": 2.42,
-      "costTtcUsd": 2.6862
+      "costHtUsd": 2.4196666666666666,
+      "cost_ht_usd": 2.4196666666666666,
+      "costTtcUsd": 2.68583
     },
     {
       "id": "1320",
@@ -1746,11 +1746,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "775",
+      "stock_in_geitawi_branch": "774",
       "consumption_in_geitawi_branch": "171",
       "stock_in_medawar_branch": "101",
       "consumption_in_medawar_branch": "415",
-      "total_stock": "876",
+      "total_stock": "875",
       "total_consumption": "586",
       "VAT": "YES",
       "price_lbp": "45,000",
@@ -1762,7 +1762,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "775",
+          "stock": "774",
           "consumption": "171"
         },
         "Medawar": {
@@ -1785,7 +1785,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-1438-1779087504995398",
       "product_setup_saved_at_utc": "2026-05-18T06:58:24.995398Z",
-      "totalStock": "876",
+      "totalStock": "875",
       "cost_ttc": 0.3174291666666667,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -1883,6 +1883,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-24T09:35:50.920128Z",
+  "updatedAt": "2026-08-24T09:42:07.823314Z",
   "source": "sql-relay-web"
 }
