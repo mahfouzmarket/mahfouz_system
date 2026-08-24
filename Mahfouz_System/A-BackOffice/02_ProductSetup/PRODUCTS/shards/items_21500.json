@@ -17554,7 +17554,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
@@ -17562,11 +17562,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "11",
           "consumption": "0"
         }
       },
-      "total_stock": "1",
+      "total_stock": "12",
       "total_consumption": "0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -17574,11 +17574,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "totalStock": "12",
       "cost_ttc": 1.25,
       "cost_ht": 1.25,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14300-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.25,
@@ -24836,6 +24836,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-08-24T06:32:35.226342Z",
+  "updatedAt": "2026-08-24T06:41:01.921484Z",
   "source": "sql-relay-web"
 }
