@@ -193,11 +193,11 @@
       "category": "HOME USAGE",
       "sub_category": "STATIONARY",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "17",
+      "total_stock": "5",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -209,11 +209,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "2",
           "consumption": "0"
         },
         "Nouna": {
@@ -239,17 +239,28 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17",
+      "totalStock": "5",
       "stock_in_nouna_branch": "0",
       "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
       "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override",
-      "cost_ttc": 1.5,
-      "cost_ht": 1.5,
+      "cost_ttc": "1.5000",
+      "cost_ht": "1.5000",
       "costTtcUsd": 1.5,
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.5
     },
     {
       "id": "20014",
@@ -23601,6 +23612,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-24T08:06:06.196441Z",
+  "updatedAt": "2026-08-24T08:12:33.463840Z",
   "source": "sql-relay-web"
 }
