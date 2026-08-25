@@ -2265,14 +2265,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "300,000",
       "price_usd": "3.35",
-      "cost": "2.54",
+      "cost": "2.38",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18090.jpg",
       "new_items": "",
       "manual": "",
@@ -2287,11 +2287,18 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "12",
+      "cost_ttc": 2.6455,
+      "cost_ht": 2.3833333333333333,
+      "costTtcUsd": 2.6455,
+      "costHtUsd": 2.3833333333333333,
+      "cost_ht_usd": 2.3833333333333333,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "18091",
@@ -10694,6 +10701,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-08-25T09:07:54.795564Z",
+  "updatedAt": "2026-08-25T09:26:58.681018Z",
   "source": "sql-relay-web"
 }
