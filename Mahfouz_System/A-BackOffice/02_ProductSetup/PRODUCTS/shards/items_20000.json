@@ -13801,9 +13801,9 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
       "total_stock": "1",
       "total_consumption": "8",
@@ -13817,11 +13817,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         },
         "Nouna": {
@@ -14703,14 +14703,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "22",
-      "stock_in_medawar_branch": "9",
+      "stock_in_medawar_branch": "39",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "9",
+      "total_stock": "39",
       "total_consumption": "35",
       "VAT": "NO",
       "price_lbp": "90,000",
       "price_usd": "1.00",
-      "cost": "0.77",
+      "cost": "0.72",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20311.jpg",
       "new_items": "",
       "manual": "",
@@ -14725,22 +14725,22 @@
           "consumption": "22"
         },
         "Medawar": {
-          "stock": "9",
+          "stock": "39",
           "consumption": "13"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9",
-      "cost_ttc": 0.765,
-      "cost_ht": 0.765,
+      "totalStock": "39",
+      "cost_ttc": 0.8017900000000001,
+      "cost_ht": 0.7223333333333334,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782911742810",
       "latest_purchase_cost_date": "2026-07-01",
-      "costHtUsd": 0.765,
-      "cost_ht_usd": 0.765,
-      "costTtcUsd": 0.765
+      "costHtUsd": 0.7223333333333334,
+      "cost_ht_usd": 0.7223333333333334,
+      "costTtcUsd": 0.8017900000000001
     },
     {
       "id": "20312",
@@ -23612,6 +23612,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-25T06:02:56.665378Z",
+  "updatedAt": "2026-08-25T06:23:34.275306Z",
   "source": "sql-relay-web"
 }
