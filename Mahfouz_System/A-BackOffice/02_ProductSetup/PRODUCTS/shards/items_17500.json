@@ -3523,11 +3523,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "9",
       "VAT": "NO",
       "price_lbp": "350,000",
@@ -3539,7 +3539,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "9"
         },
         "Medawar": {
@@ -3572,7 +3572,7 @@
       "name": "CLUB SANDWICH SUBMARINE",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "1",
+      "totalStock": "0",
       "stock_in_nouna_branch": "1",
       "cost_ttc": 3.69,
       "cost_currency": "USD",
@@ -3907,11 +3907,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "64",
+      "stock_in_geitawi_branch": "61",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "572",
       "consumption_in_medawar_branch": "48",
-      "total_stock": "636",
+      "total_stock": "633",
       "total_consumption": "48",
       "VAT": "YES",
       "price_lbp": "15,000",
@@ -3923,7 +3923,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "64",
+          "stock": "61",
           "consumption": "0"
         },
         "Medawar": {
@@ -3944,7 +3944,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "636",
+      "totalStock": "633",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.14007142857142857,
       "cost_ht": 0.1261904761904762,
@@ -8234,6 +8234,6 @@
       "totalStock": "2"
     }
   ],
-  "updatedAt": "2026-08-25T19:34:53.708446Z",
+  "updatedAt": "2026-08-25T19:50:01.961649Z",
   "source": "sql-relay-web"
 }
