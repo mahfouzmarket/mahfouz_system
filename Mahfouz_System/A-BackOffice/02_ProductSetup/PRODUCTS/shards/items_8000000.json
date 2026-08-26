@@ -4311,7 +4311,7 @@
       "priceLbp": 35000,
       "price_usd": "0.39",
       "cost": "0.33",
-      "cost_ht": "0.3306",
+      "cost_ht": "0.33",
       "VAT": "NO",
       "vat": "no",
       "expiry_days": "60",
@@ -4324,10 +4324,10 @@
       "linked_profile_item_id": "8000193",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "SABLE AND PETIT FOUR",
-      "stock_in_geitawi_branch": "-10",
+      "stock_in_geitawi_branch": "-2",
       "branches": {
         "Geitawi": {
-          "stock": "-10",
+          "stock": "-2",
           "consumption": "20"
         },
         "Medawar": {
@@ -4335,7 +4335,7 @@
           "consumption": "9"
         },
         "Nouna": {
-          "stock": "4",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -4343,10 +4343,10 @@
           "consumption": "0"
         }
       },
-      "total_stock": "-1",
-      "totalStock": "-1",
+      "total_stock": "3",
+      "totalStock": "3",
       "stock_in_medawar_branch": "5",
-      "stock_in_nouna_branch": "4",
+      "stock_in_nouna_branch": "0",
       "consumption_in_geitawi_branch": "20",
       "consumption_in_medawar_branch": "9",
       "consumption_in_nouna_branch": "0",
@@ -4372,7 +4372,20 @@
       "cost_ht_lbp": 29750.0,
       "cost_ttc_lbp": 29750.0,
       "cost_vat_included": false,
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "toters": {
+        "enabled": true,
+        "order": 17,
+        "priceMultiplier": 5.73428571,
+        "priceUsd": 2.23,
+        "originalPriceLbpAtUpdate": 35000,
+        "fxAtUpdate": 90000.0,
+        "category": "Sablé",
+        "addOns": "None",
+        "sourceTemplateName": "Apricot Sablé",
+        "updatedAtUtc": "2026-08-26T06:20:00.862211Z",
+        "updatedBy": "2"
+      }
     },
     {
       "id": "8000194",
@@ -4406,10 +4419,10 @@
       "linked_profile_item_id": "8000194",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "SABLE AND PETIT FOUR",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "10",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "10",
           "consumption": "48"
         },
         "Medawar": {
@@ -4417,7 +4430,7 @@
           "consumption": "15"
         },
         "Nouna": {
-          "stock": "13",
+          "stock": "5",
           "consumption": "0"
         },
         "Firas": {
@@ -4428,7 +4441,7 @@
       "total_stock": "19",
       "totalStock": "19",
       "stock_in_medawar_branch": "4",
-      "stock_in_nouna_branch": "13",
+      "stock_in_nouna_branch": "5",
       "consumption_in_geitawi_branch": "48",
       "consumption_in_medawar_branch": "15",
       "consumption_in_nouna_branch": "0",
@@ -4602,6 +4615,6 @@
       "stock_in_firas_branch": "4"
     }
   ],
-  "updatedAt": "2026-08-26T06:13:02.922280Z",
+  "updatedAt": "2026-08-26T06:21:15.939507Z",
   "source": "sql-relay-web"
 }
