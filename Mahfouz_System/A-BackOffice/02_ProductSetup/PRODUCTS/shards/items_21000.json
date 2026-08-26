@@ -3350,8 +3350,8 @@
       "cost": "0.91",
       "total_stock": "32",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "32",
+      "stock_in_geitawi_branch": "10",
+      "stock_in_medawar_branch": "22",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -3366,11 +3366,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "22",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "10"
         }
       },
       "created_by_user_code": "1",
@@ -4241,11 +4242,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "24",
+      "stock_in_geitawi_branch": "23",
       "consumption_in_geitawi_branch": "19",
       "stock_in_medawar_branch": "21",
       "consumption_in_medawar_branch": "15",
-      "total_stock": "45",
+      "total_stock": "44",
       "total_consumption": "34",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -4257,7 +4258,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "24",
+          "stock": "23",
           "consumption": "19"
         },
         "Medawar": {
@@ -4271,7 +4272,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "45",
+      "totalStock": "44",
       "cost_ttc": 0.8333333333333334,
       "cost_ht": 0.8333333333333334,
       "cost_currency": "USD",
@@ -4752,11 +4753,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Chewing gum",
       "offers": "0",
-      "stock_in_geitawi_branch": "9",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "37",
       "stock_in_medawar_branch": "26",
       "consumption_in_medawar_branch": "55",
-      "total_stock": "35",
+      "total_stock": "34",
       "total_consumption": "92",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -4768,7 +4769,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "9",
+          "stock": "8",
           "consumption": "37"
         },
         "Medawar": {
@@ -4782,7 +4783,7 @@
       "vat": "yes",
       "barcode2": "7622202845437",
       "barcodes": "",
-      "totalStock": "35",
+      "totalStock": "34",
       "cost_ttc": 0.3125,
       "cost_ht": 0.3125,
       "cost_currency": "USD",
@@ -26890,6 +26891,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-26T08:45:10.415573Z",
+  "updatedAt": "2026-08-26T09:08:16.761135Z",
   "source": "sql-relay-web"
 }
