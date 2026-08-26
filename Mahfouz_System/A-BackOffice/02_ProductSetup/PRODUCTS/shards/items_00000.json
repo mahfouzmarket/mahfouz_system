@@ -2992,9 +2992,9 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "78",
+      "stock_in_geitawi_branch": "102",
       "consumption_in_geitawi_branch": "206",
-      "stock_in_medawar_branch": "265",
+      "stock_in_medawar_branch": "241",
       "consumption_in_medawar_branch": "289",
       "total_stock": "343",
       "total_consumption": "495",
@@ -3008,11 +3008,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "78",
+          "stock": "102",
           "consumption": "206"
         },
         "Medawar": {
-          "stock": "265",
+          "stock": "241",
           "consumption": "289"
         }
       },
@@ -3152,11 +3152,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "234",
+      "stock_in_geitawi_branch": "258",
       "consumption_in_geitawi_branch": "236",
-      "stock_in_medawar_branch": "-29",
+      "stock_in_medawar_branch": "189",
       "consumption_in_medawar_branch": "78",
-      "total_stock": "205",
+      "total_stock": "447",
       "total_consumption": "314",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -3168,11 +3168,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "234",
+          "stock": "258",
           "consumption": "236"
         },
         "Medawar": {
-          "stock": "-29",
+          "stock": "189",
           "consumption": "78"
         }
       },
@@ -3182,16 +3182,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "205",
-      "cost_ttc": 0.7539622641509435,
-      "cost_ht": 0.6792452830188679,
+      "totalStock": "447",
+      "cost_ttc": "0.7540",
+      "cost_ht": "0.6792",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781763381720",
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 0.6792452830188679,
       "cost_ht_usd": 0.6792452830188679,
-      "costTtcUsd": 0.7539622641509435
+      "costTtcUsd": 0.7539622641509435,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.7539622641509435
     },
     {
       "id": "400",
@@ -4199,9 +4210,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "1696",
-      "stock_in_medawar_branch": "2836",
+      "stock_in_medawar_branch": "2832",
       "consumption_in_medawar_branch": "1234",
-      "total_stock": "2854",
+      "total_stock": "2850",
       "total_consumption": "2930",
       "VAT": "NO",
       "price_lbp": "25,000",
@@ -4217,7 +4228,7 @@
           "consumption": "1696"
         },
         "Medawar": {
-          "stock": "2836",
+          "stock": "2832",
           "consumption": "1234"
         }
       },
@@ -4227,7 +4238,7 @@
       "vat": "no",
       "barcode2": "9556001297877",
       "barcodes": "9556001297877",
-      "totalStock": "2854",
+      "totalStock": "2850",
       "priceLbp": 25000.0,
       "priceUsd": 0.2777777777777778,
       "cost_ttc": 0.15333333333333332,
@@ -4249,9 +4260,9 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "-",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "52",
+      "stock_in_medawar_branch": "49",
       "consumption_in_medawar_branch": "7",
       "total_stock": "58",
       "total_consumption": "10",
@@ -4266,11 +4277,11 @@
       "pcs_in_box": "22",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "9",
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "52",
+          "stock": "49",
           "consumption": "7"
         },
         "The Daily Market": {
@@ -4351,6 +4362,6 @@
       "costTtcUsd": 3.0297450000000006
     }
   ],
-  "updatedAt": "2026-08-26T11:09:41.485902Z",
+  "updatedAt": "2026-08-26T11:15:42.434575Z",
   "source": "sql-relay-web"
 }
