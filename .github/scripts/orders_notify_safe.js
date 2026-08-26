@@ -11,6 +11,24 @@ const TIMER_LOOKBACK_MS =
 const EVENT_NAME = process.env.GITHUB_EVENT_NAME || '';
 const IS_NOUNAS = BRAND_ID === 'nounas_food';
 
+// Mahfouz and Nouna intentionally share one Firebase project. Topic names
+// alone cannot enforce the app boundary when a stale registration remains on
+// the other brand's topic. Bind every platform payload to the intended binary.
+const BRAND_APP_TARGETS = Object.freeze({
+  mahfouz_market: Object.freeze({
+    iosBundleId: 'MAHFOUZ.MARKET.MM-APP',
+    androidPackageName: 'com.mahfouzmarket.mahfouz_market',
+  }),
+  nounas_food: Object.freeze({
+    iosBundleId: 'com.mahfouz.nounasfood',
+    androidPackageName: 'com.mahfouzmarket.nounas_food',
+  }),
+});
+const BRAND_APP_TARGET = BRAND_APP_TARGETS[BRAND_ID];
+if (!BRAND_APP_TARGET) {
+  throw new Error(`Unsupported BRAND_ID for push target isolation: ${BRAND_ID}`);
+}
+
 function sh(args) {
   try {
     return execFileSync('git', args, { encoding: 'utf8' }).trim();
@@ -238,10 +256,12 @@ async function send(topic, title, body, data) {
     android: {
       ...(collapseId ? { collapseKey: collapseId } : {}),
       priority: 'high',
+      restrictedPackageName: BRAND_APP_TARGET.androidPackageName,
       notification: { sound: 'default' },
     },
     apns: {
       headers: {
+        'apns-topic': BRAND_APP_TARGET.iosBundleId,
         'apns-priority': '10',
         'apns-push-type': 'alert',
         ...(collapseId ? { 'apns-collapse-id': collapseId } : {}),
