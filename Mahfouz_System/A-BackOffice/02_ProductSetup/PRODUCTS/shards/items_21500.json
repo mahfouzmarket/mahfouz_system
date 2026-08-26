@@ -10432,7 +10432,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "40",
       "branches": {
         "Geitawi": {
@@ -10440,11 +10440,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "0",
           "consumption": "40"
         }
       },
-      "total_stock": "4",
+      "total_stock": "0",
       "total_consumption": "40",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -10452,7 +10452,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "4",
+      "totalStock": "0",
       "cost_ttc": 2.2755000000000005,
       "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
@@ -20393,14 +20393,14 @@
           "consumption": "177"
         },
         "Medawar": {
-          "stock": "84",
+          "stock": "164",
           "consumption": "103"
         }
       },
       "stock_in_geitawi_branch": "50",
-      "total_stock": "134",
-      "cost": "0.32",
-      "stock_in_medawar_branch": "84",
+      "total_stock": "214",
+      "cost": "0.29",
+      "stock_in_medawar_branch": "164",
       "Product Description": "CHOCO PRINCE 25 G ()",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
@@ -20414,16 +20414,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "134",
-      "cost_ttc": 0.35006625,
-      "cost_ht": 0.315375,
+      "totalStock": "214",
+      "cost_ttc": 0.32495250000000003,
+      "cost_ht": 0.29275,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783067029925",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.315375,
-      "cost_ht_usd": 0.315375,
-      "costTtcUsd": 0.35006625,
+      "costHtUsd": 0.29275,
+      "cost_ht_usd": 0.29275,
+      "costTtcUsd": 0.32495250000000003,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -23260,13 +23260,13 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "31",
           "consumption": "34"
         }
       },
       "stock_in_geitawi_branch": "63",
-      "total_stock": "95",
-      "stock_in_medawar_branch": "32",
+      "total_stock": "94",
+      "stock_in_medawar_branch": "31",
       "cost": "0.49",
       "Product Description": "MARS 40G",
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
@@ -23285,7 +23285,7 @@
       "cost_ht": 0.4879166666666667,
       "product_setup_save_token": "PS-SAVE-21946-1779097186404766",
       "product_setup_saved_at_utc": "2026-05-18T09:39:46.404766Z",
-      "totalStock": "95",
+      "totalStock": "94",
       "cost_ttc": 0.5415875000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -24836,6 +24836,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-08-26T07:01:31.261775Z",
+  "updatedAt": "2026-08-26T07:53:25.201780Z",
   "source": "sql-relay-web"
 }
