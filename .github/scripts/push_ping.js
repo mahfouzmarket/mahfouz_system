@@ -28,6 +28,7 @@ async function main() {
     iosBundleId: 'com.mahfouz.nounasfood',
     androidPackageName: 'com.mahfouzmarket.nounas_food',
   });
+  const brandAnchorTopic = `broadcast_${expectedBrandId}`;
 
   const svc = parseJsonEnv('FIREBASE_SERVICE_ACCOUNT_JSON');
   console.log('🔎 svc.project_id =', svc.project_id);
@@ -51,6 +52,15 @@ async function main() {
     admin.initializeApp({ credential: admin.credential.cert(svc) });
   }
 
+  if (TOKEN) {
+    throw new Error(
+      'Direct-token push ping is disabled because token app identity cannot be proven in the shared Firebase project.'
+    );
+  }
+  if (!TOPIC) throw new Error('Provide TOPIC');
+  const brandCondition =
+    `'${TOPIC}' in topics && '${brandAnchorTopic}' in topics`;
+
   const msg = {
     notification: { title, body },
     data: Object.fromEntries(Object.entries(data).map(([k, v]) => [k, String(v)])),
@@ -66,12 +76,12 @@ async function main() {
       },
       payload: { aps: { sound: 'default' } },
     },
-    ...(TOKEN ? { token: TOKEN } : { topic: TOPIC }),
+    condition: brandCondition,
   };
 
   const id = await admin.messaging().send(msg);
   console.log(
-    `✅ PUSH PING SENT: ${TOKEN ? `token=${TOKEN}` : `topic=${TOPIC}`} messageId=${id}`
+    `✅ PUSH PING SENT: topic=${TOPIC} anchor=${brandAnchorTopic} messageId=${id}`
   );
 }
 
