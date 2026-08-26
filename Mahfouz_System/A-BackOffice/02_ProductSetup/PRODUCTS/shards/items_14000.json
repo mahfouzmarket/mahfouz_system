@@ -1518,7 +1518,7 @@
       "consumption_in_geitawi_branch": "110",
       "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "53",
+      "total_stock": "50",
       "total_consumption": "134",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -1542,7 +1542,7 @@
           "consumption": "0"
         },
         "Firas": {
-          "stock": "20",
+          "stock": "17",
           "consumption": "0"
         }
       },
@@ -1563,7 +1563,7 @@
       "name": "NF BROWNI CHOCOLATE",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "53",
+      "totalStock": "50",
       "stock_in_nouna_branch": "11",
       "secondBarcode": "",
       "product_description": "BROWNI CHOCOLATE",
@@ -1580,7 +1580,7 @@
       "cost_ht_usd": 0.6222222222222222,
       "costTtcUsd": 0.8214,
       "priceLbp": 70000,
-      "stock_in_firas_branch": "20",
+      "stock_in_firas_branch": "17",
       "consumption_in_firas_branch": "0"
     },
     {
@@ -1954,9 +1954,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "5",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -1976,22 +1976,22 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 2.400375,
-      "cost_ht": 2.1625,
+      "totalStock": "5",
+      "cost_ttc": 2.39982,
+      "cost_ht": 2.162,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783067029925",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 2.1625,
-      "cost_ht_usd": 2.1625,
-      "costTtcUsd": 2.400375
+      "costHtUsd": 2.162,
+      "cost_ht_usd": 2.162,
+      "costTtcUsd": 2.39982
     },
     {
       "id": "14141",
@@ -2327,7 +2327,7 @@
       "linked_profile_enabled": true,
       "barcode2": "",
       "linked_profile_item_id": "14154",
-      "linked_profile_sub_category": "SWEET & CANDIES",
+      "linked_profile_sub_category": "NOUNA'S FOOD",
       "barcodes": "",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_repo_root": "Nounas_Food",
@@ -7335,6 +7335,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-08-26T06:24:15.940299Z",
+  "updatedAt": "2026-08-26T07:48:04.357319Z",
   "source": "sql-relay-web"
 }
