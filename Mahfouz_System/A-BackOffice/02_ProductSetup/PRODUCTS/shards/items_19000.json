@@ -5661,11 +5661,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "22",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "17",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "22",
+      "total_stock": "21",
       "total_consumption": "17",
       "VAT": "NO",
       "price_lbp": "150,000",
@@ -5677,7 +5677,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22",
+          "stock": "21",
           "consumption": "17"
         },
         "Medawar": {
@@ -5698,7 +5698,7 @@
       "supplier": "DELIZZIO",
       "subcategory": "BAKERY",
       "vat": "no",
-      "totalStock": "22",
+      "totalStock": "21",
       "cost_ttc": 0.6,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -6702,7 +6702,7 @@
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "NOUNA'S FOOD",
-      "sub_category": "SWEET & CANDIES",
+      "sub_category": "NOUNA'S FOOD",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
@@ -6720,7 +6720,7 @@
       "delivery_rules": "0.005",
       "name": "CHOCO BAG NT 100G",
       "supplier": "NOUNA'S FOOD",
-      "subcategory": "SWEET & CANDIES",
+      "subcategory": "NOUNA'S FOOD",
       "vat": "no",
       "branches": {
         "Geitawi": {
@@ -6747,7 +6747,9 @@
       "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "0.0",
       "totalStock": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "NOUNA'S FOOD"
     },
     {
       "id": "19252",
@@ -10665,7 +10667,9 @@
       "consumption_in_nouna_branch": "0.0",
       "product_description": "CANDIED ORANGE SLICES 250GR",
       "totalStock": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "NOUNA'S FOOD"
     },
     {
       "id": "19453",
@@ -12406,6 +12410,6 @@
       "costTtcUsd": 1.1174
     }
   ],
-  "updatedAt": "2026-08-26T06:18:29.112297Z",
+  "updatedAt": "2026-08-26T07:52:07.990886Z",
   "source": "sql-relay-web"
 }
