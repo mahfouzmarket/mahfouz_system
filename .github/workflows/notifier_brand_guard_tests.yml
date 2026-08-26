@@ -1,0 +1,26 @@
+name: Notifier Brand Guard Tests
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/scripts/orders_notify_safe.js"
+      - ".github/scripts/orders_notify_safe_test.js"
+      - ".github/workflows/notifier_brand_guard_tests.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Parse notifier
+        run: node --check .github/scripts/orders_notify_safe.js
+      - name: Run notifier guards
+        run: node --test .github/scripts/orders_notify_safe_test.js
