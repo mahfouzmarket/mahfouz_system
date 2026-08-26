@@ -3907,11 +3907,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "57",
+      "stock_in_geitawi_branch": "56",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "572",
       "consumption_in_medawar_branch": "48",
-      "total_stock": "629",
+      "total_stock": "628",
       "total_consumption": "48",
       "VAT": "YES",
       "price_lbp": "15,000",
@@ -3923,7 +3923,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "57",
+          "stock": "56",
           "consumption": "0"
         },
         "Medawar": {
@@ -3944,7 +3944,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "629",
+      "totalStock": "628",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.14007142857142857,
       "cost_ht": 0.1261904761904762,
@@ -5877,9 +5877,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -5899,20 +5899,20 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0.0"
         }
       },
-      "cost_ttc": 3.8,
-      "cost_ht": 3.8,
+      "cost_ttc": 3.8000000000000003,
+      "cost_ht": 3.8000000000000003,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13355-2026-01-28",
       "latest_purchase_cost_date": "2026-01-28",
-      "costHtUsd": 3.8,
-      "cost_ht_usd": 3.8,
-      "costTtcUsd": 3.8,
-      "totalStock": "0"
+      "costHtUsd": 3.8000000000000003,
+      "cost_ht_usd": 3.8000000000000003,
+      "costTtcUsd": 3.8000000000000003,
+      "totalStock": "6"
     },
     {
       "id": "17856",
@@ -8234,6 +8234,6 @@
       "totalStock": "2"
     }
   ],
-  "updatedAt": "2026-08-26T03:53:28.761439Z",
+  "updatedAt": "2026-08-26T04:12:12.109664Z",
   "source": "sql-relay-web"
 }
