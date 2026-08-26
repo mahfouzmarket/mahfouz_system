@@ -3347,11 +3347,11 @@
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "150,000",
-      "cost": "1.39",
-      "total_stock": "0",
+      "cost": "0.91",
+      "total_stock": "16",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "16",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -3366,7 +3366,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "16",
           "consumption": "0.0"
         },
         "Geitawi": {
@@ -3398,9 +3398,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.39",
+      "cost_ht": 0.911875,
       "costUsd": 1.39,
-      "cost_ht_usd": 1.39,
+      "cost_ht_usd": 0.911875,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21059.jpg",
@@ -3418,7 +3418,12 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "1.67",
-      "totalStock": "0"
+      "totalStock": "16",
+      "cost_ttc": 0.911875,
+      "costTtcUsd": 0.911875,
+      "costHtUsd": 0.911875,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "21060",
@@ -10499,8 +10504,8 @@
       "Product Description": "CHICKEN SALAD",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
-      "category": "FOOD",
-      "sub_category": "BAKING & COOKING",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "FOOD",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
@@ -10541,11 +10546,11 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "21181",
-      "linked_profile_category": "FOOD",
-      "linked_profile_sub_category": "BAKING & COOKING",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "FOOD",
       "name": "NF CHICKEN SALAD",
       "supplier": "NOUNA'S FOOD",
-      "subcategory": "BAKING & COOKING",
+      "subcategory": "FOOD",
       "vat": "no",
       "totalStock": "1",
       "stock_in_nouna_branch": "0",
@@ -17485,8 +17490,8 @@
       "Product Description": "TONY:S FOOD PIZZA DOUGH 1000G",
       "SUPPLIERS": "SUPPLIERS DIVERS",
       "unit": "-",
-      "category": "FOOD",
-      "sub_category": "FROZEN FOOD",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "FOOD",
       "offers": "0",
       "expiry_days": "0",
       "stock_in_geitawi_branch": "1",
@@ -17507,8 +17512,8 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "21326",
-      "linked_profile_category": "FOOD",
-      "linked_profile_sub_category": "FROZEN FOOD",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "FOOD",
       "branches": {
         "Geitawi": {
           "stock": "1",
@@ -17529,7 +17534,7 @@
       },
       "name": "TONY:S FOOD PIZZA DOUGH 1000G",
       "supplier": "SUPPLIERS DIVERS",
-      "subcategory": "FROZEN FOOD",
+      "subcategory": "FOOD",
       "vat": "no",
       "totalStock": "7",
       "cost_ttc": 4.4,
@@ -26885,6 +26890,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-26T06:45:04.743966Z",
+  "updatedAt": "2026-08-26T07:46:51.861386Z",
   "source": "sql-relay-web"
 }
