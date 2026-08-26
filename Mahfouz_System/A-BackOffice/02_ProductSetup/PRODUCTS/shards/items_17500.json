@@ -3523,7 +3523,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -3539,7 +3539,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "9"
         },
         "Medawar": {
@@ -3547,7 +3547,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -3573,7 +3573,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "0",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "cost_ttc": 3.69,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -3598,7 +3598,7 @@
       "sub_category": "READY TO EAT",
       "offers": "0",
       "expiry_days": "4",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
@@ -3620,7 +3620,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "7"
         },
         "Medawar": {
@@ -3628,7 +3628,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -3639,7 +3639,7 @@
       "product_setup_save_token": "PS-SAVE-17707-1778492507581033",
       "product_setup_saved_at_utc": "2026-05-11T09:41:47.581033Z",
       "totalStock": "1",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "cost_ttc": 3.16,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -3909,9 +3909,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "56",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "572",
+      "stock_in_medawar_branch": "571",
       "consumption_in_medawar_branch": "48",
-      "total_stock": "628",
+      "total_stock": "627",
       "total_consumption": "48",
       "VAT": "YES",
       "price_lbp": "15,000",
@@ -3927,7 +3927,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "572",
+          "stock": "571",
           "consumption": "48"
         },
         "Nouna": {
@@ -3944,7 +3944,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "628",
+      "totalStock": "627",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.14007142857142857,
       "cost_ht": 0.1261904761904762,
@@ -4449,11 +4449,11 @@
       "sub_category": "LIGHTER",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "26",
+      "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "59",
       "stock_in_medawar_branch": "29",
       "consumption_in_medawar_branch": "74",
-      "total_stock": "55",
+      "total_stock": "54",
       "total_consumption": "133",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -4471,7 +4471,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "26",
+          "stock": "25",
           "consumption": "59"
         },
         "Medawar": {
@@ -4485,7 +4485,7 @@
       "supplier": "JACK DIB",
       "subcategory": "LIGHTER",
       "vat": "yes",
-      "totalStock": "55",
+      "totalStock": "54",
       "cost_ttc": 0.5772,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -8234,6 +8234,6 @@
       "totalStock": "2"
     }
   ],
-  "updatedAt": "2026-08-26T04:49:38.293431Z",
+  "updatedAt": "2026-08-26T05:11:00.331244Z",
   "source": "sql-relay-web"
 }
