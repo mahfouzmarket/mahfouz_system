@@ -17,6 +17,18 @@ function parseJsonEnv(name) {
 }
 
 async function main() {
+  const expectedBrandId = 'nounas_food';
+  const brandId = (process.env.BRAND_ID || expectedBrandId).trim();
+  if (brandId !== expectedBrandId) {
+    throw new Error(
+      `Refusing cross-brand push ping: expected ${expectedBrandId}, got ${brandId || '<empty>'}`
+    );
+  }
+  const PUSH_APP_TARGET = Object.freeze({
+    iosBundleId: 'com.mahfouz.nounasfood',
+    androidPackageName: 'com.mahfouzmarket.nounas_food',
+  });
+
   const svc = parseJsonEnv('FIREBASE_SERVICE_ACCOUNT_JSON');
   console.log('🔎 svc.project_id =', svc.project_id);
   console.log('🔎 svc.client_email =', svc.client_email);
@@ -30,7 +42,7 @@ async function main() {
 
   const data = {
     kind: 'ping',
-    brand: process.env.BRAND_ID || '',
+    brand: brandId,
     ts: new Date().toISOString(),
   };
 
@@ -42,9 +54,16 @@ async function main() {
   const msg = {
     notification: { title, body },
     data: Object.fromEntries(Object.entries(data).map(([k, v]) => [k, String(v)])),
-    android: { priority: 'high', notification: { sound: 'default' } },
+    android: {
+      priority: 'high',
+      restrictedPackageName: PUSH_APP_TARGET.androidPackageName,
+      notification: { sound: 'default' },
+    },
     apns: {
-      headers: { 'apns-priority': '10' },
+      headers: {
+        'apns-topic': PUSH_APP_TARGET.iosBundleId,
+        'apns-priority': '10',
+      },
       payload: { aps: { sound: 'default' } },
     },
     ...(TOKEN ? { token: TOKEN } : { topic: TOPIC }),
