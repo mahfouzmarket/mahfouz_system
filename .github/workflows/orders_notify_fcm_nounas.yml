@@ -48,6 +48,8 @@ jobs:
           OWNER_TOPIC: "orders_nounas_food"
           RECENT_WINDOW_HOURS: "12"
           TIMER_LOOKBACK_HOURS: "24"
+          # Orders/statuses before this deployment were already handled by the legacy notifier.
+          TIMER_RECEIPTS_SINCE: "2026-08-26T13:16:47Z"
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
         run: node .github/scripts/orders_notify_safe.js
 
