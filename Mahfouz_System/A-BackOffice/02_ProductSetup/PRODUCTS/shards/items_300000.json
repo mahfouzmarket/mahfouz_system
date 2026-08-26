@@ -5969,9 +5969,9 @@
       "sub_category": "TOOLS",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
       "total_stock": "2",
       "total_consumption": "0",
@@ -5991,11 +5991,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -6085,9 +6085,9 @@
       "sub_category": "TOOLS",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "1",
       "total_stock": "3",
       "total_consumption": "1",
@@ -6107,11 +6107,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "2",
           "consumption": "1"
         }
       },
@@ -6850,9 +6850,9 @@
       "sub_category": "sweets",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "21",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "12",
       "total_stock": "21",
       "total_consumption": "18",
@@ -6872,11 +6872,11 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "21",
+          "stock": "10",
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "11",
           "consumption": "12"
         }
       },
@@ -17149,7 +17149,7 @@
       "barcode": "5283013317029",
       "barcode2": "",
       "barcodes": "",
-      "Product Description": "PLRIN SOLEIL STRAWBERRY FROZEN 400 G",
+      "Product Description": "PLEIN SOLEIL STRAWBERRY FROZEN 400 G",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -17167,12 +17167,10 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
       "price_lbp": "160,000",
       "price_usd": "1.78",
       "cost": "1.50",
-      "cost_ht": 1.5,
+      "cost_ht": "1.5000",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300313.jpg",
       "new_items": "x",
       "total_stock": "1",
@@ -17195,14 +17193,15 @@
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "2",
       "total_consumption": "2",
-      "cost_ttc": 1.5,
+      "cost_ttc": "1.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781678831569",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "costTtcUsd": 1.5,
+      "cost_ttc_usd": 1.5,
       "vat": "no"
     },
     {
@@ -21443,18 +21442,18 @@
       "new_items": "x",
       "total_stock": "30",
       "totalStock": "30",
-      "stock_in_medawar_branch": "13",
+      "stock_in_medawar_branch": "15",
       "branches": {
         "Medawar": {
-          "stock": "13",
+          "stock": "15",
           "consumption": "5"
         },
         "Geitawi": {
-          "stock": "17",
+          "stock": "15",
           "consumption": "3"
         }
       },
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "5",
       "total_consumption": "8",
@@ -27761,6 +27760,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-26T11:15:45.081210Z",
+  "updatedAt": "2026-08-26T11:20:38.914390Z",
   "source": "sql-relay-web"
 }
