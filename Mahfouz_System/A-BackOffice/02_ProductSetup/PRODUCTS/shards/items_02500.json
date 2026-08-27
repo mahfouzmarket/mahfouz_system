@@ -930,11 +930,11 @@
       "sub_category": "cake",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -952,7 +952,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         },
         "Medawar": {
@@ -966,7 +966,7 @@
       "supplier": "ENGLISH CAKE SAL",
       "subcategory": "cake",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 2.15169230769231,
       "cost_currency": "USD",
       "cost_vat_included": 1,
@@ -2262,6 +2262,6 @@
       "costTtcUsd": 6.3
     }
   ],
-  "updatedAt": "2026-08-27T19:22:19.254337Z",
+  "updatedAt": "2026-08-27T19:37:36.901446Z",
   "source": "sql-relay-web"
 }
