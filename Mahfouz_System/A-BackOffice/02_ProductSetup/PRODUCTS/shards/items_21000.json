@@ -10094,8 +10094,8 @@
       "cost": "0.90",
       "total_stock": "4",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "4",
+      "stock_in_geitawi_branch": "2",
+      "stock_in_medawar_branch": "2",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -10110,11 +10110,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "2",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "2"
         }
       },
       "created_by_user_code": "1",
@@ -10517,7 +10518,7 @@
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "2",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "600,000",
@@ -10537,7 +10538,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Firas": {
@@ -10558,8 +10559,8 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "FOOD",
       "vat": "no",
-      "totalStock": "1",
-      "stock_in_nouna_branch": "0",
+      "totalStock": "2",
+      "stock_in_nouna_branch": "1",
       "secondBarcode": "",
       "product_description": "CHICKEN SALAD",
       "description": "CHICKEN SALAD",
@@ -23091,9 +23092,9 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "3",
       "total_stock": "24",
       "total_consumption": "9",
@@ -23107,11 +23108,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "8",
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "16",
           "consumption": "3"
         }
       },
@@ -26896,6 +26897,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-27T07:56:06.781328Z",
+  "updatedAt": "2026-08-27T08:14:14.340426Z",
   "source": "sql-relay-web"
 }
