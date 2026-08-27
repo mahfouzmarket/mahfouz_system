@@ -1823,9 +1823,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "13",
       "consumption_in_geitawi_branch": "35",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "33",
-      "total_stock": "12",
+      "total_stock": "13",
       "total_consumption": "68",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -1841,7 +1841,7 @@
           "consumption": "35"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "33"
         }
       },
@@ -1860,7 +1860,7 @@
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
       "costTtcUsd": 0.555,
-      "totalStock": "12"
+      "totalStock": "13"
     },
     {
       "id": "13620",
@@ -4100,9 +4100,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "120",
       "consumption_in_geitawi_branch": "41",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "120",
+      "total_stock": "124",
       "total_consumption": "53",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -4124,7 +4124,7 @@
           "consumption": "41"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "12"
         },
         "The Daily Market": {
@@ -4149,7 +4149,7 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "120",
+      "totalStock": "124",
       "vat": "yes",
       "linked_bulk_stock_source": "parent:1438/6"
     },
@@ -4255,9 +4255,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "456",
       "consumption_in_geitawi_branch": "408",
-      "stock_in_medawar_branch": "262",
+      "stock_in_medawar_branch": "261",
       "consumption_in_medawar_branch": "854",
-      "total_stock": "718",
+      "total_stock": "717",
       "total_consumption": "1262",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -4273,7 +4273,7 @@
           "consumption": "408"
         },
         "Medawar": {
-          "stock": "262",
+          "stock": "261",
           "consumption": "854"
         },
         "The Daily Market": {
@@ -4287,7 +4287,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "718",
+      "totalStock": "717",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -5257,9 +5257,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "190",
-      "stock_in_medawar_branch": "13",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "232",
-      "total_stock": "46",
+      "total_stock": "45",
       "total_consumption": "422",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -5275,7 +5275,7 @@
           "consumption": "190"
         },
         "Medawar": {
-          "stock": "13",
+          "stock": "12",
           "consumption": "232"
         }
       },
@@ -5285,7 +5285,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "46",
+      "totalStock": "45",
       "priceLbp": 100000.0,
       "priceUsd": 1.1111111111111112,
       "cost_ttc": 0.7775000000000001,
@@ -8090,6 +8090,6 @@
       "scalePlu": 0
     }
   ],
-  "updatedAt": "2026-08-27T14:10:52.476929Z",
+  "updatedAt": "2026-08-27T14:15:28.436190Z",
   "source": "sql-relay-web"
 }
