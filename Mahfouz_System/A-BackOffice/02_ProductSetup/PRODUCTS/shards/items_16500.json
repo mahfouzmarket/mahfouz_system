@@ -2108,9 +2108,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "4",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -2126,7 +2126,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "1"
         }
       },
@@ -2136,9 +2136,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": "1.4000",
-      "cost_ht": "1.4000",
+      "totalStock": "4",
+      "cost_ttc": 1.4,
+      "cost_ht": 1.4,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14412",
@@ -3777,7 +3777,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "64",
       "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "34",
@@ -3793,7 +3793,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "8",
           "consumption": "64"
         },
         "Medawar": {
@@ -3801,7 +3801,7 @@
           "consumption": "34"
         },
         "Nouna": {
-          "stock": "3",
+          "stock": "1",
           "consumption": "0"
         },
         "Firas": {
@@ -3825,7 +3825,7 @@
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
       "totalStock": "15",
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "1",
       "secondBarcode": "",
       "product_description": "JELO STRAWBERY",
       "description": "JELO STRAWBERY",
@@ -8009,6 +8009,6 @@
       "consumption_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-27T07:49:04.798274Z",
+  "updatedAt": "2026-08-27T07:56:46.106646Z",
   "source": "sql-relay-web"
 }
