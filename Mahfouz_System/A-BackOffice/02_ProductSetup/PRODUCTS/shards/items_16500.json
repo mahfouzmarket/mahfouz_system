@@ -1227,7 +1227,7 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "39",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "20",
       "total_stock": "5",
       "total_consumption": "59",
@@ -1245,11 +1245,11 @@
           "consumption": "39"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "2",
           "consumption": "20"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -1271,7 +1271,7 @@
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
       "totalStock": "5",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "secondBarcode": "",
       "product_description": "CUSTARD VANILLE",
       "description": "CUSTARD VANILLE",
@@ -1309,11 +1309,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "46",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "18",
-      "total_stock": "5",
+      "total_stock": "4",
       "total_consumption": "64",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -1325,15 +1325,15 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "46"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "18"
         },
         "Nouna": {
-          "stock": "4",
+          "stock": "2",
           "consumption": "0"
         },
         "Firas": {
@@ -1354,13 +1354,13 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "5",
+      "totalStock": "4",
       "secondBarcode": "",
       "product_description": "CUSTARD CHOCOLATE",
       "description": "CUSTARD CHOCOLATE",
       "expiryDays": 10,
       "subCategory": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "4",
+      "stock_in_nouna_branch": "2",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 1.7,
       "cost_currency": "USD",
@@ -3779,7 +3779,7 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "64",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "34",
       "total_stock": "15",
       "total_consumption": "98",
@@ -3797,11 +3797,11 @@
           "consumption": "64"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "6",
           "consumption": "34"
         },
         "Nouna": {
-          "stock": "8",
+          "stock": "3",
           "consumption": "0"
         },
         "Firas": {
@@ -3825,7 +3825,7 @@
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
       "totalStock": "15",
-      "stock_in_nouna_branch": "8",
+      "stock_in_nouna_branch": "3",
       "secondBarcode": "",
       "product_description": "JELO STRAWBERY",
       "description": "JELO STRAWBERY",
@@ -4598,9 +4598,9 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "SANDWICHES",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "13",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "7",
       "total_stock": "0",
       "total_consumption": "20",
@@ -4614,11 +4614,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "7"
         },
         "Nouna": {
@@ -8009,6 +8009,6 @@
       "consumption_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-27T06:01:14.020801Z",
+  "updatedAt": "2026-08-27T06:09:15.712233Z",
   "source": "sql-relay-web"
 }
