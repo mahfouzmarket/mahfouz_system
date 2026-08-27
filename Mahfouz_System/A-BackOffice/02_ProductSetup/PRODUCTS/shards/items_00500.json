@@ -1366,9 +1366,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "69",
-      "stock_in_medawar_branch": "25",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "78",
-      "total_stock": "50",
+      "total_stock": "49",
       "total_consumption": "147",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1384,7 +1384,7 @@
           "consumption": "69"
         },
         "Medawar": {
-          "stock": "25",
+          "stock": "24",
           "consumption": "78"
         }
       },
@@ -1394,7 +1394,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "50",
+      "totalStock": "49",
       "cost_ttc": 0.5434375,
       "cost_ht": 0.4895833333333333,
       "cost_currency": "USD",
@@ -2034,11 +2034,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "29",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "56",
-      "total_stock": "1",
+      "total_stock": "-2",
       "total_consumption": "85",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -2050,11 +2050,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "29"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-2",
           "consumption": "56"
         }
       },
@@ -2071,7 +2071,7 @@
       "supplier": "LIBAN JUS SAL",
       "subcategory": "juice",
       "vat": "yes",
-      "totalStock": "1",
+      "totalStock": "-2",
       "cost_ttc": 0.5434375,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -2996,6 +2996,6 @@
       "costTtcUsd": 1.55
     }
   ],
-  "updatedAt": "2026-08-27T11:30:44.786055Z",
+  "updatedAt": "2026-08-27T11:43:39.696866Z",
   "source": "sql-relay-web"
 }
