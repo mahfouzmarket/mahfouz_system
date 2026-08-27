@@ -4457,9 +4457,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "4",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "110,000",
@@ -4481,7 +4481,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "0"
         }
       },
@@ -4491,10 +4491,10 @@
       "supplier": "JACK DIB",
       "subcategory": "hair care",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "4",
       "cost_ttc": 0.9,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1780563221257",
       "latest_purchase_cost_date": "2026-06-04",
       "costHtUsd": 0.9,
@@ -27782,6 +27782,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-27T07:35:16.696365Z",
+  "updatedAt": "2026-08-27T07:56:06.781328Z",
   "source": "sql-relay-web"
 }
