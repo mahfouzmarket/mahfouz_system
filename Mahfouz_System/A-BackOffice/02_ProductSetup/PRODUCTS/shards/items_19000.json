@@ -3078,9 +3078,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "370,000",
@@ -3096,7 +3096,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -3110,7 +3110,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1",
+      "totalStock": "1",
       "cost_ttc": 3.281900000037,
       "cost_ht": 2.9566666667,
       "cost_currency": "USD",
@@ -7864,9 +7864,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-2",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-2",
+      "total_stock": "0",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -7882,7 +7882,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-2",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -7896,7 +7896,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-2"
+      "totalStock": "0"
     },
     {
       "id": "19307",
@@ -10324,11 +10324,11 @@
       "category": "CIGARETTES",
       "sub_category": "ELECTRIC CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "20",
+      "stock_in_geitawi_branch": "50",
       "consumption_in_geitawi_branch": "114",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "30",
-      "total_stock": "20",
+      "total_stock": "50",
       "total_consumption": "144",
       "VAT": "NO",
       "price_lbp": "175,000",
@@ -10340,7 +10340,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "20",
+          "stock": "50",
           "consumption": "114"
         },
         "Medawar": {
@@ -10363,7 +10363,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-19425-1779081817747484",
       "product_setup_saved_at_utc": "2026-05-18T05:23:37.747484Z",
-      "totalStock": "20",
+      "totalStock": "50",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -12410,6 +12410,6 @@
       "costTtcUsd": 1.1174
     }
   ],
-  "updatedAt": "2026-08-27T10:34:13.729405Z",
+  "updatedAt": "2026-08-27T10:47:33.011603Z",
   "source": "sql-relay-web"
 }
