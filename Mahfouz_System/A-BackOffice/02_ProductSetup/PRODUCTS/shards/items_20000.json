@@ -3269,9 +3269,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "-43",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "-38",
+      "total_stock": "7",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "210,000",
@@ -3291,13 +3291,13 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "-43",
+          "stock": "2",
           "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-38",
+      "totalStock": "7",
       "cost_ttc": 1.25,
       "cost_ht": 1.25,
       "cost_currency": "USD",
@@ -9135,9 +9135,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "375,000",
@@ -9153,7 +9153,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -9163,7 +9163,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "0"
     },
     {
       "id": "20207",
@@ -22092,9 +22092,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "26",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "26",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -22110,7 +22110,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "26"
         }
       },
@@ -22120,11 +22120,11 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 0.5652777777777779,
+      "totalStock": "12",
+      "cost_ttc": 0.5092592592592593,
       "cost_ht": 0.5092592592592593,
       "cost_currency": "LBP",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783233657827",
       "latest_purchase_cost_date": "2026-07-05"
     },
@@ -23632,6 +23632,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-27T04:30:57.636739Z",
+  "updatedAt": "2026-08-27T05:11:00.994986Z",
   "source": "sql-relay-web"
 }
