@@ -231,11 +231,11 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "26",
+      "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "292",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "331",
-      "total_stock": "34",
+      "total_stock": "32",
       "total_consumption": "623",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -247,11 +247,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "26",
+          "stock": "25",
           "consumption": "292"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "7",
           "consumption": "331"
         }
       },
@@ -261,7 +261,7 @@
       "vat": "yes",
       "barcode2": "5283024602336",
       "barcodes": "5283024602336",
-      "totalStock": "34",
+      "totalStock": "32",
       "cost_ttc": 1.162244,
       "cost_ht": 1.0470666666666666,
       "cost_currency": "LBP",
@@ -325,23 +325,23 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "54",
+      "stock_in_geitawi_branch": "78",
       "consumption_in_geitawi_branch": "301",
       "stock_in_medawar_branch": "102",
       "consumption_in_medawar_branch": "452",
-      "total_stock": "156",
+      "total_stock": "180",
       "total_consumption": "753",
       "VAT": "YES",
       "price_lbp": "70,000",
       "price_usd": "0.78",
-      "cost": "0.53",
+      "cost": "0.60",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1182.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "54",
+          "stock": "78",
           "consumption": "301"
         },
         "Medawar": {
@@ -355,13 +355,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "156",
-      "cost_ttc": 0.5889906666666667,
-      "cost_ht": 0.5306222222222222,
-      "cost_currency": "LBP",
-      "cost_vat_included": true,
+      "totalStock": "180",
+      "cost_ttc": 0.60185,
+      "cost_ht": 0.60185,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783407096061",
-      "latest_purchase_cost_date": "2026-07-07"
+      "latest_purchase_cost_date": "2026-07-07",
+      "costTtcUsd": 0.60185,
+      "costHtUsd": 0.60185,
+      "cost_ht_usd": 0.60185
     },
     {
       "id": "1199",
@@ -1894,6 +1897,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-08-28T09:46:34.491785Z",
+  "updatedAt": "2026-08-28T09:54:34.889510Z",
   "source": "sql-relay-web"
 }
