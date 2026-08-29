@@ -2547,9 +2547,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "211",
       "consumption_in_geitawi_branch": "649",
-      "stock_in_medawar_branch": "149",
+      "stock_in_medawar_branch": "148",
       "consumption_in_medawar_branch": "901",
-      "total_stock": "360",
+      "total_stock": "359",
       "total_consumption": "1550",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -2565,7 +2565,7 @@
           "consumption": "649"
         },
         "Medawar": {
-          "stock": "149",
+          "stock": "148",
           "consumption": "901"
         }
       },
@@ -2588,7 +2588,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-16734-1778917777422454",
       "product_setup_saved_at_utc": "2026-05-16T07:49:37.422454Z",
-      "totalStock": "360",
+      "totalStock": "359",
       "cost_ttc": 0.5,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -4173,7 +4173,7 @@
     {
       "id": "16835",
       "barcode": "2701085",
-      "Product Description": "TIRAMISSU",
+      "Product Description": "TIRAMISSU 200 cc",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "NOUNA'S FOOD",
@@ -4188,7 +4188,7 @@
       "VAT": "NO",
       "price_lbp": "300,000",
       "price_usd": "3.33",
-      "cost": "2.83",
+      "cost": "2.67",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16835.jpg",
       "new_items": "",
       "manual": "",
@@ -4218,19 +4218,19 @@
       "barcode2": "",
       "barcodes": "",
       "expiry_days": "7",
-      "cost_ht": 2.833333,
+      "cost_ht": "2.67",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "16835",
-      "linked_profile_category": "DESSERT CUPS",
-      "linked_profile_sub_category": "DESSERT CUPS",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "NOUNA'S FOOD",
       "product_setup_save_token": "PS-SAVE-16835-1778507236012895",
       "product_setup_saved_at_utc": "2026-05-11T13:47:16.012895Z",
       "totalStock": "0",
       "stock_in_nouna_branch": "0",
       "secondBarcode": "",
-      "product_description": "TIRAMISSU",
-      "description": "TIRAMISSU",
+      "product_description": "TIRAMISSU 200 cc",
+      "description": "TIRAMISSU 200 cc",
       "expiryDays": 7,
       "subCategory": "NOUNA'S FOOD",
       "consumption_in_nouna_branch": "0",
@@ -4239,11 +4239,25 @@
       "cost_vat_included": 0,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00001315-80-N-win_no-1783343441474406",
       "latest_purchase_cost_date": "2026-07-06",
-      "costHtUsd": 2.833333,
-      "cost_ht_usd": 2.833333,
+      "costHtUsd": 2.666666666666667,
+      "cost_ht_usd": 2.666666666666667,
       "costTtcUsd": 2.833333,
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "priceLbp": 300000,
+      "toters": {
+        "enabled": true,
+        "order": 14,
+        "priceMultiplier": 1.005,
+        "priceUsd": 3.35,
+        "originalPriceLbpAtUpdate": 300000,
+        "fxAtUpdate": 90000.0,
+        "category": "Tiramisu",
+        "addOns": "None",
+        "sourceTemplateName": "Tiramisu Cup",
+        "updatedAtUtc": "2026-08-29T10:49:58.640466Z",
+        "updatedBy": "2"
+      }
     },
     {
       "id": "16837",
@@ -8020,6 +8034,6 @@
       "consumption_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-29T10:41:07.339137Z",
+  "updatedAt": "2026-08-29T10:52:47.358343Z",
   "source": "sql-relay-web"
 }
