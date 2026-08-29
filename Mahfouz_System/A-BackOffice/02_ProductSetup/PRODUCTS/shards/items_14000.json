@@ -1863,9 +1863,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "31",
-      "stock_in_medawar_branch": "28",
+      "stock_in_medawar_branch": "27",
       "consumption_in_medawar_branch": "30",
-      "total_stock": "38",
+      "total_stock": "37",
       "total_consumption": "61",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -1881,7 +1881,7 @@
           "consumption": "31"
         },
         "Medawar": {
-          "stock": "28",
+          "stock": "27",
           "consumption": "30"
         }
       },
@@ -1891,7 +1891,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "38",
+      "totalStock": "37",
       "cost_ttc": 1.70015,
       "cost_ht": 1.5316666666666665,
       "cost_currency": "USD",
@@ -2286,12 +2286,12 @@
     {
       "id": "14154",
       "barcode": "2700303",
-      "Product Description": "NOUNA'S FOOD CAKE POPS",
+      "Product Description": "CAKE POPS VANILLE & MILK CHOCOLATE",
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
-      "offers": "",
+      "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "0",
@@ -2301,7 +2301,7 @@
       "VAT": "NO",
       "price_lbp": "150,000",
       "price_usd": "1.67",
-      "cost": "1.42",
+      "cost": "1.33",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14154.jpg",
       "new_items": "",
       "manual": "",
@@ -2332,7 +2332,7 @@
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_repo_root": "Nounas_Food",
       "expiry_days": "10",
-      "cost_ht": 1.416667,
+      "cost_ht": "1.33",
       "sub": "NOUNA'S FOOD",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -2343,8 +2343,8 @@
       "vat": "no",
       "totalStock": "0",
       "secondBarcode": "",
-      "product_description": "NOUNA'S FOOD CAKE POPS",
-      "description": "NOUNA'S FOOD CAKE POPS",
+      "product_description": "CAKE POPS VANILLE & MILK CHOCOLATE",
+      "description": "CAKE POPS VANILLE & MILK CHOCOLATE",
       "expiryDays": 10,
       "subCategory": "NOUNA'S FOOD",
       "stock_in_nouna_branch": "0",
@@ -2353,12 +2353,26 @@
       "cost_vat_included": 0,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_00000743-70-N-win_de-1781586155479104",
       "latest_purchase_cost_date": "2026-06-16",
-      "costHtUsd": 1.416667,
-      "cost_ht_usd": 1.416667,
+      "costHtUsd": 1.3333333333333335,
+      "cost_ht_usd": 1.3333333333333335,
       "costTtcUsd": 1.416667,
       "consumption_in_nouna_branch": "0",
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "priceLbp": 150000,
+      "toters": {
+        "enabled": true,
+        "order": 43,
+        "priceMultiplier": 1.2,
+        "priceUsd": 2.0,
+        "originalPriceLbpAtUpdate": 150000,
+        "fxAtUpdate": 90000.0,
+        "category": "Candies",
+        "addOns": "None",
+        "sourceTemplateName": "Cake Pops",
+        "updatedAtUtc": "2026-08-29T10:55:28.254611Z",
+        "updatedBy": "2"
+      }
     },
     {
       "id": "14155",
@@ -4536,11 +4550,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "10",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "15",
-      "total_stock": "4",
+      "total_stock": "2",
       "total_consumption": "25",
       "VAT": "YES",
       "price_lbp": "215,000",
@@ -4552,7 +4566,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "1",
           "consumption": "10"
         },
         "Medawar": {
@@ -4566,7 +4580,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
+      "totalStock": "2",
       "cost_ttc": 2.2866000000000004,
       "cost_ht": 2.06,
       "cost_currency": "USD",
@@ -7338,6 +7352,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-08-29T10:25:54.210454Z",
+  "updatedAt": "2026-08-29T10:59:48.886056Z",
   "source": "sql-relay-web"
 }
