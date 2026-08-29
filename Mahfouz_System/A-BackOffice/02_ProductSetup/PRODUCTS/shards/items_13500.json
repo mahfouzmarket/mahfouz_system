@@ -4103,9 +4103,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "120",
       "consumption_in_geitawi_branch": "41",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "121",
+      "total_stock": "120",
       "total_consumption": "53",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -4127,7 +4127,7 @@
           "consumption": "41"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "12"
         },
         "The Daily Market": {
@@ -4152,7 +4152,7 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "121",
+      "totalStock": "120",
       "vat": "yes",
       "linked_bulk_stock_source": "parent:1438/6"
     },
@@ -5258,11 +5258,11 @@
       "category": "FOOD",
       "sub_category": "ICE",
       "offers": "0",
-      "stock_in_geitawi_branch": "35",
+      "stock_in_geitawi_branch": "34",
       "consumption_in_geitawi_branch": "190",
       "stock_in_medawar_branch": "31",
       "consumption_in_medawar_branch": "232",
-      "total_stock": "66",
+      "total_stock": "65",
       "total_consumption": "422",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -5274,7 +5274,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "35",
+          "stock": "34",
           "consumption": "190"
         },
         "Medawar": {
@@ -5288,7 +5288,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "66",
+      "totalStock": "65",
       "priceLbp": 100000.0,
       "priceUsd": 1.1111111111111112,
       "cost_ttc": 0.78,
@@ -8093,6 +8093,6 @@
       "scalePlu": 0
     }
   ],
-  "updatedAt": "2026-08-29T19:43:53.353528Z",
+  "updatedAt": "2026-08-29T19:59:28.560725Z",
   "source": "sql-relay-web"
 }
