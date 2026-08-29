@@ -309,11 +309,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "41",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "50",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -325,7 +325,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "41"
         },
         "Medawar": {
@@ -345,7 +345,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "FOOD",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "-1",
       "barcode2": "",
       "secondBarcode": "",
       "barcodes": "",
@@ -4258,9 +4258,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "455",
       "consumption_in_geitawi_branch": "408",
-      "stock_in_medawar_branch": "210",
+      "stock_in_medawar_branch": "209",
       "consumption_in_medawar_branch": "854",
-      "total_stock": "665",
+      "total_stock": "664",
       "total_consumption": "1262",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -4276,7 +4276,7 @@
           "consumption": "408"
         },
         "Medawar": {
-          "stock": "210",
+          "stock": "209",
           "consumption": "854"
         },
         "The Daily Market": {
@@ -4290,7 +4290,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "665",
+      "totalStock": "664",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -8093,6 +8093,6 @@
       "scalePlu": 0
     }
   ],
-  "updatedAt": "2026-08-29T08:05:34.907554Z",
+  "updatedAt": "2026-08-29T08:15:59.950810Z",
   "source": "sql-relay-web"
 }
