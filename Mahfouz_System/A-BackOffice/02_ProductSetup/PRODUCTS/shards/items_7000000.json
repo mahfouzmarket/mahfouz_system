@@ -491,9 +491,9 @@
       "barcode2": "",
       "secondBarcode": "",
       "barcodes": "",
-      "Product Description": "BROWNIE BOX 4 PCS",
-      "product_description": "BROWNIE BOX 4 PCS",
-      "description": "BROWNIE BOX 4 PCS",
+      "Product Description": "BROWNIE BOX 4 PCS ( LOTUS, PISTACHIO, KINDER, OREO )",
+      "product_description": "BROWNIE BOX 4 PCS ( LOTUS, PISTACHIO, KINDER, OREO )",
+      "description": "BROWNIE BOX 4 PCS ( LOTUS, PISTACHIO, KINDER, OREO )",
       "SUPPLIERS": "NOUNA'S FOOD",
       "supplier": "NOUNA'S FOOD",
       "unit": "-",
@@ -539,7 +539,20 @@
       "totalStock": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "toters": {
+        "enabled": true,
+        "order": 9,
+        "priceMultiplier": 1.08,
+        "priceUsd": 12.0,
+        "originalPriceLbpAtUpdate": 1000000,
+        "fxAtUpdate": 90000.0,
+        "category": "Brownies",
+        "addOns": "None",
+        "sourceTemplateName": "Brownie Box (4 pcs)",
+        "updatedAtUtc": "2026-08-29T10:53:24.254557Z",
+        "updatedBy": "2"
+      }
     },
     {
       "id": "7000021",
@@ -2103,6 +2116,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-08-29T04:18:01.803331Z",
+  "updatedAt": "2026-08-29T10:53:47.787983Z",
   "source": "sql-relay-web"
 }
