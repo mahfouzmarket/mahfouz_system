@@ -439,12 +439,12 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300508.jpg",
       "new_items": "x",
-      "total_stock": "8",
-      "totalStock": "8",
-      "stock_in_medawar_branch": "2",
+      "total_stock": "7",
+      "totalStock": "7",
+      "stock_in_medawar_branch": "1",
       "branches": {
         "Medawar": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "63"
         },
         "Geitawi": {
@@ -3278,11 +3278,14 @@
       "new_items": "x",
       "total_stock": "15",
       "totalStock": "15",
-      "stock_in_medawar_branch": "15",
+      "stock_in_medawar_branch": "12",
       "branches": {
         "Medawar": {
-          "stock": "15",
+          "stock": "12",
           "consumption": "3"
+        },
+        "Geitawi": {
+          "stock": "3"
         }
       },
       "consumption_in_medawar_branch": "3",
@@ -3291,6 +3294,7 @@
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300560.jpg",
       "image_updated_at_utc": "2026-08-31T10:37:05.808178Z",
       "cost_ttc_usd": 0.6306818181818183,
+      "stock_in_geitawi_branch": "3",
       "vat": "yes"
     },
     {
@@ -14733,12 +14737,16 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300774.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300774.jpg",
       "image_updated_at_utc": "2026-08-26T05:56:51.541761Z",
-      "stock_in_medawar_branch": "35",
+      "stock_in_medawar_branch": "30",
       "branches": {
         "Medawar": {
-          "stock": "35"
+          "stock": "30"
+        },
+        "Geitawi": {
+          "stock": "5"
         }
       },
+      "stock_in_geitawi_branch": "5",
       "vat": "yes"
     },
     {
@@ -15865,6 +15873,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-31T10:37:58.267041Z",
+  "updatedAt": "2026-08-31T10:43:19.147885Z",
   "source": "sql-relay-web"
 }
