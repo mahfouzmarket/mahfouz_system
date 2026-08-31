@@ -430,8 +430,8 @@
       "price_lbp": "225,000",
       "price_usd": "2.50",
       "cost": "1.78",
-      "cost_ttc": "1.9758",
-      "cost_ht": "1.7800",
+      "cost_ttc": 1.9758000000000002,
+      "cost_ht": 1.78,
       "costTtcUsd": 1.9758000000000002,
       "costHtUsd": 1.78,
       "cost_ht_usd": 1.78,
@@ -439,12 +439,12 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300508.jpg",
       "new_items": "x",
-      "total_stock": "12",
-      "totalStock": "12",
-      "stock_in_medawar_branch": "4",
+      "total_stock": "16",
+      "totalStock": "16",
+      "stock_in_medawar_branch": "8",
       "branches": {
         "Medawar": {
-          "stock": "4",
+          "stock": "8",
           "consumption": "63"
         },
         "Geitawi": {
@@ -2391,8 +2391,8 @@
       "cost_ht": "2.75",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300544.jpg",
       "new_items": "x",
-      "total_stock": "3",
-      "totalStock": "3",
+      "total_stock": "2",
+      "totalStock": "2",
       "stock_in_medawar_branch": "2",
       "branches": {
         "Medawar": {
@@ -2400,11 +2400,11 @@
           "consumption": "2"
         },
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "1"
         }
       },
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "2",
       "total_consumption": "3",
@@ -15813,6 +15813,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-08-31T04:56:10.105224Z",
+  "updatedAt": "2026-08-31T05:08:19.143125Z",
   "source": "sql-relay-web"
 }
