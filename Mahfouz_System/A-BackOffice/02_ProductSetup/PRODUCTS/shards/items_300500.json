@@ -15910,12 +15910,16 @@
       "new_items": "x",
       "total_stock": "300",
       "totalStock": "300",
-      "stock_in_medawar_branch": "300",
+      "stock_in_medawar_branch": "150",
       "branches": {
         "Medawar": {
-          "stock": "300"
+          "stock": "150"
+        },
+        "Geitawi": {
+          "stock": "150"
         }
       },
+      "stock_in_geitawi_branch": "150",
       "vat": "no"
     },
     {
@@ -15956,12 +15960,16 @@
       "new_items": "x",
       "total_stock": "11",
       "totalStock": "11",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "6",
       "branches": {
         "Medawar": {
-          "stock": "11"
+          "stock": "6"
+        },
+        "Geitawi": {
+          "stock": "5"
         }
       },
+      "stock_in_geitawi_branch": "5",
       "vat": "yes"
     },
     {
@@ -16002,12 +16010,16 @@
       "new_items": "x",
       "total_stock": "12",
       "totalStock": "12",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "7",
       "branches": {
         "Medawar": {
-          "stock": "12"
+          "stock": "7"
+        },
+        "Geitawi": {
+          "stock": "5"
         }
       },
+      "stock_in_geitawi_branch": "5",
       "vat": "yes"
     },
     {
@@ -16048,12 +16060,16 @@
       "new_items": "x",
       "total_stock": "6",
       "totalStock": "6",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "3",
       "branches": {
         "Medawar": {
-          "stock": "6"
+          "stock": "3"
+        },
+        "Geitawi": {
+          "stock": "3"
         }
       },
+      "stock_in_geitawi_branch": "3",
       "vat": "yes"
     },
     {
@@ -16094,12 +16110,16 @@
       "new_items": "x",
       "total_stock": "6",
       "totalStock": "6",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "3",
       "branches": {
         "Medawar": {
-          "stock": "6"
+          "stock": "3"
+        },
+        "Geitawi": {
+          "stock": "3"
         }
       },
+      "stock_in_geitawi_branch": "3",
       "vat": "yes"
     },
     {
@@ -16151,17 +16171,17 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0"
+          "stock": "5"
         },
         "Medawar": {
-          "stock": "10"
+          "stock": "5"
         }
       },
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "10",
+      "stock_in_geitawi_branch": "5",
+      "stock_in_medawar_branch": "5",
       "linked_bulk_stock_source": "parent:300797/30"
     }
   ],
-  "updatedAt": "2026-08-31T11:26:03.982939Z",
+  "updatedAt": "2026-08-31T11:30:39.889764Z",
   "source": "sql-relay-web"
 }
