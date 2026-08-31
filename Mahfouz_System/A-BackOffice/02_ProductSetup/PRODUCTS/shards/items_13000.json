@@ -615,9 +615,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "253",
       "consumption_in_geitawi_branch": "134",
-      "stock_in_medawar_branch": "230",
+      "stock_in_medawar_branch": "229",
       "consumption_in_medawar_branch": "181",
-      "total_stock": "483",
+      "total_stock": "482",
       "total_consumption": "315",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -633,7 +633,7 @@
           "consumption": "134"
         },
         "Medawar": {
-          "stock": "230",
+          "stock": "229",
           "consumption": "181"
         }
       },
@@ -652,7 +652,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13034-1778914276162595",
       "product_setup_saved_at_utc": "2026-05-16T06:51:16.162595Z",
-      "totalStock": "483",
+      "totalStock": "482",
       "cost_ttc": 0.1443,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -5621,9 +5621,9 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
       "total_stock": "11",
       "total_consumption": "1",
@@ -5641,26 +5641,40 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "8",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": 0.555,
-      "cost_ht": 0.5,
+      "cost_ttc": "0.5550",
+      "cost_ht": "0.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14297-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
       "costTtcUsd": 0.555,
-      "totalStock": "11"
+      "totalStock": "11",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13376.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13376.jpg",
+      "image_updated_at_utc": "2026-08-31T07:48:41.571823Z",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.555
     },
     {
       "id": "13381",
@@ -7670,9 +7684,9 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "5",
       "total_stock": "6",
       "total_consumption": "7",
@@ -7686,11 +7700,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "4",
           "consumption": "5"
         }
       },
@@ -7762,6 +7776,6 @@
       "costTtcUsd": 0.10614375000000001
     }
   ],
-  "updatedAt": "2026-08-31T07:38:06.647274Z",
+  "updatedAt": "2026-08-31T07:50:22.384390Z",
   "source": "sql-relay-web"
 }
