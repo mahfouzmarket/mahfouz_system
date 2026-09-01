@@ -59,11 +59,11 @@
       "category": "FOOD",
       "sub_category": "COLD MEZA",
       "offers": "0",
-      "stock_in_geitawi_branch": "25",
+      "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "52",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "120",
-      "total_stock": "28",
+      "total_stock": "27",
       "total_consumption": "172",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -75,7 +75,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "25",
+          "stock": "24",
           "consumption": "52"
         },
         "Medawar": {
@@ -89,7 +89,7 @@
       "vat": "no",
       "barcode2": "5287000550284",
       "barcodes": "",
-      "totalStock": "28",
+      "totalStock": "27",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -341,9 +341,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "68",
-      "stock_in_medawar_branch": "60",
+      "stock_in_medawar_branch": "59",
       "consumption_in_medawar_branch": "358",
-      "total_stock": "75",
+      "total_stock": "74",
       "total_consumption": "426",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -359,7 +359,7 @@
           "consumption": "68"
         },
         "Medawar": {
-          "stock": "60",
+          "stock": "59",
           "consumption": "358"
         }
       },
@@ -369,7 +369,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "75",
+      "totalStock": "74",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.922222,
       "cost_ht": 0.922222,
@@ -1041,9 +1041,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "7",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -1059,7 +1059,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         }
       },
@@ -1069,16 +1069,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": 1.7501,
-      "cost_ht": 1.57666666666667,
+      "totalStock": "7",
+      "cost_ttc": 1.7493600000000002,
+      "cost_ht": 1.576,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
-      "costHtUsd": 1.57666666666667,
-      "cost_ht_usd": 1.57666666666667,
-      "costTtcUsd": 1.7501
+      "costHtUsd": 1.576,
+      "cost_ht_usd": 1.576,
+      "costTtcUsd": 1.7493600000000002
     },
     {
       "id": "2418",
@@ -2040,6 +2040,6 @@
       "costTtcUsd": 2.6085000000000003
     }
   ],
-  "updatedAt": "2026-09-01T05:31:39.677411Z",
+  "updatedAt": "2026-09-01T06:22:44.817998Z",
   "source": "sql-relay-web"
 }
