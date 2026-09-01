@@ -266,10 +266,10 @@
       "linked_profile_item_id": "90021",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CROISSANT",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "1",
       "branches": {
         "Nouna": {
-          "stock": "2"
+          "stock": "1"
         },
         "Firas": {
           "stock": "0"
@@ -278,14 +278,14 @@
           "stock": "0"
         },
         "Geitawi": {
-          "stock": "0"
+          "stock": "1"
         }
       },
       "total_stock": "2",
       "totalStock": "2",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "1"
     },
     {
       "id": "90022",
@@ -321,14 +321,14 @@
       "linked_profile_item_id": "90022",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CROISSANT",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         },
         "Medawar": {
@@ -341,7 +341,7 @@
       },
       "total_stock": "0",
       "totalStock": "0",
-      "stock_in_nouna_branch": "0",
+      "stock_in_nouna_branch": "-1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -383,14 +383,14 @@
       "linked_profile_item_id": "90023",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CROISSANT",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "2"
         },
         "Nouna": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "0"
         },
         "Medawar": {
@@ -404,7 +404,7 @@
       },
       "total_stock": "5",
       "totalStock": "5",
-      "stock_in_nouna_branch": "5",
+      "stock_in_nouna_branch": "4",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -994,14 +994,14 @@
       "linked_profile_item_id": "90048",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CROISSANT",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "2",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "2",
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "-2",
+          "stock": "-3",
           "consumption": "0"
         },
         "Firas": {
@@ -1015,7 +1015,7 @@
       },
       "total_stock": "-1",
       "totalStock": "-1",
-      "stock_in_nouna_branch": "-2",
+      "stock_in_nouna_branch": "-3",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_firas_branch": "0",
@@ -5903,9 +5903,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "322",
       "consumption_in_geitawi_branch": "1712",
-      "stock_in_medawar_branch": "7126",
+      "stock_in_medawar_branch": "7125",
       "consumption_in_medawar_branch": "2694",
-      "total_stock": "7451",
+      "total_stock": "7450",
       "total_consumption": "4406",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -5921,7 +5921,7 @@
           "consumption": "1712"
         },
         "Medawar": {
-          "stock": "7126",
+          "stock": "7125",
           "consumption": "2694"
         },
         "Nouna": {
@@ -5939,7 +5939,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7451",
+      "totalStock": "7450",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -9976,6 +9976,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-01T08:35:29.727663Z",
+  "updatedAt": "2026-09-01T09:00:20.608697Z",
   "source": "sql-relay-web"
 }
