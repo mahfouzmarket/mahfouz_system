@@ -1863,9 +1863,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "31",
-      "stock_in_medawar_branch": "27",
+      "stock_in_medawar_branch": "75",
       "consumption_in_medawar_branch": "30",
-      "total_stock": "36",
+      "total_stock": "84",
       "total_consumption": "61",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -1881,7 +1881,7 @@
           "consumption": "31"
         },
         "Medawar": {
-          "stock": "27",
+          "stock": "75",
           "consumption": "30"
         }
       },
@@ -1891,7 +1891,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "36",
+      "totalStock": "84",
       "cost_ttc": 1.70015,
       "cost_ht": 1.5316666666666665,
       "cost_currency": "USD",
@@ -4240,11 +4240,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "12",
+      "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "20",
+      "total_stock": "19",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "625,000",
@@ -4256,7 +4256,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "4"
         },
         "Medawar": {
@@ -4270,7 +4270,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "20",
+      "totalStock": "19",
       "cost_ttc": 5.7498000000000005,
       "cost_ht": 5.18,
       "cost_currency": "USD",
@@ -4354,9 +4354,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "3",
+      "total_stock": "9",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "340,000",
@@ -4372,7 +4372,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "9",
           "consumption": "1"
         }
       },
@@ -4380,16 +4380,16 @@
       "supplier": "AL RAED TRADING",
       "subcategory": "Wafers",
       "vat": "yes",
-      "totalStock": "3",
-      "cost_ttc": 2.999775,
-      "cost_ht": 2.7025,
+      "totalStock": "9",
+      "cost_ttc": 3.0007,
+      "cost_ht": 2.703333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
-      "costHtUsd": 2.7025,
-      "cost_ht_usd": 2.7025,
-      "costTtcUsd": 2.999775
+      "costHtUsd": 2.703333333333333,
+      "cost_ht_usd": 2.703333333333333,
+      "costTtcUsd": 3.0007
     },
     {
       "id": "14315",
@@ -7352,6 +7352,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-09-01T08:35:29.727663Z",
+  "updatedAt": "2026-09-01T08:53:15.712466Z",
   "source": "sql-relay-web"
 }
