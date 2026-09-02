@@ -4717,11 +4717,11 @@
       "sub_category": "TANBAK",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "13",
       "VAT": "NO",
       "price_lbp": "580,000",
@@ -4739,7 +4739,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "11"
         },
         "Medawar": {
@@ -4753,7 +4753,7 @@
       "supplier": "CIGARETTES",
       "subcategory": "TANBAK",
       "vat": "no",
-      "totalStock": "1",
+      "totalStock": "0",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -7275,7 +7275,7 @@
       "barcode": "6970432465422",
       "barcode2": "",
       "barcodes": "",
-      "Product Description": "GRATIS GRATUITES 10+2",
+      "Product Description": "HUISHOUD DOEKJES LAVETTES GRATIS GRATUITES 10+2",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -7292,7 +7292,7 @@
       "price_lbp": "18,000",
       "price_usd": "0.20",
       "cost": "1.25",
-      "cost_ht": 1.25,
+      "cost_ht": "1.2500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300131.jpg",
       "new_items": "x",
       "manual": "",
@@ -7318,15 +7318,25 @@
       "supplier": "JACK DIB",
       "subcategory": "CLOTH CLEANING",
       "vat": "no",
-      "cost_ttc": 1.25,
+      "cost_ttc": "1.2500",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779779880269",
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 1.25,
       "cost_ht_usd": 1.25,
       "costTtcUsd": 1.25,
-      "totalStock": "10"
+      "totalStock": "10",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.25
     },
     {
       "id": "300132",
@@ -27890,6 +27900,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-02T09:57:17.371819Z",
+  "updatedAt": "2026-09-02T10:12:54.203643Z",
   "source": "sql-relay-web"
 }
