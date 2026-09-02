@@ -882,11 +882,11 @@
       "sub_category": "juice",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "110,000",
@@ -904,7 +904,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         },
         "Medawar": {
@@ -918,7 +918,7 @@
       "supplier": "HINTRAG",
       "subcategory": "juice",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "500028",
@@ -5445,12 +5445,12 @@
       "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500123.jpg",
       "new_items": "x",
-      "total_stock": "59",
-      "totalStock": "59",
-      "stock_in_geitawi_branch": "27",
+      "total_stock": "58",
+      "totalStock": "58",
+      "stock_in_geitawi_branch": "26",
       "branches": {
         "Geitawi": {
-          "stock": "27",
+          "stock": "26",
           "consumption": "11"
         },
         "Medawar": {
@@ -5765,6 +5765,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-09-02T13:10:39.146790Z",
+  "updatedAt": "2026-09-02T13:24:25.598775Z",
   "source": "sql-relay-web"
 }
