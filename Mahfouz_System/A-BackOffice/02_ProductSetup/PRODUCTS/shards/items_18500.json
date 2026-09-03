@@ -1168,9 +1168,9 @@
       "category": "CHI TAYIB",
       "sub_category": "Crackers",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
@@ -1184,11 +1184,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-5",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         }
       },
@@ -4028,9 +4028,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "15",
-      "total_stock": "23",
+      "total_stock": "22",
       "total_consumption": "19",
       "VAT": "NO",
       "price_lbp": "230,000",
@@ -4046,7 +4046,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "15"
         }
       },
@@ -4060,7 +4060,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "23",
+      "totalStock": "22",
       "cost_ttc": 1.52,
       "cost_ht": 1.52,
       "cost_currency": "USD",
@@ -5158,9 +5158,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "20",
-      "stock_in_medawar_branch": "9",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "66",
+      "total_stock": "63",
       "total_consumption": "33",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -5176,7 +5176,7 @@
           "consumption": "20"
         },
         "Medawar": {
-          "stock": "9",
+          "stock": "6",
           "consumption": "13"
         },
         "Nouna": {
@@ -5201,7 +5201,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NUTS",
       "vat": "no",
-      "totalStock": "66",
+      "totalStock": "63",
       "secondBarcode": "",
       "product_description": "LOZ AOUN 100G",
       "description": "LOZ AOUN 100G",
@@ -10366,9 +10366,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "72",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "70",
-      "total_stock": "8",
+      "total_stock": "7",
       "total_consumption": "142",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -10384,7 +10384,7 @@
           "consumption": "72"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "70"
         }
       },
@@ -10396,7 +10396,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
+      "totalStock": "7",
       "cost_ttc": 1.0878,
       "cost_ht": 0.9800000000000001,
       "cost_currency": "USD",
@@ -11362,6 +11362,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-09-03T05:46:48.858901Z",
+  "updatedAt": "2026-09-03T06:00:51.450560Z",
   "source": "sql-relay-web"
 }
