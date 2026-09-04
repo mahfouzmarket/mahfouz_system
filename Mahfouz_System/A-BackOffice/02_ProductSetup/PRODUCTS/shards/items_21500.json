@@ -3180,7 +3180,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "1",
       "branches": {
         "Geitawi": {
@@ -3188,11 +3188,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "14",
           "consumption": "1"
         }
       },
-      "total_stock": "5",
+      "total_stock": "17",
       "total_consumption": "1",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -3200,11 +3200,11 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "5",
+      "totalStock": "17",
       "cost_ttc": 0.75,
       "cost_ht": 0.75,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13862-2026-03-09",
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 0.75,
@@ -24256,11 +24256,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "177",
+      "stock_in_medawar_branch": "175",
       "stock_in_geitawi_branch": "47",
       "consumption_in_medawar_branch": "6",
       "consumption_in_geitawi_branch": "11",
-      "total_stock": "224",
+      "total_stock": "222",
       "total_consumption": "17",
       "branches": {
         "Geitawi": {
@@ -24268,7 +24268,7 @@
           "consumption": "11"
         },
         "Medawar": {
-          "stock": "177",
+          "stock": "175",
           "consumption": "6"
         }
       },
@@ -24285,7 +24285,7 @@
       "secondary_sub_category": "",
       "subcategory": "Crackers",
       "vat": "yes",
-      "totalStock": "224",
+      "totalStock": "222",
       "cost_ttc": 0.3303791666666667,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -24861,6 +24861,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-09-04T06:54:35.028121Z",
+  "updatedAt": "2026-09-04T07:37:05.164899Z",
   "source": "sql-relay-web"
 }
