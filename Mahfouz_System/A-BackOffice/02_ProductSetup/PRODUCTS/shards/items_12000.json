@@ -842,9 +842,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "16",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -860,7 +860,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "14",
           "consumption": "0"
         }
       },
@@ -870,16 +870,16 @@
       "supplier": "NEAR EAST PERSONAL CARE CO SAL",
       "subcategory": "TOOTH CARE",
       "vat": "yes",
-      "totalStock": "4",
-      "cost_ttc": "1.2765",
-      "cost_ht": "1.1500",
+      "totalStock": "16",
+      "cost_ttc": 1.2765000000000002,
+      "cost_ht": 1.1500000000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781599434829",
       "latest_purchase_cost_date": "2026-06-16",
-      "costHtUsd": 1.15,
-      "cost_ht_usd": 1.15,
-      "costTtcUsd": 1.2765,
+      "costHtUsd": 1.1500000000000001,
+      "cost_ht_usd": 1.1500000000000001,
+      "costTtcUsd": 1.2765000000000002,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -992,14 +992,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "2",
+      "total_stock": "14",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "160,000",
       "price_usd": "1.78",
-      "cost": "1.00",
+      "cost": "0.80",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12381.jpg",
       "new_items": "",
       "manual": "",
@@ -1010,7 +1010,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "13",
           "consumption": "1"
         }
       },
@@ -1020,16 +1020,16 @@
       "supplier": "JACK DIB",
       "subcategory": "TOOTH CARE",
       "vat": "yes",
-      "totalStock": "2",
-      "cost_ttc": 1.11,
-      "cost_ht": 1.0,
+      "totalStock": "14",
+      "cost_ttc": 0.8880000000000001,
+      "cost_ht": 0.8,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14085-2026-03-26",
       "latest_purchase_cost_date": "2026-03-26",
-      "costHtUsd": 1.0,
-      "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.11
+      "costHtUsd": 0.8,
+      "cost_ht_usd": 0.8,
+      "costTtcUsd": 0.8880000000000001
     },
     {
       "id": "12398",
@@ -1201,6 +1201,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-04T06:44:20.859615Z",
+  "updatedAt": "2026-09-04T06:54:35.028121Z",
   "source": "sql-relay-web"
 }
