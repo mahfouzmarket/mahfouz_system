@@ -2571,7 +2571,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
@@ -2579,11 +2579,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "20",
           "consumption": "0"
         }
       },
-      "total_stock": "0",
+      "total_stock": "20",
       "total_consumption": "0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -2594,13 +2594,13 @@
       "cost_ttc": 0.35,
       "cost_ht": 0.35,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13860-2026-03-09",
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 0.35,
       "cost_ht_usd": 0.35,
       "costTtcUsd": 0.35,
-      "totalStock": "0"
+      "totalStock": "20"
     },
     {
       "id": "21540",
@@ -18109,12 +18109,12 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "2",
           "consumption": "2"
         }
       },
-      "stock_in_medawar_branch": "14",
-      "total_stock": "14",
+      "stock_in_medawar_branch": "2",
+      "total_stock": "2",
       "Product Description": "COLGATE TOTAL ACTIVE PROTECTION 75 ML",
       "SUPPLIERS": "JACK DIB",
       "stock_in_geitawi_branch": "0",
@@ -18129,7 +18129,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "14",
+      "totalStock": "2",
       "cost_ttc": 2.25,
       "cost_ht": 2.25,
       "cost_currency": "USD",
@@ -24861,6 +24861,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-09-04T07:44:59.768007Z",
+  "updatedAt": "2026-09-04T08:05:23.913999Z",
   "source": "sql-relay-web"
 }
