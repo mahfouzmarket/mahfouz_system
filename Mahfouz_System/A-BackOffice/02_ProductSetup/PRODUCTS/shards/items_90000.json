@@ -146,7 +146,7 @@
         },
         "Geitawi": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "3"
         },
         "Firas": {
           "stock": "0",
@@ -163,10 +163,10 @@
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_firas_branch": "0",
-      "consumption_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "total_consumption": "1"
+      "total_consumption": "3"
     },
     {
       "id": "90020",
@@ -269,23 +269,32 @@
       "stock_in_nouna_branch": "1",
       "branches": {
         "Nouna": {
-          "stock": "1"
+          "stock": "1",
+          "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         },
         "Medawar": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         },
         "Geitawi": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "2"
         }
       },
       "total_stock": "1",
       "totalStock": "1",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "consumption_in_firas_branch": "0",
+      "consumption_in_geitawi_branch": "2",
+      "consumption_in_medawar_branch": "0",
+      "consumption_in_nouna_branch": "0",
+      "total_consumption": "2"
     },
     {
       "id": "90022",
@@ -325,7 +334,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "2"
         },
         "Nouna": {
           "stock": "-2",
@@ -336,18 +345,20 @@
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "total_stock": "-2",
       "totalStock": "-2",
       "stock_in_nouna_branch": "-2",
-      "consumption_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "total_consumption": "1",
-      "stock_in_firas_branch": "0"
+      "total_consumption": "2",
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90023",
@@ -387,7 +398,7 @@
       "branches": {
         "Geitawi": {
           "stock": "1",
-          "consumption": "2"
+          "consumption": "4"
         },
         "Nouna": {
           "stock": "4",
@@ -405,11 +416,11 @@
       "total_stock": "5",
       "totalStock": "5",
       "stock_in_nouna_branch": "4",
-      "consumption_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "total_consumption": "2",
+      "total_consumption": "4",
       "stock_in_firas_branch": "0",
       "consumption_in_firas_branch": "0"
     },
@@ -426,11 +437,11 @@
       "offers": "",
       "expiry_days": "15",
       "stock_in_geitawi_branch": "3",
-      "consumption_in_geitawi_branch": "40",
+      "consumption_in_geitawi_branch": "44",
       "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "0",
       "total_stock": "25",
-      "total_consumption": "40",
+      "total_consumption": "44",
       "VAT": "NO",
       "price_lbp": "220,000",
       "price_usd": "2.44",
@@ -448,7 +459,7 @@
       "branches": {
         "Geitawi": {
           "stock": "3",
-          "consumption": "40"
+          "consumption": "44"
         },
         "Medawar": {
           "stock": "5",
@@ -504,9 +515,9 @@
       "stock_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "5",
-      "consumption_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "5",
-      "total_consumption": "5",
+      "total_consumption": "6",
       "vat": "no",
       "price_lbp": "250,000",
       "price_usd": "2.78",
@@ -527,7 +538,7 @@
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "0"
+          "consumption": "1"
         },
         "Nouna": {
           "stock": "2",
@@ -582,9 +593,9 @@
       "stock_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "7",
-      "consumption_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "6",
-      "total_consumption": "7",
+      "total_consumption": "8",
       "vat": "no",
       "price_lbp": "250,000",
       "price_usd": "2.78",
@@ -605,7 +616,7 @@
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "0"
+          "consumption": "1"
         },
         "Nouna": {
           "stock": "2",
@@ -660,9 +671,9 @@
       "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "consumption_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "10",
-      "total_consumption": "4",
+      "total_consumption": "5",
       "vat": "no",
       "price_lbp": "250,000",
       "price_usd": "2.78",
@@ -683,7 +694,7 @@
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "0"
+          "consumption": "1"
         },
         "Nouna": {
           "stock": "3",
@@ -737,10 +748,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "3",
+      "consumption_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "0",
       "total_stock": "13",
-      "total_consumption": "3",
+      "total_consumption": "2",
       "vat": "no",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -757,7 +768,7 @@
       "branches": {
         "Geitawi": {
           "stock": "2",
-          "consumption": "3"
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "0",
@@ -815,10 +826,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
-      "consumption_in_geitawi_branch": "6",
-      "consumption_in_medawar_branch": "0",
+      "consumption_in_geitawi_branch": "7",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "6",
-      "total_consumption": "6",
+      "total_consumption": "8",
       "vat": "no",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -835,11 +846,11 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "6"
+          "consumption": "7"
         },
         "Medawar": {
           "stock": "1",
-          "consumption": "0"
+          "consumption": "1"
         },
         "Nouna": {
           "stock": "0",
@@ -893,10 +904,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "4",
+      "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "0",
       "total_stock": "5",
-      "total_consumption": "4",
+      "total_consumption": "3",
       "vat": "no",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -913,7 +924,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "4"
+          "consumption": "3"
         },
         "Medawar": {
           "stock": "0",
@@ -1233,10 +1244,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "33",
-      "consumption_in_medawar_branch": "11",
+      "consumption_in_geitawi_branch": "40",
+      "consumption_in_medawar_branch": "5",
       "total_stock": "9",
-      "total_consumption": "44",
+      "total_consumption": "45",
       "vat": "no",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -1253,11 +1264,11 @@
       "branches": {
         "Geitawi": {
           "stock": "3",
-          "consumption": "33"
+          "consumption": "40"
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "11"
+          "consumption": "5"
         },
         "Nouna": {
           "stock": "6",
@@ -1330,10 +1341,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
-      "total_consumption": "2",
+      "total_consumption": "0",
       "vat": "no",
       "price_lbp": "250,000",
       "price_usd": "2.78",
@@ -1350,7 +1361,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "2"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "0",
@@ -1361,7 +1372,8 @@
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "totalStock": "0",
@@ -1390,7 +1402,8 @@
       "cost_ht_usd": 2.361111,
       "costTtcUsd": 2.361111,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90067",
@@ -1403,10 +1416,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
-      "total_consumption": "2",
+      "total_consumption": "1",
       "vat": "no",
       "price_lbp": "250,000",
       "price_usd": "2.78",
@@ -1423,7 +1436,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "2"
+          "consumption": "1"
         },
         "Medawar": {
           "stock": "0",
@@ -1434,7 +1447,8 @@
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "totalStock": "0",
@@ -1482,7 +1496,8 @@
         "addOns": "None",
         "sourceTemplateName": "Pistachio Éclair",
         "updatedAtUtc": "2026-08-19T08:54:27.249772Z"
-      }
+      },
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90069",
@@ -1624,10 +1639,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "2",
+      "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "-2",
-      "total_consumption": "2",
+      "total_consumption": "0",
       "vat": "no",
       "price_lbp": "400,000",
       "price_usd": "4.44",
@@ -1644,7 +1659,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "2"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "0",
@@ -1655,7 +1670,8 @@
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "totalStock": "-2",
@@ -1697,7 +1713,8 @@
       "cost_ht_usd": 3.777778,
       "costTtcUsd": 3.777778,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90074",
@@ -1770,11 +1787,11 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
       "stock_in_geitawi_branch": "1",
-      "consumption_in_geitawi_branch": "47",
+      "consumption_in_geitawi_branch": "48",
       "stock_in_medawar_branch": "0",
-      "consumption_in_medawar_branch": "11",
+      "consumption_in_medawar_branch": "17",
       "total_stock": "5",
-      "total_consumption": "58",
+      "total_consumption": "65",
       "VAT": "NO",
       "price_lbp": "180,000",
       "price_usd": "2.01",
@@ -1786,11 +1803,11 @@
       "branches": {
         "Geitawi": {
           "stock": "1",
-          "consumption": "47"
+          "consumption": "48"
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "11"
+          "consumption": "17"
         },
         "Nouna": {
           "stock": "4",
@@ -2851,10 +2868,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "-1",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "7",
+      "consumption_in_geitawi_branch": "5",
       "consumption_in_medawar_branch": "0",
       "total_stock": "-2",
-      "total_consumption": "7",
+      "total_consumption": "5",
       "vat": "no",
       "price_lbp": "400,000",
       "price_usd": "4.44",
@@ -2871,7 +2888,7 @@
       "branches": {
         "Geitawi": {
           "stock": "-1",
-          "consumption": "7"
+          "consumption": "5"
         },
         "Medawar": {
           "stock": "0",
@@ -5568,10 +5585,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "11",
-      "consumption_in_medawar_branch": "1",
+      "consumption_in_geitawi_branch": "9",
+      "consumption_in_medawar_branch": "0",
       "total_stock": "2",
-      "total_consumption": "12",
+      "total_consumption": "9",
       "vat": "no",
       "price_lbp": "280,000",
       "price_usd": "3.11",
@@ -5588,11 +5605,11 @@
       "branches": {
         "Geitawi": {
           "stock": "2",
-          "consumption": "11"
+          "consumption": "9"
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "0"
         },
         "Nouna": {
           "stock": "0",
@@ -5837,11 +5854,11 @@
       "sub_category": "COLD DRINKS",
       "offers": "0",
       "stock_in_geitawi_branch": "-1",
-      "consumption_in_geitawi_branch": "0",
+      "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "6",
-      "total_consumption": "0",
+      "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "150,000",
       "price_usd": "1.67",
@@ -5857,17 +5874,19 @@
       "branches": {
         "Geitawi": {
           "stock": "-1",
-          "consumption": "0"
+          "consumption": "1"
         },
         "Medawar": {
           "stock": "0",
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "7"
+          "stock": "7",
+          "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "description": "BARISTA ICED COFFEE",
@@ -5890,7 +5909,8 @@
       "cost_currency": "USD",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "COLD DRINKS",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90151",
@@ -5901,12 +5921,12 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "381",
-      "consumption_in_geitawi_branch": "1712",
+      "stock_in_geitawi_branch": "380",
+      "consumption_in_geitawi_branch": "1696",
       "stock_in_medawar_branch": "10996",
-      "consumption_in_medawar_branch": "2694",
-      "total_stock": "11388",
-      "total_consumption": "4406",
+      "consumption_in_medawar_branch": "2189",
+      "total_stock": "11387",
+      "total_consumption": "3885",
       "VAT": "YES",
       "price_lbp": "25,000",
       "price_usd": "0.28",
@@ -5917,12 +5937,12 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "381",
-          "consumption": "1712"
+          "stock": "380",
+          "consumption": "1696"
         },
         "Medawar": {
           "stock": "10996",
-          "consumption": "2694"
+          "consumption": "2189"
         },
         "Nouna": {
           "stock": "11",
@@ -5939,7 +5959,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11388",
+      "totalStock": "11387",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -6044,10 +6064,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "46",
+      "consumption_in_geitawi_branch": "39",
       "consumption_in_medawar_branch": "0",
       "total_stock": "7",
-      "total_consumption": "46",
+      "total_consumption": "39",
       "vat": "no",
       "price_lbp": "220,000",
       "price_usd": "2.44",
@@ -6064,7 +6084,7 @@
       "branches": {
         "Geitawi": {
           "stock": "7",
-          "consumption": "46"
+          "consumption": "39"
         },
         "Medawar": {
           "stock": "0",
@@ -6331,11 +6351,11 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "21",
-      "consumption_in_geitawi_branch": "42",
+      "consumption_in_geitawi_branch": "58",
       "stock_in_medawar_branch": "26",
-      "consumption_in_medawar_branch": "75",
+      "consumption_in_medawar_branch": "63",
       "total_stock": "47",
-      "total_consumption": "117",
+      "total_consumption": "121",
       "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
@@ -6347,11 +6367,11 @@
       "branches": {
         "Geitawi": {
           "stock": "21",
-          "consumption": "42"
+          "consumption": "58"
         },
         "Medawar": {
           "stock": "26",
-          "consumption": "75"
+          "consumption": "63"
         },
         "Nouna": {
           "stock": "0",
@@ -6404,11 +6424,11 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "13",
-      "consumption_in_geitawi_branch": "72",
+      "consumption_in_geitawi_branch": "98",
       "stock_in_medawar_branch": "14",
-      "consumption_in_medawar_branch": "59",
+      "consumption_in_medawar_branch": "34",
       "total_stock": "28",
-      "total_consumption": "131",
+      "total_consumption": "132",
       "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
@@ -6420,11 +6440,11 @@
       "branches": {
         "Geitawi": {
           "stock": "13",
-          "consumption": "72"
+          "consumption": "98"
         },
         "Medawar": {
           "stock": "14",
-          "consumption": "59"
+          "consumption": "34"
         },
         "Nouna": {
           "stock": "1",
@@ -6477,11 +6497,11 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "12",
-      "consumption_in_geitawi_branch": "87",
+      "consumption_in_geitawi_branch": "121",
       "stock_in_medawar_branch": "12",
-      "consumption_in_medawar_branch": "95",
+      "consumption_in_medawar_branch": "77",
       "total_stock": "26",
-      "total_consumption": "182",
+      "total_consumption": "198",
       "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
@@ -6493,11 +6513,11 @@
       "branches": {
         "Geitawi": {
           "stock": "12",
-          "consumption": "87"
+          "consumption": "121"
         },
         "Medawar": {
           "stock": "12",
-          "consumption": "95"
+          "consumption": "77"
         },
         "Nouna": {
           "stock": "2",
@@ -6548,11 +6568,11 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "14",
-      "consumption_in_geitawi_branch": "61",
+      "consumption_in_geitawi_branch": "65",
       "stock_in_medawar_branch": "31",
-      "consumption_in_medawar_branch": "68",
+      "consumption_in_medawar_branch": "44",
       "total_stock": "46",
-      "total_consumption": "129",
+      "total_consumption": "109",
       "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
@@ -6564,18 +6584,19 @@
       "branches": {
         "Geitawi": {
           "stock": "14",
-          "consumption": "61"
+          "consumption": "65"
         },
         "Medawar": {
           "stock": "31",
-          "consumption": "68"
+          "consumption": "44"
         },
         "Nouna": {
           "stock": "1",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "name": "Maccaw Orange",
@@ -6607,7 +6628,8 @@
       "costHtUsd": 0.23750000000000002,
       "cost_ht_usd": 0.23750000000000002,
       "costTtcUsd": 0.26362500000000005,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90182",
@@ -6894,9 +6916,9 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
       "stock_in_geitawi_branch": "-1",
-      "consumption_in_geitawi_branch": "1",
+      "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "8",
-      "consumption_in_medawar_branch": "2",
+      "consumption_in_medawar_branch": "3",
       "total_stock": "7",
       "total_consumption": "3",
       "VAT": "NO",
@@ -6910,11 +6932,11 @@
       "branches": {
         "Geitawi": {
           "stock": "-1",
-          "consumption": "1"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "8",
-          "consumption": "2"
+          "consumption": "3"
         },
         "Nouna": {
           "stock": "0",
@@ -6976,10 +6998,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "-2",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "33",
+      "consumption_in_geitawi_branch": "24",
       "consumption_in_medawar_branch": "2",
       "total_stock": "3",
-      "total_consumption": "35",
+      "total_consumption": "26",
       "vat": "no",
       "price_lbp": "300,000",
       "price_usd": "3.33",
@@ -6996,7 +7018,7 @@
       "branches": {
         "Geitawi": {
           "stock": "-2",
-          "consumption": "33"
+          "consumption": "24"
         },
         "Medawar": {
           "stock": "0",
@@ -7064,10 +7086,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_geitawi_branch": "4",
+      "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
-      "total_consumption": "4",
+      "total_consumption": "0",
       "vat": "no",
       "price_lbp": "80,000",
       "price_usd": "0.89",
@@ -7084,7 +7106,7 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "4"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "0",
@@ -7264,7 +7286,7 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
-      "consumption_in_medawar_branch": "8",
+      "consumption_in_medawar_branch": "7",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -7272,7 +7294,7 @@
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "8"
+          "consumption": "7"
         },
         "Nouna": {
           "stock": "9",
@@ -7284,7 +7306,7 @@
         }
       },
       "total_stock": "9",
-      "total_consumption": "8",
+      "total_consumption": "7",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7350,7 +7372,7 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
-      "consumption_in_medawar_branch": "8",
+      "consumption_in_medawar_branch": "9",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -7358,7 +7380,7 @@
         },
         "Medawar": {
           "stock": "1",
-          "consumption": "8"
+          "consumption": "9"
         },
         "Nouna": {
           "stock": "1",
@@ -7370,7 +7392,7 @@
         }
       },
       "total_stock": "2",
-      "total_consumption": "8",
+      "total_consumption": "9",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7425,7 +7447,7 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "1",
-      "consumption_in_medawar_branch": "9",
+      "consumption_in_medawar_branch": "5",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -7433,7 +7455,7 @@
         },
         "Medawar": {
           "stock": "1",
-          "consumption": "9"
+          "consumption": "5"
         },
         "Nouna": {
           "stock": "5",
@@ -7445,7 +7467,7 @@
         }
       },
       "total_stock": "6",
-      "total_consumption": "9",
+      "total_consumption": "5",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7506,11 +7528,11 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "2"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "29",
-          "consumption": "101"
+          "consumption": "72"
         },
         "Nouna": {
           "stock": "7",
@@ -7529,9 +7551,9 @@
       "subcategory": "bisous",
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_geitawi_branch": "2",
-      "consumption_in_medawar_branch": "101",
-      "total_consumption": "103",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "72",
+      "total_consumption": "72",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7601,7 +7623,7 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "36",
-      "consumption_in_medawar_branch": "29",
+      "consumption_in_medawar_branch": "27",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -7609,7 +7631,7 @@
         },
         "Medawar": {
           "stock": "36",
-          "consumption": "29"
+          "consumption": "27"
         },
         "Nouna": {
           "stock": "5",
@@ -7621,7 +7643,7 @@
         }
       },
       "total_stock": "41",
-      "total_consumption": "29",
+      "total_consumption": "27",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7678,7 +7700,7 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "7",
-      "consumption_in_medawar_branch": "7",
+      "consumption_in_medawar_branch": "9",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -7686,7 +7708,7 @@
         },
         "Medawar": {
           "stock": "7",
-          "consumption": "7"
+          "consumption": "9"
         },
         "Nouna": {
           "stock": "11",
@@ -7698,7 +7720,7 @@
         }
       },
       "total_stock": "18",
-      "total_consumption": "7",
+      "total_consumption": "9",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7838,7 +7860,7 @@
         },
         "Medawar": {
           "stock": "13",
-          "consumption": "11"
+          "consumption": "2"
         },
         "Nouna": {
           "stock": "1",
@@ -7857,8 +7879,8 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "consumption_in_medawar_branch": "11",
-      "total_consumption": "13",
+      "consumption_in_medawar_branch": "2",
+      "total_consumption": "4",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7916,7 +7938,7 @@
         },
         "Medawar": {
           "stock": "5",
-          "consumption": "13"
+          "consumption": "17"
         },
         "Nouna": {
           "stock": "3",
@@ -7935,8 +7957,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "1",
-      "consumption_in_medawar_branch": "13",
-      "total_consumption": "14",
+      "consumption_in_medawar_branch": "17",
+      "total_consumption": "18",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -7994,7 +8016,7 @@
         },
         "Medawar": {
           "stock": "5",
-          "consumption": "15"
+          "consumption": "11"
         },
         "Nouna": {
           "stock": "11",
@@ -8013,8 +8035,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "15",
-      "total_consumption": "15",
+      "consumption_in_medawar_branch": "11",
+      "total_consumption": "11",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8072,7 +8094,7 @@
         },
         "Medawar": {
           "stock": "18",
-          "consumption": "8"
+          "consumption": "9"
         },
         "Nouna": {
           "stock": "9",
@@ -8091,8 +8113,8 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "8",
-      "total_consumption": "8",
+      "consumption_in_medawar_branch": "9",
+      "total_consumption": "9",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8150,7 +8172,7 @@
         },
         "Medawar": {
           "stock": "17",
-          "consumption": "11"
+          "consumption": "4"
         },
         "Nouna": {
           "stock": "-1",
@@ -8169,8 +8191,8 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "11",
-      "total_consumption": "11",
+      "consumption_in_medawar_branch": "4",
+      "total_consumption": "4",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8228,7 +8250,7 @@
         },
         "Medawar": {
           "stock": "36",
-          "consumption": "97"
+          "consumption": "70"
         },
         "Nouna": {
           "stock": "30",
@@ -8247,8 +8269,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "97",
-      "total_consumption": "97",
+      "consumption_in_medawar_branch": "70",
+      "total_consumption": "70",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8303,7 +8325,7 @@
         },
         "Medawar": {
           "stock": "5",
-          "consumption": "2"
+          "consumption": "0"
         },
         "Nouna": {
           "stock": "11",
@@ -8323,8 +8345,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "2",
-      "total_consumption": "2",
+      "consumption_in_medawar_branch": "0",
+      "total_consumption": "0",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8382,14 +8404,15 @@
         },
         "Medawar": {
           "stock": "70",
-          "consumption": "20"
+          "consumption": "18"
         },
         "Nouna": {
           "stock": "2",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "stock_in_medawar_branch": "70",
@@ -8400,8 +8423,8 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "20",
-      "total_consumption": "20",
+      "consumption_in_medawar_branch": "18",
+      "total_consumption": "18",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8425,7 +8448,8 @@
       "cost_ht_usd": 1.4414500000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90275",
@@ -8456,7 +8480,7 @@
         },
         "Medawar": {
           "stock": "63",
-          "consumption": "31"
+          "consumption": "24"
         },
         "Nouna": {
           "stock": "83",
@@ -8475,8 +8499,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "31",
-      "total_consumption": "31",
+      "consumption_in_medawar_branch": "24",
+      "total_consumption": "24",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8527,11 +8551,11 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "1"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "77",
-          "consumption": "48"
+          "consumption": "35"
         },
         "Nouna": {
           "stock": "42",
@@ -8550,9 +8574,9 @@
       "subcategory": "bisous",
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_geitawi_branch": "1",
-      "consumption_in_medawar_branch": "48",
-      "total_consumption": "49",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "35",
+      "total_consumption": "35",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8610,7 +8634,7 @@
         },
         "Medawar": {
           "stock": "48",
-          "consumption": "58"
+          "consumption": "52"
         },
         "Nouna": {
           "stock": "55",
@@ -8629,8 +8653,8 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "58",
-      "total_consumption": "58",
+      "consumption_in_medawar_branch": "52",
+      "total_consumption": "52",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8686,7 +8710,7 @@
         },
         "Medawar": {
           "stock": "44",
-          "consumption": "65"
+          "consumption": "61"
         },
         "Nouna": {
           "stock": "43",
@@ -8705,8 +8729,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "65",
-      "total_consumption": "65",
+      "consumption_in_medawar_branch": "61",
+      "total_consumption": "61",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8763,7 +8787,7 @@
         },
         "Medawar": {
           "stock": "63",
-          "consumption": "55"
+          "consumption": "61"
         },
         "Nouna": {
           "stock": "11",
@@ -8783,8 +8807,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "3",
-      "consumption_in_medawar_branch": "55",
-      "total_consumption": "58",
+      "consumption_in_medawar_branch": "61",
+      "total_consumption": "64",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8842,14 +8866,15 @@
         },
         "Medawar": {
           "stock": "56",
-          "consumption": "58"
+          "consumption": "50"
         },
         "Nouna": {
           "stock": "13",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "stock_in_medawar_branch": "56",
@@ -8860,8 +8885,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "58",
-      "total_consumption": "58",
+      "consumption_in_medawar_branch": "50",
+      "total_consumption": "50",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8885,7 +8910,8 @@
       "cost_ht_usd": 0.47750000000000004,
       "cost_currency": "USD",
       "cost_vat_included": true,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90281",
@@ -8916,7 +8942,7 @@
         },
         "Medawar": {
           "stock": "42",
-          "consumption": "68"
+          "consumption": "53"
         },
         "Nouna": {
           "stock": "74",
@@ -8935,8 +8961,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "68",
-      "total_consumption": "68",
+      "consumption_in_medawar_branch": "53",
+      "total_consumption": "53",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -8993,7 +9019,7 @@
         },
         "Medawar": {
           "stock": "65",
-          "consumption": "74"
+          "consumption": "59"
         },
         "Nouna": {
           "stock": "38",
@@ -9013,8 +9039,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "74",
-      "total_consumption": "74",
+      "consumption_in_medawar_branch": "59",
+      "total_consumption": "59",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -9331,7 +9357,7 @@
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "16",
-      "consumption_in_medawar_branch": "8",
+      "consumption_in_medawar_branch": "5",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -9339,18 +9365,19 @@
         },
         "Medawar": {
           "stock": "16",
-          "consumption": "8"
+          "consumption": "5"
         },
         "Nouna": {
           "stock": "5",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "total_stock": "21",
-      "total_consumption": "8",
+      "total_consumption": "5",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -9376,7 +9403,8 @@
       "costHtUsd": 1.6215833333333334,
       "cost_ht_usd": 1.6215833333333334,
       "costTtcUsd": 1.7999575,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90297",
@@ -9484,10 +9512,10 @@
       "offers": "",
       "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "1",
-      "consumption_in_geitawi_branch": "1",
-      "consumption_in_medawar_branch": "2",
+      "consumption_in_geitawi_branch": "0",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "3",
-      "total_consumption": "3",
+      "total_consumption": "1",
       "vat": "no",
       "price_lbp": "150,000",
       "price_usd": "1.67",
@@ -9504,18 +9532,19 @@
       "branches": {
         "Geitawi": {
           "stock": "1",
-          "consumption": "1"
+          "consumption": "0"
         },
         "Medawar": {
           "stock": "1",
-          "consumption": "2"
+          "consumption": "1"
         },
         "Nouna": {
           "stock": "1",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "totalStock": "3",
@@ -9555,7 +9584,8 @@
       "cost_ht_usd": 1.416667,
       "costTtcUsd": 1.416667,
       "stock_in_firas_branch": "0",
-      "cost_ttc_usd": 1.416667
+      "cost_ttc_usd": 1.416667,
+      "consumption_in_firas_branch": "0"
     },
     {
       "id": "90322",
@@ -9585,7 +9615,7 @@
         },
         "Medawar": {
           "stock": "35",
-          "consumption": "37"
+          "consumption": "26"
         },
         "Nouna": {
           "stock": "31",
@@ -9605,8 +9635,8 @@
       "subcategory": "bisous",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "37",
-      "total_consumption": "37",
+      "consumption_in_medawar_branch": "26",
+      "total_consumption": "26",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -9976,6 +10006,6 @@
       "stock_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-04T06:32:54.563247Z",
+  "updatedAt": "2026-09-04T06:44:20.859615Z",
   "source": "sql-relay-web"
 }
