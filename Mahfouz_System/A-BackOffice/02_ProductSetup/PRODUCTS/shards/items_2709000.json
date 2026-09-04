@@ -231,11 +231,11 @@
       "sub_category": "juice",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_geitawi_branch": "88",
+      "consumption_in_geitawi_branch": "51",
       "stock_in_medawar_branch": "56",
-      "consumption_in_medawar_branch": "75",
+      "consumption_in_medawar_branch": "94",
       "total_stock": "57",
-      "total_consumption": "163",
+      "total_consumption": "145",
       "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
@@ -247,11 +247,11 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "88"
+          "consumption": "51"
         },
         "Medawar": {
           "stock": "56",
-          "consumption": "75"
+          "consumption": "94"
         },
         "Nouna": {
           "stock": "1",
@@ -462,18 +462,18 @@
       "id": "2709428",
       "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "3",
-      "consumption_in_geitawi_branch": "8",
+      "consumption_in_medawar_branch": "1",
+      "consumption_in_geitawi_branch": "4",
       "total_stock": "0",
-      "total_consumption": "11",
+      "total_consumption": "5",
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "8"
+          "consumption": "4"
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "3"
+          "consumption": "1"
         },
         "Nouna": {
           "stock": "0",
@@ -883,11 +883,11 @@
       "offers": "0",
       "expiry_days": "365",
       "stock_in_geitawi_branch": "2",
-      "consumption_in_geitawi_branch": "0",
+      "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_stock": "2",
-      "total_consumption": "0",
+      "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "200,000",
       "price_usd": "2.22",
@@ -905,7 +905,7 @@
       "branches": {
         "Geitawi": {
           "stock": "2",
-          "consumption": "0"
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "0",
@@ -916,7 +916,8 @@
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "0",
+          "consumption": "0"
         }
       },
       "product_setup_save_token": "PS-SAVE-500049-1778934904573483",
@@ -938,9 +939,11 @@
       "expiryDays": 365,
       "subCategory": "date",
       "stock_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "consumption_in_firas_branch": "0",
+      "consumption_in_nouna_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-04T06:28:43.710557Z",
+  "updatedAt": "2026-09-04T06:44:20.859615Z",
   "source": "sql-relay-web"
 }
