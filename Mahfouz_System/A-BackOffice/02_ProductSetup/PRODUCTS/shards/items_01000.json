@@ -173,11 +173,11 @@
       "category": "BEVERAGES",
       "sub_category": "milk shake",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "165",
       "stock_in_medawar_branch": "32",
       "consumption_in_medawar_branch": "158",
-      "total_stock": "32",
+      "total_stock": "31",
       "total_consumption": "323",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -189,7 +189,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "165"
         },
         "Medawar": {
@@ -212,7 +212,7 @@
       "supplier": "LIBAN JUS SAL",
       "subcategory": "milk shake",
       "vat": "yes",
-      "totalStock": "32",
+      "totalStock": "31",
       "cost_ttc": 0.43359375000000006,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -987,9 +987,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "101",
       "consumption_in_geitawi_branch": "260",
-      "stock_in_medawar_branch": "174",
+      "stock_in_medawar_branch": "173",
       "consumption_in_medawar_branch": "464",
-      "total_stock": "275",
+      "total_stock": "274",
       "total_consumption": "724",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1005,7 +1005,7 @@
           "consumption": "260"
         },
         "Medawar": {
-          "stock": "174",
+          "stock": "173",
           "consumption": "464"
         }
       },
@@ -1015,7 +1015,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "275",
+      "totalStock": "274",
       "updated_at_utc": "2026-06-14T11:52:45Z",
       "cost_ttc": 0.5409242404666667,
       "cost_ht": 0.4873191355555555,
@@ -1894,6 +1894,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-05T08:05:14.781326Z",
+  "updatedAt": "2026-09-05T08:29:31.364685Z",
   "source": "sql-relay-web"
 }
