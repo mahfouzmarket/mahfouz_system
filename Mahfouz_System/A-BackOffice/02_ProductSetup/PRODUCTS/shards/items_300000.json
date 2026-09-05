@@ -233,11 +233,11 @@
     },
     {
       "id": "300005",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "2",
       "branches": {
         "Geitawi": {
@@ -245,7 +245,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         }
       },
@@ -283,7 +283,7 @@
       "name": "MABA LOLIPOP",
       "subcategory": "sweets",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 0.9828125,
       "cost_currency": "USD",
       "cost_vat_included": 1,
@@ -355,14 +355,14 @@
     {
       "id": "300007",
       "stock_in_medawar_branch": "8",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "1",
       "consumption_in_geitawi_branch": "4",
-      "total_stock": "11",
+      "total_stock": "8",
       "total_consumption": "5",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
@@ -402,7 +402,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "11",
+      "totalStock": "8",
       "cost_ttc": 0.20424000000000003,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -27955,6 +27955,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-05T19:21:47.152885Z",
+  "updatedAt": "2026-09-05T19:33:02.681132Z",
   "source": "sql-relay-web"
 }
