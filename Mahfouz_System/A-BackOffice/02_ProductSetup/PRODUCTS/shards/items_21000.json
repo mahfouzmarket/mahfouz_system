@@ -11143,11 +11143,11 @@
       "category": "HOME USAGE",
       "sub_category": "BAKING PAPER",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "10",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "4",
       "total_consumption": "10",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -11159,7 +11159,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "4",
           "consumption": "10"
         },
         "Medawar": {
@@ -11173,16 +11173,27 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": 0.42,
-      "cost_ht": 0.42,
+      "totalStock": "4",
+      "cost_ttc": "0.4200",
+      "cost_ht": "0.4200",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781184290401",
       "latest_purchase_cost_date": "2026-06-11",
       "costHtUsd": 0.42,
       "cost_ht_usd": 0.42,
-      "costTtcUsd": 0.42
+      "costTtcUsd": 0.42,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.42
     },
     {
       "id": "21198",
@@ -26913,6 +26924,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-05T23:15:40.600073Z",
+  "updatedAt": "2026-09-06T01:38:08.177870Z",
   "source": "sql-relay-web"
 }
