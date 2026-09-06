@@ -7468,11 +7468,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "VEGETABLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.83",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "12.745",
       "consumption_in_medawar_branch": "9.8",
-      "total_stock": "13.575",
+      "total_stock": "12.745",
       "total_consumption": "9.8",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -7484,7 +7484,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.83",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -7498,7 +7498,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13.575",
+      "totalStock": "12.745",
       "arabic_name": "بندورة جبلية",
       "name_ar": "بندورة جبلية",
       "description_ar": "بندورة جبلية",
@@ -9255,10 +9255,10 @@
       "vat": "no",
       "price_lbp": "350,000",
       "cost": "2.78",
-      "total_stock": "10.62",
+      "total_stock": "0",
       "total_consumption": "11",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "10.62",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -9273,7 +9273,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "10.62",
+          "stock": "0",
           "consumption": "6"
         },
         "Geitawi": {
@@ -9310,7 +9310,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 2.7777777777777777,
+      "cost_ht": "2.7778",
       "costUsd": 3.24,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
@@ -9322,18 +9322,20 @@
       "non_stockable": false,
       "nonStockable": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20678.jpg",
-      "totalStock": "10.62",
+      "totalStock": "0",
       "scale_item_enabled": false,
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "cost_ttc": 2.7777777777777777,
-      "cost_currency": "LBP",
+      "cost_ttc": "2.7778",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "costTtcUsd": 2.7777777777777777,
+      "costHtUsd": 2.7777777777777777,
+      "cost_ht_usd": 2.7777777777777777,
+      "cost_ttc_usd": 2.7777777777777777
     },
     {
       "id": "20679",
@@ -25899,6 +25901,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-06T07:08:34.589838Z",
+  "updatedAt": "2026-09-06T07:11:35.496397Z",
   "source": "sql-relay-web"
 }
