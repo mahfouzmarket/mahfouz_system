@@ -1363,9 +1363,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "40",
       "consumption_in_geitawi_branch": "33",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "35",
-      "total_stock": "40",
+      "total_stock": "39",
       "total_consumption": "68",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -1381,7 +1381,7 @@
           "consumption": "33"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "35"
         },
         "Nouna": {
@@ -1394,7 +1394,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "40",
+      "totalStock": "39",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.9999250000000002,
       "cost_ht": 0.9008333333333334,
@@ -2902,11 +2902,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "10",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "32",
       "stock_in_medawar_branch": "40",
       "consumption_in_medawar_branch": "37",
-      "total_stock": "50",
+      "total_stock": "49",
       "total_consumption": "69",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -2918,7 +2918,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10",
+          "stock": "9",
           "consumption": "32"
         },
         "Medawar": {
@@ -2945,7 +2945,7 @@
       "costHtUsd": 0.43729166666666663,
       "cost_ht_usd": 0.43729166666666663,
       "costTtcUsd": 0.48539375,
-      "totalStock": "50"
+      "totalStock": "49"
     },
     {
       "id": "17167",
@@ -10096,11 +10096,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "alcohol cold drink",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "15",
       "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "21",
+      "total_stock": "20",
       "total_consumption": "17",
       "VAT": "YES",
       "price_lbp": "105,000",
@@ -10112,7 +10112,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "15"
         },
         "Medawar": {
@@ -10130,7 +10130,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "21",
+      "totalStock": "20",
       "cost_ttc": 0.8658000000000001,
       "cost_ht": 0.78,
       "cost_currency": "USD",
@@ -10671,6 +10671,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-09-06T18:08:47.866140Z",
+  "updatedAt": "2026-09-06T18:35:14.922903Z",
   "source": "sql-relay-web"
 }
