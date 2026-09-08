@@ -6512,7 +6512,7 @@
       "import_source": "active products listing.pdf",
       "imported_at_utc": "2026-05-09T20:36:23.478018Z",
       "updated_at_utc": "2026-05-19T12:22:00.790740Z",
-      "barcode2": "",
+      "barcode2": "5281001604472",
       "barcode_repair_note": "Cleared fake PRODNUM barcode from active listing import",
       "barcode_repaired_at_utc": "2026-05-09T22:30:47.014521Z",
       "active_listing_import_rolled_back_at_utc": "2026-05-09T22:46:29.404971Z",
@@ -6532,7 +6532,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.48",
+      "cost_ht": "1.4800",
       "costUsd": 1.48,
       "cost_ht_usd": 1.48,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -6550,9 +6550,13 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "price_usd": "1.78"
+      "price_usd": "1.78",
+      "cost_ttc": "1.4800",
+      "costTtcUsd": 1.48,
+      "costHtUsd": 1.48,
+      "cost_ttc_usd": 1.48,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "14429",
@@ -7363,6 +7367,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-09-08T08:29:13.500036Z",
+  "updatedAt": "2026-09-08T08:53:19.050052Z",
   "source": "sql-relay-web"
 }
