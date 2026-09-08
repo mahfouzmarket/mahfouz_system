@@ -1992,9 +1992,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "23",
       "consumption_in_geitawi_branch": "31",
-      "stock_in_medawar_branch": "53",
+      "stock_in_medawar_branch": "52",
       "consumption_in_medawar_branch": "31",
-      "total_stock": "76",
+      "total_stock": "75",
       "total_consumption": "62",
       "VAT": "NO",
       "price_lbp": "125,000",
@@ -2010,7 +2010,7 @@
           "consumption": "31"
         },
         "Medawar": {
-          "stock": "53",
+          "stock": "52",
           "consumption": "31"
         }
       },
@@ -2023,17 +2023,28 @@
       "subcategory": "sweets",
       "vat": "no",
       "barcode2": "5000159555715",
-      "barcodes": "5000159555715",
-      "totalStock": "76",
-      "cost_ttc": 0.8600280000000001,
-      "cost_ht": 0.7748,
+      "barcodes": "",
+      "totalStock": "75",
+      "cost_ttc": "0.7748",
+      "cost_ht": "0.7748",
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782733030678",
       "latest_purchase_cost_date": "2026-06-29",
       "costHtUsd": 0.7748,
       "cost_ht_usd": 0.7748,
-      "costTtcUsd": 0.8600280000000001
+      "costTtcUsd": 0.7748,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.7748
     },
     {
       "id": "18083",
@@ -10732,6 +10743,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-09-08T09:45:45.441750Z",
+  "updatedAt": "2026-09-08T10:01:30.316170Z",
   "source": "sql-relay-web"
 }
