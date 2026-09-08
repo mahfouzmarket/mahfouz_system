@@ -232,9 +232,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "26",
       "consumption_in_geitawi_branch": "51",
-      "stock_in_medawar_branch": "71",
+      "stock_in_medawar_branch": "67",
       "consumption_in_medawar_branch": "94",
-      "total_stock": "98",
+      "total_stock": "94",
       "total_consumption": "145",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -250,7 +250,7 @@
           "consumption": "51"
         },
         "Medawar": {
-          "stock": "71",
+          "stock": "67",
           "consumption": "94"
         },
         "Nouna": {
@@ -268,7 +268,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "98",
+      "totalStock": "94",
       "secondBarcode": "",
       "product_description": "Maccaw Pineapple",
       "description": "Maccaw Pineapple",
@@ -282,8 +282,8 @@
       "linked_profile_sub_category": "COLD DRINKS",
       "stock_in_nouna_branch": "1",
       "consumption_in_nouna_branch": "0",
-      "cost_ttc": 0.08787500000000001,
-      "cost_ht": 0.07916666666666666,
+      "cost_ttc": "0.0879",
+      "cost_ht": "0.0792",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783318858984",
@@ -300,10 +300,9 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "cost_ttc_usd": 0.08787500000000001
     },
     {
       "id": "2709416",
@@ -944,6 +943,6 @@
       "consumption_in_nouna_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-08T05:12:04.894825Z",
+  "updatedAt": "2026-09-08T06:45:30.036124Z",
   "source": "sql-relay-web"
 }
