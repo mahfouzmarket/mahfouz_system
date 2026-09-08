@@ -5762,10 +5762,10 @@
       "supplier": "waybe group",
       "unit": "-",
       "barcode": "5285010685187",
-      "barcode2": "",
+      "barcode2": "5285010685170",
       "barcodes": "",
-      "price_usd": "1.00",
-      "price_lbp": "90,000",
+      "price_usd": "0.89",
+      "price_lbp": "80,000",
       "VAT": "NO",
       "offers": "0",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21593.jpg",
@@ -5781,7 +5781,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "1",
       "branches": {
         "Geitawi": {
@@ -5789,11 +5789,11 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "19",
           "consumption": "1"
         }
       },
-      "total_stock": "11",
+      "total_stock": "23",
       "total_consumption": "2",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -5801,16 +5801,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "11",
-      "cost_ttc": "0.3000",
-      "cost_ht": "0.3000",
+      "totalStock": "23",
+      "cost_ttc": 0.333,
+      "cost_ht": 0.3,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13933-2026-03-13",
       "latest_purchase_cost_date": "2026-03-13",
       "costHtUsd": 0.3,
       "cost_ht_usd": 0.3,
-      "costTtcUsd": 0.3,
+      "costTtcUsd": 0.333,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -21220,12 +21220,12 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "28",
           "consumption": "0"
         }
       },
-      "stock_in_medawar_branch": "4",
-      "total_stock": "7",
+      "stock_in_medawar_branch": "28",
+      "total_stock": "31",
       "Product Description": "MAGIC CLEAN STRONG & DURABLE SPONGE PLUS *5",
       "SUPPLIERS": "waybe group",
       "subcategory": "DISH WASHING",
@@ -21240,16 +21240,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ttc": 0.9,
+      "cost_ttc": 0.9990000000000001,
       "cost_ht": 0.9,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1776408615264",
       "latest_purchase_cost_date": "2026-04-17",
       "costHtUsd": 0.9,
       "cost_ht_usd": 0.9,
-      "costTtcUsd": 0.9,
-      "totalStock": "7"
+      "costTtcUsd": 0.9990000000000001,
+      "totalStock": "31"
     },
     {
       "id": "21897",
@@ -24874,6 +24874,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-09-08T08:18:12.636199Z",
+  "updatedAt": "2026-09-08T08:20:06.713564Z",
   "source": "sql-relay-web"
 }
