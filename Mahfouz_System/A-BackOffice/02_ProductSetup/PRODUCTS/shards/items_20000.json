@@ -5967,8 +5967,8 @@
       "cost": "0.37",
       "total_stock": "33",
       "total_consumption": "4",
-      "stock_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "29",
+      "stock_in_geitawi_branch": "16",
+      "stock_in_medawar_branch": "17",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -5983,12 +5983,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "29",
+          "stock": "17",
           "consumption": "4"
         },
         "Geitawi": {
           "consumption": "0",
-          "stock": "4"
+          "stock": "16"
         }
       },
       "created_by_user_code": "1",
@@ -6454,8 +6454,8 @@
       "cost": "1.89",
       "total_stock": "18",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "18",
+      "stock_in_geitawi_branch": "8",
+      "stock_in_medawar_branch": "10",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -6470,11 +6470,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "10",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "8"
         }
       },
       "created_by_user_code": "1",
@@ -6538,9 +6539,9 @@
       "category": "CHIPS",
       "sub_category": "Maretti",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "15",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "0",
       "total_stock": "15",
       "total_consumption": "0",
@@ -6554,11 +6555,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "15",
+          "stock": "9",
           "consumption": "0"
         }
       },
@@ -14646,11 +14647,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "13",
+      "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "117",
       "stock_in_medawar_branch": "23",
       "consumption_in_medawar_branch": "95",
-      "total_stock": "36",
+      "total_stock": "35",
       "total_consumption": "212",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -14662,7 +14663,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "13",
+          "stock": "12",
           "consumption": "117"
         },
         "Medawar": {
@@ -14676,7 +14677,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "36",
+      "totalStock": "35",
       "cost_ttc": 0.6666666666666666,
       "cost_ht": 0.6666666666666666,
       "cost_currency": "LBP",
@@ -23681,6 +23682,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-09T08:21:17.763450Z",
+  "updatedAt": "2026-09-09T08:45:54.681437Z",
   "source": "sql-relay-web"
 }
