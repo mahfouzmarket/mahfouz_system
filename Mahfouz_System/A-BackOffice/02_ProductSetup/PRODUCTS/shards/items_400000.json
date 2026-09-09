@@ -682,11 +682,11 @@
     },
     {
       "id": "400017",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -694,7 +694,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -712,7 +712,7 @@
       "price_lbp": "520,000",
       "price_usd": "5.78",
       "cost": "4.04",
-      "cost_ht": 4.041667,
+      "cost_ht": "4.0417",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400017.jpg",
       "new_items": "x",
       "manual": "",
@@ -728,15 +728,25 @@
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "Biscuits",
       "vat": "yes",
-      "totalStock": "2",
-      "cost_ttc": 4.48625037,
+      "totalStock": "1",
+      "cost_ttc": "4.4863",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1777456630679",
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 4.041667,
       "cost_ht_usd": 4.041667,
-      "costTtcUsd": 4.48625037
+      "costTtcUsd": 4.4862503700000005,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 4.4862503700000005
     },
     {
       "id": "400019",
@@ -3128,6 +3138,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-09T13:32:43.538583Z",
+  "updatedAt": "2026-09-09T13:59:53.515355Z",
   "source": "sql-relay-web"
 }
