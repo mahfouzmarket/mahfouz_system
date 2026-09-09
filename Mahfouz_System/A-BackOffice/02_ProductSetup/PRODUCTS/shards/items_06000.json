@@ -425,9 +425,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "7",
+      "total_stock": "6",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -447,22 +447,33 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
-      "cost_ttc": 0.53613,
-      "cost_ht": 0.483,
+      "totalStock": "6",
+      "cost_ttc": "0.5361",
+      "cost_ht": "0.4830",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14281-2026-04-11",
       "latest_purchase_cost_date": "2026-04-11",
       "costHtUsd": 0.483,
       "cost_ht_usd": 0.483,
-      "costTtcUsd": 0.53613
+      "costTtcUsd": 0.53613,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.53613
     },
     {
       "id": "6058",
@@ -525,9 +536,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "21",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "6",
+      "total_stock": "23",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "40,000",
@@ -547,22 +558,33 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "21",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
-      "cost_ttc": 0.282125,
-      "cost_ht": 0.254166666666667,
+      "totalStock": "23",
+      "cost_ttc": "0.2821",
+      "cost_ht": "0.2542",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783324921094",
       "latest_purchase_cost_date": "2026-07-06",
-      "costHtUsd": 0.254166666666667,
-      "cost_ht_usd": 0.254166666666667,
-      "costTtcUsd": 0.282125
+      "costHtUsd": 0.25416666666666665,
+      "cost_ht_usd": 0.25416666666666665,
+      "costTtcUsd": 0.282125,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.282125
     },
     {
       "id": "6061",
@@ -2373,6 +2395,6 @@
       "costTtcUsd": 2.3504250000000004
     }
   ],
-  "updatedAt": "2026-09-09T11:34:56.226998Z",
+  "updatedAt": "2026-09-09T12:35:21.557381Z",
   "source": "sql-relay-web"
 }
