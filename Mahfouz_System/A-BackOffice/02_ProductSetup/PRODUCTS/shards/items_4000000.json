@@ -587,15 +587,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "690,000",
       "price_usd": "7.67",
       "cost": "4.12",
-      "cost_ht": "4.12",
+      "cost_ht": "4.1200",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4000011.jpg",
       "new_items": "x",
       "manual": "",
@@ -611,14 +611,30 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0.0"
         }
       },
       "product_setup_save_token": "PS-SAVE-4000011-1780038351233809",
       "product_setup_saved_at_utc": "2026-05-29T07:05:51.233809Z",
-      "vat": "no",
-      "totalStock": "1"
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc": "4.1200",
+      "costTtcUsd": 4.12,
+      "costHtUsd": 4.12,
+      "cost_ht_usd": 4.12,
+      "cost_ttc_usd": 4.12,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
+      "totalStock": "0",
+      "vat": "no"
     },
     {
       "id": "4000012",
@@ -1113,6 +1129,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-09-09T10:48:28.820794Z",
+  "updatedAt": "2026-09-09T13:43:31.604738Z",
   "source": "sql-relay-web"
 }
