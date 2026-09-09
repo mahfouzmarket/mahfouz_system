@@ -1536,11 +1536,11 @@
       "category": "BEVERAGES",
       "sub_category": "ice tea",
       "offers": "0",
-      "stock_in_geitawi_branch": "49",
+      "stock_in_geitawi_branch": "48",
       "consumption_in_geitawi_branch": "131",
       "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "27",
-      "total_stock": "63",
+      "total_stock": "62",
       "total_consumption": "158",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -1552,7 +1552,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "49",
+          "stock": "48",
           "consumption": "131"
         },
         "Medawar": {
@@ -1570,7 +1570,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "63",
+      "totalStock": "62",
       "cost_ttc": 0.6043764612430169,
       "cost_ht": 0.5444832984171323,
       "cost_currency": "LBP",
@@ -10013,9 +10013,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "13",
+      "total_stock": "23",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "55,000",
@@ -10031,7 +10031,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "15",
           "consumption": "0"
         }
       },
@@ -10041,16 +10041,27 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
-      "cost_ttc": 0.416666666666667,
-      "cost_ht": 0.416666666666667,
+      "totalStock": "23",
+      "cost_ttc": "0.4167",
+      "cost_ht": "0.4167",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783324921094",
       "latest_purchase_cost_date": "2026-07-06",
-      "costHtUsd": 0.416666666666667,
-      "cost_ht_usd": 0.416666666666667,
-      "costTtcUsd": 0.416666666666667
+      "costHtUsd": 0.4166666666666667,
+      "cost_ht_usd": 0.4166666666666667,
+      "costTtcUsd": 0.4166666666666667,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.4166666666666667
     },
     {
       "id": "17471",
@@ -10677,6 +10688,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-09-09T12:26:12.320482Z",
+  "updatedAt": "2026-09-09T12:41:36.519343Z",
   "source": "sql-relay-web"
 }
