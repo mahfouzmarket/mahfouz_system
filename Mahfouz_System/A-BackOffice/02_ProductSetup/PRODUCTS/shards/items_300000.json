@@ -587,11 +587,11 @@
     },
     {
       "id": "300012",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "2",
+      "total_stock": "0",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -599,7 +599,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -617,7 +617,7 @@
       "price_lbp": "125,000",
       "price_usd": "1.39",
       "cost": "1.23",
-      "cost_ht": 1.23,
+      "cost_ht": "1.2300",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300012.jpg",
       "new_items": "x",
       "manual": "",
@@ -631,15 +631,25 @@
       "supplier": "LIBAN JUS SAL UNO",
       "subcategory": "YOGURT",
       "vat": "no",
-      "totalStock": "2",
-      "cost_ttc": 1.23,
+      "totalStock": "0",
+      "cost_ttc": "1.2300",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782291913619",
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 1.23,
       "cost_ht_usd": 1.23,
-      "costTtcUsd": 1.23
+      "costTtcUsd": 1.23,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.23
     },
     {
       "id": "300013",
@@ -23563,12 +23573,10 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
       "price_lbp": "160,000",
       "price_usd": "1.78",
       "cost": "1.10",
-      "cost_ht": 1.098125,
+      "cost_ht": "1.0981",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300421.jpg",
       "new_items": "x",
       "total_stock": "1",
@@ -23588,7 +23596,7 @@
       "consumption_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "13",
       "total_consumption": "19",
-      "cost_ttc": 1.21891875,
+      "cost_ttc": "1.2189",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783067029925",
@@ -23596,6 +23604,7 @@
       "costHtUsd": 1.098125,
       "cost_ht_usd": 1.098125,
       "costTtcUsd": 1.21891875,
+      "cost_ttc_usd": 1.21891875,
       "vat": "yes"
     },
     {
@@ -25465,6 +25474,9 @@
       "consumption_in_medawar_branch": "0",
       "total_consumption": "1",
       "cost_ttc_usd": 1.0175,
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300453.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300453.jpg",
+      "image_updated_at_utc": "2026-09-09T15:24:04.147600Z",
       "vat": "yes"
     },
     {
@@ -28045,6 +28057,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-09T15:13:01.392269Z",
+  "updatedAt": "2026-09-09T15:24:50.122804Z",
   "source": "sql-relay-web"
 }
