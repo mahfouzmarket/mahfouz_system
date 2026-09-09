@@ -63,9 +63,9 @@
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "5",
-      "consumption_in_medawar_branch": "0",
+      "consumption_in_medawar_branch": "1",
       "total_stock": "6",
-      "total_consumption": "1",
+      "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "185,000",
       "price_usd": "2.06",
@@ -87,7 +87,7 @@
         },
         "Medawar": {
           "stock": "5",
-          "consumption": "0"
+          "consumption": "1"
         }
       },
       "product_setup_save_token": "PS-SAVE-1000004-1778808370782417",
@@ -322,20 +322,20 @@
       "branches": {
         "Geitawi": {
           "stock": "0",
-          "consumption": "36"
+          "consumption": "28"
         },
         "Medawar": {
           "stock": "0",
-          "consumption": "25"
+          "consumption": "23"
         }
       },
-      "consumption_in_geitawi_branch": "36",
-      "total_consumption": "61",
+      "consumption_in_geitawi_branch": "28",
+      "total_consumption": "51",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000008.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000008.jpg",
       "image_updated_at_utc": "2026-06-24T09:52:12.583920Z",
       "stock_in_medawar_branch": "0",
-      "consumption_in_medawar_branch": "25",
+      "consumption_in_medawar_branch": "23",
       "cost_ttc": 0.9250000000000002,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -598,7 +598,7 @@
         },
         "Medawar": {
           "stock": "16",
-          "consumption": "1"
+          "consumption": "2"
         }
       },
       "cost_ttc": 0.1776,
@@ -611,8 +611,8 @@
       "costTtcUsd": 0.1776,
       "stock_in_medawar_branch": "16",
       "consumption_in_geitawi_branch": "3",
-      "consumption_in_medawar_branch": "1",
-      "total_consumption": "4",
+      "consumption_in_medawar_branch": "2",
+      "total_consumption": "5",
       "vat": "yes"
     },
     {
@@ -710,11 +710,11 @@
       "branches": {
         "Geitawi": {
           "stock": "7",
-          "consumption": "8"
+          "consumption": "7"
         },
         "Medawar": {
           "stock": "19",
-          "consumption": "1"
+          "consumption": "5"
         }
       },
       "cost_ttc": 0.00000925,
@@ -726,12 +726,12 @@
       "cost_ht_usd": 0.00000833333333333333,
       "costTtcUsd": 0.00000925,
       "stock_in_medawar_branch": "19",
-      "consumption_in_geitawi_branch": "8",
-      "consumption_in_medawar_branch": "1",
-      "total_consumption": "9",
+      "consumption_in_geitawi_branch": "7",
+      "consumption_in_medawar_branch": "5",
+      "total_consumption": "12",
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-09T16:59:09.558444Z",
+  "updatedAt": "2026-09-09T19:39:20.390746Z",
   "source": "sql-relay-web"
 }
