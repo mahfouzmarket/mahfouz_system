@@ -1942,9 +1942,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "6",
+      "total_stock": "8",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -1960,7 +1960,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "4",
           "consumption": "2"
         }
       },
@@ -1970,16 +1970,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
-      "cost_ttc": 0.97014,
-      "cost_ht": 0.874,
+      "totalStock": "8",
+      "cost_ttc": "0.9701",
+      "cost_ht": "0.8740",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782106877248",
       "latest_purchase_cost_date": "2026-06-22",
       "costHtUsd": 0.874,
       "cost_ht_usd": 0.874,
-      "costTtcUsd": 0.97014
+      "costTtcUsd": 0.9701400000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.9701400000000001
     },
     {
       "id": "5921",
@@ -2034,7 +2045,7 @@
     {
       "id": "5933",
       "barcode": "52815515",
-      "Product Description": "FALAFEL SPICES 50 GR AOUN",
+      "Product Description": "FALAFEL SPICES 50 G AOUN",
       "SUPPLIERS": "AOUN FOOD CO",
       "unit": "-",
       "category": "FOOD",
@@ -2042,9 +2053,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7",
+      "total_stock": "12",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -2064,13 +2075,31 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "9",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7"
+      "totalStock": "12",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc": "0.5439",
+      "cost_ht": "0.4900",
+      "costTtcUsd": 0.5439,
+      "costHtUsd": 0.49,
+      "cost_ht_usd": 0.49,
+      "cost_ttc_usd": 0.5439,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "5936",
@@ -2328,6 +2357,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-09T09:55:16.459810Z",
+  "updatedAt": "2026-09-09T12:28:59.525002Z",
   "source": "sql-relay-web"
 }
