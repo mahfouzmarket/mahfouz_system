@@ -3438,7 +3438,7 @@
     {
       "id": "18658",
       "barcode": "5281012003752",
-      "Product Description": "LAZIZA PINEAPPLE 330ML",
+      "Product Description": "LAZIZA PINEAPPLE 330 ML",
       "SUPPLIERS": "BRASSERIE ALMAZA SAL",
       "unit": "-",
       "category": "BEVERAGES",
@@ -3446,9 +3446,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "-1",
+      "total_stock": "0",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -3464,7 +3464,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "1"
         }
       },
@@ -3474,16 +3474,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1",
-      "cost_ttc": 0.716875,
-      "cost_ht": 0.645833333333333,
+      "totalStock": "0",
+      "cost_ttc": "0.7169",
+      "cost_ht": "0.6458",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1776925281557",
       "latest_purchase_cost_date": "2026-04-23",
-      "costHtUsd": 0.645833333333333,
-      "cost_ht_usd": 0.645833333333333,
-      "costTtcUsd": 0.716875
+      "costHtUsd": 0.6458333333333334,
+      "cost_ht_usd": 0.6458333333333334,
+      "costTtcUsd": 0.7168750000000002,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.7168750000000002
     },
     {
       "id": "18661",
@@ -11362,6 +11373,6 @@
       "costTtcUsd": 2.66
     }
   ],
-  "updatedAt": "2026-09-09T05:29:11.580955Z",
+  "updatedAt": "2026-09-09T05:44:16.919920Z",
   "source": "sql-relay-web"
 }
