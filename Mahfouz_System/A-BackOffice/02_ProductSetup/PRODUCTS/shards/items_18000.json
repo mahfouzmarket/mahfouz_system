@@ -9067,9 +9067,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "48",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "48",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "20,000",
@@ -9085,7 +9085,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "48",
           "consumption": "0"
         }
       },
@@ -9097,16 +9097,16 @@
       "name": "BREAK SUPA 15G",
       "subcategory": "sweets",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 0.1466124963,
-      "cost_ht": 0.13208333,
+      "totalStock": "48",
+      "cost_ttc": 0.1466125,
+      "cost_ht": 0.13208333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780476969290",
       "latest_purchase_cost_date": "2026-06-03",
-      "costHtUsd": 0.13208333,
-      "cost_ht_usd": 0.13208333,
-      "costTtcUsd": 0.1466124963
+      "costHtUsd": 0.13208333333333333,
+      "cost_ht_usd": 0.13208333333333333,
+      "costTtcUsd": 0.1466125
     },
     {
       "id": "18412",
@@ -10743,6 +10743,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-09-09T07:15:49.211802Z",
+  "updatedAt": "2026-09-09T07:34:16.218776Z",
   "source": "sql-relay-web"
 }
