@@ -999,11 +999,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "1",
+      "total_stock": "2",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -1011,7 +1011,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -1019,7 +1019,7 @@
       "SUPPLIERS": "ROUBOU3 TAANAYEL",
       "expiry_days": "0",
       "cost": "1.88",
-      "cost_ht": 1.875,
+      "cost_ht": "1.8750",
       "new_items": "x",
       "manual": "",
       "delivery_rules": "0.005",
@@ -1027,15 +1027,25 @@
       "vat": "no",
       "product_setup_save_token": "PS-SAVE-100017-1778585603465395",
       "product_setup_saved_at_utc": "2026-05-12T11:33:23.465395Z",
-      "totalStock": "1",
-      "cost_ttc": 1.875,
+      "totalStock": "2",
+      "cost_ttc": "1.8750",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1776923706997",
       "latest_purchase_cost_date": "2026-04-23",
       "costHtUsd": 1.875,
       "cost_ht_usd": 1.875,
-      "costTtcUsd": 1.875
+      "costTtcUsd": 1.875,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.875
     },
     {
       "id": "100018",
@@ -8359,6 +8369,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-09-10T05:29:27.793268Z",
+  "updatedAt": "2026-09-10T07:40:10.835801Z",
   "source": "sql-relay-web"
 }
