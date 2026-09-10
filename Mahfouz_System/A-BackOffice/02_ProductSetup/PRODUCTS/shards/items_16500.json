@@ -1173,9 +1173,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "21",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "1",
+      "total_stock": "21",
       "total_consumption": "16",
       "VAT": "YES",
       "price_lbp": "170,000",
@@ -1191,7 +1191,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "21",
           "consumption": "16"
         }
       },
@@ -1205,16 +1205,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": 1.665,
-      "cost_ht": 1.5,
+      "totalStock": "21",
+      "cost_ttc": "1.6650",
+      "cost_ht": "1.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781246729862",
       "latest_purchase_cost_date": "2026-06-12",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.665
+      "costTtcUsd": 1.665,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.665
     },
     {
       "id": "16652",
@@ -2547,9 +2558,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "265",
       "consumption_in_geitawi_branch": "755",
-      "stock_in_medawar_branch": "94",
+      "stock_in_medawar_branch": "93",
       "consumption_in_medawar_branch": "898",
-      "total_stock": "359",
+      "total_stock": "358",
       "total_consumption": "1653",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -2565,7 +2576,7 @@
           "consumption": "755"
         },
         "Medawar": {
-          "stock": "94",
+          "stock": "93",
           "consumption": "898"
         }
       },
@@ -2588,7 +2599,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-16734-1778917777422454",
       "product_setup_saved_at_utc": "2026-05-16T07:49:37.422454Z",
-      "totalStock": "359",
+      "totalStock": "358",
       "cost_ttc": 0.5,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -4470,7 +4481,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "12",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "6",
@@ -4486,7 +4497,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "2",
           "consumption": "12"
         },
         "Medawar": {
@@ -4494,7 +4505,7 @@
           "consumption": "6"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -4520,7 +4531,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "2",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 5.194444,
       "cost_currency": "USD",
@@ -4612,7 +4623,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "SANDWICHES",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "20",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
@@ -4628,7 +4639,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "20"
         },
         "Medawar": {
@@ -4636,7 +4647,7 @@
           "consumption": "7"
         },
         "Nouna": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -4662,7 +4673,7 @@
       "subcategory": "SANDWICHES",
       "vat": "no",
       "totalStock": "1",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 4.25,
       "cost_currency": "USD",
@@ -6925,7 +6936,7 @@
       "consumption_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "15",
       "VAT": "NO",
       "price_lbp": "600,000",
@@ -6945,7 +6956,7 @@
           "consumption": "4"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -6966,13 +6977,13 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "1",
+      "totalStock": "0",
       "secondBarcode": "",
       "product_description": "TUNA PASTA SALAD",
       "description": "TUNA PASTA SALAD",
       "expiryDays": 3,
       "subCategory": "READY TO EAT",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "cost_ttc": 4.75,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -7621,7 +7632,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -7637,7 +7648,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "2"
         },
         "Medawar": {
@@ -7645,7 +7656,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -7671,7 +7682,7 @@
       "costHtUsd": 4.711111111111111,
       "cost_ht_usd": 4.711111111111111,
       "costTtcUsd": 5.005556,
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "0",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
@@ -7698,7 +7709,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -7714,7 +7725,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "9"
         },
         "Medawar": {
@@ -7722,7 +7733,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0"
         },
         "Firas": {
@@ -7748,7 +7759,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "2",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "1",
       "cost_ttc": 4.19,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -7920,7 +7931,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "3",
@@ -7936,7 +7947,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "9"
         },
         "Medawar": {
@@ -7944,7 +7955,7 @@
           "consumption": "3"
         },
         "Nouna": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "0"
         },
         "Firas": {
@@ -7970,7 +7981,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "3",
-      "stock_in_nouna_branch": "4",
+      "stock_in_nouna_branch": "3",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 4.07,
       "cost_currency": "USD",
@@ -7992,7 +8003,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -8008,7 +8019,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "6"
         },
         "Medawar": {
@@ -8016,7 +8027,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -8042,7 +8053,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "0",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "cost_ttc": 5.47,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -8056,6 +8067,6 @@
       "consumption_in_firas_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-10T11:05:15.411797Z",
+  "updatedAt": "2026-09-10T11:22:03.208391Z",
   "source": "sql-relay-web"
 }
