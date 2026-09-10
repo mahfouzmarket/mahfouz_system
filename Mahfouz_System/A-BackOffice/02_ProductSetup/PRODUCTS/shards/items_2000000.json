@@ -353,15 +353,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "46",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "26",
+      "total_stock": "25",
       "total_consumption": "53",
       "VAT": "YES",
       "price_lbp": "105,000",
       "price_usd": "1.17",
       "cost": "0.83",
-      "cost_ht": 0.8291248603351956,
+      "cost_ht": "0.8291",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2000007.jpg",
       "new_items": "x",
       "manual": "",
@@ -377,7 +377,7 @@
           "consumption": "46"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "7"
         }
       },
@@ -387,9 +387,9 @@
       "supplier": "PEPSI LBP",
       "subcategory": "juice",
       "vat": "yes",
-      "totalStock": "26",
-      "cost_ttc": 0.9203285949720672,
-      "cost_currency": "LBP",
+      "totalStock": "25",
+      "cost_ttc": "0.9203",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783180437219",
       "latest_purchase_cost_date": "2026-07-04",
@@ -402,8 +402,10 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0
+      "costTtcUsd": 0.9203285949720672,
+      "costHtUsd": 0.8291248603351956,
+      "cost_ht_usd": 0.8291248603351956,
+      "cost_ttc_usd": 0.9203285949720672
     },
     {
       "id": "2000008",
@@ -1089,6 +1091,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-10T11:21:05.459025Z",
+  "updatedAt": "2026-09-10T11:45:45.182983Z",
   "source": "sql-relay-web"
 }
