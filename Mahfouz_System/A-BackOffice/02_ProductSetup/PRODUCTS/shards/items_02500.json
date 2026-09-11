@@ -282,9 +282,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "8",
+      "total_stock": "20",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -300,7 +300,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "18",
           "consumption": "2"
         }
       },
@@ -310,11 +310,11 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
+      "totalStock": "20",
       "cost_ttc": 0.6438,
       "cost_ht": 0.58,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781857102487",
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.58,
@@ -332,9 +332,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "11",
+      "total_stock": "23",
       "total_consumption": "8",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -350,7 +350,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "18",
           "consumption": "4"
         }
       },
@@ -360,11 +360,11 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11",
+      "totalStock": "23",
       "cost_ttc": 0.5883,
       "cost_ht": 0.53,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780641478317",
       "latest_purchase_cost_date": "2026-06-05",
       "costHtUsd": 0.53,
@@ -382,9 +382,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "11",
-      "stock_in_medawar_branch": "13",
+      "stock_in_medawar_branch": "25",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "17",
+      "total_stock": "29",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "40,000",
@@ -400,7 +400,7 @@
           "consumption": "11"
         },
         "Medawar": {
-          "stock": "13",
+          "stock": "25",
           "consumption": "2"
         }
       },
@@ -410,7 +410,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17",
+      "totalStock": "29",
       "cost_ttc": 0.333,
       "cost_ht": 0.3,
       "cost_currency": "USD",
@@ -738,9 +738,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -756,7 +756,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "4"
         }
       },
@@ -764,18 +764,18 @@
       "supplier": "HINTRAG",
       "subcategory": "BAKING & COOKING",
       "vat": "yes",
-      "totalStock": "1",
+      "totalStock": "7",
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": 0.6993,
+      "cost_ttc": 0.63,
       "cost_ht": 0.63,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781857102487",
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.63,
       "cost_ht_usd": 0.63,
-      "costTtcUsd": 0.6993
+      "costTtcUsd": 0.63
     },
     {
       "id": "2629",
@@ -2262,6 +2262,6 @@
       "costTtcUsd": 6.3
     }
   ],
-  "updatedAt": "2026-09-11T04:44:17.153922Z",
+  "updatedAt": "2026-09-11T05:41:21.974094Z",
   "source": "sql-relay-web"
 }
