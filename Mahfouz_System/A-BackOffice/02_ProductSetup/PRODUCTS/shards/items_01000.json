@@ -998,9 +998,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "109",
       "consumption_in_geitawi_branch": "226",
-      "stock_in_medawar_branch": "264",
+      "stock_in_medawar_branch": "262",
       "consumption_in_medawar_branch": "458",
-      "total_stock": "373",
+      "total_stock": "371",
       "total_consumption": "684",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1016,7 +1016,7 @@
           "consumption": "226"
         },
         "Medawar": {
-          "stock": "264",
+          "stock": "262",
           "consumption": "458"
         }
       },
@@ -1026,7 +1026,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "373",
+      "totalStock": "371",
       "updated_at_utc": "2026-06-14T11:52:45Z",
       "cost_ttc": 0.5409242133333334,
       "cost_ht": 0.48731911111111115,
@@ -1640,9 +1640,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "907",
       "consumption_in_geitawi_branch": "1209",
-      "stock_in_medawar_branch": "1947.998",
+      "stock_in_medawar_branch": "1475",
       "consumption_in_medawar_branch": "904",
-      "total_stock": "2854.998",
+      "total_stock": "2382",
       "total_consumption": "2113",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -1658,7 +1658,7 @@
           "consumption": "1209"
         },
         "Medawar": {
-          "stock": "1947.998",
+          "stock": "1475",
           "consumption": "904"
         }
       },
@@ -1677,7 +1677,7 @@
       "supplier": "TANNOURINE",
       "subcategory": "MINERAL WATER",
       "vat": "yes",
-      "totalStock": "2854.998",
+      "totalStock": "2382",
       "cost_ttc": "0.3100",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -1851,22 +1851,22 @@
     {
       "id": "1458",
       "barcode": "5283007400188",
-      "Product Description": "TANNOURINE 330ML 12 BOTTLES",
-      "SUPPLIERS": "TANNOURINE",
+      "Product Description": "TANNOURINE 330 ML 12 BOTTLES",
+      "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "BEVERAGES",
-      "sub_category": "MINERAL WATER",
+      "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "41",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "66",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "160,000",
-      "price_usd": "1.79",
-      "cost": "1.34",
+      "price_usd": "1.78",
+      "cost": "1.68",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1458.jpg",
       "new_items": "",
       "manual": "",
@@ -1877,15 +1877,44 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "25",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "41",
           "consumption": "0.0"
         }
       },
-      "totalStock": "0"
+      "barcode2": "",
+      "barcodes": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "is_bulk": true,
+      "isBulk": true,
+      "ignore_stock": true,
+      "ignoreStock": true,
+      "bulk_parent_id": 90151,
+      "bulkParentId": 90151,
+      "bulk_qty": 12,
+      "bulkQty": 12,
+      "cost_ttc": "1.8599",
+      "cost_ht": "1.6756",
+      "costTtcUsd": 1.8599160000000001,
+      "costHtUsd": 1.6756,
+      "cost_ht_usd": 1.6756,
+      "cost_ttc_usd": 1.8599160000000001,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "totalStock": "66",
+      "linked_bulk_stock_source": "parent:90151/12"
     },
     {
       "id": "1474",
@@ -1936,6 +1965,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-11T09:50:35.749777Z",
+  "updatedAt": "2026-09-11T09:57:08.416617Z",
   "source": "sql-relay-web"
 }
