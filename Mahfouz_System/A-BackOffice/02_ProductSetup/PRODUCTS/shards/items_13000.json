@@ -4472,9 +4472,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "63",
       "consumption_in_geitawi_branch": "531",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "604",
-      "total_stock": "82",
+      "total_stock": "81",
       "total_consumption": "1135",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -4490,7 +4490,7 @@
           "consumption": "531"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "18",
           "consumption": "604"
         }
       },
@@ -4500,7 +4500,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "82",
+      "totalStock": "81",
       "cost_ttc": 0.9222222222222223,
       "cost_ht": 0.9222222222222223,
       "cost_currency": "LBP",
@@ -5189,9 +5189,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "14",
       "consumption_in_geitawi_branch": "25",
-      "stock_in_medawar_branch": "21",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "35",
+      "total_stock": "34",
       "total_consumption": "49",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -5211,13 +5211,13 @@
           "consumption": "25"
         },
         "Medawar": {
-          "stock": "21",
+          "stock": "20",
           "consumption": "24"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "35",
+      "totalStock": "34",
       "cost_ttc": 0.6475000000000001,
       "cost_ht": 0.5833333333333334,
       "cost_currency": "USD",
@@ -5850,9 +5850,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "16",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "19",
-      "total_stock": "16",
+      "total_stock": "15",
       "total_consumption": "35",
       "VAT": "YES",
       "price_lbp": "150,000",
@@ -5868,7 +5868,7 @@
           "consumption": "16"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "19"
         }
       },
@@ -5878,16 +5878,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16",
-      "cost_ttc": 1.332,
-      "cost_ht": 1.2,
+      "totalStock": "15",
+      "cost_ttc": "1.3320",
+      "cost_ht": "1.2000",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783062529666",
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 1.2,
       "cost_ht_usd": 1.2,
-      "costTtcUsd": 1.332
+      "costTtcUsd": 1.332,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.332
     },
     {
       "id": "13397",
@@ -6112,9 +6123,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "15",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "21",
+      "total_stock": "7",
       "total_consumption": "18",
       "VAT": "YES",
       "price_lbp": "185,000",
@@ -6130,7 +6141,7 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "15",
+          "stock": "1",
           "consumption": "6"
         }
       },
@@ -6140,9 +6151,9 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "21",
-      "cost_ttc": 1.6095000000000002,
-      "cost_ht": 1.45,
+      "totalStock": "7",
+      "cost_ttc": "1.6095",
+      "cost_ht": "1.4500",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781262804148",
@@ -6159,7 +6170,8 @@
       "scale_item_enabled": false,
       "scaleItemEnabled": false,
       "scale_code": "",
-      "scaleCode": ""
+      "scaleCode": "",
+      "cost_ttc_usd": 1.6095000000000002
     },
     {
       "id": "13402",
@@ -7800,6 +7812,6 @@
       "costTtcUsd": 0.106259375
     }
   ],
-  "updatedAt": "2026-09-11T07:51:15.607756Z",
+  "updatedAt": "2026-09-11T08:09:14.476530Z",
   "source": "sql-relay-web"
 }
