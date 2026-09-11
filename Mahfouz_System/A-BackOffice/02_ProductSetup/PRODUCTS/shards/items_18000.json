@@ -7118,7 +7118,7 @@
     {
       "id": "18293",
       "barcode": "5285004344021",
-      "Product Description": "KEE WHITH CHOCO PEANUT 60G",
+      "Product Description": "KEE WHITH CHOCO PEANUT 60 G",
       "SUPPLIERS": "KEE",
       "unit": "-",
       "category": "CHI TAYIB",
@@ -7126,9 +7126,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "1",
+      "total_stock": "22",
       "total_consumption": "12",
       "VAT": "YES",
       "price_lbp": "120,000",
@@ -7144,7 +7144,7 @@
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "20",
           "consumption": "6"
         }
       },
@@ -7158,16 +7158,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": 0.9768,
-      "cost_ht": 0.88,
+      "totalStock": "22",
+      "cost_ttc": "0.9768",
+      "cost_ht": "0.8800",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782116127507",
       "latest_purchase_cost_date": "2026-06-22",
       "costHtUsd": 0.88,
       "cost_ht_usd": 0.88,
-      "costTtcUsd": 0.9768
+      "costTtcUsd": 0.9768000000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.9768000000000001
     },
     {
       "id": "18294",
@@ -10785,6 +10796,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-09-11T05:21:40.058907Z",
+  "updatedAt": "2026-09-11T05:31:04.792879Z",
   "source": "sql-relay-web"
 }
