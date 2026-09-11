@@ -3263,9 +3263,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "34",
       "consumption_in_geitawi_branch": "94",
-      "stock_in_medawar_branch": "20",
+      "stock_in_medawar_branch": "19.998",
       "consumption_in_medawar_branch": "60",
-      "total_stock": "54",
+      "total_stock": "53.998",
       "total_consumption": "154",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -3281,7 +3281,7 @@
           "consumption": "94"
         },
         "Medawar": {
-          "stock": "20",
+          "stock": "19.998",
           "consumption": "60"
         },
         "The Daily Market": {
@@ -3299,7 +3299,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "54",
+      "totalStock": "53.998",
       "stock": "-2",
       "branch_stock": {
         "Geitawi": {
@@ -3347,9 +3347,9 @@
       "total_stock": "8",
       "total_consumption": "11",
       "VAT": "YES",
-      "price_lbp": "210,000",
-      "price_usd": "2.33",
-      "cost": "3.52",
+      "price_lbp": "230,000",
+      "price_usd": "2.56",
+      "cost": "1.76",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17180.jpg",
       "new_items": "",
       "manual": "1",
@@ -3407,11 +3407,23 @@
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": 3.5153966480446925,
+      "cost_ht": "1.7577",
       "totalStock": "8",
-      "cost_ttc": 3.902090279329609,
-      "cost_currency": "LBP",
+      "cost_ttc": "1.9510",
+      "cost_currency": "USD",
       "cost_vat_included": true,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "isBulk": true,
+      "ignoreStock": true,
+      "bulkParentId": 17179,
+      "bulkQty": 6,
+      "costTtcUsd": 1.9510451396648045,
+      "costHtUsd": 1.7576983240223463,
+      "cost_ht_usd": 1.7576983240223463,
+      "cost_ttc_usd": 1.9510451396648045,
       "linked_bulk_stock_source": "parent:17179/6"
     },
     {
@@ -7623,8 +7635,8 @@
       "total_stock": "12",
       "total_consumption": "27",
       "VAT": "YES",
-      "price_lbp": "210,000",
-      "price_usd": "2.33",
+      "price_lbp": "230,000",
+      "price_usd": "2.56",
       "cost": "3.08",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17349.jpg",
       "new_items": "",
@@ -7668,12 +7680,14 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "cost_ttc": 3.4143305446927377,
-      "cost_ht": 3.0759734636871507,
-      "cost_currency": "LBP",
-      "cost_vat_included": true
+      "cost_ttc": "3.4143",
+      "cost_ht": "3.0760",
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "costTtcUsd": 3.4143305446927377,
+      "costHtUsd": 3.0759734636871507,
+      "cost_ht_usd": 3.0759734636871507,
+      "cost_ttc_usd": 3.4143305446927377
     },
     {
       "id": "17352",
@@ -10632,6 +10646,6 @@
       "costTtcUsd": 0.63
     }
   ],
-  "updatedAt": "2026-09-11T09:39:42.714723Z",
+  "updatedAt": "2026-09-11T09:49:32.723204Z",
   "source": "sql-relay-web"
 }
