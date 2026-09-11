@@ -2218,9 +2218,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "2,750,000",
@@ -2236,7 +2236,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "1"
         }
       },
@@ -2246,16 +2246,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
-      "cost_ttc": 24.401500000000002,
-      "cost_ht": 21.983333333333334,
+      "totalStock": "5",
+      "cost_ttc": "24.4015",
+      "cost_ht": "21.9833",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1778586045988",
       "latest_purchase_cost_date": "2026-05-12",
       "costHtUsd": 21.983333333333334,
       "cost_ht_usd": 21.983333333333334,
-      "costTtcUsd": 24.401500000000002
+      "costTtcUsd": 24.401500000000002,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 24.401500000000002
     },
     {
       "id": "274",
@@ -2666,9 +2677,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "77",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "80",
+      "total_stock": "9",
       "total_consumption": "8",
       "VAT": "YES",
       "price_lbp": "1,010,000",
@@ -2684,7 +2695,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "77",
+          "stock": "6",
           "consumption": "3"
         }
       },
@@ -2693,17 +2704,28 @@
       "subcategory": "WHISKEY",
       "vat": "yes",
       "barcode2": "5024546366630",
-      "barcodes": "5024546366630",
-      "totalStock": "80",
-      "cost_ttc": 8.88,
-      "cost_ht": 8.0,
+      "barcodes": "",
+      "totalStock": "9",
+      "cost_ttc": "8.8800",
+      "cost_ht": "8.0000",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782373314869",
       "latest_purchase_cost_date": "2026-06-25",
       "costHtUsd": 8.0,
       "cost_ht_usd": 8.0,
-      "costTtcUsd": 8.88
+      "costTtcUsd": 8.88,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 8.88
     },
     {
       "id": "364",
@@ -4496,6 +4518,6 @@
       "costTtcUsd": 3.0297450000000006
     }
   ],
-  "updatedAt": "2026-09-11T10:31:32.245733Z",
+  "updatedAt": "2026-09-11T10:38:59.044183Z",
   "source": "sql-relay-web"
 }
