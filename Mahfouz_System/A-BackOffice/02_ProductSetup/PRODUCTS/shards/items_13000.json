@@ -2196,9 +2196,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "242",
       "consumption_in_geitawi_branch": "59",
-      "stock_in_medawar_branch": "519",
+      "stock_in_medawar_branch": "459",
       "consumption_in_medawar_branch": "232",
-      "total_stock": "761",
+      "total_stock": "701",
       "total_consumption": "291",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -2214,7 +2214,7 @@
           "consumption": "59"
         },
         "Medawar": {
-          "stock": "519",
+          "stock": "459",
           "consumption": "232"
         }
       },
@@ -2224,7 +2224,7 @@
       "vat": "yes",
       "barcode2": "6294017120781",
       "barcodes": "6294017120781",
-      "totalStock": "761",
+      "totalStock": "701",
       "cost_ttc": 0.164835,
       "cost_ht": 0.1485,
       "cost_currency": "USD",
@@ -4870,11 +4870,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "22",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "31",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -4886,7 +4886,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "9"
         },
         "Medawar": {
@@ -4909,7 +4909,7 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
       "vat": "yes",
-      "totalStock": "2",
+      "totalStock": "1",
       "cost_ttc": 1.0878,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -7812,6 +7812,6 @@
       "costTtcUsd": 0.106259375
     }
   ],
-  "updatedAt": "2026-09-11T08:41:33.707809Z",
+  "updatedAt": "2026-09-11T09:06:47.565846Z",
   "source": "sql-relay-web"
 }
