@@ -449,9 +449,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "23",
+      "total_stock": "24",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "350,000",
@@ -467,7 +467,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "19",
           "consumption": "7"
         }
       },
@@ -477,9 +477,9 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "23",
+      "totalStock": "24",
       "expiry_days": "0",
-      "cost_ht": 2.8333333333333335,
+      "cost_ht": "2.8333",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -487,14 +487,24 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-30-1780044751945111",
       "product_setup_saved_at_utc": "2026-05-29T08:52:31.945111Z",
-      "cost_ttc": 3.1450000000000005,
+      "cost_ttc": "3.1450",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782808575101",
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 2.8333333333333335,
       "cost_ht_usd": 2.8333333333333335,
-      "costTtcUsd": 3.1450000000000005
+      "costTtcUsd": 3.1450000000000005,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 3.1450000000000005
     },
     {
       "id": "31",
@@ -4529,6 +4539,6 @@
       "costTtcUsd": 3.0297450000000006
     }
   ],
-  "updatedAt": "2026-09-11T13:01:36.927372Z",
+  "updatedAt": "2026-09-11T13:28:06.759909Z",
   "source": "sql-relay-web"
 }
