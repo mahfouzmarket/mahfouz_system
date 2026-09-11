@@ -2310,17 +2310,17 @@
     {
       "id": "6495",
       "barcode": "5281117000663",
-      "Product Description": "FOUL MDAMMAS AL WADI 860G",
+      "Product Description": "FOUL MDAMMAS AL WADI 860 G",
       "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "19",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "21",
+      "total_stock": "10",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "170,000",
@@ -2332,11 +2332,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "4",
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "19",
+          "stock": "6",
           "consumption": "4"
         }
       },
@@ -2350,16 +2350,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "21",
-      "cost_ttc": 1.2307125,
-      "cost_ht": 1.10875,
+      "totalStock": "10",
+      "cost_ttc": "1.2307",
+      "cost_ht": "1.1087",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782716281327",
       "latest_purchase_cost_date": "2026-06-29",
       "costHtUsd": 1.10875,
       "cost_ht_usd": 1.10875,
-      "costTtcUsd": 1.2307125
+      "costTtcUsd": 1.2307125,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.2307125
     },
     {
       "id": "6498",
@@ -2462,6 +2473,6 @@
       "costTtcUsd": 2.3504250000000004
     }
   ],
-  "updatedAt": "2026-09-11T11:04:53.409408Z",
+  "updatedAt": "2026-09-11T11:17:13.425616Z",
   "source": "sql-relay-web"
 }
