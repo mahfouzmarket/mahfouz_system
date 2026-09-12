@@ -331,11 +331,11 @@
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "11",
+      "total_stock": "12",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "420,000",
@@ -347,7 +347,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "5",
           "consumption": "2"
         },
         "Medawar": {
@@ -361,19 +361,30 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11",
+      "totalStock": "12",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18024.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18024.jpg",
       "image_updated_at_utc": "2026-06-22T13:21:21.723437Z",
-      "cost_ttc": 2.7972,
-      "cost_ht": 2.52,
+      "cost_ttc": "2.7972",
+      "cost_ht": "2.5200",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1776422505556",
       "latest_purchase_cost_date": "2026-04-17",
       "costHtUsd": 2.52,
       "cost_ht_usd": 2.52,
-      "costTtcUsd": 2.7972
+      "costTtcUsd": 2.7972,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 2.7972
     },
     {
       "id": "18025",
@@ -6468,17 +6479,17 @@
     {
       "id": "18277",
       "barcode": "5283010410419",
-      "Product Description": "MECHAALANY PICKLED CHILI PEPPERS 600G",
+      "Product Description": "MECHAALANY PICKLED CHILI PEPPERS 600 G",
       "SUPPLIERS": "EAST 2 WEST",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "280,000",
@@ -6494,7 +6505,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "1"
         },
         "Medawar": {
@@ -6504,7 +6515,25 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "7",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc": "2.3900",
+      "cost_ht": "2.3900",
+      "costTtcUsd": 2.39,
+      "costHtUsd": 2.39,
+      "cost_ht_usd": 2.39,
+      "cost_ttc_usd": 2.39,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "18278",
@@ -10839,6 +10868,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-09-12T12:08:09.363803Z",
+  "updatedAt": "2026-09-12T13:03:08.827990Z",
   "source": "sql-relay-web"
 }
