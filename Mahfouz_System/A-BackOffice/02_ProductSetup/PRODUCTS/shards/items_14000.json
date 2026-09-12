@@ -1543,11 +1543,11 @@
           "consumption": "30"
         },
         "Nouna": {
-          "stock": "64",
+          "stock": "28",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "-1",
+          "stock": "35",
           "consumption": "0"
         }
       },
@@ -1569,7 +1569,7 @@
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
       "totalStock": "82",
-      "stock_in_nouna_branch": "64",
+      "stock_in_nouna_branch": "28",
       "secondBarcode": "",
       "product_description": "BROWNI CHOCOLATE",
       "description": "BROWNI CHOCOLATE",
@@ -1585,7 +1585,7 @@
       "cost_ht_usd": 0.6222222222222222,
       "costTtcUsd": 0.8214,
       "priceLbp": 70000,
-      "stock_in_firas_branch": "-1",
+      "stock_in_firas_branch": "35",
       "consumption_in_firas_branch": "0"
     },
     {
@@ -5273,11 +5273,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "wine",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "13",
+      "total_stock": "16",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "230,000",
@@ -5289,7 +5289,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "7",
           "consumption": "1"
         },
         "Medawar": {
@@ -5307,9 +5307,9 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
-      "cost_ttc": 1.8500000000000003,
-      "cost_ht": 1.6666666666666667,
+      "totalStock": "16",
+      "cost_ttc": "1.8500",
+      "cost_ht": "1.6667",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779268968801",
@@ -5319,7 +5319,18 @@
       "costTtcUsd": 1.8500000000000003,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14356.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14356.jpg",
-      "image_updated_at_utc": "2026-09-11T11:54:03.910646Z"
+      "image_updated_at_utc": "2026-09-11T11:54:03.910646Z",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.8500000000000003
     },
     {
       "id": "14364",
@@ -7421,6 +7432,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-09-12T10:15:54.127448Z",
+  "updatedAt": "2026-09-12T11:48:35.713023Z",
   "source": "sql-relay-web"
 }
