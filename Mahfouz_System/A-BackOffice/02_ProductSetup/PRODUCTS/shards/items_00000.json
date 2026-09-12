@@ -1017,13 +1017,13 @@
       "vat": "no",
       "price_lbp": "1,080,000",
       "cost": "10.00",
-      "total_stock": "0",
+      "total_stock": "5",
       "total_consumption": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "5",
       "stock_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         },
         "Medawar": {
@@ -1068,7 +1068,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "10.00",
+      "cost_ht": "10.0000",
       "costUsd": 10.0,
       "cost_ht_usd": 10.0,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -1084,7 +1084,22 @@
       "product_setup_save_token": "PS-SAVE-134-1779173016899139",
       "product_setup_saved_at_utc": "2026-05-19T06:43:36.899139Z",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID134.jpg",
-      "totalStock": "0"
+      "totalStock": "5",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc": "10.0000",
+      "costTtcUsd": 10.0,
+      "costHtUsd": 10.0,
+      "cost_ttc_usd": 10.0,
+      "cost_currency": "USD",
+      "cost_vat_included": false
     },
     {
       "id": "139",
@@ -2353,11 +2368,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "16",
+      "total_stock": "15",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "1,270,000",
@@ -2369,7 +2384,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "3"
         },
         "Medawar": {
@@ -2383,7 +2398,7 @@
       "vat": "yes",
       "barcode2": "5010103800259",
       "barcodes": "",
-      "totalStock": "16",
+      "totalStock": "15",
       "cost_ttc": "9.3190",
       "cost_ht": "8.3955",
       "cost_currency": "USD",
@@ -2414,11 +2429,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "WHISKEY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "2",
+      "total_stock": "6",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "925,000",
@@ -2430,7 +2445,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "3"
         },
         "Medawar": {
@@ -2448,16 +2463,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": 7.0,
-      "cost_ht": 7.0,
+      "totalStock": "6",
+      "cost_ttc": "7.7700",
+      "cost_ht": "7.0000",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13896-2026-03-11",
       "latest_purchase_cost_date": "2026-03-11",
       "costHtUsd": 7.0,
       "cost_ht_usd": 7.0,
-      "costTtcUsd": 7.0
+      "costTtcUsd": 7.7700000000000005,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 7.7700000000000005
     },
     {
       "id": "302",
@@ -4605,6 +4631,6 @@
       "costTtcUsd": 3.0297450000000006
     }
   ],
-  "updatedAt": "2026-09-12T11:55:19.700162Z",
+  "updatedAt": "2026-09-12T12:04:41.846062Z",
   "source": "sql-relay-web"
 }
