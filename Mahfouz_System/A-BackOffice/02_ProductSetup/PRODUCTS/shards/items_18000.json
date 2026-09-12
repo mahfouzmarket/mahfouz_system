@@ -6290,11 +6290,11 @@
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "12",
+      "total_stock": "14",
       "total_consumption": "8",
       "VAT": "YES",
       "price_lbp": "325,000",
@@ -6306,7 +6306,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "5",
           "consumption": "4"
         },
         "Medawar": {
@@ -6320,16 +6320,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
-      "cost_ttc": 2.9202250000000003,
-      "cost_ht": 2.6308333333333334,
+      "totalStock": "14",
+      "cost_ttc": "2.9202",
+      "cost_ht": "2.6308",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779266039503",
       "latest_purchase_cost_date": "2026-05-20",
       "costHtUsd": 2.6308333333333334,
       "cost_ht_usd": 2.6308333333333334,
-      "costTtcUsd": 2.9202250000000003
+      "costTtcUsd": 2.9202250000000003,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 2.9202250000000003
     },
     {
       "id": "18274",
@@ -10868,6 +10879,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-09-12T13:10:56.109938Z",
+  "updatedAt": "2026-09-12T13:23:51.548100Z",
   "source": "sql-relay-web"
 }
