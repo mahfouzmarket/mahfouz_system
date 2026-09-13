@@ -2830,11 +2830,11 @@
       "sub_category": "ENERGY DRINK",
       "offers": "0",
       "expiry_days": "0",
-      "stock_in_geitawi_branch": "32",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "24",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "34",
+      "total_stock": "2",
       "total_consumption": "24",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -2854,7 +2854,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "32",
+          "stock": "0",
           "consumption": "24"
         },
         "Medawar": {
@@ -2868,7 +2868,7 @@
       "supplier": "PEPSI LBP",
       "subcategory": "ENERGY DRINK",
       "vat": "yes",
-      "totalStock": "34",
+      "totalStock": "2",
       "cost_ttc": 0.5339838966480448,
       "cost_currency": "LBP",
       "cost_vat_included": true,
@@ -5216,11 +5216,14 @@
       "new_items": "x",
       "total_stock": "18",
       "totalStock": "18",
-      "stock_in_geitawi_branch": "18",
+      "stock_in_geitawi_branch": "12",
       "branches": {
         "Geitawi": {
-          "stock": "18",
+          "stock": "12",
           "consumption": "6"
+        },
+        "Medawar": {
+          "stock": "6"
         }
       },
       "consumption_in_geitawi_branch": "6",
@@ -5228,6 +5231,7 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500118.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500118.jpg",
       "image_updated_at_utc": "2026-09-13T05:34:34.156401Z",
+      "stock_in_medawar_branch": "6",
       "vat": "yes"
     },
     {
@@ -5833,6 +5837,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-09-13T05:34:34.156401Z",
+  "updatedAt": "2026-09-13T05:50:00.851802Z",
   "source": "sql-relay-web"
 }
