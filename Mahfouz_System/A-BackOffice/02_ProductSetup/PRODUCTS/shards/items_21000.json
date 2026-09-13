@@ -4903,11 +4903,11 @@
       "category": "BEVERAGES",
       "sub_category": "ice tea",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "23",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "23",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -4919,7 +4919,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "23",
           "consumption": "1"
         },
         "Medawar": {
@@ -4937,13 +4937,30 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-1",
-      "cost_ttc": 0.60101875,
-      "cost_ht": 0.5414583333333334,
-      "cost_currency": "LBP",
+      "totalStock": "23",
+      "cost_ttc": "0.6010",
+      "cost_ht": "0.5415",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781953600000",
-      "latest_purchase_cost_date": "2026-06-20"
+      "latest_purchase_cost_date": "2026-06-20",
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21084.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21084.jpg",
+      "image_updated_at_utc": "2026-09-13T02:32:17.691592Z",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "costTtcUsd": 0.60101875,
+      "costHtUsd": 0.5414583333333334,
+      "cost_ht_usd": 0.5414583333333334,
+      "cost_ttc_usd": 0.60101875
     },
     {
       "id": "21085",
@@ -26959,6 +26976,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-12T22:06:50.354753Z",
+  "updatedAt": "2026-09-13T02:33:18.680462Z",
   "source": "sql-relay-web"
 }
