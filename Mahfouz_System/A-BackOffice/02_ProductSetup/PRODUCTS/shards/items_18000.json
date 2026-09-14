@@ -3740,15 +3740,15 @@
       "barcode2": "",
       "barcodes": "",
       "totalStock": "93",
-      "cost_ttc": 0.76595,
+      "cost_ttc": 0.8502045000000001,
       "cost_ht": 0.76595,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779789762063",
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 0.76595,
       "cost_ht_usd": 0.76595,
-      "costTtcUsd": 0.76595
+      "costTtcUsd": 0.8502045000000001
     },
     {
       "id": "18164",
@@ -8681,9 +8681,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "2",
+      "total_stock": "-2",
       "total_consumption": "16",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -8699,7 +8699,7 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "-2",
           "consumption": "4"
         }
       },
@@ -8716,7 +8716,7 @@
       "supplier": "AL HAMAWI TRADING",
       "subcategory": "TEA",
       "vat": "no",
-      "totalStock": "2",
+      "totalStock": "-2",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18392.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18392.jpg",
       "image_updated_at_utc": "2026-06-23T07:31:24.591995Z",
@@ -10882,6 +10882,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-09-14T06:19:42.158062Z",
+  "updatedAt": "2026-09-14T07:33:16.444524Z",
   "source": "sql-relay-web"
 }
