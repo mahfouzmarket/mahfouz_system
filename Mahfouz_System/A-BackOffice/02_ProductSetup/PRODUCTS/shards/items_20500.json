@@ -9898,11 +9898,11 @@
       "category": "VEGETABLES AND FRUITS",
       "sub_category": "FRUITS",
       "offers": "",
-      "stock_in_geitawi_branch": "0.63",
+      "stock_in_geitawi_branch": "0.22",
       "consumption_in_geitawi_branch": "12.5",
-      "stock_in_medawar_branch": "6.905",
+      "stock_in_medawar_branch": "3.51",
       "consumption_in_medawar_branch": "2.9",
-      "total_stock": "7.535",
+      "total_stock": "3.73",
       "total_consumption": "15.4",
       "VAT": "NO",
       "price_lbp": "1,250,000",
@@ -9914,11 +9914,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.63",
+          "stock": "0.22",
           "consumption": "12.5"
         },
         "Medawar": {
-          "stock": "6.905",
+          "stock": "3.51",
           "consumption": "2.9"
         }
       },
@@ -9944,10 +9944,12 @@
       "description_ar": "حلبي",
       "non_stockable": false,
       "nonStockable": false,
-      "totalStock": "7.535",
+      "totalStock": "3.73",
       "cost_ttc": 9.398148148148149,
       "cost_currency": "LBP",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "last_reclassification_repair": "khyar_under550_to_halabi_hamoude_20260914_v1",
+      "last_reclassification_at_utc": "2026-09-14T20:38:08.0525946Z"
     },
     {
       "id": "20687",
@@ -25964,6 +25966,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-14T20:22:41.844993Z",
+  "updatedAt": "2026-09-14T20:38:08.052594Z",
   "source": "sql-relay-web"
 }
