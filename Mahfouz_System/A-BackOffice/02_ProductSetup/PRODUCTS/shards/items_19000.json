@@ -12424,11 +12424,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "100",
+      "stock_in_medawar_branch": "35",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "100",
+      "total_stock": "50",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -12440,11 +12440,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "15",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "100",
+          "stock": "35",
           "consumption": "0"
         }
       },
@@ -12452,18 +12452,29 @@
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "cans & jams",
       "vat": "yes",
-      "barcode2": "2287136213261",
-      "barcodes": "2287136213261",
-      "totalStock": "100",
-      "cost_ttc": 0.650016,
-      "cost_ht": 0.5856,
+      "barcode2": "",
+      "barcodes": "",
+      "totalStock": "50",
+      "cost_ttc": "0.6500",
+      "cost_ht": "0.5856",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782122214554",
       "latest_purchase_cost_date": "2026-06-22",
       "costHtUsd": 0.5856,
       "cost_ht_usd": 0.5856,
-      "costTtcUsd": 0.650016
+      "costTtcUsd": 0.650016,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.650016
     },
     {
       "id": "19496",
@@ -12640,6 +12651,6 @@
       "costTtcUsd": 1.1174
     }
   ],
-  "updatedAt": "2026-09-15T10:25:49.441576Z",
+  "updatedAt": "2026-09-15T10:33:38.891583Z",
   "source": "sql-relay-web"
 }
