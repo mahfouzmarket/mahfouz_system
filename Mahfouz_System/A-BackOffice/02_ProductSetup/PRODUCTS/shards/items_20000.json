@@ -85,9 +85,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "10",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "14",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -103,7 +103,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "10"
         },
         "Nouna": {
@@ -120,7 +120,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
+      "totalStock": "1",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 9.250000000000001e-7,
       "cost_ht": 8.333333333333334e-7,
@@ -5981,10 +5981,10 @@
       "vat": "no",
       "price_lbp": "50,000",
       "cost": "0.37",
-      "total_stock": "17",
+      "total_stock": "16",
       "total_consumption": "18",
       "stock_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "11",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -5999,7 +5999,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "7"
         },
         "Geitawi": {
@@ -6051,7 +6051,7 @@
       "scalePlu": 0,
       "price_usd": "0.56",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20137.jpg",
-      "totalStock": "17",
+      "totalStock": "16",
       "cost_ttc": 0.41440000000000005,
       "costTtcUsd": 0.41440000000000005,
       "costHtUsd": 0.37333333333333335,
@@ -14636,9 +14636,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "127",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "97",
-      "total_stock": "12",
+      "total_stock": "10",
       "total_consumption": "224",
       "VAT": "NO",
       "price_lbp": "70,000",
@@ -14654,7 +14654,7 @@
           "consumption": "127"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "6",
           "consumption": "97"
         }
       },
@@ -14664,7 +14664,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
+      "totalStock": "10",
       "cost_ttc": 0.6666666666666666,
       "cost_ht": 0.6666666666666666,
       "cost_currency": "LBP",
@@ -23740,6 +23740,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-15T16:19:52.970932Z",
+  "updatedAt": "2026-09-15T16:29:25.893114Z",
   "source": "sql-relay-web"
 }
