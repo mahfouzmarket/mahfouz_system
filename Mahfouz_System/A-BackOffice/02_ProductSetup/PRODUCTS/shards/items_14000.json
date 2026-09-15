@@ -4334,11 +4334,11 @@
       "category": "HOME USAGE",
       "sub_category": "PICNIC & OFFICE USE",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "19",
-      "total_stock": "19",
+      "total_stock": "53",
       "total_consumption": "21",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -4350,7 +4350,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "33",
           "consumption": "2"
         },
         "Medawar": {
@@ -4364,16 +4364,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19",
-      "cost_ttc": 0.5555,
-      "cost_ht": 0.5555,
+      "totalStock": "53",
+      "cost_ttc": "0.6166",
+      "cost_ht": "0.5555",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14161-2026-04-01",
       "latest_purchase_cost_date": "2026-04-01",
       "costHtUsd": 0.5555,
       "cost_ht_usd": 0.5555,
-      "costTtcUsd": 0.5555,
+      "costTtcUsd": 0.6166050000000001,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -4384,8 +4384,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0
+      "cost_ttc_usd": 0.6166050000000001
     },
     {
       "id": "14310",
@@ -7441,6 +7440,6 @@
       "costTtcUsd": 1.3616
     }
   ],
-  "updatedAt": "2026-09-15T04:46:06.923066Z",
+  "updatedAt": "2026-09-15T05:19:22.552861Z",
   "source": "sql-relay-web"
 }
