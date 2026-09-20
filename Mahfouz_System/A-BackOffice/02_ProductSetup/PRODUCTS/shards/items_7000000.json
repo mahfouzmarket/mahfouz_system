@@ -3,14 +3,14 @@
     {
       "id": "7000001",
       "stock_in_medawar_branch": "1",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
       "total_stock": "4",
       "total_consumption": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -18,7 +18,7 @@
           "consumption": "0.0"
         },
         "Nouna": {
-          "stock": "2"
+          "stock": "3"
         },
         "Firas": {
           "stock": "0"
@@ -78,11 +78,12 @@
       "totalStock": "4",
       "product_description": "CROQUANT  SESAME NT 250 G",
       "description": "CROQUANT  SESAME NT 250 G",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "3",
       "stock_in_firas_branch": "0",
       "secondBarcode": "",
       "priceLbp": 450000,
-      "expiryDays": 365
+      "expiryDays": 365,
+      "subCategory": "NOUNA'S FOOD"
     },
     {
       "id": "7000002",
@@ -162,7 +163,8 @@
       "scaleCode": "",
       "cost_ttc_usd": 0.6611111111111111,
       "stock_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "subCategory": "NOUNA'S FOOD"
     },
     {
       "id": "7000004",
@@ -230,7 +232,8 @@
       "latest_purchase_cost_doc_id": "P1778662902266",
       "latest_purchase_cost_date": "2026-05-13",
       "costHtUsd": 0.78,
-      "costTtcUsd": 0.8658
+      "costTtcUsd": 0.8658,
+      "subCategory": "nail & skin care"
     },
     {
       "id": "7000006",
@@ -301,7 +304,9 @@
       "latest_purchase_cost_doc_id": "P1778662902266",
       "latest_purchase_cost_date": "2026-05-13",
       "costHtUsd": 0.78,
-      "costTtcUsd": 0.8658
+      "costTtcUsd": 0.8658,
+      "subCategory": "nail & skin care",
+      "sub": "nail & skin care"
     },
     {
       "id": "7000012",
@@ -370,6 +375,8 @@
       "cost_ht_usd": 3.4,
       "costTtcUsd": 3.4,
       "stock_in_firas_branch": "0",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD",
       "VAT": "NO"
     },
     {
@@ -427,7 +434,9 @@
       "totalStock": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "SALAD",
+      "sub": "SALAD"
     },
     {
       "id": "7000017",
@@ -483,7 +492,9 @@
       "totalStock": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "CHOCOLATE AND DRAGEE",
+      "sub": "CHOCOLATE AND DRAGEE"
     },
     {
       "id": "7000020",
@@ -552,7 +563,9 @@
         "sourceTemplateName": "Brownie Box (4 pcs)",
         "updatedAtUtc": "2026-08-29T10:53:24.254557Z",
         "updatedBy": "2"
-      }
+      },
+      "subCategory": "BROWNIES",
+      "sub": "BROWNIES"
     },
     {
       "id": "7000021",
@@ -608,7 +621,9 @@
       "totalStock": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "HEALTHY CHOICES",
+      "sub": "HEALTHY CHOICES"
     },
     {
       "id": "7000025",
@@ -665,7 +680,9 @@
       "totalStock": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "SALAD",
+      "sub": "SALAD"
     },
     {
       "id": "7000028",
@@ -742,7 +759,9 @@
       "cost_ht_usd": 5.666667,
       "costTtcUsd": 5.666667,
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000031",
@@ -824,7 +843,8 @@
       "cost_ht_usd": 5.666667,
       "costTtcUsd": 5.666667,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000033",
@@ -893,6 +913,8 @@
       "cost_ht_usd": 5.194444,
       "costTtcUsd": 5.194444,
       "stock_in_firas_branch": "0",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD",
       "VAT": "NO"
     },
     {
@@ -973,7 +995,8 @@
       "cost_ht_usd": 5.194444,
       "costTtcUsd": 5.194444,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000043",
@@ -1044,6 +1067,7 @@
       "cost_ht_usd": 6.138889,
       "costTtcUsd": 6.138889,
       "stock_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD",
       "VAT": "NO"
     },
     {
@@ -1125,7 +1149,8 @@
       "costHtUsd": 2.361111,
       "cost_ht_usd": 2.361111,
       "costTtcUsd": 2.361111,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000050",
@@ -1181,7 +1206,9 @@
       "totalStock": "0",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "FATHER'S DAY",
+      "sub": "FATHER'S DAY"
     },
     {
       "id": "7000053",
@@ -1193,10 +1220,10 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "stock_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_geitawi_branch": "12",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "22",
+      "total_stock": "20",
       "total_consumption": "21",
       "vat": "no",
       "price_lbp": "100,000",
@@ -1217,11 +1244,11 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "9"
         },
         "Nouna": {
-          "stock": "13",
+          "stock": "12",
           "consumption": "0"
         },
         "Firas": {
@@ -1229,7 +1256,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "22",
+      "totalStock": "20",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -1245,7 +1272,7 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "cost_ht": 0.944444,
-      "stock_in_nouna_branch": "13",
+      "stock_in_nouna_branch": "12",
       "secondBarcode": "",
       "description": "MARSHMALLOW MINI BAG NT 50G",
       "name": "MARSHMALLOW MINI BAG NT 50G",
@@ -1266,7 +1293,8 @@
       "cost_ht_usd": 0.944444,
       "costTtcUsd": 0.944444,
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000055",
@@ -1351,7 +1379,8 @@
       "consumption_in_nouna_branch": "0",
       "stock_in_firas_branch": "0",
       "priceLbp": 400000,
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000057",
@@ -1388,10 +1417,10 @@
       "linked_profile_item_id": "7000057",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "ARRANGEMENT",
-      "stock_in_nouna_branch": "10",
+      "stock_in_nouna_branch": "6",
       "branches": {
         "Nouna": {
-          "stock": "10"
+          "stock": "6"
         },
         "Firas": {
           "stock": "0"
@@ -1403,11 +1432,13 @@
           "stock": "0"
         }
       },
-      "total_stock": "10",
-      "totalStock": "10",
+      "total_stock": "6",
+      "totalStock": "6",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "ARRANGEMENT",
+      "sub": "ARRANGEMENT"
     },
     {
       "id": "7000066",
@@ -1489,7 +1520,8 @@
       "costHtUsd": 1.416667,
       "cost_ht_usd": 1.416667,
       "costTtcUsd": 1.416667,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000067",
@@ -1566,7 +1598,9 @@
       "stock_in_firas_branch": "0",
       "consumption_in_firas_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "subcategory": "NOUNA'S FOOD"
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000068",
@@ -1621,6 +1655,9 @@
       "stock_in_firas_branch": "0",
       "consumption_in_firas_branch": "0",
       "consumption_in_nouna_branch": "0",
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD",
       "VAT": "NO"
     },
     {
@@ -1633,10 +1670,10 @@
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
       "stock_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "4",
       "consumption_in_geitawi_branch": "4",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "19",
+      "total_stock": "14",
       "total_consumption": "7",
       "vat": "no",
       "price_lbp": "225,000",
@@ -1659,11 +1696,11 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "4",
           "consumption": "3"
         },
         "Nouna": {
-          "stock": "12",
+          "stock": "6",
           "consumption": "0"
         },
         "Firas": {
@@ -1671,7 +1708,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "19",
+      "totalStock": "14",
       "barcode2": "",
       "secondBarcode": "",
       "description": "PISTACHIO SABLE 1 PC",
@@ -1682,7 +1719,7 @@
       "VAT": "NO",
       "expiry_days": "60",
       "expiryDays": 60,
-      "stock_in_nouna_branch": "12",
+      "stock_in_nouna_branch": "6",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1712,7 +1749,9 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-08-20T09:47:59.068506Z"
       },
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000076",
@@ -1723,11 +1762,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "5",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "11",
+      "total_stock": "10",
       "total_consumption": "6",
       "vat": "no",
       "price_lbp": "225,000",
@@ -1746,7 +1785,7 @@
       "linked_profile_sub_category": "NOUNA'S FOOD",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "3",
           "consumption": "5"
         },
         "Medawar": {
@@ -1754,7 +1793,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "9",
+          "stock": "7",
           "consumption": "0"
         },
         "Firas": {
@@ -1762,8 +1801,8 @@
           "consumption": "0"
         }
       },
-      "totalStock": "11",
-      "stock_in_nouna_branch": "9",
+      "totalStock": "10",
+      "stock_in_nouna_branch": "7",
       "barcode2": "",
       "secondBarcode": "",
       "description": "LOTUS SABLE 1 PC",
@@ -1791,7 +1830,9 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-08-20T09:47:38.531429Z"
       },
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000078",
@@ -1850,7 +1891,9 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "total_consumption": "3"
+      "total_consumption": "3",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000080",
@@ -1914,7 +1957,9 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "total_consumption": "3"
+      "total_consumption": "3",
+      "subCategory": "DESSERT CUPS",
+      "sub": "DESSERT CUPS"
     },
     {
       "id": "7000081",
@@ -1968,6 +2013,8 @@
       "total_stock": "0",
       "totalStock": "0",
       "stock_in_nouna_branch": "0",
+      "subCategory": "ARRANGEMENT",
+      "sub": "ARRANGEMENT",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0"
     },
@@ -2027,7 +2074,9 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "total_consumption": "1"
+      "total_consumption": "1",
+      "subCategory": "CAKES BY PIECE",
+      "sub": "CAKES BY PIECE"
     },
     {
       "id": "7000084",
@@ -2063,13 +2112,13 @@
       "linked_profile_item_id": "7000084",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHOCOLATE AND DRAGEE",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "1",
       "branches": {
         "Nouna": {
-          "stock": "2"
+          "stock": "1"
         },
         "Geitawi": {
-          "stock": "0"
+          "stock": "1"
         },
         "Medawar": {
           "stock": "0"
@@ -2077,7 +2126,9 @@
       },
       "total_stock": "2",
       "totalStock": "2",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
+      "subCategory": "CHOCOLATE AND DRAGEE",
+      "sub": "CHOCOLATE AND DRAGEE",
       "stock_in_medawar_branch": "0"
     },
     {
@@ -2137,7 +2188,9 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "total_consumption": "5"
+      "total_consumption": "5",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "7000086",
@@ -2187,10 +2240,12 @@
       },
       "total_stock": "0",
       "totalStock": "0",
+      "subCategory": "SALAD",
+      "sub": "SALAD",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-15T17:22:05.052063Z",
+  "updatedAt": "2026-09-19T10:39:08.089997Z",
   "source": "sql-relay-web"
 }
