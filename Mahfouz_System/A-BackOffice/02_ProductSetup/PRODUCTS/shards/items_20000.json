@@ -72,6 +72,7 @@
       "consumption_in_nouna_branch": "0",
       "stock_in_firas_branch": "0",
       "consumption_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD",
       "VAT": "NO"
     },
     {
@@ -83,11 +84,11 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "10",
-      "total_stock": "0",
+      "total_stock": "7",
       "total_consumption": "14",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -99,11 +100,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "7",
           "consumption": "10"
         },
         "Nouna": {
@@ -120,7 +121,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "7",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 9.250000000000001e-7,
       "cost_ht": 8.333333333333334e-7,
@@ -130,7 +131,8 @@
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 8.333333333333334e-7,
       "cost_ht_usd": 8.333333333333334e-7,
-      "costTtcUsd": 9.250000000000001e-7
+      "costTtcUsd": 9.250000000000001e-7,
+      "subCategory": "MASTER"
     },
     {
       "id": "20012",
@@ -143,9 +145,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "19",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "28",
-      "total_stock": "7",
+      "total_stock": "5",
       "total_consumption": "47",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -161,7 +163,7 @@
           "consumption": "19"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "5",
           "consumption": "28"
         }
       },
@@ -175,7 +177,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
+      "totalStock": "5",
       "cost_ttc": 1.590075,
       "cost_ht": 1.4324999999999999,
       "cost_currency": "USD",
@@ -184,7 +186,8 @@
       "latest_purchase_cost_date": "2026-06-29",
       "costHtUsd": 1.4324999999999999,
       "cost_ht_usd": 1.4324999999999999,
-      "costTtcUsd": 1.590075
+      "costTtcUsd": 1.590075,
+      "subCategory": "CLOTH CLEANING"
     },
     {
       "id": "20013",
@@ -262,7 +265,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 1.5
+      "cost_ttc_usd": 1.5,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20014",
@@ -310,7 +314,9 @@
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.0
+      "costTtcUsd": 2.0,
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20016",
@@ -355,7 +361,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20017",
@@ -409,7 +416,8 @@
       "costHtUsd": 0.75,
       "cost_ht_usd": 0.75,
       "costTtcUsd": 0.75,
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20018",
@@ -463,6 +471,7 @@
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "costTtcUsd": 1.5,
+      "subCategory": "STATIONARY",
       "totalStock": "2"
     },
     {
@@ -517,7 +526,8 @@
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.0
+      "costTtcUsd": 1.0,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20020",
@@ -528,11 +538,11 @@
       "category": "HOME USAGE",
       "sub_category": "STATIONARY",
       "offers": "0",
-      "stock_in_geitawi_branch": "10",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "17",
+      "total_stock": "16",
       "total_consumption": "6",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -544,7 +554,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "10",
+          "stock": "9",
           "consumption": "4"
         },
         "Medawar": {
@@ -562,10 +572,11 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17",
+      "totalStock": "16",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20020.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20020.jpg",
-      "image_updated_at_utc": "2026-08-26T16:49:51.485875Z"
+      "image_updated_at_utc": "2026-08-26T16:49:51.485875Z",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20021",
@@ -610,7 +621,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9"
+      "totalStock": "9",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20022",
@@ -655,7 +667,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20023",
@@ -698,6 +711,7 @@
       "name": "TAPE DISPENSER",
       "subcategory": "STATIONARY",
       "vat": "no",
+      "subCategory": "STATIONARY",
       "totalStock": "1"
     },
     {
@@ -741,6 +755,7 @@
       "name": "ANTIBACTERIAL SUPER CLAY",
       "subcategory": "STATIONARY",
       "vat": "no",
+      "subCategory": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -786,6 +801,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -831,7 +847,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20027",
@@ -876,7 +893,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20028",
@@ -921,7 +939,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4"
+      "totalStock": "4",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20029",
@@ -973,7 +992,8 @@
       "costHtUsd": 0.35,
       "cost_ht_usd": 0.35,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20030",
@@ -1018,7 +1038,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19"
+      "totalStock": "19",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20031",
@@ -1063,7 +1084,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20032",
@@ -1106,6 +1128,7 @@
       "name": "ICE CREAM ERASWE SHAPREENER SET",
       "subcategory": "STATIONARY",
       "vat": "no",
+      "subCategory": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -1151,7 +1174,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20034",
@@ -1196,7 +1220,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6"
+      "totalStock": "6",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20035",
@@ -1241,7 +1266,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6"
+      "totalStock": "6",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20036",
@@ -1286,7 +1312,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "29"
+      "totalStock": "29",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20037",
@@ -1334,7 +1361,8 @@
       "totalStock": "3",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20037.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20037.jpg",
-      "image_updated_at_utc": "2026-08-26T06:09:36.269216Z"
+      "image_updated_at_utc": "2026-08-26T06:09:36.269216Z",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20038",
@@ -1379,7 +1407,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20039",
@@ -1431,7 +1460,8 @@
       "costHtUsd": 0.35,
       "cost_ht_usd": 0.35,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20040",
@@ -1483,7 +1513,8 @@
       "costHtUsd": 0.2,
       "cost_ht_usd": 0.2,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20041",
@@ -1535,7 +1566,8 @@
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20042",
@@ -1587,7 +1619,8 @@
       "costHtUsd": 1.01,
       "cost_ht_usd": 1.01,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20043",
@@ -1598,27 +1631,27 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "56",
+      "stock_in_geitawi_branch": "37",
       "consumption_in_geitawi_branch": "69",
-      "stock_in_medawar_branch": "28",
+      "stock_in_medawar_branch": "54",
       "consumption_in_medawar_branch": "59",
-      "total_stock": "84",
+      "total_stock": "91",
       "total_consumption": "128",
       "VAT": "NO",
       "price_lbp": "90,000",
       "price_usd": "1.00",
-      "cost": "0.75",
+      "cost": "0.78",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20043.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "56",
+          "stock": "37",
           "consumption": "69"
         },
         "Medawar": {
-          "stock": "28",
+          "stock": "54",
           "consumption": "59"
         }
       },
@@ -1632,16 +1665,17 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "84",
-      "cost_ttc": 0.75,
-      "cost_ht": 0.75,
+      "totalStock": "91",
+      "cost_ttc": 0.78125,
+      "cost_ht": 0.78125,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783067029925",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.75,
-      "cost_ht_usd": 0.75,
-      "costTtcUsd": 0.75
+      "costHtUsd": 0.78125,
+      "cost_ht_usd": 0.78125,
+      "costTtcUsd": 0.78125,
+      "subCategory": "sweets"
     },
     {
       "id": "20044",
@@ -1745,8 +1779,8 @@
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "category": "CHI TAYIB",
       "sub_category": "chocolate bar",
-      "subcategory": "KLATCHI",
-      "subCategory": "KLATCHI",
+      "subcategory": "chocolate bar",
+      "subCategory": "chocolate bar",
       "unit": "EACH",
       "VAT": "NO",
       "vat": "no",
@@ -1794,7 +1828,7 @@
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "KLATCHI",
+      "sub": "chocolate bar",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -1878,7 +1912,8 @@
       "non_stockable": false,
       "nonStockable": false,
       "cost_ht": "2.59",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "TEA"
     },
     {
       "id": "20047",
@@ -1943,7 +1978,8 @@
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 0.75,
       "cost_ht_usd": 0.75,
-      "costTtcUsd": 0.8325
+      "costTtcUsd": 0.8325,
+      "subCategory": "STATIONARY"
     },
     {
       "id": "20048",
@@ -1988,6 +2024,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
+      "subCategory": "TOOTH CARE",
       "totalStock": "0"
     },
     {
@@ -2029,6 +2066,8 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -2074,7 +2113,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "hand & body wash"
     },
     {
       "id": "20053",
@@ -2119,6 +2159,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
+      "subCategory": "hand & body wash",
       "totalStock": "0"
     },
     {
@@ -2174,7 +2215,8 @@
       "costTtcUsd": 4.22333333333333,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20054.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20054.jpg",
-      "image_updated_at_utc": "2026-08-13T07:27:12.625281Z"
+      "image_updated_at_utc": "2026-08-13T07:27:12.625281Z",
+      "subCategory": "hand & body wash"
     },
     {
       "id": "20055",
@@ -2213,6 +2255,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash",
       "totalStock": "0"
     },
     {
@@ -2252,6 +2296,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash",
       "totalStock": "0"
     },
     {
@@ -2263,11 +2309,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "16",
+      "total_stock": "30",
       "total_consumption": "10",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -2279,11 +2325,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "30",
           "consumption": "3"
         }
       },
@@ -2297,7 +2343,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16",
+      "totalStock": "30",
       "cost_ttc": 1.6969125000000003,
       "cost_ht": 1.52875,
       "cost_currency": "USD",
@@ -2309,7 +2355,8 @@
       "costTtcUsd": 1.6969125000000003,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20057.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20057.jpg",
-      "image_updated_at_utc": "2026-09-04T12:02:26.836547Z"
+      "image_updated_at_utc": "2026-09-04T12:02:26.836547Z",
+      "subCategory": "DISH WASHING"
     },
     {
       "id": "20058",
@@ -2320,11 +2367,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "21",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "22",
+      "total_stock": "20",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "350,000",
@@ -2336,11 +2383,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "21",
+          "stock": "20",
           "consumption": "4"
         }
       },
@@ -2354,7 +2401,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "22",
+      "totalStock": "20",
       "cost_ttc": 3.0602700000000005,
       "cost_ht": 2.757,
       "cost_currency": "USD",
@@ -2363,7 +2410,8 @@
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 2.757,
       "cost_ht_usd": 2.757,
-      "costTtcUsd": 3.0602700000000005
+      "costTtcUsd": 3.0602700000000005,
+      "subCategory": "DISH WASHING"
     },
     {
       "id": "20059",
@@ -2374,11 +2422,11 @@
       "category": "HOME USAGE",
       "sub_category": "DISH WASHING",
       "offers": "0",
-      "stock_in_geitawi_branch": "7",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "19",
+      "total_stock": "16",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "350,000",
@@ -2390,11 +2438,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "7",
+          "stock": "5",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "0"
         }
       },
@@ -2408,7 +2456,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19",
+      "totalStock": "16",
       "cost_ttc": 3.0602700000000005,
       "cost_ht": 2.757,
       "cost_currency": "USD",
@@ -2417,7 +2465,8 @@
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 2.757,
       "cost_ht_usd": 2.757,
-      "costTtcUsd": 3.0602700000000005
+      "costTtcUsd": 3.0602700000000005,
+      "subCategory": "DISH WASHING"
     },
     {
       "id": "20061",
@@ -2458,7 +2507,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12"
+      "totalStock": "12",
+      "subCategory": "CLEANING",
+      "sub": "CLEANING"
     },
     {
       "id": "20062",
@@ -2499,7 +2550,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "5",
+      "subCategory": "CLEANING",
+      "sub": "CLEANING"
     },
     {
       "id": "20063",
@@ -2540,6 +2593,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "TISSUES & TOILET PAPER",
+      "sub": "TISSUES & TOILET PAPER",
       "totalStock": "2"
     },
     {
@@ -2581,7 +2636,9 @@
       "vat": "yes",
       "barcode2": "5281032050101",
       "barcodes": "5281032050101",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "TISSUES & TOILET PAPER",
+      "sub": "TISSUES & TOILET PAPER"
     },
     {
       "id": "20065",
@@ -2636,7 +2693,9 @@
       "consumption_in_nouna_branch": "0.0",
       "product_description": "YUMMY GUMMY NT 300GR",
       "totalStock": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "subCategory": "SWEET & CANDIES",
+      "sub": "SWEET & CANDIES"
     },
     {
       "id": "20066",
@@ -2650,8 +2709,8 @@
       "SUPPLIERS": "TRANSMED F&B SAL LBP",
       "category": "CHI TAYIB",
       "sub_category": "CHOCOLATE BAR",
-      "subcategory": "KLATCHI",
-      "subCategory": "KLATCHI",
+      "subcategory": "CHOCOLATE BAR",
+      "subCategory": "CHOCOLATE BAR",
       "unit": "EACH",
       "VAT": "NO",
       "vat": "no",
@@ -2699,7 +2758,7 @@
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "KLATCHI",
+      "sub": "CHOCOLATE BAR",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -2776,6 +2835,7 @@
       "vat": "yes",
       "barcode2": "5000159556873",
       "barcodes": "5000159556873",
+      "subCategory": "sweets",
       "totalStock": "0"
     },
     {
@@ -2826,7 +2886,9 @@
       "latest_purchase_cost_date": "2026-06-03",
       "costHtUsd": 0.7916666666666666,
       "cost_ht_usd": 0.7916666666666666,
-      "costTtcUsd": 0.7916666666666666
+      "costTtcUsd": 0.7916666666666666,
+      "subCategory": "PRINGLES",
+      "sub": "PRINGLES"
     },
     {
       "id": "20069",
@@ -2957,6 +3019,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -2970,9 +3034,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "2",
+      "total_stock": "7",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "265,000",
@@ -2992,22 +3056,35 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "6",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": 1.5,
-      "cost_ht": 1.5,
+      "cost_ttc": "1.5000",
+      "cost_ht": "1.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13862-2026-03-09",
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "costTtcUsd": 1.5,
-      "totalStock": "2"
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.5,
+      "totalStock": "7",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20072",
@@ -3048,7 +3125,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20073",
@@ -3089,6 +3168,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -3128,6 +3209,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -3268,7 +3351,9 @@
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 0.75,
       "cost_ht_usd": 0.75,
-      "costTtcUsd": 0.75
+      "costTtcUsd": 0.75,
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20077",
@@ -3318,7 +3403,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 1.25,
       "cost_ht_usd": 1.25,
-      "costTtcUsd": 1.25
+      "costTtcUsd": 1.25,
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20078",
@@ -3359,7 +3446,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "glue",
+      "sub": "glue"
     },
     {
       "id": "20079",
@@ -3400,6 +3489,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -3531,6 +3622,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -3572,6 +3665,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "3"
     },
     {
@@ -3585,9 +3680,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -3603,7 +3698,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -3613,7 +3708,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4"
+      "totalStock": "3",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20084",
@@ -3663,7 +3760,9 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-20084-1778918537158252",
       "product_setup_saved_at_utc": "2026-05-16T08:02:17.158252Z",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "CLOTH CLEANING",
+      "sub": "CLOTH CLEANING"
     },
     {
       "id": "20085",
@@ -3702,7 +3801,9 @@
           "consumption": "1"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20086",
@@ -3741,6 +3842,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "SHISHA STUFF",
+      "sub": "SHISHA STUFF",
       "totalStock": "0"
     },
     {
@@ -3780,6 +3883,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "ICEBERG",
+      "sub": "ICEBERG",
       "totalStock": "0"
     },
     {
@@ -3830,7 +3935,9 @@
       "latest_purchase_cost_date": "2026-04-28",
       "costHtUsd": 0.975,
       "cost_ht_usd": 0.975,
-      "costTtcUsd": 1.08225
+      "costTtcUsd": 1.08225,
+      "subCategory": "SPARKLING WATER",
+      "sub": "SPARKLING WATER"
     },
     {
       "id": "20089",
@@ -3976,7 +4083,9 @@
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 2.72,
       "cost_ht_usd": 2.72,
-      "costTtcUsd": 2.72
+      "costTtcUsd": 2.72,
+      "subCategory": "PROCESSED CHEESE",
+      "sub": "PROCESSED CHEESE"
     },
     {
       "id": "20092",
@@ -4015,6 +4124,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash",
       "totalStock": "0"
     },
     {
@@ -4144,6 +4255,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash",
       "totalStock": "0"
     },
     {
@@ -4157,9 +4270,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "19",
+      "total_stock": "18",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "105,000",
@@ -4175,7 +4288,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "1"
         }
       },
@@ -4185,7 +4298,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19",
+      "totalStock": "18",
       "cost_ttc": "0.9250",
       "cost_ht": "0.8333",
       "cost_currency": "USD",
@@ -4206,7 +4319,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20097",
@@ -4436,7 +4551,9 @@
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.555
+      "costTtcUsd": 0.555,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20102",
@@ -4486,7 +4603,9 @@
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.5
+      "costTtcUsd": 0.5,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20103",
@@ -4532,7 +4651,9 @@
       "costHtUsd": 0.65,
       "cost_ht_usd": 0.65,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "CLEANING",
+      "sub": "CLEANING"
     },
     {
       "id": "20104",
@@ -4545,9 +4666,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -4567,11 +4688,11 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "1"
         }
       },
-      "totalStock": "6",
+      "totalStock": "5",
       "cost_ttc": "0.5277",
       "cost_ht": "0.4754",
       "cost_currency": "USD",
@@ -4596,7 +4717,9 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 0.5276769060000001
+      "cost_ttc_usd": 0.5276769060000001,
+      "subCategory": "hair care",
+      "sub": "hair care"
     },
     {
       "id": "20105",
@@ -4636,8 +4759,8 @@
       "subcategory": "hand & body wash",
       "vat": "no",
       "totalStock": "3",
-      "cost_ttc": "1.0200",
-      "cost_ht": "1.0200",
+      "cost_ttc": 1.02,
+      "cost_ht": 1.02,
       "costTtcUsd": 1.02,
       "costHtUsd": 1.02,
       "cost_ht_usd": 1.02,
@@ -4658,7 +4781,9 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 1.02
+      "cost_ttc_usd": 1.02,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20106",
@@ -4708,7 +4833,9 @@
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 0.96,
       "cost_ht_usd": 0.96,
-      "costTtcUsd": 0.96
+      "costTtcUsd": 0.96,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20107",
@@ -4770,7 +4897,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20108",
@@ -4809,6 +4938,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -4848,6 +4979,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -4977,6 +5110,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -5039,7 +5174,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "hair care",
+      "sub": "hair care"
     },
     {
       "id": "20113",
@@ -5089,7 +5226,9 @@
       "latest_purchase_cost_date": "2026-04-09",
       "costHtUsd": 0.925,
       "cost_ht_usd": 0.925,
-      "costTtcUsd": 0.925
+      "costTtcUsd": 0.925,
+      "subCategory": "hair care",
+      "sub": "hair care"
     },
     {
       "id": "20114",
@@ -5218,6 +5357,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -5257,6 +5398,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -5296,6 +5439,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -5427,7 +5572,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20120",
@@ -5477,7 +5624,9 @@
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
       "costTtcUsd": 3.0525,
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20121",
@@ -5527,7 +5676,9 @@
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
       "costTtcUsd": 3.0525,
-      "totalStock": "6"
+      "totalStock": "6",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20122",
@@ -5568,7 +5719,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20123",
@@ -5607,6 +5760,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "1"
     },
     {
@@ -5648,7 +5803,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4"
+      "totalStock": "4",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20127",
@@ -5689,7 +5846,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "10"
+      "totalStock": "10",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20128",
@@ -5730,6 +5889,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -5784,7 +5945,9 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "1.97"
+      "cost_ht": "1.97",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20133",
@@ -5823,7 +5986,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20134",
@@ -5864,7 +6029,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20135",
@@ -5912,7 +6079,9 @@
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20136",
@@ -5960,7 +6129,9 @@
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.5
+      "costTtcUsd": 2.5,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20137",
@@ -5981,10 +6152,10 @@
       "vat": "no",
       "price_lbp": "50,000",
       "cost": "0.37",
-      "total_stock": "16",
+      "total_stock": "12",
       "total_consumption": "18",
-      "stock_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "11",
+      "stock_in_geitawi_branch": "2",
+      "stock_in_medawar_branch": "10",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -5999,12 +6170,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "10",
           "consumption": "7"
         },
         "Geitawi": {
           "consumption": "11",
-          "stock": "5"
+          "stock": "2"
         }
       },
       "created_by_user_code": "1",
@@ -6051,7 +6222,7 @@
       "scalePlu": 0,
       "price_usd": "0.56",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20137.jpg",
-      "totalStock": "16",
+      "totalStock": "12",
       "cost_ttc": 0.41440000000000005,
       "costTtcUsd": 0.41440000000000005,
       "costHtUsd": 0.37333333333333335,
@@ -6100,6 +6271,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "CANDLES",
+      "sub": "CANDLES",
       "totalStock": "0"
     },
     {
@@ -6111,11 +6284,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "5",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "10",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -6127,7 +6300,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "5"
         },
         "Medawar": {
@@ -6145,7 +6318,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc": 1.858325,
       "cost_ht": 1.6741666666666666,
       "cost_currency": "USD",
@@ -6154,7 +6327,8 @@
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 1.6741666666666666,
       "cost_ht_usd": 1.6741666666666666,
-      "costTtcUsd": 1.858325
+      "costTtcUsd": 1.858325,
+      "subCategory": "sweets"
     },
     {
       "id": "20141",
@@ -6167,9 +6341,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -6185,7 +6359,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "4"
         }
       },
@@ -6199,7 +6373,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc": 1.858325,
       "cost_ht": 1.6741666666666666,
       "cost_currency": "USD",
@@ -6208,7 +6382,8 @@
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 1.6741666666666666,
       "cost_ht_usd": 1.6741666666666666,
-      "costTtcUsd": 1.858325
+      "costTtcUsd": 1.858325,
+      "subCategory": "sweets"
     },
     {
       "id": "20142",
@@ -6262,7 +6437,8 @@
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 1.27583333333333,
       "cost_ht_usd": 1.27583333333333,
-      "costTtcUsd": 1.416175
+      "costTtcUsd": 1.416175,
+      "subCategory": "sweets"
     },
     {
       "id": "20143",
@@ -6273,11 +6449,11 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "12",
+      "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "21",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "33",
+      "total_stock": "30",
       "total_consumption": "15",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -6289,11 +6465,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "21",
+          "stock": "19",
           "consumption": "3"
         }
       },
@@ -6303,7 +6479,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "33",
+      "totalStock": "30",
       "cost_ttc": 0.6835416666666667,
       "cost_ht": 0.6835416666666667,
       "cost_currency": "USD",
@@ -6324,7 +6500,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20144",
@@ -6369,7 +6547,8 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "gifts"
     },
     {
       "id": "20145",
@@ -6408,6 +6587,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "gifts",
+      "sub": "gifts",
       "totalStock": "0"
     },
     {
@@ -6447,6 +6628,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "gifts",
+      "sub": "gifts",
       "totalStock": "0"
     },
     {
@@ -6468,9 +6651,9 @@
       "vat": "no",
       "price_lbp": "180,000",
       "cost": "1.89",
-      "total_stock": "14",
+      "total_stock": "10",
       "total_consumption": "3",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "10",
       "branches": {
         "geitawi": {
@@ -6491,7 +6674,7 @@
         },
         "Geitawi": {
           "consumption": "3",
-          "stock": "4"
+          "stock": "0"
         }
       },
       "created_by_user_code": "1",
@@ -6539,7 +6722,7 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "2.00",
-      "totalStock": "14",
+      "totalStock": "10",
       "cost_ttc": 2.1016000000000004,
       "costTtcUsd": 2.1016000000000004,
       "costHtUsd": 1.8933333333333333,
@@ -6555,11 +6738,11 @@
       "category": "CHIPS",
       "sub_category": "Maretti",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "9",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "15",
+      "total_stock": "12",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "125,000",
@@ -6571,11 +6754,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "5",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "9",
+          "stock": "7",
           "consumption": "0"
         }
       },
@@ -6598,7 +6781,8 @@
       "costHtUsd": 0.9006666666666666,
       "cost_ht_usd": 0.9006666666666666,
       "costTtcUsd": 0.9997400000000001,
-      "totalStock": "15"
+      "totalStock": "12",
+      "subCategory": "Maretti"
     },
     {
       "id": "20149",
@@ -6609,11 +6793,11 @@
       "category": "CHIPS",
       "sub_category": "Maretti",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "125,000",
@@ -6625,7 +6809,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "2"
         },
         "Medawar": {
@@ -6643,7 +6827,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
+      "totalStock": "3",
       "cost_ttc": 0.9782800000000001,
       "cost_ht": 0.8813333333333334,
       "cost_currency": "USD",
@@ -6652,7 +6836,8 @@
       "latest_purchase_cost_date": "2026-03-25",
       "costHtUsd": 0.8813333333333334,
       "cost_ht_usd": 0.8813333333333334,
-      "costTtcUsd": 0.9782800000000001
+      "costTtcUsd": 0.9782800000000001,
+      "subCategory": "Maretti"
     },
     {
       "id": "20150",
@@ -6704,7 +6889,8 @@
       "costHtUsd": 0.882,
       "cost_ht_usd": 0.882,
       "costTtcUsd": 0.9790200000000001,
-      "totalStock": "14"
+      "totalStock": "14",
+      "subCategory": "Maretti"
     },
     {
       "id": "20151",
@@ -6756,7 +6942,8 @@
       "costHtUsd": 0.882,
       "cost_ht_usd": 0.882,
       "costTtcUsd": 0.9790200000000001,
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "Maretti"
     },
     {
       "id": "20152",
@@ -6799,6 +6986,7 @@
       "name": "MENTOS AIR ACTION",
       "subcategory": "Chewing gum",
       "vat": "yes",
+      "subCategory": "Chewing gum",
       "totalStock": "0"
     },
     {
@@ -6940,6 +7128,8 @@
       "costHtUsd": 1.667,
       "cost_ht_usd": 1.667,
       "costTtcUsd": 1.667,
+      "subCategory": "FROZEN FOOD",
+      "sub": "FROZEN FOOD",
       "totalStock": "0"
     },
     {
@@ -6990,7 +7180,9 @@
       "latest_purchase_cost_date": "2026-02-12",
       "costHtUsd": 1.0999999999999999,
       "cost_ht_usd": 1.0999999999999999,
-      "costTtcUsd": 1.0999999999999999
+      "costTtcUsd": 1.0999999999999999,
+      "subCategory": "shaving",
+      "sub": "shaving"
     },
     {
       "id": "20157",
@@ -7001,11 +7193,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "11",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "24",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "83",
-      "total_stock": "27",
+      "total_stock": "17",
       "total_consumption": "107",
       "VAT": "NO",
       "price_lbp": "25,000",
@@ -7017,11 +7209,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11",
+          "stock": "8",
           "consumption": "24"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "9",
           "consumption": "83"
         },
         "The Daily Market": {
@@ -7039,7 +7231,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "27",
+      "totalStock": "17",
       "stock": "0",
       "branch_stock": {
         "Geitawi": {
@@ -7066,7 +7258,8 @@
       "latest_purchase_cost_date": "2026-05-05",
       "costHtUsd": 0.15083333333333332,
       "cost_ht_usd": 0.15083333333333332,
-      "costTtcUsd": 0.167425
+      "costTtcUsd": 0.167425,
+      "subCategory": "sweets"
     },
     {
       "id": "20158",
@@ -7105,6 +7298,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "CLEANING",
+      "sub": "CLEANING",
       "totalStock": "0"
     },
     {
@@ -7144,6 +7339,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "CLEANING",
+      "sub": "CLEANING",
       "totalStock": "0"
     },
     {
@@ -7364,6 +7561,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "CLEANING",
+      "sub": "CLEANING",
       "totalStock": "0"
     },
     {
@@ -7408,7 +7607,9 @@
       "totalStock": "2",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20163.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20163.jpg",
-      "image_updated_at_utc": "2026-08-23T01:36:15.920342Z"
+      "image_updated_at_utc": "2026-08-23T01:36:15.920342Z",
+      "subCategory": "DISH WASHING",
+      "sub": "DISH WASHING"
     },
     {
       "id": "20164",
@@ -7449,6 +7650,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "DISH WASHING",
+      "sub": "DISH WASHING",
       "totalStock": "0"
     },
     {
@@ -7488,6 +7691,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "SHISHA STUFF",
+      "sub": "SHISHA STUFF",
       "totalStock": "0"
     },
     {
@@ -7529,7 +7734,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "CLING FILM",
+      "sub": "CLING FILM"
     },
     {
       "id": "20167",
@@ -7570,6 +7777,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "CLING FILM",
+      "sub": "CLING FILM",
       "totalStock": "0"
     },
     {
@@ -7611,6 +7820,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "WIPES",
+      "sub": "WIPES",
       "totalStock": "0"
     },
     {
@@ -7652,7 +7863,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "TISSUES & TOILET PAPER",
+      "sub": "TISSUES & TOILET PAPER"
     },
     {
       "id": "20170",
@@ -7691,7 +7904,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "BAKING PAPER",
+      "sub": "BAKING PAPER"
     },
     {
       "id": "20171",
@@ -7741,6 +7956,8 @@
       "supplier": "MANY FOOD SARL",
       "subcategory": "Biscuits",
       "vat": "yes",
+      "subCategory": "Biscuits",
+      "sub": "Biscuits",
       "totalStock": "0"
     },
     {
@@ -7784,6 +8001,7 @@
       "name": "AILA MILK CHOCOLATE LE PETIT ECOLIER 12 PCS",
       "subcategory": "Biscuits",
       "vat": "yes",
+      "subCategory": "Biscuits",
       "totalStock": "0"
     },
     {
@@ -7838,7 +8056,9 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "3.21"
+      "cost_ht": "3.21",
+      "subCategory": "shaving",
+      "sub": "shaving"
     },
     {
       "id": "20174",
@@ -7849,16 +8069,16 @@
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "320,000",
       "price_usd": "3.58",
-      "cost": "2.69",
+      "cost": "2.25",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20174.jpg",
       "new_items": "",
       "manual": "",
@@ -7869,15 +8089,27 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "0.0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "6",
+      "cost_ttc": 2.4975,
+      "cost_ht": 2.25,
+      "costTtcUsd": 2.4975,
+      "costHtUsd": 2.25,
+      "cost_ht_usd": 2.25,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20174.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20174.jpg",
+      "image_updated_at_utc": "2026-09-17T15:25:42.822850Z",
+      "subCategory": "shaving",
+      "sub": "shaving"
     },
     {
       "id": "20175",
@@ -7916,7 +8148,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "shaving",
+      "sub": "shaving"
     },
     {
       "id": "20176",
@@ -7955,6 +8189,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -8005,7 +8241,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
-      "costTtcUsd": 2.75
+      "costTtcUsd": 2.75,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20178",
@@ -8071,7 +8309,8 @@
       "latest_purchase_cost_date": "2026-04-09",
       "costHtUsd": 1.358,
       "cost_ht_usd": 1.358,
-      "costTtcUsd": 1.50738
+      "costTtcUsd": 1.50738,
+      "subCategory": "deodorant & roll on"
     },
     {
       "id": "20179",
@@ -8112,7 +8351,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20180",
@@ -8151,6 +8392,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -8199,7 +8442,9 @@
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.22
+      "costTtcUsd": 2.22,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20182",
@@ -8210,11 +8455,11 @@
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "9",
+      "total_stock": "15",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "265,000",
@@ -8226,11 +8471,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "7",
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "8",
           "consumption": "4"
         }
       },
@@ -8238,7 +8483,7 @@
       "supplier": "JACK DIB",
       "subcategory": "deodorant & roll on",
       "vat": "yes",
-      "totalStock": "9",
+      "totalStock": "15",
       "cost_ttc": 2.22,
       "cost_ht": 2.0,
       "cost_currency": "USD",
@@ -8247,7 +8492,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.22
+      "costTtcUsd": 2.22,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20183",
@@ -8260,9 +8507,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "2",
+      "total_stock": "0",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "265,000",
@@ -8278,7 +8525,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "3"
         }
       },
@@ -8286,7 +8533,7 @@
       "supplier": "JACK DIB",
       "subcategory": "deodorant & roll on",
       "vat": "yes",
-      "totalStock": "2",
+      "totalStock": "0",
       "barcode2": "",
       "barcodes": "",
       "cost_ttc": 2.22,
@@ -8297,7 +8544,9 @@
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.22
+      "costTtcUsd": 2.22,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20184",
@@ -8359,7 +8608,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "CLOTH CLEANING",
+      "sub": "CLOTH CLEANING"
     },
     {
       "id": "20185",
@@ -8398,6 +8649,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "1"
     },
     {
@@ -8437,7 +8690,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20187",
@@ -8478,7 +8733,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20188",
@@ -8517,6 +8774,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -8565,7 +8824,9 @@
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.22
+      "costTtcUsd": 2.22,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20190",
@@ -8606,6 +8867,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -8656,7 +8919,9 @@
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.22
+      "costTtcUsd": 2.22,
+      "subCategory": "hair care",
+      "sub": "hair care"
     },
     {
       "id": "20193",
@@ -8695,7 +8960,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20194",
@@ -8745,7 +9012,9 @@
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.5
+      "costTtcUsd": 2.5,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20195",
@@ -8784,6 +9053,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -8823,6 +9094,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -8871,7 +9144,9 @@
       "latest_purchase_cost_date": "2026-02-17",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.5
+      "costTtcUsd": 2.5,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20199",
@@ -8921,7 +9196,9 @@
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 2.85,
       "cost_ht_usd": 2.85,
-      "costTtcUsd": 3.1635000000000004
+      "costTtcUsd": 3.1635000000000004,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20200",
@@ -8932,15 +9209,15 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "6",
       "total_consumption": "3",
       "VAT": "NO",
-      "price_lbp": "265,000",
-      "price_usd": "2.94",
+      "price_lbp": "250,000",
+      "price_usd": "2.78",
       "cost": "1.50",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20200.jpg",
       "new_items": "",
@@ -8948,11 +9225,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "0"
         }
       },
@@ -8966,7 +9243,7 @@
       "subcategory": "shampoo & cond",
       "vat": "no",
       "barcode2": "",
-      "totalStock": "2",
+      "totalStock": "6",
       "cost_ttc": 1.5,
       "cost_ht": 1.5,
       "cost_currency": "USD",
@@ -8975,7 +9252,8 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.5
+      "costTtcUsd": 1.5,
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "20201",
@@ -9025,7 +9303,9 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.5
+      "costTtcUsd": 1.5,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20202",
@@ -9075,7 +9355,9 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.5
+      "costTtcUsd": 1.5,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20203",
@@ -9088,9 +9370,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "11",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -9114,22 +9396,23 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "11",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 2.10456,
-      "cost_ht": 1.896,
+      "totalStock": "11",
+      "cost_ttc": 2.104375,
+      "cost_ht": 1.8958333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13851-2026-03-09",
       "latest_purchase_cost_date": "2026-03-09",
-      "costHtUsd": 1.896,
-      "cost_ht_usd": 1.896,
-      "costTtcUsd": 2.10456
+      "costHtUsd": 1.8958333333333333,
+      "cost_ht_usd": 1.8958333333333333,
+      "costTtcUsd": 2.104375,
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "20204",
@@ -9179,7 +9462,9 @@
       "latest_purchase_cost_date": "2026-03-26",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.22
+      "costTtcUsd": 2.22,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20206",
@@ -9220,7 +9505,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20207",
@@ -9261,7 +9548,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "5",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20208",
@@ -9302,6 +9591,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "1"
     },
     {
@@ -9361,7 +9652,9 @@
       "cost_ht_usd": 3.39,
       "cost_ttc_usd": 3.39,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20210",
@@ -9400,7 +9693,9 @@
       "supplier": "JACK DIB",
       "subcategory": "deodorant & roll on",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20211",
@@ -9450,7 +9745,9 @@
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.5
+      "costTtcUsd": 2.5,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20212",
@@ -9500,7 +9797,9 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.5
+      "costTtcUsd": 2.5,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20213",
@@ -9541,7 +9840,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20214",
@@ -9552,16 +9853,16 @@
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "4",
       "total_consumption": "1",
       "VAT": "NO",
-      "price_lbp": "400,000",
-      "price_usd": "4.44",
-      "cost": "3.75",
+      "price_lbp": "430,000",
+      "price_usd": "4.78",
+      "cost": "3.50",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20214.jpg",
       "new_items": "",
       "manual": "",
@@ -9572,26 +9873,28 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "3",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": 3.75,
-      "cost_ht": 3.75,
+      "totalStock": "4",
+      "cost_ttc": 3.5,
+      "cost_ht": 3.5,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781599434829",
       "latest_purchase_cost_date": "2026-06-16",
-      "costHtUsd": 3.75,
-      "cost_ht_usd": 3.75,
-      "costTtcUsd": 3.75
+      "costHtUsd": 3.5,
+      "cost_ht_usd": 3.5,
+      "costTtcUsd": 3.5,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20215",
@@ -9630,7 +9933,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20217",
@@ -9671,6 +9976,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "4"
     },
     {
@@ -9721,7 +10028,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 1.75,
       "cost_ht_usd": 1.75,
-      "costTtcUsd": 1.9425000000000001
+      "costTtcUsd": 1.9425000000000001,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20219",
@@ -9732,11 +10041,11 @@
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
-      "stock_in_geitawi_branch": "7",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "9",
+      "total_stock": "15",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -9752,17 +10061,17 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "7",
+          "stock": "9",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "6",
           "consumption": "2"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9",
+      "totalStock": "15",
       "cost_ttc": 1.9425000000000001,
       "cost_ht": 1.75,
       "cost_currency": "USD",
@@ -9771,7 +10080,9 @@
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 1.75,
       "cost_ht_usd": 1.75,
-      "costTtcUsd": 1.9425000000000001
+      "costTtcUsd": 1.9425000000000001,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20220",
@@ -9782,16 +10093,16 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "3",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "480,000",
       "price_usd": "5.36",
-      "cost": "4.50",
+      "cost": "4.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20220.jpg",
       "new_items": "",
       "manual": "",
@@ -9802,24 +10113,26 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "2"
         }
       },
-      "totalStock": "0",
-      "cost_ttc": 4.5,
-      "cost_ht": 4.5,
+      "totalStock": "3",
+      "cost_ttc": 4.0,
+      "cost_ht": 4.0,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781597420688",
       "latest_purchase_cost_date": "2026-06-16",
-      "costHtUsd": 4.5,
-      "cost_ht_usd": 4.5,
-      "costTtcUsd": 4.5
+      "costHtUsd": 4.0,
+      "cost_ht_usd": 4.0,
+      "costTtcUsd": 4.0,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20221",
@@ -9961,6 +10274,7 @@
       "costHtUsd": 1.23,
       "cost_ht_usd": 1.23,
       "costTtcUsd": 1.3653,
+      "subCategory": "Cookies",
       "totalStock": "0"
     },
     {
@@ -10015,7 +10329,8 @@
       "latest_purchase_cost_date": "2026-04-08",
       "costHtUsd": 1.23,
       "cost_ht_usd": 1.23,
-      "costTtcUsd": 1.3653
+      "costTtcUsd": 1.3653,
+      "subCategory": "Cookies"
     },
     {
       "id": "20224",
@@ -10238,6 +10553,7 @@
       "name": "CHIPS MORE HAZELNUT 135 G",
       "subcategory": "Cookies",
       "vat": "yes",
+      "subCategory": "Cookies",
       "totalStock": "0"
     },
     {
@@ -10368,6 +10684,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "sweets",
+      "sub": "sweets",
       "totalStock": "0"
     },
     {
@@ -10409,6 +10727,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "Wafers",
+      "sub": "Wafers",
       "totalStock": "0"
     },
     {
@@ -10452,6 +10772,7 @@
       "name": "MILKA BUBBLY ALPIN MILK",
       "subcategory": "chocolate bar",
       "vat": "yes",
+      "subCategory": "chocolate bar",
       "totalStock": "0"
     },
     {
@@ -10497,6 +10818,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "chocolate bar",
       "totalStock": "0"
     },
     {
@@ -10549,6 +10871,7 @@
       "costHtUsd": 1.13,
       "cost_ht_usd": 1.13,
       "costTtcUsd": 1.2543,
+      "subCategory": "chocolate bar",
       "totalStock": "0"
     },
     {
@@ -10770,6 +11093,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "chocolate bar",
+      "sub": "chocolate bar",
       "totalStock": "0"
     },
     {
@@ -11079,6 +11404,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER",
       "totalStock": "0"
     },
     {
@@ -11118,6 +11445,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER",
       "totalStock": "0"
     },
     {
@@ -11157,7 +11486,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER"
     },
     {
       "id": "20242",
@@ -11196,6 +11527,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER",
       "totalStock": "0"
     },
     {
@@ -11334,6 +11667,8 @@
       "costHtUsd": 0.8959,
       "cost_ht_usd": 0.8959,
       "costTtcUsd": 0.8959,
+      "subCategory": "SEEDS",
+      "sub": "SEEDS",
       "totalStock": "0"
     },
     {
@@ -11385,6 +11720,7 @@
       "cost_vat_included": 1,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13689-2026-02-24",
       "latest_purchase_cost_date": "2026-02-24",
+      "subCategory": "SPARKLING WATER",
       "totalStock": "0"
     },
     {
@@ -11433,6 +11769,8 @@
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "costTtcUsd": 1.5,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -11474,6 +11812,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "1"
     },
     {
@@ -11515,6 +11855,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "1"
     },
     {
@@ -11554,6 +11896,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -11595,7 +11939,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20251",
@@ -11726,7 +12072,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "CLEANING",
+      "sub": "CLEANING"
     },
     {
       "id": "20253",
@@ -11767,7 +12115,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "SANITIZER",
+      "sub": "SANITIZER"
     },
     {
       "id": "20254",
@@ -12010,7 +12360,8 @@
       "cost_currency": "LBP",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781513518744",
-      "latest_purchase_cost_date": "2026-06-15"
+      "latest_purchase_cost_date": "2026-06-15",
+      "subCategory": "Croissant"
     },
     {
       "id": "20257",
@@ -12049,6 +12400,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "POPCORN",
+      "sub": "POPCORN",
       "totalStock": "0"
     },
     {
@@ -12088,6 +12441,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "POPCORN",
+      "sub": "POPCORN",
       "totalStock": "0"
     },
     {
@@ -12099,11 +12454,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "13",
+      "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "28",
       "consumption_in_medawar_branch": "8",
-      "total_stock": "41",
+      "total_stock": "39",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -12115,7 +12470,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "13",
+          "stock": "11",
           "consumption": "1"
         },
         "Medawar": {
@@ -12133,7 +12488,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "41",
+      "totalStock": "39",
       "cost_ttc": 0.7862500000000001,
       "cost_ht": 0.7083333333333334,
       "cost_currency": "USD",
@@ -12142,7 +12497,8 @@
       "latest_purchase_cost_date": "2026-06-09",
       "costHtUsd": 0.7083333333333334,
       "cost_ht_usd": 0.7083333333333334,
-      "costTtcUsd": 0.7862500000000001
+      "costTtcUsd": 0.7862500000000001,
+      "subCategory": "Beer"
     },
     {
       "id": "20260",
@@ -12153,11 +12509,11 @@
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Beer",
       "offers": "0",
-      "stock_in_geitawi_branch": "12",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "25",
+      "total_stock": "22",
       "total_consumption": "19",
       "VAT": "YES",
       "price_lbp": "120,000",
@@ -12169,7 +12525,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "12",
+          "stock": "9",
           "consumption": "6"
         },
         "Medawar": {
@@ -12187,7 +12543,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "25",
+      "totalStock": "22",
       "cost_ttc": 0.9250000000000002,
       "cost_ht": 0.8333333333333334,
       "cost_currency": "USD",
@@ -12207,7 +12563,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 0.87875
+      "cost_ttc_usd": 0.87875,
+      "subCategory": "Beer"
     },
     {
       "id": "20261",
@@ -12339,6 +12696,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "juice",
+      "sub": "juice",
       "totalStock": "0"
     },
     {
@@ -12385,7 +12744,9 @@
       "costHtUsd": 0.8958333333333334,
       "cost_ht_usd": 0.8958333333333334,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "subCategory": "juice",
+      "sub": "juice"
     },
     {
       "id": "20264",
@@ -12424,6 +12785,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "juice",
+      "sub": "juice",
       "totalStock": "0"
     },
     {
@@ -12470,7 +12833,9 @@
       "costHtUsd": 0.8958333333333334,
       "cost_ht_usd": 0.8958333333333334,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "subCategory": "juice",
+      "sub": "juice"
     },
     {
       "id": "20266",
@@ -12515,6 +12880,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "Beer",
       "totalStock": "0"
     },
     {
@@ -12760,7 +13126,8 @@
       "cost_ht_usd": 3.02,
       "cost_ttc_usd": 3.3522000000000003,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "subCategory": "Vodka"
     },
     {
       "id": "20270",
@@ -12803,7 +13170,8 @@
       "name": "SIR MIKE BLENDED SCOTCH WHISKY 1 L",
       "subcategory": "WHISKEY",
       "vat": "yes",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "WHISKEY"
     },
     {
       "id": "20271",
@@ -12846,6 +13214,7 @@
       "name": "YBY PREMIUM SPARKLING CRYSTAL DRY 750 ML",
       "subcategory": "champagne",
       "vat": "yes",
+      "subCategory": "champagne",
       "totalStock": "0"
     },
     {
@@ -12891,6 +13260,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "champagne",
       "totalStock": "0"
     },
     {
@@ -13026,6 +13396,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "MASTER",
       "totalStock": "0"
     },
     {
@@ -13071,6 +13442,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "arak",
       "totalStock": "2"
     },
     {
@@ -13114,6 +13486,7 @@
       "name": "LOUTFY ARAK 500 ML",
       "subcategory": "arak",
       "vat": "yes",
+      "subCategory": "arak",
       "totalStock": "1"
     },
     {
@@ -13153,6 +13526,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "WHISKEY",
+      "sub": "WHISKEY",
       "totalStock": "0"
     },
     {
@@ -13196,7 +13571,8 @@
       "name": "LOUTFY BRANDY LIBANIS 500 ML",
       "subcategory": "WHISKEY",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "WHISKEY"
     },
     {
       "id": "20279",
@@ -13332,6 +13708,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "arak",
       "totalStock": "1"
     },
     {
@@ -13377,7 +13754,8 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "arak"
     },
     {
       "id": "20282",
@@ -13604,6 +13982,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "Digestive Biscuits",
       "totalStock": "0"
     },
     {
@@ -13647,6 +14026,8 @@
       "barcodes": "",
       "product_description": "HALLOWEEN CANDIES",
       "description": "HALLOWEEN CANDIES",
+      "subCategory": "SWEET & CANDIES",
+      "sub": "SWEET & CANDIES",
       "totalStock": "0"
     },
     {
@@ -13690,6 +14071,8 @@
       "barcodes": "",
       "product_description": "HALLOWEEN BOX",
       "description": "HALLOWEEN BOX",
+      "subCategory": "SWEET & CANDIES",
+      "sub": "SWEET & CANDIES",
       "totalStock": "0"
     },
     {
@@ -13703,9 +14086,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "13",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "22",
       "consumption_in_medawar_branch": "14",
-      "total_stock": "39",
+      "total_stock": "37",
       "total_consumption": "27",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -13721,7 +14104,7 @@
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "22",
           "consumption": "14"
         }
       },
@@ -13731,7 +14114,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "39",
+      "totalStock": "37",
       "cost_ttc": 0.7,
       "cost_ht": 0.7,
       "cost_currency": "USD",
@@ -13743,7 +14126,9 @@
       "costTtcUsd": 0.7,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20287.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20287.jpg",
-      "image_updated_at_utc": "2026-08-16T01:10:01.169556Z"
+      "image_updated_at_utc": "2026-08-16T01:10:01.169556Z",
+      "subCategory": "cans & jams",
+      "sub": "cans & jams"
     },
     {
       "id": "20288",
@@ -13807,7 +14192,9 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 0.8163
+      "cost_ttc_usd": 0.8163,
+      "subCategory": "cans & jams",
+      "sub": "cans & jams"
     },
     {
       "id": "20289",
@@ -13848,6 +14235,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "SEEDS",
+      "sub": "SEEDS",
       "totalStock": "0"
     },
     {
@@ -13889,7 +14278,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "cans & jams",
+      "sub": "cans & jams"
     },
     {
       "id": "20291",
@@ -13962,7 +14353,8 @@
       "cost_ht_usd": 4.27,
       "costTtcUsd": 4.27,
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "sub": "READY TO EAT"
     },
     {
       "id": "20292",
@@ -14016,7 +14408,8 @@
       "latest_purchase_cost_date": "2026-06-12",
       "costHtUsd": 4.03166666666667,
       "cost_ht_usd": 4.03166666666667,
-      "costTtcUsd": 4.03166666666667
+      "costTtcUsd": 4.03166666666667,
+      "subCategory": "shaving"
     },
     {
       "id": "20293",
@@ -14059,6 +14452,8 @@
       "barcodes": "",
       "product_description": "TIRAMISU JAR",
       "description": "TIRAMISU JAR",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD",
       "totalStock": "0"
     },
     {
@@ -14102,6 +14497,7 @@
       "name": "AL ANDALEEB RAOINA",
       "subcategory": "sweets",
       "vat": "yes",
+      "subCategory": "sweets",
       "totalStock": "0"
     },
     {
@@ -14141,6 +14537,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "DISH WASHING",
+      "sub": "DISH WASHING",
       "totalStock": "0"
     },
     {
@@ -14272,6 +14670,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "instant coffee",
+      "sub": "instant coffee",
       "totalStock": "0"
     },
     {
@@ -14326,7 +14726,8 @@
       "latest_purchase_cost_date": "2026-06-03",
       "costHtUsd": 0.251666666666667,
       "cost_ht_usd": 0.251666666666667,
-      "costTtcUsd": 0.27935
+      "costTtcUsd": 0.27935,
+      "subCategory": "Chewing gum"
     },
     {
       "id": "20301",
@@ -14367,6 +14768,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "toumour",
+      "sub": "toumour",
       "totalStock": "0"
     },
     {
@@ -14410,7 +14813,8 @@
       "name": "FREEZE DRIED COOKIES CAKE 30 G",
       "subcategory": "dried food",
       "vat": "yes",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "dried food"
     },
     {
       "id": "20303",
@@ -14449,6 +14853,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "dried food",
+      "sub": "dried food",
       "totalStock": "0"
     },
     {
@@ -14488,6 +14894,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "dried food",
+      "sub": "dried food",
       "totalStock": "0"
     },
     {
@@ -14533,6 +14941,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "dried food",
       "totalStock": "0"
     },
     {
@@ -14572,6 +14981,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "dried food",
+      "sub": "dried food",
       "totalStock": "0"
     },
     {
@@ -14623,7 +15034,8 @@
       "cost_currency": "LBP",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783302120687",
-      "latest_purchase_cost_date": "2026-07-06"
+      "latest_purchase_cost_date": "2026-07-06",
+      "subCategory": "Croissant"
     },
     {
       "id": "20308",
@@ -14636,13 +15048,13 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "127",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "97",
-      "total_stock": "7",
+      "total_stock": "9",
       "total_consumption": "224",
       "VAT": "NO",
-      "price_lbp": "70,000",
-      "price_usd": "0.78",
+      "price_lbp": "75,000",
+      "price_usd": "0.83",
       "cost": "0.67",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20308.jpg",
       "new_items": "",
@@ -14654,7 +15066,7 @@
           "consumption": "127"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "8",
           "consumption": "97"
         }
       },
@@ -14664,13 +15076,15 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
+      "totalStock": "9",
       "cost_ttc": 0.6666666666666666,
       "cost_ht": 0.6666666666666666,
       "cost_currency": "LBP",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783399306055",
-      "latest_purchase_cost_date": "2026-07-07"
+      "latest_purchase_cost_date": "2026-07-07",
+      "subCategory": "BAKERY",
+      "sub": "BAKERY"
     },
     {
       "id": "20309",
@@ -14683,9 +15097,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "13",
       "consumption_in_geitawi_branch": "100",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "97",
-      "total_stock": "31",
+      "total_stock": "32",
       "total_consumption": "197",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -14701,7 +15115,7 @@
           "consumption": "100"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "19",
           "consumption": "97"
         }
       },
@@ -14711,13 +15125,15 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "31",
+      "totalStock": "32",
       "cost_ttc": 0.6666666666666666,
       "cost_ht": 0.6666666666666666,
       "cost_currency": "LBP",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783399306055",
-      "latest_purchase_cost_date": "2026-07-07"
+      "latest_purchase_cost_date": "2026-07-07",
+      "subCategory": "BAKERY",
+      "sub": "BAKERY"
     },
     {
       "id": "20310",
@@ -14789,7 +15205,8 @@
       "costHtUsd": 4.25,
       "cost_ht_usd": 4.25,
       "costTtcUsd": 4.25,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "20311",
@@ -14800,11 +15217,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "12",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "21",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "26",
+      "total_stock": "22",
       "total_consumption": "26",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -14820,17 +15237,17 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "12",
+          "stock": "9",
           "consumption": "21"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "13",
           "consumption": "5"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "26",
+      "totalStock": "22",
       "cost_ttc": 0.8017900000000001,
       "cost_ht": 0.7223333333333334,
       "cost_currency": "USD",
@@ -14839,7 +15256,9 @@
       "latest_purchase_cost_date": "2026-07-01",
       "costHtUsd": 0.7223333333333334,
       "cost_ht_usd": 0.7223333333333334,
-      "costTtcUsd": 0.8017900000000001
+      "costTtcUsd": 0.8017900000000001,
+      "subCategory": "SPARKLING WATER",
+      "sub": "SPARKLING WATER"
     },
     {
       "id": "20312",
@@ -14850,11 +15269,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "17",
+      "total_stock": "15",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -14866,7 +15285,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "4",
           "consumption": "1"
         },
         "Medawar": {
@@ -14884,7 +15303,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17",
+      "totalStock": "15",
       "cost_ttc": 0.5415875,
       "cost_ht": 0.487916666666667,
       "cost_currency": "USD",
@@ -14893,7 +15312,8 @@
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 0.487916666666667,
       "cost_ht_usd": 0.487916666666667,
-      "costTtcUsd": 0.5415875
+      "costTtcUsd": 0.5415875,
+      "subCategory": "sweets"
     },
     {
       "id": "20313",
@@ -14936,6 +15356,7 @@
       "name": "GULLON SUGAR FREE VANILLA WAFER 60 G",
       "subcategory": "Digestive Biscuits",
       "vat": "yes",
+      "subCategory": "Digestive Biscuits",
       "totalStock": "0"
     },
     {
@@ -14949,9 +15370,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "10",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "16",
+      "total_stock": "14",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "230,000",
@@ -14967,7 +15388,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "10",
+          "stock": "8",
           "consumption": "0"
         }
       },
@@ -14979,14 +15400,15 @@
       "name": "GULLON DIGESTIVE DIET 400 G",
       "subcategory": "Digestive Biscuits",
       "vat": "yes",
-      "totalStock": "16",
+      "totalStock": "14",
       "cost_ttc": 2.7503333333333337,
       "cost_ht": 2.477777777777778,
       "costTtcUsd": 2.7503333333333337,
       "costHtUsd": 2.477777777777778,
       "cost_ht_usd": 2.477777777777778,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "subCategory": "Digestive Biscuits"
     },
     {
       "id": "20315",
@@ -15025,6 +15447,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "sweets",
+      "sub": "sweets",
       "totalStock": "0"
     },
     {
@@ -15039,8 +15463,8 @@
       "SUPPLIERS": "TRANSMED SAL",
       "category": "HOME USAGE",
       "sub_category": "CLOTH CLEANING",
-      "subcategory": "MISC",
-      "subCategory": "MISC",
+      "subcategory": "CLOTH CLEANING",
+      "subCategory": "CLOTH CLEANING",
       "unit": "EACH",
       "VAT": "NO",
       "vat": "no",
@@ -15088,7 +15512,7 @@
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "MISC",
+      "sub": "CLOTH CLEANING",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
@@ -15188,7 +15612,8 @@
       "secondary_sub_category": "",
       "sub2": "",
       "newItems": "",
-      "deliveryRules": "0.005"
+      "deliveryRules": "0.005",
+      "subCategory": "TANBAK"
     },
     {
       "id": "20318",
@@ -15199,11 +15624,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "29",
+      "stock_in_geitawi_branch": "23",
       "consumption_in_geitawi_branch": "82",
       "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "57",
-      "total_stock": "53",
+      "total_stock": "47",
       "total_consumption": "139",
       "VAT": "NO",
       "price_lbp": "60,000",
@@ -15215,7 +15640,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "29",
+          "stock": "23",
           "consumption": "82"
         },
         "Medawar": {
@@ -15229,7 +15654,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "53",
+      "totalStock": "47",
       "priceLbp": 50000.0,
       "priceUsd": 0.5555555555555556,
       "arabic_name": "",
@@ -15259,7 +15684,8 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 0.42
+      "cost_ttc_usd": 0.42,
+      "subCategory": "CIGARETTES"
     },
     {
       "id": "20319",
@@ -15300,7 +15726,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3"
+      "totalStock": "3",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20320",
@@ -15354,7 +15782,8 @@
       "latest_purchase_cost_date": "2026-06-08",
       "costHtUsd": 0.326388888888889,
       "cost_ht_usd": 0.326388888888889,
-      "costTtcUsd": 0.362291666666667
+      "costTtcUsd": 0.362291666666667,
+      "subCategory": "ENERGY DRINK"
     },
     {
       "id": "20321",
@@ -15395,7 +15824,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "5",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20322",
@@ -15445,6 +15876,8 @@
       "costHtUsd": 1.126,
       "cost_ht_usd": 1.126,
       "costTtcUsd": 1.126,
+      "subCategory": "chocolate bar",
+      "sub": "chocolate bar",
       "totalStock": "0"
     },
     {
@@ -15456,11 +15889,11 @@
       "category": "CHI TAYIB",
       "sub_category": "chocolate bar",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "10",
+      "total_stock": "3",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "160,000",
@@ -15472,11 +15905,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "2",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "1",
           "consumption": "0.0"
         }
       },
@@ -15488,14 +15921,31 @@
       "name": "MILKA ARAHIDE SI CARAMEL 90 G",
       "subcategory": "chocolate bar",
       "vat": "yes",
-      "totalStock": "10",
-      "cost_ttc": 1.35,
-      "cost_ht": 1.35,
-      "costTtcUsd": 1.35,
+      "totalStock": "3",
+      "cost_ttc": "1.4985",
+      "cost_ht": "1.3500",
+      "costTtcUsd": 1.4985000000000002,
       "costHtUsd": 1.35,
       "cost_ht_usd": 1.35,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": true,
+      "barcode2": "",
+      "barcodes": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.4985000000000002,
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20323.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20323.jpg",
+      "image_updated_at_utc": "2026-09-16T14:30:09.046617Z",
+      "subCategory": "chocolate bar"
     },
     {
       "id": "20324",
@@ -15549,7 +15999,8 @@
       "latest_purchase_cost_date": "2026-03-18",
       "costHtUsd": 0.772,
       "cost_ht_usd": 0.772,
-      "costTtcUsd": 0.85692
+      "costTtcUsd": 0.85692,
+      "subCategory": "Wafers"
     },
     {
       "id": "20325",
@@ -15560,11 +16011,11 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "18",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "135",
-      "stock_in_medawar_branch": "102",
+      "stock_in_medawar_branch": "131",
       "consumption_in_medawar_branch": "119",
-      "total_stock": "120",
+      "total_stock": "134",
       "total_consumption": "254",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -15576,11 +16027,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "18",
+          "stock": "3",
           "consumption": "135"
         },
         "Medawar": {
-          "stock": "102",
+          "stock": "131",
           "consumption": "119"
         }
       },
@@ -15594,7 +16045,7 @@
       "vat": "no",
       "barcode2": "5900951311505",
       "barcodes": "5900951311505",
-      "totalStock": "120",
+      "totalStock": "134",
       "cost_ttc": 0.7083333333333334,
       "cost_ht": 0.7083333333333334,
       "cost_currency": "USD",
@@ -15603,7 +16054,8 @@
       "latest_purchase_cost_date": "2026-07-03",
       "costHtUsd": 0.7083333333333334,
       "cost_ht_usd": 0.7083333333333334,
-      "costTtcUsd": 0.7083333333333334
+      "costTtcUsd": 0.7083333333333334,
+      "subCategory": "sweets"
     },
     {
       "id": "20326",
@@ -15642,6 +16094,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "MINERAL WATER",
+      "sub": "MINERAL WATER",
       "totalStock": "0"
     },
     {
@@ -15702,6 +16156,7 @@
       "bulk_link_repaired_at_utc": "2026-05-18T15:02:43.584Z",
       "bulk_link_repair_source": "mahfouz_market_products_bulk_download_1",
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
+      "subCategory": "MINERAL WATER",
       "stock_in_the_daily_market_branch": "0",
       "totalStock": "0"
     },
@@ -15751,6 +16206,8 @@
       "costHtUsd": 0.75,
       "cost_ht_usd": 0.75,
       "costTtcUsd": 0.75,
+      "subCategory": "LAMP",
+      "sub": "LAMP",
       "totalStock": "0"
     },
     {
@@ -15801,7 +16258,9 @@
       "latest_purchase_cost_date": "2026-01-09",
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.0
+      "costTtcUsd": 1.0,
+      "subCategory": "LAMP",
+      "sub": "LAMP"
     },
     {
       "id": "20330",
@@ -15851,7 +16310,9 @@
       "latest_purchase_cost_date": "2026-01-09",
       "costHtUsd": 2.25,
       "cost_ht_usd": 2.25,
-      "costTtcUsd": 2.25
+      "costTtcUsd": 2.25,
+      "subCategory": "LAMP",
+      "sub": "LAMP"
     },
     {
       "id": "20331",
@@ -15892,6 +16353,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "LIGHTER",
+      "sub": "LIGHTER",
       "totalStock": "0"
     },
     {
@@ -15940,6 +16403,8 @@
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
       "costTtcUsd": 3.0,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -15990,7 +16455,9 @@
       "latest_purchase_cost_date": "2026-02-17",
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.0
+      "costTtcUsd": 1.0,
+      "subCategory": "PICNIC & OFFICE USE",
+      "sub": "PICNIC & OFFICE USE"
     },
     {
       "id": "20335",
@@ -16050,7 +16517,9 @@
       "costHtUsd": 0.75,
       "cost_ht_usd": 0.75,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "CLEANING",
+      "sub": "CLEANING"
     },
     {
       "id": "20337",
@@ -16179,6 +16648,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -16220,7 +16691,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20340",
@@ -16259,6 +16732,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "LIGHTER",
+      "sub": "LIGHTER",
       "totalStock": "0"
     },
     {
@@ -16300,7 +16775,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "21"
+      "totalStock": "21",
+      "subCategory": "BAKING PAPER",
+      "sub": "BAKING PAPER"
     },
     {
       "id": "20343",
@@ -16339,6 +16816,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -16471,6 +16950,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "CLEANING",
+      "sub": "CLEANING",
       "totalStock": "0"
     },
     {
@@ -16533,7 +17014,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "CLEANING",
+      "sub": "CLEANING"
     },
     {
       "id": "20347",
@@ -16572,6 +17055,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "CLEANING",
+      "sub": "CLEANING",
       "totalStock": "0"
     },
     {
@@ -16583,11 +17068,11 @@
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -16603,7 +17088,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "2"
         },
         "Medawar": {
@@ -16613,7 +17098,7 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "5",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -16634,7 +17119,9 @@
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.0
+      "costTtcUsd": 1.0,
+      "subCategory": "CLEANING",
+      "sub": "CLEANING"
     },
     {
       "id": "20349",
@@ -16677,6 +17164,7 @@
       "name": "LIGHTER NIS LIN",
       "subcategory": "LIGHTER",
       "vat": "yes",
+      "subCategory": "LIGHTER",
       "totalStock": "0"
     },
     {
@@ -16727,7 +17215,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.5
+      "costTtcUsd": 0.5,
+      "subCategory": "BARBECUE & CHARCOAL",
+      "sub": "BARBECUE & CHARCOAL"
     },
     {
       "id": "20351",
@@ -16865,7 +17355,9 @@
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20353",
@@ -16915,7 +17407,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 1.01,
       "cost_ht_usd": 1.01,
-      "costTtcUsd": 1.01
+      "costTtcUsd": 1.01,
+      "subCategory": "hair care",
+      "sub": "hair care"
     },
     {
       "id": "20354",
@@ -16954,7 +17448,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "20355",
@@ -16995,6 +17491,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
       "totalStock": "0"
     },
     {
@@ -17045,7 +17543,9 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.5
+      "costTtcUsd": 2.5,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20357",
@@ -17086,7 +17586,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "nail & skin care",
+      "sub": "nail & skin care"
     },
     {
       "id": "20358",
@@ -17125,6 +17627,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "nail & skin care",
+      "sub": "nail & skin care",
       "totalStock": "0"
     },
     {
@@ -17164,6 +17668,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "nail & skin care",
+      "sub": "nail & skin care",
       "totalStock": "0"
     },
     {
@@ -17205,6 +17711,8 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "CANDLES",
+      "sub": "CANDLES",
       "totalStock": "0"
     },
     {
@@ -17265,7 +17773,9 @@
       "costHtUsd": 0.35,
       "cost_ht_usd": 0.35,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "CANDLES",
+      "sub": "CANDLES"
     },
     {
       "id": "20362",
@@ -17304,6 +17814,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "CANDLES",
+      "sub": "CANDLES",
       "totalStock": "0"
     },
     {
@@ -17366,7 +17878,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "CANDLES",
+      "sub": "CANDLES"
     },
     {
       "id": "20364",
@@ -17407,6 +17921,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -17420,9 +17936,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "335,000",
@@ -17442,11 +17958,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "2"
         }
       },
-      "totalStock": "0",
+      "totalStock": "1",
       "cost_ttc": 2.75,
       "cost_ht": 2.75,
       "cost_currency": "USD",
@@ -17455,7 +17971,9 @@
       "latest_purchase_cost_date": "2026-06-16",
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
-      "costTtcUsd": 2.75
+      "costTtcUsd": 2.75,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20366",
@@ -17494,7 +18012,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20367",
@@ -17535,7 +18055,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4"
+      "totalStock": "4",
+      "subCategory": "glue",
+      "sub": "glue"
     },
     {
       "id": "20368",
@@ -17585,7 +18107,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 1.85,
       "cost_ht_usd": 1.85,
-      "costTtcUsd": 1.85
+      "costTtcUsd": 1.85,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20370",
@@ -17626,6 +18150,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER",
       "totalStock": "0"
     },
     {
@@ -17665,6 +18191,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER",
       "totalStock": "0"
     },
     {
@@ -17715,6 +18243,8 @@
       "costHtUsd": 1.25,
       "cost_ht_usd": 1.25,
       "costTtcUsd": 1.25,
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER",
       "totalStock": "0"
     },
     {
@@ -17765,7 +18295,9 @@
       "latest_purchase_cost_date": "2026-02-17",
       "costHtUsd": 1.25,
       "cost_ht_usd": 1.25,
-      "costTtcUsd": 1.25
+      "costTtcUsd": 1.25,
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER"
     },
     {
       "id": "20374",
@@ -17806,6 +18338,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "AIR FRESHENER",
+      "sub": "AIR FRESHENER",
       "totalStock": "0"
     },
     {
@@ -17845,6 +18379,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -17856,11 +18392,11 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "1",
+      "total_stock": "5",
       "total_consumption": "5",
       "VAT": "NO",
       "price_lbp": "410,000",
@@ -17872,11 +18408,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "3"
         }
       },
@@ -17886,9 +18422,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": "2.8500",
-      "cost_ht": "2.8500",
+      "totalStock": "5",
+      "cost_ttc": 2.85,
+      "cost_ht": 2.85,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781770324783",
@@ -17909,7 +18445,9 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 2.85
+      "cost_ttc_usd": 2.85,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20377",
@@ -17963,7 +18501,8 @@
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
-      "costTtcUsd": 3.0
+      "costTtcUsd": 3.0,
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "20378",
@@ -18002,6 +18541,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -18043,6 +18584,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -18084,6 +18627,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -18097,9 +18642,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "3",
+      "total_stock": "5",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "335,000",
@@ -18119,20 +18664,22 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "5",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3",
+      "totalStock": "5",
       "cost_ttc": 2.5,
       "cost_ht": 2.5,
       "costTtcUsd": 2.5,
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20382",
@@ -18145,14 +18692,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "2",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "370,000",
       "price_usd": "4.13",
-      "cost": "3.50",
+      "cost": "3.25",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20382.jpg",
       "new_items": "",
       "manual": "",
@@ -18167,18 +18714,20 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "2",
           "consumption": "0"
         }
       },
-      "totalStock": "1",
-      "cost_ttc": 3.5,
-      "cost_ht": 3.5,
-      "costTtcUsd": 3.5,
-      "costHtUsd": 3.5,
-      "cost_ht_usd": 3.5,
+      "totalStock": "2",
+      "cost_ttc": 3.25,
+      "cost_ht": 3.25,
+      "costTtcUsd": 3.25,
+      "costHtUsd": 3.25,
+      "cost_ht_usd": 3.25,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20383",
@@ -18189,16 +18738,16 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "1.0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "370,000",
       "price_usd": "4.11",
-      "cost": "2.77",
+      "cost": "3.25",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20383.jpg",
       "new_items": "",
       "manual": "",
@@ -18209,17 +18758,26 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "1.0",
+          "stock": "1",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "1",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "2",
+      "cost_ttc": 3.25,
+      "cost_ht": 3.25,
+      "costTtcUsd": 3.25,
+      "costHtUsd": 3.25,
+      "cost_ht_usd": 3.25,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20384",
@@ -18272,6 +18830,7 @@
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
       "costTtcUsd": 2.75,
+      "subCategory": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -18313,6 +18872,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -18324,16 +18885,16 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "370,000",
       "price_usd": "4.11",
-      "cost": "2.72",
+      "cost": "3.25",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20386.jpg",
       "new_items": "",
       "manual": "",
@@ -18344,17 +18905,26 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0.0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "2",
+      "cost_ttc": 3.25,
+      "cost_ht": 3.25,
+      "costTtcUsd": 3.25,
+      "costHtUsd": 3.25,
+      "cost_ht_usd": 3.25,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20387",
@@ -18402,7 +18972,9 @@
       "latest_purchase_cost_date": "2026-05-05",
       "costHtUsd": 3.25,
       "cost_ht_usd": 3.25,
-      "costTtcUsd": 3.25
+      "costTtcUsd": 3.25,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20388",
@@ -18450,7 +19022,9 @@
       "latest_purchase_cost_date": "2026-01-22",
       "costHtUsd": 3.25,
       "cost_ht_usd": 3.25,
-      "costTtcUsd": 3.25
+      "costTtcUsd": 3.25,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20389",
@@ -18498,7 +19072,9 @@
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 3.25,
       "cost_ht_usd": 3.25,
-      "costTtcUsd": 3.25
+      "costTtcUsd": 3.25,
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20390",
@@ -18539,7 +19115,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20391",
@@ -18578,6 +19156,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "0"
     },
     {
@@ -18619,7 +19199,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20393",
@@ -18673,7 +19255,8 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 2.5,
       "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.5
+      "costTtcUsd": 2.5,
+      "subCategory": "deodorant & roll on"
     },
     {
       "id": "20394",
@@ -18712,7 +19295,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20395",
@@ -18753,6 +19338,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "3"
     },
     {
@@ -18794,7 +19381,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20397",
@@ -18835,7 +19424,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "5",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20398",
@@ -18846,11 +19437,11 @@
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "230,000",
@@ -18866,7 +19457,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "1"
         },
         "Medawar": {
@@ -18876,7 +19467,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4"
+      "totalStock": "3",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on"
     },
     {
       "id": "20399",
@@ -18917,6 +19510,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "deodorant & roll on",
+      "sub": "deodorant & roll on",
       "totalStock": "3"
     },
     {
@@ -18967,7 +19562,9 @@
       "latest_purchase_cost_date": "2026-05-05",
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "costTtcUsd": 2.0
+      "costTtcUsd": 2.0,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20401",
@@ -19006,6 +19603,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "hair care",
+      "sub": "hair care",
       "totalStock": "0"
     },
     {
@@ -19047,7 +19646,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "shaving",
+      "sub": "shaving"
     },
     {
       "id": "20403",
@@ -19088,7 +19689,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5"
+      "totalStock": "5",
+      "subCategory": "TOOTH CARE",
+      "sub": "TOOTH CARE"
     },
     {
       "id": "20404",
@@ -19129,6 +19732,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "TOOTH CARE",
+      "sub": "TOOTH CARE",
       "totalStock": "0"
     },
     {
@@ -19140,11 +19745,11 @@
       "category": "HOME USAGE",
       "sub_category": "TOOTH CARE",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "13",
+      "total_stock": "12",
       "total_consumption": "5",
       "VAT": "NO",
       "price_lbp": "190,000",
@@ -19156,7 +19761,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "4"
         },
         "Medawar": {
@@ -19170,7 +19775,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
+      "totalStock": "12",
       "cost_ttc": 1.15,
       "cost_ht": 1.15,
       "cost_currency": "USD",
@@ -19179,7 +19784,9 @@
       "latest_purchase_cost_date": "2026-06-30",
       "costHtUsd": 1.15,
       "cost_ht_usd": 1.15,
-      "costTtcUsd": 1.15
+      "costTtcUsd": 1.15,
+      "subCategory": "TOOTH CARE",
+      "sub": "TOOTH CARE"
     },
     {
       "id": "20406",
@@ -19229,7 +19836,9 @@
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
-      "costTtcUsd": 2.75
+      "costTtcUsd": 2.75,
+      "subCategory": "TOOTH CARE",
+      "sub": "TOOTH CARE"
     },
     {
       "id": "20408",
@@ -19274,6 +19883,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "juice",
       "totalStock": "0"
     },
     {
@@ -19319,6 +19929,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "tequila",
       "totalStock": "4"
     },
     {
@@ -19364,7 +19975,8 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6"
+      "totalStock": "6",
+      "subCategory": "tequila"
     },
     {
       "id": "20411",
@@ -19407,6 +20019,7 @@
       "name": "T VIT TREL CREAM CHOCOLATE",
       "subcategory": "Low calorie delight",
       "vat": "yes",
+      "subCategory": "Low calorie delight",
       "totalStock": "0"
     },
     {
@@ -19450,6 +20063,7 @@
       "name": "T VIT TREL CREAM MORANGO",
       "subcategory": "Low calorie delight",
       "vat": "yes",
+      "subCategory": "Low calorie delight",
       "totalStock": "0"
     },
     {
@@ -19493,6 +20107,7 @@
       "name": "T VIT TREL CREAM CHOCORESCO",
       "subcategory": "Low calorie delight",
       "vat": "yes",
+      "subCategory": "Low calorie delight",
       "totalStock": "0"
     },
     {
@@ -19538,6 +20153,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "DOLSI",
       "totalStock": "0"
     },
     {
@@ -19579,7 +20195,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4"
+      "totalStock": "4",
+      "subCategory": "SANITIZER",
+      "sub": "SANITIZER"
     },
     {
       "id": "20416",
@@ -19628,7 +20246,8 @@
       "cost_currency": "LBP",
       "cost_vat_included": 1,
       "latest_purchase_cost_doc_id": "P1782965793301",
-      "latest_purchase_cost_date": "2026-07-02"
+      "latest_purchase_cost_date": "2026-07-02",
+      "subCategory": "Croissant"
     },
     {
       "id": "20417",
@@ -19682,7 +20301,8 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.5
+      "costTtcUsd": 1.5,
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "20418",
@@ -19736,7 +20356,8 @@
       "latest_purchase_cost_date": "2026-02-24",
       "costHtUsd": 0.258,
       "cost_ht_usd": 0.258,
-      "costTtcUsd": 0.28638
+      "costTtcUsd": 0.28638,
+      "subCategory": "Digestive Biscuits"
     },
     {
       "id": "20419",
@@ -19790,6 +20411,7 @@
       "costHtUsd": 0.258,
       "cost_ht_usd": 0.258,
       "costTtcUsd": 0.28638,
+      "subCategory": "Digestive Biscuits",
       "totalStock": "0"
     },
     {
@@ -19801,11 +20423,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Digestive Biscuits",
       "offers": "0",
-      "stock_in_geitawi_branch": "11",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "19",
+      "total_stock": "12",
       "total_consumption": "21",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -19817,11 +20439,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "11",
+          "stock": "8",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "4",
           "consumption": "17"
         }
       },
@@ -19835,7 +20457,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19",
+      "totalStock": "12",
       "cost_ttc": 0.26307,
       "cost_ht": 0.237,
       "cost_currency": "USD",
@@ -19844,7 +20466,8 @@
       "latest_purchase_cost_date": "2026-02-24",
       "costHtUsd": 0.237,
       "cost_ht_usd": 0.237,
-      "costTtcUsd": 0.26307
+      "costTtcUsd": 0.26307,
+      "subCategory": "Digestive Biscuits"
     },
     {
       "id": "20421",
@@ -19898,7 +20521,8 @@
       "latest_purchase_cost_date": "2026-02-24",
       "costHtUsd": 1.168,
       "cost_ht_usd": 1.168,
-      "costTtcUsd": 1.29648
+      "costTtcUsd": 1.29648,
+      "subCategory": "Digestive Biscuits"
     },
     {
       "id": "20422",
@@ -19950,7 +20574,8 @@
       "latest_purchase_cost_date": "2026-02-24",
       "costHtUsd": 1.168,
       "cost_ht_usd": 1.168,
-      "costTtcUsd": 1.29648
+      "costTtcUsd": 1.29648,
+      "subCategory": "Digestive Biscuits"
     },
     {
       "id": "20423",
@@ -20004,7 +20629,8 @@
       "latest_purchase_cost_date": "2026-02-24",
       "costHtUsd": 0.258,
       "cost_ht_usd": 0.258,
-      "costTtcUsd": 0.28638
+      "costTtcUsd": 0.28638,
+      "subCategory": "Digestive Biscuits"
     },
     {
       "id": "20424",
@@ -20045,6 +20671,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "sweets",
+      "sub": "sweets",
       "totalStock": "0"
     },
     {
@@ -20090,6 +20718,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "Digestive Biscuits",
       "totalStock": "0"
     },
     {
@@ -20129,6 +20758,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "Wafers",
+      "sub": "Wafers",
       "totalStock": "0"
     },
     {
@@ -20140,11 +20771,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "13",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "4",
+      "total_stock": "2",
       "total_consumption": "16",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -20156,7 +20787,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "13"
         },
         "Medawar": {
@@ -20174,14 +20805,15 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
+      "totalStock": "2",
       "cost_ttc": 0.6306818181818183,
       "cost_ht": 0.5681818181818182,
       "costTtcUsd": 0.6306818181818183,
       "costHtUsd": 0.5681818181818182,
       "cost_ht_usd": 0.5681818181818182,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "subCategory": "Wafers"
     },
     {
       "id": "20428",
@@ -20342,7 +20974,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20430",
@@ -20392,7 +21026,9 @@
       "latest_purchase_cost_date": "2026-02-24",
       "costHtUsd": 5.773,
       "cost_ht_usd": 5.773,
-      "costTtcUsd": 6.40803
+      "costTtcUsd": 6.40803,
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20431",
@@ -20403,11 +21039,11 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "14",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "30",
+      "total_stock": "27",
       "total_consumption": "5",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -20423,7 +21059,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "14",
           "consumption": "4"
         },
         "Medawar": {
@@ -20431,7 +21067,7 @@
           "consumption": "1"
         }
       },
-      "totalStock": "30",
+      "totalStock": "27",
       "cost_ttc": 0.9911375000000001,
       "cost_ht": 0.8929166666666667,
       "cost_currency": "USD",
@@ -20440,7 +21076,9 @@
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.8929166666666667,
       "cost_ht_usd": 0.8929166666666667,
-      "costTtcUsd": 0.9911375000000001
+      "costTtcUsd": 0.9911375000000001,
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20432",
@@ -20451,11 +21089,11 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "22",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "56",
+      "total_stock": "55",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "120,000",
@@ -20467,7 +21105,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22",
+          "stock": "21",
           "consumption": "0"
         },
         "Medawar": {
@@ -20481,7 +21119,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "56",
+      "totalStock": "55",
       "cost_ttc": 0.9911375000000001,
       "cost_ht": 0.8929166666666667,
       "cost_currency": "USD",
@@ -20490,7 +21128,9 @@
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.8929166666666667,
       "cost_ht_usd": 0.8929166666666667,
-      "costTtcUsd": 0.9911375000000001
+      "costTtcUsd": 0.9911375000000001,
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20433",
@@ -20531,6 +21171,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD",
       "totalStock": "0"
     },
     {
@@ -20544,9 +21186,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "41",
-      "stock_in_medawar_branch": "46",
+      "stock_in_medawar_branch": "35",
       "consumption_in_medawar_branch": "21",
-      "total_stock": "46",
+      "total_stock": "35",
       "total_consumption": "62",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -20562,7 +21204,7 @@
           "consumption": "41"
         },
         "Medawar": {
-          "stock": "46",
+          "stock": "35",
           "consumption": "21"
         },
         "Nouna": {
@@ -20584,7 +21226,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "46",
+      "totalStock": "35",
       "cost_ttc": 0.4740625,
       "cost_ht": 0.4270833333333333,
       "cost_currency": "USD",
@@ -20596,7 +21238,9 @@
       "costTtcUsd": 0.4740625,
       "stock_in_nouna_branch": "0",
       "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
-      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override"
+      "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override",
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20435",
@@ -20637,6 +21281,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD",
       "totalStock": "0"
     },
     {
@@ -20678,6 +21324,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD",
       "totalStock": "0"
     },
     {
@@ -20719,6 +21367,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD",
       "totalStock": "0"
     },
     {
@@ -20851,6 +21501,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD",
       "totalStock": "0"
     },
     {
@@ -20992,7 +21644,9 @@
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.829166666666667,
       "cost_ht_usd": 0.829166666666667,
-      "costTtcUsd": 0.829166666666667
+      "costTtcUsd": 0.829166666666667,
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20442",
@@ -21042,7 +21696,9 @@
       "latest_purchase_cost_date": "2026-05-25",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.555
+      "costTtcUsd": 0.555,
+      "subCategory": "TOOLS",
+      "sub": "TOOLS"
     },
     {
       "id": "20443",
@@ -21092,7 +21748,9 @@
       "latest_purchase_cost_date": "2026-05-25",
       "costHtUsd": 0.65,
       "cost_ht_usd": 0.65,
-      "costTtcUsd": 0.7215
+      "costTtcUsd": 0.7215,
+      "subCategory": "TOOLS",
+      "sub": "TOOLS"
     },
     {
       "id": "20444",
@@ -21140,7 +21798,9 @@
       "costHtUsd": 4.02,
       "cost_ht_usd": 4.02,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "subCategory": "TOOLS",
+      "sub": "TOOLS"
     },
     {
       "id": "20445",
@@ -21190,7 +21850,9 @@
       "latest_purchase_cost_date": "2026-03-16",
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
-      "costTtcUsd": 3.0
+      "costTtcUsd": 3.0,
+      "subCategory": "TOOLS",
+      "sub": "TOOLS"
     },
     {
       "id": "20446",
@@ -21240,7 +21902,9 @@
       "latest_purchase_cost_date": "2026-03-09",
       "costHtUsd": 0.8,
       "cost_ht_usd": 0.8,
-      "costTtcUsd": 0.8
+      "costTtcUsd": 0.8,
+      "subCategory": "SEEDS",
+      "sub": "SEEDS"
     },
     {
       "id": "20447",
@@ -21281,7 +21945,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "SEEDS",
+      "sub": "SEEDS"
     },
     {
       "id": "20448",
@@ -21324,6 +21990,7 @@
       "name": "MASTER CHICKEN SHAWRMA FLAVOR 32G",
       "subcategory": "MASTER",
       "vat": "yes",
+      "subCategory": "MASTER",
       "totalStock": "0"
     },
     {
@@ -21465,7 +22132,9 @@
       "latest_purchase_cost_date": "2026-06-23",
       "costHtUsd": 2.2426,
       "cost_ht_usd": 2.2426,
-      "costTtcUsd": 2.2426
+      "costTtcUsd": 2.2426,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20451",
@@ -21506,7 +22175,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20452",
@@ -21554,7 +22225,9 @@
       "latest_purchase_cost_date": "2026-06-23",
       "costHtUsd": 2.243333,
       "cost_ht_usd": 2.243333,
-      "costTtcUsd": 2.243333
+      "costTtcUsd": 2.243333,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20453",
@@ -21595,7 +22268,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20454",
@@ -21636,6 +22311,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash",
       "totalStock": "1"
     },
     {
@@ -21677,7 +22354,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "20456",
@@ -21730,7 +22409,9 @@
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.8291666666666666,
       "cost_ht_usd": 0.8291666666666666,
-      "costTtcUsd": 0.920375
+      "costTtcUsd": 0.920375,
+      "subCategory": "PETS FOOD",
+      "sub": "PETS FOOD"
     },
     {
       "id": "20457",
@@ -21769,6 +22450,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -21822,7 +22505,8 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
-      "costTtcUsd": 2.75
+      "costTtcUsd": 2.75,
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "20459",
@@ -21861,6 +22545,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -21913,6 +22599,7 @@
       "costHtUsd": 0.225,
       "cost_ht_usd": 0.225,
       "costTtcUsd": 0.24975,
+      "subCategory": "Chewing gum",
       "totalStock": "0"
     },
     {
@@ -21924,15 +22611,15 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "5",
       "total_consumption": "2",
       "VAT": "NO",
-      "price_lbp": "265,000",
-      "price_usd": "2.94",
+      "price_lbp": "250,000",
+      "price_usd": "2.78",
       "cost": "1.50",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20462.jpg",
       "new_items": "",
@@ -21940,11 +22627,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "0"
         }
       },
@@ -21958,16 +22645,20 @@
       "subcategory": "shampoo & cond",
       "vat": "no",
       "barcode2": "",
-      "totalStock": "1",
+      "totalStock": "5",
       "cost_ttc": 1.5,
       "cost_ht": 1.5,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14299-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.5
+      "costTtcUsd": 1.5,
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20462.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20462.jpg",
+      "image_updated_at_utc": "2026-09-17T15:27:29.734059Z",
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "20463",
@@ -22006,6 +22697,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -22047,6 +22740,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "totalStock": "0"
     },
     {
@@ -22058,11 +22753,11 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "4",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -22078,24 +22773,26 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "4",
       "cost_ttc": 1.5,
       "cost_ht": 1.5,
       "costTtcUsd": 1.5,
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20466",
@@ -22149,7 +22846,8 @@
       "latest_purchase_cost_date": "2026-04-13",
       "costHtUsd": 1.5,
       "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.5
+      "costTtcUsd": 1.5,
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "20467",
@@ -22188,6 +22886,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "Low calorie delight",
+      "sub": "Low calorie delight",
       "totalStock": "0"
     },
     {
@@ -22235,7 +22935,9 @@
       "cost_currency": "LBP",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783233657827",
-      "latest_purchase_cost_date": "2026-07-05"
+      "latest_purchase_cost_date": "2026-07-05",
+      "subCategory": "cake",
+      "sub": "cake"
     },
     {
       "id": "20469",
@@ -22276,7 +22978,9 @@
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "sweets",
+      "sub": "sweets"
     },
     {
       "id": "20470",
@@ -22326,7 +23030,9 @@
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 5.24,
       "cost_ht_usd": 5.24,
-      "costTtcUsd": 5.816400000000001
+      "costTtcUsd": 5.816400000000001,
+      "subCategory": "TISSUES & TOILET PAPER",
+      "sub": "TISSUES & TOILET PAPER"
     },
     {
       "id": "20471",
@@ -22365,6 +23071,8 @@
           "consumption": "0"
         }
       },
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash",
       "totalStock": "0"
     },
     {
@@ -22415,7 +23123,9 @@
       "latest_purchase_cost_date": "2026-05-20",
       "costHtUsd": 1.12,
       "cost_ht_usd": 1.12,
-      "costTtcUsd": 1.12
+      "costTtcUsd": 1.12,
+      "subCategory": "hair care",
+      "sub": "hair care"
     },
     {
       "id": "20473",
@@ -22454,6 +23164,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "PRINGLES",
+      "sub": "PRINGLES",
       "totalStock": "0"
     },
     {
@@ -22499,6 +23211,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "PRINGLES",
       "totalStock": "0"
     },
     {
@@ -22549,6 +23262,8 @@
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "PRINGLES",
       "vat": "yes",
+      "subCategory": "PRINGLES",
+      "sub": "PRINGLES",
       "totalStock": "0"
     },
     {
@@ -22603,6 +23318,7 @@
       "costHtUsd": 0.591,
       "cost_ht_usd": 0.591,
       "costTtcUsd": 0.65601,
+      "subCategory": "sweets",
       "totalStock": "0"
     },
     {
@@ -22614,11 +23330,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "14",
+      "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "25",
       "stock_in_medawar_branch": "64",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "78",
+      "total_stock": "73",
       "total_consumption": "28",
       "VAT": "YES",
       "price_lbp": "40,000",
@@ -22630,7 +23346,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "14",
+          "stock": "9",
           "consumption": "25"
         },
         "Medawar": {
@@ -22646,7 +23362,7 @@
       "name": "NO 1 BITTER CIKOLATAH",
       "subcategory": "Wafers",
       "vat": "yes",
-      "totalStock": "78",
+      "totalStock": "73",
       "cost_ttc": 0.24998125000000004,
       "cost_ht": 0.22520833333333334,
       "cost_currency": "USD",
@@ -22655,7 +23371,8 @@
       "latest_purchase_cost_date": "2026-06-09",
       "costHtUsd": 0.22520833333333334,
       "cost_ht_usd": 0.22520833333333334,
-      "costTtcUsd": 0.24998125000000004
+      "costTtcUsd": 0.24998125000000004,
+      "subCategory": "Wafers"
     },
     {
       "id": "20478",
@@ -22694,6 +23411,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "PRINGLES",
+      "sub": "PRINGLES",
       "totalStock": "0"
     },
     {
@@ -22707,9 +23426,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "10",
+      "total_stock": "8",
       "total_consumption": "3",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -22725,7 +23444,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "4",
           "consumption": "1"
         }
       },
@@ -22735,7 +23454,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "10",
+      "totalStock": "8",
       "cost_ttc": 0.63,
       "cost_ht": 0.63,
       "cost_currency": "USD",
@@ -22744,7 +23463,9 @@
       "latest_purchase_cost_date": "2026-06-03",
       "costHtUsd": 0.63,
       "cost_ht_usd": 0.63,
-      "costTtcUsd": 0.63
+      "costTtcUsd": 0.63,
+      "subCategory": "cans & jams",
+      "sub": "cans & jams"
     },
     {
       "id": "20480",
@@ -22884,7 +23605,9 @@
       "latest_purchase_cost_date": "2026-06-29",
       "costHtUsd": 4.5,
       "cost_ht_usd": 4.5,
-      "costTtcUsd": 4.5
+      "costTtcUsd": 4.5,
+      "subCategory": "BAKING & COOKING",
+      "sub": "BAKING & COOKING"
     },
     {
       "id": "20482",
@@ -22897,9 +23620,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "11",
-      "total_stock": "3",
+      "total_stock": "-1",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -22915,7 +23638,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "-1",
           "consumption": "11"
         }
       },
@@ -22929,13 +23652,14 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3",
+      "totalStock": "-1",
       "cost_ttc": 0.5092592592592593,
       "cost_ht": 0.5092592592592593,
       "cost_currency": "LBP",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1780316374650",
-      "latest_purchase_cost_date": "2026-06-01"
+      "latest_purchase_cost_date": "2026-06-01",
+      "subCategory": "cake"
     },
     {
       "id": "20483",
@@ -22946,11 +23670,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "10",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "9",
+      "total_stock": "7",
       "total_consumption": "12",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -22962,11 +23686,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "10"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "2"
         },
         "Nouna": {
@@ -22991,7 +23715,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "9",
+      "totalStock": "7",
       "stock_in_nouna_branch": "4",
       "secondBarcode": "",
       "product_description": "MILK SABLE CHOCOLATE SABLE  1 PC",
@@ -23009,7 +23733,8 @@
       "costTtcUsd": 1.89,
       "priceLbp": 200000,
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "sub": "NOUNA'S FOOD"
     },
     {
       "id": "20484",
@@ -23057,7 +23782,9 @@
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 1.4,
       "cost_ht_usd": 1.4,
-      "costTtcUsd": 1.4
+      "costTtcUsd": 1.4,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20485",
@@ -23105,7 +23832,9 @@
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 1.4,
       "cost_ht_usd": 1.4,
-      "costTtcUsd": 1.4
+      "costTtcUsd": 1.4,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20486",
@@ -23155,7 +23884,9 @@
       "latest_purchase_cost_date": "2026-06-04",
       "costHtUsd": 1.4,
       "cost_ht_usd": 1.4,
-      "costTtcUsd": 1.4
+      "costTtcUsd": 1.4,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "20487",
@@ -23194,6 +23925,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "SHISHA STUFF",
+      "sub": "SHISHA STUFF",
       "totalStock": "0"
     },
     {
@@ -23298,9 +24031,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "160,000",
@@ -23316,7 +24049,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -23326,7 +24059,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
+      "totalStock": "1",
       "cost_ttc": 1.39971,
       "cost_ht": 1.261,
       "cost_currency": "USD",
@@ -23335,7 +24068,9 @@
       "latest_purchase_cost_date": "2026-07-06",
       "costHtUsd": 1.261,
       "cost_ht_usd": 1.261,
-      "costTtcUsd": 1.39971
+      "costTtcUsd": 1.39971,
+      "subCategory": "juice",
+      "sub": "juice"
     },
     {
       "id": "20490",
@@ -23436,11 +24171,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Croissant",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "54",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "50",
-      "total_stock": "20",
+      "total_stock": "15",
       "total_consumption": "104",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -23452,11 +24187,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "54"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "12",
           "consumption": "50"
         }
       },
@@ -23470,7 +24205,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "20",
+      "totalStock": "15",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -23487,7 +24222,8 @@
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783312553870",
       "latest_purchase_cost_date": "2026-07-06",
-      "cost_ttc_usd": 0.5303333333333334
+      "cost_ttc_usd": 0.5303333333333334,
+      "subCategory": "Croissant"
     },
     {
       "id": "20492",
@@ -23498,11 +24234,11 @@
       "category": "BEVERAGES",
       "sub_category": "SPARKLING WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "26",
+      "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "27",
-      "stock_in_medawar_branch": "13",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "39",
+      "total_stock": "32",
       "total_consumption": "43",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -23514,11 +24250,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "26",
+          "stock": "24",
           "consumption": "27"
         },
         "Medawar": {
-          "stock": "13",
+          "stock": "8",
           "consumption": "16"
         }
       },
@@ -23528,13 +24264,15 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "39",
+      "totalStock": "32",
       "cost_ttc": 0.5312088966480447,
       "cost_ht": 0.47856657355679705,
       "cost_currency": "LBP",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783407096061",
-      "latest_purchase_cost_date": "2026-07-07"
+      "latest_purchase_cost_date": "2026-07-07",
+      "subCategory": "SPARKLING WATER",
+      "sub": "SPARKLING WATER"
     },
     {
       "id": "20495",
@@ -23577,6 +24315,7 @@
       "name": "X-TRA POMEGRANATE DRINK 1 L",
       "subcategory": "juice",
       "vat": "yes",
+      "subCategory": "juice",
       "totalStock": "0"
     },
     {
@@ -23618,7 +24357,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1"
+      "totalStock": "1",
+      "subCategory": "tomour & traditional sweets",
+      "sub": "tomour & traditional sweets"
     },
     {
       "id": "20497",
@@ -23657,6 +24398,8 @@
           "consumption": "0.0"
         }
       },
+      "subCategory": "cans & jams",
+      "sub": "cans & jams",
       "totalStock": "0"
     },
     {
@@ -23698,6 +24441,8 @@
       },
       "barcode2": "",
       "barcodes": "",
+      "subCategory": "TEA",
+      "sub": "TEA",
       "totalStock": "0"
     },
     {
@@ -23737,9 +24482,11 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "FROZEN FOOD",
+      "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-09-16T00:25:27.372771Z",
+  "updatedAt": "2026-09-20T08:37:22.055637Z",
   "source": "sql-relay-web"
 }
