@@ -164,7 +164,9 @@
       "totalStock": "2",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "ARRANGEMENT",
+      "sub": "ARRANGEMENT"
     },
     {
       "id": "2709405",
@@ -219,7 +221,9 @@
       "totalStock": "1",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "HEALTHY CHOICES",
+      "sub": "HEALTHY CHOICES"
     },
     {
       "id": "2709414",
@@ -230,11 +234,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "36",
+      "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "84",
-      "stock_in_medawar_branch": "23",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "97",
-      "total_stock": "60",
+      "total_stock": "26",
       "total_consumption": "181",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -246,11 +250,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "36",
+          "stock": "19",
           "consumption": "84"
         },
         "Medawar": {
-          "stock": "23",
+          "stock": "6",
           "consumption": "97"
         },
         "Nouna": {
@@ -268,7 +272,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "60",
+      "totalStock": "26",
       "secondBarcode": "",
       "product_description": "Maccaw Pineapple",
       "description": "Maccaw Pineapple",
@@ -302,7 +306,8 @@
       "scaleCode": "",
       "stock_in_firas_branch": "0",
       "consumption_in_firas_branch": "0",
-      "cost_ttc_usd": 0.08787500000000001
+      "cost_ttc_usd": 0.08787500000000001,
+      "sub": "juice"
     },
     {
       "id": "2709416",
@@ -339,7 +344,7 @@
         }
       ],
       "name": "ECLAIR BAHAMAS",
-      "subcategory": "ECLAIR",
+      "subcategory": "CAKES BY PIECE",
       "vat": "no",
       "priceLbp": 250000.0,
       "priceUsd": 2.7777777777777777,
@@ -383,7 +388,7 @@
       "product_description": "ECLAIR BAHAMAS",
       "description": "ECLAIR BAHAMAS",
       "expiryDays": 3,
-      "subCategory": "ECLAIR",
+      "subCategory": "CAKES BY PIECE",
       "supplier": "",
       "totalStock": "0",
       "description_ar": "",
@@ -399,7 +404,8 @@
       "cost_ht_usd": 2.37,
       "cost_currency": "USD",
       "cost_vat_included": false,
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "sub": "CAKES BY PIECE"
     },
     {
       "id": "2709422",
@@ -455,6 +461,9 @@
       "consumption_in_nouna_branch": "1.0",
       "totalStock": "0",
       "stock_in_firas_branch": "0",
+      "subcategory": "SYNC TEST",
+      "subCategory": "SYNC TEST",
+      "sub": "SYNC TEST",
       "vat": "no"
     },
     {
@@ -747,7 +756,9 @@
       "totalStock": "2",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "ARRANGEMENT",
+      "sub": "ARRANGEMENT"
     },
     {
       "id": "2709447",
@@ -803,7 +814,9 @@
       "totalStock": "14",
       "stock_in_firas_branch": "0",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "0"
+      "stock_in_geitawi_branch": "0",
+      "subCategory": "HOT DRINKS",
+      "sub": "HOT DRINKS"
     },
     {
       "id": "2709458",
@@ -868,6 +881,8 @@
       "costTtcUsd": 1.7,
       "totalStock": "2",
       "stock_in_firas_branch": "0",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD",
       "VAT": "NO"
     },
     {
@@ -943,6 +958,6 @@
       "consumption_in_nouna_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-16T00:53:40.385082Z",
+  "updatedAt": "2026-09-19T21:45:34.595229Z",
   "source": "sql-relay-web"
 }
