@@ -39,7 +39,9 @@
           "consumption": "1"
         }
       },
-      "totalStock": "6"
+      "totalStock": "6",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "11068",
@@ -52,9 +54,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "53",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "60",
+      "stock_in_medawar_branch": "59",
       "consumption_in_medawar_branch": "26",
-      "total_stock": "113",
+      "total_stock": "112",
       "total_consumption": "26",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -70,7 +72,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "60",
+          "stock": "59",
           "consumption": "26"
         }
       },
@@ -80,7 +82,7 @@
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
       "vat": "yes",
-      "totalStock": "113",
+      "totalStock": "112",
       "cost_ttc": 0.18870000000000003,
       "cost_ht": 0.17,
       "cost_currency": "USD",
@@ -89,7 +91,9 @@
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 0.17,
       "cost_ht_usd": 0.17,
-      "costTtcUsd": 0.18870000000000003
+      "costTtcUsd": 0.18870000000000003,
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "11070",
@@ -100,11 +104,11 @@
       "category": "HOME USAGE",
       "sub_category": "STATIONARY",
       "offers": "0",
-      "stock_in_geitawi_branch": "9",
+      "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "43",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "52",
+      "total_stock": "51",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -122,7 +126,7 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "9",
+          "stock": "8",
           "consumption": "1"
         },
         "Medawar": {
@@ -130,14 +134,16 @@
           "consumption": "0"
         }
       },
-      "totalStock": "52",
+      "totalStock": "51",
       "cost_ttc": 0.18870000000000003,
       "cost_ht": 0.17,
       "costTtcUsd": 0.18870000000000003,
       "costHtUsd": 0.17,
       "cost_ht_usd": 0.17,
       "cost_currency": "USD",
-      "cost_vat_included": true
+      "cost_vat_included": true,
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY"
     },
     {
       "id": "11073",
@@ -199,7 +205,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "PICNIC & OFFICE USE",
+      "sub": "PICNIC & OFFICE USE"
     },
     {
       "id": "11075",
@@ -295,7 +303,7 @@
     {
       "id": "11098",
       "barcode": "3574669908504",
-      "Product Description": "BABY JOHNSOUNS",
+      "Product Description": "BABY JOHNSOUNS 300 ML",
       "SUPPLIERS": "JACK DIB",
       "unit": "-",
       "category": "HOME USAGE",
@@ -326,8 +334,8 @@
         }
       },
       "totalStock": "5",
-      "cost_ttc": 3.33,
-      "cost_ht": 3.0,
+      "cost_ttc": "3.3300",
+      "cost_ht": "3.0000",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13602-2026-02-17",
@@ -335,6 +343,22 @@
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
       "costTtcUsd": 3.33,
+      "barcode2": "",
+      "barcodes": "",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 3.33,
+      "subcategory": "BABY CARE",
+      "subCategory": "BABY CARE",
+      "sub": "BABY CARE",
       "vat": "yes"
     },
     {
@@ -380,6 +404,9 @@
       "costHtUsd": 2.25,
       "cost_ht_usd": 2.25,
       "costTtcUsd": 2.4975,
+      "subcategory": "SEEDS",
+      "subCategory": "SEEDS",
+      "sub": "SEEDS",
       "vat": "yes"
     },
     {
@@ -424,6 +451,9 @@
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
       "costTtcUsd": 3.33,
+      "subcategory": "shampoo & cond",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "vat": "yes",
       "totalStock": "0"
     },
@@ -558,7 +588,9 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0"
+      "totalStock": "0",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "11312",
@@ -620,7 +652,9 @@
       "scale_code": "",
       "scaleCode": "",
       "scale_plu": 0,
-      "scalePlu": 0
+      "scalePlu": 0,
+      "subCategory": "hand & body wash",
+      "sub": "hand & body wash"
     },
     {
       "id": "11316",
@@ -631,27 +665,27 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "4",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "410,000",
       "price_usd": "4.56",
-      "cost": "3.00",
+      "cost": "2.85",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11316.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         }
       },
@@ -661,16 +695,18 @@
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 3.33,
-      "cost_ht": 3.0,
+      "totalStock": "4",
+      "cost_ttc": 3.1635000000000004,
+      "cost_ht": 2.85,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781770324783",
       "latest_purchase_cost_date": "2026-06-18",
-      "costHtUsd": 3.0,
-      "cost_ht_usd": 3.0,
-      "costTtcUsd": 3.33
+      "costHtUsd": 2.85,
+      "cost_ht_usd": 2.85,
+      "costTtcUsd": 3.1635000000000004,
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     },
     {
       "id": "11400",
@@ -715,6 +751,9 @@
       "costHtUsd": 2.85,
       "cost_ht_usd": 2.85,
       "costTtcUsd": 3.1635000000000004,
+      "subcategory": "shampoo & cond",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond",
       "vat": "yes"
     },
     {
@@ -728,9 +767,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "1",
+      "total_stock": "13",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -746,7 +785,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "13",
           "consumption": "1"
         }
       },
@@ -760,16 +799,17 @@
       "barcodes": "",
       "subcategory": "shampoo & cond",
       "vat": "yes",
-      "totalStock": "1",
-      "cost_ttc": 2.10456,
-      "cost_ht": 1.896,
+      "totalStock": "13",
+      "cost_ttc": 2.104375,
+      "cost_ht": 1.8958333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13851-2026-03-09",
       "latest_purchase_cost_date": "2026-03-09",
-      "costHtUsd": 1.896,
-      "cost_ht_usd": 1.896,
-      "costTtcUsd": 2.10456
+      "costHtUsd": 1.8958333333333333,
+      "cost_ht_usd": 1.8958333333333333,
+      "costTtcUsd": 2.104375,
+      "subCategory": "shampoo & cond"
     },
     {
       "id": "11458",
@@ -780,27 +820,27 @@
       "category": "HOME USAGE",
       "sub_category": "shampoo & cond",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "2",
+      "total_stock": "8",
       "total_consumption": "1",
       "VAT": "YES",
-      "price_lbp": "390,000",
-      "price_usd": "4.33",
-      "cost": "2.50",
+      "price_lbp": "355,000",
+      "price_usd": "3.94",
+      "cost": "2.75",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11458.jpg",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "6",
           "consumption": "1"
         }
       },
@@ -810,18 +850,23 @@
       "supplier": "JACK DIB",
       "subcategory": "shampoo & cond",
       "vat": "yes",
-      "totalStock": "2",
-      "cost_ttc": 2.775,
-      "cost_ht": 2.5,
+      "totalStock": "8",
+      "cost_ttc": 3.0525,
+      "cost_ht": 2.75,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779783927340",
       "latest_purchase_cost_date": "2026-05-26",
-      "costHtUsd": 2.5,
-      "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.775
+      "costHtUsd": 2.75,
+      "cost_ht_usd": 2.75,
+      "costTtcUsd": 3.0525,
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11458.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID11458.jpg",
+      "image_updated_at_utc": "2026-09-17T14:31:16.760483Z",
+      "subCategory": "shampoo & cond",
+      "sub": "shampoo & cond"
     }
   ],
-  "updatedAt": "2026-09-15T12:55:55.999574Z",
+  "updatedAt": "2026-09-19T10:23:31.173503Z",
   "source": "sql-relay-web"
 }
