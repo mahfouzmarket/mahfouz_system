@@ -7505,9 +7505,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -7529,7 +7529,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         }
       },
@@ -7539,7 +7539,7 @@
       "supplier": "JACK DIB",
       "subcategory": "CANDLES",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 1.35,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -29425,6 +29425,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-21T17:37:52.712517Z",
+  "updatedAt": "2026-09-21T17:43:59.964137Z",
   "source": "sql-relay-web"
 }
