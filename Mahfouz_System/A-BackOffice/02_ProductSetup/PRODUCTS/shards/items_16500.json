@@ -2372,7 +2372,7 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "115,000",
       "price_usd": "1.28",
       "cost": "1.13",
@@ -2381,7 +2381,7 @@
       "manual": "",
       "name": "MILKA OREO SANDWICH 92  GR",
       "subcategory": "chocolate bar",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -2400,15 +2400,20 @@
       "secondary_sub_category": "",
       "supplier": "MAHMOUD CHOCOLATE",
       "delivery_rules": "0.005",
-      "cost_ttc": 1.126,
-      "cost_ht": 1.126,
+      "cost_ttc": "1.2499",
+      "cost_ht": "1.1260",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13648-2026-02-20",
       "latest_purchase_cost_date": "2026-02-20",
       "costHtUsd": 1.126,
       "cost_ht_usd": 1.126,
-      "costTtcUsd": 1.126,
+      "costTtcUsd": 1.24986,
+      "category2": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 1.24986,
       "subCategory": "chocolate bar",
       "totalStock": "0"
     },
@@ -5894,9 +5899,9 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "515,000",
-      "price_usd": "5.75",
+      "price_usd": "5.72",
       "cost": "4.41",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16893.jpg",
       "new_items": "",
@@ -5905,7 +5910,7 @@
       "name": "LION CARAMEL & CHOCOLATE 400 G",
       "supplier": "PRODIGY SAL USD",
       "subcategory": "corn flakes",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -5916,8 +5921,23 @@
           "consumption": "0.0"
         }
       },
-      "subCategory": "corn flakes",
       "sub": "corn flakes",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ht": "4.4100",
+      "costHtUsd": 4.41,
+      "cost_ht_usd": 4.41,
+      "cost_ttc": "4.8951",
+      "costTtcUsd": 4.8951,
+      "cost_ttc_usd": 4.8951,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "subCategory": "corn flakes",
       "totalStock": "0"
     },
     {
@@ -8324,6 +8344,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-09-22T10:27:30.952707Z",
+  "updatedAt": "2026-09-22T10:34:49.729419Z",
   "source": "sql-relay-web"
 }
