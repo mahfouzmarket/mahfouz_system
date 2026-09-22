@@ -5121,7 +5121,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "SANDWICHES",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "13",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
@@ -5137,7 +5137,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "13"
         },
         "Medawar": {
@@ -5145,7 +5145,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "9"
         },
         "Firas": {
@@ -5173,7 +5173,7 @@
       "totalStock": "0",
       "description": "TURKEY AND CHEESE BROWN",
       "expiryDays": 5,
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "9",
       "cost_ttc": 4.71,
       "cost_currency": "USD",
@@ -5864,7 +5864,7 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "475,000",
       "price_usd": "5.28",
       "cost": "4.00",
@@ -5885,21 +5885,29 @@
       "name": "CAFE DANIEL 2PACKS SPECIAL OFFER",
       "supplier": "LEBANESE ROASTING GROUP SAL",
       "subcategory": "instant coffee",
-      "vat": "no",
+      "vat": "yes",
       "barcode2": "",
       "barcodes": "",
       "totalStock": "0",
-      "cost_ttc": 4.0,
-      "cost_ht": 4.0,
+      "cost_ttc": "4.4400",
+      "cost_ht": "4.0000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13306-2026-01-24",
       "latest_purchase_cost_date": "2026-01-24",
       "costHtUsd": 4.0,
       "cost_ht_usd": 4.0,
-      "costTtcUsd": 4.0,
-      "subCategory": "instant coffee",
-      "sub": "instant coffee"
+      "costTtcUsd": 4.44,
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 4.44,
+      "subCategory": "instant coffee"
     },
     {
       "id": "16881",
@@ -8421,7 +8429,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -8437,7 +8445,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "11"
         },
         "Medawar": {
@@ -8445,7 +8453,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -8471,7 +8479,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "0",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "cost_ttc": 4.19,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -8576,9 +8584,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "10",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "3",
+      "total_stock": "2",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -8594,7 +8602,7 @@
           "consumption": "10"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "1"
         },
         "Nouna": {
@@ -8623,7 +8631,7 @@
       "name": "FATTOUCH SALAD",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "3",
+      "totalStock": "2",
       "stock_in_nouna_branch": "1",
       "cost_ttc": 3.68,
       "cost_currency": "USD",
@@ -8647,7 +8655,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "13",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "4",
@@ -8663,7 +8671,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "13"
         },
         "Medawar": {
@@ -8671,7 +8679,7 @@
           "consumption": "4"
         },
         "Nouna": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "0"
         },
         "Firas": {
@@ -8697,7 +8705,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "4",
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "2",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 4.07,
       "cost_currency": "USD",
@@ -8720,7 +8728,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -8736,7 +8744,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "9"
         },
         "Medawar": {
@@ -8744,7 +8752,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -8770,7 +8778,7 @@
       "subcategory": "READY TO EAT",
       "vat": "no",
       "totalStock": "0",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "cost_ttc": 5.47,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -8785,6 +8793,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-09-22T11:32:41.667192Z",
+  "updatedAt": "2026-09-22T11:42:09.798458Z",
   "source": "sql-relay-web"
 }
