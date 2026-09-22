@@ -329,7 +329,7 @@
       "consumption_in_medawar_branch": "33",
       "total_stock": "71",
       "total_consumption": "59",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "70,000",
       "price_usd": "0.78",
       "cost": "0.40",
@@ -350,12 +350,12 @@
       "name": "KIT KAT 4FINGER",
       "supplier": "PRODIGY SAL USD",
       "subcategory": "sweets",
-      "vat": "no",
+      "vat": "yes",
       "barcode2": "40052458",
       "barcodes": "40052458",
       "totalStock": "71",
-      "cost_ttc": 0.44637857142857146,
-      "cost_ht": 0.40214285714285714,
+      "cost_ttc": "0.4464",
+      "cost_ht": "0.4021",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783067029925",
@@ -363,8 +363,16 @@
       "costHtUsd": 0.40214285714285714,
       "cost_ht_usd": 0.40214285714285714,
       "costTtcUsd": 0.44637857142857146,
-      "subCategory": "sweets",
-      "sub": "sweets"
+      "sub": "sweets",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 0.44637857142857146,
+      "subCategory": "sweets"
     },
     {
       "id": "4051",
@@ -1930,6 +1938,6 @@
       "subCategory": "Biscuits"
     }
   ],
-  "updatedAt": "2026-09-22T10:24:44.835350Z",
+  "updatedAt": "2026-09-22T10:44:25.118795Z",
   "source": "sql-relay-web"
 }
