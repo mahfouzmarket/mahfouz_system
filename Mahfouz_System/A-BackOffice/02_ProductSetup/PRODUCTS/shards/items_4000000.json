@@ -646,7 +646,7 @@
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "0",
       "total_consumption": "0.0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "690,000",
       "price_usd": "7.67",
       "cost": "4.12",
@@ -681,18 +681,26 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc": "4.1200",
-      "costTtcUsd": 4.12,
+      "cost_ttc": "4.5732",
+      "costTtcUsd": 4.573200000000001,
       "costHtUsd": 4.12,
       "cost_ht_usd": 4.12,
-      "cost_ttc_usd": 4.12,
+      "cost_ttc_usd": 4.573200000000001,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "totalStock": "0",
+      "supplier": "FARES MADI & CO",
+      "sub": "TOOLS",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "x",
+      "deliveryRules": "0.005",
       "subcategory": "TOOLS",
       "subCategory": "TOOLS",
-      "sub": "TOOLS",
-      "vat": "no"
+      "vat": "yes"
     },
     {
       "id": "4000012",
@@ -1247,6 +1255,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-22T11:01:14.768183Z",
+  "updatedAt": "2026-09-22T11:04:07.093830Z",
   "source": "sql-relay-web"
 }
