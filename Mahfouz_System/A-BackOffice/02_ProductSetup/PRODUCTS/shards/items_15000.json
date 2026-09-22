@@ -1249,11 +1249,11 @@
       "category": "FOOD",
       "sub_category": "KETCHUP, MAYO & MUSTARD",
       "offers": "0",
-      "stock_in_geitawi_branch": "14",
+      "stock_in_geitawi_branch": "13",
       "consumption_in_geitawi_branch": "24",
       "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "25",
-      "total_stock": "23",
+      "total_stock": "22",
       "total_consumption": "49",
       "VAT": "YES",
       "price_lbp": "120,000",
@@ -1265,7 +1265,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "14",
+          "stock": "13",
           "consumption": "24"
         },
         "Medawar": {
@@ -1279,7 +1279,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "23",
+      "totalStock": "22",
       "cost_ttc": 1.170125,
       "cost_ht": 1.0541666666666667,
       "cost_currency": "USD",
@@ -1990,7 +1990,7 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "240,000",
       "price_usd": "2.67",
       "cost": "2.22",
@@ -2011,17 +2011,28 @@
       "name": "MOULINDOR KAAK FINGERS 400 G",
       "supplier": "MOULIN D'OR",
       "subcategory": "BAKERY",
-      "vat": "no",
+      "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": 2.22222222222222,
-      "cost_ht": 2.22222222222222,
-      "cost_currency": "LBP",
-      "cost_vat_included": 0,
+      "cost_ttc": "2.4667",
+      "cost_ht": "2.2222",
+      "cost_currency": "USD",
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-G-8082-2026-01-06",
       "latest_purchase_cost_date": "2026-01-06",
-      "subCategory": "BAKERY",
       "sub": "BAKERY",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "costHtUsd": 2.2222222222222223,
+      "cost_ht_usd": 2.2222222222222223,
+      "costTtcUsd": 2.466666666666667,
+      "cost_ttc_usd": 2.466666666666667,
+      "subCategory": "BAKERY",
       "totalStock": "0"
     },
     {
@@ -7152,6 +7163,6 @@
       "subCategory": "sweets"
     }
   ],
-  "updatedAt": "2026-09-22T10:36:46.091702Z",
+  "updatedAt": "2026-09-22T10:46:57.844115Z",
   "source": "sql-relay-web"
 }
