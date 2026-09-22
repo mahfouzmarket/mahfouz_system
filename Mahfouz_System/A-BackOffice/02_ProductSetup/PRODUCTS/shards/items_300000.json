@@ -9040,9 +9040,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "30,000",
@@ -9064,7 +9064,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         }
       },
@@ -9074,7 +9074,7 @@
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 0.13,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -28133,14 +28133,14 @@
       "price_lbp": "85,000",
       "price_usd": "0.94",
       "cost": "0.62",
-      "cost_ttc": 0.6893114469273743,
-      "cost_ht": 0.6210013035381751,
+      "cost_ttc": 0.6854805000000002,
+      "cost_ht": 0.61755,
       "cost_currency": "LBP",
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300478.jpg",
       "new_items": "x",
-      "total_stock": "88",
-      "totalStock": "88",
+      "total_stock": "100",
+      "totalStock": "100",
       "stock_in_geitawi_branch": "58",
       "branches": {
         "Geitawi": {
@@ -28148,13 +28148,13 @@
           "consumption": "78"
         },
         "Medawar": {
-          "stock": "30",
+          "stock": "42",
           "consumption": "28"
         }
       },
       "consumption_in_geitawi_branch": "78",
       "total_consumption": "106",
-      "stock_in_medawar_branch": "30",
+      "stock_in_medawar_branch": "42",
       "consumption_in_medawar_branch": "28",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300478.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300478.jpg",
@@ -28192,14 +28192,14 @@
       "price_lbp": "85,000",
       "price_usd": "0.94",
       "cost": "0.62",
-      "cost_ttc": 0.6893114469273743,
-      "cost_ht": 0.6210013035381751,
+      "cost_ttc": 0.6854805000000002,
+      "cost_ht": 0.61755,
       "cost_currency": "LBP",
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300479.jpg",
       "new_items": "x",
-      "total_stock": "136",
-      "totalStock": "136",
+      "total_stock": "153",
+      "totalStock": "153",
       "stock_in_geitawi_branch": "64",
       "branches": {
         "Geitawi": {
@@ -28207,11 +28207,11 @@
           "consumption": "42"
         },
         "Medawar": {
-          "stock": "72",
+          "stock": "89",
           "consumption": "42"
         }
       },
-      "stock_in_medawar_branch": "72",
+      "stock_in_medawar_branch": "89",
       "consumption_in_geitawi_branch": "42",
       "consumption_in_medawar_branch": "42",
       "total_consumption": "84",
@@ -29425,6 +29425,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-22T06:42:08.342003Z",
+  "updatedAt": "2026-09-22T06:54:36.399710Z",
   "source": "sql-relay-web"
 }
