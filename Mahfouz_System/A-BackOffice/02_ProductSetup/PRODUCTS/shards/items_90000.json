@@ -5340,15 +5340,15 @@
       "product_description": "VALENTINE ROCHER TRA",
       "description": "VALENTINE ROCHER TRA",
       "brand": "",
-      "supplier": "",
+      "supplier": "NOUNA'S FOOD",
       "SUPPLIERS": "NOUNA'S FOOD",
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "subcategory": "sweets",
       "subCategory": "sweets",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": "no",
+      "VAT": "YES",
+      "vat": "yes",
       "price_lbp": "2,430,000",
       "cost": "22.50",
       "total_stock": "0",
@@ -5408,7 +5408,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "22.50",
+      "cost_ht": "22.5000",
       "costUsd": 22.5,
       "cost_ht_usd": 22.5,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -5434,7 +5434,17 @@
       "linked_profile_item_id": "90123",
       "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0"
+      "stock_in_firas_branch": "0",
+      "category2": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "costHtUsd": 22.5,
+      "cost_ttc": "24.9750",
+      "costTtcUsd": 24.975,
+      "cost_ttc_usd": 24.975,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "90124",
@@ -8362,7 +8372,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "41",
+          "stock": "40",
           "consumption": "38"
         },
         "Nouna": {
@@ -8374,8 +8384,8 @@
           "consumption": "0"
         }
       },
-      "stock_in_medawar_branch": "41",
-      "total_stock": "108",
+      "stock_in_medawar_branch": "40",
+      "total_stock": "107",
       "Product Description": "POPSICLES ACHTA&PISTACHIO",
       "SUPPLIERS": "bisous douceur",
       "stock_in_geitawi_branch": "-1",
@@ -8390,7 +8400,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "108",
+      "totalStock": "107",
       "secondBarcode": "",
       "product_description": "POPSICLES ACHTA&PISTACHIO",
       "description": "POPSICLES ACHTA&PISTACHIO",
@@ -10128,6 +10138,6 @@
       "subCategory": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-09-22T10:34:05.811648Z",
+  "updatedAt": "2026-09-22T10:44:25.118795Z",
   "source": "sql-relay-web"
 }
