@@ -2330,7 +2330,7 @@
       "consumption_in_medawar_branch": "37",
       "total_stock": "175",
       "total_consumption": "61",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "45,000",
       "price_usd": "0.50",
       "cost": "0.25",
@@ -2351,12 +2351,12 @@
       "name": "HALLS CHERRY FLAVOR",
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "candies",
-      "vat": "no",
+      "vat": "yes",
       "barcode2": "",
       "barcodes": "",
       "totalStock": "175",
-      "cost_ttc": 0.27500250000000004,
-      "cost_ht": 0.24775,
+      "cost_ttc": "0.2750",
+      "cost_ht": "0.2477",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781684683323",
@@ -2364,8 +2364,16 @@
       "costHtUsd": 0.24775,
       "cost_ht_usd": 0.24775,
       "costTtcUsd": 0.27500250000000004,
-      "subCategory": "candies",
-      "sub": "candies"
+      "sub": "candies",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 0.27500250000000004,
+      "subCategory": "candies"
     },
     {
       "id": "13144",
@@ -8126,6 +8134,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-09-22T10:22:15.696690Z",
+  "updatedAt": "2026-09-22T10:28:38.915950Z",
   "source": "sql-relay-web"
 }
