@@ -1050,7 +1050,7 @@
       "consumption_in_medawar_branch": "1",
       "total_stock": "11",
       "total_consumption": "4",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "160,000",
       "price_usd": "1.78",
       "cost": "1.00",
@@ -1071,21 +1071,29 @@
       "name": "SCOTCH BIG",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
-      "vat": "no",
+      "vat": "yes",
       "barcode2": "",
       "barcodes": "",
       "totalStock": "11",
-      "cost_ttc": 1.0,
-      "cost_ht": 1.0,
+      "cost_ttc": "1.1100",
+      "cost_ht": "1.0000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781770324783",
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
-      "costTtcUsd": 1.0,
-      "subCategory": "TOOLS",
-      "sub": "TOOLS"
+      "costTtcUsd": 1.11,
+      "sub": "TOOLS",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 1.11,
+      "subCategory": "TOOLS"
     },
     {
       "id": "9389",
@@ -1290,6 +1298,6 @@
       "subCategory": "DISH WASHING"
     }
   ],
-  "updatedAt": "2026-09-22T11:01:29.304676Z",
+  "updatedAt": "2026-09-22T11:04:07.093830Z",
   "source": "sql-relay-web"
 }
