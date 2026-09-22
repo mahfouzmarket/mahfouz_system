@@ -4037,7 +4037,7 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "15,000",
       "price_usd": "0.17",
       "cost": "0.11",
@@ -4048,7 +4048,7 @@
       "name": "BONJUS ORANGE 180 ML",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "juice",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -4059,8 +4059,8 @@
           "consumption": "0"
         }
       },
-      "cost_ttc": 0.12051428571428573,
-      "cost_ht": 0.10857142857142857,
+      "cost_ttc": "0.1205",
+      "cost_ht": "0.1086",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13241-2026-01-20",
@@ -4069,8 +4069,16 @@
       "cost_ht_usd": 0.10857142857142857,
       "costTtcUsd": 0.12051428571428573,
       "totalStock": "0",
-      "subCategory": "juice",
-      "sub": "juice"
+      "sub": "juice",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 0.12051428571428573,
+      "subCategory": "juice"
     },
     {
       "id": "17718",
@@ -8613,6 +8621,6 @@
       "sub": "shaving"
     }
   ],
-  "updatedAt": "2026-09-22T10:10:22.239931Z",
+  "updatedAt": "2026-09-22T10:27:30.952707Z",
   "source": "sql-relay-web"
 }
