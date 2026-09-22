@@ -295,7 +295,7 @@
       "consumption_in_medawar_branch": "3",
       "total_stock": "13",
       "total_consumption": "7",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "115,000",
       "price_usd": "1.28",
       "cost": "0.97",
@@ -316,21 +316,29 @@
       "name": "MAGIC CHEF SALT 700G.",
       "supplier": "MANY FOOD SARL",
       "subcategory": "cans & jams",
-      "vat": "no",
+      "vat": "yes",
       "barcode2": "",
       "barcodes": "",
       "totalStock": "13",
-      "cost_ttc": 0.9716666666666667,
-      "cost_ht": 0.9716666666666667,
+      "cost_ttc": "1.0786",
+      "cost_ht": "0.9717",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-G-9103-2026-04-10",
       "latest_purchase_cost_date": "2026-04-10",
       "costHtUsd": 0.9716666666666667,
       "cost_ht_usd": 0.9716666666666667,
-      "costTtcUsd": 0.9716666666666667,
-      "subCategory": "cans & jams",
-      "sub": "cans & jams"
+      "costTtcUsd": 1.0785500000000001,
+      "sub": "cans & jams",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 1.0785500000000001,
+      "subCategory": "cans & jams"
     },
     {
       "id": "5740",
@@ -2625,6 +2633,6 @@
       "sub": "herbs & spices"
     }
   ],
-  "updatedAt": "2026-09-22T11:42:30.828519Z",
+  "updatedAt": "2026-09-22T11:47:47.356047Z",
   "source": "sql-relay-web"
 }
