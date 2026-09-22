@@ -288,7 +288,7 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "135,000",
       "price_usd": "1.50",
       "cost": "1.03",
@@ -299,7 +299,7 @@
       "name": "MOGU MOGU JUICE LECHEE 320 ML",
       "supplier": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "juice",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -310,8 +310,23 @@
           "consumption": "0"
         }
       },
-      "subCategory": "juice",
       "sub": "juice",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ht": "1.0300",
+      "costHtUsd": 1.03,
+      "cost_ht_usd": 1.03,
+      "cost_ttc": "1.1433",
+      "costTtcUsd": 1.1433000000000002,
+      "cost_ttc_usd": 1.1433000000000002,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "subCategory": "juice",
       "totalStock": "0"
     },
     {
@@ -5767,7 +5782,7 @@
       "consumption_in_medawar_branch": "9",
       "total_stock": "4",
       "total_consumption": "9",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "75,000",
       "price_usd": "0.83",
       "cost": "0.56",
@@ -5778,7 +5793,7 @@
       "name": "KAZOUZA WATERMELON 275 ML",
       "supplier": "MANY FOOD SARL",
       "subcategory": "COLD DRINKS",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -5790,15 +5805,23 @@
         }
       },
       "totalStock": "4",
-      "cost_ttc": 0.5583333333333333,
-      "cost_ht": 0.5583333333333333,
-      "costTtcUsd": 0.5583333333333333,
+      "cost_ttc": "0.6198",
+      "cost_ht": "0.5583",
+      "costTtcUsd": 0.61975,
       "costHtUsd": 0.5583333333333333,
       "cost_ht_usd": 0.5583333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": false,
-      "subCategory": "COLD DRINKS",
-      "sub": "COLD DRINKS"
+      "cost_vat_included": true,
+      "sub": "COLD DRINKS",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 0.61975,
+      "subCategory": "COLD DRINKS"
     },
     {
       "id": "16891",
@@ -5815,7 +5838,7 @@
       "consumption_in_medawar_branch": "28",
       "total_stock": "41",
       "total_consumption": "45",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "75,000",
       "price_usd": "0.83",
       "cost": "0.56",
@@ -5826,7 +5849,7 @@
       "name": "KAZOUZA LEMON MINT 275 ML",
       "supplier": "MANY FOOD SARL",
       "subcategory": "COLD DRINKS",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "29",
@@ -5838,15 +5861,23 @@
         }
       },
       "totalStock": "41",
-      "cost_ttc": 0.61975,
-      "cost_ht": 0.5583333333333333,
+      "cost_ttc": "0.6198",
+      "cost_ht": "0.5583",
       "costTtcUsd": 0.61975,
       "costHtUsd": 0.5583333333333333,
       "cost_ht_usd": 0.5583333333333333,
       "cost_currency": "USD",
       "cost_vat_included": true,
-      "subCategory": "COLD DRINKS",
-      "sub": "COLD DRINKS"
+      "sub": "COLD DRINKS",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 0.61975,
+      "subCategory": "COLD DRINKS"
     },
     {
       "id": "16893",
@@ -8293,6 +8324,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-09-22T10:14:01.282580Z",
+  "updatedAt": "2026-09-22T10:27:30.952707Z",
   "source": "sql-relay-web"
 }
