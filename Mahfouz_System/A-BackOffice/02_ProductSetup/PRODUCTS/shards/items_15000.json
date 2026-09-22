@@ -311,15 +311,15 @@
       "product_description": "RUSSIAN STANDARD 70CL",
       "description": "RUSSIAN STANDARD 70CL",
       "brand": "",
-      "supplier": "",
+      "supplier": "RABIH ALCOOL",
       "SUPPLIERS": "RABIH ALCOOL",
       "category": "ALCOHOL 18+ (RESTRICTED)",
       "sub_category": "Vodka",
       "subcategory": "Vodka",
       "subCategory": "Vodka",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": "no",
+      "VAT": "YES",
+      "vat": "yes",
       "price_lbp": "665,000",
       "cost": "6.16",
       "total_stock": "0",
@@ -373,7 +373,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "6.16",
+      "cost_ht": "6.1600",
       "costUsd": 6.16,
       "cost_ht_usd": 6.16,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -392,7 +392,17 @@
       "scalePlu": 0,
       "price_usd": "7.39",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15040.jpg",
-      "totalStock": "0"
+      "totalStock": "0",
+      "category2": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "costHtUsd": 6.16,
+      "cost_ttc": "6.8376",
+      "costTtcUsd": 6.837600000000001,
+      "cost_ttc_usd": 6.837600000000001,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "15048",
@@ -5836,9 +5846,9 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "1,460,000",
-      "price_usd": "16.31",
+      "price_usd": "16.22",
       "cost": "12.32",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID15434.jpg",
       "new_items": "",
@@ -5847,7 +5857,7 @@
       "name": "CHATEA KA 2 SCOURE DE ROUGE+1 SCOURE BLAN",
       "supplier": "KASSATLY CHTOURA SAL USD",
       "subcategory": "wine",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -5858,8 +5868,23 @@
           "consumption": "0"
         }
       },
-      "subCategory": "wine",
       "sub": "wine",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ht": "12.3200",
+      "costHtUsd": 12.32,
+      "cost_ht_usd": 12.32,
+      "cost_ttc": "13.6752",
+      "costTtcUsd": 13.675200000000002,
+      "cost_ttc_usd": 13.675200000000002,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "subCategory": "wine",
       "totalStock": "0"
     },
     {
@@ -7107,6 +7132,6 @@
       "subCategory": "sweets"
     }
   ],
-  "updatedAt": "2026-09-22T10:15:48.066772Z",
+  "updatedAt": "2026-09-22T10:27:09.934888Z",
   "source": "sql-relay-web"
 }
