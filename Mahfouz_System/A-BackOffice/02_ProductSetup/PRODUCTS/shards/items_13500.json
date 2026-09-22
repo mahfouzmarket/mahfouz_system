@@ -2021,15 +2021,15 @@
       "product_description": "MASTER KETTLE COOKED SALT&VIN 42G",
       "description": "MASTER KETTLE COOKED SALT&VIN 42G",
       "brand": "",
-      "supplier": "",
+      "supplier": "DELTA TRADING USD",
       "SUPPLIERS": "DELTA TRADING USD",
       "category": "CHIPS",
       "sub_category": "MASTER",
       "subcategory": "MASTER",
       "subCategory": "MASTER",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": "no",
+      "VAT": "YES",
+      "vat": "yes",
       "price_lbp": "50,000",
       "cost": "0.46",
       "total_stock": "0",
@@ -2083,7 +2083,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.46",
+      "cost_ht": "0.4600",
       "costUsd": 0.46,
       "cost_ht_usd": 0.46,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -2103,7 +2103,17 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "0.56",
-      "totalStock": "0"
+      "totalStock": "0",
+      "category2": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "costHtUsd": 0.46,
+      "cost_ttc": "0.5106",
+      "costTtcUsd": 0.5106,
+      "cost_ttc_usd": 0.5106,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "13628",
@@ -2624,9 +2634,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "91",
-      "stock_in_medawar_branch": "28",
+      "stock_in_medawar_branch": "27",
       "consumption_in_medawar_branch": "115",
-      "total_stock": "35",
+      "total_stock": "34",
       "total_consumption": "206",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -2642,7 +2652,7 @@
           "consumption": "91"
         },
         "Medawar": {
-          "stock": "28",
+          "stock": "27",
           "consumption": "115"
         }
       },
@@ -2652,7 +2662,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "35",
+      "totalStock": "34",
       "cost_ttc": 0.8001250000000001,
       "cost_ht": 0.7208333333333333,
       "cost_currency": "USD",
@@ -5465,11 +5475,11 @@
       "category": "FOOD",
       "sub_category": "ICE",
       "offers": "0",
-      "stock_in_geitawi_branch": "108",
+      "stock_in_geitawi_branch": "107",
       "consumption_in_geitawi_branch": "239",
       "stock_in_medawar_branch": "64",
       "consumption_in_medawar_branch": "540",
-      "total_stock": "172",
+      "total_stock": "171",
       "total_consumption": "779",
       "VAT": "NO",
       "price_lbp": "50,000",
@@ -5481,7 +5491,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "108",
+          "stock": "107",
           "consumption": "239"
         },
         "Medawar": {
@@ -5495,7 +5505,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "172",
+      "totalStock": "171",
       "cost_ttc": 0.38875000000000004,
       "cost_ht": 0.38875000000000004,
       "cost_currency": "USD",
@@ -8493,6 +8503,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-09-22T10:46:13.701361Z",
+  "updatedAt": "2026-09-22T10:52:47.843201Z",
   "source": "sql-relay-web"
 }
