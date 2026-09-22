@@ -94,15 +94,15 @@
       "product_description": "OREO BISCUIT",
       "description": "OREO BISCUIT",
       "brand": "",
-      "supplier": "",
+      "supplier": "MAHMOUD CHOCOLATE USD",
       "SUPPLIERS": "MAHMOUD CHOCOLATE USD",
       "category": "CHI TAYIB",
       "sub_category": "Digestive Biscuits",
       "subcategory": "Digestive Biscuits",
       "subCategory": "Digestive Biscuits",
       "unit": "EACH",
-      "VAT": "NO",
-      "vat": "no",
+      "VAT": "YES",
+      "vat": "yes",
       "price_lbp": "40,000",
       "cost": "0.37",
       "total_stock": "0",
@@ -156,7 +156,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.37",
+      "cost_ht": "0.3700",
       "costUsd": 0.37,
       "cost_ht_usd": 0.37,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -176,7 +176,17 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "0.44",
-      "totalStock": "0"
+      "totalStock": "0",
+      "category2": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "costHtUsd": 0.37,
+      "cost_ttc": "0.4107",
+      "costTtcUsd": 0.4107,
+      "cost_ttc_usd": 0.4107,
+      "cost_currency": "USD",
+      "cost_vat_included": true
     },
     {
       "id": "13013",
@@ -352,9 +362,9 @@
       "offers": "-",
       "stock_in_geitawi_branch": "22",
       "consumption_in_geitawi_branch": "15",
-      "stock_in_medawar_branch": "85",
+      "stock_in_medawar_branch": "84",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "107",
+      "total_stock": "106",
       "total_consumption": "39",
       "VAT": "NO",
       "price_lbp": "500,000",
@@ -371,7 +381,7 @@
           "consumption": "15"
         },
         "Medawar": {
-          "stock": "85",
+          "stock": "84",
           "consumption": "24"
         },
         "The Daily Market": {
@@ -405,7 +415,7 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "107",
+      "totalStock": "106",
       "cost_ttc": 4.274274,
       "cost_currency": "USD",
       "cost_vat_included": 0,
@@ -8134,6 +8144,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-09-22T10:31:33.054499Z",
+  "updatedAt": "2026-09-22T10:41:58.136777Z",
   "source": "sql-relay-web"
 }
