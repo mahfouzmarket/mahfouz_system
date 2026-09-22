@@ -10614,7 +10614,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "45",
       "branches": {
         "Geitawi": {
@@ -10622,11 +10622,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "5",
           "consumption": "45"
         }
       },
-      "total_stock": "-1",
+      "total_stock": "5",
       "total_consumption": "45",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -10634,7 +10634,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "-1",
+      "totalStock": "5",
       "cost_ttc": 2.2755000000000005,
       "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
@@ -12415,7 +12415,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "40",
       "branches": {
         "Geitawi": {
@@ -12423,11 +12423,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "7",
           "consumption": "40"
         }
       },
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "40",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -12435,16 +12435,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
-      "cost_ttc": 2.0500000000000003,
+      "totalStock": "7",
+      "cost_ttc": 2.2755000000000005,
       "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782485034104",
       "latest_purchase_cost_date": "2026-06-26",
       "costHtUsd": 2.0500000000000003,
       "cost_ht_usd": 2.0500000000000003,
-      "costTtcUsd": 2.0500000000000003,
+      "costTtcUsd": 2.2755000000000005,
       "subCategory": "YOGURT"
     },
     {
@@ -14317,7 +14317,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "29",
       "branches": {
         "Geitawi": {
@@ -14325,11 +14325,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "18",
           "consumption": "29"
         }
       },
-      "total_stock": "12",
+      "total_stock": "18",
       "total_consumption": "29",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -14337,16 +14337,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "12",
-      "cost_ttc": 2.5197000000000003,
+      "totalStock": "18",
+      "cost_ttc": 2.27,
       "cost_ht": 2.27,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781670476989",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 2.27,
       "cost_ht_usd": 2.27,
-      "costTtcUsd": 2.5197000000000003,
+      "costTtcUsd": 2.27,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -20771,14 +20771,14 @@
           "consumption": "204"
         },
         "Medawar": {
-          "stock": "38",
+          "stock": "35",
           "consumption": "152"
         }
       },
       "stock_in_geitawi_branch": "14",
-      "total_stock": "52",
+      "total_stock": "49",
       "cost": "0.41",
-      "stock_in_medawar_branch": "38",
+      "stock_in_medawar_branch": "35",
       "Product Description": "CHOCO PRINCE 25 G ()",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
@@ -20792,7 +20792,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "52",
+      "totalStock": "49",
       "cost_ttc": 0.4125,
       "cost_ht": 0.4125,
       "cost_currency": "USD",
@@ -25293,6 +25293,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-09-22T05:55:27.318758Z",
+  "updatedAt": "2026-09-22T06:10:02.454008Z",
   "source": "sql-relay-web"
 }
