@@ -1331,7 +1331,7 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "8",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "65,000",
       "price_usd": "0.72",
       "cost": "0.53",
@@ -1342,7 +1342,7 @@
       "name": "LACES SHOES",
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "4",
@@ -1356,8 +1356,23 @@
       "barcode2": "",
       "barcodes": "",
       "totalStock": "8",
-      "subCategory": "TOOLS",
-      "sub": "TOOLS"
+      "sub": "TOOLS",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ht": "0.5300",
+      "costHtUsd": 0.53,
+      "cost_ht_usd": 0.53,
+      "cost_ttc": "0.5883",
+      "costTtcUsd": 0.5883,
+      "cost_ttc_usd": 0.5883,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "subCategory": "TOOLS"
     },
     {
       "id": "7987",
@@ -1403,6 +1418,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-22T07:58:00.495947Z",
+  "updatedAt": "2026-09-22T11:04:07.093830Z",
   "source": "sql-relay-web"
 }
