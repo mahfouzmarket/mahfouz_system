@@ -2488,9 +2488,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "52",
       "consumption_in_geitawi_branch": "327",
-      "stock_in_medawar_branch": "16",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "81",
-      "total_stock": "68",
+      "total_stock": "67",
       "total_consumption": "408",
       "VAT": "NO",
       "price_lbp": "250,000",
@@ -2506,7 +2506,7 @@
           "consumption": "327"
         },
         "Medawar": {
-          "stock": "16",
+          "stock": "15",
           "consumption": "81"
         }
       },
@@ -2525,7 +2525,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-15139-1779081633380051",
       "product_setup_saved_at_utc": "2026-05-18T05:20:33.380051Z",
-      "totalStock": "68",
+      "totalStock": "67",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -2636,7 +2636,7 @@
       "consumption_in_medawar_branch": "6",
       "total_stock": "30",
       "total_consumption": "12",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "270,000",
       "price_usd": "3.00",
       "cost": "2.15",
@@ -2657,21 +2657,29 @@
       "name": "CAFE EM KAREEM 180 G",
       "supplier": "MTANIOS TRADING SARL",
       "subcategory": "instant coffee",
-      "vat": "no",
+      "vat": "yes",
       "barcode2": "",
       "barcodes": "",
       "totalStock": "30",
-      "cost_ttc": 2.15,
-      "cost_ht": 2.15,
+      "cost_ttc": "2.3865",
+      "cost_ht": "2.1500",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779694400284",
       "latest_purchase_cost_date": "2026-05-25",
       "costHtUsd": 2.15,
       "cost_ht_usd": 2.15,
-      "costTtcUsd": 2.15,
-      "subCategory": "instant coffee",
-      "sub": "instant coffee"
+      "costTtcUsd": 2.3865000000000003,
+      "sub": "instant coffee",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 2.3865000000000003,
+      "subCategory": "instant coffee"
     },
     {
       "id": "15142",
@@ -7495,6 +7503,6 @@
       "subCategory": "sweets"
     }
   ],
-  "updatedAt": "2026-09-22T11:31:11.301319Z",
+  "updatedAt": "2026-09-22T11:42:09.798458Z",
   "source": "sql-relay-web"
 }
