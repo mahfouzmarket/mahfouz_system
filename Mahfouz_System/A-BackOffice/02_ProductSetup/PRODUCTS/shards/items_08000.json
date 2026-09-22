@@ -2297,9 +2297,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "18",
+      "total_stock": "11",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "190,000",
@@ -2323,22 +2323,33 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "0",
           "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "18",
-      "cost_ttc": 1.443,
-      "cost_ht": 1.3,
+      "totalStock": "11",
+      "cost_ttc": "1.4430",
+      "cost_ht": "1.3000",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13428-2026-02-02",
       "latest_purchase_cost_date": "2026-02-02",
       "costHtUsd": 1.3,
       "cost_ht_usd": 1.3,
-      "costTtcUsd": 1.443,
+      "costTtcUsd": 1.4430000000000003,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.4430000000000003,
       "subCategory": "BATTERIES"
     },
     {
@@ -2956,6 +2967,6 @@
       "sub": "CANDLES"
     }
   ],
-  "updatedAt": "2026-09-22T11:49:58.615597Z",
+  "updatedAt": "2026-09-22T14:56:39.627419Z",
   "source": "sql-relay-web"
 }
