@@ -3859,7 +3859,7 @@
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
-      "VAT": "NO",
+      "VAT": "YES",
       "price_lbp": "25,000",
       "price_usd": "0.28",
       "cost": "0.20",
@@ -3870,7 +3870,7 @@
       "name": "FRETZEL SWEET CHILI PEPPER",
       "supplier": "MANY FOOD SARL",
       "subcategory": "Crackers",
-      "vat": "no",
+      "vat": "yes",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -3881,8 +3881,23 @@
           "consumption": "0"
         }
       },
-      "subCategory": "Crackers",
       "sub": "Crackers",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ht": "0.2000",
+      "costHtUsd": 0.2,
+      "cost_ht_usd": 0.2,
+      "cost_ttc": "0.2220",
+      "costTtcUsd": 0.22200000000000003,
+      "cost_ttc_usd": 0.22200000000000003,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "subCategory": "Crackers",
       "totalStock": "0"
     },
     {
@@ -13045,6 +13060,6 @@
       "subCategory": "SNIPS"
     }
   ],
-  "updatedAt": "2026-09-22T10:10:22.239931Z",
+  "updatedAt": "2026-09-22T10:35:23.335847Z",
   "source": "sql-relay-web"
 }
