@@ -8486,9 +8486,9 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "11",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "11",
@@ -8502,11 +8502,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "11"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Nouna": {
@@ -8850,6 +8850,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-09-23T05:22:48.053191Z",
+  "updatedAt": "2026-09-23T05:31:11.100717Z",
   "source": "sql-relay-web"
 }
