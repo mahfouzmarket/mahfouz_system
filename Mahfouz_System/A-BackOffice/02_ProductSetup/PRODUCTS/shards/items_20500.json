@@ -3335,9 +3335,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "160,000",
@@ -3357,13 +3357,13 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
+      "totalStock": "1",
       "cost_ttc": "1.1100",
       "cost_ht": "1.0000",
       "cost_currency": "USD",
@@ -3382,6 +3382,16 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 1.11,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
       "subCategory": "CANDLES"
     },
     {
@@ -18780,9 +18790,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "46",
-      "stock_in_medawar_branch": "31",
+      "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "38",
-      "total_stock": "55",
+      "total_stock": "54",
       "total_consumption": "84",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -18798,7 +18808,7 @@
           "consumption": "46"
         },
         "Medawar": {
-          "stock": "31",
+          "stock": "30",
           "consumption": "38"
         }
       },
@@ -18812,7 +18822,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "55",
+      "totalStock": "54",
       "cost_ttc": 0.45209375,
       "cost_ht": 0.40729166666666666,
       "cost_currency": "USD",
@@ -28632,6 +28642,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-09-23T12:02:23.581807Z",
+  "updatedAt": "2026-09-23T12:35:45.359920Z",
   "source": "sql-relay-web"
 }
