@@ -4848,9 +4848,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "9",
+      "total_stock": "5",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -4872,7 +4872,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "0",
           "consumption": "1"
         }
       },
@@ -4882,7 +4882,7 @@
       "supplier": "JACK DIB",
       "subcategory": "TOOTH CARE",
       "vat": "yes",
-      "totalStock": "9",
+      "totalStock": "5",
       "cost_ttc": "0.6475",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -4900,6 +4900,15 @@
       "newItems": "x",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 0.6475000000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
       "subCategory": "TOOTH CARE"
     },
     {
@@ -8879,6 +8888,9 @@
       "newItems": "x",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 4.44,
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300147.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300147.jpg",
+      "image_updated_at_utc": "2026-09-23T16:53:30.229734Z",
       "subCategory": "TOOTH CARE"
     },
     {
@@ -30769,6 +30781,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-23T16:51:41.131146Z",
+  "updatedAt": "2026-09-23T16:53:30.229734Z",
   "source": "sql-relay-web"
 }
