@@ -1938,7 +1938,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
@@ -1946,11 +1946,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         }
       },
-      "total_stock": "3",
+      "total_stock": "2",
       "total_consumption": "0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -1958,7 +1958,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "3",
+      "totalStock": "2",
       "cost_ttc": "1.1100",
       "cost_ht": "1.0000",
       "cost_currency": "USD",
@@ -1973,6 +1973,16 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 1.11,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
       "subCategory": "hair care"
     },
     {
@@ -15885,13 +15895,13 @@
       "SUPPLIERS": "SADAPACK",
       "subcategory": "deodorant & roll on",
       "vat": "yes",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -15899,7 +15909,7 @@
           "consumption": "0.0"
         }
       },
-      "total_stock": "3",
+      "total_stock": "2",
       "total_consumption": "0.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -15921,8 +15931,8 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 1.5073800000000002,
-      "subCategory": "deodorant & roll on",
-      "totalStock": "3"
+      "totalStock": "2",
+      "subCategory": "deodorant & roll on"
     },
     {
       "id": "21785",
@@ -22312,14 +22322,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "58",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "63",
       "consumption_in_geitawi_branch": "29",
-      "total_stock": "60",
+      "total_stock": "59",
       "total_consumption": "92",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "29"
         },
         "Medawar": {
@@ -22345,7 +22355,7 @@
       "product_setup_saved_at_utc": "2026-04-28T17:22:10.951677Z",
       "subcategory": "Digestive Biscuits",
       "vat": "yes",
-      "totalStock": "60",
+      "totalStock": "59",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -22997,14 +23007,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "766",
-      "stock_in_geitawi_branch": "25",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_medawar_branch": "108",
       "consumption_in_geitawi_branch": "85",
-      "total_stock": "791",
+      "total_stock": "787",
       "total_consumption": "193",
       "branches": {
         "Geitawi": {
-          "stock": "25",
+          "stock": "21",
           "consumption": "85"
         },
         "Medawar": {
@@ -23026,7 +23036,7 @@
       "new_items": "x",
       "subcategory": "instant coffee",
       "vat": "yes",
-      "totalStock": "791",
+      "totalStock": "787",
       "cost_ttc": "0.1868",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -26218,6 +26228,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-09-23T15:04:34.938531Z",
+  "updatedAt": "2026-09-23T15:22:39.563804Z",
   "source": "sql-relay-web"
 }
