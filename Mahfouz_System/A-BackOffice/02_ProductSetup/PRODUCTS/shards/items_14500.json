@@ -6244,13 +6244,13 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "85,000",
-      "price_usd": "0.95",
+      "price_usd": "0.94",
       "cost": "0.65",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14943.jpg",
       "new_items": "",
@@ -6264,7 +6264,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "2"
         }
       },
@@ -6276,16 +6276,27 @@
       "secondary_sub_category": "",
       "supplier": "JACK DIB",
       "delivery_rules": "0.005",
-      "totalStock": "1",
-      "cost_ttc": 0.7215,
-      "cost_ht": 0.65,
+      "totalStock": "0",
+      "cost_ttc": "0.7215",
+      "cost_ht": "0.6500",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14412",
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 0.65,
       "cost_ht_usd": 0.65,
-      "costTtcUsd": 0.7215,
+      "costTtcUsd": 0.7215000000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.7215000000000001,
       "subCategory": "shampoo & cond"
     },
     {
@@ -7633,6 +7644,6 @@
       "subCategory": "arak"
     }
   ],
-  "updatedAt": "2026-09-23T15:39:57.243151Z",
+  "updatedAt": "2026-09-23T15:47:12.188637Z",
   "source": "sql-relay-web"
 }
