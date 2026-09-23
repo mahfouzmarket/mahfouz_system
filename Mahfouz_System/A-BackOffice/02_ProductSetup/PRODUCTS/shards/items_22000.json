@@ -442,17 +442,17 @@
       "vat": "no",
       "price_lbp": "200,000",
       "cost": "1.85",
-      "total_stock": "4",
+      "total_stock": "0",
       "total_consumption": "0",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
           "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "0",
           "consumption": "0"
         },
         "geitawi": {
@@ -499,7 +499,7 @@
       "delivery_rules": "0.005",
       "expiry_days": "0",
       "price_usd": "2.22",
-      "cost_ht": 1.85,
+      "cost_ht": "1.8500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID22010.jpg",
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
@@ -512,7 +512,7 @@
       "cost_ht_usd": 1.85,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
-      "totalStock": "4",
+      "totalStock": "0",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -522,15 +522,14 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "cost_ttc": 1.85,
+      "cost_ttc": "1.8500",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_NOUNA_STOCK_ZERO_GEITAWI_20260531",
       "latest_purchase_cost_date": "2026-05-31",
       "costHtUsd": 1.85,
-      "costTtcUsd": 1.85
+      "costTtcUsd": 1.85,
+      "cost_ttc_usd": 1.85
     },
     {
       "id": "22019",
@@ -832,6 +831,6 @@
       "costTtcUsd": 1.34976
     }
   ],
-  "updatedAt": "2026-09-23T07:01:25.093317Z",
+  "updatedAt": "2026-09-23T14:49:50.919263Z",
   "source": "sql-relay-web"
 }
