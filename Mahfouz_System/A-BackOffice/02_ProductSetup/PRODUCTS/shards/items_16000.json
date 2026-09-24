@@ -2514,9 +2514,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "95,000",
@@ -2532,7 +2532,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         }
       },
@@ -2542,9 +2542,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
+      "totalStock": "-1",
       "subCategory": "TEA",
-      "sub": "TEA",
-      "totalStock": "0"
+      "sub": "TEA"
     },
     {
       "id": "16176",
@@ -7570,6 +7570,6 @@
       "sub": "cans & jams"
     }
   ],
-  "updatedAt": "2026-09-24T04:42:41.222349Z",
+  "updatedAt": "2026-09-24T06:16:38.828599Z",
   "source": "sql-relay-web"
 }
