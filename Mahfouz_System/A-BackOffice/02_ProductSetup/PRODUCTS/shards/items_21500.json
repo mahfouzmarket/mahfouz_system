@@ -7998,7 +7998,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "0.0",
       "branches": {
         "Geitawi": {
@@ -8006,11 +8006,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "24",
           "consumption": "0.0"
         }
       },
-      "total_stock": "0",
+      "total_stock": "24",
       "total_consumption": "0.0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -8018,8 +8018,15 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "subCategory": "marshmallow & jellybon",
-      "totalStock": "0"
+      "totalStock": "24",
+      "cost_ttc": 0.13875,
+      "cost_ht": 0.125,
+      "costTtcUsd": 0.13875,
+      "costHtUsd": 0.125,
+      "cost_ht_usd": 0.125,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "subCategory": "marshmallow & jellybon"
     },
     {
       "id": "21653",
@@ -21639,14 +21646,14 @@
           "consumption": "204"
         },
         "Medawar": {
-          "stock": "-4",
+          "stock": "-9",
           "consumption": "152"
         }
       },
       "stock_in_geitawi_branch": "11",
-      "total_stock": "7",
+      "total_stock": "2",
       "cost": "0.41",
-      "stock_in_medawar_branch": "-4",
+      "stock_in_medawar_branch": "-9",
       "Product Description": "CHOCO PRINCE 25 G ()",
       "SUPPLIERS": "MAHMOUD CHOCOLATE",
       "subcategory": "sweets",
@@ -21660,7 +21667,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "7",
+      "totalStock": "2",
       "cost_ttc": 0.4125,
       "cost_ht": 0.4125,
       "cost_currency": "USD",
@@ -25313,8 +25320,8 @@
       "barcode": "4011100977624",
       "barcode2": "",
       "barcodes": "",
-      "price_usd": "0.83",
-      "price_lbp": "75,000",
+      "price_usd": "0.89",
+      "price_lbp": "80,000",
       "VAT": "YES",
       "offers": "0",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21965.jpg",
@@ -25329,14 +25336,14 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "32",
           "consumption": "0"
         }
       },
       "stock_in_geitawi_branch": "0",
-      "total_stock": "0",
-      "cost": "0.83",
-      "stock_in_medawar_branch": "0",
+      "total_stock": "32",
+      "cost": "0.62",
+      "stock_in_medawar_branch": "32",
       "Product Description": "BOUNTY CHOCOLATE BAR 57 G (COPY)",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "sweets",
@@ -25350,16 +25357,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
-      "cost_ttc": 0.916675,
-      "cost_ht": 0.825833333333333,
+      "totalStock": "32",
+      "cost_ttc": 0.6875062500000001,
+      "cost_ht": 0.619375,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1776699629688",
       "latest_purchase_cost_date": "2026-04-20",
-      "costHtUsd": 0.825833333333333,
-      "cost_ht_usd": 0.825833333333333,
-      "costTtcUsd": 0.916675,
+      "costHtUsd": 0.619375,
+      "cost_ht_usd": 0.619375,
+      "costTtcUsd": 0.6875062500000001,
       "subCategory": "sweets"
     },
     {
@@ -26250,6 +26257,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-09-24T09:52:46.408808Z",
+  "updatedAt": "2026-09-24T10:20:12.088873Z",
   "source": "sql-relay-web"
 }
