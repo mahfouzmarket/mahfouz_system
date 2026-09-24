@@ -1999,9 +1999,9 @@
       "offers": "",
       "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "36",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "38",
-      "total_stock": "20",
+      "total_stock": "18",
       "total_consumption": "74",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -2017,7 +2017,7 @@
           "consumption": "36"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "-1",
           "consumption": "38"
         },
         "Nouna": {
@@ -2030,7 +2030,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "20",
+      "totalStock": "18",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -4320,9 +4320,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "32",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "45",
       "VAT": "YES",
       "price_lbp": "230,000",
@@ -4344,7 +4344,7 @@
           "consumption": "32"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "13"
         },
         "The Daily Market": {
@@ -4369,7 +4369,7 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "6",
+      "totalStock": "5",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -4502,9 +4502,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "676",
       "consumption_in_geitawi_branch": "261",
-      "stock_in_medawar_branch": "512",
+      "stock_in_medawar_branch": "511",
       "consumption_in_medawar_branch": "839",
-      "total_stock": "1188",
+      "total_stock": "1187",
       "total_consumption": "1100",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -4520,7 +4520,7 @@
           "consumption": "261"
         },
         "Medawar": {
-          "stock": "512",
+          "stock": "511",
           "consumption": "839"
         },
         "The Daily Market": {
@@ -4534,7 +4534,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1188",
+      "totalStock": "1187",
       "stock": "-116",
       "branch_stock": {
         "Geitawi": {
@@ -7214,8 +7214,8 @@
       "total_stock": "6",
       "total_consumption": "5",
       "VAT": "NO",
-      "price_lbp": "290,000",
-      "price_usd": "3.22",
+      "price_lbp": "305,000",
+      "price_usd": "3.39",
       "cost": "2.75",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13918.jpg",
       "new_items": "",
@@ -7238,8 +7238,8 @@
       "barcode2": "",
       "barcodes": "",
       "totalStock": "6",
-      "cost_ttc": 2.75,
-      "cost_ht": 2.75,
+      "cost_ttc": "2.7500",
+      "cost_ht": "2.7500",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782214155869",
@@ -7247,8 +7247,16 @@
       "costHtUsd": 2.75,
       "cost_ht_usd": 2.75,
       "costTtcUsd": 2.75,
-      "subCategory": "DAIRY PRODUCTS",
-      "sub": "DAIRY PRODUCTS"
+      "sub": "DAIRY PRODUCTS",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "deliveryRules": "0.005",
+      "cost_ttc_usd": 2.75,
+      "subCategory": "DAIRY PRODUCTS"
     },
     {
       "id": "13921",
@@ -8637,6 +8645,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-09-24T14:00:04.658728Z",
+  "updatedAt": "2026-09-24T14:13:35.389600Z",
   "source": "sql-relay-web"
 }
