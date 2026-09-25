@@ -1257,23 +1257,23 @@
     },
     {
       "id": "200015",
-      "barcode": "11111111111",
+      "barcode": "",
       "barcodes": "",
       "Product Description": "PETIT FOUR 1PC",
       "product_description": "PETIT FOUR 1PC",
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "7",
       "total_consumption": "0.0",
       "vat": "no",
-      "price_lbp": "70,200",
-      "price_usd": "0.78",
-      "cost": "0.66",
+      "price_lbp": "50,000",
+      "price_usd": "0.56",
+      "cost": "0.47",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2709411.jpg",
       "new_items": "x",
       "manual": "",
@@ -1285,7 +1285,7 @@
       "linked_profile_item_id": "200015",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "7",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -1308,17 +1308,17 @@
       "secondary_sub_category": "",
       "VAT": "NO",
       "barcode2": "",
-      "expiry_days": 0,
-      "cost_ht": 0.663,
-      "linked_profile_category": "",
-      "linked_profile_sub_category": "",
+      "expiry_days": "7",
+      "cost_ht": "0.47",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "NOUNA'S FOOD",
       "product_setup_save_token": "PS-SAVE-2709411-1778762687327899",
       "product_setup_saved_at_utc": "2026-05-14T12:44:47.327899Z",
       "user2_unify_old_id": "2709411",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
       "description": "PETIT FOUR 1PC",
-      "expiryDays": 0,
+      "expiryDays": 7,
       "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "0.0",
       "cost_ttc": 0.663,
@@ -1326,11 +1326,13 @@
       "cost_vat_included": 0,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_pos-1776424369485",
       "latest_purchase_cost_date": "2026-04-17",
-      "costHtUsd": 0.663,
-      "cost_ht_usd": 0.663,
+      "costHtUsd": 0.4722222222222222,
+      "cost_ht_usd": 0.4722222222222222,
       "costTtcUsd": 0.663,
-      "totalStock": "0",
+      "totalStock": "7",
       "stock_in_firas_branch": "0",
+      "secondBarcode": "",
+      "priceLbp": 50000,
       "subCategory": "NOUNA'S FOOD"
     },
     {
@@ -2653,7 +2655,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "2",
       "total_consumption": "1",
       "vat": "no",
       "price_lbp": "150,000",
@@ -2678,7 +2680,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -2694,7 +2696,7 @@
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "VAT": "NO",
-      "totalStock": "4",
+      "totalStock": "2",
       "user2_unify_old_id": "2709441",
       "user2_unify_user_code": "2",
       "user2_unify_at_utc": "2026-06-29T11:21:49Z",
@@ -2706,7 +2708,7 @@
       "subCategory": "NOUNA'S FOOD",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "0",
       "priceLbp": 150000,
       "cost_ttc": 1.416667,
       "cost_ht": "1.42",
@@ -4027,6 +4029,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-09-25T05:54:24.358803Z",
+  "updatedAt": "2026-09-25T05:58:59.643312Z",
   "source": "sql-relay-web"
 }
