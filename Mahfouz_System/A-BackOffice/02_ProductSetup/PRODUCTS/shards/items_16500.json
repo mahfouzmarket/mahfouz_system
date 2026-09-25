@@ -6079,9 +6079,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "31",
-      "total_stock": "0",
+      "total_stock": "24",
       "total_consumption": "35",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -6097,7 +6097,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "24",
           "consumption": "31"
         }
       },
@@ -6109,14 +6109,14 @@
       "name": "KAZOUZA LEMON",
       "subcategory": "COLD DRINKS",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 0.61975,
+      "totalStock": "24",
+      "cost_ttc": 0.5583333333333333,
       "cost_ht": 0.5583333333333333,
-      "costTtcUsd": 0.61975,
+      "costTtcUsd": 0.5583333333333333,
       "costHtUsd": 0.5583333333333333,
       "cost_ht_usd": 0.5583333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "subCategory": "COLD DRINKS"
     },
     {
@@ -6130,9 +6130,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "22",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "36",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "16",
+      "total_stock": "40",
       "total_consumption": "38",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -6148,7 +6148,7 @@
           "consumption": "22"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "36",
           "consumption": "16"
         }
       },
@@ -6162,16 +6162,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16",
-      "cost_ttc": 0.61975,
+      "totalStock": "40",
+      "cost_ttc": 0.5583333333333333,
       "cost_ht": 0.5583333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-G-8118-2026-01-09",
       "latest_purchase_cost_date": "2026-01-09",
       "costHtUsd": 0.5583333333333333,
       "cost_ht_usd": 0.5583333333333333,
-      "costTtcUsd": 0.61975,
+      "costTtcUsd": 0.5583333333333333,
       "subCategory": "COLD DRINKS"
     },
     {
@@ -8492,11 +8492,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "11",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "11",
       "VAT": "NO",
       "price_lbp": "500,000",
@@ -8508,7 +8508,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "11"
         },
         "Medawar": {
@@ -8541,7 +8541,7 @@
       "name": "HALLOUM PESTO SND white",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "-1",
       "stock_in_nouna_branch": "0",
       "cost_ttc": 4.19,
       "cost_currency": "USD",
@@ -8856,6 +8856,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-09-25T07:15:06.230299Z",
+  "updatedAt": "2026-09-25T07:35:12.666971Z",
   "source": "sql-relay-web"
 }
