@@ -2457,25 +2457,27 @@
       "price_lbp": "865,000",
       "price_usd": "9.61",
       "cost": "6.87",
-      "cost_ttc": "7.6220",
-      "cost_ht": "6.8667",
-      "costTtcUsd": 7.62200037,
-      "costHtUsd": 6.866667,
-      "cost_ht_usd": 6.866667,
+      "cost_ttc": 6.866666999999999,
+      "cost_ht": 6.866666999999999,
       "cost_ttc_usd": 7.62200037,
-      "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_currency": "LBP",
+      "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301043.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
+      "total_stock": "6",
+      "totalStock": "6",
+      "stock_in_medawar_branch": "6",
+      "branches": {
+        "Medawar": {
+          "stock": "6"
+        }
+      },
       "subcategory": "coffee",
       "subCategory": "coffee",
       "sub": "coffee",
-      "vat": "yes",
-      "branches": {}
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-09-28T17:11:41.729250Z",
+  "updatedAt": "2026-09-28T17:18:48.558462Z",
   "source": "sql-relay-web"
 }
