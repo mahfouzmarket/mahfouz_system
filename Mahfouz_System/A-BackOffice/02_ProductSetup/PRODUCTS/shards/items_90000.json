@@ -5899,11 +5899,14 @@
       "linked_profile_item_id": "90142",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "SABLE AND PETIT FOUR",
-      "subCategory": "SABLE AND PETIT FOUR",
-      "sub": "SABLE AND PETIT FOUR",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_firas_branch": "4",
       "branches": {
+        "Firas": {
+          "stock": "4"
+        },
+        "Nouna": {
+          "stock": "16"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -5911,8 +5914,13 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "20",
+      "totalStock": "20",
+      "stock_in_nouna_branch": "16",
+      "subCategory": "SABLE AND PETIT FOUR",
+      "sub": "SABLE AND PETIT FOUR",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "90143",
@@ -10265,6 +10273,6 @@
       "subCategory": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-09-28T05:19:52.350774Z",
+  "updatedAt": "2026-09-28T05:20:54.581630Z",
   "source": "sql-relay-web"
 }
