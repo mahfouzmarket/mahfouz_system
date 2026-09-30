@@ -5220,11 +5220,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "10",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "21",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "31",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -5236,7 +5236,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "10"
         },
         "Medawar": {
@@ -5259,7 +5259,7 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
       "vat": "yes",
-      "totalStock": "2",
+      "totalStock": "1",
       "cost_ttc": 1.1877,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -6538,14 +6538,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "13",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "20",
+      "total_stock": "21",
       "total_consumption": "19",
       "VAT": "YES",
       "price_lbp": "185,000",
       "price_usd": "2.06",
-      "cost": "1.45",
+      "cost": "0.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13401.jpg",
       "new_items": "",
       "manual": "",
@@ -6556,7 +6556,7 @@
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "15",
           "consumption": "6"
         }
       },
@@ -6566,16 +6566,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "20",
-      "cost_ttc": 1.6095000000000002,
-      "cost_ht": 1.45,
+      "totalStock": "21",
+      "cost_ttc": 0.00011100000000000001,
+      "cost_ht": 0.0001,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781262804148",
       "latest_purchase_cost_date": "2026-06-12",
-      "costHtUsd": 1.45,
-      "cost_ht_usd": 1.45,
-      "costTtcUsd": 1.6095000000000002,
+      "costHtUsd": 0.0001,
+      "cost_ht_usd": 0.0001,
+      "costTtcUsd": 0.00011100000000000001,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -8307,6 +8307,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-09-30T09:14:09.230600Z",
+  "updatedAt": "2026-09-30T09:16:06.488800Z",
   "source": "sql-relay-web"
 }
