@@ -4733,24 +4733,37 @@
           "consumption": "1"
         },
         "Firas": {
-          "stock": "4",
+          "stock": "0",
           "consumption": "0"
         }
       },
-      "total_stock": "21",
-      "totalStock": "21",
+      "total_stock": "17",
+      "totalStock": "17",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
       "consumption_in_nouna_branch": "0",
       "total_consumption": "8",
-      "stock_in_firas_branch": "4",
+      "stock_in_firas_branch": "0",
       "consumption_in_firas_branch": "0",
+      "toters": {
+        "enabled": true,
+        "order": 15,
+        "priceMultiplier": 1.0035,
+        "priceUsd": 2.23,
+        "originalPriceLbpAtUpdate": 200000,
+        "fxAtUpdate": 90000.0,
+        "category": "Sablé",
+        "addOns": "None",
+        "sourceTemplateName": "Chocolate Sablé",
+        "updatedAtUtc": "2026-09-30T14:43:09.420139Z",
+        "updatedBy": "2"
+      },
       "subCategory": "SABLE AND PETIT FOUR",
       "sub": "SABLE AND PETIT FOUR"
     }
   ],
-  "updatedAt": "2026-09-30T14:26:20.453867Z",
+  "updatedAt": "2026-09-30T14:43:09.966036Z",
   "source": "sql-relay-web"
 }
