@@ -7337,11 +7337,11 @@
       "linked_profile_item_id": "14975",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CANDIES",
-      "subCategory": "CANDIES",
-      "sub": "CANDIES",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "39",
       "branches": {
+        "Nouna": {
+          "stock": "39"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -7349,8 +7349,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "39",
+      "totalStock": "39",
+      "subCategory": "CANDIES",
+      "sub": "CANDIES",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "14981",
@@ -7694,6 +7698,6 @@
       "subCategory": "arak"
     }
   ],
-  "updatedAt": "2026-09-30T14:31:53.387811Z",
+  "updatedAt": "2026-09-30T14:37:06.198331Z",
   "source": "sql-relay-web"
 }
