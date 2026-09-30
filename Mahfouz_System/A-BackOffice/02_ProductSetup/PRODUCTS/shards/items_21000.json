@@ -3393,9 +3393,9 @@
       "vat": "no",
       "price_lbp": "450,000",
       "cost": "4.17",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1",
       "stock_in_medawar_branch": "0.0",
       "branches": {
         "geitawi": {
@@ -3415,7 +3415,8 @@
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "-1"
         }
       },
       "created_by_user_code": "1",
@@ -3462,7 +3463,7 @@
       "scalePlu": 0,
       "price_usd": "5.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21052.jpg",
-      "totalStock": "0"
+      "totalStock": "-1"
     },
     {
       "id": "21054",
@@ -29399,6 +29400,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-09-30T17:09:56.692992Z",
+  "updatedAt": "2026-09-30T17:50:36.344712Z",
   "source": "sql-relay-web"
 }
