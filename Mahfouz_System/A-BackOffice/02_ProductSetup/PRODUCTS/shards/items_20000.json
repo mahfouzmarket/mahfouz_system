@@ -2193,14 +2193,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "295,000",
       "price_usd": "3.28",
-      "cost": "2.59",
+      "cost": "2.30",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20046.jpg",
       "new_items": "",
       "manual": "",
@@ -2211,7 +2211,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         }
       },
@@ -2231,8 +2231,14 @@
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": "2.59",
-      "totalStock": "0",
+      "cost_ht": 2.3000000000000003,
+      "totalStock": "12",
+      "cost_ttc": 2.3000000000000003,
+      "costTtcUsd": 2.3000000000000003,
+      "costHtUsd": 2.3000000000000003,
+      "cost_ht_usd": 2.3000000000000003,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "subCategory": "TEA"
     },
     {
@@ -28039,6 +28045,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-09-30T07:58:23.305046Z",
+  "updatedAt": "2026-09-30T08:05:55.223289Z",
   "source": "sql-relay-web"
 }
