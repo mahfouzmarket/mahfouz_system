@@ -26979,21 +26979,21 @@
       "product_description": "HALLOWEEN PUMPKIN",
       "description": "HALLOWEEN PUMPKIN",
       "brand": "",
-      "supplier": "",
+      "supplier": "NOUNA'S FOOD",
       "SUPPLIERS": "NOUNA'S FOOD",
       "category": "NOUNA'S FOOD",
-      "sub_category": "SWEET & CANDIES",
-      "subcategory": "SWEET & CANDIES",
-      "subCategory": "SWEET & CANDIES",
+      "sub_category": "NOUNA'S FOOD",
+      "subcategory": "NOUNA'S FOOD",
+      "subCategory": "NOUNA'S FOOD",
       "unit": "EACH",
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "200,000",
-      "cost": "1.85",
+      "cost": "1.89",
       "total_stock": "0",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -27008,11 +27008,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "0"
         }
       },
       "created_by_user_code": "1",
@@ -27032,17 +27033,17 @@
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "SWEET & CANDIES",
+      "sub": "NOUNA'S FOOD",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "offers": "",
+      "offers": "0",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.85",
+      "cost_ht": "1.89",
       "costUsd": 1.85,
-      "cost_ht_usd": 1.85,
+      "cost_ht_usd": 1.89,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "arabic_name": "",
@@ -27059,7 +27060,17 @@
       "scalePlu": 0,
       "price_usd": "2.22",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20480.jpg",
-      "totalStock": "0"
+      "totalStock": "0",
+      "secondBarcode": "",
+      "priceLbp": 200000,
+      "costHtUsd": 1.89,
+      "cost_currency": "USD",
+      "expiryDays": 0,
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "20480",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "NOUNA'S FOOD"
     },
     {
       "id": "20481",
@@ -28045,6 +28056,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-09-30T14:26:20.453867Z",
+  "updatedAt": "2026-09-30T14:29:31.359720Z",
   "source": "sql-relay-web"
 }
