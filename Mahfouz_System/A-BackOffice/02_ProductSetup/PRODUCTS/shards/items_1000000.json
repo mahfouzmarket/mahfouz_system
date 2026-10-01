@@ -135,7 +135,7 @@
       "vat": "yes",
       "VAT": "YES",
       "price_lbp": "320,000",
-      "cost": "0.00",
+      "cost": "3.00",
       "total_stock": "0",
       "total_consumption": "0",
       "branches": {
@@ -160,7 +160,7 @@
       "name_ar": "",
       "description_ar": "",
       "offers": "",
-      "delivery_rules": "",
+      "delivery_rules": "0",
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
@@ -171,16 +171,25 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "3.56",
-      "cost_ttc": "0.0000",
-      "cost_ht": "0.0000",
-      "costTtcUsd": 0.0,
-      "costHtUsd": 0.0,
-      "cost_ht_usd": 0.0,
+      "cost_ttc": "3.3300",
+      "cost_ht": "3.0000",
+      "costTtcUsd": 3.33,
+      "costHtUsd": 3.0,
+      "cost_ht_usd": 3.0,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "new_items": "",
-      "subCategory": "POS SALE AUTO-CREATED",
-      "sub": "POS SALE AUTO-CREATED"
+      "sub": "POS SALE AUTO-CREATED",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "",
+      "manual": "",
+      "deliveryRules": "0",
+      "cost_ttc_usd": 3.33,
+      "subCategory": "POS SALE AUTO-CREATED"
     },
     {
       "id": "1000006",
@@ -889,6 +898,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-10-01T17:33:42.468323Z",
+  "updatedAt": "2026-10-01T21:45:47.526041Z",
   "source": "sql-relay-web"
 }
