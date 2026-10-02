@@ -11059,7 +11059,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "45",
       "branches": {
         "Geitawi": {
@@ -11067,11 +11067,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "12",
           "consumption": "45"
         }
       },
-      "total_stock": "6",
+      "total_stock": "12",
       "total_consumption": "45",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -11079,7 +11079,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "6",
+      "totalStock": "12",
       "cost_ttc": 2.2755000000000005,
       "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
@@ -12912,7 +12912,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "0.0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "40",
       "branches": {
         "Geitawi": {
@@ -12920,11 +12920,11 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "12",
           "consumption": "40"
         }
       },
-      "total_stock": "6",
+      "total_stock": "12",
       "total_consumption": "40",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -12932,16 +12932,16 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "6",
-      "cost_ttc": 2.0500000000000003,
+      "totalStock": "12",
+      "cost_ttc": 2.2755000000000005,
       "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782485034104",
       "latest_purchase_cost_date": "2026-06-26",
       "costHtUsd": 2.0500000000000003,
       "cost_ht_usd": 2.0500000000000003,
-      "costTtcUsd": 2.0500000000000003,
+      "costTtcUsd": 2.2755000000000005,
       "subCategory": "YOGURT"
     },
     {
@@ -13498,7 +13498,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
@@ -13506,9 +13506,9 @@
           "consumption": "0"
         }
       },
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "2",
-      "total_stock": "4",
+      "total_stock": "3",
       "cost": "10.30",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -13523,7 +13523,7 @@
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_consumption": "0",
-      "totalStock": "4",
+      "totalStock": "3",
       "cost_ttc": 10.299999999999999,
       "cost_ht": 10.299999999999999,
       "cost_currency": "USD",
@@ -26291,6 +26291,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-10-02T06:32:47.174334Z",
+  "updatedAt": "2026-10-02T07:05:19.027085Z",
   "source": "sql-relay-web"
 }
