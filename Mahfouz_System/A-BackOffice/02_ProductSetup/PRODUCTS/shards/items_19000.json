@@ -5532,18 +5532,29 @@
           "consumption": "0"
         }
       },
-      "barcode2": "8690504011200",
-      "barcodes": "8690504011200",
+      "barcode2": "",
+      "barcodes": "",
       "totalStock": "0",
-      "cost_ttc": 0.8200125,
-      "cost_ht": 0.73875,
+      "cost_ttc": "0.8200",
+      "cost_ht": "0.7388",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1778573483548",
       "latest_purchase_cost_date": "2026-05-12",
       "costHtUsd": 0.73875,
       "cost_ht_usd": 0.73875,
-      "costTtcUsd": 0.8200125,
+      "costTtcUsd": 0.8200125000000001,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.8200125000000001,
       "subCategory": "Biscuits",
       "sub": "Biscuits"
     },
@@ -14254,6 +14265,6 @@
       "subCategory": "SNIPS"
     }
   ],
-  "updatedAt": "2026-10-02T11:11:50.880041Z",
+  "updatedAt": "2026-10-02T11:21:06.138669Z",
   "source": "sql-relay-web"
 }
