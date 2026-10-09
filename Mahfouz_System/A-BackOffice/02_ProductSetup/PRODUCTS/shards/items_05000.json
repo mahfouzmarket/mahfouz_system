@@ -1602,9 +1602,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "42",
       "consumption_in_geitawi_branch": "28",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "73",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "43",
+      "total_stock": "115",
       "total_consumption": "40",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1620,7 +1620,7 @@
           "consumption": "28"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "73",
           "consumption": "12"
         }
       },
@@ -1630,16 +1630,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "43",
-      "cost_ttc": "0.5550",
-      "cost_ht": "0.5000",
+      "totalStock": "115",
+      "cost_ttc": 0.5,
+      "cost_ht": 0.5,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "costTtcUsd": 0.555,
+      "costTtcUsd": 0.5,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1650,7 +1650,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 0.555,
+      "cost_ttc_usd": 0.5,
       "subCategory": "PROCESSED CHEESE",
       "sub": "PROCESSED CHEESE"
     },
@@ -1847,9 +1847,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "14",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "22",
-      "total_stock": "12",
+      "total_stock": "11",
       "total_consumption": "36",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -1865,7 +1865,7 @@
           "consumption": "14"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "22"
         }
       },
@@ -1875,7 +1875,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
+      "totalStock": "11",
       "cost_ttc": "1.4600",
       "cost_ht": "1.4600",
       "cost_currency": "USD",
@@ -2070,6 +2070,6 @@
       "sub": "EGGS"
     }
   ],
-  "updatedAt": "2026-10-09T06:38:47.134195Z",
+  "updatedAt": "2026-10-09T08:43:27.524338Z",
   "source": "sql-relay-web"
 }
