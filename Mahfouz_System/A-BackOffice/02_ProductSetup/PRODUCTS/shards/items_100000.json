@@ -5835,19 +5835,19 @@
       "VAT": "YES",
       "vat": "yes",
       "cost": "4.50",
-      "cost_ht": 4.50416666666667,
+      "cost_ht": 4.504166666666666,
       "lastCostHtUsd": 4.5,
       "price_lbp": "565,000",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
-      "total_stock": "0",
+      "stock_in_medawar_branch": "12",
+      "total_stock": "12",
       "branches": {
         "Geitawi": {
           "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         }
       },
@@ -5870,19 +5870,20 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
+      "totalStock": "12",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100109.jpg",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100109.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100109.jpg",
       "image_updated_at_utc": "2026-06-17T10:31:35.246255Z",
       "cost_ttc": 4.999625,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781678831569",
       "latest_purchase_cost_date": "2026-06-17",
-      "costHtUsd": 4.50416666666667,
-      "cost_ht_usd": 4.50416666666667,
+      "costHtUsd": 4.504166666666666,
+      "cost_ht_usd": 4.504166666666666,
       "costTtcUsd": 4.999625,
+      "cost_ttc_usd": 4.999625,
       "subCategory": "FROZEN FOOD"
     },
     {
@@ -9045,6 +9046,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-10-09T07:02:00.185390Z",
+  "updatedAt": "2026-10-09T08:47:13.597429Z",
   "source": "sql-relay-web"
 }
