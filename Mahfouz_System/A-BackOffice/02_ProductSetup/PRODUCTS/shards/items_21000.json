@@ -11748,9 +11748,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "14",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "150,000",
@@ -11770,15 +11770,15 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "13",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": "1.1100",
-      "cost_ht": "1.0000",
+      "totalStock": "14",
+      "cost_ttc": 1.11,
+      "cost_ht": 1.0,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781184290401",
@@ -12260,9 +12260,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "35",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "16",
+      "total_stock": "40",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -12278,7 +12278,7 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "35",
           "consumption": "1"
         }
       },
@@ -12288,9 +12288,9 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16",
-      "cost_ttc": "0.5550",
-      "cost_ht": "0.5000",
+      "totalStock": "40",
+      "cost_ttc": 0.555,
+      "cost_ht": 0.5,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781184290401",
@@ -29434,6 +29434,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-10-09T08:05:17.726649Z",
+  "updatedAt": "2026-10-09T09:26:08.636262Z",
   "source": "sql-relay-web"
 }
