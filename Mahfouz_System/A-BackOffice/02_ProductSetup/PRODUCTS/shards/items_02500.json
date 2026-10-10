@@ -63,9 +63,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "6",
+      "total_stock": "12",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "380,000",
@@ -81,7 +81,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "7",
           "consumption": "1"
         }
       },
@@ -91,7 +91,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "12",
       "cost_ttc": 3.3411,
       "cost_ht": 3.01,
       "cost_currency": "USD",
@@ -101,6 +101,7 @@
       "costHtUsd": 3.01,
       "cost_ht_usd": 3.01,
       "costTtcUsd": 3.3411,
+      "cost_ttc_usd": 3.3411,
       "subCategory": "HOT DRINKS",
       "sub": "HOT DRINKS"
     },
@@ -450,9 +451,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "5",
+      "total_stock": "11",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "420,000",
@@ -468,7 +469,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "10",
           "consumption": "3"
         }
       },
@@ -482,7 +483,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "11",
       "cost_ttc": 3.6630000000000007,
       "cost_ht": 3.3000000000000003,
       "cost_currency": "USD",
@@ -492,6 +493,7 @@
       "costHtUsd": 3.3000000000000003,
       "cost_ht_usd": 3.3000000000000003,
       "costTtcUsd": 3.6630000000000007,
+      "cost_ttc_usd": 3.6630000000000007,
       "subCategory": "HOT DRINKS"
     },
     {
@@ -562,9 +564,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "38",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "32",
+      "total_stock": "56",
       "total_consumption": "8",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -580,7 +582,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "38",
           "consumption": "5"
         }
       },
@@ -588,7 +590,7 @@
       "supplier": "HINTRAG",
       "subcategory": "HOT DRINKS",
       "vat": "yes",
-      "totalStock": "32",
+      "totalStock": "56",
       "cost_ttc": 0.29045000000000004,
       "cost_ht": 0.26166666666666666,
       "cost_currency": "USD",
@@ -598,6 +600,7 @@
       "costHtUsd": 0.26166666666666666,
       "cost_ht_usd": 0.26166666666666666,
       "costTtcUsd": 0.29045000000000004,
+      "cost_ttc_usd": 0.29045000000000004,
       "subCategory": "HOT DRINKS",
       "sub": "HOT DRINKS"
     },
@@ -769,9 +772,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -787,7 +790,7 @@
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "3"
         }
       },
@@ -795,18 +798,19 @@
       "supplier": "HINTRAG",
       "subcategory": "BAKING & COOKING",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "6",
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": 0.63,
+      "cost_ttc": 0.6993,
       "cost_ht": 0.63,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781857102487",
       "latest_purchase_cost_date": "2026-06-19",
       "costHtUsd": 0.63,
       "cost_ht_usd": 0.63,
-      "costTtcUsd": 0.63,
+      "costTtcUsd": 0.6993,
+      "cost_ttc_usd": 0.6993,
       "subCategory": "BAKING & COOKING",
       "sub": "BAKING & COOKING"
     },
@@ -2471,6 +2475,6 @@
       "subCategory": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-10-10T08:15:22.148392Z",
+  "updatedAt": "2026-10-10T08:22:40.867605Z",
   "source": "sql-relay-web"
 }
