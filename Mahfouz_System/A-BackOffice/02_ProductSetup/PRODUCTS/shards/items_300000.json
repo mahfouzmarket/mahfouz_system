@@ -9390,9 +9390,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -9414,7 +9414,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         }
       },
@@ -9424,7 +9424,7 @@
       "supplier": "JACK DIB",
       "subcategory": "STATIONARY",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": "0.1443",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -30838,6 +30838,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-10-12T12:04:22.820338Z",
+  "updatedAt": "2026-10-12T12:26:31.619920Z",
   "source": "sql-relay-web"
 }
