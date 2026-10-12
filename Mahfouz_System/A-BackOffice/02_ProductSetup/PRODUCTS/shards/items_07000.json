@@ -344,9 +344,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "11",
       "consumption_in_geitawi_branch": "105",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "84",
-      "total_stock": "22",
+      "total_stock": "21",
       "total_consumption": "189",
       "VAT": "NO",
       "price_lbp": "140,000",
@@ -362,7 +362,7 @@
           "consumption": "105"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "10",
           "consumption": "84"
         }
       },
@@ -372,7 +372,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "22",
+      "totalStock": "21",
       "cost_ttc": 1.3888888888888888,
       "cost_ht": 1.3888888888888888,
       "cost_currency": "LBP",
@@ -391,11 +391,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "136",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "138",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -407,7 +407,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "136"
         },
         "Medawar": {
@@ -421,7 +421,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.63333,
       "cost_ht": 0.63333,
@@ -1522,6 +1522,6 @@
       "subCategory": "cans & jams"
     }
   ],
-  "updatedAt": "2026-10-12T08:55:17.883969Z",
+  "updatedAt": "2026-10-12T09:04:29.137658Z",
   "source": "sql-relay-web"
 }
