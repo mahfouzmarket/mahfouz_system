@@ -2934,13 +2934,13 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "CHOCOLATE AND DRAGEE",
       "subcategory": "CHOCOLATE AND DRAGEE",
-      "price_lbp": "720,000",
-      "priceLbp": 720000,
-      "price_usd": "8.00",
-      "cost": "6.80",
-      "cost_ht": "6.80",
-      "costHtUsd": 6.8,
-      "cost_ht_usd": 6.8,
+      "price_lbp": "750,000",
+      "priceLbp": 750000,
+      "price_usd": "8.33",
+      "cost": "7.08",
+      "cost_ht": "7.08",
+      "costHtUsd": 7.083333333333333,
+      "cost_ht_usd": 7.083333333333333,
       "cost_currency": "USD",
       "VAT": "NO",
       "vat": "no",
@@ -2953,11 +2953,11 @@
       "linked_profile_item_id": "7000105",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHOCOLATE AND DRAGEE",
-      "subCategory": "CHOCOLATE AND DRAGEE",
-      "sub": "CHOCOLATE AND DRAGEE",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "2",
       "branches": {
+        "Nouna": {
+          "stock": "2"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -2965,10 +2965,14 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "2",
+      "totalStock": "2",
+      "subCategory": "CHOCOLATE AND DRAGEE",
+      "sub": "CHOCOLATE AND DRAGEE",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-10-12T11:16:34.045391Z",
+  "updatedAt": "2026-10-12T11:24:02.977889Z",
   "source": "sql-relay-web"
 }
