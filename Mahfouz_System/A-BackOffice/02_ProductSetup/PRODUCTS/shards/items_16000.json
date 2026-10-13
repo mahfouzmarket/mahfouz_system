@@ -866,9 +866,9 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
       "total_stock": "2",
       "total_consumption": "3",
@@ -882,11 +882,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "1",
           "consumption": "1"
         }
       },
@@ -7225,9 +7225,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "17",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "34",
-      "total_stock": "14",
+      "total_stock": "12",
       "total_consumption": "51",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -7243,7 +7243,7 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "10",
           "consumption": "34"
         }
       },
@@ -7253,7 +7253,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "14",
+      "totalStock": "12",
       "cost_ttc": 0.1665,
       "cost_ht": 0.15,
       "cost_currency": "USD",
@@ -7330,9 +7330,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "47",
       "consumption_in_geitawi_branch": "58",
-      "stock_in_medawar_branch": "31",
+      "stock_in_medawar_branch": "29",
       "consumption_in_medawar_branch": "40",
-      "total_stock": "78",
+      "total_stock": "76",
       "total_consumption": "98",
       "VAT": "YES",
       "price_lbp": "20,000",
@@ -7348,7 +7348,7 @@
           "consumption": "58"
         },
         "Medawar": {
-          "stock": "31",
+          "stock": "29",
           "consumption": "40"
         }
       },
@@ -7358,7 +7358,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "78",
+      "totalStock": "76",
       "cost_ttc": 0.1665,
       "cost_ht": 0.15,
       "cost_currency": "USD",
@@ -7602,6 +7602,6 @@
       "sub": "cans & jams"
     }
   ],
-  "updatedAt": "2026-10-13T09:40:49.195681Z",
+  "updatedAt": "2026-10-13T10:25:08.886002Z",
   "source": "sql-relay-web"
 }
