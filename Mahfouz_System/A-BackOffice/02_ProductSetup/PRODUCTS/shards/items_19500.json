@@ -11342,9 +11342,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "10",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -11360,7 +11360,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "0"
         }
       },
@@ -11372,14 +11372,15 @@
       "name": "GOOD MORNING CROISSANT CHEESE",
       "subcategory": "Croissant",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 0.45,
+      "totalStock": "10",
+      "cost_ttc": 0.49950000000000006,
       "cost_ht": 0.45,
-      "costTtcUsd": 0.45,
+      "costTtcUsd": 0.49950000000000006,
       "costHtUsd": 0.45,
       "cost_ht_usd": 0.45,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
+      "cost_ttc_usd": 0.49950000000000006,
       "subCategory": "Croissant"
     },
     {
@@ -13721,9 +13722,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "3",
+      "total_stock": "2",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "115,000",
@@ -13743,11 +13744,11 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "6"
         }
       },
-      "totalStock": "3",
+      "totalStock": "2",
       "cost_ttc": 0.9250000000000002,
       "cost_ht": 0.8333333333333334,
       "costTtcUsd": 0.9250000000000002,
@@ -14143,11 +14144,11 @@
       "category": "CHI TAYIB",
       "sub_category": "Wafers",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "9",
+      "total_stock": "8",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -14159,7 +14160,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "4"
         },
         "Medawar": {
@@ -14177,7 +14178,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9",
+      "totalStock": "8",
       "priceLbp": 25000.0,
       "priceUsd": 0.2777777777777778,
       "cost_ttc": 0.22847500000000004,
@@ -16828,6 +16829,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-10-13T04:55:00.037474Z",
+  "updatedAt": "2026-10-13T05:10:34.283646Z",
   "source": "sql-relay-web"
 }
