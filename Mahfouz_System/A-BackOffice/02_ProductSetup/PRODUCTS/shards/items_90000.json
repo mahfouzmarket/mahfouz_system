@@ -1397,7 +1397,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "39",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "40",
       "vat": "no",
       "price_lbp": "200,000",
@@ -1422,7 +1422,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -1430,7 +1430,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "0",
+      "totalStock": "-1",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -1446,7 +1446,7 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "cost_ht": "1.78",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "secondBarcode": "",
       "description": "Eclair Vanille",
       "name": "Eclair Vanille",
@@ -6196,9 +6196,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "335",
       "consumption_in_geitawi_branch": "1735",
-      "stock_in_medawar_branch": "9099",
+      "stock_in_medawar_branch": "9098",
       "consumption_in_medawar_branch": "1965",
-      "total_stock": "9436",
+      "total_stock": "9435",
       "total_consumption": "3700",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -6214,7 +6214,7 @@
           "consumption": "1735"
         },
         "Medawar": {
-          "stock": "9099",
+          "stock": "9098",
           "consumption": "1965"
         },
         "Nouna": {
@@ -6232,7 +6232,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9436",
+      "totalStock": "9435",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -7337,11 +7337,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "-1",
+      "stock_in_geitawi_branch": "-2",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "20",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "-6",
+      "total_stock": "-7",
       "total_consumption": "21",
       "vat": "no",
       "price_lbp": "300,000",
@@ -7358,7 +7358,7 @@
       "linked_profile_item_id": "90230",
       "branches": {
         "Geitawi": {
-          "stock": "-1",
+          "stock": "-2",
           "consumption": "20"
         },
         "Medawar": {
@@ -7382,7 +7382,7 @@
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "VAT": "NO",
-      "totalStock": "-6",
+      "totalStock": "-7",
       "barcode2": "",
       "secondBarcode": "",
       "description": "MINI DAOUKIYEH CUP",
@@ -9359,7 +9359,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "51",
+          "stock": "50",
           "consumption": "14"
         },
         "Nouna": {
@@ -9371,8 +9371,8 @@
           "consumption": "0"
         }
       },
-      "stock_in_medawar_branch": "51",
-      "total_stock": "77",
+      "stock_in_medawar_branch": "50",
+      "total_stock": "76",
       "cost": "0.48",
       "stock_in_geitawi_branch": "0",
       "Product Description": "POPSICLE STRAWBERRY",
@@ -9388,7 +9388,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "77",
+      "totalStock": "76",
       "secondBarcode": "",
       "product_description": "POPSICLE STRAWBERRY",
       "description": "POPSICLE STRAWBERRY",
@@ -10356,6 +10356,6 @@
       "subCategory": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-10-14T11:39:28.213299Z",
+  "updatedAt": "2026-10-14T11:51:01.563913Z",
   "source": "sql-relay-web"
 }
