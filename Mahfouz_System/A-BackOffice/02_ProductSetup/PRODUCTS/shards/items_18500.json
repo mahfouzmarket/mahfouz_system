@@ -1449,9 +1449,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-5",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-5",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -1467,7 +1467,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-5",
           "consumption": "0"
         }
       },
@@ -1488,7 +1488,7 @@
       "name": "ORO STICKS",
       "subcategory": "Crackers",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "-5",
       "subCategory": "Crackers"
     },
     {
@@ -3157,9 +3157,9 @@
       "category": "HOME USAGE",
       "sub_category": "BATTERIES",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "5",
       "total_stock": "6",
       "total_consumption": "9",
@@ -3173,11 +3173,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "5",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "1",
           "consumption": "5"
         }
       },
@@ -3212,9 +3212,9 @@
       "category": "HOME USAGE",
       "sub_category": "BATTERIES",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-4",
       "consumption_in_medawar_branch": "6",
       "total_stock": "2",
       "total_consumption": "12",
@@ -3228,11 +3228,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "6",
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-4",
           "consumption": "6"
         }
       },
@@ -3267,9 +3267,9 @@
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
       "total_stock": "3",
       "total_consumption": "3",
@@ -3283,11 +3283,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "1"
         }
       },
@@ -12765,6 +12765,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-10-14T06:48:34.339463Z",
+  "updatedAt": "2026-10-14T07:28:14.072921Z",
   "source": "sql-relay-web"
 }
