@@ -3059,9 +3059,9 @@
       "category": "FOOD",
       "sub_category": "FROZEN FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-5",
       "consumption_in_medawar_branch": "1",
       "total_stock": "1",
       "total_consumption": "1",
@@ -3075,11 +3075,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "6",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-5",
           "consumption": "1"
         }
       },
@@ -7793,9 +7793,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "18",
       "consumption_in_geitawi_branch": "9",
-      "stock_in_medawar_branch": "22",
+      "stock_in_medawar_branch": "21",
       "consumption_in_medawar_branch": "14",
-      "total_stock": "40",
+      "total_stock": "39",
       "total_consumption": "23",
       "VAT": "YES",
       "price_lbp": "45,000",
@@ -7811,7 +7811,7 @@
           "consumption": "9"
         },
         "Medawar": {
-          "stock": "22",
+          "stock": "21",
           "consumption": "14"
         },
         "Nouna": {
@@ -7828,7 +7828,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "40",
+      "totalStock": "39",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.3912750000000001,
       "cost_ht": 0.35250000000000004,
@@ -14317,6 +14317,6 @@
       "subCategory": "SNIPS"
     }
   ],
-  "updatedAt": "2026-10-14T08:00:08.031818Z",
+  "updatedAt": "2026-10-14T09:12:17.938292Z",
   "source": "sql-relay-web"
 }
