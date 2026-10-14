@@ -276,9 +276,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "80",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "80",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -294,7 +294,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "80",
           "consumption": "0"
         }
       },
@@ -304,9 +304,9 @@
       "vat": "yes",
       "barcode2": "7622210124401",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": "0.3501",
-      "cost_ht": "0.3154",
+      "totalStock": "80",
+      "cost_ttc": 0.35006625,
+      "cost_ht": 0.315375,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780492345375",
@@ -894,14 +894,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "30",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "29",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "6",
+      "total_stock": "34",
       "total_consumption": "46",
       "VAT": "YES",
       "price_lbp": "80,000",
       "price_usd": "0.89",
-      "cost": "0.64",
+      "cost": "0.45",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4142.jpg",
       "new_items": "",
       "manual": "",
@@ -912,7 +912,7 @@
           "consumption": "30"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "29",
           "consumption": "16"
         }
       },
@@ -923,7 +923,7 @@
       "barcode2": "5000159376792",
       "barcodes": "5000159376792",
       "expiry_days": "0",
-      "cost_ht": 0.6428571428571429,
+      "cost_ht": 0.45035714285714284,
       "linked_profile_enabled": false,
       "linked_profile_repo_root": "",
       "linked_profile_item_id": "",
@@ -931,15 +931,16 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-4142-1779101765667538",
       "product_setup_saved_at_utc": "2026-05-18T10:56:05.667538Z",
-      "totalStock": "6",
-      "cost_ttc": 0.6428571428571429,
+      "totalStock": "34",
+      "cost_ttc": 0.4998964285714286,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781002879134",
       "latest_purchase_cost_date": "2026-06-09",
-      "costHtUsd": 0.6428571428571429,
-      "cost_ht_usd": 0.6428571428571429,
-      "costTtcUsd": 0.6428571428571429,
+      "costHtUsd": 0.45035714285714284,
+      "cost_ht_usd": 0.45035714285714284,
+      "costTtcUsd": 0.4998964285714286,
+      "cost_ttc_usd": 0.4998964285714286,
       "subCategory": "candies",
       "sub": "candies"
     },
@@ -1953,6 +1954,6 @@
       "subCategory": "Biscuits"
     }
   ],
-  "updatedAt": "2026-10-14T05:27:28.046252Z",
+  "updatedAt": "2026-10-14T06:16:00.094730Z",
   "source": "sql-relay-web"
 }
