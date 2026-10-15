@@ -200,9 +200,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "1",
+      "total_stock": "2",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "500,000",
@@ -218,7 +218,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         }
       },
@@ -228,7 +228,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "2",
       "cost_ttc": 4.44,
       "cost_ht": 4.0,
       "cost_currency": "USD",
@@ -238,6 +238,7 @@
       "costHtUsd": 4.0,
       "cost_ht_usd": 4.0,
       "costTtcUsd": 4.44,
+      "cost_ttc_usd": 4.44,
       "subCategory": "cake",
       "sub": "cake"
     },
@@ -509,7 +510,7 @@
       "consumption_in_geitawi_branch": "4",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "11",
+      "total_stock": "13",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "350,000",
@@ -525,7 +526,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "7"
         },
         "medawar": {
@@ -539,7 +540,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "11",
+      "totalStock": "13",
       "cost_ttc": 3.108,
       "cost_ht": 2.8,
       "cost_currency": "USD",
@@ -615,9 +616,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "8",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "12",
+      "total_stock": "14",
       "total_consumption": "11",
       "VAT": "YES",
       "price_lbp": "280,000",
@@ -633,7 +634,7 @@
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "3"
         }
       },
@@ -643,7 +644,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
+      "totalStock": "14",
       "cost_ttc": 2.3865000000000003,
       "cost_ht": 2.15,
       "cost_currency": "USD",
@@ -653,6 +654,7 @@
       "costHtUsd": 2.15,
       "cost_ht_usd": 2.15,
       "costTtcUsd": 2.3865000000000003,
+      "cost_ttc_usd": 2.3865000000000003,
       "subCategory": "cake",
       "sub": "cake"
     },
@@ -2475,6 +2477,6 @@
       "subCategory": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-10-15T06:05:55.604513Z",
+  "updatedAt": "2026-10-15T06:23:03.155883Z",
   "source": "sql-relay-web"
 }
