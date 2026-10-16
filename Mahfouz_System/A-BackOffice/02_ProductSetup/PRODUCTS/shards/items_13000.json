@@ -1375,9 +1375,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "28",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "28",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "5",
+      "total_stock": "30",
       "total_consumption": "44",
       "VAT": "NO",
       "price_lbp": "115,000",
@@ -1393,7 +1393,7 @@
           "consumption": "28"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "28",
           "consumption": "16"
         },
         "Nouna": {
@@ -1406,7 +1406,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "30",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -1429,6 +1429,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
+      "cost_ttc_usd": 1.09,
       "subCategory": "SEEDS",
       "sub": "SEEDS"
     },
@@ -7958,9 +7959,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "5",
+      "total_stock": "17",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "40,000",
@@ -7976,7 +7977,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "15",
           "consumption": "0"
         }
       },
@@ -7986,16 +7987,17 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
-      "cost_ttc": 0.34188,
-      "cost_ht": 0.308,
+      "totalStock": "17",
+      "cost_ttc": 0.34225000000000005,
+      "cost_ht": 0.30833333333333335,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14281-2026-04-11",
       "latest_purchase_cost_date": "2026-04-11",
-      "costHtUsd": 0.308,
-      "cost_ht_usd": 0.308,
-      "costTtcUsd": 0.34188,
+      "costHtUsd": 0.30833333333333335,
+      "cost_ht_usd": 0.30833333333333335,
+      "costTtcUsd": 0.34225000000000005,
+      "cost_ttc_usd": 0.34225000000000005,
       "subCategory": "herbs & spices",
       "sub": "herbs & spices"
     },
@@ -8352,6 +8354,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-10-16T05:50:11.219749Z",
+  "updatedAt": "2026-10-16T06:19:17.363487Z",
   "source": "sql-relay-web"
 }
