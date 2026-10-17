@@ -1397,7 +1397,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "39",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "1",
+      "total_stock": "-1",
       "total_consumption": "40",
       "vat": "no",
       "price_lbp": "200,000",
@@ -1422,7 +1422,7 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "3",
+          "stock": "1",
           "consumption": "0"
         },
         "Firas": {
@@ -1430,7 +1430,7 @@
           "consumption": "0"
         }
       },
-      "totalStock": "1",
+      "totalStock": "-1",
       "barcode2": "",
       "arabic_name": "",
       "name_ar": "",
@@ -1446,7 +1446,7 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "cost_ht": "1.78",
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "1",
       "secondBarcode": "",
       "description": "Eclair Vanille",
       "name": "Eclair Vanille",
@@ -1948,11 +1948,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "5",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "43",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "6",
+      "total_stock": "4",
       "total_consumption": "60",
       "VAT": "NO",
       "price_lbp": "180,000",
@@ -1964,7 +1964,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "5",
+          "stock": "3",
           "consumption": "43"
         },
         "Medawar": {
@@ -1993,7 +1993,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NOUNA'S FOOD",
       "vat": "no",
-      "totalStock": "6",
+      "totalStock": "4",
       "secondBarcode": "",
       "product_description": "CUSTARD MIX",
       "description": "CUSTARD MIX",
@@ -6196,9 +6196,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "304",
       "consumption_in_geitawi_branch": "1735",
-      "stock_in_medawar_branch": "8278",
+      "stock_in_medawar_branch": "8263",
       "consumption_in_medawar_branch": "1965",
-      "total_stock": "8584",
+      "total_stock": "8569",
       "total_consumption": "3700",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -6214,7 +6214,7 @@
           "consumption": "1735"
         },
         "Medawar": {
-          "stock": "8278",
+          "stock": "8263",
           "consumption": "1965"
         },
         "Nouna": {
@@ -6232,7 +6232,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8584",
+      "totalStock": "8569",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -6796,9 +6796,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "140",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "90",
-      "total_stock": "4",
+      "total_stock": "3",
       "total_consumption": "230",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -6814,7 +6814,7 @@
           "consumption": "140"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "-2",
           "consumption": "90"
         },
         "Nouna": {
@@ -6832,7 +6832,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
+      "totalStock": "3",
       "secondBarcode": "",
       "product_description": "Maccaw Mango",
       "description": "Maccaw Mango",
@@ -10356,6 +10356,6 @@
       "subCategory": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-10-17T16:30:15.343249Z",
+  "updatedAt": "2026-10-17T17:19:48.972104Z",
   "source": "sql-relay-web"
 }
