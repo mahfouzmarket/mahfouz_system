@@ -1827,16 +1827,16 @@
       "category": "FOOD",
       "sub_category": "PROCESSED CHEESE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "20",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "50",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "150,000",
       "price_usd": "1.68",
-      "cost": "1.47",
+      "cost": "1.26",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18587.jpg",
       "new_items": "",
       "manual": "",
@@ -1847,17 +1847,25 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "20",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "30",
           "consumption": "0"
         }
       },
+      "totalStock": "50",
+      "cost_ttc": 1.26,
+      "cost_ht": 1.26,
+      "costTtcUsd": 1.26,
+      "cost_ttc_usd": 1.26,
+      "costHtUsd": 1.26,
+      "cost_ht_usd": 1.26,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "subCategory": "PROCESSED CHEESE",
-      "sub": "PROCESSED CHEESE",
-      "totalStock": "0"
+      "sub": "PROCESSED CHEESE"
     },
     {
       "id": "18588",
@@ -12808,6 +12816,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-10-17T07:39:01.694514Z",
+  "updatedAt": "2026-10-17T07:45:15.756472Z",
   "source": "sql-relay-web"
 }
