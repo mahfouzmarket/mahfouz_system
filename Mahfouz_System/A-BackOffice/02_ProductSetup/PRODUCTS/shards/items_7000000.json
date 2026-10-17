@@ -2857,11 +2857,11 @@
       "linked_profile_item_id": "7000099",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "AMERICAN COOKIES",
-      "subCategory": "AMERICAN COOKIES",
-      "sub": "AMERICAN COOKIES",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "6",
       "branches": {
+        "Nouna": {
+          "stock": "6"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -2869,8 +2869,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "6",
+      "totalStock": "6",
+      "subCategory": "AMERICAN COOKIES",
+      "sub": "AMERICAN COOKIES",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000100",
@@ -3479,6 +3483,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-10-17T13:43:05.122278Z",
+  "updatedAt": "2026-10-17T14:44:07.294290Z",
   "source": "sql-relay-web"
 }
