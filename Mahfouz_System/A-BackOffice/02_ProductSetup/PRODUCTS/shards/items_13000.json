@@ -6474,11 +6474,11 @@
       "category": "NUTS",
       "sub_category": "CASTANIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "7",
       "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "210,000",
@@ -6490,7 +6490,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "7"
         },
         "Medawar": {
@@ -6504,7 +6504,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "5",
       "cost_ttc": 1.8315000000000003,
       "cost_ht": 1.6500000000000001,
       "cost_currency": "USD",
@@ -7715,9 +7715,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "15",
+      "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "51",
-      "total_stock": "23",
+      "total_stock": "22",
       "total_consumption": "63",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -7733,7 +7733,7 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "15",
+          "stock": "14",
           "consumption": "51"
         }
       },
@@ -7752,7 +7752,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13477-1779520248711904",
       "product_setup_saved_at_utc": "2026-05-23T07:10:48.711904Z",
-      "totalStock": "23",
+      "totalStock": "22",
       "cost_ttc": 0.9546000000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -8354,6 +8354,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-10-17T18:50:42.720475Z",
+  "updatedAt": "2026-10-17T18:59:13.494938Z",
   "source": "sql-relay-web"
 }
