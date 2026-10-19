@@ -20,25 +20,25 @@
       "price_lbp": "90,000",
       "cost": "0.40",
       "total_stock": "9",
-      "total_consumption": "12",
+      "total_consumption": "11",
       "stock_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
           "stock": "3",
-          "consumption": "3"
+          "consumption": "1"
         },
         "Medawar": {
           "stock": "6",
-          "consumption": "9"
+          "consumption": "10"
         },
         "geitawi": {
           "stock": "0",
-          "consumption": "3"
+          "consumption": "1"
         },
         "medawar": {
           "stock": "0",
-          "consumption": "9"
+          "consumption": "10"
         },
         "the_daily_market": {
           "stock": "0",
@@ -62,8 +62,8 @@
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "LIGHTER GOLD",
-      "consumption_in_geitawi_branch": "3",
-      "consumption_in_medawar_branch": "9",
+      "consumption_in_geitawi_branch": "1",
+      "consumption_in_medawar_branch": "10",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
       "sub": "LIGHTER",
@@ -557,11 +557,11 @@
       "branches": {
         "geitawi": {
           "stock": "0",
-          "consumption": "0"
+          "consumption": "2"
         },
         "medawar": {
           "stock": "0",
-          "consumption": "2"
+          "consumption": "0"
         },
         "the_daily_market": {
           "stock": "0",
@@ -569,11 +569,11 @@
         },
         "Geitawi": {
           "stock": "1",
-          "consumption": "0"
+          "consumption": "2"
         },
         "Medawar": {
           "stock": "1",
-          "consumption": "2"
+          "consumption": "0"
         },
         "The Daily Market": {
           "stock": "0.0",
@@ -593,8 +593,8 @@
       "import_note": "Imported only because PDF row contains BARCODE1/BARCODE2; active existing products were not changed.",
       "reactivated_from_active_listing_pdf_at_utc": "2026-05-09T22:54:32.479137Z",
       "name": "WADI WHITE KIDNEY BEANS 400GR",
-      "consumption_in_geitawi_branch": "0",
-      "consumption_in_medawar_branch": "2",
+      "consumption_in_geitawi_branch": "2",
+      "consumption_in_medawar_branch": "0",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
       "sub": "cans & jams",
@@ -831,6 +831,6 @@
       "costTtcUsd": 1.34976
     }
   ],
-  "updatedAt": "2026-10-16T17:54:25.784232Z",
+  "updatedAt": "2026-10-19T04:25:20.287059Z",
   "source": "sql-relay-web"
 }
