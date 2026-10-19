@@ -375,9 +375,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "2",
+      "total_stock": "3",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -397,20 +397,20 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
-      "cost_ttc": "1.8000",
-      "cost_ht": "1.8000",
-      "costTtcUsd": 1.8,
+      "totalStock": "3",
+      "cost_ttc": 1.9980000000000002,
+      "cost_ht": 1.8,
+      "costTtcUsd": 1.9980000000000002,
       "costHtUsd": 1.8,
       "cost_ht_usd": 1.8,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -421,7 +421,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 1.8,
+      "cost_ttc_usd": 1.9980000000000002,
       "subCategory": "TAHINA, LOUKOM & HALAWI",
       "sub": "TAHINA, LOUKOM & HALAWI"
     },
@@ -18876,9 +18876,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "25",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "48",
       "consumption_in_medawar_branch": "38",
-      "total_stock": "4",
+      "total_stock": "52",
       "total_consumption": "63",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -18894,7 +18894,7 @@
           "consumption": "25"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "48",
           "consumption": "38"
         }
       },
@@ -18908,16 +18908,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
-      "cost_ttc": 0.45209375,
-      "cost_ht": 0.40729166666666666,
+      "totalStock": "52",
+      "cost_ttc": 0.4583375,
+      "cost_ht": 0.41291666666666665,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781684683323",
       "latest_purchase_cost_date": "2026-06-17",
-      "costHtUsd": 0.40729166666666666,
-      "cost_ht_usd": 0.40729166666666666,
-      "costTtcUsd": 0.45209375,
+      "costHtUsd": 0.41291666666666665,
+      "cost_ht_usd": 0.41291666666666665,
+      "costTtcUsd": 0.4583375,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -18930,6 +18930,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
+      "cost_ttc_usd": 0.4583375,
       "subCategory": "juice"
     },
     {
@@ -18943,9 +18944,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "48",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "48",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "55,000",
@@ -18961,7 +18962,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "48",
           "consumption": "0"
         }
       },
@@ -18975,16 +18976,17 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 0.45199200000000006,
-      "cost_ht": 0.4072,
+      "totalStock": "48",
+      "cost_ttc": 0.4583375,
+      "cost_ht": 0.41291666666666665,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1776699629688",
       "latest_purchase_cost_date": "2026-04-20",
-      "costHtUsd": 0.4072,
-      "cost_ht_usd": 0.4072,
-      "costTtcUsd": 0.45199200000000006,
+      "costHtUsd": 0.41291666666666665,
+      "cost_ht_usd": 0.41291666666666665,
+      "costTtcUsd": 0.4583375,
+      "cost_ttc_usd": 0.4583375,
       "subCategory": "juice"
     },
     {
@@ -28785,6 +28787,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-10-19T15:35:45.748188Z",
+  "updatedAt": "2026-10-19T15:55:51.457883Z",
   "source": "sql-relay-web"
 }
