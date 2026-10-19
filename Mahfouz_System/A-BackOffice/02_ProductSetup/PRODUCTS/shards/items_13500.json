@@ -4015,9 +4015,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "51",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "80",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "131",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -4047,13 +4047,13 @@
           "consumption": "51"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "80"
         }
       },
       "product_setup_save_token": "PS-SAVE-13807-1781084194143092",
       "product_setup_saved_at_utc": "2026-06-10T09:36:34.143092Z",
-      "totalStock": "6",
+      "totalStock": "5",
       "cost_ttc": 0.5920000000000001,
       "cost_currency": "LBP",
       "cost_vat_included": true,
@@ -4663,11 +4663,11 @@
       "category": "ICE CREAM",
       "sub_category": "ICEBERG",
       "offers": "0",
-      "stock_in_geitawi_branch": "40",
+      "stock_in_geitawi_branch": "39",
       "consumption_in_geitawi_branch": "69",
       "stock_in_medawar_branch": "40",
       "consumption_in_medawar_branch": "52",
-      "total_stock": "80",
+      "total_stock": "79",
       "total_consumption": "121",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -4679,7 +4679,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "40",
+          "stock": "39",
           "consumption": "69"
         },
         "Medawar": {
@@ -4693,7 +4693,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "80",
+      "totalStock": "79",
       "cost_ttc": 0.624375,
       "cost_ht": 0.5625,
       "cost_currency": "USD",
@@ -5883,11 +5883,11 @@
       "category": "CHIPS",
       "sub_category": "DOLSI",
       "offers": "0",
-      "stock_in_geitawi_branch": "22",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "48",
       "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "31",
+      "total_stock": "30",
       "total_consumption": "61",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -5899,7 +5899,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "22",
+          "stock": "21",
           "consumption": "48"
         },
         "Medawar": {
@@ -5925,7 +5925,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13864-1778951455425483",
       "product_setup_saved_at_utc": "2026-05-16T17:10:55.425483Z",
-      "totalStock": "31",
+      "totalStock": "30",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.777,
       "cost_currency": "USD",
@@ -5950,9 +5950,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "63",
       "consumption_in_geitawi_branch": "154",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "36",
-      "total_stock": "67",
+      "total_stock": "66",
       "total_consumption": "190",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -5968,7 +5968,7 @@
           "consumption": "154"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "36"
         },
         "Nouna": {
@@ -5990,7 +5990,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13865-1778951492426471",
       "product_setup_saved_at_utc": "2026-05-16T17:11:32.426471Z",
-      "totalStock": "67",
+      "totalStock": "66",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -6083,9 +6083,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "14",
       "consumption_in_geitawi_branch": "72",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "51",
-      "total_stock": "20",
+      "total_stock": "19",
       "total_consumption": "123",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -6101,7 +6101,7 @@
           "consumption": "72"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "5",
           "consumption": "51"
         },
         "Nouna": {
@@ -6123,7 +6123,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-13867-1778951593776943",
       "product_setup_saved_at_utc": "2026-05-16T17:13:13.776943Z",
-      "totalStock": "20",
+      "totalStock": "19",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.777,
       "cost_currency": "USD",
@@ -8676,6 +8676,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-10-19T11:39:26.410229Z",
+  "updatedAt": "2026-10-19T11:47:16.123666Z",
   "source": "sql-relay-web"
 }
