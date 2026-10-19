@@ -4042,15 +4042,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "7",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "320,000",
       "price_usd": "3.56",
       "cost": "2.15",
-      "cost_ht": 2.15076,
+      "cost_ht": 2.15,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300074.jpg",
       "new_items": "x",
       "manual": "",
@@ -4066,7 +4066,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "7",
           "consumption": "0"
         }
       },
@@ -4076,18 +4076,19 @@
       "supplier": "SADAPACK",
       "subcategory": "DISH WASHING",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 2.3873436,
+      "totalStock": "7",
+      "cost_ttc": 2.3865000000000003,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779177283873",
       "latest_purchase_cost_date": "2026-05-19",
-      "costHtUsd": 2.15076,
-      "cost_ht_usd": 2.15076,
-      "costTtcUsd": 2.3873436,
+      "costHtUsd": 2.15,
+      "cost_ht_usd": 2.15,
+      "costTtcUsd": 2.3865000000000003,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300074.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300074.jpg",
       "image_updated_at_utc": "2026-10-04T01:12:40.293575Z",
+      "cost_ttc_usd": 2.3865000000000003,
       "subCategory": "DISH WASHING",
       "sub": "DISH WASHING"
     },
@@ -28269,12 +28270,12 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300459.jpg",
       "new_items": "x",
-      "total_stock": "5",
-      "totalStock": "5",
-      "stock_in_medawar_branch": "1",
+      "total_stock": "17",
+      "totalStock": "17",
+      "stock_in_medawar_branch": "13",
       "branches": {
         "Medawar": {
-          "stock": "1",
+          "stock": "13",
           "consumption": "3"
         },
         "Geitawi": {
@@ -28289,6 +28290,7 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300459.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300459.jpg",
       "image_updated_at_utc": "2026-09-23T08:13:40.252636Z",
+      "cost_ttc_usd": 2.24035,
       "subcategory": "CLEANING",
       "subCategory": "CLEANING",
       "sub": "CLEANING",
@@ -30881,6 +30883,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-10-19T09:51:32.075451Z",
+  "updatedAt": "2026-10-19T10:18:45.338727Z",
   "source": "sql-relay-web"
 }
