@@ -5713,7 +5713,7 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NOUNA'S FOOD",
       "offers": "",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "9",
       "consumption_in_medawar_branch": "0",
@@ -5734,7 +5734,7 @@
       "linked_profile_item_id": "90133",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "9"
         },
         "Medawar": {
@@ -5742,7 +5742,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0"
         },
         "Firas": {
@@ -5767,7 +5767,7 @@
       "product_setup_saved_at_utc": "2026-05-20T13:43:19.201207Z",
       "description": "Donuts Cup",
       "expiryDays": 5,
-      "stock_in_nouna_branch": "2",
+      "stock_in_nouna_branch": "0",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 1.4195,
       "cost_currency": "USD",
@@ -6226,9 +6226,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "338",
       "consumption_in_geitawi_branch": "1034",
-      "stock_in_medawar_branch": "7886",
+      "stock_in_medawar_branch": "7885",
       "consumption_in_medawar_branch": "1912",
-      "total_stock": "8226",
+      "total_stock": "8225",
       "total_consumption": "2946",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -6244,7 +6244,7 @@
           "consumption": "1034"
         },
         "Medawar": {
-          "stock": "7886",
+          "stock": "7885",
           "consumption": "1912"
         },
         "Nouna": {
@@ -6262,7 +6262,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8226",
+      "totalStock": "8225",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -9782,6 +9782,55 @@
       "consumption_in_firas_branch": "0"
     },
     {
+      "id": "90295",
+      "barcode": "",
+      "barcode2": "",
+      "secondBarcode": "",
+      "barcodes": "",
+      "Product Description": "ORANGE CAKE 20CM",
+      "product_description": "ORANGE CAKE 20CM",
+      "description": "ORANGE CAKE 20CM",
+      "SUPPLIERS": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
+      "unit": "-",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "CAKES",
+      "subcategory": "CAKES",
+      "price_lbp": "1,170,000",
+      "priceLbp": 1170000,
+      "price_usd": "13.00",
+      "cost": "11.05",
+      "cost_ht": "11.05",
+      "costHtUsd": 11.05,
+      "cost_ht_usd": 11.05,
+      "cost_currency": "USD",
+      "VAT": "NO",
+      "vat": "no",
+      "expiry_days": "0",
+      "expiryDays": 0,
+      "delivery_rules": "0.005",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID90295.jpg",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "90295",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "CAKES",
+      "subCategory": "CAKES",
+      "sub": "CAKES",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0"
+        },
+        "Medawar": {
+          "stock": "0"
+        }
+      },
+      "total_stock": "0",
+      "totalStock": "0"
+    },
+    {
       "id": "90297",
       "barcode": "2709521",
       "Product Description": "MUG I LOVE YOU MOM",
@@ -10389,6 +10438,6 @@
       "subCategory": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-10-19T10:42:30.130781Z",
+  "updatedAt": "2026-10-19T10:47:29.774759Z",
   "source": "sql-relay-web"
 }
