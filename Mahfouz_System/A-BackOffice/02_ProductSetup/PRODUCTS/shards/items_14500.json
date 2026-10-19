@@ -3192,11 +3192,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -3208,7 +3208,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         },
         "Medawar": {
@@ -3222,7 +3222,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc": 2.1534,
       "cost_ht": 1.94,
       "cost_currency": "USD",
@@ -5211,11 +5211,11 @@
       "category": "CHIPS",
       "sub_category": "FANTASIA",
       "offers": "0",
-      "stock_in_geitawi_branch": "14",
+      "stock_in_geitawi_branch": "13",
       "consumption_in_geitawi_branch": "27",
       "stock_in_medawar_branch": "18",
       "consumption_in_medawar_branch": "23",
-      "total_stock": "32",
+      "total_stock": "31",
       "total_consumption": "50",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -5227,7 +5227,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "14",
+          "stock": "13",
           "consumption": "27"
         },
         "Medawar": {
@@ -5241,7 +5241,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "32",
+      "totalStock": "31",
       "cost_ttc": 0.66045,
       "cost_ht": 0.595,
       "cost_currency": "USD",
@@ -7728,6 +7728,6 @@
       "subCategory": "arak"
     }
   ],
-  "updatedAt": "2026-10-19T13:01:39.604128Z",
+  "updatedAt": "2026-10-19T13:27:51.263405Z",
   "source": "sql-relay-web"
 }
