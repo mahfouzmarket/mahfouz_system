@@ -1670,9 +1670,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "5",
+      "total_stock": "9",
       "total_consumption": "12",
       "VAT": "YES",
       "price_lbp": "530,000",
@@ -1702,13 +1702,13 @@
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "5",
           "consumption": "6"
         }
       },
       "product_setup_save_token": "PS-SAVE-14620-1781242076948800",
       "product_setup_saved_at_utc": "2026-06-12T05:27:56.948800Z",
-      "totalStock": "5",
+      "totalStock": "9",
       "cost_ttc": 4.789650000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -2975,9 +2975,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "6",
+      "total_stock": "12",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "410,000",
@@ -2997,15 +2997,15 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "12",
           "consumption": "2"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
-      "cost_ttc": "3.9500",
-      "cost_ht": "3.9500",
+      "totalStock": "12",
+      "cost_ttc": 3.95,
+      "cost_ht": 3.95,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779722317977",
@@ -4329,9 +4329,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "31",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "78",
+      "stock_in_medawar_branch": "77",
       "consumption_in_medawar_branch": "22",
-      "total_stock": "109",
+      "total_stock": "108",
       "total_consumption": "34",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -4347,7 +4347,7 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "78",
+          "stock": "77",
           "consumption": "22"
         }
       },
@@ -4357,7 +4357,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "109",
+      "totalStock": "108",
       "cost_ttc": 1.91,
       "cost_ht": 1.91,
       "cost_currency": "USD",
@@ -7728,6 +7728,6 @@
       "subCategory": "arak"
     }
   ],
-  "updatedAt": "2026-10-19T15:47:47.842968Z",
+  "updatedAt": "2026-10-19T15:55:51.457883Z",
   "source": "sql-relay-web"
 }
