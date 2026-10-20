@@ -8190,7 +8190,7 @@
       "total_stock": "0",
       "total_consumption": "15",
       "VAT": "NO",
-      "price_lbp": "1,180,000",
+      "price_lbp": "1,140,000",
       "price_usd": "13.11",
       "cost": "11.33",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19750.jpg",
@@ -8241,6 +8241,14 @@
       "cost_ttc_usd": 11.33,
       "cost_currency": "USD",
       "cost_vat_included": false,
+      "priceLbp": 1140000,
+      "recharge_price_rule_v1": {
+        "basis": "category_cost_usd",
+        "multiplierLbpPerUsd": 100000,
+        "roundingStepLbp": 10000,
+        "rounding": "up",
+        "unitCostUsd": 11.33
+      },
       "subCategory": "alfa"
     },
     {
@@ -8259,7 +8267,7 @@
       "total_stock": "0",
       "total_consumption": "1",
       "VAT": "NO",
-      "price_lbp": "1,180,000",
+      "price_lbp": "1,140,000",
       "price_usd": "13.11",
       "cost": "11.33",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19751.jpg",
@@ -8305,6 +8313,14 @@
       "cost_ttc_usd": 11.33,
       "cost_currency": "USD",
       "cost_vat_included": false,
+      "priceLbp": 1140000,
+      "recharge_price_rule_v1": {
+        "basis": "category_cost_usd",
+        "multiplierLbpPerUsd": 100000,
+        "roundingStepLbp": 10000,
+        "rounding": "up",
+        "unitCostUsd": 11.33
+      },
       "subCategory": "touch"
     },
     {
@@ -16869,6 +16885,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-10-20T07:28:46.767039Z",
+  "updatedAt": "2026-10-20T08:14:13.214161Z",
   "source": "sql-relay-web"
 }
