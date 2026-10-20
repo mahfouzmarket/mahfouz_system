@@ -255,6 +255,14 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000006.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID1000006.jpg",
       "image_updated_at_utc": "2026-10-20T05:53:51.760121Z",
+      "priceLbp": 450000,
+      "recharge_price_rule_v1": {
+        "basis": "category_cost_usd",
+        "multiplierLbpPerUsd": 100000,
+        "roundingStepLbp": 10000,
+        "rounding": "up",
+        "unitCostUsd": 4.44
+      },
       "subcategory": "touch",
       "subCategory": "touch",
       "sub": "touch",
@@ -981,6 +989,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-10-20T07:13:47.717691Z",
+  "updatedAt": "2026-10-20T08:14:13.214161Z",
   "source": "sql-relay-web"
 }
