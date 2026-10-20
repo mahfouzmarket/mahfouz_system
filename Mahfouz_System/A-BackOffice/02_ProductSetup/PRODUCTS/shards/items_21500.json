@@ -24877,6 +24877,14 @@
       "cost_ttc_usd": 5.22,
       "cost_currency": "USD",
       "cost_vat_included": false,
+      "priceLbp": 530000,
+      "recharge_price_rule_v1": {
+        "basis": "category_cost_usd",
+        "multiplierLbpPerUsd": 100000,
+        "roundingStepLbp": 10000,
+        "rounding": "up",
+        "unitCostUsd": 5.22
+      },
       "subCategory": "alfa"
     },
     {
@@ -26378,6 +26386,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-10-20T07:49:01.502389Z",
+  "updatedAt": "2026-10-20T08:14:13.214161Z",
   "source": "sql-relay-web"
 }
