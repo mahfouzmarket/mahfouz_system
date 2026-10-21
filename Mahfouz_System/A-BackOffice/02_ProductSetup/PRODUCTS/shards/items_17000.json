@@ -2877,9 +2877,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "13",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "105,000",
@@ -2895,7 +2895,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         }
       },
@@ -2905,9 +2905,9 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": "0.9435",
-      "cost_ht": "0.8500",
+      "totalStock": "13",
+      "cost_ttc": 0.9435,
+      "cost_ht": 0.85,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14131-2026-03-30",
@@ -2940,9 +2940,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "24",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -2958,7 +2958,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "24",
           "consumption": "0"
         }
       },
@@ -2968,16 +2968,17 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 0.222,
-      "cost_ht": 0.2,
+      "totalStock": "24",
+      "cost_ttc": 0.19999999999999998,
+      "cost_ht": 0.19999999999999998,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1780896404239",
       "latest_purchase_cost_date": "2026-06-08",
-      "costHtUsd": 0.2,
-      "cost_ht_usd": 0.2,
-      "costTtcUsd": 0.222,
+      "costHtUsd": 0.19999999999999998,
+      "cost_ht_usd": 0.19999999999999998,
+      "costTtcUsd": 0.19999999999999998,
+      "cost_ttc_usd": 0.19999999999999998,
       "subCategory": "SEEDS",
       "sub": "SEEDS"
     },
@@ -12082,6 +12083,6 @@
       "subCategory": "LAMP"
     }
   ],
-  "updatedAt": "2026-10-21T05:41:03.522602Z",
+  "updatedAt": "2026-10-21T05:55:46.578968Z",
   "source": "sql-relay-web"
 }
