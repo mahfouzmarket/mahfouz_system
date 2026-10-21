@@ -3788,8 +3788,8 @@
       "cost": "1.32",
       "total_stock": "32",
       "total_consumption": "2",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "32",
+      "stock_in_geitawi_branch": "16",
+      "stock_in_medawar_branch": "16",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -3804,12 +3804,12 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "16",
           "consumption": "1"
         },
         "Geitawi": {
           "consumption": "1",
-          "stock": "0"
+          "stock": "16"
         }
       },
       "created_by_user_code": "1",
@@ -6712,9 +6712,9 @@
       "category": "CHI TAYIB",
       "sub_category": "sweets",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "13",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "32",
+      "stock_in_medawar_branch": "21",
       "consumption_in_medawar_branch": "0",
       "total_stock": "34",
       "total_consumption": "0",
@@ -6728,11 +6728,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "13",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "21",
           "consumption": "0"
         }
       },
@@ -29456,6 +29456,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-10-21T11:41:30.074724Z",
+  "updatedAt": "2026-10-21T11:49:18.386383Z",
   "source": "sql-relay-web"
 }
