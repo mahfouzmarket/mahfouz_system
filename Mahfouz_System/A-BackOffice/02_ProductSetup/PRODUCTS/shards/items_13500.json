@@ -1354,11 +1354,11 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "51",
+      "stock_in_geitawi_branch": "49",
       "consumption_in_geitawi_branch": "158",
       "stock_in_medawar_branch": "144",
       "consumption_in_medawar_branch": "180",
-      "total_stock": "195",
+      "total_stock": "193",
       "total_consumption": "338",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1370,7 +1370,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "51",
+          "stock": "49",
           "consumption": "158"
         },
         "Medawar": {
@@ -1384,7 +1384,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "195",
+      "totalStock": "193",
       "cost_ttc": 0.5409242133333334,
       "cost_ht": 0.48731911111111115,
       "cost_currency": "LBP",
@@ -1523,9 +1523,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "64",
-      "stock_in_medawar_branch": "32",
+      "stock_in_medawar_branch": "31",
       "consumption_in_medawar_branch": "50",
-      "total_stock": "48",
+      "total_stock": "47",
       "total_consumption": "114",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -1541,7 +1541,7 @@
           "consumption": "64"
         },
         "Medawar": {
-          "stock": "32",
+          "stock": "31",
           "consumption": "50"
         }
       },
@@ -1551,7 +1551,7 @@
       "vat": "yes",
       "barcode2": "5283024602350",
       "barcodes": "",
-      "totalStock": "48",
+      "totalStock": "47",
       "cost_ttc": 1.1500093333333334,
       "cost_ht": 1.0360444444444445,
       "cost_currency": "LBP",
@@ -8584,9 +8584,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "6",
+      "total_stock": "9",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "335,000",
@@ -8602,7 +8602,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "8",
           "consumption": "0"
         }
       },
@@ -8612,14 +8612,25 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
-      "cost_ttc": 2.6,
-      "cost_ht": 2.6,
-      "costTtcUsd": 2.6,
+      "totalStock": "9",
+      "cost_ttc": "2.8860",
+      "cost_ht": "2.6000",
+      "costTtcUsd": 2.8860000000000006,
       "costHtUsd": 2.6,
       "cost_ht_usd": 2.6,
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 2.8860000000000006,
       "subCategory": "hair care",
       "sub": "hair care"
     },
@@ -8634,9 +8645,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "6",
+      "total_stock": "11",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "395,000",
@@ -8652,7 +8663,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "8",
           "consumption": "0"
         }
       },
@@ -8662,16 +8673,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
-      "cost_ttc": 3.0,
-      "cost_ht": 3.0,
+      "totalStock": "11",
+      "cost_ttc": "3.3300",
+      "cost_ht": "3.0000",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780563221257",
       "latest_purchase_cost_date": "2026-06-04",
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
-      "costTtcUsd": 3.0,
+      "costTtcUsd": 3.33,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -8682,13 +8693,11 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "cost_ttc_usd": 3.0,
+      "cost_ttc_usd": 3.33,
       "subCategory": "deodorant & roll on",
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-10-22T10:20:32.750881Z",
+  "updatedAt": "2026-10-22T10:31:36.215981Z",
   "source": "sql-relay-web"
 }
