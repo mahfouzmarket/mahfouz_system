@@ -21589,9 +21589,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "15",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "5",
+      "total_stock": "17",
       "total_consumption": "12",
       "VAT": "YES",
       "price_lbp": "105,000",
@@ -21607,7 +21607,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "15",
           "consumption": "7"
         }
       },
@@ -21617,16 +21617,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
-      "cost_ttc": "0.7215",
-      "cost_ht": "0.6500",
+      "totalStock": "17",
+      "cost_ttc": 0.65,
+      "cost_ht": 0.65,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14412",
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 0.65,
       "cost_ht_usd": 0.65,
-      "costTtcUsd": 0.7215000000000001,
+      "costTtcUsd": 0.65,
       "sub": "TRASH BAGS",
       "secondary_category": "",
       "category2": "",
@@ -21635,7 +21635,7 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 0.7215000000000001,
+      "cost_ttc_usd": 0.65,
       "subCategory": "TRASH BAGS"
     },
     {
@@ -29467,6 +29467,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-10-22T08:59:36.596248Z",
+  "updatedAt": "2026-10-22T09:10:39.084282Z",
   "source": "sql-relay-web"
 }
