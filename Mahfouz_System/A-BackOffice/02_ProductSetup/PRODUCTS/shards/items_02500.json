@@ -774,9 +774,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "5",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "10",
-      "total_stock": "3",
+      "total_stock": "9",
       "total_consumption": "15",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -792,7 +792,7 @@
           "consumption": "5"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "10"
         }
       },
@@ -800,7 +800,7 @@
       "supplier": "HINTRAG",
       "subcategory": "BAKING & COOKING",
       "vat": "yes",
-      "totalStock": "3",
+      "totalStock": "9",
       "barcode2": "",
       "barcodes": "",
       "cost_ttc": 0.6993,
@@ -1034,14 +1034,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "27",
+      "stock_in_medawar_branch": "159",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "31",
+      "total_stock": "163",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "30,000",
       "price_usd": "0.33",
-      "cost": "0.22",
+      "cost": "0.20",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2645.jpg",
       "new_items": "",
       "manual": "",
@@ -1052,7 +1052,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "27",
+          "stock": "159",
           "consumption": "6"
         }
       },
@@ -1062,16 +1062,17 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "31",
-      "cost_ttc": 0.2442,
-      "cost_ht": 0.22,
+      "totalStock": "163",
+      "cost_ttc": 0.22536363636363638,
+      "cost_ht": 0.20303030303030303,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13932-2026-03-13",
       "latest_purchase_cost_date": "2026-03-13",
-      "costHtUsd": 0.22,
-      "cost_ht_usd": 0.22,
-      "costTtcUsd": 0.2442,
+      "costHtUsd": 0.20303030303030303,
+      "cost_ht_usd": 0.20303030303030303,
+      "costTtcUsd": 0.22536363636363638,
+      "cost_ttc_usd": 0.22536363636363638,
       "subCategory": "BAKING & COOKING",
       "sub": "BAKING & COOKING"
     },
@@ -2477,6 +2478,6 @@
       "subCategory": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-10-23T07:30:27.610378Z",
+  "updatedAt": "2026-10-23T07:43:55.583825Z",
   "source": "sql-relay-web"
 }
