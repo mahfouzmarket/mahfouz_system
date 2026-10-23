@@ -1320,14 +1320,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "144",
       "consumption_in_medawar_branch": "11",
-      "total_stock": "0",
+      "total_stock": "144",
       "total_consumption": "14",
       "VAT": "YES",
-      "price_lbp": "180,000",
-      "price_usd": "2.00",
-      "cost": "1.50",
+      "price_lbp": "200,000",
+      "price_usd": "2.22",
+      "cost": "1.60",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16644.jpg",
       "new_items": "",
       "manual": "",
@@ -1338,7 +1338,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "144",
           "consumption": "11"
         }
       },
@@ -1352,16 +1352,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": "1.6650",
-      "cost_ht": "1.5000",
+      "totalStock": "144",
+      "cost_ttc": 1.7760000000000002,
+      "cost_ht": 1.6,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781246729862",
       "latest_purchase_cost_date": "2026-06-12",
-      "costHtUsd": 1.5,
-      "cost_ht_usd": 1.5,
-      "costTtcUsd": 1.665,
+      "costHtUsd": 1.6,
+      "cost_ht_usd": 1.6,
+      "costTtcUsd": 1.7760000000000002,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1372,7 +1372,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 1.665,
+      "cost_ttc_usd": 1.7760000000000002,
       "subCategory": "cold coffee"
     },
     {
@@ -8511,11 +8511,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "10",
       "VAT": "NO",
       "price_lbp": "500,000",
@@ -8527,7 +8527,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "9"
         },
         "Medawar": {
@@ -8560,7 +8560,7 @@
       "name": "HALLOUM PESTO SND white",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "0",
+      "totalStock": "-1",
       "stock_in_nouna_branch": "0",
       "cost_ttc": 4.19,
       "cost_currency": "USD",
@@ -8875,6 +8875,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-10-23T07:31:00.381490Z",
+  "updatedAt": "2026-10-23T08:02:40.531710Z",
   "source": "sql-relay-web"
 }
