@@ -1709,11 +1709,11 @@
           "consumption": "2"
         },
         "Nouna": {
-          "stock": "13",
+          "stock": "15",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -1728,7 +1728,7 @@
       "VAT": "NO",
       "expiry_days": "60",
       "expiryDays": 60,
-      "stock_in_nouna_branch": "13",
+      "stock_in_nouna_branch": "15",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1745,7 +1745,7 @@
       "cost_currency": "USD",
       "cost_vat_included": false,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "2",
+      "stock_in_firas_branch": "0",
       "toters": {
         "enabled": true,
         "priceMultiplier": 1.0,
@@ -1802,16 +1802,16 @@
           "consumption": "2"
         },
         "Nouna": {
-          "stock": "15",
+          "stock": "20",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "5",
+          "stock": "0",
           "consumption": "0"
         }
       },
       "totalStock": "21",
-      "stock_in_nouna_branch": "15",
+      "stock_in_nouna_branch": "20",
       "barcode2": "",
       "secondBarcode": "",
       "description": "LOTUS SABLE 1 PC",
@@ -1823,7 +1823,7 @@
       "expiry_days": "60",
       "expiryDays": 60,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "5",
+      "stock_in_firas_branch": "0",
       "costHtUsd": 2.125,
       "cost_ht_usd": 2.125,
       "cost_currency": "USD",
@@ -2477,11 +2477,11 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-10-13T19:33:46.809566Z"
       },
-      "subCategory": "NOUNA'S FOOD",
-      "sub": "NOUNA'S FOOD",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "11",
       "branches": {
+        "Nouna": {
+          "stock": "11"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -2489,8 +2489,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "11",
+      "totalStock": "11",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000092",
@@ -3553,6 +3557,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-10-23T11:30:49.063410Z",
+  "updatedAt": "2026-10-23T14:02:09.897106Z",
   "source": "sql-relay-web"
 }
