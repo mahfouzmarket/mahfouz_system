@@ -277,9 +277,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "79",
       "consumption_in_geitawi_branch": "328",
-      "stock_in_medawar_branch": "36",
+      "stock_in_medawar_branch": "35",
       "consumption_in_medawar_branch": "154",
-      "total_stock": "115",
+      "total_stock": "114",
       "total_consumption": "482",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -295,7 +295,7 @@
           "consumption": "328"
         },
         "Medawar": {
-          "stock": "36",
+          "stock": "35",
           "consumption": "154"
         }
       },
@@ -314,7 +314,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12582-1778920628974995",
       "product_setup_saved_at_utc": "2026-05-16T08:37:08.974995Z",
-      "totalStock": "115",
+      "totalStock": "114",
       "priceLbp": 70000.0,
       "priceUsd": 0.7777777777777778,
       "arabic_name": "",
@@ -1545,11 +1545,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "41",
+      "stock_in_geitawi_branch": "39",
       "consumption_in_geitawi_branch": "123",
       "stock_in_medawar_branch": "35",
       "consumption_in_medawar_branch": "146",
-      "total_stock": "76",
+      "total_stock": "74",
       "total_consumption": "269",
       "VAT": "NO",
       "price_lbp": "80,000",
@@ -1561,7 +1561,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "41",
+          "stock": "39",
           "consumption": "123"
         },
         "Medawar": {
@@ -1584,7 +1584,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-12702-1778924493307164",
       "product_setup_saved_at_utc": "2026-05-16T09:41:33.307164Z",
-      "totalStock": "76",
+      "totalStock": "74",
       "priceLbp": 80000.0,
       "priceUsd": 0.8888888888888888,
       "arabic_name": "",
@@ -5374,14 +5374,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "23",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "4",
+      "total_stock": "28",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "180,000",
       "price_usd": "2.00",
-      "cost": "0.75",
+      "cost": "0.50",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID12948.jpg",
       "new_items": "",
       "manual": "",
@@ -5396,22 +5396,23 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "23",
           "consumption": "2"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
-      "cost_ttc": 0.8325,
-      "cost_ht": 0.75,
+      "totalStock": "28",
+      "cost_ttc": 0.555,
+      "cost_ht": 0.5,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14296-2026-04-13",
       "latest_purchase_cost_date": "2026-04-13",
-      "costHtUsd": 0.75,
-      "cost_ht_usd": 0.75,
-      "costTtcUsd": 0.8325,
+      "costHtUsd": 0.5,
+      "cost_ht_usd": 0.5,
+      "costTtcUsd": 0.555,
+      "cost_ttc_usd": 0.555,
       "subCategory": "TOOLS",
       "sub": "TOOLS"
     },
@@ -6131,6 +6132,6 @@
       "sub": "SHISHA STUFF"
     }
   ],
-  "updatedAt": "2026-10-24T09:03:35.867368Z",
+  "updatedAt": "2026-10-24T09:16:53.195174Z",
   "source": "sql-relay-web"
 }
