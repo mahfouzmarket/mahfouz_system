@@ -4025,9 +4025,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "51",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "80",
-      "total_stock": "3",
+      "total_stock": "2",
       "total_consumption": "131",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -4057,13 +4057,13 @@
           "consumption": "51"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "80"
         }
       },
       "product_setup_save_token": "PS-SAVE-13807-1781084194143092",
       "product_setup_saved_at_utc": "2026-06-10T09:36:34.143092Z",
-      "totalStock": "3",
+      "totalStock": "2",
       "cost_ttc": 0.5920000000000001,
       "cost_currency": "LBP",
       "cost_vat_included": true,
@@ -7034,11 +7034,11 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "14",
+      "stock_in_geitawi_branch": "12",
       "consumption_in_geitawi_branch": "30",
       "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "25",
-      "total_stock": "28",
+      "total_stock": "26",
       "total_consumption": "55",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -7050,7 +7050,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "14",
+          "stock": "12",
           "consumption": "30"
         },
         "Medawar": {
@@ -7064,7 +7064,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "28",
+      "totalStock": "26",
       "cost_ttc": 0.7746875,
       "cost_ht": 0.6979166666666666,
       "cost_currency": "USD",
@@ -8699,6 +8699,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-10-24T03:41:55.763083Z",
+  "updatedAt": "2026-10-24T03:53:13.238839Z",
   "source": "sql-relay-web"
 }
