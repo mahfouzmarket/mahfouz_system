@@ -3933,13 +3933,16 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400090.jpg",
       "new_items": "x",
-      "total_stock": "1",
-      "totalStock": "1",
+      "total_stock": "-1",
+      "totalStock": "-1",
       "stock_in_medawar_branch": "1",
       "branches": {
         "Medawar": {
           "stock": "1",
           "consumption": "2"
+        },
+        "Geitawi": {
+          "stock": "-2"
         }
       },
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400090.jpg",
@@ -3947,6 +3950,7 @@
       "image_updated_at_utc": "2026-10-23T04:17:23.652583Z",
       "consumption_in_medawar_branch": "2",
       "total_consumption": "2",
+      "stock_in_geitawi_branch": "-2",
       "subcategory": "Croissant",
       "subCategory": "Croissant",
       "sub": "Croissant",
@@ -4060,6 +4064,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-10-25T15:38:43.865886Z",
+  "updatedAt": "2026-10-26T02:03:21.827175Z",
   "source": "sql-relay-web"
 }
