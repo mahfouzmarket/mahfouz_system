@@ -11116,7 +11116,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "46",
       "branches": {
         "Geitawi": {
@@ -11124,11 +11124,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "10",
           "consumption": "46"
         }
       },
-      "total_stock": "11",
+      "total_stock": "10",
       "total_consumption": "46",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -11136,7 +11136,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "11",
+      "totalStock": "10",
       "cost_ttc": 2.2755000000000005,
       "cost_ht": 2.0500000000000003,
       "cost_currency": "USD",
@@ -26211,11 +26211,11 @@
       "id": "21988",
       "barcode": "2709433",
       "barcodes": "",
-      "Product Description": "MARBLE CAKE",
-      "product_description": "MARBLE CAKE",
-      "description": "MARBLE CAKE",
+      "Product Description": "MARBLE CAKE 16CM",
+      "product_description": "MARBLE CAKE 16CM",
+      "description": "MARBLE CAKE 16CM",
       "brand": "",
-      "supplier": "",
+      "supplier": "NOUNA'S FOOD",
       "SUPPLIERS": "NOUNA'S FOOD",
       "category": "CHI TAYIB",
       "sub_category": "cake",
@@ -26225,10 +26225,10 @@
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "450,000",
-      "cost": "4.17",
+      "cost": "4.25",
       "total_stock": "-2",
       "total_consumption": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
@@ -26249,10 +26249,10 @@
         },
         "Geitawi": {
           "consumption": "0",
-          "stock": "0"
+          "stock": "1"
         },
         "Nouna": {
-          "stock": "-2",
+          "stock": "-3",
           "consumption": "0"
         },
         "nouna": {
@@ -26288,15 +26288,15 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "4.17",
+      "cost_ht": "4.25",
       "costUsd": 4.17,
-      "cost_ht_usd": 4.17,
+      "cost_ht_usd": 4.25,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
-      "expiry_days": "0",
+      "expiry_days": "10",
       "non_stockable": false,
       "nonStockable": false,
       "scale_item_enabled": false,
@@ -26306,9 +26306,9 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "price_usd": "5.00",
-      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21988.jpg",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2709419.jpg",
       "totalStock": "-2",
-      "stock_in_nouna_branch": "-2",
+      "stock_in_nouna_branch": "-3",
       "duplicate_barcode_merge_at_utc": "2026-07-15T15:07:17.9939412Z",
       "duplicate_barcode_merge_rule": "picture_then_oldest_with_chris_rami_inventory_override",
       "consumption_in_nouna_branch": "0",
@@ -26316,7 +26316,14 @@
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "200018",
       "stock_in_firas_branch": "0",
-      "consumption_in_firas_branch": "0"
+      "consumption_in_firas_branch": "0",
+      "secondBarcode": "",
+      "priceLbp": 450000,
+      "costHtUsd": 4.25,
+      "cost_currency": "USD",
+      "expiryDays": 10,
+      "linked_profile_category": "CHI TAYIB",
+      "linked_profile_sub_category": "cake"
     },
     {
       "id": "21999",
@@ -26417,6 +26424,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-10-27T12:37:39.103969Z",
+  "updatedAt": "2026-10-27T12:58:09.376186Z",
   "source": "sql-relay-web"
 }
