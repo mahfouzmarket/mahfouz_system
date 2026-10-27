@@ -2381,9 +2381,9 @@
       "category": "CHIPS",
       "sub_category": "MASTER",
       "offers": "0",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "-10",
       "consumption_in_medawar_branch": "7",
       "total_stock": "5",
       "total_consumption": "9",
@@ -2397,11 +2397,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "3",
+          "stock": "15",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "-10",
           "consumption": "7"
         }
       },
@@ -14331,6 +14331,6 @@
       "subCategory": "SNIPS"
     }
   ],
-  "updatedAt": "2026-10-27T12:32:25.831216Z",
+  "updatedAt": "2026-10-27T12:39:41.548327Z",
   "source": "sql-relay-web"
 }
