@@ -546,9 +546,9 @@
       "category": "FOOD",
       "sub_category": "SEEDS",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "9",
       "total_stock": "8",
       "total_consumption": "15",
@@ -562,11 +562,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "5",
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "3",
           "consumption": "9"
         }
       },
@@ -599,9 +599,9 @@
       "category": "FOOD",
       "sub_category": "FROZEN FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-6",
       "consumption_in_medawar_branch": "0",
       "total_stock": "0",
       "total_consumption": "0",
@@ -615,11 +615,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-6",
           "consumption": "0"
         }
       },
@@ -3187,9 +3187,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "17",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "23",
       "consumption_in_medawar_branch": "63",
-      "total_stock": "26",
+      "total_stock": "25",
       "total_consumption": "80",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -3205,7 +3205,7 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "23",
           "consumption": "63"
         }
       },
@@ -3215,7 +3215,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "26",
+      "totalStock": "25",
       "cost_ttc": 0.7746875,
       "cost_ht": 0.6979166666666666,
       "cost_currency": "USD",
@@ -4580,9 +4580,9 @@
       "category": "FOOD",
       "sub_category": "FROZEN FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "8",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-3",
       "consumption_in_medawar_branch": "6",
       "total_stock": "0",
       "total_consumption": "14",
@@ -4596,11 +4596,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "8"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-3",
           "consumption": "6"
         }
       },
@@ -8078,6 +8078,6 @@
       "sub": "TRASH BAGS"
     }
   ],
-  "updatedAt": "2026-10-28T07:11:16.811213Z",
+  "updatedAt": "2026-10-28T07:49:09.586084Z",
   "source": "sql-relay-web"
 }
