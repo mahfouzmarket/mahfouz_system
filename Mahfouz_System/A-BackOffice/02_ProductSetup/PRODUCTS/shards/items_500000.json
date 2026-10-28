@@ -827,9 +827,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "125,000",
@@ -851,7 +851,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0.0"
         }
       },
@@ -877,7 +877,7 @@
       "cost_ttc_usd": 0.8325,
       "cost_currency": "USD",
       "cost_vat_included": true,
-      "totalStock": "0",
+      "totalStock": "-1",
       "sub": "STATIONARY",
       "secondary_category": "",
       "category2": "",
@@ -6850,6 +6850,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-10-28T16:36:18.476066Z",
+  "updatedAt": "2026-10-28T17:39:36.151545Z",
   "source": "sql-relay-web"
 }
