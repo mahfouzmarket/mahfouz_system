@@ -5021,9 +5021,9 @@
       "category": "HOME USAGE",
       "sub_category": "GLOVES",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "2",
       "total_consumption": "0.0",
@@ -5041,11 +5041,11 @@
       "vat": "yes",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0.0"
         }
       },
@@ -5067,8 +5067,8 @@
       "cost_ttc_usd": 1.1211000000000002,
       "cost_currency": "USD",
       "cost_vat_included": true,
-      "subCategory": "GLOVES",
-      "totalStock": "2"
+      "totalStock": "2",
+      "subCategory": "GLOVES"
     },
     {
       "id": "17747",
@@ -5193,9 +5193,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "171",
       "consumption_in_geitawi_branch": "39",
-      "stock_in_medawar_branch": "190",
+      "stock_in_medawar_branch": "189",
       "consumption_in_medawar_branch": "42",
-      "total_stock": "361",
+      "total_stock": "360",
       "total_consumption": "81",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -5217,7 +5217,7 @@
           "consumption": "39"
         },
         "Medawar": {
-          "stock": "190",
+          "stock": "189",
           "consumption": "42"
         }
       },
@@ -5227,7 +5227,7 @@
       "supplier": "JACK DIB",
       "subcategory": "LIGHTER",
       "vat": "yes",
-      "totalStock": "361",
+      "totalStock": "360",
       "cost_ttc": 0.52,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -8606,9 +8606,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "25",
       "consumption_in_geitawi_branch": "32",
-      "stock_in_medawar_branch": "181",
+      "stock_in_medawar_branch": "179",
       "consumption_in_medawar_branch": "136",
-      "total_stock": "206",
+      "total_stock": "204",
       "total_consumption": "168",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -8624,7 +8624,7 @@
           "consumption": "32"
         },
         "Medawar": {
-          "stock": "181",
+          "stock": "179",
           "consumption": "136"
         },
         "The Daily Market": {
@@ -8642,7 +8642,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "206",
+      "totalStock": "204",
       "stock": "41",
       "branch_stock": {
         "Geitawi": {
@@ -9711,6 +9711,6 @@
       "subCategory": "shaving"
     }
   ],
-  "updatedAt": "2026-10-28T05:09:14.712473Z",
+  "updatedAt": "2026-10-28T05:46:23.092653Z",
   "source": "sql-relay-web"
 }
