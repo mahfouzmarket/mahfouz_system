@@ -5381,9 +5381,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "3",
       "VAT": "NO",
       "price_lbp": "490,000",
@@ -5399,7 +5399,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
@@ -5407,9 +5407,9 @@
       "supplier": "A++COMPANY",
       "subcategory": "DIAPERS",
       "vat": "no",
-      "totalStock": "0",
-      "cost_ttc": "4.7500",
-      "cost_ht": "4.7500",
+      "totalStock": "6",
+      "cost_ttc": 4.75,
+      "cost_ht": 4.75,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781079236738",
@@ -5431,6 +5431,7 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
+      "cost_ttc_usd": 4.75,
       "subCategory": "DIAPERS",
       "sub": "DIAPERS"
     },
@@ -5445,9 +5446,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "6",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "495,000",
@@ -5463,7 +5464,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "0"
         }
       },
@@ -5473,9 +5474,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
-      "cost_ttc": "4.7500",
-      "cost_ht": "4.7500",
+      "totalStock": "6",
+      "cost_ttc": 4.75,
+      "cost_ht": 4.75,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1777527557134",
@@ -5508,9 +5509,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "7",
+      "total_stock": "19",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "490,000",
@@ -5526,7 +5527,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "16",
           "consumption": "0.0"
         }
       },
@@ -5537,13 +5538,14 @@
       "cost_ttc": 4.75,
       "cost_ht": 4.75,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1777527557134",
       "latest_purchase_cost_date": "2026-04-30",
       "costHtUsd": 4.75,
       "cost_ht_usd": 4.75,
       "costTtcUsd": 4.75,
-      "totalStock": "7",
+      "totalStock": "19",
+      "cost_ttc_usd": 4.75,
       "subCategory": "DIAPERS",
       "sub": "DIAPERS"
     },
@@ -9712,6 +9714,6 @@
       "subCategory": "shaving"
     }
   ],
-  "updatedAt": "2026-10-29T11:00:32.928267Z",
+  "updatedAt": "2026-10-29T11:11:37.027231Z",
   "source": "sql-relay-web"
 }
