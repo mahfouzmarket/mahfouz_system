@@ -2987,9 +2987,9 @@
       "barcode2": "",
       "secondBarcode": "",
       "barcodes": "",
-      "Product Description": "HALLOWEEN OREO CUP CAKE 1PC",
-      "product_description": "HALLOWEEN OREO CUP CAKE 1PC",
-      "description": "HALLOWEEN OREO CUP CAKE 1PC",
+      "Product Description": "HALLOWEEN CUP CAKE 1PC",
+      "product_description": "HALLOWEEN CUP CAKE 1PC",
+      "description": "HALLOWEEN CUP CAKE 1PC",
       "SUPPLIERS": "NOUNA'S FOOD",
       "supplier": "NOUNA'S FOOD",
       "unit": "-",
@@ -3026,13 +3026,13 @@
         "category": "NOUNA'S FOOD",
         "addOns": "None",
         "sourceTemplateName": "",
-        "updatedAtUtc": "2026-10-13T19:37:09.699811Z"
+        "updatedAtUtc": "2026-10-29T11:55:16.672798Z"
       },
-      "subCategory": "NOUNA'S FOOD",
-      "sub": "NOUNA'S FOOD",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "8",
       "branches": {
+        "Nouna": {
+          "stock": "8"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -3040,8 +3040,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "8",
+      "totalStock": "8",
+      "subCategory": "NOUNA'S FOOD",
+      "sub": "NOUNA'S FOOD",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000104",
@@ -3580,6 +3584,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-10-29T11:33:09.582461Z",
+  "updatedAt": "2026-10-29T11:55:53.089288Z",
   "source": "sql-relay-web"
 }
