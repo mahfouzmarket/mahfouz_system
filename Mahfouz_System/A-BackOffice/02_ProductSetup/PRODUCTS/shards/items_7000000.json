@@ -2531,14 +2531,14 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-10-13T19:33:46.809566Z"
       },
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "-2",
       "branches": {
         "Nouna": {
-          "stock": "3",
+          "stock": "-2",
           "consumption": "0"
         },
         "Geitawi": {
-          "stock": "6",
+          "stock": "3",
           "consumption": "2"
         },
         "Medawar": {
@@ -2546,9 +2546,9 @@
           "consumption": "0"
         }
       },
-      "total_stock": "9",
-      "totalStock": "9",
-      "stock_in_geitawi_branch": "6",
+      "total_stock": "1",
+      "totalStock": "1",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -2902,11 +2902,11 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-10-13T19:35:59.529997Z"
       },
-      "subCategory": "AMERICAN COOKIES",
-      "sub": "AMERICAN COOKIES",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "-2",
       "branches": {
+        "Nouna": {
+          "stock": "-2"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -2914,8 +2914,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "-2",
+      "totalStock": "-2",
+      "subCategory": "AMERICAN COOKIES",
+      "sub": "AMERICAN COOKIES",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000099",
@@ -3638,6 +3642,6 @@
       "VAT": "NO"
     }
   ],
-  "updatedAt": "2026-10-30T07:49:48.240812Z",
+  "updatedAt": "2026-10-30T09:07:30.344739Z",
   "source": "sql-relay-web"
 }
