@@ -6673,11 +6673,11 @@
       "category": "BEVERAGES",
       "sub_category": "juice",
       "offers": "0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "-1",
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "0.0",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "800,000",
@@ -6689,7 +6689,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0.0",
+          "stock": "-1",
           "consumption": "0.0"
         },
         "Medawar": {
@@ -6707,8 +6707,8 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "subCategory": "juice",
-      "totalStock": "0"
+      "totalStock": "-1",
+      "subCategory": "juice"
     },
     {
       "id": "20622",
@@ -27237,9 +27237,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "73",
       "consumption_in_geitawi_branch": "78",
-      "stock_in_medawar_branch": "23",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "130",
-      "total_stock": "96",
+      "total_stock": "93",
       "total_consumption": "208",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -27255,7 +27255,7 @@
           "consumption": "78"
         },
         "Medawar": {
-          "stock": "23",
+          "stock": "20",
           "consumption": "130"
         }
       },
@@ -27269,7 +27269,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "96",
+      "totalStock": "93",
       "cost_ttc": 0.53996875,
       "cost_ht": 0.4864583333333333,
       "cost_currency": "USD",
@@ -28838,6 +28838,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-10-30T16:11:14.413174Z",
+  "updatedAt": "2026-10-30T16:34:15.285200Z",
   "source": "sql-relay-web"
 }
