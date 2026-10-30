@@ -1841,9 +1841,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "34",
       "consumption_in_geitawi_branch": "75",
-      "stock_in_medawar_branch": "41",
+      "stock_in_medawar_branch": "39",
       "consumption_in_medawar_branch": "66",
-      "total_stock": "75",
+      "total_stock": "73",
       "total_consumption": "141",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -1859,7 +1859,7 @@
           "consumption": "75"
         },
         "Medawar": {
-          "stock": "41",
+          "stock": "39",
           "consumption": "66"
         }
       },
@@ -1869,7 +1869,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "75",
+      "totalStock": "73",
       "cost_ttc": 0.5889906666666667,
       "cost_ht": 0.5306222222222222,
       "cost_currency": "LBP",
@@ -3254,9 +3254,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "27",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "13",
-      "total_stock": "7",
+      "total_stock": "6",
       "total_consumption": "40",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -3272,7 +3272,7 @@
           "consumption": "27"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "4",
           "consumption": "13"
         }
       },
@@ -3282,7 +3282,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "7",
+      "totalStock": "6",
       "cost_ttc": 0.670625,
       "cost_ht": 0.6041666666666666,
       "cost_currency": "USD",
@@ -5688,9 +5688,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "96",
+      "stock_in_medawar_branch": "94",
       "consumption_in_medawar_branch": "601",
-      "total_stock": "96",
+      "total_stock": "94",
       "total_consumption": "601",
       "VAT": "NO",
       "price_lbp": "40,000",
@@ -5706,7 +5706,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "96",
+          "stock": "94",
           "consumption": "601"
         }
       },
@@ -5720,7 +5720,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "96",
+      "totalStock": "94",
       "cost_ttc": 0.30092592592592593,
       "cost_ht": 0.30092592592592593,
       "cost_currency": "LBP",
@@ -7246,11 +7246,11 @@
       "category": "FOOD",
       "sub_category": "DAIRY PRODUCTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "8",
+      "total_stock": "5",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "305,000",
@@ -7262,7 +7262,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "3",
           "consumption": "2"
         },
         "Medawar": {
@@ -7276,9 +7276,9 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
-      "cost_ttc": 3.0,
-      "cost_ht": 3.0,
+      "totalStock": "5",
+      "cost_ttc": "3.0000",
+      "cost_ht": "3.0000",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782214155869",
@@ -7294,7 +7294,17 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 2.75,
+      "cost_ttc_usd": 3.0,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
       "subCategory": "DAIRY PRODUCTS"
     },
     {
@@ -8701,6 +8711,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-10-30T08:19:44.382834Z",
+  "updatedAt": "2026-10-30T08:34:11.300416Z",
   "source": "sql-relay-web"
 }
