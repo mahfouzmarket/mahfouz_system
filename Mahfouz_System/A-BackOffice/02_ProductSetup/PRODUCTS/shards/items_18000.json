@@ -8777,9 +8777,9 @@
       "category": "FOOD",
       "sub_category": "FROZEN FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "0.0",
       "total_stock": "0",
       "total_consumption": "0.0",
@@ -8797,11 +8797,11 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0.0"
         }
       },
@@ -12399,6 +12399,6 @@
       "subCategory": "TOOLS"
     }
   ],
-  "updatedAt": "2026-10-31T17:06:19.934651Z",
+  "updatedAt": "2026-10-31T17:57:55.397716Z",
   "source": "sql-relay-web"
 }
