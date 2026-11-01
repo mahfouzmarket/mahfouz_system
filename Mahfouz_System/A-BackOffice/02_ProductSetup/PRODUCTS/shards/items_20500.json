@@ -21492,9 +21492,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "10",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "470,000",
@@ -21510,7 +21510,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "0"
         }
       },
@@ -21520,16 +21520,13 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "10",
       "cost_ttc": 4.2,
       "cost_ht": 4.2,
-      "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_currency": "LBP",
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14416",
       "latest_purchase_cost_date": "2026-05-07",
-      "costHtUsd": 4.2,
-      "cost_ht_usd": 4.2,
-      "costTtcUsd": 4.2,
       "subCategory": "CHARCUTERIE",
       "sub": "CHARCUTERIE"
     },
@@ -26203,14 +26200,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0",
       "VAT": "YES",
-      "price_lbp": "350,000",
-      "price_usd": "3.89",
-      "cost": "2.92",
+      "price_lbp": "380,000",
+      "price_usd": "4.22",
+      "cost": "3.17",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20952.jpg",
       "new_items": "",
       "manual": "",
@@ -26225,13 +26222,13 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "6",
       "sub": "CLEANING",
       "secondary_category": "",
       "category2": "",
@@ -26240,14 +26237,10 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ht": "2.9200",
-      "costHtUsd": 2.92,
-      "cost_ht_usd": 2.92,
-      "cost_ttc": "3.2412",
-      "costTtcUsd": 3.2412,
-      "cost_ttc_usd": 3.2412,
-      "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_ht": 3.1666666666666665,
+      "cost_ttc": 3.1666666666666665,
+      "cost_currency": "LBP",
+      "cost_vat_included": false,
       "subCategory": "CLEANING"
     },
     {
@@ -28838,6 +28831,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-11-01T09:06:45.835891Z",
+  "updatedAt": "2026-11-01T09:21:48.439856Z",
   "source": "sql-relay-web"
 }
