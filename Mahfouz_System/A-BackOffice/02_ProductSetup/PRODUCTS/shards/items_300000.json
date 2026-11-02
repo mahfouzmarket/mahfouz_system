@@ -7729,9 +7729,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -7753,7 +7753,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -7763,7 +7763,7 @@
       "supplier": "JACK DIB",
       "subcategory": "CANDLES",
       "vat": "yes",
-      "totalStock": "-1",
+      "totalStock": "1",
       "cost_ttc": "1.4985",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -7781,6 +7781,15 @@
       "newItems": "x",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 1.4985000000000002,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
       "subCategory": "CANDLES"
     },
     {
@@ -11466,12 +11475,12 @@
       "cost_ht": "9.0092",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300188.jpg",
       "new_items": "x",
-      "total_stock": "1",
-      "totalStock": "1",
-      "stock_in_medawar_branch": "-1",
+      "total_stock": "2",
+      "totalStock": "2",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "3"
         },
         "Geitawi": {
@@ -11597,8 +11606,8 @@
       "cost_ht": 0.3641666666666667,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300190.jpg",
       "new_items": "x",
-      "total_stock": "31",
-      "totalStock": "31",
+      "total_stock": "30",
+      "totalStock": "30",
       "stock_in_medawar_branch": "27",
       "branches": {
         "Medawar": {
@@ -11606,7 +11615,7 @@
           "consumption": "16"
         },
         "Geitawi": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "12"
         }
       },
@@ -11623,7 +11632,7 @@
       "costHtUsd": 0.3641666666666667,
       "cost_ht_usd": 0.3641666666666667,
       "costTtcUsd": 0.40422500000000006,
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "12",
       "cost_ttc_usd": 0.40422500000000006,
       "subcategory": "Chewing gum",
@@ -31018,6 +31027,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-02T13:06:56.365296Z",
+  "updatedAt": "2026-11-02T13:18:29.790225Z",
   "source": "sql-relay-web"
 }
