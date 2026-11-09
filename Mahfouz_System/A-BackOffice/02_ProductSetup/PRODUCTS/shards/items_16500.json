@@ -2042,9 +2042,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "190,000",
@@ -2060,7 +2060,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         }
       },
@@ -2070,7 +2070,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc": 1.5,
       "cost_ht": 1.5,
       "costTtcUsd": 1.5,
@@ -7532,11 +7532,11 @@
       "category": "ICE CREAM",
       "sub_category": "ICEBERG",
       "offers": "0",
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "9",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "16",
       "VAT": "YES",
       "price_lbp": "165,000",
@@ -7548,7 +7548,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "9"
         },
         "Medawar": {
@@ -7566,7 +7566,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
+      "totalStock": "1",
       "cost_ttc": 0.74,
       "cost_ht": 0.6666666666666666,
       "cost_currency": "USD",
@@ -8605,11 +8605,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "READY TO EAT",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "6",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "6",
       "VAT": "NO",
       "price_lbp": "530,000",
@@ -8621,7 +8621,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "6"
         },
         "Medawar": {
@@ -8650,7 +8650,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "READY TO EAT",
       "vat": "no",
-      "totalStock": "2",
+      "totalStock": "1",
       "secondBarcode": "",
       "product_description": "HALLOUM PESTO SND brn",
       "description": "HALLOUM PESTO SND brn",
@@ -8891,6 +8891,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-11-09T21:07:41.344789Z",
+  "updatedAt": "2026-11-09T21:26:15.029367Z",
   "source": "sql-relay-web"
 }
