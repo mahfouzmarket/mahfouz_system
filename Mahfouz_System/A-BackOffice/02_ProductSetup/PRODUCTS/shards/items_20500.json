@@ -5127,21 +5127,21 @@
       "product_description": "CHRISTMAS LOLLIPOP",
       "description": "CHRISTMAS LOLLIPOP",
       "brand": "",
-      "supplier": "",
+      "supplier": "NOUNA'S FOOD",
       "SUPPLIERS": "NOUNA'S FOOD",
-      "category": "CHRISTMAS",
-      "sub_category": "nouna's food Christmas",
-      "subcategory": "nouna's food Christmas",
-      "subCategory": "nouna's food Christmas",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "CHRISTMAS",
+      "subcategory": "CHRISTMAS",
+      "subCategory": "CHRISTMAS",
       "unit": "EACH",
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "50,000",
-      "cost": "0.46",
-      "total_stock": "0",
+      "cost": "0.47",
+      "total_stock": "25",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -5156,11 +5156,15 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "0",
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "0"
+        },
+        "Nouna": {
+          "stock": "25"
         }
       },
       "created_by_user_code": "1",
@@ -5180,17 +5184,17 @@
       "consumption_in_medawar_branch": "0.0",
       "stock_in_the_daily_market_branch": "0.0",
       "consumption_in_the_daily_market_branch": "0.0",
-      "sub": "nouna's food Christmas",
+      "sub": "CHRISTMAS",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "offers": "",
+      "offers": "0",
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "0.46",
+      "cost_ht": "0.47",
       "costUsd": 0.46,
-      "cost_ht_usd": 0.46,
+      "cost_ht_usd": 0.47,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "arabic_name": "",
@@ -5207,7 +5211,18 @@
       "scalePlu": 0,
       "price_usd": "0.56",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20595.jpg",
-      "totalStock": "0"
+      "totalStock": "25",
+      "secondBarcode": "",
+      "priceLbp": 50000,
+      "costHtUsd": 0.47,
+      "cost_currency": "USD",
+      "expiryDays": 0,
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "20595",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "CHRISTMAS",
+      "stock_in_nouna_branch": "25"
     },
     {
       "id": "20596",
@@ -25920,9 +25935,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "13",
+      "total_stock": "12",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -25938,7 +25953,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "6",
           "consumption": "5"
         }
       },
@@ -25952,7 +25967,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
+      "totalStock": "12",
       "cost_ttc": 1.48,
       "cost_ht": 1.3333333333333333,
       "cost_currency": "USD",
@@ -28904,6 +28919,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-11-10T11:12:27.315260Z",
+  "updatedAt": "2026-11-10T12:21:17.740566Z",
   "source": "sql-relay-web"
 }
