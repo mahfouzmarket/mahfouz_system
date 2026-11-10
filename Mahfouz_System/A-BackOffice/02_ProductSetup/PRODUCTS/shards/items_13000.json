@@ -936,9 +936,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "0.0",
       "VAT": "YES",
       "price_lbp": "225,000",
@@ -958,7 +958,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0.0"
         }
       },
@@ -973,9 +973,9 @@
       "costHtUsd": 0.0000171555555555556,
       "cost_ht_usd": 0.0000171555555555556,
       "costTtcUsd": 0.0000190426666666667,
+      "totalStock": "-1",
       "subCategory": "hand & body wash",
-      "sub": "hand & body wash",
-      "totalStock": "0"
+      "sub": "hand & body wash"
     },
     {
       "id": "13054",
@@ -4857,9 +4857,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "150",
       "consumption_in_geitawi_branch": "411",
-      "stock_in_medawar_branch": "77",
+      "stock_in_medawar_branch": "76",
       "consumption_in_medawar_branch": "690",
-      "total_stock": "227",
+      "total_stock": "226",
       "total_consumption": "1101",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -4875,7 +4875,7 @@
           "consumption": "411"
         },
         "Medawar": {
-          "stock": "77",
+          "stock": "76",
           "consumption": "690"
         }
       },
@@ -4885,7 +4885,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "227",
+      "totalStock": "226",
       "cost_ttc": 1.0,
       "cost_ht": 1.0,
       "cost_currency": "LBP",
@@ -5300,11 +5300,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "18",
       "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "16",
-      "total_stock": "8",
+      "total_stock": "7",
       "total_consumption": "34",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -5316,7 +5316,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "3",
           "consumption": "18"
         },
         "Medawar": {
@@ -5339,7 +5339,7 @@
       "supplier": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
       "vat": "yes",
-      "totalStock": "8",
+      "totalStock": "7",
       "cost_ttc": 1.1877000000000002,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -8404,6 +8404,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-11-10T11:12:27.315260Z",
+  "updatedAt": "2026-11-10T11:20:50.735763Z",
   "source": "sql-relay-web"
 }
