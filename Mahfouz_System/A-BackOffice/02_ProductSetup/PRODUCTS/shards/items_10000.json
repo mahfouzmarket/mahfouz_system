@@ -126,9 +126,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-1",
+      "total_stock": "6",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -144,7 +144,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "6",
           "consumption": "0"
         }
       },
@@ -154,16 +154,30 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": 0.555,
-      "cost_ht": 0.5,
+      "cost_ttc": "0.5550",
+      "cost_ht": "0.5000",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13605-2026-02-17",
       "latest_purchase_cost_date": "2026-02-17",
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
       "costTtcUsd": 0.555,
-      "totalStock": "-1",
+      "totalStock": "6",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 0.555,
+      "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10064.jpg",
+      "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID10064.jpg",
+      "image_updated_at_utc": "2026-11-10T07:53:43.271090Z",
       "subCategory": "TOOLS",
       "sub": "TOOLS"
     },
@@ -3089,6 +3103,6 @@
       "sub": "DISH WASHING"
     }
   ],
-  "updatedAt": "2026-11-10T06:20:38.762771Z",
+  "updatedAt": "2026-11-10T07:53:43.271090Z",
   "source": "sql-relay-web"
 }
