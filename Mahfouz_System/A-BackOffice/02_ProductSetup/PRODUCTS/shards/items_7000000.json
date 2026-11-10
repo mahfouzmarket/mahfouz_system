@@ -3495,14 +3495,14 @@
       "cost_currency": "USD",
       "VAT": "NO",
       "vat": "no",
-      "expiry_days": "0",
-      "expiryDays": 0,
+      "expiry_days": "365",
+      "expiryDays": 365,
       "offers": "0",
       "new_items": "x",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000113.jpg",
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
-      "linked_profile_item_id": "7000114",
+      "linked_profile_item_id": "7000113",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
       "stock_in_medawar_branch": "2",
@@ -3524,6 +3524,18 @@
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000113.jpg",
       "image_updated_at_utc": "2026-11-06T15:39:16.361853Z",
       "stock_in_geitawi_branch": "1",
+      "toters": {
+        "enabled": true,
+        "priceMultiplier": 1.0,
+        "priceUsd": 5.0,
+        "originalPriceLbpAtUpdate": 450000,
+        "fxAtUpdate": 90000.0,
+        "order": 90,
+        "category": "CHRISTMAS",
+        "addOns": "None",
+        "sourceTemplateName": "",
+        "updatedAtUtc": "2026-11-10T20:53:32.525602Z"
+      },
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS"
     },
@@ -4977,6 +4989,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-10T20:40:12.047924Z",
+  "updatedAt": "2026-11-10T20:54:05.789247Z",
   "source": "sql-relay-web"
 }
