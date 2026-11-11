@@ -5121,9 +5121,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "10",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "22",
       "VAT": "NO",
       "price_lbp": "450,000",
@@ -5139,7 +5139,7 @@
           "consumption": "10"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "12"
         },
         "Nouna": {
@@ -5168,7 +5168,7 @@
       "name": "TURKEY AND CHEESE WHITE",
       "subcategory": "SANDWICHES",
       "vat": "no",
-      "totalStock": "2",
+      "totalStock": "1",
       "stock_in_nouna_branch": "2",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 4.25,
@@ -8082,11 +8082,11 @@
       "category": "FOOD",
       "sub_category": "cans & jams",
       "offers": "0",
-      "stock_in_geitawi_branch": "12",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "38",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "50",
+      "total_stock": "48",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -8098,7 +8098,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "12",
+          "stock": "10",
           "consumption": "0"
         },
         "Medawar": {
@@ -8112,7 +8112,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "50",
+      "totalStock": "48",
       "cost_ttc": 0.8400480000000001,
       "cost_ht": 0.7568,
       "cost_currency": "USD",
@@ -8897,6 +8897,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-11-11T16:48:02.286747Z",
+  "updatedAt": "2026-11-11T16:57:21.753737Z",
   "source": "sql-relay-web"
 }
