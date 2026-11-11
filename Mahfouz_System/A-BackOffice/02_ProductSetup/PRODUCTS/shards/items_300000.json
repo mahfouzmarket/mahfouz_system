@@ -5199,9 +5199,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "18",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "31",
+      "total_stock": "29",
       "total_consumption": "18",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -5223,7 +5223,7 @@
           "consumption": "18"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "10",
           "consumption": "0"
         }
       },
@@ -5233,7 +5233,7 @@
       "supplier": "MAHMOUD CHOCOLATE",
       "subcategory": "Wafers",
       "vat": "yes",
-      "totalStock": "31",
+      "totalStock": "29",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300090.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300090.jpg",
       "image_updated_at_utc": "2026-06-22T06:56:41.140462Z",
@@ -19812,7 +19812,7 @@
     {
       "id": "300323",
       "barcode": "5281028647612",
-      "barcode2": "",
+      "barcode2": "5281028460020",
       "barcodes": "",
       "Product Description": "GANDOUR BISCUITS LUCKY 555",
       "arabic_name": "",
@@ -19832,12 +19832,10 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
       "price_lbp": "320,000",
       "price_usd": "3.56",
       "cost": "2.55",
-      "cost_ht": 2.5496,
+      "cost_ht": "2.5496",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300323.jpg",
       "new_items": "x",
       "total_stock": "0",
@@ -19857,14 +19855,15 @@
       "consumption_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "total_consumption": "0",
-      "cost_ttc": 2.830056,
+      "cost_ttc": "2.8301",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
       "costHtUsd": 2.5496,
       "cost_ht_usd": 2.5496,
       "costTtcUsd": 2.830056,
+      "cost_ttc_usd": 2.830056,
       "subcategory": "Biscuits",
       "subCategory": "Biscuits",
       "sub": "Biscuits",
@@ -26025,12 +26024,12 @@
       "cost_ht": 1.0696875,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300421.jpg",
       "new_items": "x",
-      "total_stock": "21",
-      "totalStock": "21",
-      "stock_in_medawar_branch": "7",
+      "total_stock": "20",
+      "totalStock": "20",
+      "stock_in_medawar_branch": "6",
       "branches": {
         "Medawar": {
-          "stock": "7",
+          "stock": "6",
           "consumption": "22"
         },
         "Geitawi": {
@@ -31071,6 +31070,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-11T10:49:27.535482Z",
+  "updatedAt": "2026-11-11T10:57:57.012147Z",
   "source": "sql-relay-web"
 }
