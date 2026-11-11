@@ -11899,34 +11899,34 @@
       "cost_currency": "USD",
       "VAT": "NO",
       "vat": "no",
-      "expiry_days": "0",
-      "expiryDays": 0,
+      "expiry_days": "180",
+      "expiryDays": 180,
       "offers": "0",
       "delivery_rules": "0.005",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18472.jpg",
       "toters": {
         "enabled": true,
-        "priceMultiplier": 1.08791209,
-        "priceUsd": 6.04,
+        "priceMultiplier": 1.0008,
+        "priceUsd": 5.56,
         "originalPriceLbpAtUpdate": 500000,
         "fxAtUpdate": 90000.0,
         "order": 78,
         "category": "CHRISTMAS",
         "addOns": "None",
         "sourceTemplateName": "",
-        "updatedAtUtc": "2026-11-11T13:51:54.877267Z",
-        "updatedBy": "60"
+        "updatedAtUtc": "2026-11-11T14:34:44.538694Z",
+        "updatedBy": "1"
       },
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "18472",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "subCategory": "CHRISTMAS",
-      "sub": "CHRISTMAS",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "11",
       "branches": {
+        "Nouna": {
+          "stock": "11"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -11934,8 +11934,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "11",
+      "totalStock": "11",
+      "subCategory": "CHRISTMAS",
+      "sub": "CHRISTMAS",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "18476",
@@ -12487,6 +12491,6 @@
       "subCategory": "TOOLS"
     }
   ],
-  "updatedAt": "2026-11-11T14:04:17.720695Z",
+  "updatedAt": "2026-11-11T14:35:13.867658Z",
   "source": "sql-relay-web"
 }
