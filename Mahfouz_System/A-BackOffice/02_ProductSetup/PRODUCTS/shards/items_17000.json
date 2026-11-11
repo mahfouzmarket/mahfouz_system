@@ -6488,14 +6488,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "20",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "220,000",
       "price_usd": "2.44",
-      "cost": "1.89",
+      "cost": "1.88",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17276.jpg",
       "new_items": "",
       "manual": "",
@@ -6510,13 +6510,21 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "20",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "20",
+      "cost_ttc": 1.88,
+      "cost_ht": 1.88,
+      "costTtcUsd": 1.88,
+      "cost_ttc_usd": 1.88,
+      "costHtUsd": 1.88,
+      "cost_ht_usd": 1.88,
+      "cost_currency": "USD",
+      "cost_vat_included": false,
       "subCategory": "VINEGAR & PICKLES",
       "sub": "VINEGAR & PICKLES"
     },
@@ -10831,9 +10839,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "5",
+      "total_stock": "15",
       "total_consumption": "7",
       "VAT": "NO",
       "price_lbp": "175,000",
@@ -10849,7 +10857,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "12",
           "consumption": "3"
         }
       },
@@ -10859,7 +10867,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "15",
       "cost_ttc": 1.67,
       "cost_ht": 1.67,
       "cost_currency": "USD",
@@ -10894,9 +10902,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "3",
+      "total_stock": "13",
       "total_consumption": "5",
       "VAT": "NO",
       "price_lbp": "175,000",
@@ -10912,7 +10920,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "2"
         }
       },
@@ -10922,7 +10930,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3",
+      "totalStock": "13",
       "cost_ttc": 1.67,
       "cost_ht": 1.67,
       "cost_currency": "USD",
@@ -12046,6 +12054,6 @@
       "subCategory": "LAMP"
     }
   ],
-  "updatedAt": "2026-11-11T09:11:13.383081Z",
+  "updatedAt": "2026-11-11T09:15:03.611947Z",
   "source": "sql-relay-web"
 }
