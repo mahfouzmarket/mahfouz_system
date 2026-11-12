@@ -6004,10 +6004,10 @@
       "VAT": "YES",
       "vat": "yes",
       "price_lbp": "180,000",
-      "cost": "1.67",
-      "total_stock": "0",
+      "cost": "1.55",
+      "total_stock": "3",
       "total_consumption": "0.0",
-      "stock_in_geitawi_branch": "0.0",
+      "stock_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "0.0",
       "branches": {
         "geitawi": {
@@ -6027,7 +6027,8 @@
           "consumption": "0.0"
         },
         "Geitawi": {
-          "consumption": "0.0"
+          "consumption": "0.0",
+          "stock": "3"
         }
       },
       "created_by_user_code": "1",
@@ -6055,9 +6056,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "1.6700",
+      "cost_ht": 1.55,
       "costUsd": 1.67,
-      "cost_ht_usd": 1.67,
+      "cost_ht_usd": 1.55,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "arabic_name": "",
@@ -6074,15 +6075,15 @@
       "scalePlu": 0,
       "price_usd": "2.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20608.jpg",
-      "totalStock": "0",
+      "totalStock": "3",
       "category2": "",
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "costHtUsd": 1.67,
-      "cost_ttc": "1.8537",
-      "costTtcUsd": 1.8537000000000001,
-      "cost_ttc_usd": 1.8537000000000001,
+      "costHtUsd": 1.55,
+      "cost_ttc": 1.7205000000000001,
+      "costTtcUsd": 1.7205000000000001,
+      "cost_ttc_usd": 1.7205000000000001,
       "cost_currency": "USD",
       "cost_vat_included": true
     },
@@ -28932,6 +28933,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-11-12T08:26:29.062831Z",
+  "updatedAt": "2026-11-12T08:40:23.273460Z",
   "source": "sql-relay-web"
 }
