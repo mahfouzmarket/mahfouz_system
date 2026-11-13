@@ -4277,13 +4277,13 @@
         "category": "CHRISTMAS",
         "addOns": "None",
         "sourceTemplateName": "",
-        "updatedAtUtc": "2026-11-10T10:24:01.855471Z"
+        "updatedAtUtc": "2026-11-13T10:55:19.706365Z"
       },
-      "subCategory": "CHRISTMAS",
-      "sub": "CHRISTMAS",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "1",
       "branches": {
+        "Nouna": {
+          "stock": "1"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -4291,8 +4291,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "1",
+      "totalStock": "1",
+      "subCategory": "CHRISTMAS",
+      "sub": "CHRISTMAS",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000140",
@@ -5221,6 +5225,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-13T10:49:14.382709Z",
+  "updatedAt": "2026-11-13T10:57:57.092650Z",
   "source": "sql-relay-web"
 }
