@@ -1284,7 +1284,7 @@
       "totalStock": "7",
       "cost_ttc": 3.021666666666667,
       "cost_ht": 2.7222222222222223,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783068955024",
       "latest_purchase_cost_date": "2026-07-03",
@@ -1308,6 +1308,8 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "BAKERY"
     },
     {
@@ -3289,7 +3291,7 @@
       "totalStock": "234",
       "cost_ttc": 0.5439461638733706,
       "cost_ht": 0.4900415890751086,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783407096061",
       "latest_purchase_cost_date": "2026-07-07",
@@ -3303,6 +3305,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "COLD DRINKS",
       "sub": "COLD DRINKS"
     },
@@ -4095,7 +4099,7 @@
       "totalStock": "1",
       "cost_ttc": 1.48,
       "cost_ht": 1.3333333333333333,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782104393272",
       "latest_purchase_cost_date": "2026-06-22",
@@ -4107,6 +4111,8 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "BAKERY"
     },
     {
@@ -4421,7 +4427,7 @@
       "totalStock": "7",
       "cost_ttc": 4.366666666666666,
       "cost_ht": 4.366666666666666,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-05-MEDAWAR-14386",
       "latest_purchase_cost_date": "2026-05-05",
@@ -4435,6 +4441,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "instant coffee",
       "sub": "instant coffee"
     },
@@ -5943,10 +5951,12 @@
       "scalePlu": 0,
       "cost_ht": 0.20833333333333334,
       "cost_ttc": 0.23125000000000004,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783158139107",
       "latest_purchase_cost_date": "2026-07-04",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "sweets",
       "sub": "sweets"
     },
@@ -7172,9 +7182,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "14",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "23",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "37",
       "VAT": "YES",
       "price_lbp": "60,000",
@@ -7190,7 +7200,7 @@
           "consumption": "14"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "23"
         }
       },
@@ -7200,7 +7210,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "5",
       "cost_ttc": 0.66045,
       "cost_ht": 0.595,
       "cost_currency": "USD",
@@ -7748,6 +7758,6 @@
       "subCategory": "arak"
     }
   ],
-  "updatedAt": "2026-11-14T18:40:52.998196Z",
+  "updatedAt": "2026-11-14T18:58:37.881Z",
   "source": "sql-relay-web"
 }
