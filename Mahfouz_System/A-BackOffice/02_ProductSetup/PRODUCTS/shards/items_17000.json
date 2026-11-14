@@ -1731,10 +1731,12 @@
       "totalStock": "67",
       "cost_ttc": 0.6361856806821524,
       "cost_ht": 0.5731402528668039,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783180437219",
       "latest_purchase_cost_date": "2026-07-04",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "ice tea"
     },
     {
@@ -1847,7 +1849,7 @@
       "subcategory": "Wafers",
       "vat": "yes",
       "cost_ttc": 0.5920000000000001,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783057879047",
       "latest_purchase_cost_date": "2026-07-03",
@@ -1863,6 +1865,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "Wafers",
       "sub": "Wafers"
     },
@@ -3798,10 +3802,12 @@
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
       "cost_ttc": 0.34465482774674117,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783407096061",
       "latest_purchase_cost_date": "2026-07-07",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "MINERAL WATER"
     },
     {
@@ -8630,8 +8636,10 @@
       "scaleCode": "",
       "cost_ttc": 2.06793,
       "cost_ht": 1.863,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "MINERAL WATER"
     },
     {
@@ -12054,6 +12062,6 @@
       "subCategory": "LAMP"
     }
   ],
-  "updatedAt": "2026-11-14T18:41:24.694861Z",
+  "updatedAt": "2026-11-14T18:58:37.881Z",
   "source": "sql-relay-web"
 }
