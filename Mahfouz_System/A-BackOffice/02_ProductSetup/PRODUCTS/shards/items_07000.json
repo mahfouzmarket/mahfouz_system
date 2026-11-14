@@ -226,10 +226,12 @@
       "totalStock": "26",
       "cost_ttc": 2.0778356481481484,
       "cost_ht": 2.0778356481481484,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14183-2026-04-02",
       "latest_purchase_cost_date": "2026-04-02",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "cans & jams",
       "sub": "cans & jams"
     },
@@ -275,7 +277,7 @@
       "totalStock": "484",
       "cost_ttc": 1.0,
       "cost_ht": 1.0,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783399306055",
       "latest_purchase_cost_date": "2026-07-07",
@@ -289,6 +291,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "BAKERY",
       "sub": "BAKERY"
     },
@@ -334,10 +338,12 @@
       "totalStock": "55",
       "cost_ttc": 1.5555555555555556,
       "cost_ht": 1.5555555555555556,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783399115377",
       "latest_purchase_cost_date": "2026-07-07",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "BAKERY",
       "sub": "BAKERY"
     },
@@ -352,9 +358,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "13",
       "consumption_in_geitawi_branch": "101",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "74",
-      "total_stock": "27",
+      "total_stock": "25",
       "total_consumption": "175",
       "VAT": "NO",
       "price_lbp": "145,000",
@@ -370,7 +376,7 @@
           "consumption": "101"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "12",
           "consumption": "74"
         }
       },
@@ -380,13 +386,15 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "27",
+      "totalStock": "25",
       "cost_ttc": 1.2777777777777777,
       "cost_ht": 1.2777777777777777,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783399115377",
       "latest_purchase_cost_date": "2026-07-07",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "BAKERY",
       "sub": "BAKERY"
     },
@@ -1063,10 +1071,12 @@
       "totalStock": "23",
       "cost_ttc": 0.7222222222222222,
       "cost_ht": 0.7222222222222222,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783399306055",
       "latest_purchase_cost_date": "2026-07-07",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "BAKERY",
       "sub": "BAKERY"
     },
@@ -1135,7 +1145,7 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "cost_ttc": 0.12847222222222224,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783141386766",
       "latest_purchase_cost_date": "2026-07-04",
@@ -1143,6 +1153,8 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "sweets"
     },
     {
@@ -1542,6 +1554,6 @@
       "subCategory": "cans & jams"
     }
   ],
-  "updatedAt": "2026-11-14T18:21:07.679483Z",
+  "updatedAt": "2026-11-14T18:58:37.881Z",
   "source": "sql-relay-web"
 }
