@@ -4704,9 +4704,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "20",
+      "total_stock": "19",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "350,000",
@@ -4722,7 +4722,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "10",
           "consumption": "1"
         }
       },
@@ -4736,7 +4736,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "20",
+      "totalStock": "19",
       "subCategory": "Vodka"
     },
     {
@@ -4964,7 +4964,7 @@
       "totalStock": "30",
       "cost_ttc": 0.5430675,
       "cost_ht": 0.48925,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783407096061",
       "latest_purchase_cost_date": "2026-07-07",
@@ -4978,6 +4978,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "ENERGY DRINK"
     },
     {
@@ -5038,10 +5040,12 @@
       "scalePlu": 0,
       "cost_ht": 0.23148148148148145,
       "cost_ttc": 0.2569444444444444,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783399306055",
       "latest_purchase_cost_date": "2026-07-07",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "sweets"
     },
     {
@@ -6398,7 +6402,7 @@
       "totalStock": "168",
       "cost_ttc": 0.2569444444444444,
       "cost_ht": 0.23148148148148145,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1777531142028",
       "latest_purchase_cost_date": "2026-04-30",
@@ -6406,6 +6410,8 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "sweets"
     },
     {
@@ -10560,13 +10566,15 @@
       "totalStock": "18",
       "cost_ttc": 0.92297843575419,
       "cost_ht": 0.831512104283054,
-      "cost_currency": "LBP",
+      "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783180437219",
       "latest_purchase_cost_date": "2026-07-04",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18412.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18412.jpg",
       "image_updated_at_utc": "2026-09-13T02:29:38.434351Z",
+      "supplier_cost_currency": "LBP",
+      "lbp_tag_usd_cost_repair": "2026-11-14",
       "subCategory": "ENERGY DRINK"
     },
     {
@@ -12500,6 +12508,6 @@
       "subCategory": "TOOLS"
     }
   ],
-  "updatedAt": "2026-11-14T18:12:54.927184Z",
+  "updatedAt": "2026-11-14T18:58:37.881Z",
   "source": "sql-relay-web"
 }
