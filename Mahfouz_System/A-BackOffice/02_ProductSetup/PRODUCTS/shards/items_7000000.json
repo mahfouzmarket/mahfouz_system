@@ -3979,10 +3979,10 @@
       "linked_profile_item_id": "7000133",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "2",
       "branches": {
         "Nouna": {
-          "stock": "3"
+          "stock": "2"
         },
         "Geitawi": {
           "stock": "0"
@@ -3991,8 +3991,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "3",
-      "totalStock": "3",
+      "total_stock": "2",
+      "totalStock": "2",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
       "stock_in_geitawi_branch": "0",
@@ -4345,11 +4345,11 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-11-10T08:57:38.659383Z"
       },
-      "subCategory": "CHRISTMAS",
-      "sub": "CHRISTMAS",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "-1",
       "branches": {
+        "Nouna": {
+          "stock": "-1"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -4357,8 +4357,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "-1",
+      "totalStock": "-1",
+      "subCategory": "CHRISTMAS",
+      "sub": "CHRISTMAS",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000141",
@@ -4712,10 +4716,10 @@
       "linked_profile_item_id": "7000146",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHOCOLATE AND DRAGEE",
-      "stock_in_nouna_branch": "8",
+      "stock_in_nouna_branch": "7",
       "branches": {
         "Nouna": {
-          "stock": "8"
+          "stock": "7"
         },
         "Geitawi": {
           "stock": "0"
@@ -4724,8 +4728,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "8",
-      "totalStock": "8",
+      "total_stock": "7",
+      "totalStock": "7",
       "subCategory": "CHOCOLATE AND DRAGEE",
       "sub": "CHOCOLATE AND DRAGEE",
       "stock_in_geitawi_branch": "0",
@@ -5225,6 +5229,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-15T12:11:48.976503Z",
+  "updatedAt": "2026-11-15T16:01:02.770514Z",
   "source": "sql-relay-web"
 }
