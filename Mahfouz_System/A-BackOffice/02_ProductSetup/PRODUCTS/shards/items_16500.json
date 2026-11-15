@@ -363,9 +363,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "17",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "2",
+      "total_stock": "1",
       "total_consumption": "34",
       "VAT": "YES",
       "price_lbp": "140,000",
@@ -381,7 +381,7 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "17"
         }
       },
@@ -395,7 +395,7 @@
       "vat": "yes",
       "barcode2": "8850389111352",
       "barcodes": "8850389111352",
-      "totalStock": "2",
+      "totalStock": "1",
       "cost_ttc": 1.0175,
       "cost_ht": 0.9166666666666666,
       "cost_currency": "USD",
@@ -2852,11 +2852,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "344",
+      "stock_in_geitawi_branch": "341",
       "consumption_in_geitawi_branch": "634",
       "stock_in_medawar_branch": "165",
       "consumption_in_medawar_branch": "737",
-      "total_stock": "509",
+      "total_stock": "506",
       "total_consumption": "1371",
       "VAT": "NO",
       "price_lbp": "75,000",
@@ -2868,7 +2868,7 @@
       "delivery_rules": "0.45",
       "branches": {
         "Geitawi": {
-          "stock": "344",
+          "stock": "341",
           "consumption": "634"
         },
         "Medawar": {
@@ -2895,7 +2895,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-16734-1778917777422454",
       "product_setup_saved_at_utc": "2026-05-16T07:49:37.422454Z",
-      "totalStock": "509",
+      "totalStock": "506",
       "cost_ttc": 0.55555555,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -8909,6 +8909,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-11-15T09:18:05.454531Z",
+  "updatedAt": "2026-11-15T09:36:41.636829Z",
   "source": "sql-relay-web"
 }
