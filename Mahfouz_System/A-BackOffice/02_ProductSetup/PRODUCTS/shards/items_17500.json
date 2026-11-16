@@ -1191,9 +1191,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1209,7 +1209,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "1"
         }
       },
@@ -1223,7 +1223,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "subCategory": "sweets"
     },
     {
@@ -4581,9 +4581,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "81",
       "consumption_in_geitawi_branch": "165",
-      "stock_in_medawar_branch": "151",
+      "stock_in_medawar_branch": "149",
       "consumption_in_medawar_branch": "355",
-      "total_stock": "232",
+      "total_stock": "230",
       "total_consumption": "520",
       "VAT": "YES",
       "price_lbp": "15,000",
@@ -4599,7 +4599,7 @@
           "consumption": "165"
         },
         "Medawar": {
-          "stock": "151",
+          "stock": "149",
           "consumption": "355"
         },
         "Nouna": {
@@ -4616,7 +4616,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "232",
+      "totalStock": "230",
       "stock_in_nouna_branch": 0,
       "cost_ttc": 0.126096,
       "cost_ht": 0.1136,
@@ -9722,6 +9722,6 @@
       "subCategory": "shaving"
     }
   ],
-  "updatedAt": "2026-11-16T09:24:56.564831Z",
+  "updatedAt": "2026-11-16T10:43:26.104057Z",
   "source": "sql-relay-web"
 }
