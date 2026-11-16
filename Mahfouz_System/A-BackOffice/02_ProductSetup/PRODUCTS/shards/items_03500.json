@@ -1417,9 +1417,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-26",
+      "stock_in_medawar_branch": "-4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "-2",
+      "total_stock": "20",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -1435,7 +1435,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-26",
+          "stock": "-4",
           "consumption": "0"
         }
       },
@@ -1445,16 +1445,18 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "-2",
-      "cost_ttc": 0.431890909090909,
-      "cost_ht": 0.389090909090909,
+      "totalStock": "20",
+      "cost_ttc": 0.43189090909090916,
+      "cost_ht": 0.3890909090909091,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1778510841170",
       "latest_purchase_cost_date": "2026-05-11",
-      "costHtUsd": 0.389090909090909,
-      "cost_ht_usd": 0.389090909090909,
-      "costTtcUsd": 0.431890909090909,
+      "costHtUsd": 0.3890909090909091,
+      "cost_ht_usd": 0.3890909090909091,
+      "costTtcUsd": 0.43189090909090916,
+      "cost_ttc_usd": 0.43189090909090916,
+      "supplier_cost_currency": "USD",
       "subCategory": "sweets",
       "sub": "sweets"
     },
@@ -1891,6 +1893,6 @@
       "sub": "sweets"
     }
   ],
-  "updatedAt": "2026-11-16T20:19:31.343739Z",
+  "updatedAt": "2026-11-16T20:27:26.778176Z",
   "source": "sql-relay-web"
 }
