@@ -1167,7 +1167,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         },
         "Medawar": {
@@ -1175,9 +1175,9 @@
           "consumption": "0"
         }
       },
-      "total_stock": "-1",
-      "totalStock": "-1",
-      "stock_in_nouna_branch": "0",
+      "total_stock": "0",
+      "totalStock": "0",
+      "stock_in_nouna_branch": "1",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
@@ -5831,7 +5831,7 @@
       "stock_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "3",
+      "total_stock": "6",
       "total_consumption": "8",
       "vat": "no",
       "price_lbp": "180,000",
@@ -5856,7 +5856,7 @@
           "consumption": "0"
         },
         "Nouna": {
-          "stock": "3",
+          "stock": "6",
           "consumption": "0"
         },
         "Firas": {
@@ -5881,7 +5881,7 @@
       "product_setup_saved_at_utc": "2026-05-20T13:43:19.201207Z",
       "description": "Donuts Cup",
       "expiryDays": 5,
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "6",
       "consumption_in_nouna_branch": "0",
       "cost_ttc": 1.4195,
       "cost_currency": "USD",
@@ -5891,7 +5891,7 @@
       "costHtUsd": 1.7,
       "cost_ht_usd": 1.7,
       "costTtcUsd": 1.4195,
-      "totalStock": "3",
+      "totalStock": "6",
       "stock_in_firas_branch": "0",
       "secondBarcode": "",
       "priceLbp": 180000,
@@ -6338,11 +6338,11 @@
       "category": "BEVERAGES",
       "sub_category": "COLD DRINKS",
       "offers": "0",
-      "stock_in_geitawi_branch": "384",
+      "stock_in_geitawi_branch": "383",
       "consumption_in_geitawi_branch": "1043",
-      "stock_in_medawar_branch": "5726",
+      "stock_in_medawar_branch": "5724",
       "consumption_in_medawar_branch": "2270",
-      "total_stock": "6112",
+      "total_stock": "6109",
       "total_consumption": "3313",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -6354,11 +6354,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "384",
+          "stock": "383",
           "consumption": "1043"
         },
         "Medawar": {
-          "stock": "5726",
+          "stock": "5724",
           "consumption": "2270"
         },
         "Nouna": {
@@ -6376,7 +6376,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6112",
+      "totalStock": "6109",
       "secondBarcode": "",
       "product_description": "TANNOURINE WATER 0.5",
       "description": "TANNOURINE WATER 0.5",
@@ -6941,9 +6941,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "31",
       "consumption_in_geitawi_branch": "96",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "23",
       "consumption_in_medawar_branch": "112",
-      "total_stock": "57",
+      "total_stock": "56",
       "total_consumption": "208",
       "VAT": "YES",
       "price_lbp": "35,000",
@@ -6959,7 +6959,7 @@
           "consumption": "96"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "23",
           "consumption": "112"
         },
         "Nouna": {
@@ -6977,7 +6977,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "57",
+      "totalStock": "56",
       "secondBarcode": "",
       "product_description": "Maccaw Mango",
       "description": "Maccaw Mango",
@@ -10559,6 +10559,6 @@
       "subCategory": "NOUNA'S FOOD"
     }
   ],
-  "updatedAt": "2026-11-16T10:48:39.213666Z",
+  "updatedAt": "2026-11-16T11:10:58.986085Z",
   "source": "sql-relay-web"
 }
