@@ -2419,9 +2419,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "26",
       "consumption_in_geitawi_branch": "29",
-      "stock_in_medawar_branch": "61",
+      "stock_in_medawar_branch": "101",
       "consumption_in_medawar_branch": "41",
-      "total_stock": "87",
+      "total_stock": "127",
       "total_consumption": "70",
       "VAT": "YES",
       "price_lbp": "45,000",
@@ -2437,7 +2437,7 @@
           "consumption": "29"
         },
         "Medawar": {
-          "stock": "61",
+          "stock": "101",
           "consumption": "41"
         }
       },
@@ -2447,9 +2447,9 @@
       "vat": "yes",
       "barcode2": "7622201695408",
       "barcodes": "",
-      "totalStock": "87",
-      "cost_ttc": "0.2750",
-      "cost_ht": "0.2477",
+      "totalStock": "127",
+      "cost_ttc": 0.27500250000000004,
+      "cost_ht": 0.24775,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781684683323",
@@ -2476,6 +2476,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "USD",
       "subCategory": "candies"
     },
     {
@@ -8437,6 +8438,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-11-17T11:23:25.952599Z",
+  "updatedAt": "2026-11-17T11:35:09.438996Z",
   "source": "sql-relay-web"
 }
