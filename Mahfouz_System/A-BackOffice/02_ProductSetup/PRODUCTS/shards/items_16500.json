@@ -3608,9 +3608,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "4",
+      "total_stock": "10",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "295,000",
@@ -3626,7 +3626,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "8",
           "consumption": "2"
         }
       },
@@ -3636,16 +3636,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
-      "cost_ttc": "2.8492",
-      "cost_ht": "2.5668",
+      "totalStock": "10",
+      "cost_ttc": 2.5668333333333333,
+      "cost_ht": 2.5668333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1780904889709",
       "latest_purchase_cost_date": "2026-06-08",
       "costHtUsd": 2.5668333333333333,
       "cost_ht_usd": 2.5668333333333333,
-      "costTtcUsd": 2.8491850000000003,
+      "costTtcUsd": 2.5668333333333333,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -3656,7 +3656,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 2.8491850000000003,
+      "cost_ttc_usd": 2.5668333333333333,
+      "supplier_cost_currency": "USD",
       "subCategory": "SEEDS",
       "sub": "SEEDS"
     },
@@ -8926,6 +8927,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-11-17T12:16:31.931352Z",
+  "updatedAt": "2026-11-17T12:33:24.574776Z",
   "source": "sql-relay-web"
 }
