@@ -66,14 +66,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "1",
+      "total_stock": "13",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "105,000",
       "price_usd": "1.17",
-      "cost": "0.91",
+      "cost": "0.75",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7011.jpg",
       "new_items": "",
       "manual": "",
@@ -84,7 +84,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "13",
           "consumption": "5"
         }
       },
@@ -94,16 +94,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
-      "cost_ttc": "1.0110",
-      "cost_ht": "0.9108",
+      "totalStock": "13",
+      "cost_ttc": 0.75,
+      "cost_ht": 0.75,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783324656491",
       "latest_purchase_cost_date": "2026-07-06",
-      "costHtUsd": 0.9108333333333333,
-      "cost_ht_usd": 0.9108333333333333,
-      "costTtcUsd": 1.011025,
+      "costHtUsd": 0.75,
+      "cost_ht_usd": 0.75,
+      "costTtcUsd": 0.75,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -114,7 +114,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 1.011025,
+      "cost_ttc_usd": 0.75,
+      "supplier_cost_currency": "USD",
       "subCategory": "SEEDS",
       "sub": "SEEDS"
     },
@@ -1581,6 +1582,6 @@
       "subCategory": "cans & jams"
     }
   ],
-  "updatedAt": "2026-11-17T12:28:10.470894Z",
+  "updatedAt": "2026-11-17T12:37:32.866738Z",
   "source": "sql-relay-web"
 }
