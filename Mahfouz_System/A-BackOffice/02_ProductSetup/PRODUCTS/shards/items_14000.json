@@ -2223,9 +2223,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "16",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "290,000",
@@ -2241,7 +2241,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "16",
           "consumption": "0"
         }
       },
@@ -2251,7 +2251,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "16",
       "cost_ttc": 2.3994500000000003,
       "cost_ht": 2.1616666666666666,
       "cost_currency": "USD",
@@ -2262,6 +2262,7 @@
       "cost_ht_usd": 2.1616666666666666,
       "costTtcUsd": 2.3994500000000003,
       "cost_ttc_usd": 2.3994500000000003,
+      "supplier_cost_currency": "USD",
       "subCategory": "Digestive Biscuits",
       "sub": "Digestive Biscuits"
     },
@@ -3733,9 +3734,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "19",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "2",
+      "total_stock": "21",
       "total_consumption": "24",
       "VAT": "YES",
       "price_lbp": "225,000",
@@ -3751,7 +3752,7 @@
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "19",
           "consumption": "12"
         }
       },
@@ -3761,7 +3762,7 @@
       "vat": "yes",
       "barcode2": "5053990127740",
       "barcodes": "",
-      "totalStock": "2",
+      "totalStock": "21",
       "cost_ttc": 1.9500947368421055,
       "cost_ht": 1.756842105263158,
       "cost_currency": "USD",
@@ -3782,6 +3783,7 @@
       "scale_code": "",
       "scaleCode": "",
       "cost_ttc_usd": 1.9500947368421055,
+      "supplier_cost_currency": "USD",
       "subCategory": "PRINGLES",
       "sub": "PRINGLES"
     },
@@ -4923,21 +4925,21 @@
       "id": "14316",
       "barcode": "7622201098544",
       "Product Description": "MILKA CHERRY CREME 100 GR",
-      "SUPPLIERS": "MAHMOUD CHOCOLATE",
+      "SUPPLIERS": "AL RAED TRADING",
       "unit": "-",
       "category": "CHI TAYIB",
       "sub_category": "chocolate bar",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "25",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "25",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "140,000",
       "price_usd": "1.56",
-      "cost": "1.22",
+      "cost": "1.02",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID14316.jpg",
       "new_items": "",
       "manual": "",
@@ -4948,7 +4950,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "25",
           "consumption": "0"
         }
       },
@@ -4958,18 +4960,20 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": 1.34999976,
-      "cost_ht": 1.216216,
+      "cost_ttc": 1.1299800000000002,
+      "cost_ht": 1.018,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1777369481322",
       "latest_purchase_cost_date": "2026-04-28",
-      "costHtUsd": 1.216216,
-      "cost_ht_usd": 1.216216,
-      "costTtcUsd": 1.34999976,
+      "costHtUsd": 1.018,
+      "cost_ht_usd": 1.018,
+      "costTtcUsd": 1.1299800000000002,
+      "totalStock": "25",
+      "cost_ttc_usd": 1.1299800000000002,
+      "supplier_cost_currency": "USD",
       "subCategory": "chocolate bar",
-      "sub": "chocolate bar",
-      "totalStock": "0"
+      "sub": "chocolate bar"
     },
     {
       "id": "14318",
@@ -8094,6 +8098,6 @@
       "sub": "TRASH BAGS"
     }
   ],
-  "updatedAt": "2026-11-17T11:14:12.264847Z",
+  "updatedAt": "2026-11-17T11:35:09.438996Z",
   "source": "sql-relay-web"
 }
