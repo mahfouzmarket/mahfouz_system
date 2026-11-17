@@ -3471,12 +3471,12 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301056.jpg",
       "new_items": "x",
-      "total_stock": "11",
-      "totalStock": "11",
-      "stock_in_medawar_branch": "1",
+      "total_stock": "10",
+      "totalStock": "10",
+      "stock_in_medawar_branch": "0",
       "branches": {
         "Medawar": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "6"
         },
         "Geitawi": {
@@ -9813,8 +9813,8 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301165.jpg",
       "new_items": "x",
-      "total_stock": "8",
-      "totalStock": "8",
+      "total_stock": "7",
+      "totalStock": "7",
       "stock_in_medawar_branch": "5",
       "branches": {
         "Medawar": {
@@ -9822,11 +9822,11 @@
           "consumption": "0"
         },
         "Geitawi": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "5"
         }
       },
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "2",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301165.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301165.jpg",
       "image_updated_at_utc": "2026-10-09T15:12:10.687464Z",
@@ -13329,15 +13329,19 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301224.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301224.jpg",
       "image_updated_at_utc": "2026-10-21T11:17:34.754954Z",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-8",
       "branches": {
         "Medawar": {
-          "stock": "0",
+          "stock": "-8",
           "consumption": "3"
+        },
+        "Geitawi": {
+          "stock": "8"
         }
       },
       "consumption_in_medawar_branch": "3",
       "total_consumption": "3",
+      "stock_in_geitawi_branch": "8",
       "subcategory": "Digestive Biscuits",
       "subCategory": "Digestive Biscuits",
       "sub": "Digestive Biscuits",
@@ -23395,13 +23399,17 @@
       "new_items": "x",
       "total_stock": "2",
       "totalStock": "2",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "1",
       "branches": {
         "Medawar": {
-          "stock": "2"
+          "stock": "1"
+        },
+        "Geitawi": {
+          "stock": "1"
         }
       },
       "supplier_cost_currency": "USD",
+      "stock_in_geitawi_branch": "1",
       "subcategory": "chocolate bar",
       "subCategory": "chocolate bar",
       "sub": "chocolate bar",
@@ -23595,13 +23603,17 @@
       "new_items": "x",
       "total_stock": "24",
       "totalStock": "24",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "12",
       "branches": {
         "Medawar": {
-          "stock": "24"
+          "stock": "12"
+        },
+        "Geitawi": {
+          "stock": "12"
         }
       },
       "supplier_cost_currency": "USD",
+      "stock_in_geitawi_branch": "12",
       "subcategory": "sweets",
       "subCategory": "sweets",
       "sub": "sweets",
@@ -23849,13 +23861,17 @@
       "new_items": "x",
       "total_stock": "12",
       "totalStock": "12",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "6",
       "branches": {
         "Medawar": {
-          "stock": "12"
+          "stock": "6"
+        },
+        "Geitawi": {
+          "stock": "6"
         }
       },
       "supplier_cost_currency": "USD",
+      "stock_in_geitawi_branch": "6",
       "subcategory": "Low calorie delight",
       "subCategory": "Low calorie delight",
       "sub": "Low calorie delight",
@@ -23899,19 +23915,23 @@
       "new_items": "x",
       "total_stock": "12",
       "totalStock": "12",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "6",
       "branches": {
         "Medawar": {
-          "stock": "12"
+          "stock": "6"
+        },
+        "Geitawi": {
+          "stock": "6"
         }
       },
       "supplier_cost_currency": "USD",
+      "stock_in_geitawi_branch": "6",
       "subcategory": "Low calorie delight",
       "subCategory": "Low calorie delight",
       "sub": "Low calorie delight",
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-17T11:47:43.977295Z",
+  "updatedAt": "2026-11-17T12:00:06.198679Z",
   "source": "sql-relay-web"
 }
