@@ -1253,9 +1253,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "5",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "510,000",
@@ -1277,7 +1277,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "0"
         }
       },
@@ -1287,7 +1287,7 @@
       "supplier": "ENDURANCE SAL",
       "subcategory": "CLOTH CLEANING",
       "vat": "yes",
-      "totalStock": "2",
+      "totalStock": "5",
       "cost_ttc": 4.650900000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -1307,6 +1307,8 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
+      "cost_ttc_usd": 4.650900000000001,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLOTH CLEANING",
       "sub": "CLOTH CLEANING"
     },
@@ -3711,9 +3713,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "66",
       "consumption_in_geitawi_branch": "31",
-      "stock_in_medawar_branch": "-12",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "36",
-      "total_stock": "54",
+      "total_stock": "77",
       "total_consumption": "67",
       "VAT": "YES",
       "price_lbp": "115,000",
@@ -3735,7 +3737,7 @@
           "consumption": "31"
         },
         "Medawar": {
-          "stock": "-12",
+          "stock": "11",
           "consumption": "36"
         }
       },
@@ -3745,7 +3747,7 @@
       "supplier": "TRANSMED F&B SAL LBP",
       "subcategory": "sweets",
       "vat": "yes",
-      "totalStock": "54",
+      "totalStock": "77",
       "cost_ttc": 0.70855,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -3755,6 +3757,7 @@
       "cost_ht_usd": 0.6383333333333333,
       "costTtcUsd": 0.70855,
       "cost_ttc_usd": 0.70855,
+      "supplier_cost_currency": "USD",
       "subCategory": "sweets",
       "sub": "sweets"
     },
@@ -11305,12 +11308,12 @@
       "cost_ht": 2.73,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300185.jpg",
       "new_items": "x",
-      "total_stock": "2",
-      "totalStock": "2",
-      "stock_in_medawar_branch": "0",
+      "total_stock": "14",
+      "totalStock": "14",
+      "stock_in_medawar_branch": "12",
       "branches": {
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "2"
         },
         "Geitawi": {
@@ -29525,12 +29528,12 @@
       "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300474.jpg",
       "new_items": "x",
-      "total_stock": "12",
-      "totalStock": "12",
-      "stock_in_medawar_branch": "10",
+      "total_stock": "11",
+      "totalStock": "11",
+      "stock_in_medawar_branch": "9",
       "branches": {
         "Medawar": {
-          "stock": "10",
+          "stock": "9",
           "consumption": "5"
         },
         "Geitawi": {
@@ -31129,6 +31132,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-17T07:28:25.057958Z",
+  "updatedAt": "2026-11-17T07:45:29.205393Z",
   "source": "sql-relay-web"
 }
