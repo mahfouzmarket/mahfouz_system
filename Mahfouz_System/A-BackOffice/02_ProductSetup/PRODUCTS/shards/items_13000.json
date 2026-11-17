@@ -1396,9 +1396,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "27",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "50",
       "consumption_in_medawar_branch": "20",
-      "total_stock": "5",
+      "total_stock": "55",
       "total_consumption": "47",
       "VAT": "NO",
       "price_lbp": "115,000",
@@ -1414,7 +1414,7 @@
           "consumption": "27"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "50",
           "consumption": "20"
         },
         "Nouna": {
@@ -1427,7 +1427,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "55",
       "stock_in_nouna_branch": 0,
       "arabic_name": "",
       "name_ar": "",
@@ -1451,6 +1451,7 @@
       "scale_plu": 0,
       "scalePlu": 0,
       "cost_ttc_usd": 1.09,
+      "supplier_cost_currency": "USD",
       "subCategory": "SEEDS",
       "sub": "SEEDS"
     },
@@ -4883,11 +4884,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "147",
+      "stock_in_geitawi_branch": "145",
       "consumption_in_geitawi_branch": "411",
       "stock_in_medawar_branch": "77",
       "consumption_in_medawar_branch": "690",
-      "total_stock": "224",
+      "total_stock": "222",
       "total_consumption": "1101",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -4899,7 +4900,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "147",
+          "stock": "145",
           "consumption": "411"
         },
         "Medawar": {
@@ -4913,7 +4914,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "224",
+      "totalStock": "222",
       "cost_ttc": 1.0,
       "cost_ht": 1.0,
       "cost_currency": "USD",
@@ -5087,9 +5088,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "14",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "2",
+      "total_stock": "14",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -5109,13 +5110,13 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "14",
           "consumption": "2"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "2",
+      "totalStock": "14",
       "cost_ttc": 0.31912500000000005,
       "cost_ht": 0.28750000000000003,
       "costTtcUsd": 0.31912500000000005,
@@ -5123,6 +5124,8 @@
       "cost_ht_usd": 0.28750000000000003,
       "cost_currency": "USD",
       "cost_vat_included": true,
+      "cost_ttc_usd": 0.31912500000000005,
+      "supplier_cost_currency": "USD",
       "subCategory": "herbs & spices",
       "sub": "herbs & spices"
     },
@@ -8438,6 +8441,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-11-17T12:30:17.202464Z",
+  "updatedAt": "2026-11-17T12:38:47.526934Z",
   "source": "sql-relay-web"
 }
