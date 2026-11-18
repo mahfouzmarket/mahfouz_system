@@ -5353,10 +5353,10 @@
       "price_lbp": "80,000",
       "priceLbp": 80000,
       "price_usd": "0.89",
-      "cost": "8.50",
-      "cost_ht": "8.50",
-      "costHtUsd": 8.5,
-      "cost_ht_usd": 8.5,
+      "cost": "0.76",
+      "cost_ht": "0.76",
+      "costHtUsd": 0.7555555555555555,
+      "cost_ht_usd": 0.7555555555555555,
       "cost_currency": "USD",
       "VAT": "NO",
       "vat": "no",
@@ -5370,10 +5370,10 @@
       "linked_profile_item_id": "7000158",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "-1",
+      "stock_in_nouna_branch": "2",
       "branches": {
         "Nouna": {
-          "stock": "-1"
+          "stock": "2"
         },
         "Geitawi": {
           "stock": "0"
@@ -5382,8 +5382,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "-1",
-      "totalStock": "-1",
+      "total_stock": "2",
+      "totalStock": "2",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
       "stock_in_geitawi_branch": "0",
@@ -5474,11 +5474,11 @@
       "linked_profile_item_id": "7000160",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "subCategory": "CHRISTMAS",
-      "sub": "CHRISTMAS",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "19",
       "branches": {
+        "Nouna": {
+          "stock": "19"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -5486,10 +5486,68 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "19",
+      "totalStock": "19",
+      "subCategory": "CHRISTMAS",
+      "sub": "CHRISTMAS",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
+    },
+    {
+      "id": "7000161",
+      "barcode": "70181126122831",
+      "barcode2": "",
+      "secondBarcode": "",
+      "barcodes": "",
+      "Product Description": "BIG CHRISTMAS GIFT BAG",
+      "product_description": "BIG CHRISTMAS GIFT BAG",
+      "description": "BIG CHRISTMAS GIFT BAG",
+      "SUPPLIERS": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
+      "unit": "",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "CHRISTMAS",
+      "subcategory": "CHRISTMAS",
+      "price_lbp": "150,000",
+      "priceLbp": 150000,
+      "price_usd": "1.67",
+      "cost": "1.42",
+      "cost_ht": "1.42",
+      "costHtUsd": 1.4166666666666667,
+      "cost_ht_usd": 1.4166666666666667,
+      "cost_currency": "USD",
+      "VAT": "NO",
+      "vat": "no",
+      "expiry_days": "1000",
+      "expiryDays": 1000,
+      "offers": "0",
+      "new_items": "x",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000161.jpg",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "7000161",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "CHRISTMAS",
+      "stock_in_nouna_branch": "12",
+      "branches": {
+        "Nouna": {
+          "stock": "12"
+        },
+        "Geitawi": {
+          "stock": "0"
+        },
+        "Medawar": {
+          "stock": "0"
+        }
+      },
+      "total_stock": "12",
+      "totalStock": "12",
+      "subCategory": "CHRISTMAS",
+      "sub": "CHRISTMAS",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-18T10:21:47.511090Z",
+  "updatedAt": "2026-11-18T10:35:12.719239Z",
   "source": "sql-relay-web"
 }
