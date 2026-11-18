@@ -4350,10 +4350,13 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-11-10T08:57:38.659383Z"
       },
-      "stock_in_nouna_branch": "-1",
+      "stock_in_nouna_branch": "-3",
       "branches": {
         "Nouna": {
-          "stock": "-1"
+          "stock": "-3"
+        },
+        "Firas": {
+          "stock": "2"
         },
         "Geitawi": {
           "stock": "0"
@@ -4364,6 +4367,7 @@
       },
       "total_stock": "-1",
       "totalStock": "-1",
+      "stock_in_firas_branch": "2",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
       "stock_in_geitawi_branch": "0",
@@ -4470,13 +4474,16 @@
       "linked_profile_item_id": "7000142",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "11",
+      "stock_in_nouna_branch": "5",
       "branches": {
         "Nouna": {
-          "stock": "11"
+          "stock": "5"
         },
         "Geitawi": {
           "stock": "4"
+        },
+        "Firas": {
+          "stock": "6"
         },
         "Medawar": {
           "stock": "0"
@@ -4497,6 +4504,7 @@
         "updatedAtUtc": "2026-11-18T14:26:15.528148Z"
       },
       "stock_in_geitawi_branch": "4",
+      "stock_in_firas_branch": "6",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
       "stock_in_medawar_branch": "0"
@@ -4721,10 +4729,13 @@
       "linked_profile_item_id": "7000146",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHOCOLATE AND DRAGEE",
-      "stock_in_nouna_branch": "7",
+      "stock_in_nouna_branch": "5",
       "branches": {
         "Nouna": {
-          "stock": "7"
+          "stock": "5"
+        },
+        "Firas": {
+          "stock": "2"
         },
         "Geitawi": {
           "stock": "0"
@@ -4735,6 +4746,7 @@
       },
       "total_stock": "7",
       "totalStock": "7",
+      "stock_in_firas_branch": "2",
       "subCategory": "CHOCOLATE AND DRAGEE",
       "sub": "CHOCOLATE AND DRAGEE",
       "stock_in_geitawi_branch": "0",
@@ -5479,10 +5491,13 @@
       "linked_profile_item_id": "7000160",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "19",
+      "stock_in_nouna_branch": "13",
       "branches": {
         "Nouna": {
-          "stock": "19"
+          "stock": "13"
+        },
+        "Firas": {
+          "stock": "6"
         },
         "Geitawi": {
           "stock": "0"
@@ -5493,6 +5508,7 @@
       },
       "total_stock": "19",
       "totalStock": "19",
+      "stock_in_firas_branch": "6",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
       "stock_in_geitawi_branch": "0",
@@ -5607,6 +5623,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-18T14:37:17.564797Z",
+  "updatedAt": "2026-11-18T14:43:28.438002Z",
   "source": "sql-relay-web"
 }
