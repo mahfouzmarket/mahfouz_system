@@ -7489,9 +7489,9 @@
       "category": "PET SUPPLIES",
       "sub_category": "PETS FOOD",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "12",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "-9",
       "consumption_in_medawar_branch": "6",
       "total_stock": "1",
       "total_consumption": "18",
@@ -7505,11 +7505,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "12"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "-9",
           "consumption": "6"
         }
       },
@@ -28214,6 +28214,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-11-18T09:33:12.255432Z",
+  "updatedAt": "2026-11-18T09:56:21.859674Z",
   "source": "sql-relay-web"
 }
