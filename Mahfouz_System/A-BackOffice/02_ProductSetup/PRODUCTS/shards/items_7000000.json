@@ -2324,7 +2324,7 @@
       "Product Description": "CHUPA CHUPS",
       "product_description": "CHUPA CHUPS",
       "description": "CHUPA CHUPS",
-      "SUPPLIERS": "NOUNA'S FOOD",
+      "SUPPLIERS": "DANY GOLDEN FOOD",
       "supplier": "NOUNA'S FOOD",
       "unit": "",
       "category": "NOUNA'S FOOD",
@@ -2333,10 +2333,10 @@
       "price_lbp": "25,000",
       "priceLbp": 25000,
       "price_usd": "0.28",
-      "cost": "0.24",
-      "cost_ht": "0.24",
-      "costHtUsd": 0.2361111111111111,
-      "cost_ht_usd": 0.2361111111111111,
+      "cost": "0.15",
+      "cost_ht": 0.15179166666666666,
+      "costHtUsd": 0.15179166666666666,
+      "cost_ht_usd": 0.15179166666666666,
       "cost_currency": "USD",
       "VAT": "NO",
       "vat": "no",
@@ -2355,16 +2355,21 @@
           "stock": "33"
         },
         "Medawar": {
-          "stock": "-120"
+          "stock": "120"
         },
         "Geitawi": {
           "stock": "120"
         }
       },
-      "total_stock": "33",
-      "totalStock": "33",
-      "stock_in_medawar_branch": "-120",
+      "total_stock": "273",
+      "totalStock": "273",
+      "stock_in_medawar_branch": "120",
       "stock_in_geitawi_branch": "120",
+      "cost_ttc": 0.15179166666666666,
+      "costTtcUsd": 0.15179166666666666,
+      "cost_ttc_usd": 0.15179166666666666,
+      "supplier_cost_currency": "USD",
+      "cost_vat_included": false,
       "subCategory": "CANDIES",
       "sub": "CANDIES"
     },
@@ -5047,10 +5052,10 @@
       "linked_profile_item_id": "7000152",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "NOUNA'S FOOD",
-      "stock_in_nouna_branch": "3",
+      "stock_in_nouna_branch": "7",
       "branches": {
         "Nouna": {
-          "stock": "3"
+          "stock": "7"
         },
         "Geitawi": {
           "stock": "5"
@@ -5059,8 +5064,8 @@
           "stock": "4"
         }
       },
-      "total_stock": "12",
-      "totalStock": "12",
+      "total_stock": "16",
+      "totalStock": "16",
       "stock_in_geitawi_branch": "5",
       "stock_in_medawar_branch": "4",
       "subCategory": "NOUNA'S FOOD",
@@ -5602,6 +5607,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-18T11:14:48.636684Z",
+  "updatedAt": "2026-11-18T13:51:20.570445Z",
   "source": "sql-relay-web"
 }
