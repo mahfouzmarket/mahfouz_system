@@ -2354,19 +2354,19 @@
         "Nouna": {
           "stock": "33"
         },
-        "Geitawi": {
-          "stock": "0"
-        },
         "Medawar": {
-          "stock": "0"
+          "stock": "-120"
+        },
+        "Geitawi": {
+          "stock": "120"
         }
       },
       "total_stock": "33",
       "totalStock": "33",
+      "stock_in_medawar_branch": "-120",
+      "stock_in_geitawi_branch": "120",
       "subCategory": "CANDIES",
-      "sub": "CANDIES",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0"
+      "sub": "CANDIES"
     },
     {
       "id": "7000089",
@@ -5440,6 +5440,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-18T05:54:26.784716Z",
+  "updatedAt": "2026-11-18T09:33:12.255432Z",
   "source": "sql-relay-web"
 }
