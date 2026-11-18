@@ -172,9 +172,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "15",
-      "stock_in_medawar_branch": "15",
+      "stock_in_medawar_branch": "39",
       "consumption_in_medawar_branch": "10",
-      "total_stock": "18",
+      "total_stock": "42",
       "total_consumption": "25",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -190,7 +190,7 @@
           "consumption": "15"
         },
         "Medawar": {
-          "stock": "15",
+          "stock": "39",
           "consumption": "10"
         }
       },
@@ -206,7 +206,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "18",
+      "totalStock": "42",
       "expiry_days": "0",
       "cost_ht": 1.0066666666666666,
       "arabic_name": "",
@@ -229,6 +229,7 @@
       "cost_ht_usd": 1.0066666666666666,
       "costTtcUsd": 1.1174,
       "cost_ttc_usd": 1.1174,
+      "supplier_cost_currency": "USD",
       "subCategory": "SNIPS"
     },
     {
@@ -5945,14 +5946,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "28",
-      "stock_in_medawar_branch": "14",
+      "stock_in_medawar_branch": "38",
       "consumption_in_medawar_branch": "17",
-      "total_stock": "19",
+      "total_stock": "43",
       "total_consumption": "45",
       "VAT": "YES",
       "price_lbp": "100,000",
       "price_usd": "1.11",
-      "cost": "0.00",
+      "cost": "1.01",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID17256.jpg",
       "new_items": "",
       "manual": "",
@@ -5963,7 +5964,7 @@
           "consumption": "28"
         },
         "Medawar": {
-          "stock": "14",
+          "stock": "38",
           "consumption": "17"
         }
       },
@@ -5975,16 +5976,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "19",
-      "cost_ttc": 0.000027750000000000004,
-      "cost_ht": 0.000025,
+      "totalStock": "43",
+      "cost_ttc": 1.1174,
+      "cost_ht": 1.0066666666666666,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782974504068",
       "latest_purchase_cost_date": "2026-07-02",
-      "costHtUsd": 0.000025,
-      "cost_ht_usd": 0.000025,
-      "costTtcUsd": 0.000027750000000000004,
+      "costHtUsd": 1.0066666666666666,
+      "cost_ht_usd": 1.0066666666666666,
+      "costTtcUsd": 1.1174,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -5997,7 +5998,8 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc_usd": 0.000027750000000000004,
+      "cost_ttc_usd": 1.1174,
+      "supplier_cost_currency": "USD",
       "subCategory": "SNIPS",
       "sub": "SNIPS"
     },
@@ -12079,6 +12081,6 @@
       "subCategory": "LAMP"
     }
   ],
-  "updatedAt": "2026-11-18T06:42:13.932509Z",
+  "updatedAt": "2026-11-18T06:46:38.516990Z",
   "source": "sql-relay-web"
 }
