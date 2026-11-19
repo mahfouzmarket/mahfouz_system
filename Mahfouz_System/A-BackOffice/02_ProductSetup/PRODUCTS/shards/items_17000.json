@@ -1619,11 +1619,11 @@
       "category": "CIGARETTES",
       "sub_category": "CIGARETTES",
       "offers": "0",
-      "stock_in_geitawi_branch": "23",
+      "stock_in_geitawi_branch": "21",
       "consumption_in_geitawi_branch": "131",
       "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "142",
-      "total_stock": "25",
+      "total_stock": "23",
       "total_consumption": "273",
       "VAT": "NO",
       "price_lbp": "125,000",
@@ -1635,7 +1635,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "23",
+          "stock": "21",
           "consumption": "131"
         },
         "Medawar": {
@@ -1658,7 +1658,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-17075-1778924657264876",
       "product_setup_saved_at_utc": "2026-05-16T09:44:17.264876Z",
-      "totalStock": "25",
+      "totalStock": "23",
       "priceLbp": 115000.0,
       "priceUsd": 1.2777777777777777,
       "arabic_name": "",
@@ -2837,9 +2837,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "13",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "30",
       "consumption_in_medawar_branch": "50",
-      "total_stock": "14",
+      "total_stock": "39",
       "total_consumption": "63",
       "VAT": "YES",
       "price_lbp": "150,000",
@@ -2855,7 +2855,7 @@
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "30",
           "consumption": "50"
         }
       },
@@ -2874,15 +2874,15 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-17130-1778843651577911",
       "product_setup_saved_at_utc": "2026-05-15T11:14:11.577911Z",
-      "totalStock": "14",
-      "cost_ttc": 0.9990000000000001,
+      "totalStock": "39",
+      "cost_ttc": 0.9,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782983706316",
       "latest_purchase_cost_date": "2026-07-02",
       "costHtUsd": 0.9,
       "cost_ht_usd": 0.9,
-      "costTtcUsd": 0.9990000000000001,
+      "costTtcUsd": 0.9,
       "sub": "KLATCHI",
       "secondary_category": "",
       "category2": "",
@@ -2891,7 +2891,8 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 0.9990000000000001,
+      "cost_ttc_usd": 0.9,
+      "supplier_cost_currency": "USD",
       "subCategory": "KLATCHI"
     },
     {
@@ -12087,6 +12088,6 @@
       "subCategory": "LAMP"
     }
   ],
-  "updatedAt": "2026-11-19T11:25:12.976415Z",
+  "updatedAt": "2026-11-19T11:46:58.657131Z",
   "source": "sql-relay-web"
 }
