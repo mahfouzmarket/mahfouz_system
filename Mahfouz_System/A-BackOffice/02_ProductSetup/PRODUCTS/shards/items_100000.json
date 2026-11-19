@@ -52,11 +52,11 @@
     },
     {
       "id": "100002",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "stock_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "6",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "7",
       "branches": {
         "Geitawi": {
@@ -64,7 +64,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "6"
         }
       },
@@ -100,7 +100,7 @@
       "name": "DER GENERAL 750 ML",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "6",
+      "totalStock": "5",
       "cost_ttc": 1.0545000000000002,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -9106,6 +9106,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-11-19T09:11:44.824563Z",
+  "updatedAt": "2026-11-19T09:31:10.218841Z",
   "source": "sql-relay-web"
 }
