@@ -8428,9 +8428,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "4",
+      "total_stock": "10",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "1,265,000",
@@ -8446,7 +8446,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "10",
           "consumption": "0"
         }
       },
@@ -8460,7 +8460,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
+      "totalStock": "10",
       "cost_ttc": 11.2332,
       "cost_ht": 10.12,
       "cost_currency": "USD",
@@ -8471,6 +8471,7 @@
       "cost_ht_usd": 10.12,
       "costTtcUsd": 11.2332,
       "cost_ttc_usd": 11.2332,
+      "supplier_cost_currency": "USD",
       "subCategory": "wine"
     },
     {
@@ -8484,14 +8485,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "980,000",
       "price_usd": "10.95",
-      "cost": "7.92",
+      "cost": "7.31",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19285.jpg",
       "new_items": "",
       "manual": "",
@@ -8502,7 +8503,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
@@ -8514,16 +8515,18 @@
       "name": "DE BERNARD EXTRA DRY DOC 11% 75 CL",
       "subcategory": "prosecco",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 8.78565,
-      "cost_ht": 7.915,
+      "totalStock": "6",
+      "cost_ttc": 8.11447,
+      "cost_ht": 7.310333333333333,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13518-2026-02-10",
       "latest_purchase_cost_date": "2026-02-10",
-      "costHtUsd": 7.915,
-      "cost_ht_usd": 7.915,
-      "costTtcUsd": 8.78565,
+      "costHtUsd": 7.310333333333333,
+      "cost_ht_usd": 7.310333333333333,
+      "costTtcUsd": 8.11447,
+      "cost_ttc_usd": 8.11447,
+      "supplier_cost_currency": "USD",
       "subCategory": "prosecco"
     },
     {
@@ -14366,6 +14369,6 @@
       "subCategory": "SNIPS"
     }
   ],
-  "updatedAt": "2026-11-19T09:08:50.786576Z",
+  "updatedAt": "2026-11-19T09:29:40.512300Z",
   "source": "sql-relay-web"
 }
