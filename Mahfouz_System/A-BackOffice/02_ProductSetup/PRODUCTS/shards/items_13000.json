@@ -2365,11 +2365,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "221",
+      "stock_in_geitawi_branch": "220",
       "consumption_in_geitawi_branch": "22",
       "stock_in_medawar_branch": "177",
       "consumption_in_medawar_branch": "150",
-      "total_stock": "398",
+      "total_stock": "397",
       "total_consumption": "172",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -2381,7 +2381,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "221",
+          "stock": "220",
           "consumption": "22"
         },
         "Medawar": {
@@ -2395,7 +2395,7 @@
       "vat": "yes",
       "barcode2": "6294017120781",
       "barcodes": "6294017120781",
-      "totalStock": "398",
+      "totalStock": "397",
       "cost_ttc": 0.1312575,
       "cost_ht": 0.11825,
       "cost_currency": "USD",
@@ -3903,9 +3903,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "17",
-      "stock_in_medawar_branch": "34",
+      "stock_in_medawar_branch": "32",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "40",
+      "total_stock": "38",
       "total_consumption": "41",
       "VAT": "NO",
       "price_lbp": "90,000",
@@ -3921,7 +3921,7 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "34",
+          "stock": "32",
           "consumption": "24"
         }
       },
@@ -3931,7 +3931,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "40",
+      "totalStock": "38",
       "cost_ttc": 0.7,
       "cost_ht": 0.7,
       "cost_currency": "USD",
@@ -3961,21 +3961,21 @@
       "id": "13222",
       "barcode": "3014260287481",
       "Product Description": "GIL NACETTE",
-      "SUPPLIERS": "JACK DIB",
+      "SUPPLIERS": "PLATCO",
       "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "shaving",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "24",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "4",
+      "total_stock": "24",
       "total_consumption": "7",
       "VAT": "YES",
       "price_lbp": "35,000",
       "price_usd": "0.39",
-      "cost": "0.25",
+      "cost": "0.28",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13222.jpg",
       "new_items": "",
       "manual": "",
@@ -3986,7 +3986,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "24",
           "consumption": "4"
         }
       },
@@ -3996,16 +3996,18 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "4",
-      "cost_ttc": 0.2775,
-      "cost_ht": 0.25,
+      "totalStock": "24",
+      "cost_ttc": 0.275,
+      "cost_ht": 0.275,
       "cost_currency": "USD",
-      "cost_vat_included": true,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779347891479",
       "latest_purchase_cost_date": "2026-05-21",
-      "costHtUsd": 0.25,
-      "cost_ht_usd": 0.25,
-      "costTtcUsd": 0.2775,
+      "costHtUsd": 0.275,
+      "cost_ht_usd": 0.275,
+      "costTtcUsd": 0.275,
+      "cost_ttc_usd": 0.275,
+      "supplier_cost_currency": "USD",
       "subCategory": "shaving",
       "sub": "shaving"
     },
@@ -8444,6 +8446,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-11-19T09:40:08.124433Z",
+  "updatedAt": "2026-11-19T09:52:43.169735Z",
   "source": "sql-relay-web"
 }
