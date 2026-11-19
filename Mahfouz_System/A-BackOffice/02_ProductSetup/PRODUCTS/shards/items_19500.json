@@ -2195,14 +2195,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "1,500,000",
       "price_usd": "16.76",
-      "cost": "12.00",
+      "cost": "13.00",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19555.jpg",
       "new_items": "",
       "manual": "",
@@ -2217,22 +2217,24 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0.0"
         }
       },
-      "cost_ttc": 12.0,
-      "cost_ht": 12.0,
+      "cost_ttc": 13.0,
+      "cost_ht": 13.0,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13172-2026-01-15",
       "latest_purchase_cost_date": "2026-01-15",
-      "costHtUsd": 12.0,
-      "cost_ht_usd": 12.0,
-      "costTtcUsd": 12.0,
+      "costHtUsd": 13.0,
+      "cost_ht_usd": 13.0,
+      "costTtcUsd": 13.0,
+      "totalStock": "2",
+      "cost_ttc_usd": 13.0,
+      "supplier_cost_currency": "USD",
       "subCategory": "FROZEN FOOD",
-      "sub": "FROZEN FOOD",
-      "totalStock": "0"
+      "sub": "FROZEN FOOD"
     },
     {
       "id": "19556",
@@ -5742,9 +5744,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "22",
       "consumption_in_geitawi_branch": "13",
-      "stock_in_medawar_branch": "24",
+      "stock_in_medawar_branch": "21",
       "consumption_in_medawar_branch": "8",
-      "total_stock": "46",
+      "total_stock": "43",
       "total_consumption": "21",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -5760,7 +5762,7 @@
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "24",
+          "stock": "21",
           "consumption": "8"
         }
       },
@@ -5774,7 +5776,7 @@
       "vat": "yes",
       "barcode2": "8690526223339",
       "barcodes": "",
-      "totalStock": "46",
+      "totalStock": "43",
       "cost_ttc": 0.5489583333333333,
       "cost_ht": 0.5489583333333333,
       "cost_currency": "USD",
@@ -16991,6 +16993,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-19T10:49:47.756529Z",
+  "updatedAt": "2026-11-19T11:00:14.733359Z",
   "source": "sql-relay-web"
 }
