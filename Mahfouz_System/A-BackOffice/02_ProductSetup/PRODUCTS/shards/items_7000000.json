@@ -3450,13 +3450,13 @@
       "linked_profile_item_id": "7000112",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "0",
       "branches": {
         "Nouna": {
-          "stock": "1"
+          "stock": "0"
         },
         "Medawar": {
-          "stock": "2"
+          "stock": "3"
         },
         "Geitawi": {
           "stock": "4"
@@ -3464,7 +3464,7 @@
       },
       "total_stock": "7",
       "totalStock": "7",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "3",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000112.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000112.jpg",
       "image_updated_at_utc": "2026-11-06T15:44:59.018929Z",
@@ -4901,16 +4901,16 @@
       "linked_profile_item_id": "7000149",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "ARRANGEMENT",
-      "stock_in_nouna_branch": "7",
+      "stock_in_nouna_branch": "5",
       "branches": {
         "Nouna": {
-          "stock": "7"
+          "stock": "5"
         },
         "Geitawi": {
           "stock": "4"
         },
         "Medawar": {
-          "stock": "0"
+          "stock": "2"
         }
       },
       "total_stock": "11",
@@ -4928,9 +4928,9 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-11-10T21:05:03.928734Z"
       },
+      "stock_in_medawar_branch": "2",
       "subCategory": "ARRANGEMENT",
-      "sub": "ARRANGEMENT",
-      "stock_in_medawar_branch": "0"
+      "sub": "ARRANGEMENT"
     },
     {
       "id": "7000150",
@@ -5453,20 +5453,24 @@
       "linked_profile_item_id": "7000159",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "subCategory": "CHRISTMAS",
-      "sub": "CHRISTMAS",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "2",
       "branches": {
-        "Geitawi": {
-          "stock": "0"
+        "Nouna": {
+          "stock": "2"
         },
         "Medawar": {
+          "stock": "2"
+        },
+        "Geitawi": {
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "4",
+      "totalStock": "4",
+      "stock_in_medawar_branch": "2",
+      "subCategory": "CHRISTMAS",
+      "sub": "CHRISTMAS",
+      "stock_in_geitawi_branch": "0"
     },
     {
       "id": "7000160",
@@ -5635,6 +5639,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-19T07:55:55.572993Z",
+  "updatedAt": "2026-11-19T08:17:55.667946Z",
   "source": "sql-relay-web"
 }
