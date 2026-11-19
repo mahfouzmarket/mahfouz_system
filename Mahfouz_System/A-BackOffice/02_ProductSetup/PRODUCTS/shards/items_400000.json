@@ -1483,19 +1483,19 @@
     },
     {
       "id": "400039",
-      "stock_in_medawar_branch": "1",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "-1",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_medawar_branch": "1",
       "consumption_in_geitawi_branch": "2",
       "total_stock": "1",
       "total_consumption": "3",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "-1",
           "consumption": "1"
         }
       },
@@ -4078,6 +4078,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-19T08:51:03.922987Z",
+  "updatedAt": "2026-11-19T09:00:07.029799Z",
   "source": "sql-relay-web"
 }
