@@ -1224,9 +1224,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "0",
+      "total_stock": "3",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "1,275,000",
@@ -1242,7 +1242,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "2",
           "consumption": "4"
         }
       },
@@ -1250,7 +1250,7 @@
       "supplier": "KTE KFOURY TRADING EST",
       "subcategory": "TISSUES & TOILET PAPER",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "3",
       "barcode2": "",
       "barcodes": "",
       "cost_ttc": 10.585700000000001,
@@ -1263,6 +1263,7 @@
       "cost_ht_usd": 9.536666666666667,
       "costTtcUsd": 10.585700000000001,
       "cost_ttc_usd": 10.585700000000001,
+      "supplier_cost_currency": "USD",
       "subCategory": "TISSUES & TOILET PAPER",
       "sub": "TISSUES & TOILET PAPER"
     },
@@ -3538,9 +3539,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "3",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "9",
+      "total_stock": "15",
       "total_consumption": "4",
       "VAT": "NO",
       "price_lbp": "425,000",
@@ -3556,7 +3557,7 @@
           "consumption": "3"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "1"
         }
       },
@@ -3566,7 +3567,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9",
+      "totalStock": "15",
       "cost_ttc": 3.9683333333333333,
       "cost_ht": 3.9683333333333333,
       "cost_currency": "USD",
@@ -3588,6 +3589,7 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13203.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13203.jpg",
       "image_updated_at_utc": "2026-09-24T14:27:19.953588Z",
+      "supplier_cost_currency": "USD",
       "subCategory": "femi care"
     },
     {
@@ -7660,6 +7662,7 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 0.9990000000000001,
+      "supplier_cost_currency": "USD",
       "subCategory": "KLATCHI"
     },
     {
@@ -7720,6 +7723,7 @@
       "cost_ht_usd": 0.32,
       "costTtcUsd": 0.3552,
       "cost_ttc_usd": 0.3552,
+      "supplier_cost_currency": "USD",
       "subCategory": "KLATCHI",
       "sub": "KLATCHI"
     },
@@ -8446,6 +8450,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-11-19T10:34:26.518546Z",
+  "updatedAt": "2026-11-19T10:43:00.700618Z",
   "source": "sql-relay-web"
 }
