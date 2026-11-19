@@ -1417,24 +1417,24 @@
     },
     {
       "id": "400037",
-      "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_medawar_branch": "-2",
+      "stock_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "total_stock": "1",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "3",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-2",
           "consumption": "0"
         }
       },
       "barcode": "5283009711572",
-      "barcode2": "",
+      "barcode2": "5283009713897",
       "barcodes": "",
       "Product Description": "PRIL SECRETS OF THE COOK ORGINAL 3 L",
       "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
@@ -1447,7 +1447,7 @@
       "price_lbp": "780,000",
       "price_usd": "8.67",
       "cost": "5.49",
-      "cost_ht": 5.49,
+      "cost_ht": "5.4900",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400037.jpg",
       "new_items": "x",
       "manual": "",
@@ -1468,17 +1468,27 @@
       "subcategory": "DISH WASHING",
       "vat": "yes",
       "totalStock": "1",
-      "cost_ttc": 6.0939,
+      "cost_ttc": "6.0939",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1777469012073",
       "latest_purchase_cost_date": "2026-04-29",
       "costHtUsd": 5.49,
       "cost_ht_usd": 5.49,
-      "costTtcUsd": 6.0939,
+      "costTtcUsd": 6.0939000000000005,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400037.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID400037.jpg",
       "image_updated_at_utc": "2026-09-23T09:06:37.872200Z",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 6.0939000000000005,
       "subCategory": "DISH WASHING"
     },
     {
@@ -4078,6 +4088,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-19T09:00:07.029799Z",
+  "updatedAt": "2026-11-19T09:12:20.984675Z",
   "source": "sql-relay-web"
 }
