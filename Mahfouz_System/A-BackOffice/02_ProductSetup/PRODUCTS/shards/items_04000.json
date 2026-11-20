@@ -1339,14 +1339,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "48",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-48",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "0",
+      "total_stock": "48",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "55,000",
       "price_usd": "0.61",
-      "cost": "0.42",
+      "cost": "0.35",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID4403.jpg",
       "new_items": "",
       "manual": "",
@@ -1357,7 +1357,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-48",
+          "stock": "0",
           "consumption": "3"
         }
       },
@@ -1367,16 +1367,18 @@
       "vat": "yes",
       "barcode2": "8690526005423",
       "barcodes": "8690526005423",
-      "totalStock": "0",
-      "cost_ttc": 0.4662,
-      "cost_ht": 0.42,
+      "totalStock": "48",
+      "cost_ttc": 0.3885,
+      "cost_ht": 0.35,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782745872329",
       "latest_purchase_cost_date": "2026-06-29",
-      "costHtUsd": 0.42,
-      "cost_ht_usd": 0.42,
-      "costTtcUsd": 0.4662,
+      "costHtUsd": 0.35,
+      "cost_ht_usd": 0.35,
+      "costTtcUsd": 0.3885,
+      "cost_ttc_usd": 0.3885,
+      "supplier_cost_currency": "USD",
       "subCategory": "Wafers",
       "sub": "Wafers"
     },
@@ -1606,9 +1608,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "30",
       "consumption_in_geitawi_branch": "21",
-      "stock_in_medawar_branch": "96",
+      "stock_in_medawar_branch": "120",
       "consumption_in_medawar_branch": "12",
-      "total_stock": "126",
+      "total_stock": "150",
       "total_consumption": "33",
       "VAT": "YES",
       "price_lbp": "20,000",
@@ -1624,7 +1626,7 @@
           "consumption": "21"
         },
         "Medawar": {
-          "stock": "96",
+          "stock": "120",
           "consumption": "12"
         }
       },
@@ -1634,7 +1636,7 @@
       "vat": "yes",
       "barcode2": "6291003084300",
       "barcodes": "",
-      "totalStock": "126",
+      "totalStock": "150",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1668,9 +1670,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "49",
       "consumption_in_geitawi_branch": "17",
-      "stock_in_medawar_branch": "-14",
+      "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "18",
-      "total_stock": "35",
+      "total_stock": "83",
       "total_consumption": "35",
       "VAT": "YES",
       "price_lbp": "65,000",
@@ -1692,7 +1694,7 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "-14",
+          "stock": "34",
           "consumption": "18"
         }
       },
@@ -1702,7 +1704,7 @@
       "supplier": "GOLDEN FOOD SAL",
       "subcategory": "Wafers",
       "vat": "yes",
-      "totalStock": "35",
+      "totalStock": "83",
       "cost_ttc": 0.47175,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -1712,6 +1714,7 @@
       "cost_ht_usd": 0.425,
       "costTtcUsd": 0.47175,
       "cost_ttc_usd": 0.47175,
+      "supplier_cost_currency": "USD",
       "subCategory": "Wafers",
       "sub": "Wafers"
     },
@@ -1985,6 +1988,6 @@
       "subCategory": "Biscuits"
     }
   ],
-  "updatedAt": "2026-11-20T08:43:53.235832Z",
+  "updatedAt": "2026-11-20T08:51:56.120971Z",
   "source": "sql-relay-web"
 }
