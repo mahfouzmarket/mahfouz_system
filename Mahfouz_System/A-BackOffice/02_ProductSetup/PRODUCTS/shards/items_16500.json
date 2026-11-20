@@ -1108,9 +1108,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "37",
-      "stock_in_medawar_branch": "12",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "92",
-      "total_stock": "15",
+      "total_stock": "14",
       "total_consumption": "129",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -1126,7 +1126,7 @@
           "consumption": "37"
         },
         "Medawar": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "92"
         }
       },
@@ -1140,7 +1140,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "15",
+      "totalStock": "14",
       "cost_ttc": 0.167425,
       "cost_ht": 0.15083333333333332,
       "cost_currency": "USD",
@@ -3478,21 +3478,21 @@
       "id": "16768",
       "barcode": "8032793342311",
       "Product Description": "POMI STRAINED TOMATOES 500G",
-      "SUPPLIERS": "AL HAMAWI TRADING",
+      "SUPPLIERS": "FDC",
       "unit": "-",
       "category": "FOOD",
       "sub_category": "SAUCE",
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "12",
       "total_consumption": "0",
       "VAT": "NO",
-      "price_lbp": "160,000",
-      "price_usd": "1.78",
-      "cost": "1.40",
+      "price_lbp": "250,000",
+      "price_usd": "2.78",
+      "cost": "2.48",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16768.jpg",
       "new_items": "",
       "manual": "",
@@ -3503,7 +3503,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "0"
         }
       },
@@ -3513,7 +3513,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "12",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16768.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID16768.jpg",
       "image_updated_at_utc": "2026-06-17T09:57:35.065795Z",
@@ -3529,15 +3529,17 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": 1.39666666666667,
-      "cost_ttc": 1.39666666666667,
+      "cost_ht": 2.48,
+      "cost_ttc": 2.7528,
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781689512283",
       "latest_purchase_cost_date": "2026-06-17",
-      "costHtUsd": 1.39666666666667,
-      "cost_ht_usd": 1.39666666666667,
-      "costTtcUsd": 1.39666666666667,
+      "costHtUsd": 2.48,
+      "cost_ht_usd": 2.48,
+      "costTtcUsd": 2.7528,
+      "cost_ttc_usd": 2.7528,
+      "supplier_cost_currency": "USD",
       "subCategory": "SAUCE",
       "sub": "SAUCE"
     },
@@ -8939,6 +8941,6 @@
       "subCategory": "READY TO EAT"
     }
   ],
-  "updatedAt": "2026-11-20T09:08:15.438012Z",
+  "updatedAt": "2026-11-20T09:22:57.186514Z",
   "source": "sql-relay-web"
 }
