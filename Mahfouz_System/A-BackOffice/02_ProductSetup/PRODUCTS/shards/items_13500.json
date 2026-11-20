@@ -1159,9 +1159,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "38",
       "consumption_in_geitawi_branch": "66",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "17",
       "consumption_in_medawar_branch": "51",
-      "total_stock": "56",
+      "total_stock": "55",
       "total_consumption": "117",
       "VAT": "YES",
       "price_lbp": "160,000",
@@ -1177,7 +1177,7 @@
           "consumption": "66"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "17",
           "consumption": "51"
         }
       },
@@ -1187,7 +1187,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "56",
+      "totalStock": "55",
       "cost_ttc": 1.2509083333333335,
       "cost_ht": 1.1269444444444445,
       "cost_currency": "USD",
@@ -3815,21 +3815,21 @@
       "id": "13756",
       "barcode": "5283009709609",
       "Product Description": "DER GENERAL ROSE BLOSSOM 750 ML",
-      "SUPPLIERS": "SMART FUNCTION SOCIETY USD",
+      "SUPPLIERS": "SMART FUNCTION SOCIETY SARL",
       "unit": "-",
       "category": "HOME USAGE",
       "sub_category": "CLEANING",
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-2",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "135,000",
       "price_usd": "1.34",
-      "cost": "0.94",
+      "cost": "0.95",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID13756.jpg",
       "new_items": "",
       "manual": "",
@@ -3840,7 +3840,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-2",
+          "stock": "4",
           "consumption": "0"
         }
       },
@@ -3852,16 +3852,18 @@
       "name": "DER GENERAL ROSE BLOSSOM 750 ML",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 1.0434,
-      "cost_ht": 0.94,
+      "totalStock": "6",
+      "cost_ttc": 1.0545000000000002,
+      "cost_ht": 0.9500000000000001,
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781252433112",
       "latest_purchase_cost_date": "2026-06-12",
-      "costHtUsd": 0.94,
-      "cost_ht_usd": 0.94,
-      "costTtcUsd": 1.0434,
+      "costHtUsd": 0.9500000000000001,
+      "cost_ht_usd": 0.9500000000000001,
+      "costTtcUsd": 1.0545000000000002,
+      "cost_ttc_usd": 1.0545000000000002,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLEANING"
     },
     {
@@ -8876,6 +8878,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-11-20T11:04:11.284900Z",
+  "updatedAt": "2026-11-20T11:23:51.088048Z",
   "source": "sql-relay-web"
 }
