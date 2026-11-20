@@ -590,11 +590,11 @@
       "linked_profile_item_id": "6000013",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "",
-      "subCategory": "",
-      "sub": "",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "16",
       "branches": {
+        "Nouna": {
+          "stock": "16"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -602,8 +602,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "16",
+      "totalStock": "16",
+      "subCategory": "",
+      "sub": "",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "6000015",
@@ -793,6 +797,6 @@
       "stock_in_geitawi_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-20T12:14:57.702612Z",
+  "updatedAt": "2026-11-20T12:32:24.063449Z",
   "source": "sql-relay-web"
 }
