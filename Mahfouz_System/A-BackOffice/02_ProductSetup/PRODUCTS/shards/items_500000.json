@@ -4944,18 +4944,16 @@
       "delivery_rules": "",
       "expiry_days": "0",
       "VAT": "YES",
-      "non_stockable": true,
-      "nonStockable": true,
+      "non_stockable": false,
+      "nonStockable": false,
       "scale_item_enabled": false,
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
       "price_lbp": "110,000",
       "price_usd": "1.22",
       "cost": "0.85",
-      "cost_ht": "0.85",
+      "cost_ht": "0.8500",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500102.jpg",
       "new_items": "x",
       "total_stock": "0",
@@ -4969,6 +4967,13 @@
         }
       },
       "total_consumption": "0",
+      "cost_ttc": "0.9435",
+      "costTtcUsd": 0.9435,
+      "costHtUsd": 0.85,
+      "cost_ht_usd": 0.85,
+      "cost_ttc_usd": 0.9435,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
       "subcategory": "DAIRY PRODUCTS",
       "subCategory": "DAIRY PRODUCTS",
       "sub": "DAIRY PRODUCTS",
@@ -6934,6 +6939,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-20T12:22:05.843778Z",
+  "updatedAt": "2026-11-20T12:53:56.439334Z",
   "source": "sql-relay-web"
 }
