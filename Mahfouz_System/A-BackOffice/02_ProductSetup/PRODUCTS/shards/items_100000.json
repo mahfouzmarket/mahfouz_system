@@ -52,11 +52,11 @@
     },
     {
       "id": "100002",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "5",
       "stock_in_geitawi_branch": "6",
       "consumption_in_medawar_branch": "6",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "5",
+      "total_stock": "11",
       "total_consumption": "7",
       "branches": {
         "Geitawi": {
@@ -64,7 +64,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "5",
           "consumption": "6"
         }
       },
@@ -100,7 +100,7 @@
       "name": "DER GENERAL 750 ML",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "5",
+      "totalStock": "11",
       "cost_ttc": 1.0545000000000002,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -117,6 +117,7 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 1.0545000000000002,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLEANING"
     },
     {
@@ -5926,20 +5927,20 @@
       "unit": "EACH",
       "VAT": "YES",
       "vat": "yes",
-      "cost": "1.27",
-      "cost_ht": 1.2666666666666666,
+      "cost": "1.31",
+      "cost_ht": 1.3108333333333333,
       "lastCostHtUsd": 1.39,
       "price_lbp": "175,000",
       "stock_in_geitawi_branch": "10",
-      "stock_in_medawar_branch": "-10",
-      "total_stock": "0",
+      "stock_in_medawar_branch": "2",
+      "total_stock": "12",
       "branches": {
         "Geitawi": {
           "stock": "10",
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "-10",
+          "stock": "2",
           "consumption": "3"
         }
       },
@@ -5962,15 +5963,15 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
-      "cost_ttc": 1.4060000000000001,
+      "totalStock": "12",
+      "cost_ttc": 1.455025,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14409",
       "latest_purchase_cost_date": "2026-05-07",
-      "costHtUsd": 1.2666666666666666,
-      "cost_ht_usd": 1.2666666666666666,
-      "costTtcUsd": 1.4060000000000001,
+      "costHtUsd": 1.3108333333333333,
+      "cost_ht_usd": 1.3108333333333333,
+      "costTtcUsd": 1.455025,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -5983,10 +5984,11 @@
       "scaleCode": "",
       "price_usd": "1.94",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100110.jpg",
-      "cost_ttc_usd": 1.4060000000000001,
+      "cost_ttc_usd": 1.455025,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100110.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100110.jpg",
       "image_updated_at_utc": "2026-09-23T11:06:07.863570Z",
+      "supplier_cost_currency": "USD",
       "subCategory": "cans & jams"
     },
     {
@@ -9117,6 +9119,6 @@
       "vat": "no"
     }
   ],
-  "updatedAt": "2026-11-20T09:42:38.390131Z",
+  "updatedAt": "2026-11-20T11:23:51.088048Z",
   "source": "sql-relay-web"
 }
