@@ -1366,9 +1366,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "6",
+      "total_stock": "12",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "320,000",
@@ -1384,7 +1384,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "10",
           "consumption": "0"
         }
       },
@@ -1394,7 +1394,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "12",
       "cost_ttc": 2.7972,
       "cost_ht": 2.52,
       "cost_currency": "USD",
@@ -1405,6 +1405,7 @@
       "cost_ht_usd": 2.52,
       "costTtcUsd": 2.7972,
       "cost_ttc_usd": 2.7972,
+      "supplier_cost_currency": "USD",
       "subCategory": "BAKING & COOKING",
       "sub": "BAKING & COOKING"
     },
@@ -1419,14 +1420,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "4",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "7",
+      "total_stock": "13",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "140,000",
       "price_usd": "1.56",
-      "cost": "0.00",
+      "cost": "1.07",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID2455.jpg",
       "new_items": "",
       "manual": "",
@@ -1437,7 +1438,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "4",
+          "stock": "10",
           "consumption": "2"
         }
       },
@@ -1447,17 +1448,18 @@
       "vat": "yes",
       "barcode2": "5285002193560",
       "barcodes": "5285002193560",
-      "totalStock": "7",
-      "cost_ttc": 0.000027750000000000004,
-      "cost_ht": 0.000025,
+      "totalStock": "13",
+      "cost_ttc": 1.1877000000000002,
+      "cost_ht": 1.07,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780641478317",
       "latest_purchase_cost_date": "2026-06-05",
-      "costHtUsd": 0.000025,
-      "cost_ht_usd": 0.000025,
-      "costTtcUsd": 0.000027750000000000004,
-      "cost_ttc_usd": 0.000027750000000000004,
+      "costHtUsd": 1.07,
+      "cost_ht_usd": 1.07,
+      "costTtcUsd": 1.1877000000000002,
+      "cost_ttc_usd": 1.1877000000000002,
+      "supplier_cost_currency": "USD",
       "subCategory": "BAKING & COOKING",
       "sub": "BAKING & COOKING"
     },
@@ -2238,6 +2240,6 @@
       "sub": "cake"
     }
   ],
-  "updatedAt": "2026-11-20T06:49:54.190770Z",
+  "updatedAt": "2026-11-20T07:22:36.477136Z",
   "source": "sql-relay-web"
 }
