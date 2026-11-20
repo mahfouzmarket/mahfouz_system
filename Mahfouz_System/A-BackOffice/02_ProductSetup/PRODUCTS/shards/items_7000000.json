@@ -5676,24 +5676,24 @@
       "linked_profile_item_id": "7000163",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "22",
+      "stock_in_nouna_branch": "0",
       "branches": {
         "Nouna": {
-          "stock": "22"
-        },
-        "Geitawi": {
           "stock": "0"
         },
         "Medawar": {
+          "stock": "22"
+        },
+        "Geitawi": {
           "stock": "0"
         }
       },
       "total_stock": "22",
       "totalStock": "22",
+      "stock_in_medawar_branch": "22",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0"
+      "stock_in_geitawi_branch": "0"
     },
     {
       "id": "7000164",
@@ -6122,6 +6122,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-20T07:05:15.591699Z",
+  "updatedAt": "2026-11-20T08:10:00.071071Z",
   "source": "sql-relay-web"
 }
