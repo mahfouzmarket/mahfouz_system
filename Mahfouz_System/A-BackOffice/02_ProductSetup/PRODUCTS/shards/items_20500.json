@@ -6318,7 +6318,7 @@
       "consumption_in_geitawi_branch": "0.0",
       "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0.0",
-      "total_stock": "3",
+      "total_stock": "21",
       "total_consumption": "0.0",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -6340,9 +6340,16 @@
         "Medawar": {
           "stock": "3",
           "consumption": "0.0"
+        },
+        "Nouna": {
+          "stock": "18"
         }
       },
-      "totalStock": "3",
+      "totalStock": "21",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "20612",
+      "stock_in_nouna_branch": "18",
       "subCategory": "SWEET & CANDIES",
       "sub": "SWEET & CANDIES"
     },
@@ -29135,6 +29142,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-11-20T11:53:19.204826Z",
+  "updatedAt": "2026-11-20T12:12:34.289777Z",
   "source": "sql-relay-web"
 }
