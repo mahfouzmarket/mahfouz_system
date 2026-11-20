@@ -3133,9 +3133,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-3",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "12",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "320,000",
@@ -3156,7 +3156,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-3",
+          "stock": "7",
           "consumption": "0"
         }
       },
@@ -3165,8 +3165,8 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "cost_ttc": "2.3199",
-      "cost_ht": "2.0900",
+      "cost_ttc": 2.3199,
+      "cost_ht": 2.09,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14175-2026-04-02",
@@ -3174,12 +3174,13 @@
       "costHtUsd": 2.09,
       "cost_ht_usd": 2.09,
       "costTtcUsd": 2.3199,
-      "totalStock": "2",
+      "totalStock": "12",
       "category2": "",
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 2.3199,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLEANING"
     },
     {
@@ -3193,9 +3194,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "-2",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "3",
+      "total_stock": "13",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "320,000",
@@ -3219,15 +3220,15 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-2",
+          "stock": "8",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "3",
-      "cost_ttc": "2.3199",
-      "cost_ht": "2.0900",
+      "totalStock": "13",
+      "cost_ttc": 2.3199,
+      "cost_ht": 2.09,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14175-2026-04-02",
@@ -3240,6 +3241,7 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 2.3199,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLEANING"
     },
     {
@@ -3347,14 +3349,14 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "27",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "17",
+      "total_stock": "33",
       "total_consumption": "9",
       "VAT": "YES",
       "price_lbp": "195,000",
       "price_usd": "2.18",
-      "cost": "1.67",
+      "cost": "1.64",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID19123.jpg",
       "new_items": "",
       "manual": "",
@@ -3365,7 +3367,7 @@
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "27",
           "consumption": "3"
         }
       },
@@ -3379,21 +3381,22 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "17",
-      "cost_ttc": 1.8557812500000002,
-      "cost_ht": 1.671875,
+      "totalStock": "33",
+      "cost_ttc": 1.8169312500000003,
+      "cost_ht": 1.636875,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14175-2026-04-02",
       "latest_purchase_cost_date": "2026-04-02",
-      "costHtUsd": 1.671875,
-      "cost_ht_usd": 1.671875,
-      "costTtcUsd": 1.8557812500000002,
+      "costHtUsd": 1.636875,
+      "cost_ht_usd": 1.636875,
+      "costTtcUsd": 1.8169312500000003,
       "category2": "",
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 1.8557812500000002,
+      "cost_ttc_usd": 1.8169312500000003,
+      "supplier_cost_currency": "USD",
       "subCategory": "DISH WASHING"
     },
     {
@@ -14375,6 +14378,6 @@
       "subCategory": "SNIPS"
     }
   ],
-  "updatedAt": "2026-11-20T11:03:32.552570Z",
+  "updatedAt": "2026-11-20T11:23:51.088048Z",
   "source": "sql-relay-web"
 }
