@@ -3108,12 +3108,16 @@
         "Geitawi": {
           "stock": "3"
         },
+        "Nouna": {
+          "stock": "1"
+        },
         "Medawar": {
           "stock": "0"
         }
       },
-      "total_stock": "3",
-      "totalStock": "3",
+      "total_stock": "4",
+      "totalStock": "4",
+      "stock_in_nouna_branch": "1",
       "subCategory": "",
       "sub": "",
       "stock_in_medawar_branch": "0"
@@ -3758,20 +3762,24 @@
       "linked_profile_item_id": "7000118",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "",
-      "subCategory": "",
-      "sub": "",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "0",
       "branches": {
-        "Geitawi": {
+        "Nouna": {
           "stock": "0"
+        },
+        "Geitawi": {
+          "stock": "2"
         },
         "Medawar": {
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "2",
+      "totalStock": "2",
+      "stock_in_geitawi_branch": "2",
+      "subCategory": "",
+      "sub": "",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000120",
@@ -3807,17 +3815,21 @@
       "linked_profile_item_id": "7000120",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "",
-      "stock_in_geitawi_branch": "3",
+      "stock_in_geitawi_branch": "1",
       "branches": {
         "Geitawi": {
-          "stock": "3"
+          "stock": "1"
+        },
+        "Nouna": {
+          "stock": "7"
         },
         "Medawar": {
           "stock": "0"
         }
       },
-      "total_stock": "3",
-      "totalStock": "3",
+      "total_stock": "8",
+      "totalStock": "8",
+      "stock_in_nouna_branch": "7",
       "subCategory": "",
       "sub": "",
       "stock_in_medawar_branch": "0"
@@ -3888,7 +3900,7 @@
       "stock_in_medawar_branch": "4",
       "consumption_in_geitawi_branch": "3",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "12",
+      "total_stock": "6",
       "total_consumption": "4",
       "vat": "no",
       "price_lbp": "297,500",
@@ -3915,14 +3927,14 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "4"
+          "stock": "-2"
         }
       },
-      "totalStock": "12",
+      "totalStock": "6",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000123.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000123.jpg",
       "image_updated_at_utc": "2026-10-22T08:13:44.231369Z",
-      "stock_in_nouna_branch": "4",
+      "stock_in_nouna_branch": "-2",
       "subcategory": "NOUNA'S FOOD",
       "subCategory": "NOUNA'S FOOD",
       "sub": "NOUNA'S FOOD",
@@ -3962,11 +3974,11 @@
       "linked_profile_item_id": "7000126",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "",
-      "subCategory": "",
-      "sub": "",
-      "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_nouna_branch": "-2",
       "branches": {
+        "Nouna": {
+          "stock": "-2"
+        },
         "Geitawi": {
           "stock": "0"
         },
@@ -3974,8 +3986,12 @@
           "stock": "0"
         }
       },
-      "total_stock": "0",
-      "totalStock": "0"
+      "total_stock": "-2",
+      "totalStock": "-2",
+      "subCategory": "",
+      "sub": "",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0"
     },
     {
       "id": "7000130",
@@ -6318,6 +6334,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-20T12:26:58.292211Z",
+  "updatedAt": "2026-11-20T12:36:19.370934Z",
   "source": "sql-relay-web"
 }
