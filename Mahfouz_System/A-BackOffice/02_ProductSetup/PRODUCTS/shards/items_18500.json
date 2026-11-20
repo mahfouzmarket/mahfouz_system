@@ -9408,9 +9408,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "1",
+      "total_stock": "11",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -9434,7 +9434,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "1"
         }
       },
@@ -9452,19 +9452,20 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ttc": "1.6983",
-      "cost_ht": "1.5300",
+      "cost_ttc": 1.6983000000000001,
+      "cost_ht": 1.53,
       "costTtcUsd": 1.6983000000000001,
       "costHtUsd": 1.53,
       "cost_ht_usd": 1.53,
       "cost_currency": "USD",
       "cost_vat_included": true,
-      "totalStock": "1",
+      "totalStock": "11",
       "category2": "",
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 1.6983000000000001,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLEANING"
     },
     {
@@ -12884,6 +12885,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-11-20T10:34:29.262396Z",
+  "updatedAt": "2026-11-20T11:23:51.088048Z",
   "source": "sql-relay-web"
 }
