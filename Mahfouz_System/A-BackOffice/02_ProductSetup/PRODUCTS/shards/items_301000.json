@@ -5101,12 +5101,12 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301083.jpg",
       "new_items": "x",
-      "total_stock": "29",
-      "totalStock": "29",
-      "stock_in_medawar_branch": "7",
+      "total_stock": "79",
+      "totalStock": "79",
+      "stock_in_medawar_branch": "57",
       "branches": {
         "Medawar": {
-          "stock": "7",
+          "stock": "57",
           "consumption": "21"
         },
         "Geitawi": {
@@ -5121,6 +5121,7 @@
       "consumption_in_geitawi_branch": "13",
       "consumption_in_medawar_branch": "21",
       "total_consumption": "34",
+      "supplier_cost_currency": "USD",
       "subcategory": "LIGHTER",
       "subCategory": "LIGHTER",
       "sub": "LIGHTER",
@@ -26834,24 +26835,30 @@
       "scaleCode": "",
       "price_lbp": "150,000",
       "price_usd": "1.67",
-      "cost": "0.75",
-      "cost_ttc": "0.8325",
-      "cost_ht": "0.7500",
-      "costTtcUsd": 0.8325,
-      "costHtUsd": 0.75,
-      "cost_ht_usd": 0.75,
-      "cost_ttc_usd": 0.8325,
+      "cost": "0.50",
+      "cost_ttc": 0.555,
+      "cost_ht": 0.5,
+      "costTtcUsd": 0.555,
+      "costHtUsd": 0.5,
+      "cost_ht_usd": 0.5,
+      "cost_ttc_usd": 0.555,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301466.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
+      "total_stock": "12",
+      "totalStock": "12",
+      "stock_in_medawar_branch": "12",
+      "branches": {
+        "Medawar": {
+          "stock": "12"
+        }
+      },
+      "supplier_cost_currency": "USD",
       "subcategory": "STATIONARY",
       "subCategory": "STATIONARY",
       "sub": "STATIONARY",
-      "vat": "yes",
-      "branches": {}
+      "vat": "yes"
     },
     {
       "id": "301467",
@@ -26879,8 +26886,8 @@
       "price_lbp": "180,000",
       "price_usd": "2.00",
       "cost": "1.00",
-      "cost_ttc": "1.1100",
-      "cost_ht": "1.0000",
+      "cost_ttc": 1.11,
+      "cost_ht": 1.0,
       "costTtcUsd": 1.11,
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
@@ -26889,15 +26896,71 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301467.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
+      "total_stock": "30",
+      "totalStock": "30",
+      "stock_in_medawar_branch": "30",
+      "branches": {
+        "Medawar": {
+          "stock": "30"
+        }
+      },
+      "supplier_cost_currency": "USD",
       "subcategory": "CLEANING",
       "subCategory": "CLEANING",
       "sub": "CLEANING",
-      "vat": "yes",
-      "branches": {}
+      "vat": "yes"
+    },
+    {
+      "id": "301468",
+      "barcode": "6976568886421",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "RICCI LIGHTER",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "SUPPLIERS": "JACK DIB",
+      "unit": "-",
+      "category": "CIGARETTES",
+      "sub_category": "LIGHTER",
+      "offers": "0",
+      "delivery_rules": "",
+      "expiry_days": "0",
+      "VAT": "YES",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "price_lbp": "70,000",
+      "price_usd": "0.78",
+      "cost": "0.40",
+      "cost_ttc": 0.44400000000000006,
+      "cost_ht": 0.4,
+      "costTtcUsd": 0.44400000000000006,
+      "costHtUsd": 0.4,
+      "cost_ht_usd": 0.4,
+      "cost_ttc_usd": 0.44400000000000006,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID301468.jpg",
+      "new_items": "x",
+      "total_stock": "50",
+      "totalStock": "50",
+      "stock_in_medawar_branch": "50",
+      "branches": {
+        "Medawar": {
+          "stock": "50"
+        }
+      },
+      "supplier_cost_currency": "USD",
+      "subcategory": "LIGHTER",
+      "subCategory": "LIGHTER",
+      "sub": "LIGHTER",
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-21T09:09:11.810548Z",
+  "updatedAt": "2026-11-21T09:13:41.041872Z",
   "source": "sql-relay-web"
 }
