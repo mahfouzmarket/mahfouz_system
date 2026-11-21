@@ -4302,9 +4302,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "6",
+      "total_stock": "12",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "310,000",
@@ -4320,7 +4320,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "9",
           "consumption": "4"
         }
       },
@@ -4330,9 +4330,9 @@
       "vat": "yes",
       "barcode2": "8851932399456",
       "barcodes": "8851932399456",
-      "totalStock": "6",
-      "cost_ttc": "2.7750",
-      "cost_ht": "2.5000",
+      "totalStock": "12",
+      "cost_ttc": 2.7750000000000004,
+      "cost_ht": 2.5,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781603570173",
@@ -4349,6 +4349,7 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 2.7750000000000004,
+      "supplier_cost_currency": "USD",
       "subCategory": "shampoo & cond"
     },
     {
@@ -7669,6 +7670,6 @@
       "sub": "cans & jams"
     }
   ],
-  "updatedAt": "2026-11-21T09:07:02.840226Z",
+  "updatedAt": "2026-11-21T09:13:41.041872Z",
   "source": "sql-relay-web"
 }
