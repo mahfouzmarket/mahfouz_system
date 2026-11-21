@@ -7783,9 +7783,9 @@
       "offers": "-",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "2",
+      "stock_in_medawar_branch": "11",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "11",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "430,000",
@@ -7802,7 +7802,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "11",
           "consumption": "0"
         },
         "The Daily Market": {
@@ -7843,7 +7843,7 @@
         }
       },
       "subCategory": "sweets",
-      "totalStock": "2",
+      "totalStock": "11",
       "linked_bulk_stock_source": "parent:17947/24"
     },
     {
@@ -7857,9 +7857,9 @@
       "offers": "-",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "430,000",
@@ -7876,7 +7876,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         },
         "The Daily Market": {
@@ -7917,7 +7917,8 @@
         }
       },
       "subCategory": "sweets",
-      "totalStock": "0"
+      "totalStock": "6",
+      "linked_bulk_stock_source": "parent:19744/24"
     },
     {
       "id": "19744",
@@ -7930,9 +7931,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "31",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "145",
       "consumption_in_medawar_branch": "98",
-      "total_stock": "5",
+      "total_stock": "149",
       "total_consumption": "129",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -7948,7 +7949,7 @@
           "consumption": "31"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "145",
           "consumption": "98"
         },
         "The Daily Market": {
@@ -7966,7 +7967,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "149",
       "stock": "2",
       "branch_stock": {
         "Geitawi": {
@@ -8010,7 +8011,8 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 0.1295,
+      "cost_ttc_usd": 0.129426,
+      "supplier_cost_currency": "USD",
       "subCategory": "sweets"
     },
     {
@@ -8024,9 +8026,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "152",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "10",
+      "total_stock": "154",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -8042,7 +8044,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "152",
           "consumption": "0"
         }
       },
@@ -8056,7 +8058,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "10",
+      "totalStock": "154",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -8069,8 +8071,8 @@
       "scaleCode": "",
       "scale_plu": 0,
       "scalePlu": 0,
-      "cost_ht": "0.1167",
-      "cost_ttc": "0.1295",
+      "cost_ht": 0.11666666666666667,
+      "cost_ttc": 0.1295,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782456413991",
@@ -8083,6 +8085,7 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 0.1295,
+      "supplier_cost_currency": "USD",
       "subCategory": "sweets"
     },
     {
@@ -16999,6 +17002,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-21T08:54:43.186861Z",
+  "updatedAt": "2026-11-21T09:50:14.744468Z",
   "source": "sql-relay-web"
 }
