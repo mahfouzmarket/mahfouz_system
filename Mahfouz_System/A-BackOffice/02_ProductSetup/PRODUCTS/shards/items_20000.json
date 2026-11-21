@@ -1186,9 +1186,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "28",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "13",
+      "total_stock": "35",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -1204,7 +1204,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "28",
           "consumption": "0"
         }
       },
@@ -1218,19 +1218,20 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
+      "totalStock": "35",
       "category2": "",
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ht": "0.5000",
+      "cost_ht": 0.5,
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
-      "cost_ttc": "0.5550",
+      "cost_ttc": 0.555,
       "costTtcUsd": 0.555,
       "cost_ttc_usd": 0.555,
       "cost_currency": "USD",
       "cost_vat_included": true,
+      "supplier_cost_currency": "USD",
       "subCategory": "STATIONARY"
     },
     {
@@ -28243,6 +28244,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-11-21T08:48:16.644424Z",
+  "updatedAt": "2026-11-21T09:13:41.041872Z",
   "source": "sql-relay-web"
 }
