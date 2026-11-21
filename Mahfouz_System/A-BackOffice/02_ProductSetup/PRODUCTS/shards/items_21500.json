@@ -2762,7 +2762,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "4",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "3",
       "branches": {
         "Geitawi": {
@@ -2770,11 +2770,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "20",
           "consumption": "3"
         }
       },
-      "total_stock": "4",
+      "total_stock": "24",
       "total_consumption": "3",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -2782,8 +2782,8 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ttc": "0.3885",
-      "cost_ht": "0.3500",
+      "cost_ttc": 0.3885,
+      "cost_ht": 0.35,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-13860-2026-03-09",
@@ -2791,7 +2791,7 @@
       "costHtUsd": 0.35,
       "cost_ht_usd": 0.35,
       "costTtcUsd": 0.3885,
-      "totalStock": "4",
+      "totalStock": "24",
       "category2": "",
       "sub2": "",
       "newItems": "",
@@ -2800,6 +2800,7 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21539.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21539.jpg",
       "image_updated_at_utc": "2026-09-23T16:22:05.613570Z",
+      "supplier_cost_currency": "USD",
       "subCategory": "STATIONARY"
     },
     {
@@ -17977,11 +17978,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "9",
       "stock_in_geitawi_branch": "1",
       "consumption_in_medawar_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "4",
+      "total_stock": "10",
       "total_consumption": "2",
       "branches": {
         "Geitawi": {
@@ -17989,7 +17990,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "9",
           "consumption": "1"
         }
       },
@@ -17997,7 +17998,7 @@
       "SUPPLIERS": "JACK DIB",
       "expiry_days": "0",
       "cost": "2.00",
-      "cost_ht": "2.0000",
+      "cost_ht": 2.0,
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
@@ -18008,8 +18009,8 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "4",
-      "cost_ttc": "2.2200",
+      "totalStock": "10",
+      "cost_ttc": 2.22,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14299-2026-04-13",
@@ -18033,6 +18034,7 @@
       "newItems": "",
       "deliveryRules": "0.005",
       "cost_ttc_usd": 2.22,
+      "supplier_cost_currency": "USD",
       "subCategory": "BABY CARE"
     },
     {
@@ -18602,14 +18604,14 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "cost": "2.50",
+      "cost": "2.75",
       "Product Description": "JOHNSON'S BABY SHAMPOO FOR SENSITIVE SKIN 7",
       "SUPPLIERS": "JACK DIB",
       "subcategory": "BABY CARE",
       "vat": "yes",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "1",
       "branches": {
         "Geitawi": {
@@ -18617,11 +18619,11 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "7",
           "consumption": "1"
         }
       },
-      "total_stock": "3",
+      "total_stock": "9",
       "total_consumption": "2",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -18629,21 +18631,22 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "3",
-      "cost_ttc": 2.7750000000000004,
-      "cost_ht": 2.5,
+      "totalStock": "9",
+      "cost_ttc": 3.0525,
+      "cost_ht": 2.75,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779783927340",
       "latest_purchase_cost_date": "2026-05-26",
-      "costHtUsd": 2.5,
-      "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.7750000000000004,
+      "costHtUsd": 2.75,
+      "cost_ht_usd": 2.75,
+      "costTtcUsd": 3.0525,
       "category2": "",
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 2.7750000000000004,
+      "cost_ttc_usd": 3.0525,
+      "supplier_cost_currency": "USD",
       "subCategory": "BABY CARE"
     },
     {
@@ -26544,6 +26547,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-11-21T08:40:22.932064Z",
+  "updatedAt": "2026-11-21T08:48:16.644424Z",
   "source": "sql-relay-web"
 }
