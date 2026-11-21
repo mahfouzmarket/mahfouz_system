@@ -10843,19 +10843,19 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "cost": "2.50",
+      "cost": "2.00",
       "branches": {
         "Geitawi": {
           "stock": "3",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "2",
+          "stock": "8",
           "consumption": "1"
         }
       },
-      "stock_in_medawar_branch": "2",
-      "total_stock": "5",
+      "stock_in_medawar_branch": "8",
+      "total_stock": "11",
       "Product Description": "NEW LIGHT E27 40W",
       "SUPPLIERS": "JACK DIB",
       "subcategory": "LAMP",
@@ -10870,21 +10870,22 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "5",
-      "cost_ttc": "2.7750",
-      "cost_ht": "2.5000",
+      "totalStock": "11",
+      "cost_ttc": 2.22,
+      "cost_ht": 2.0,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782806842036",
       "latest_purchase_cost_date": "2026-06-30",
-      "costHtUsd": 2.5,
-      "cost_ht_usd": 2.5,
-      "costTtcUsd": 2.7750000000000004,
+      "costHtUsd": 2.0,
+      "cost_ht_usd": 2.0,
+      "costTtcUsd": 2.22,
       "category2": "",
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 2.7750000000000004,
+      "cost_ttc_usd": 2.22,
+      "supplier_cost_currency": "USD",
       "subCategory": "LAMP"
     },
     {
@@ -18534,11 +18535,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -18546,7 +18547,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
@@ -18554,7 +18555,7 @@
       "SUPPLIERS": "JACK DIB",
       "expiry_days": "0",
       "cost": "2.00",
-      "cost_ht": "2.0000",
+      "cost_ht": 2.0,
       "new_items": "x",
       "manual": "",
       "delivery_rules": "0.005",
@@ -18564,8 +18565,8 @@
       "secondary_sub_category": "",
       "subcategory": "shaving",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": "2.2200",
+      "totalStock": "6",
+      "cost_ttc": 2.22,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1781603570173",
@@ -18577,7 +18578,8 @@
       "sub2": "",
       "newItems": "x",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 2.22
+      "cost_ttc_usd": 2.22,
+      "supplier_cost_currency": "USD"
     },
     {
       "id": "21829",
@@ -26542,6 +26544,6 @@
       "totalStock": "-2"
     }
   ],
-  "updatedAt": "2026-11-21T07:58:44.261454Z",
+  "updatedAt": "2026-11-21T08:06:47.095613Z",
   "source": "sql-relay-web"
 }
