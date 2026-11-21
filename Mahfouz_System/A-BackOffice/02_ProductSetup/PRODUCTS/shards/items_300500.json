@@ -14746,8 +14746,8 @@
       "price_lbp": "120,000",
       "price_usd": "1.33",
       "cost": "0.50",
-      "cost_ttc": "0.5550",
-      "cost_ht": "0.5000",
+      "cost_ttc": 0.555,
+      "cost_ht": 0.5,
       "costTtcUsd": 0.555,
       "costHtUsd": 0.5,
       "cost_ht_usd": 0.5,
@@ -14756,12 +14756,12 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300734.jpg",
       "new_items": "x",
-      "total_stock": "3",
-      "totalStock": "3",
-      "stock_in_medawar_branch": "1",
+      "total_stock": "27",
+      "totalStock": "27",
+      "stock_in_medawar_branch": "25",
       "branches": {
         "Medawar": {
-          "stock": "1",
+          "stock": "25",
           "consumption": "2"
         },
         "Geitawi": {
@@ -14786,6 +14786,7 @@
       "newItems": "x",
       "manual": "",
       "deliveryRules": "0",
+      "supplier_cost_currency": "USD",
       "subcategory": "STATIONARY",
       "subCategory": "STATIONARY",
       "vat": "yes"
@@ -25304,17 +25305,17 @@
       "costTtcUsd": 2.22,
       "costHtUsd": 2.0,
       "cost_ht_usd": 2.0,
-      "cost_ttc_usd": 1.665,
+      "cost_ttc_usd": 2.22,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300902.jpg",
       "new_items": "x",
-      "total_stock": "5",
-      "totalStock": "5",
-      "stock_in_medawar_branch": "3",
+      "total_stock": "11",
+      "totalStock": "11",
+      "stock_in_medawar_branch": "9",
       "branches": {
         "Medawar": {
-          "stock": "3",
+          "stock": "9",
           "consumption": "2"
         },
         "Geitawi": {
@@ -25339,6 +25340,7 @@
       "consumption_in_geitawi_branch": "9",
       "consumption_in_medawar_branch": "2",
       "total_consumption": "11",
+      "supplier_cost_currency": "USD",
       "subcategory": "phone accessories",
       "subCategory": "phone accessories",
       "vat": "yes"
@@ -31297,6 +31299,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-21T09:00:01.081157Z",
+  "updatedAt": "2026-11-21T09:13:41.041872Z",
   "source": "sql-relay-web"
 }
