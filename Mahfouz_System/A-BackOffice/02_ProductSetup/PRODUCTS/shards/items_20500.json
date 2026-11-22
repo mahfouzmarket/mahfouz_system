@@ -10589,10 +10589,10 @@
       "vat": "no",
       "price_lbp": "350,000",
       "cost": "2.27",
-      "total_stock": "0",
+      "total_stock": "0.5",
       "total_consumption": "4.9",
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "0.5",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -10607,7 +10607,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "0.5",
           "consumption": "0"
         },
         "Geitawi": {
@@ -10644,7 +10644,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 2.2685185185185186,
+      "cost_ht": "2.2685",
       "costUsd": 3.24,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
@@ -10656,12 +10656,12 @@
       "non_stockable": false,
       "nonStockable": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20678.jpg",
-      "totalStock": "0",
-      "scale_item_enabled": false,
-      "scaleItemEnabled": false,
-      "scale_code": "",
-      "scaleCode": "",
-      "cost_ttc": 2.2685185185185186,
+      "totalStock": "0.5",
+      "scale_item_enabled": true,
+      "scaleItemEnabled": true,
+      "scale_code": "7200020",
+      "scaleCode": "7200020",
+      "cost_ttc": "2.2685",
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1783315444434",
@@ -10670,7 +10670,11 @@
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID20678.jpg",
       "image_updated_at_utc": "2026-09-23T13:30:35.924937Z",
       "supplier_cost_currency": "LBP",
-      "lbp_tag_usd_cost_repair": "2026-11-14"
+      "lbp_tag_usd_cost_repair": "2026-11-14",
+      "costTtcUsd": 2.2685185185185186,
+      "costHtUsd": 2.2685185185185186,
+      "cost_ht_usd": 2.2685185185185186,
+      "cost_ttc_usd": 2.2685185185185186
     },
     {
       "id": "20679",
@@ -29144,6 +29148,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-11-22T12:39:19.138680Z",
+  "updatedAt": "2026-11-22T13:59:40.812646Z",
   "source": "sql-relay-web"
 }
