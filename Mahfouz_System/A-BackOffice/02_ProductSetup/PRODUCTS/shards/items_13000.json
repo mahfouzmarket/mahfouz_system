@@ -1278,9 +1278,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "36",
-      "stock_in_medawar_branch": "-1",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "45",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "81",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -1296,7 +1296,7 @@
           "consumption": "36"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "1",
           "consumption": "45"
         }
       },
@@ -1306,7 +1306,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "2",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1948,9 +1948,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "39",
       "consumption_in_geitawi_branch": "9",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "5",
-      "total_stock": "39",
+      "total_stock": "40",
       "total_consumption": "14",
       "VAT": "YES",
       "price_lbp": "130,000",
@@ -1966,7 +1966,7 @@
           "consumption": "9"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "5"
         }
       },
@@ -1976,7 +1976,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "39",
+      "totalStock": "40",
       "cost_ttc": 0.9361,
       "cost_ht": 0.8433333333333333,
       "cost_currency": "USD",
@@ -2635,9 +2635,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "8",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "630,000",
@@ -2657,13 +2657,13 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "8",
           "consumption": "0"
         }
       },
       "barcode2": "6902500000754",
       "barcodes": "6902500000754",
-      "totalStock": "0",
+      "totalStock": "8",
       "cost_ttc": 4.44,
       "cost_ht": 4.0,
       "cost_currency": "USD",
@@ -4898,11 +4898,11 @@
       "category": "FOOD",
       "sub_category": "BAKERY",
       "offers": "0",
-      "stock_in_geitawi_branch": "17",
+      "stock_in_geitawi_branch": "16",
       "consumption_in_geitawi_branch": "411",
-      "stock_in_medawar_branch": "-5",
+      "stock_in_medawar_branch": "8",
       "consumption_in_medawar_branch": "690",
-      "total_stock": "12",
+      "total_stock": "24",
       "total_consumption": "1101",
       "VAT": "NO",
       "price_lbp": "100,000",
@@ -4914,11 +4914,11 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "17",
+          "stock": "16",
           "consumption": "411"
         },
         "Medawar": {
-          "stock": "-5",
+          "stock": "8",
           "consumption": "690"
         }
       },
@@ -4928,7 +4928,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "12",
+      "totalStock": "24",
       "cost_ttc": 1.0,
       "cost_ht": 1.0,
       "cost_currency": "USD",
@@ -7294,9 +7294,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "25",
+      "stock_in_medawar_branch": "34",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "27",
+      "total_stock": "36",
       "total_consumption": "8",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -7312,7 +7312,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "25",
+          "stock": "34",
           "consumption": "1"
         }
       },
@@ -7322,7 +7322,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "27",
+      "totalStock": "36",
       "cost_ttc": 0.653568,
       "cost_ht": 0.5888,
       "cost_currency": "USD",
@@ -8459,6 +8459,6 @@
       "sub": "SOUP"
     }
   ],
-  "updatedAt": "2026-11-23T17:30:37.253731Z",
+  "updatedAt": "2026-11-23T17:40:42.997382Z",
   "source": "sql-relay-web"
 }
