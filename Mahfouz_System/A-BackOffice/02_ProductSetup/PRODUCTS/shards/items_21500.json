@@ -15312,7 +15312,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "1",
       "branches": {
         "Geitawi": {
@@ -15320,11 +15320,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "1"
         }
       },
-      "total_stock": "3",
+      "total_stock": "5",
       "total_consumption": "1",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -15332,7 +15332,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "3",
+      "totalStock": "5",
       "cost_ttc": 3.0525,
       "cost_ht": 2.75,
       "cost_currency": "USD",
@@ -17083,11 +17083,11 @@
     },
     {
       "id": "21807",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
@@ -17095,7 +17095,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -17131,7 +17131,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "0",
+      "totalStock": "1",
       "cost_ttc": "1.9425",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -26557,6 +26557,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-23T19:03:31.985604Z",
+  "updatedAt": "2026-11-23T19:05:33.717052Z",
   "source": "sql-relay-web"
 }
