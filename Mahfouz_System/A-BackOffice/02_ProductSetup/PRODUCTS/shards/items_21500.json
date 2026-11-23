@@ -3455,7 +3455,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
@@ -3463,11 +3463,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "0"
         }
       },
-      "total_stock": "5",
+      "total_stock": "15",
       "total_consumption": "0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -3475,7 +3475,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "5",
+      "totalStock": "15",
       "cost_ttc": "0.8325",
       "cost_ht": "0.7500",
       "cost_currency": "USD",
@@ -9668,13 +9668,13 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "26"
         }
       },
       "stock_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
-      "total_stock": "0",
+      "stock_in_medawar_branch": "2",
+      "total_stock": "2",
       "Product Description": "AL FORNO TANNOUR HELP IN HEIGHT REDUCTION",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "subcategory": "BAKERY",
@@ -9688,7 +9688,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
+      "totalStock": "2",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21680.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21680.jpg",
       "image_updated_at_utc": "2026-06-17T11:03:28.259883Z",
@@ -13327,13 +13327,13 @@
           "consumption": "17"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "21"
         }
       },
       "stock_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0",
-      "total_stock": "2",
+      "stock_in_medawar_branch": "1",
+      "total_stock": "3",
       "Product Description": "ALFORNO BURGER SESAME",
       "SUPPLIERS": "GLOBAL FOODS SAL",
       "updatedAt": "2026-05-09T00:33:34",
@@ -13349,7 +13349,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "2",
+      "totalStock": "3",
       "cost_ttc": 2.4864000000000006,
       "cost_ht": 2.24,
       "cost_currency": "USD",
@@ -20408,9 +20408,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "39",
-      "stock_in_medawar_branch": "18",
+      "stock_in_medawar_branch": "42",
       "consumption_in_medawar_branch": "29",
-      "total_stock": "37",
+      "total_stock": "61",
       "total_consumption": "68",
       "VAT": "YES",
       "price_lbp": "180,000",
@@ -20432,7 +20432,7 @@
           "consumption": "39"
         },
         "Medawar": {
-          "stock": "18",
+          "stock": "42",
           "consumption": "29"
         }
       },
@@ -20444,7 +20444,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "37",
+      "totalStock": "61",
       "cost_ttc": 1.2916666666666667,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -26557,6 +26557,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-23T17:38:46.906123Z",
+  "updatedAt": "2026-11-23T17:44:12.023417Z",
   "source": "sql-relay-web"
 }
