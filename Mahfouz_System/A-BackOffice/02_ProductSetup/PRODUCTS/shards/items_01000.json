@@ -809,9 +809,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "35",
       "consumption_in_geitawi_branch": "54",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "50",
-      "total_stock": "35",
+      "total_stock": "34",
       "total_consumption": "104",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -827,7 +827,7 @@
           "consumption": "54"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "50"
         }
       },
@@ -837,7 +837,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "35",
+      "totalStock": "34",
       "cost_ttc": 0.60101875,
       "cost_ht": 0.5414583333333334,
       "cost_currency": "USD",
@@ -1854,11 +1854,11 @@
       "category": "BEVERAGES",
       "sub_category": "MINERAL WATER",
       "offers": "0",
-      "stock_in_geitawi_branch": "48",
+      "stock_in_geitawi_branch": "24",
       "consumption_in_geitawi_branch": "790",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "747",
-      "total_stock": "48",
+      "total_stock": "24",
       "total_consumption": "1537",
       "VAT": "YES",
       "price_lbp": "50,000",
@@ -1870,7 +1870,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "48",
+          "stock": "24",
           "consumption": "790"
         },
         "Medawar": {
@@ -1893,7 +1893,7 @@
       "supplier": "TANNOURINE",
       "subcategory": "MINERAL WATER",
       "vat": "yes",
-      "totalStock": "48",
+      "totalStock": "24",
       "cost_ttc": 0.34502499963,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -2195,6 +2195,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-23T12:58:31.167781Z",
+  "updatedAt": "2026-11-23T13:10:19.483024Z",
   "source": "sql-relay-web"
 }
