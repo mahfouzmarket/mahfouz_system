@@ -3039,7 +3039,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
@@ -3047,11 +3047,11 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "0"
         }
       },
-      "total_stock": "0",
+      "total_stock": "4",
       "total_consumption": "2",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -3059,7 +3059,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
+      "totalStock": "4",
       "cost_ttc": "1.1100",
       "cost_ht": "1.0000",
       "cost_currency": "USD",
@@ -6072,7 +6072,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "1"
         },
         "Nouna": {
@@ -6089,13 +6089,13 @@
         }
       },
       "stock_in_geitawi_branch": "2",
-      "total_stock": "2",
+      "total_stock": "3",
       "Product Description": "MAGIC CLEAN MEKNASE SOFT",
       "SUPPLIERS": "waybe group",
       "subcategory": "CLEANING",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "1",
       "total_consumption": "1",
       "secondary_category": "",
@@ -6104,7 +6104,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "2",
+      "totalStock": "3",
       "cost_ttc": "3.4965",
       "cost_ht": "3.1500",
       "cost_currency": "USD",
@@ -8678,18 +8678,18 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "12",
           "consumption": "0"
         }
       },
       "stock_in_geitawi_branch": "2",
-      "total_stock": "8",
+      "total_stock": "14",
       "Product Description": "CANDEREL STEVIA TABLETS",
       "SUPPLIERS": "toters",
       "subcategory": "sucralose powder",
       "vat": "no",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "0",
       "total_consumption": "1",
       "secondary_category": "",
@@ -8698,7 +8698,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "8",
+      "totalStock": "14",
       "cost_ttc": 3.1555555555555554,
       "cost_ht": 3.1555555555555554,
       "cost_currency": "USD",
@@ -23228,11 +23228,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "6",
+      "stock_in_medawar_branch": "86",
       "stock_in_geitawi_branch": "28",
       "consumption_in_medawar_branch": "222",
       "consumption_in_geitawi_branch": "87",
-      "total_stock": "34",
+      "total_stock": "114",
       "total_consumption": "309",
       "branches": {
         "Geitawi": {
@@ -23240,7 +23240,7 @@
           "consumption": "87"
         },
         "Medawar": {
-          "stock": "6",
+          "stock": "86",
           "consumption": "222"
         }
       },
@@ -23258,7 +23258,7 @@
       "new_items": "x",
       "subcategory": "instant coffee",
       "vat": "yes",
-      "totalStock": "34",
+      "totalStock": "114",
       "cost_ttc": "0.1868",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -25054,11 +25054,11 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "-3",
+      "stock_in_medawar_branch": "11",
       "stock_in_geitawi_branch": "50",
       "consumption_in_medawar_branch": "34",
       "consumption_in_geitawi_branch": "72",
-      "total_stock": "47",
+      "total_stock": "61",
       "total_consumption": "106",
       "branches": {
         "Geitawi": {
@@ -25066,7 +25066,7 @@
           "consumption": "72"
         },
         "Medawar": {
-          "stock": "-3",
+          "stock": "11",
           "consumption": "34"
         }
       },
@@ -25083,7 +25083,7 @@
       "new_items": "x",
       "subcategory": "ice tea",
       "vat": "yes",
-      "totalStock": "47",
+      "totalStock": "61",
       "cost_ttc": 0.6361856806821524,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -26568,6 +26568,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-23T21:19:23.832983Z",
+  "updatedAt": "2026-11-23T21:30:33.189066Z",
   "source": "sql-relay-web"
 }
