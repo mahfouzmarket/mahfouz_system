@@ -879,14 +879,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "31",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "7",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "31",
+      "total_stock": "38",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "7",
           "consumption": "0"
         },
         "Medawar": {
@@ -904,7 +904,7 @@
       "delivery_rules": "0.005",
       "subcategory": "instant coffee",
       "vat": "yes",
-      "totalStock": "31",
+      "totalStock": "38",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1154,14 +1154,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "12",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "7",
       "consumption_in_medawar_branch": "11",
       "consumption_in_geitawi_branch": "8",
-      "total_stock": "12",
+      "total_stock": "19",
       "total_consumption": "19",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "7",
           "consumption": "8"
         },
         "Medawar": {
@@ -1179,7 +1179,7 @@
       "delivery_rules": "0.005",
       "subcategory": "COLD DRINKS",
       "vat": "yes",
-      "totalStock": "12",
+      "totalStock": "19",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100018.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100018.jpg",
       "image_updated_at_utc": "2026-06-19T07:47:11.633653Z",
@@ -7762,12 +7762,12 @@
       "cost_ht": 1.45,
       "lastCostHtUsd": 1.45,
       "price_lbp": "165,000",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "3",
       "stock_in_medawar_branch": "5",
-      "total_stock": "5",
+      "total_stock": "8",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "1"
         },
         "Medawar": {
@@ -7794,7 +7794,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "5",
+      "totalStock": "8",
       "cost_ttc": 1.45,
       "cost_currency": "USD",
       "cost_vat_included": false,
@@ -9120,8 +9120,57 @@
       "subCategory": "DAIRY PRODUCTS",
       "sub": "DAIRY PRODUCTS",
       "vat": "no"
+    },
+    {
+      "id": "100155",
+      "barcode": "6202331277005",
+      "barcode2": "",
+      "barcodes": "",
+      "Product Description": "WATER BOTTLE KIDS SOFIA",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "SUPPLIERS": "JACK DIB",
+      "unit": "-",
+      "category": "HOME USAGE",
+      "sub_category": "STATIONARY",
+      "offers": "0",
+      "delivery_rules": "",
+      "expiry_days": "0",
+      "VAT": "YES",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "price_lbp": "350,000",
+      "price_usd": "3.89",
+      "cost": "2.00",
+      "cost_ttc": "2.2200",
+      "cost_ht": "2.0000",
+      "costTtcUsd": 2.22,
+      "costHtUsd": 2.0,
+      "cost_ht_usd": 2.0,
+      "cost_ttc_usd": 2.22,
+      "cost_currency": "USD",
+      "cost_vat_included": true,
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100155.jpg",
+      "new_items": "x",
+      "total_stock": "1",
+      "totalStock": "1",
+      "stock_in_geitawi_branch": "1",
+      "branches": {
+        "Geitawi": {
+          "stock": "1"
+        }
+      },
+      "subcategory": "STATIONARY",
+      "subCategory": "STATIONARY",
+      "sub": "STATIONARY",
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-23T08:27:40.471005Z",
+  "updatedAt": "2026-11-23T08:43:31.607384Z",
   "source": "sql-relay-web"
 }
