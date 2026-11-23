@@ -1454,9 +1454,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "6",
+      "total_stock": "5",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "105,000",
@@ -1472,7 +1472,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "2",
           "consumption": "9"
         }
       },
@@ -1482,7 +1482,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "6",
+      "totalStock": "5",
       "cost_ttc": 0.8708875,
       "cost_ht": 0.7845833333333333,
       "cost_currency": "USD",
@@ -4603,9 +4603,9 @@
       "offers": "",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "98",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "70",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "168",
       "VAT": "NO",
       "price_lbp": "1,815,000",
@@ -4621,7 +4621,7 @@
           "consumption": "98"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "70"
         }
       },
@@ -4644,7 +4644,7 @@
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "arabic_name": "",
       "name_ar": "",
       "priceLbp": 1500000.0,
@@ -4905,11 +4905,11 @@
       "category": "FOOD",
       "sub_category": "instant coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "39",
+      "stock_in_geitawi_branch": "37",
       "consumption_in_geitawi_branch": "1465",
       "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "1435",
-      "total_stock": "51",
+      "total_stock": "49",
       "total_consumption": "2900",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -4921,7 +4921,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "39",
+          "stock": "37",
           "consumption": "1465"
         },
         "Medawar": {
@@ -4935,7 +4935,7 @@
       "vat": "yes",
       "barcode2": "9556001297877",
       "barcodes": "9556001297877",
-      "totalStock": "51",
+      "totalStock": "49",
       "priceLbp": 25000.0,
       "priceUsd": 0.2777777777777778,
       "cost_ttc": 0.19610000000000002,
@@ -5108,6 +5108,6 @@
       "sub": "instant coffee"
     }
   ],
-  "updatedAt": "2026-11-23T19:35:54.478175Z",
+  "updatedAt": "2026-11-23T19:50:04.268872Z",
   "source": "sql-relay-web"
 }
