@@ -4492,9 +4492,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "51",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "15",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "66",
       "VAT": "YES",
       "price_lbp": "230,000",
@@ -4516,7 +4516,7 @@
           "consumption": "51"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "15"
         },
         "The Daily Market": {
@@ -4541,7 +4541,7 @@
       "bulk_virtual_stock_repaired_at_utc": "2026-05-20T06:06:46.169Z",
       "stock_in_the_daily_market_branch": "0",
       "consumption_in_the_daily_market_branch": "0",
-      "totalStock": "0",
+      "totalStock": "1",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -4565,7 +4565,8 @@
       "subcategory": "MINERAL WATER",
       "subCategory": "MINERAL WATER",
       "sub": "MINERAL WATER",
-      "vat": "yes"
+      "vat": "yes",
+      "linked_bulk_stock_source": "parent:1438/6"
     },
     {
       "id": "13825",
@@ -7719,9 +7720,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "9",
       "consumption_in_geitawi_branch": "126",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "27",
       "consumption_in_medawar_branch": "174",
-      "total_stock": "9",
+      "total_stock": "36",
       "total_consumption": "300",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -7737,7 +7738,7 @@
           "consumption": "126"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "27",
           "consumption": "174"
         }
       },
@@ -7747,7 +7748,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "9",
+      "totalStock": "36",
       "cost_ttc": 0.48562500000000003,
       "cost_ht": 0.4375,
       "cost_currency": "USD",
@@ -8897,6 +8898,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-11-23T15:05:03.826920Z",
+  "updatedAt": "2026-11-23T15:07:49.544236Z",
   "source": "sql-relay-web"
 }
