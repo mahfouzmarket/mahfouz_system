@@ -1415,9 +1415,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "10",
+      "total_stock": "17",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "450,000",
@@ -1433,7 +1433,7 @@
           "consumption": "4"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "7",
           "consumption": "1"
         }
       },
@@ -1443,16 +1443,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "10",
-      "cost_ttc": 3.0,
-      "cost_ht": 3.0,
+      "totalStock": "17",
+      "cost_ttc": "3.3300",
+      "cost_ht": "3.0000",
       "cost_currency": "USD",
-      "cost_vat_included": false,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779782974396",
       "latest_purchase_cost_date": "2026-05-26",
       "costHtUsd": 3.0,
       "cost_ht_usd": 3.0,
-      "costTtcUsd": 3.0,
+      "costTtcUsd": 3.33,
       "sub": "PLAY CARDS",
       "secondary_category": "",
       "category2": "",
@@ -1461,8 +1461,18 @@
       "sub2": "",
       "newItems": "",
       "deliveryRules": "0.005",
-      "cost_ttc_usd": 3.0,
+      "cost_ttc_usd": 3.33,
       "supplier_cost_currency": "USD",
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
       "subCategory": "PLAY CARDS"
     },
     {
@@ -2085,6 +2095,6 @@
       "cost_vat_included": true
     }
   ],
-  "updatedAt": "2026-11-23T13:35:56.382705Z",
+  "updatedAt": "2026-11-23T14:23:26.645414Z",
   "source": "sql-relay-web"
 }
