@@ -3495,9 +3495,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "370,000",
@@ -3513,7 +3513,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -3521,7 +3521,7 @@
       "supplier": "JACK DIB",
       "subcategory": "TOOLS",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "1",
       "sub": "TOOLS",
       "secondary_category": "",
       "category2": "",
@@ -12418,9 +12418,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "19",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "48",
+      "stock_in_medawar_branch": "62",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "67",
+      "total_stock": "81",
       "total_consumption": "13",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -12436,7 +12436,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "48",
+          "stock": "62",
           "consumption": "6"
         }
       },
@@ -12446,9 +12446,9 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "67",
-      "cost_ttc": 0.43956000000000006,
-      "cost_ht": 0.396,
+      "totalStock": "81",
+      "cost_ttc": "0.4396",
+      "cost_ht": "0.3960",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783408670318",
@@ -12457,6 +12457,16 @@
       "cost_ht_usd": 0.396,
       "costTtcUsd": 0.43956000000000006,
       "cost_ttc_usd": 0.43956000000000006,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
       "subCategory": "Low calorie delight",
       "sub": "Low calorie delight"
     },
@@ -16083,9 +16093,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "2",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "160,000",
@@ -16105,13 +16115,13 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "0"
         }
       },
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "2",
       "cost_ttc": "1.3997",
       "cost_ht": "1.2610",
       "cost_currency": "USD",
@@ -29148,6 +29158,6 @@
       "sub": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-11-23T16:15:50.489740Z",
+  "updatedAt": "2026-11-23T16:20:53.162463Z",
   "source": "sql-relay-web"
 }
