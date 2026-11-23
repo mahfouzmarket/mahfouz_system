@@ -3976,7 +3976,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
       "branches": {
         "Geitawi": {
@@ -3984,11 +3984,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "0"
         }
       },
-      "total_stock": "1",
+      "total_stock": "4",
       "total_consumption": "0",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -3996,7 +3996,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "totalStock": "4",
       "cost_ttc": "1.3875",
       "cost_ht": "1.2500",
       "cost_currency": "USD",
@@ -10391,12 +10391,12 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         }
       },
-      "stock_in_medawar_branch": "0",
-      "total_stock": "3",
+      "stock_in_medawar_branch": "5",
+      "total_stock": "8",
       "Product Description": "RED ARTIFICIAL VINEGAR 1 L",
       "SUPPLIERS": "EDWIN YAZBECK FOR TRADING",
       "subcategory": "VINEGAR & PICKLES",
@@ -10411,7 +10411,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "3",
+      "totalStock": "8",
       "cost_ttc": 0.6,
       "cost_ht": 0.6,
       "cost_currency": "USD",
@@ -12106,15 +12106,15 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
       "stock_in_geitawi_branch": "1",
-      "total_stock": "1",
+      "total_stock": "7",
       "Product Description": "FOODEN ROSE WATER 250 ML",
       "SUPPLIERS": "FOODEN",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "subcategory": "BAKING & COOKING",
       "vat": "no",
       "consumption_in_geitawi_branch": "0",
@@ -12126,7 +12126,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "totalStock": "7",
       "cost_ttc": 1.25,
       "cost_ht": 1.25,
       "cost_currency": "USD",
@@ -16674,7 +16674,7 @@
       "vat": "no",
       "stock_in_geitawi_branch": "3",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "1",
       "branches": {
         "Geitawi": {
@@ -16682,11 +16682,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "9",
           "consumption": "1"
         }
       },
-      "total_stock": "3",
+      "total_stock": "12",
       "total_consumption": "1",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -16694,7 +16694,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "3",
+      "totalStock": "12",
       "cost_ttc": 0.6244860000000001,
       "cost_ht": 0.5626,
       "cost_currency": "USD",
@@ -21812,14 +21812,14 @@
           "consumption": "111"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "198"
         }
       },
       "stock_in_geitawi_branch": "115",
-      "total_stock": "115",
+      "total_stock": "114",
       "cost": "0.30",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "Product Description": "CHOCO PRINCE 25 G",
       "SUPPLIERS": "AL RAED TRADING",
       "subcategory": "sweets",
@@ -21833,7 +21833,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "115",
+      "totalStock": "114",
       "cost_ttc": 0.33750937500000006,
       "cost_ht": 0.3040625,
       "cost_currency": "USD",
@@ -25044,14 +25044,14 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "stock_in_medawar_branch": "0",
-      "stock_in_geitawi_branch": "38",
+      "stock_in_geitawi_branch": "37",
       "consumption_in_medawar_branch": "34",
       "consumption_in_geitawi_branch": "72",
-      "total_stock": "38",
+      "total_stock": "37",
       "total_consumption": "106",
       "branches": {
         "Geitawi": {
-          "stock": "38",
+          "stock": "37",
           "consumption": "72"
         },
         "Medawar": {
@@ -25072,7 +25072,7 @@
       "new_items": "x",
       "subcategory": "ice tea",
       "vat": "yes",
-      "totalStock": "38",
+      "totalStock": "37",
       "cost_ttc": 0.6361856806821524,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -26557,6 +26557,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-23T14:07:00.594999Z",
+  "updatedAt": "2026-11-23T14:19:31.483942Z",
   "source": "sql-relay-web"
 }
