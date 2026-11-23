@@ -11,9 +11,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "695,000",
@@ -29,7 +29,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "0"
         }
       },
@@ -39,7 +39,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc": 5.990300000000001,
       "cost_ht": 5.396666666666667,
       "cost_currency": "USD",
@@ -3838,9 +3838,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "7",
+      "total_stock": "11",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "135,000",
@@ -3856,7 +3856,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "0"
         }
       },
@@ -3868,7 +3868,7 @@
       "name": "DER GENERAL ROSE BLOSSOM 750 ML",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "7",
+      "totalStock": "11",
       "cost_ttc": 1.0545000000000002,
       "cost_ht": 0.9500000000000001,
       "cost_currency": "USD",
@@ -7269,9 +7269,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "24",
-      "stock_in_medawar_branch": "21",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "26",
-      "total_stock": "21",
+      "total_stock": "20",
       "total_consumption": "50",
       "VAT": "YES",
       "price_lbp": "30,000",
@@ -7287,7 +7287,7 @@
           "consumption": "24"
         },
         "Medawar": {
-          "stock": "21",
+          "stock": "20",
           "consumption": "26"
         }
       },
@@ -7297,7 +7297,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "21",
+      "totalStock": "20",
       "cost_ttc": 0.22348,
       "cost_ht": 0.20133333333333334,
       "cost_currency": "USD",
@@ -8898,6 +8898,6 @@
       "sub": "deodorant & roll on"
     }
   ],
-  "updatedAt": "2026-11-23T18:48:15.842274Z",
+  "updatedAt": "2026-11-23T18:55:06.900811Z",
   "source": "sql-relay-web"
 }
