@@ -822,11 +822,11 @@
       "category": "FOOD",
       "sub_category": "SOUP",
       "offers": "0",
-      "stock_in_geitawi_branch": "1",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "1",
+      "total_stock": "0",
       "total_consumption": "0",
       "VAT": "NO",
       "price_lbp": "135,000",
@@ -842,7 +842,7 @@
       "vat": "no",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
@@ -859,7 +859,7 @@
       "costHtUsd": 1.2433333333333334,
       "cost_ht_usd": 1.2433333333333334,
       "costTtcUsd": 1.2433333333333334,
-      "totalStock": "1",
+      "totalStock": "0",
       "cost_ttc_usd": 1.2433333333333334,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18531.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID18531.jpg",
@@ -5515,9 +5515,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "5",
+      "total_stock": "10",
       "total_consumption": "1",
       "VAT": "NO",
       "price_lbp": "255,000",
@@ -5533,7 +5533,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "1"
         }
       },
@@ -5543,7 +5543,7 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "10",
       "cost_ttc": 1.667,
       "cost_ht": 1.667,
       "cost_currency": "USD",
@@ -5805,11 +5805,11 @@
       "category": "NOUNA'S FOOD",
       "sub_category": "NUTS",
       "offers": "0",
-      "stock_in_geitawi_branch": "15",
+      "stock_in_geitawi_branch": "14",
       "consumption_in_geitawi_branch": "10",
       "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "25",
-      "total_stock": "27",
+      "total_stock": "26",
       "total_consumption": "35",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -5821,7 +5821,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "15",
+          "stock": "14",
           "consumption": "10"
         },
         "Medawar": {
@@ -5850,7 +5850,7 @@
       "supplier": "NOUNA'S FOOD",
       "subcategory": "NUTS",
       "vat": "no",
-      "totalStock": "27",
+      "totalStock": "26",
       "secondBarcode": "",
       "product_description": "LOZ AOUN 100G",
       "description": "LOZ AOUN 100G",
@@ -12593,11 +12593,11 @@
       "category": "FOOD",
       "sub_category": "VINEGAR & PICKLES",
       "offers": "0",
-      "stock_in_geitawi_branch": "6",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "1",
       "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "13",
+      "total_stock": "12",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -12609,7 +12609,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "6",
+          "stock": "5",
           "consumption": "1"
         },
         "Medawar": {
@@ -12623,7 +12623,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "13",
+      "totalStock": "12",
       "cost_ttc": 2.21075,
       "cost_ht": 1.9916666666666665,
       "cost_currency": "USD",
@@ -12887,6 +12887,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-11-23T16:04:07.207442Z",
+  "updatedAt": "2026-11-23T16:15:04.454441Z",
   "source": "sql-relay-web"
 }
