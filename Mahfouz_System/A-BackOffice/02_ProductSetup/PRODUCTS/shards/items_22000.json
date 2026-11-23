@@ -19,7 +19,7 @@
       "vat": "no",
       "price_lbp": "90,000",
       "cost": "0.40",
-      "total_stock": "0",
+      "total_stock": "24",
       "total_consumption": "8",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0",
@@ -29,7 +29,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "24",
           "consumption": "7"
         },
         "geitawi": {
@@ -74,7 +74,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": 0.4,
+      "cost_ht": "0.4000",
       "costUsd": 0.83,
       "cost_ht_usd": 0.4,
       "cost_formula": "sale_price_usd_div_1.2",
@@ -89,7 +89,7 @@
       "linked_profile_sub_category": "",
       "product_setup_save_token": "PS-SAVE-22003-1779005341610272",
       "product_setup_saved_at_utc": "2026-05-17T08:09:01.610272Z",
-      "totalStock": "0",
+      "totalStock": "24",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID22003.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID22003.jpg",
       "image_updated_at_utc": "2026-06-23T09:10:44.938866Z",
@@ -102,15 +102,14 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "scale_plu": 0,
-      "scalePlu": 0,
-      "cost_ttc": 0.4,
+      "cost_ttc": "0.4000",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1781770324783",
       "latest_purchase_cost_date": "2026-06-18",
       "costHtUsd": 0.4,
-      "costTtcUsd": 0.4
+      "costTtcUsd": 0.4,
+      "cost_ttc_usd": 0.4
     },
     {
       "id": "22007",
@@ -831,6 +830,6 @@
       "costTtcUsd": 1.34976
     }
   ],
-  "updatedAt": "2026-11-23T12:09:48.680839Z",
+  "updatedAt": "2026-11-23T14:37:56.434628Z",
   "source": "sql-relay-web"
 }
