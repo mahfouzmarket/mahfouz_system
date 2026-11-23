@@ -2762,7 +2762,7 @@
       "vat": "yes",
       "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "3",
       "branches": {
         "Geitawi": {
@@ -2770,11 +2770,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "3"
         }
       },
-      "total_stock": "15",
+      "total_stock": "25",
       "total_consumption": "3",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -2791,7 +2791,7 @@
       "costHtUsd": 0.35,
       "cost_ht_usd": 0.35,
       "costTtcUsd": 0.3885,
-      "totalStock": "15",
+      "totalStock": "25",
       "category2": "",
       "sub2": "",
       "newItems": "",
@@ -16488,11 +16488,11 @@
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
       "cost": "0.84",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "1",
       "branches": {
         "Geitawi": {
@@ -16500,7 +16500,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "0"
         }
       },
@@ -16514,7 +16514,7 @@
       "Product Description": "ARUBA DRINK SUGAR FREE PINEAPPLE 3+1 FREE",
       "subcategory": "juice",
       "vat": "yes",
-      "totalStock": "0",
+      "totalStock": "1",
       "cost_ttc": 0.9324,
       "cost_ht": 0.84,
       "cost_currency": "USD",
@@ -24766,7 +24766,7 @@
       "linked_profile_sub_category": "",
       "branches": {
         "Geitawi": {
-          "stock": "37",
+          "stock": "36",
           "consumption": "40"
         },
         "Medawar": {
@@ -24774,8 +24774,8 @@
           "consumption": "18"
         }
       },
-      "stock_in_geitawi_branch": "37",
-      "total_stock": "58",
+      "stock_in_geitawi_branch": "36",
+      "total_stock": "57",
       "stock_in_medawar_branch": "21",
       "cost": "0.51",
       "Product Description": "MARS 40 GR",
@@ -24795,7 +24795,7 @@
       "cost_ht": "0.5123",
       "product_setup_save_token": "PS-SAVE-21946-1779097186404766",
       "product_setup_saved_at_utc": "2026-05-18T09:39:46.404766Z",
-      "totalStock": "58",
+      "totalStock": "57",
       "cost_ttc": "0.5686",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -26557,6 +26557,6 @@
       "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-23T16:22:26.948717Z",
+  "updatedAt": "2026-11-23T16:37:23.020328Z",
   "source": "sql-relay-web"
 }
