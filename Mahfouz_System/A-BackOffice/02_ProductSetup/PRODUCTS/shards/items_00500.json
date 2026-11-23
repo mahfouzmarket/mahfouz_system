@@ -1724,9 +1724,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "12",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -1742,7 +1742,7 @@
           "consumption": "6"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "6"
         }
       },
@@ -1752,7 +1752,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 0.20424000000000003,
       "cost_ht": 0.18400000000000002,
       "cost_currency": "USD",
@@ -1829,9 +1829,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "3",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -1847,7 +1847,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "3"
         }
       },
@@ -1857,7 +1857,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": 0.20424000000000003,
       "cost_ht": 0.18400000000000002,
       "cost_currency": "USD",
@@ -2577,11 +2577,11 @@
       "category": "BEVERAGES",
       "sub_category": "cold coffee",
       "offers": "0",
-      "stock_in_geitawi_branch": "60",
+      "stock_in_geitawi_branch": "59",
       "consumption_in_geitawi_branch": "211",
       "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "125",
-      "total_stock": "72",
+      "total_stock": "71",
       "total_consumption": "336",
       "VAT": "YES",
       "price_lbp": "95,000",
@@ -2593,7 +2593,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "60",
+          "stock": "59",
           "consumption": "211"
         },
         "Medawar": {
@@ -2607,7 +2607,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "72",
+      "totalStock": "71",
       "cost_ttc": 0.7020750000000001,
       "cost_ht": 0.6325000000000001,
       "cost_currency": "USD",
@@ -3389,6 +3389,6 @@
       "subCategory": "DAIRY PRODUCTS"
     }
   ],
-  "updatedAt": "2026-11-23T15:17:09.979854Z",
+  "updatedAt": "2026-11-23T15:25:52.868949Z",
   "source": "sql-relay-web"
 }
