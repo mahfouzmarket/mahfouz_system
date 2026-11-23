@@ -11,9 +11,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "17",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "17",
+      "stock_in_medawar_branch": "16",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "34",
+      "total_stock": "33",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "80,000",
@@ -29,7 +29,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "17",
+          "stock": "16",
           "consumption": "4"
         }
       },
@@ -39,7 +39,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "34",
+      "totalStock": "33",
       "cost_ttc": 0.6314583333333333,
       "cost_ht": 0.6314583333333333,
       "cost_currency": "USD",
@@ -499,9 +499,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "22",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "30",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "52",
       "VAT": "YES",
       "price_lbp": "200,000",
@@ -517,7 +517,7 @@
           "consumption": "22"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "30"
         }
       },
@@ -527,7 +527,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": "1.3413",
       "cost_ht": "1.2083",
       "cost_currency": "USD",
@@ -2118,6 +2118,6 @@
       "sub": "EGGS"
     }
   ],
-  "updatedAt": "2026-11-23T16:50:20.311733Z",
+  "updatedAt": "2026-11-23T17:20:40.258305Z",
   "source": "sql-relay-web"
 }
