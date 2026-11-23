@@ -2626,9 +2626,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "5",
+      "total_stock": "17",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "255,000",
@@ -2644,7 +2644,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "3"
         }
       },
@@ -2658,16 +2658,27 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
-      "cost_ttc": 1.9869,
-      "cost_ht": 1.79,
+      "totalStock": "17",
+      "cost_ttc": "1.9869",
+      "cost_ht": "1.7900",
       "cost_currency": "USD",
-      "cost_vat_included": 1,
+      "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-07-MEDAWAR-14409",
       "latest_purchase_cost_date": "2026-05-07",
       "costHtUsd": 1.79,
       "cost_ht_usd": 1.79,
       "costTtcUsd": 1.9869,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.9869,
       "subCategory": "cans & jams"
     },
     {
@@ -9439,9 +9450,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "0",
+      "total_stock": "10",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "220,000",
@@ -9465,7 +9476,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "1"
         }
       },
@@ -9490,7 +9501,7 @@
       "cost_ht_usd": 1.53,
       "cost_currency": "USD",
       "cost_vat_included": true,
-      "totalStock": "0",
+      "totalStock": "10",
       "category2": "",
       "sub2": "",
       "newItems": "",
@@ -11858,9 +11869,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "3",
-      "total_stock": "0",
+      "total_stock": "1",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "425,000",
@@ -11876,7 +11887,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "1",
           "consumption": "3"
         }
       },
@@ -11890,7 +11901,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
+      "totalStock": "1",
       "cost_ttc": "3.4188",
       "cost_ht": "3.0800",
       "cost_currency": "USD",
@@ -12917,6 +12928,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-11-23T19:32:59.616815Z",
+  "updatedAt": "2026-11-23T19:49:34.914059Z",
   "source": "sql-relay-web"
 }
