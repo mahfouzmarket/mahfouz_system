@@ -3730,19 +3730,19 @@
       "VAT": "NO",
       "vat": "no",
       "cost": "0.99",
-      "cost_ht": 0.99,
+      "cost_ht": "0.9900",
       "lastCostHtUsd": 0.83,
       "price_lbp": "95,000",
       "stock_in_geitawi_branch": "6",
-      "stock_in_medawar_branch": "0",
-      "total_stock": "6",
+      "stock_in_medawar_branch": "15",
+      "total_stock": "21",
       "branches": {
         "Geitawi": {
           "stock": "6",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "15",
           "consumption": "1"
         }
       },
@@ -3765,19 +3765,31 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "6",
+      "totalStock": "21",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100078.jpg",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100078.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100078.jpg",
       "image_updated_at_utc": "2026-06-26T09:53:16.227699Z",
-      "cost_ttc": 0.99,
+      "cost_ttc": "0.9900",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-ENTRY-2026-05-06-GEITAWI-9212",
       "latest_purchase_cost_date": "2026-05-06",
       "costHtUsd": 0.99,
       "cost_ht_usd": 0.99,
       "costTtcUsd": 0.99,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "price_usd": "1.06",
+      "cost_ttc_usd": 0.99,
       "subCategory": "PASTA & INDOMI"
     },
     {
@@ -9367,6 +9379,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-23T17:46:17.288538Z",
+  "updatedAt": "2026-11-23T18:22:33.336577Z",
   "source": "sql-relay-web"
 }
