@@ -878,33 +878,33 @@
       "linked_profile_item_id": "",
       "linked_profile_category": "",
       "linked_profile_sub_category": "",
-      "stock_in_medawar_branch": "-1",
-      "stock_in_geitawi_branch": "7",
+      "stock_in_medawar_branch": "0",
+      "stock_in_geitawi_branch": "0",
       "consumption_in_medawar_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "total_stock": "6",
+      "total_stock": "0",
       "total_consumption": "0",
       "branches": {
         "Geitawi": {
-          "stock": "7",
+          "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "-1",
+          "stock": "0",
           "consumption": "0"
         }
       },
       "Product Description": "NESCAFE 3IN1 MY CUP(20 G) 30 +5",
-      "SUPPLIERS": "PRODIGY SAL USD",
+      "SUPPLIERS": "ELIE ABDO LBP",
       "expiry_days": "0",
-      "cost": "0.14",
-      "cost_ht": "0.1400",
+      "cost": "6.18",
+      "cost_ht": "6.1833",
       "new_items": "x",
       "manual": "",
       "delivery_rules": "0.005",
       "subcategory": "instant coffee",
       "vat": "yes",
-      "totalStock": "6",
+      "totalStock": "0",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -914,17 +914,26 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc": "0.1554",
-      "costTtcUsd": 0.15540000000000004,
-      "costHtUsd": 0.14,
-      "cost_ht_usd": 0.14,
+      "cost_ttc": "6.8635",
+      "costTtcUsd": 6.863500000000001,
+      "costHtUsd": 6.183333333333334,
+      "cost_ht_usd": 6.183333333333334,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100014.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100014.jpg",
       "image_updated_at_utc": "2026-09-18T03:59:38.802400Z",
-      "cost_ttc_usd": 0.15540000000000004,
-      "subCategory": "instant coffee"
+      "cost_ttc_usd": 6.863500000000001,
+      "is_bulk": true,
+      "isBulk": true,
+      "ignore_stock": true,
+      "ignoreStock": true,
+      "bulk_parent_id": 478,
+      "bulkParentId": 478,
+      "bulk_qty": 35,
+      "bulkQty": 35,
+      "subCategory": "instant coffee",
+      "linked_bulk_stock_source": "parent:478/35"
     },
     {
       "id": "100015",
@@ -5006,15 +5015,15 @@
       "lastCostHtUsd": 0.5,
       "price_lbp": "60,000",
       "stock_in_geitawi_branch": "4",
-      "stock_in_medawar_branch": "0",
-      "total_stock": "4",
+      "stock_in_medawar_branch": "10",
+      "total_stock": "14",
       "branches": {
         "Geitawi": {
           "stock": "4",
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "10",
           "consumption": "2"
         }
       },
@@ -5037,7 +5046,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "4",
+      "totalStock": "14",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100096.jpg",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100096.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100096.jpg",
@@ -8906,13 +8915,13 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100151.jpg",
       "new_items": "x",
-      "total_stock": "1",
-      "totalStock": "1",
-      "stock_in_medawar_branch": "0",
+      "total_stock": "5",
+      "totalStock": "5",
+      "stock_in_medawar_branch": "4",
       "consumption_in_medawar_branch": "4",
       "branches": {
         "Medawar": {
-          "stock": "0",
+          "stock": "4",
           "consumption": "4"
         },
         "Geitawi": {
@@ -9586,6 +9595,6 @@
       "branches": {}
     }
   ],
-  "updatedAt": "2026-11-23T21:21:20.612504Z",
+  "updatedAt": "2026-11-23T21:26:54.967795Z",
   "source": "sql-relay-web"
 }
