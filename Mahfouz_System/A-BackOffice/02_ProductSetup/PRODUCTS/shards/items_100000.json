@@ -2102,14 +2102,14 @@
     {
       "id": "100040",
       "stock_in_medawar_branch": "8",
-      "stock_in_geitawi_branch": "4",
+      "stock_in_geitawi_branch": "16",
       "consumption_in_medawar_branch": "4",
       "consumption_in_geitawi_branch": "10",
-      "total_stock": "12",
+      "total_stock": "24",
       "total_consumption": "14",
       "branches": {
         "Geitawi": {
-          "stock": "4",
+          "stock": "16",
           "consumption": "10"
         },
         "Medawar": {
@@ -2147,7 +2147,7 @@
       "supplier": "EBA",
       "subcategory": "SPARKLING WATER",
       "vat": "yes",
-      "totalStock": "12",
+      "totalStock": "24",
       "cost_ttc": 1.3111875000000002,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -9206,15 +9206,20 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100156.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
+      "total_stock": "6",
+      "totalStock": "6",
+      "stock_in_geitawi_branch": "6",
+      "branches": {
+        "Geitawi": {
+          "stock": "6"
+        }
+      },
       "subcategory": "TOOLS",
       "subCategory": "TOOLS",
       "sub": "TOOLS",
-      "vat": "yes",
-      "branches": {}
+      "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-23T09:23:10.691673Z",
+  "updatedAt": "2026-11-23T09:24:59.988281Z",
   "source": "sql-relay-web"
 }
