@@ -1652,9 +1652,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "33",
       "consumption_in_geitawi_branch": "40",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "51",
-      "total_stock": "33",
+      "total_stock": "32",
       "total_consumption": "91",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -1670,7 +1670,7 @@
           "consumption": "40"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "51"
         }
       },
@@ -1684,7 +1684,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "33",
+      "totalStock": "32",
       "cost_ttc": 0.6012500000000001,
       "cost_ht": 0.5416666666666666,
       "cost_currency": "USD",
@@ -3571,9 +3571,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "3",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "2",
+      "total_stock": "5",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "945,000",
@@ -3593,11 +3593,11 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "3",
           "consumption": "0"
         }
       },
-      "totalStock": "2",
+      "totalStock": "5",
       "cost_ttc": "6.6600",
       "cost_ht": "6.0000",
       "cost_currency": "USD",
@@ -5239,9 +5239,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "94",
       "consumption_in_geitawi_branch": "39",
-      "stock_in_medawar_branch": "49",
+      "stock_in_medawar_branch": "77",
       "consumption_in_medawar_branch": "42",
-      "total_stock": "143",
+      "total_stock": "171",
       "total_consumption": "81",
       "VAT": "YES",
       "price_lbp": "85,000",
@@ -5263,7 +5263,7 @@
           "consumption": "39"
         },
         "Medawar": {
-          "stock": "49",
+          "stock": "77",
           "consumption": "42"
         }
       },
@@ -5273,7 +5273,7 @@
       "supplier": "JACK DIB",
       "subcategory": "LIGHTER",
       "vat": "yes",
-      "totalStock": "143",
+      "totalStock": "171",
       "cost_ttc": "0.5772",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -9776,6 +9776,6 @@
       "subCategory": "shaving"
     }
   ],
-  "updatedAt": "2026-11-23T14:34:29.063092Z",
+  "updatedAt": "2026-11-23T14:42:34.355650Z",
   "source": "sql-relay-web"
 }
