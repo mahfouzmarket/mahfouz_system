@@ -5906,11 +5906,11 @@
       "category": "FOOD",
       "sub_category": "SAUCE",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "2",
       "total_consumption": "2",
       "VAT": "NO",
       "price_lbp": "155,000",
@@ -5922,7 +5922,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "2"
         },
         "Medawar": {
@@ -5936,16 +5936,27 @@
       "vat": "no",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": 1.28975,
-      "cost_ht": 1.28975,
+      "totalStock": "2",
+      "cost_ttc": "1.2897",
+      "cost_ht": "1.2897",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1780918105449",
       "latest_purchase_cost_date": "2026-06-08",
       "costHtUsd": 1.28975,
       "cost_ht_usd": 1.28975,
       "costTtcUsd": 1.28975,
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "expiry_days": "0",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 1.28975,
       "subCategory": "SAUCE",
       "sub": "SAUCE"
     },
@@ -9626,11 +9637,11 @@
       "category": "HOME USAGE",
       "sub_category": "deodorant & roll on",
       "offers": "0",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "5",
+      "total_stock": "10",
       "total_consumption": "2",
       "VAT": "YES",
       "price_lbp": "245,000",
@@ -9642,7 +9653,7 @@
       "delivery_rules": "0.005",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "0"
         },
         "Medawar": {
@@ -9656,7 +9667,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "5",
+      "totalStock": "10",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -14386,6 +14397,6 @@
       "subCategory": "SNIPS"
     }
   ],
-  "updatedAt": "2026-11-23T10:01:55.920393Z",
+  "updatedAt": "2026-11-23T10:06:54.250959Z",
   "source": "sql-relay-web"
 }
