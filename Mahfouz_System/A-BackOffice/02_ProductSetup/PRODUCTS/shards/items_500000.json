@@ -2479,7 +2479,7 @@
       "SUPPLIERS": "NOUNA'S FOOD",
       "unit": "-",
       "category": "NOUNA'S FOOD",
-      "sub_category": "READY TO EAT",
+      "sub_category": "SANDWICHES",
       "offers": "",
       "expiry_days": "4",
       "stock_in_geitawi_branch": "0",
@@ -2492,7 +2492,7 @@
       "price_lbp": "400,000",
       "price_usd": "4.44",
       "cost": "3.78",
-      "cost_ht": 3.777,
+      "cost_ht": "3.7770",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500056.jpg",
       "new_items": "x",
       "manual": "",
@@ -2500,8 +2500,8 @@
       "linked_profile_enabled": true,
       "linked_profile_repo_root": "Nounas_Food",
       "linked_profile_item_id": "500056",
-      "linked_profile_category": "NOUNA'S FOOD",
-      "linked_profile_sub_category": "READY TO EAT",
+      "linked_profile_category": "SANDWICHES",
+      "linked_profile_sub_category": "CLUB SANDWICHES",
       "branches": {
         "Geitawi": {
           "stock": "0",
@@ -2522,16 +2522,16 @@
       "product_setup_saved_at_utc": "2026-05-18T12:10:38.032318Z",
       "name": "CLUB SANDWICH TUNA BROWN",
       "supplier": "NOUNA'S FOOD",
-      "subcategory": "READY TO EAT",
+      "subcategory": "SANDWICHES",
       "vat": "no",
-      "sub": "READY TO EAT",
+      "sub": "SANDWICHES",
       "secondary_category": "",
       "secondary_subcategory": "",
       "secondary_sub_category": "",
       "totalStock": "0",
-      "cost_ttc": 3.777,
+      "cost_ttc": "3.7770",
       "cost_currency": "USD",
-      "cost_vat_included": 0,
+      "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "IC_NOUNASFOOD_TO_MAHFOUZSYSTEM_GEITAWI_NOUNA_STOCK_ZERO_GEITAWI_20260531",
       "latest_purchase_cost_date": "2026-05-31",
       "costHtUsd": 3.777,
@@ -2539,7 +2539,17 @@
       "costTtcUsd": 3.777,
       "stock_in_nouna_branch": "0",
       "stock_in_firas_branch": "0",
-      "subCategory": "READY TO EAT"
+      "arabic_name": "",
+      "name_ar": "",
+      "description_ar": "",
+      "non_stockable": false,
+      "nonStockable": false,
+      "scale_item_enabled": false,
+      "scaleItemEnabled": false,
+      "scale_code": "",
+      "scaleCode": "",
+      "cost_ttc_usd": 3.777,
+      "subCategory": "SANDWICHES"
     },
     {
       "id": "500059",
@@ -6478,8 +6488,8 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500126.jpg",
       "new_items": "x",
-      "total_stock": "12",
-      "totalStock": "12",
+      "total_stock": "11",
+      "totalStock": "11",
       "stock_in_geitawi_branch": "1",
       "branches": {
         "Geitawi": {
@@ -6487,11 +6497,11 @@
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "10",
           "consumption": "29"
         }
       },
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "10",
       "consumption_in_geitawi_branch": "13",
       "consumption_in_medawar_branch": "29",
       "total_consumption": "42",
@@ -6998,6 +7008,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-24T16:42:29.217185Z",
+  "updatedAt": "2026-11-24T18:25:54.969435Z",
   "source": "sql-relay-web"
 }
