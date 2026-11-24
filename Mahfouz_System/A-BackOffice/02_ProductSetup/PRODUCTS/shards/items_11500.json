@@ -1083,9 +1083,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "7",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "9",
-      "total_stock": "0",
+      "total_stock": "20",
       "total_consumption": "16",
       "VAT": "YES",
       "price_lbp": "110,000",
@@ -1101,7 +1101,7 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "20",
           "consumption": "9"
         }
       },
@@ -1111,9 +1111,9 @@
       "supplier": "PLATCO",
       "subcategory": "hand & body wash",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": 0.8325,
-      "cost_ht": 0.75,
+      "totalStock": "20",
+      "cost_ttc": "0.8325",
+      "cost_ht": "0.7500",
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "BIMPOS-PUR-20260101-20260415-M-14161-2026-04-01",
@@ -1131,6 +1131,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "cost_ttc_usd": 0.8325,
       "subCategory": "hand & body wash",
       "sub": "hand & body wash"
     },
@@ -1425,6 +1426,6 @@
       "sub": "shampoo & cond"
     }
   ],
-  "updatedAt": "2026-11-24T11:38:22.802107Z",
+  "updatedAt": "2026-11-24T12:40:54.548662Z",
   "source": "sql-relay-web"
 }
