@@ -9201,9 +9201,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "47",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-1",
       "consumption_in_medawar_branch": "80",
-      "total_stock": "0",
+      "total_stock": "-1",
       "total_consumption": "127",
       "VAT": "YES",
       "price_lbp": "90,000",
@@ -9225,13 +9225,13 @@
           "consumption": "47"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-1",
           "consumption": "80"
         }
       },
       "product_setup_save_token": "PS-SAVE-17353-1779258695282094",
       "product_setup_saved_at_utc": "2026-05-20T06:31:35.282094Z",
-      "totalStock": "0",
+      "totalStock": "-1",
       "cost_ttc": "0.7863",
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -10590,9 +10590,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "11",
+      "stock_in_medawar_branch": "9",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "18",
+      "total_stock": "16",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "140,000",
@@ -10608,7 +10608,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "11",
+          "stock": "9",
           "consumption": "1"
         }
       },
@@ -10622,7 +10622,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "18",
+      "totalStock": "16",
       "cost_ttc": "0.9250",
       "cost_ht": "0.8333",
       "cost_currency": "USD",
@@ -12702,6 +12702,6 @@
       "subCategory": "LAMP"
     }
   ],
-  "updatedAt": "2026-11-25T09:01:32.611594Z",
+  "updatedAt": "2026-11-25T09:16:57.606553Z",
   "source": "sql-relay-web"
 }
