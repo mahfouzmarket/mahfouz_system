@@ -28712,9 +28712,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "2",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "6",
       "consumption_in_medawar_branch": "2",
-      "total_stock": "0",
+      "total_stock": "6",
       "total_consumption": "4",
       "VAT": "YES",
       "price_lbp": "75,000",
@@ -28730,7 +28730,7 @@
           "consumption": "2"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "2"
         }
       },
@@ -28740,9 +28740,9 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "0",
-      "cost_ttc": "0.6993",
-      "cost_ht": "0.6300",
+      "totalStock": "6",
+      "cost_ttc": 0.6993,
+      "cost_ht": 0.63,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1780481485792",
@@ -28769,6 +28769,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "USD",
       "subCategory": "cans & jams"
     },
     {
@@ -29613,9 +29614,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "5",
       "consumption_in_geitawi_branch": "49",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "0",
       "consumption_in_medawar_branch": "51",
-      "total_stock": "8",
+      "total_stock": "5",
       "total_consumption": "100",
       "VAT": "YES",
       "price_lbp": "70,000",
@@ -29631,7 +29632,7 @@
           "consumption": "49"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "0",
           "consumption": "51"
         }
       },
@@ -29645,7 +29646,7 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "8",
+      "totalStock": "5",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -30003,6 +30004,6 @@
       "sub": "FROZEN FOOD"
     }
   ],
-  "updatedAt": "2026-11-25T09:50:18.765423Z",
+  "updatedAt": "2026-11-25T10:39:55.883998Z",
   "source": "sql-relay-web"
 }
