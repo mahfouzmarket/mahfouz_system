@@ -24554,10 +24554,10 @@
       "description_ar": "",
       "SUPPLIERS": "JACK DIB",
       "unit": "EACH",
-      "category": "CIGARETTES",
-      "sub_category": "LIGHTER",
+      "category": "HOME USAGE",
+      "sub_category": "STATIONARY",
       "offers": "",
-      "delivery_rules": "",
+      "delivery_rules": "0",
       "expiry_days": "0",
       "VAT": "NO",
       "non_stockable": false,
@@ -24569,8 +24569,8 @@
       "price_lbp": "115,000",
       "price_usd": "1.28",
       "cost": "1.00",
-      "cost_ttc": 1.0,
-      "cost_ht": 1.0,
+      "cost_ttc": "1.0000",
+      "cost_ht": "1.0000",
       "costTtcUsd": 1.0,
       "costHtUsd": 1.0,
       "cost_ht_usd": 1.0,
@@ -24599,9 +24599,18 @@
       "consumption_in_geitawi_branch": "4",
       "consumption_in_medawar_branch": "11",
       "total_consumption": "15",
-      "subcategory": "LIGHTER",
-      "subCategory": "LIGHTER",
-      "sub": "LIGHTER",
+      "supplier": "JACK DIB",
+      "sub": "STATIONARY",
+      "secondary_category": "",
+      "category2": "",
+      "secondary_subcategory": "",
+      "secondary_sub_category": "",
+      "sub2": "",
+      "newItems": "x",
+      "manual": "",
+      "deliveryRules": "0",
+      "subcategory": "STATIONARY",
+      "subCategory": "STATIONARY",
       "vat": "no"
     },
     {
@@ -28707,8 +28716,8 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300958.jpg",
       "new_items": "x",
-      "total_stock": "8",
-      "totalStock": "8",
+      "total_stock": "7",
+      "totalStock": "7",
       "stock_in_medawar_branch": "6",
       "branches": {
         "Medawar": {
@@ -28716,11 +28725,11 @@
           "consumption": "0"
         },
         "Geitawi": {
-          "stock": "2",
+          "stock": "1",
           "consumption": "3"
         }
       },
-      "stock_in_geitawi_branch": "2",
+      "stock_in_geitawi_branch": "1",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300958.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300958.jpg",
       "image_updated_at_utc": "2026-09-15T14:13:55.674049Z",
@@ -28768,8 +28777,8 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300959.jpg",
       "new_items": "x",
-      "total_stock": "12",
-      "totalStock": "12",
+      "total_stock": "11",
+      "totalStock": "11",
       "stock_in_medawar_branch": "0",
       "branches": {
         "Medawar": {
@@ -28777,11 +28786,11 @@
           "consumption": "11"
         },
         "Geitawi": {
-          "stock": "12",
+          "stock": "11",
           "consumption": "2"
         }
       },
-      "stock_in_geitawi_branch": "12",
+      "stock_in_geitawi_branch": "11",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300959.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300959.jpg",
       "image_updated_at_utc": "2026-09-16T14:46:38.172130Z",
@@ -31310,6 +31319,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-25T10:12:42.222504Z",
+  "updatedAt": "2026-11-25T10:24:14.395005Z",
   "source": "sql-relay-web"
 }
