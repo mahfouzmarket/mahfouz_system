@@ -4456,13 +4456,13 @@
       "linked_profile_item_id": "7000132",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "6",
+      "stock_in_nouna_branch": "3",
       "branches": {
         "Nouna": {
-          "stock": "6"
+          "stock": "3"
         },
         "Geitawi": {
-          "stock": "0"
+          "stock": "3"
         },
         "Medawar": {
           "stock": "0"
@@ -4470,9 +4470,9 @@
       },
       "total_stock": "6",
       "totalStock": "6",
+      "stock_in_geitawi_branch": "3",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
-      "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0"
     },
     {
@@ -4906,10 +4906,10 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-11-10T08:57:38.659383Z"
       },
-      "stock_in_nouna_branch": "1",
+      "stock_in_nouna_branch": "4",
       "branches": {
         "Nouna": {
-          "stock": "1"
+          "stock": "4"
         },
         "Firas": {
           "stock": "1"
@@ -4921,8 +4921,8 @@
           "stock": "0"
         }
       },
-      "total_stock": "2",
-      "totalStock": "2",
+      "total_stock": "5",
+      "totalStock": "5",
       "stock_in_firas_branch": "1",
       "arabic_name": "",
       "name_ar": "",
@@ -7013,8 +7013,58 @@
       "sub": "CHRISTMAS",
       "stock_in_geitawi_branch": "0",
       "stock_in_medawar_branch": "0"
+    },
+    {
+      "id": "7000174",
+      "barcode": "70261126135749",
+      "barcode2": "",
+      "secondBarcode": "",
+      "barcodes": "",
+      "Product Description": "CHRISTMAS NUTS SAPIN",
+      "product_description": "CHRISTMAS NUTS SAPIN",
+      "description": "CHRISTMAS NUTS SAPIN",
+      "SUPPLIERS": "NOUNA'S FOOD",
+      "supplier": "NOUNA'S FOOD",
+      "unit": "",
+      "category": "NOUNA'S FOOD",
+      "sub_category": "CHRISTMAS",
+      "subcategory": "CHRISTMAS",
+      "price_lbp": "1,350,000",
+      "priceLbp": 1350000,
+      "price_usd": "15.00",
+      "cost": "12.75",
+      "cost_ht": "12.75",
+      "costHtUsd": 12.75,
+      "cost_ht_usd": 12.75,
+      "cost_currency": "USD",
+      "VAT": "NO",
+      "vat": "no",
+      "expiry_days": "365",
+      "expiryDays": 365,
+      "offers": "0",
+      "new_items": "x",
+      "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID7000174.jpg",
+      "linked_profile_enabled": true,
+      "linked_profile_repo_root": "Nounas_Food",
+      "linked_profile_item_id": "7000174",
+      "linked_profile_category": "NOUNA'S FOOD",
+      "linked_profile_sub_category": "CHRISTMAS",
+      "subCategory": "CHRISTMAS",
+      "sub": "CHRISTMAS",
+      "stock_in_geitawi_branch": "0",
+      "stock_in_medawar_branch": "0",
+      "branches": {
+        "Geitawi": {
+          "stock": "0"
+        },
+        "Medawar": {
+          "stock": "0"
+        }
+      },
+      "total_stock": "0",
+      "totalStock": "0"
     }
   ],
-  "updatedAt": "2026-11-26T11:29:30.240468Z",
+  "updatedAt": "2026-11-26T11:59:51.267451Z",
   "source": "sql-relay-web"
 }
