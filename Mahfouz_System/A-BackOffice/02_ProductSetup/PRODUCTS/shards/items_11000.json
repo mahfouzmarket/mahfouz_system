@@ -169,9 +169,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "20",
       "consumption_in_medawar_branch": "0",
-      "total_stock": "0",
+      "total_stock": "20",
       "total_consumption": "0",
       "VAT": "YES",
       "price_lbp": "250,000",
@@ -187,7 +187,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "20",
           "consumption": "0"
         }
       },
@@ -197,9 +197,9 @@
       "supplier": "WASSIM NACHAWATI",
       "subcategory": "PICNIC & OFFICE USE",
       "vat": "yes",
-      "totalStock": "0",
-      "cost_ttc": "2.3310",
-      "cost_ht": "2.1000",
+      "totalStock": "20",
+      "cost_ttc": 2.3310000000000004,
+      "cost_ht": 2.1,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1782362121927",
@@ -218,6 +218,7 @@
       "scale_code": "",
       "scaleCode": "",
       "cost_ttc_usd": 2.3310000000000004,
+      "supplier_cost_currency": "USD",
       "subCategory": "PICNIC & OFFICE USE",
       "sub": "PICNIC & OFFICE USE"
     },
@@ -949,6 +950,6 @@
       "sub": "shampoo & cond"
     }
   ],
-  "updatedAt": "2026-11-26T12:19:53.899815Z",
+  "updatedAt": "2026-11-26T12:55:26.613086Z",
   "source": "sql-relay-web"
 }
