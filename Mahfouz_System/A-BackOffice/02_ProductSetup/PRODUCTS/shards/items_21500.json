@@ -15653,7 +15653,7 @@
       "cost": "13.40",
       "branches": {
         "Geitawi": {
-          "stock": "1",
+          "stock": "2",
           "consumption": "12"
         },
         "Medawar": {
@@ -15661,8 +15661,8 @@
           "consumption": "5"
         }
       },
-      "stock_in_geitawi_branch": "1",
-      "total_stock": "1",
+      "stock_in_geitawi_branch": "2",
+      "total_stock": "2",
       "stock_in_medawar_branch": "0",
       "Product Description": "NAKHLA TOW APPLES 250 GR",
       "SUPPLIERS": "CIGARETTES",
@@ -15677,21 +15677,21 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "totalStock": "2",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
       "expiry_days": "0",
       "non_stockable": false,
       "nonStockable": false,
-      "cost_ht": "13.4000",
+      "cost_ht": 13.4,
       "priceLbp": 1000000.0,
       "priceUsd": 11.11111111111111,
       "scale_item_enabled": false,
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc": "13.4000",
+      "cost_ttc": 13.4,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782995817547",
@@ -22589,13 +22589,13 @@
       "SUPPLIERS": "CIGARETTES",
       "subcategory": "TANBAK",
       "vat": "no",
-      "stock_in_geitawi_branch": "0",
+      "stock_in_geitawi_branch": "2",
       "consumption_in_geitawi_branch": "2",
       "stock_in_medawar_branch": "1",
       "consumption_in_medawar_branch": "4",
       "branches": {
         "Geitawi": {
-          "stock": "0",
+          "stock": "2",
           "consumption": "2"
         },
         "Medawar": {
@@ -22603,7 +22603,7 @@
           "consumption": "4"
         }
       },
-      "total_stock": "1",
+      "total_stock": "3",
       "total_consumption": "6",
       "secondary_category": "",
       "secondary_subcategory": "",
@@ -22611,7 +22611,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "1",
+      "totalStock": "3",
       "priceLbp": 650000.0,
       "priceUsd": 7.222222222222222,
       "arabic_name": "",
@@ -22624,8 +22624,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ht": "7.0000",
-      "cost_ttc": "7.0000",
+      "cost_ht": 7.0,
+      "cost_ttc": 7.0,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782390939972",
@@ -23258,14 +23258,14 @@
       "linked_profile_sub_category": "",
       "cost": "0.11",
       "stock_in_geitawi_branch": "0",
-      "total_stock": "0",
+      "total_stock": "-2",
       "branches": {
         "Geitawi": {
           "stock": "0",
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "-2",
           "consumption": "0"
         }
       },
@@ -23274,7 +23274,7 @@
       "subcategory": "sweets",
       "vat": "yes",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "-2",
       "consumption_in_medawar_branch": "0",
       "total_consumption": "0",
       "secondary_category": "",
@@ -23283,7 +23283,7 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "totalStock": "0",
+      "totalStock": "-2",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -27965,6 +27965,6 @@
       "cost_vat_included": false
     }
   ],
-  "updatedAt": "2026-11-26T12:06:32.620322Z",
+  "updatedAt": "2026-11-26T12:29:07.469618Z",
   "source": "sql-relay-web"
 }
