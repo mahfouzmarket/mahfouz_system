@@ -7711,9 +7711,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "39",
-      "stock_in_medawar_branch": "7",
+      "stock_in_medawar_branch": "17",
       "consumption_in_medawar_branch": "36",
-      "total_stock": "7",
+      "total_stock": "17",
       "total_consumption": "75",
       "VAT": "NO",
       "price_lbp": "115,000",
@@ -7729,7 +7729,7 @@
           "consumption": "39"
         },
         "Medawar": {
-          "stock": "7",
+          "stock": "17",
           "consumption": "36"
         }
       },
@@ -7739,9 +7739,9 @@
       "vat": "no",
       "barcode2": "5287002749099",
       "barcodes": "",
-      "totalStock": "7",
-      "cost_ttc": "1.0000",
-      "cost_ht": "1.0000",
+      "totalStock": "17",
+      "cost_ttc": 1.0,
+      "cost_ht": 1.0,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782986996016",
@@ -7760,6 +7760,7 @@
       "scale_code": "",
       "scaleCode": "",
       "cost_ttc_usd": 1.0,
+      "supplier_cost_currency": "USD",
       "subCategory": "COLD MEZA",
       "sub": "COLD MEZA"
     },
@@ -7774,9 +7775,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "7",
       "consumption_in_geitawi_branch": "15",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "5",
       "consumption_in_medawar_branch": "11",
-      "total_stock": "7",
+      "total_stock": "12",
       "total_consumption": "26",
       "VAT": "NO",
       "price_lbp": "195,000",
@@ -7792,7 +7793,7 @@
           "consumption": "15"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "5",
           "consumption": "11"
         }
       },
@@ -7802,9 +7803,9 @@
       "vat": "no",
       "barcode2": "5287002749105",
       "barcodes": "",
-      "totalStock": "7",
-      "cost_ttc": "1.9500",
-      "cost_ht": "1.9500",
+      "totalStock": "12",
+      "cost_ttc": 1.95,
+      "cost_ht": 1.95,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1779962988682",
@@ -7838,9 +7839,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "6",
       "consumption_in_geitawi_branch": "29",
-      "stock_in_medawar_branch": "5",
+      "stock_in_medawar_branch": "10",
       "consumption_in_medawar_branch": "24",
-      "total_stock": "11",
+      "total_stock": "16",
       "total_consumption": "53",
       "VAT": "NO",
       "price_lbp": "200,000",
@@ -7856,7 +7857,7 @@
           "consumption": "29"
         },
         "Medawar": {
-          "stock": "5",
+          "stock": "10",
           "consumption": "24"
         }
       },
@@ -7866,9 +7867,9 @@
       "vat": "no",
       "barcode2": "5287002749112",
       "barcodes": "",
-      "totalStock": "11",
-      "cost_ttc": "1.8500",
-      "cost_ht": "1.8500",
+      "totalStock": "16",
+      "cost_ttc": 1.85,
+      "cost_ht": 1.85,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782986996016",
@@ -7887,6 +7888,7 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
+      "supplier_cost_currency": "USD",
       "subCategory": "COLD MEZA",
       "sub": "COLD MEZA"
     },
@@ -10663,9 +10665,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "10",
       "consumption_in_geitawi_branch": "24",
-      "stock_in_medawar_branch": "3",
+      "stock_in_medawar_branch": "13",
       "consumption_in_medawar_branch": "35",
-      "total_stock": "13",
+      "total_stock": "23",
       "total_consumption": "59",
       "VAT": "NO",
       "price_lbp": "160,000",
@@ -10681,7 +10683,7 @@
           "consumption": "24"
         },
         "Medawar": {
-          "stock": "3",
+          "stock": "13",
           "consumption": "35"
         }
       },
@@ -10691,9 +10693,9 @@
       "vat": "no",
       "barcode2": "5287002749082",
       "barcodes": "",
-      "totalStock": "13",
-      "cost_ttc": "1.5500",
-      "cost_ht": "1.5500",
+      "totalStock": "23",
+      "cost_ttc": 1.55,
+      "cost_ht": 1.55,
       "cost_currency": "USD",
       "cost_vat_included": false,
       "latest_purchase_cost_doc_id": "P1782986996016",
@@ -10712,6 +10714,7 @@
       "scale_code": "",
       "scaleCode": "",
       "cost_ttc_usd": 1.55,
+      "supplier_cost_currency": "USD",
       "subCategory": "COLD MEZA",
       "sub": "COLD MEZA"
     },
@@ -12707,6 +12710,6 @@
       "subCategory": "LAMP"
     }
   ],
-  "updatedAt": "2026-11-26T07:34:33.033567Z",
+  "updatedAt": "2026-11-26T07:54:33.656752Z",
   "source": "sql-relay-web"
 }
