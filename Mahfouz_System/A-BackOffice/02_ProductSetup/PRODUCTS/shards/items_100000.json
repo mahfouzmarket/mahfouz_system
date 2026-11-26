@@ -9849,8 +9849,8 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID100163.jpg",
       "new_items": "x",
-      "total_stock": "0",
-      "totalStock": "0",
+      "total_stock": "3",
+      "totalStock": "3",
       "is_bulk": true,
       "isBulk": true,
       "ignore_stock": true,
@@ -9866,7 +9866,17 @@
       "subCategory": "instant coffee",
       "sub": "instant coffee",
       "vat": "yes",
-      "branches": {}
+      "branches": {
+        "Geitawi": {
+          "stock": "3"
+        },
+        "Medawar": {
+          "stock": "0"
+        }
+      },
+      "stock_in_geitawi_branch": "3",
+      "stock_in_medawar_branch": "0",
+      "linked_bulk_stock_source": "parent:13136/40"
     }
   ],
   "updatedAt": "2026-11-26T22:00:34.468097Z",
