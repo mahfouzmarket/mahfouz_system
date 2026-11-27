@@ -2970,9 +2970,9 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "8",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "8",
+      "stock_in_medawar_branch": "32",
       "consumption_in_medawar_branch": "1",
-      "total_stock": "16",
+      "total_stock": "40",
       "total_consumption": "1",
       "VAT": "YES",
       "price_lbp": "100,000",
@@ -2994,7 +2994,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "8",
+          "stock": "32",
           "consumption": "1"
         }
       },
@@ -3004,7 +3004,7 @@
       "supplier": "MANY FOOD SARL",
       "subcategory": "sweets",
       "vat": "yes",
-      "totalStock": "16",
+      "totalStock": "40",
       "cost_ttc": 0.7862500000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
@@ -3013,6 +3013,8 @@
       "costHtUsd": 0.7083333333333334,
       "cost_ht_usd": 0.7083333333333334,
       "costTtcUsd": 0.7862500000000001,
+      "cost_ttc_usd": 0.7862500000000001,
+      "supplier_cost_currency": "USD",
       "subCategory": "sweets",
       "sub": "sweets"
     },
@@ -6090,8 +6092,8 @@
       "price_lbp": "90,000",
       "price_usd": "1.00",
       "cost": "0.83",
-      "cost_ttc": "0.8250",
-      "cost_ht": "0.8250",
+      "cost_ttc": 0.8250000000000001,
+      "cost_ht": 0.8250000000000001,
       "costTtcUsd": 0.8250000000000001,
       "costHtUsd": 0.8250000000000001,
       "cost_ht_usd": 0.8250000000000001,
@@ -6099,8 +6101,8 @@
       "cost_vat_included": false,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500120.jpg",
       "new_items": "x",
-      "total_stock": "2",
-      "totalStock": "2",
+      "total_stock": "14",
+      "totalStock": "14",
       "stock_in_geitawi_branch": "2",
       "branches": {
         "Geitawi": {
@@ -6108,18 +6110,19 @@
           "consumption": "7"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "12",
           "consumption": "3"
         }
       },
       "consumption_in_geitawi_branch": "7",
       "total_consumption": "10",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "12",
       "consumption_in_medawar_branch": "3",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500120.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500120.jpg",
       "image_updated_at_utc": "2026-09-10T14:36:19.012945Z",
       "cost_ttc_usd": 0.8250000000000001,
+      "supplier_cost_currency": "USD",
       "subcategory": "PASTA & INDOMI",
       "subCategory": "PASTA & INDOMI",
       "sub": "PASTA & INDOMI",
@@ -6427,8 +6430,8 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500125.jpg",
       "new_items": "x",
-      "total_stock": "36",
-      "totalStock": "36",
+      "total_stock": "60",
+      "totalStock": "60",
       "stock_in_geitawi_branch": "19",
       "branches": {
         "Geitawi": {
@@ -6436,17 +6439,18 @@
           "consumption": "18"
         },
         "Medawar": {
-          "stock": "17",
+          "stock": "41",
           "consumption": "18"
         }
       },
-      "stock_in_medawar_branch": "17",
+      "stock_in_medawar_branch": "41",
       "consumption_in_geitawi_branch": "18",
       "consumption_in_medawar_branch": "18",
       "total_consumption": "36",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500125.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500125.jpg",
       "image_updated_at_utc": "2026-09-10T09:41:43.721956Z",
+      "supplier_cost_currency": "USD",
       "subcategory": "COLD DRINKS",
       "subCategory": "COLD DRINKS",
       "sub": "COLD DRINKS",
@@ -6488,8 +6492,8 @@
       "cost_vat_included": true,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500126.jpg",
       "new_items": "x",
-      "total_stock": "9",
-      "totalStock": "9",
+      "total_stock": "33",
+      "totalStock": "33",
       "stock_in_geitawi_branch": "0",
       "branches": {
         "Geitawi": {
@@ -6497,17 +6501,18 @@
           "consumption": "13"
         },
         "Medawar": {
-          "stock": "9",
+          "stock": "33",
           "consumption": "29"
         }
       },
-      "stock_in_medawar_branch": "9",
+      "stock_in_medawar_branch": "33",
       "consumption_in_geitawi_branch": "13",
       "consumption_in_medawar_branch": "29",
       "total_consumption": "42",
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500126.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID500126.jpg",
       "image_updated_at_utc": "2026-09-04T11:43:07.171954Z",
+      "supplier_cost_currency": "USD",
       "subcategory": "COLD DRINKS",
       "subCategory": "COLD DRINKS",
       "sub": "COLD DRINKS",
@@ -7023,6 +7028,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-27T10:05:19.308088Z",
+  "updatedAt": "2026-11-27T10:27:32.655556Z",
   "source": "sql-relay-web"
 }
