@@ -383,9 +383,9 @@
       "offers": "0",
       "stock_in_geitawi_branch": "15",
       "consumption_in_geitawi_branch": "21",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "25",
       "consumption_in_medawar_branch": "7",
-      "total_stock": "16",
+      "total_stock": "40",
       "total_consumption": "28",
       "VAT": "YES",
       "price_lbp": "25,000",
@@ -401,7 +401,7 @@
           "consumption": "21"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "25",
           "consumption": "7"
         }
       },
@@ -411,16 +411,16 @@
       "vat": "yes",
       "barcode2": "",
       "barcodes": "",
-      "totalStock": "16",
-      "cost_ttc": "0.2220",
-      "cost_ht": "0.2000",
+      "totalStock": "40",
+      "cost_ttc": 0.2196875,
+      "cost_ht": 0.19791666666666666,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1783083886561",
       "latest_purchase_cost_date": "2026-07-03",
-      "costHtUsd": 0.2,
-      "cost_ht_usd": 0.2,
-      "costTtcUsd": 0.22200000000000003,
+      "costHtUsd": 0.19791666666666666,
+      "cost_ht_usd": 0.19791666666666666,
+      "costTtcUsd": 0.2196875,
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -431,7 +431,8 @@
       "scaleItemEnabled": false,
       "scale_code": "",
       "scaleCode": "",
-      "cost_ttc_usd": 0.22200000000000003,
+      "cost_ttc_usd": 0.2196875,
+      "supplier_cost_currency": "USD",
       "subCategory": "Biscuits",
       "sub": "Biscuits"
     },
@@ -2078,6 +2079,6 @@
       "sub": "sweets"
     }
   ],
-  "updatedAt": "2026-11-27T10:05:52.209675Z",
+  "updatedAt": "2026-11-27T10:27:32.655556Z",
   "source": "sql-relay-web"
 }
