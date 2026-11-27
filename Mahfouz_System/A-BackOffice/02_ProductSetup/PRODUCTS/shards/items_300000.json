@@ -4568,15 +4568,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "1",
       "consumption_in_geitawi_branch": "1",
-      "stock_in_medawar_branch": "0",
+      "stock_in_medawar_branch": "36",
       "consumption_in_medawar_branch": "4",
-      "total_stock": "1",
+      "total_stock": "37",
       "total_consumption": "5",
       "VAT": "YES",
       "price_lbp": "120,000",
       "price_usd": "1.33",
       "cost": "0.80",
-      "cost_ht": "0.8000",
+      "cost_ht": 0.8,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300078.jpg",
       "new_items": "x",
       "manual": "",
@@ -4592,7 +4592,7 @@
           "consumption": "1"
         },
         "Medawar": {
-          "stock": "0",
+          "stock": "36",
           "consumption": "4"
         }
       },
@@ -4602,8 +4602,8 @@
       "supplier": "waybe group",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "1",
-      "cost_ttc": "0.8880",
+      "totalStock": "37",
+      "cost_ttc": 0.8880000000000001,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779259636459",
@@ -4625,6 +4625,8 @@
       "imageUrl": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300078.jpg",
       "IMAGE": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300078.jpg",
       "image_updated_at_utc": "2026-07-20T10:43:48.741825Z",
+      "cost_ttc_usd": 0.8880000000000001,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLEANING",
       "sub": "CLEANING"
     },
@@ -4642,15 +4644,15 @@
       "expiry_days": "0",
       "stock_in_geitawi_branch": "0",
       "consumption_in_geitawi_branch": "0",
-      "stock_in_medawar_branch": "1",
+      "stock_in_medawar_branch": "7",
       "consumption_in_medawar_branch": "6",
-      "total_stock": "1",
+      "total_stock": "7",
       "total_consumption": "6",
       "VAT": "YES",
       "price_lbp": "380,000",
       "price_usd": "4.22",
       "cost": "2.90",
-      "cost_ht": "2.9000",
+      "cost_ht": 2.9,
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID300079.jpg",
       "new_items": "x",
       "manual": "",
@@ -4666,7 +4668,7 @@
           "consumption": "0"
         },
         "Medawar": {
-          "stock": "1",
+          "stock": "7",
           "consumption": "6"
         }
       },
@@ -4676,8 +4678,8 @@
       "supplier": "waybe group",
       "subcategory": "CLEANING",
       "vat": "yes",
-      "totalStock": "1",
-      "cost_ttc": "3.2190",
+      "totalStock": "7",
+      "cost_ttc": 3.2190000000000003,
       "cost_currency": "USD",
       "cost_vat_included": true,
       "latest_purchase_cost_doc_id": "P1779259636459",
@@ -4695,6 +4697,7 @@
       "scale_code": "",
       "scaleCode": "",
       "cost_ttc_usd": 3.2190000000000003,
+      "supplier_cost_currency": "USD",
       "subCategory": "CLEANING",
       "sub": "CLEANING"
     },
@@ -31667,6 +31670,6 @@
       "vat": "yes"
     }
   ],
-  "updatedAt": "2026-11-27T10:10:19.199812Z",
+  "updatedAt": "2026-11-27T10:17:40.454088Z",
   "source": "sql-relay-web"
 }
