@@ -20313,7 +20313,7 @@
       "description": "POP CORN JUMPO KERNELS 1 KG",
       "brand": "",
       "supplier": "",
-      "SUPPLIERS": "MANY FOOD SARL USD",
+      "SUPPLIERS": "MANY FOOD SARL",
       "category": "FOOD",
       "sub_category": "POPCORN",
       "subcategory": "POPCORN",
@@ -20322,11 +20322,11 @@
       "VAT": "NO",
       "vat": "no",
       "price_lbp": "320,000",
-      "cost": "2.96",
-      "total_stock": "0",
+      "cost": "2.72",
+      "total_stock": "12",
       "total_consumption": "0.0",
       "stock_in_geitawi_branch": "0.0",
-      "stock_in_medawar_branch": "0.0",
+      "stock_in_medawar_branch": "12",
       "branches": {
         "geitawi": {
           "stock": "0.0",
@@ -20341,7 +20341,7 @@
           "consumption": "0.0"
         },
         "Medawar": {
-          "stock": "0.0",
+          "stock": "12",
           "consumption": "0.0"
         },
         "Geitawi": {
@@ -20373,9 +20373,9 @@
       "new_items": "",
       "manual": "",
       "delivery_rules": "0.005",
-      "cost_ht": "2.9600",
+      "cost_ht": 2.7225,
       "costUsd": 2.96,
-      "cost_ht_usd": 2.96,
+      "cost_ht_usd": 2.7225,
       "cost_formula": "sale_price_usd_div_1.2",
       "cost_formula_applied_at_utc": "2026-05-13T07:29:23.147369Z",
       "imageURL": "https://raw.githubusercontent.com/mahfouzmarket/PRODUCTS/main/images/ID21325.jpg",
@@ -20391,13 +20391,14 @@
       "scale_code": "",
       "scaleCode": "",
       "price_usd": "3.56",
-      "totalStock": "0",
-      "cost_ttc": "2.9600",
-      "costTtcUsd": 2.96,
-      "costHtUsd": 2.96,
-      "cost_ttc_usd": 2.96,
+      "totalStock": "12",
+      "cost_ttc": 2.7225,
+      "costTtcUsd": 2.7225,
+      "costHtUsd": 2.7225,
+      "cost_ttc_usd": 2.7225,
       "cost_currency": "USD",
-      "cost_vat_included": false
+      "cost_vat_included": false,
+      "supplier_cost_currency": "USD"
     },
     {
       "id": "21326",
@@ -31170,6 +31171,6 @@
       "subCategory": "cake"
     }
   ],
-  "updatedAt": "2026-11-27T10:10:19.199812Z",
+  "updatedAt": "2026-11-27T10:27:32.655556Z",
   "source": "sql-relay-web"
 }
