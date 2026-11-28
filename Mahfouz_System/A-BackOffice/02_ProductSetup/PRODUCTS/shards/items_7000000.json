@@ -1813,11 +1813,11 @@
           "consumption": "1"
         },
         "Nouna": {
-          "stock": "15",
+          "stock": "9",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
@@ -1832,7 +1832,7 @@
       "VAT": "NO",
       "expiry_days": "60",
       "expiryDays": 60,
-      "stock_in_nouna_branch": "15",
+      "stock_in_nouna_branch": "9",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -1849,7 +1849,7 @@
       "cost_currency": "USD",
       "cost_vat_included": false,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0",
+      "stock_in_firas_branch": "6",
       "toters": {
         "enabled": true,
         "priceMultiplier": 1.0,
@@ -1906,16 +1906,16 @@
           "consumption": "2"
         },
         "Nouna": {
-          "stock": "15",
+          "stock": "9",
           "consumption": "0"
         },
         "Firas": {
-          "stock": "0",
+          "stock": "6",
           "consumption": "0"
         }
       },
       "totalStock": "21",
-      "stock_in_nouna_branch": "15",
+      "stock_in_nouna_branch": "9",
       "barcode2": "",
       "secondBarcode": "",
       "description": "LOTUS SABLE 1 PC",
@@ -1927,7 +1927,7 @@
       "expiry_days": "60",
       "expiryDays": 60,
       "consumption_in_nouna_branch": "0",
-      "stock_in_firas_branch": "0",
+      "stock_in_firas_branch": "6",
       "costHtUsd": 2.125,
       "cost_ht_usd": 2.125,
       "cost_currency": "USD",
@@ -4840,13 +4840,13 @@
         "sourceTemplateName": "",
         "updatedAtUtc": "2026-11-13T10:55:19.706365Z"
       },
-      "stock_in_nouna_branch": "5",
+      "stock_in_nouna_branch": "2",
       "branches": {
         "Nouna": {
-          "stock": "5"
+          "stock": "2"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "3"
         },
         "Geitawi": {
           "stock": "0"
@@ -4857,7 +4857,7 @@
       },
       "total_stock": "5",
       "totalStock": "5",
-      "stock_in_firas_branch": "0",
+      "stock_in_firas_branch": "3",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
       "stock_in_geitawi_branch": "0",
@@ -4982,13 +4982,16 @@
       "linked_profile_item_id": "7000141",
       "linked_profile_category": "CHRISTMAS",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "18",
+      "stock_in_nouna_branch": "14",
       "branches": {
         "Nouna": {
-          "stock": "18"
+          "stock": "14"
         },
         "Geitawi": {
           "stock": "2"
+        },
+        "Firas": {
+          "stock": "4"
         },
         "Medawar": {
           "stock": "0"
@@ -5023,6 +5026,7 @@
       "costTtcUsd": 1.8888888888888888,
       "cost_ttc_usd": 1.8888888888888888,
       "cost_vat_included": false,
+      "stock_in_firas_branch": "4",
       "subCategory": "CHRISTMAS",
       "sub": "CHRISTMAS",
       "stock_in_medawar_branch": "0"
@@ -5062,16 +5066,16 @@
       "linked_profile_item_id": "7000142",
       "linked_profile_category": "CHRISTMAS",
       "linked_profile_sub_category": "nouna's food Christmas",
-      "stock_in_nouna_branch": "15",
+      "stock_in_nouna_branch": "11",
       "branches": {
         "Nouna": {
-          "stock": "15"
+          "stock": "11"
         },
         "Geitawi": {
           "stock": "2"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "4"
         },
         "Medawar": {
           "stock": "0"
@@ -5092,7 +5096,7 @@
         "updatedAtUtc": "2026-11-18T14:26:15.528148Z"
       },
       "stock_in_geitawi_branch": "2",
-      "stock_in_firas_branch": "0",
+      "stock_in_firas_branch": "4",
       "arabic_name": "",
       "name_ar": "",
       "description_ar": "",
@@ -6188,13 +6192,13 @@
       "linked_profile_item_id": "7000160",
       "linked_profile_category": "NOUNA'S FOOD",
       "linked_profile_sub_category": "CHRISTMAS",
-      "stock_in_nouna_branch": "30",
+      "stock_in_nouna_branch": "24",
       "branches": {
         "Nouna": {
-          "stock": "30"
+          "stock": "24"
         },
         "Firas": {
-          "stock": "0"
+          "stock": "6"
         },
         "Geitawi": {
           "stock": "4"
@@ -6205,7 +6209,7 @@
       },
       "total_stock": "40",
       "totalStock": "40",
-      "stock_in_firas_branch": "0",
+      "stock_in_firas_branch": "6",
       "toters": {
         "enabled": true,
         "priceMultiplier": 1.00028571,
@@ -7342,6 +7346,6 @@
       "stock_in_medawar_branch": "0"
     }
   ],
-  "updatedAt": "2026-11-28T08:50:18.944813Z",
+  "updatedAt": "2026-11-28T12:30:41.634393Z",
   "source": "sql-relay-web"
 }
